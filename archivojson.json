@@ -1,0 +1,2474 @@
+{
+    "meta": {
+        "href": "https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0"
+    },
+    "items": [
+        {
+            "meta": {
+                "href": "https://iate.europa.eu/em-api/entries/82792044CD6DAE7CE053C3E4A79E4140"
+            },
+            "code": "82792044CD6DAE7CE053C3E4A79E4140",
+            "id": 1482442,
+            "score": 1445975810.0,
+            "result_group": 2,
+            "domains": [
+                {
+                    "code": "1C9C154AD10E4515B60A5AEEB1A04B7C"
+                }
+            ],
+            "anchor_language": "undef",
+            "metadata": {
+                "creation": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2002-01-08T15:26:14.001Z"
+                },
+                "modification": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2002-01-08T15:26:14.001Z"
+                },
+                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                "institution_name": "COM",
+                "owned_by_creator": true,
+                "confidentiality": 0,
+                "primarity": 0,
+                "locking": {
+                    "lock": {
+                        "meta": {
+                            "href": "https://iate.europa.eu/em-api/entries/82792044CD6DAE7CE053C3E4A79E4140/_lock"
+                        }
+                    }
+                }
+            },
+            "language": {
+                "es": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/82792044CD6DAE7CE053C3E4A79E4140/language-entries/es"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792044CD6DAE7CE053C3E4A79E4140/language-entries/es/term-entries/D9FD96CA3F9D477D90DAC759C25DD4BF"
+                            },
+                            "code": "D9FD96CA3F9D477D90DAC759C25DD4BF",
+                            "id": 4255844,
+                            "type": 4,
+                            "term_value": "flete a término",
+                            "highlighted_term_value": "flete a <mark>término</mark>",
+                            "term_references": [
+                                {
+                                    "code": "F47E56FBBEF347A4B23E9757E99C578A",
+                                    "text": "OMI Glosario de Términos Técnicos, Londres 1987",
+                                    "tooltip_text": "OMI Glosario de Términos Técnicos, Londres 19...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T15:45:15.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T15:45:15.001Z"
+                                },
+                                "reliability": 2,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-OMI82-4572",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 2
+                },
+                "en": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/82792044CD6DAE7CE053C3E4A79E4140/language-entries/en"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792044CD6DAE7CE053C3E4A79E4140/language-entries/en/term-entries/C7E213B41FC9419AB99FA187C2348D96"
+                            },
+                            "code": "C7E213B41FC9419AB99FA187C2348D96",
+                            "id": 4255843,
+                            "type": 4,
+                            "term_value": "forward charter",
+                            "term_references": [
+                                {
+                                    "code": "30419D9262E1424894B40390B6193916",
+                                    "text": "IMO,Gloss Termes techniques,London 1982",
+                                    "tooltip_text": "IMO,Gloss Termes techniques,London 1982",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T15:45:15.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T15:45:15.001Z"
+                                },
+                                "reliability": 2,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-OMI82-4572",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 2
+                }
+            },
+            "completion_score": 0,
+            "completion_aggregated_score": 0
+        },
+        {
+            "meta": {
+                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140"
+            },
+            "code": "8279204AFC9EAE7CE053C3E4A79E4140",
+            "id": 793054,
+            "score": 1358257660.0,
+            "result_group": 2,
+            "domains": [
+                {
+                    "code": "0B52BF975B664CD5997CE4DB99EA67D1"
+                },
+                {
+                    "code": "D6C94594016B4658A46965FB99C8AD75",
+                    "note": "WTO"
+                },
+                {
+                    "code": "AD038EF4594643B3B8202C254A1A6521"
+                },
+                {
+                    "code": "72A1660732C8425586108E39A2C583C4"
+                },
+                {
+                    "code": "B5449DB6D64A44EE95E11CF3CB290A4F"
+                },
+                {
+                    "code": "E60E2A656AFE4A42AF39186973A7C147"
+                },
+                {
+                    "code": "5049EEAD3F854B3ABB9E7D9405271209"
+                },
+                {
+                    "code": "96EB34AF4EDB429BB9F7E369D524DDB7"
+                }
+            ],
+            "anchor_language": "fr",
+            "metadata": {
+                "creation": {
+                    "division_code": "A1705AAAA3234BA0ADFB4010B8FFB3C6",
+                    "division_name": "DA",
+                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                    "institution_name": "Council",
+                    "timestamp": "1989-10-09T23:00:00.001Z"
+                },
+                "modification": {
+                    "division_code": "CF6EB78F664F45EDAB6FABCE78FF075F",
+                    "division_name": "HU",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2019-10-22T22:52:58.774Z"
+                },
+                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                "institution_name": "Council",
+                "owned_by_creator": false,
+                "confidentiality": 0,
+                "primarity": 0,
+                "locking": {
+                    "lock": {
+                        "meta": {
+                            "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/_lock"
+                        }
+                    }
+                }
+            },
+            "language": {
+                "es": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/es"
+                    },
+                    "definition": "Mercado en el que se contratan operaciones en las que se compran o se venden a precios de hoy divisas, materias primas u otros bienes, con entrega futura.",
+                    "tooltip_definition": "Mercado en el que se contratan operaciones en...",
+                    "definition_references": [
+                        {
+                            "code": "E2CE8ABA1E1F4AC0B4493399BD2DA1EA",
+                            "text": "---",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "creation": {
+                            "division_code": "11DCC2F32F154C15968D91650305D6AB",
+                            "division_name": "ES",
+                            "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                            "institution_name": "Council",
+                            "timestamp": "1989-10-09T23:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:46.001Z"
+                        },
+                        "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                        "institution_name": "Council",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:46.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/es/term-entries/ADCD5B5002FC4E89951EE68E15F976BF"
+                            },
+                            "code": "ADCD5B5002FC4E89951EE68E15F976BF",
+                            "id": 1606294,
+                            "type": 4,
+                            "term_value": "mercado a plazo",
+                            "term_references": [
+                                {
+                                    "code": "0774B2CDA0E34ACBBA35DEEDAE836503",
+                                    "text": "Diccionario Enciclocpédico Profesional de Finanzas y Banca, ISTPB, 1992; 385L0635, art. 39.1, DO L 372/86, p. 13.",
+                                    "tooltip_text": "Diccionario Enciclocpédico Profesional de Fin...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "11DCC2F32F154C15968D91650305D6AB",
+                                    "division_name": "ES",
+                                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                    "institution_name": "Council",
+                                    "timestamp": "1989-10-09T23:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                "institution_name": "Council",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "TIS",
+                            "legacy_id": "A091563",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/es/term-entries/4DA19041CBE84CE1B242C163E93F9C83"
+                            },
+                            "code": "4DA19041CBE84CE1B242C163E93F9C83",
+                            "id": 1606295,
+                            "type": 4,
+                            "term_value": "mercado a término",
+                            "highlighted_term_value": "mercado a <mark>término</mark>",
+                            "term_references": [
+                                {
+                                    "code": "7B3EA98B6F8C49BDB1DF36A2BE8B5D92",
+                                    "text": "Diccionario Enciclocpédico Profesional de Finanzas y Banca, ISTPB, 1992; 385L0635, art. 39.1, DO L 372/86, p. 13.",
+                                    "tooltip_text": "Diccionario Enciclocpédico Profesional de Fin...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "11DCC2F32F154C15968D91650305D6AB",
+                                    "division_name": "ES",
+                                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                    "institution_name": "Council",
+                                    "timestamp": "1989-10-09T23:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                "institution_name": "Council",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "TIS",
+                            "legacy_id": "A091563",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 1,
+                    "completion_aggregated_score": 3
+                },
+                "de": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/de"
+                    },
+                    "definition": "Markt für Termingeschäfte. Handelsgegenstand sind Verträge über zukünftig zu erfüllende Geschäfte (derivate Instrumente bzw. Derivate). Der Preis für ein Handelsgeschäft wird bereits bei Vertragsabschluss festgelegt. Terminmärkte gehören zu den Zukunftsmärkten, welche die Spot-bzw. Kassamärkte ergänzen.",
+                    "tooltip_definition": "Markt für Termingeschäfte. Handelsgegenstand...",
+                    "definition_references": [
+                        {
+                            "code": "3BB503E1CA014EF49ACF0B65619E2F3D",
+                            "text": "&lt; <a href=\"http://de.wikipedia.org\" target=\"_blank\">http://de.wikipedia.org</a> &gt; (3.6.2004)",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "note": {
+                        "value": "SYN/ANT: Gegensatz: Kassamarkt, Spotmarkt (A091561);DIV: CBA 03/06/2004",
+                        "tooltip_value": "SYN/ANT: Gegensatz: Kassamarkt, Spotmarkt (A0...",
+                        "metadata": {
+                            "confidentiality": 0
+                        }
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B24EA3A0EBBB4D1FABD390121E06702C",
+                            "division_name": "DE",
+                            "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                            "institution_name": "Council",
+                            "timestamp": "1989-10-09T23:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:45.001Z"
+                        },
+                        "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                        "institution_name": "Council",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                            "institution_name": "Council",
+                            "timestamp": "2012-07-18T08:21:38.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/de/term-entries/DE64D7D182C24389B8482BF39E244780"
+                            },
+                            "code": "DE64D7D182C24389B8482BF39E244780",
+                            "id": 1606299,
+                            "type": 4,
+                            "term_value": "Terminmarkt",
+                            "term_references": [
+                                {
+                                    "code": "F2FC20A387D44BE4BCD082CC37A7FAFD",
+                                    "text": "---",
+                                    "tooltip_text": "---",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B24EA3A0EBBB4D1FABD390121E06702C",
+                                    "division_name": "DE",
+                                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                    "institution_name": "Council",
+                                    "timestamp": "1989-10-09T23:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                "institution_name": "Council",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "TIS",
+                            "legacy_id": "A091563",
+                            "completion_score": 1
+                        }
+                    ],
+                    "completion_score": 3,
+                    "completion_aggregated_score": 4
+                },
+                "en": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/en"
+                    },
+                    "definition": "A market dealing in futures and options on shares, bonds, foreign currencies and commodities. A future takes the form of a binding contract for the purchase and sale of commodities and financial instruments at a fixed price and a fixed future date.",
+                    "tooltip_definition": "A market dealing in futures and options on sh...",
+                    "definition_references": [
+                        {
+                            "code": "A4461410E0E745CDB3B38E9E61C437DD",
+                            "text": "---",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "note": {
+                        "value": "MISC: Sur la bourse des valeurs en France, le marché s'appelle \"Règlement mensuel\" (RM).",
+                        "tooltip_value": "MISC: Sur la bourse des valeurs en France, le...",
+                        "metadata": {
+                            "confidentiality": 0
+                        }
+                    },
+                    "metadata": {
+                        "creation": {
+                            "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                            "institution_name": "Council",
+                            "timestamp": "1989-10-09T23:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:45.001Z"
+                        },
+                        "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                        "institution_name": "Council",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:45.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/en/term-entries/8DFADB303D934451B7765ABF7150C2B7"
+                            },
+                            "code": "8DFADB303D934451B7765ABF7150C2B7",
+                            "id": 1606292,
+                            "type": 4,
+                            "term_value": "futures exchange",
+                            "term_references": [
+                                {
+                                    "code": "840B0C4EB1124CCEB8636FAB179A968D",
+                                    "text": "The Economist International Dictionary of Finance.",
+                                    "tooltip_text": "The Economist International Dictionary of Fin...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                    "institution_name": "Council",
+                                    "timestamp": "1989-10-09T23:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                "institution_name": "Council",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "TIS",
+                            "legacy_id": "A091563",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/en/term-entries/58503B87C30E4F70B16D52A49FF28282"
+                            },
+                            "code": "58503B87C30E4F70B16D52A49FF28282",
+                            "id": 1606293,
+                            "type": 4,
+                            "term_value": "futures market",
+                            "term_references": [
+                                {
+                                    "code": "AD6158FA96E64AC6944E0B75AB8FFA8F",
+                                    "text": "The Economist International Dictionary of Finance.",
+                                    "tooltip_text": "The Economist International Dictionary of Fin...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                    "institution_name": "Council",
+                                    "timestamp": "1989-10-09T23:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                "institution_name": "Council",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "TIS",
+                            "legacy_id": "A091563",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 2,
+                    "completion_aggregated_score": 4
+                },
+                "nl": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/nl"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "F10E472ADBFE4A14B2A24C2DCE283F7D",
+                            "division_name": "DE",
+                            "institution_code": "0B823276DD9A4C9B81EB52E37802F73E",
+                            "institution_name": "CJUE",
+                            "timestamp": "1989-10-09T23:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:46.001Z"
+                        },
+                        "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                        "institution_name": "Council",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "D0C850C9D33E4A72A193E98A7F215B20",
+                            "division_name": "Other",
+                            "institution_code": "9D7328A12B804A6BB7749398A5E67638",
+                            "institution_name": "IATE TMN",
+                            "timestamp": "2018-08-05T16:39:46.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279204AFC9EAE7CE053C3E4A79E4140/language-entries/nl/term-entries/B95C074FAA2548D093AE870F2E112B18"
+                            },
+                            "code": "B95C074FAA2548D093AE870F2E112B18",
+                            "id": 1606305,
+                            "type": 4,
+                            "term_value": "termijnmarkt",
+                            "term_references": [
+                                {
+                                    "code": "4AC95171D9FB47E28FB9487E061642C9",
+                                    "text": "---",
+                                    "tooltip_text": "---",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "F10E472ADBFE4A14B2A24C2DCE283F7D",
+                                    "division_name": "DE",
+                                    "institution_code": "0B823276DD9A4C9B81EB52E37802F73E",
+                                    "institution_name": "CJUE",
+                                    "timestamp": "1989-10-09T23:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                "institution_name": "Council",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-21T08:47:19.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "TIS",
+                            "legacy_id": "A091563",
+                            "completion_score": 1
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 1
+                }
+            },
+            "completion_score": 0,
+            "completion_aggregated_score": 0
+        },
+        {
+            "meta": {
+                "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140"
+            },
+            "code": "827920474732AE7CE053C3E4A79E4140",
+            "id": 1253495,
+            "score": 1358257660.0,
+            "result_group": 2,
+            "domains": [
+                {
+                    "code": "72A1660732C8425586108E39A2C583C4"
+                },
+                {
+                    "code": "1C9C154AD10E4515B60A5AEEB1A04B7C",
+                    "note": "propiedad agraria"
+                }
+            ],
+            "anchor_language": "undef",
+            "metadata": {
+                "creation": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2001-08-08T22:00:00.001Z"
+                },
+                "modification": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2002-01-16T08:43:36.001Z"
+                },
+                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                "institution_name": "COM",
+                "owned_by_creator": true,
+                "confidentiality": 0,
+                "primarity": 0,
+                "locking": {
+                    "lock": {
+                        "meta": {
+                            "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/_lock"
+                        }
+                    }
+                }
+            },
+            "language": {
+                "es": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/es"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/es/term-entries/773FE59403EA4A878E4D501C35572E7C"
+                            },
+                            "code": "773FE59403EA4A878E4D501C35572E7C",
+                            "id": 5926873,
+                            "type": 4,
+                            "term_value": "término municipal",
+                            "highlighted_term_value": "<mark>término</mark> municipal",
+                            "term_references": [
+                                {
+                                    "code": "7DC47BF1AC044C069A9E7AC6FC5CBBB2",
+                                    "text": "Haensch/Haberkamp, Diccionario de Agricultura",
+                                    "tooltip_text": "Haensch/Haberkamp, Diccionario de Agricultura",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-WLW75-1334",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 2
+                },
+                "de": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/de"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2001-08-10T07:29:45.001Z"
+                        },
+                        "modification": {
+                            "division_code": "AD12B908C455402185FF61BB9028B22D",
+                            "division_name": "Central Terminology",
+                            "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                            "institution_name": "CdT",
+                            "timestamp": "2001-08-10T07:29:45.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "AD12B908C455402185FF61BB9028B22D",
+                            "division_name": "Central Terminology",
+                            "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                            "institution_name": "CdT",
+                            "timestamp": "2001-08-10T07:29:45.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/de/term-entries/AAD5E08C8AFA4F67B3AA79DD5CC0C69F"
+                            },
+                            "code": "AAD5E08C8AFA4F67B3AA79DD5CC0C69F",
+                            "id": 5926872,
+                            "type": 4,
+                            "term_value": "Gemeindeareal",
+                            "term_references": [
+                                {
+                                    "code": "14331B4FEBCE4C1BA61F599B03C021BF",
+                                    "text": "Haensch/Haberkamp, Wb. Landwirtschaft",
+                                    "tooltip_text": "Haensch/Haberkamp, Wb. Landwirtschaft",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "note": {
+                                "value": "Landbesitz",
+                                "tooltip_value": "Landbesitz",
+                                "metadata": {
+                                    "confidentiality": 0
+                                }
+                            },
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-WLW75-1334",
+                            "completion_score": 3
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 3
+                },
+                "en": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/en"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/en/term-entries/7B2926BD29EC468E8ECBD4CF9466A0B4"
+                            },
+                            "code": "7B2926BD29EC468E8ECBD4CF9466A0B4",
+                            "id": 5926868,
+                            "type": 4,
+                            "term_value": "communal area",
+                            "term_references": [
+                                {
+                                    "code": "DC0C587DD2AD45299AFBE10A265B1865",
+                                    "text": "Haensch/Haberkamp, Dict. Agriculture",
+                                    "tooltip_text": "Haensch/Haberkamp, Dict. Agriculture",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "note": {
+                                "value": "Land tenure",
+                                "tooltip_value": "Land tenure",
+                                "metadata": {
+                                    "confidentiality": 0
+                                }
+                            },
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-WLW75-1334",
+                            "completion_score": 3
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/827920474732AE7CE053C3E4A79E4140/language-entries/en/term-entries/003CF1CD062A4DDBA9EEE23F34DF7308"
+                            },
+                            "code": "003CF1CD062A4DDBA9EEE23F34DF7308",
+                            "id": 5926869,
+                            "type": 4,
+                            "term_value": "village area",
+                            "term_references": [
+                                {
+                                    "code": "401CA2C7F2294C078F7F6537358EC344",
+                                    "text": "Haensch/Haberkamp, Dict. Agriculture",
+                                    "tooltip_text": "Haensch/Haberkamp, Dict. Agriculture",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "note": {
+                                "value": "Land tenure",
+                                "tooltip_value": "Land tenure",
+                                "metadata": {
+                                    "confidentiality": 0
+                                }
+                            },
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T08:19:45.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-WLW75-1334",
+                            "completion_score": 3
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 3
+                }
+            },
+            "completion_score": 0,
+            "completion_aggregated_score": 0
+        },
+        {
+            "meta": {
+                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140"
+            },
+            "code": "8279203F2ED4AE7CE053C3E4A79E4140",
+            "id": 1071817,
+            "score": 1284783100.0,
+            "result_group": 2,
+            "domains": [
+                {
+                    "code": "0B52BF975B664CD5997CE4DB99EA67D1"
+                },
+                {
+                    "code": "78481530C8D346EFBC4CE34FBD730476"
+                },
+                {
+                    "code": "7593C35C03034FBA9737E2A7EEADDD6A"
+                }
+            ],
+            "anchor_language": "en",
+            "crossrefs": [
+                {
+                    "code": "8279203F5799AE7CE053C3E4A79E4140",
+                    "type": 14
+                },
+                {
+                    "code": "8279203F58EFAE7CE053C3E4A79E4140",
+                    "type": 0
+                }
+            ],
+            "metadata": {
+                "creation": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2001-08-09T22:00:00.001Z"
+                },
+                "modification": {
+                    "division_code": "2493766D65D647209BD4484895CC7E27",
+                    "division_name": "DA",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2019-04-04T14:47:08.190Z"
+                },
+                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                "institution_name": "COM",
+                "owned_by_creator": true,
+                "confidentiality": 0,
+                "primarity": 1,
+                "locking": {
+                    "lock": {
+                        "meta": {
+                            "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/_lock"
+                        }
+                    }
+                }
+            },
+            "language": {
+                "es": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/es"
+                    },
+                    "definition": "Operación realizada sobre mercancías, divisas o activos financieros caracterizada porque la entrega del bien y el pago del precio se posponen hasta una fecha determinada, en contraposición a las operaciones al contado.",
+                    "tooltip_definition": "Operación realizada sobre mercancías, divisas...",
+                    "definition_references": [
+                        {
+                            "code": "CC1F194B00C7442198198954DAB83516",
+                            "text": "La gran Enciclopedia de Economía, <a href=\"http://www.economia48.com/spa/d/operacion-a-plazo/operacion-a-plazo.htm\" target=\"_blank\">http://www.economia48.com/spa/d/operacion-a-plazo/operacion-a-plazo.htm</a> [5.10.2015]",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "note": {
+                        "value": "En algunos casos, la liquidación de la operación puede realizarse mediante la compensación pago/cobro de la diferencia entre el precio de la operación a plazo y el de contado (liquidación por diferencias).",
+                        "tooltip_value": "En algunos casos, la liquidación de la operac...",
+                        "metadata": {
+                            "confidentiality": 0
+                        }
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "9B4626F116674613B01F16354A26E049",
+                            "division_name": "ES",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2015-10-05T15:20:22.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2015-10-05T15:20:30.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/es/term-entries/C503AD232B9347FD9AFE29FFB8FADF5E"
+                            },
+                            "code": "C503AD232B9347FD9AFE29FFB8FADF5E",
+                            "id": 2506906,
+                            "type": 4,
+                            "term_value": "operación en firme",
+                            "term_references": [
+                                {
+                                    "code": "A2DFDA98B31148C49BFE104A6D43BE89",
+                                    "text": "International Business Dict, Kluwer-Deventer, 1974",
+                                    "tooltip_text": "International Business Dict, Kluwer-Deventer,...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T00:36:51.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T00:36:51.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/es/term-entries/0C2EBED062A64488A493DFB2853EC53C"
+                            },
+                            "code": "0C2EBED062A64488A493DFB2853EC53C",
+                            "id": 2506907,
+                            "type": 4,
+                            "term_value": "operación a fecha fija",
+                            "term_references": [
+                                {
+                                    "code": "6EDA9EC815834CCC918238220B2061A2",
+                                    "text": "International Business Dict, Kluwer-Deventer, 1974",
+                                    "tooltip_text": "International Business Dict, Kluwer-Deventer,...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T00:36:51.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T00:36:51.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/es/term-entries/84EA86477B274A1BB89975F6A6DD4F88"
+                            },
+                            "code": "84EA86477B274A1BB89975F6A6DD4F88",
+                            "id": 2506908,
+                            "type": 4,
+                            "term_value": "operación a plazo",
+                            "term_references": [
+                                {
+                                    "code": "7AF45DA454C946369ADC91296AD5D654",
+                                    "text": "Banco de España, Central de Anotaciones 2000, Glosario &lt;<a href=\"http://www.bde.es/informes/be/anota/2000/anota00.pdf>;\" target=\"_blank\">www.bde.es/informes/be/anota/2000/anota00.pdf&gt;;</a> Mochón, Isidro, Diccionario de términos financieros y de inversiones, 1998.",
+                                    "tooltip_text": "Banco de España, Central de Anotaciones 2000,...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "note": {
+                                "value": "De manera más específica, en el mercado bursátil, se trata de una operación en la que el cambio del valor o título por metálico se realiza en el plazo establecido por los contratantes de mutuo acuerdo. En el caso del mercado español de deuda pública, operación simple [operación constituida por una sola compraventa, al contado o a plazo] en la que la transmisión del valor se efectúa en alguna fecha posterior a las cinco días hábiles siguientes a la fecha de contratación.",
+                                "tooltip_value": "De manera más específica, en el mercado bursá...",
+                                "metadata": {
+                                    "confidentiality": 0
+                                }
+                            },
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "institution_code": "8BA9662AF9D04F069072CB5230E3AFA0",
+                                    "institution_name": "Council",
+                                    "timestamp": "2015-12-22T16:10:03.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-10-04T22:00:00.001Z"
+                                },
+                                "evaluation": 3,
+                                "reliability": 3,
+                                "display_order": 3
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 3
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/es/term-entries/BBDC99614F1E47CA88B0B704A6BA0432"
+                            },
+                            "code": "BBDC99614F1E47CA88B0B704A6BA0432",
+                            "id": 2506909,
+                            "type": 4,
+                            "term_value": "operación a término",
+                            "highlighted_term_value": "operación a <mark>término</mark>",
+                            "term_references": [
+                                {
+                                    "code": "03CD6C4DB1FB4772A431A43E691DDE7F",
+                                    "text": "BTB, Glos Economía",
+                                    "tooltip_text": "BTB, Glos Economía",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T00:36:51.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T00:36:51.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 4
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 3,
+                    "completion_aggregated_score": 6
+                },
+                "de": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/de"
+                    },
+                    "definition": "Geschäft an der Börse oder im OTC-Handel, bei dem die Erfüllung des Vertrags, d.h. die Abnahme und Lieferung der Ware, der Devisen oder des Wertpapiers, erst zu einem späteren Termin, aber zu einem am Abschlusstag festgelegten Kurs erfolgt",
+                    "tooltip_definition": "Geschäft an der Börse oder im OTC-Handel, bei...",
+                    "definition_references": [
+                        {
+                            "code": "4CAC3324E6224C1DB8502E1912DADE2D",
+                            "text": "Gabler Wirtschaftslexikon, Online-Version, s. v. \"Termingeschäft\", <a href=\"http://wirtschaftslexikon.gabler.de/Definition/termingeschaefte.html\" target=\"_blank\">http://wirtschaftslexikon.gabler.de/Definition/termingeschaefte.html</a> (20.8.2015)",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "158288B5EFC647DEBBE6429EBBDC76B1",
+                            "division_name": "DE",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2015-08-20T13:28:56.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2015-08-20T13:28:59.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/de/term-entries/67689EEF2A7D4D3988B351C258E2545C"
+                            },
+                            "code": "67689EEF2A7D4D3988B351C258E2545C",
+                            "id": 2506929,
+                            "type": 4,
+                            "term_value": "Termingeschäft",
+                            "term_references": [
+                                {
+                                    "code": "416FBAD99DD7496E9765C5984E7FA2EB",
+                                    "text": "Gabler Wirtschaftslexikon, Online-Version, s. v. \"Termingeschäft\", <a href=\"http://wirtschaftslexikon.gabler.de/Definition/termingeschaefte.html\" target=\"_blank\">http://wirtschaftslexikon.gabler.de/Definition/termingeschaefte.html</a> (20.8.2015)",
+                                    "tooltip_text": "Gabler Wirtschaftslexikon, Online-Version, s....",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "158288B5EFC647DEBBE6429EBBDC76B1",
+                                    "division_name": "DE",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-20T13:29:28.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-19T22:00:00.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 2,
+                    "completion_aggregated_score": 4
+                },
+                "en": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/en"
+                    },
+                    "definition": "financial arrangement that involves the purchase of a product at a fixed price, with the terms of the sale identifying a specific date in the future that the product will be delivered to the buyer",
+                    "tooltip_definition": "financial arrangement that involves the purch...",
+                    "definition_references": [
+                        {
+                            "code": "AB9C57940CA045BD902EB47D268FA483",
+                            "text": "Wise Geek &gt; What Is a Forward Transaction? <a href=\"http://www.wisegeek.com/what-is-a-forward-transaction.htm\" target=\"_blank\">http://www.wisegeek.com/what-is-a-forward-transaction.htm</a> [20.1.2016]",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "note": {
+                        "value": "This type of arrangement may be used in the process of trading investments such as stocks, or as part of a currency trading strategy. In most cases, the forward transaction date will be at least two full calendar days before the actual delivery date.",
+                        "tooltip_value": "This type of arrangement may be used in the p...",
+                        "metadata": {
+                            "confidentiality": 0
+                        }
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "74CB8E8E514D44DA8BC606A9D548BC5A",
+                            "division_name": "EN",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2017-10-31T13:48:17.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2017-10-30T23:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/en/term-entries/FD948175E2ED4CFD90FF80B5882A4316"
+                            },
+                            "code": "FD948175E2ED4CFD90FF80B5882A4316",
+                            "id": 2506923,
+                            "type": 4,
+                            "term_value": "forward transaction",
+                            "term_references": [
+                                {
+                                    "code": "1574CDDEC9D2422482B8D5677CFE52A5",
+                                    "text": "Foreign Exchange Markets. Brian Coyle. Global Professional Publishing. 2000, <a href=\"https://books.google.co.uk/books?id=dDVeRx2URBIC&amp;pg=PA109&amp;lpg=PA109&amp;dq=%22forward+transaction+%22&amp;source=bl&amp;ots=ioGQMEDz1W&amp;sig=EO2C7lqru05eX5DryLJL08Rqs0U&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj-gvbj5bjKAhVF0xoKHXe_AGI4KBDoAQgyMAM#v=onepage&amp;q=%22forward%20transaction%20%22&amp;f=false\" target=\"_blank\">https://books.google.co.uk/books?id=dDVeRx2URBIC&amp;pg=PA109&amp;lpg=PA109&amp;dq=%22forward+transaction+%22&amp;source=bl&amp;ots=ioGQMEDz1W&amp;sig=EO2C7lqru05eX5DryLJL08Rqs0U&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj-gvbj5bjKAhVF0xoKHXe_AGI4KBDoAQgyMAM#v=onepage&amp;q=%22forward%20transaction%20%22&amp;f=false</a> [20.1.2016]",
+                                    "tooltip_text": "Foreign Exchange Markets. Brian Coyle. Global...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "contexts": [
+                                {
+                                    "code": "980C11F9B7DF489F80B687D3C3F0E2EA",
+                                    "context": "<b>Forward transactions</b> can be used to hedge against financial risk (hedging), to speculate on price changes (trading) or to take advantage of price differences between markets (arbitrage).",
+                                    "tooltip_context": "Forward transactions can be used to hedge aga...",
+                                    "reference": {
+                                        "text": "Deutsche Bundesbank &gt; Service &gt; Forward transaction, <a href=\"https://www.bundesbank.de/Redaktion/EN/Glossareintraege/F/forward_transaction.html\" target=\"_blank\">https://www.bundesbank.de/Redaktion/EN/Glossareintraege/F/forward_transaction.html</a> [20.1.2016]",
+                                        "metadata": {
+                                            "confidentiality": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "74CB8E8E514D44DA8BC606A9D548BC5A",
+                                    "division_name": "EN",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2016-01-20T16:29:29.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2016-01-19T23:00:00.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 4
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/en/term-entries/A0F0F3B94D214933B018BA564A52285E"
+                            },
+                            "code": "A0F0F3B94D214933B018BA564A52285E",
+                            "id": 2506924,
+                            "type": 4,
+                            "term_value": "forward deal",
+                            "term_references": [
+                                {
+                                    "code": "1CDEA038EDFB459B91A3F7C79D114202",
+                                    "text": "Easy Forex &gt; Learn &gt; Forward Deals, <a href=\"http://www.easy-forex.com/eu/forwards/\" target=\"_blank\">http://www.easy-forex.com/eu/forwards/</a> [20.1.2016]",
+                                    "tooltip_text": "Easy Forex &gt; Learn &gt; Forward Deals, htt...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "74CB8E8E514D44DA8BC606A9D548BC5A",
+                                    "division_name": "EN",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2016-01-20T16:31:26.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2016-01-19T23:00:00.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 3,
+                    "completion_aggregated_score": 7
+                },
+                "nl": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/nl"
+                    },
+                    "definition": "bilaterale maatwerkovereenkomst om op een bepaalde afwikkelingsdatum in de toekomst tegen een op de transactiedatum overeengekomen termijnprijs een activum of geldstromen te ruilen",
+                    "tooltip_definition": "bilaterale maatwerkovereenkomst om op een bep...",
+                    "definition_references": [
+                        {
+                            "code": "B1A4C8A1923D4C1D94BF3188B94A4036",
+                            "text": "Gedelegeerde Verordening (EU) nr. 231/2013 van de Commissie van 19 december 2012 tot aanvulling van Richtlijn 2011/61/EU van het Europees Parlement en de Raad ten aanzien van vrijstellingen, algemene voorwaarden voor de bedrijfsuitoefening, bewaarders, hefboomfinanciering, transparantie en toezicht, bijlage I, punt 8, <a href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32013R0231\" target=\"_blank\">CELEX:32013R0231/NL</a>",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                            "division_name": "NL",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2015-08-31T12:24:49.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2015-08-31T12:28:21.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/nl/term-entries/9E89EA1DB909444D899FD56781EF5DFE"
+                            },
+                            "code": "9E89EA1DB909444D899FD56781EF5DFE",
+                            "id": 2506916,
+                            "type": 4,
+                            "term_value": "termijntransactie",
+                            "term_references": [
+                                {
+                                    "code": "3B19CFC3A2464ED1909576A302ACA4DD",
+                                    "text": "Richtsnoer van de Europese Centrale Bank van 11 november 2010 betreffende het juridische kader ten behoeve van de financiële administratie en verslaglegging in het Europees Stelsel van Centrale Banken, bijlage II, <a href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32010O0020\" target=\"_blank\">CELEX:32010O0020/NL</a>",
+                                    "tooltip_text": "Richtsnoer van de Europese Centrale Bank van...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "contexts": [
+                                {
+                                    "code": "1AE71CFF4BD84700A2513A80CF1B9C53",
+                                    "context": "\"Deviezenswaps voor monetaire-beleidsdoeleinden bestaan uit een gelijktijdige contante transactie en een <b>termijntransactie</b> in euro tegen vreemde valuta.\"",
+                                    "tooltip_context": "\"Deviezenswaps voor monetaire-beleidsdoeleind...",
+                                    "reference": {
+                                        "text": "Richtsnoer van de Europese Centrale Bank van 20 september 2011 betreffende monetaire beleidsinstrumenten en -procedures van het Eurosysteem, <a href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32011O0014\" target=\"_blank\">CELEX:32011O0014/NL</a>",
+                                        "metadata": {
+                                            "confidentiality": 0
+                                        }
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:26:41.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-30T22:00:00.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 4
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/nl/term-entries/4967A0D407C6473CB7EA915BD50E255A"
+                            },
+                            "code": "4967A0D407C6473CB7EA915BD50E255A",
+                            "id": 2506918,
+                            "type": 5,
+                            "term_value": "termijncontract",
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:26:41.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:26:41.001Z"
+                                },
+                                "reliability": 1,
+                                "display_order": 1
+                            },
+                            "completion_score": 0
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/nl/term-entries/BDC6A529CEF2406A9F23744D74DE2486"
+                            },
+                            "code": "BDC6A529CEF2406A9F23744D74DE2486",
+                            "id": 2506917,
+                            "type": 5,
+                            "term_value": "termijnzaken",
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:26:41.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:26:41.001Z"
+                                },
+                                "reliability": 1,
+                                "display_order": 1
+                            },
+                            "completion_score": 0
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/nl/term-entries/22BEBA2DE6F4460088A26ED5CDF3B51A"
+                            },
+                            "code": "22BEBA2DE6F4460088A26ED5CDF3B51A",
+                            "id": 2506919,
+                            "type": 4,
+                            "term_value": "termijnverrichting",
+                            "term_references": [
+                                {
+                                    "code": "897197FA36FB4A31B1CB7A59D470A11E",
+                                    "text": "Definitieve vaststelling (EU, Euratom) 2015/339 van de algemene begroting van de Europese Unie voor het begrotingsjaar 2015, <a href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32015B0339\" target=\"_blank\">CELEX:32015B0339/NL</a>",
+                                    "tooltip_text": "Definitieve vaststelling (EU, Euratom) 2015/3...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "note": {
+                                "value": "De term \"termijntransactie\" is gebruikelijker dan \"termijnverrichting\".",
+                                "tooltip_value": "De term \"termijntransactie\" is gebruikelijker...",
+                                "metadata": {
+                                    "confidentiality": 0
+                                }
+                            },
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:27:07.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:27:27.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-30T22:00:00.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "completion_score": 3
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/8279203F2ED4AE7CE053C3E4A79E4140/language-entries/nl/term-entries/3C5B71F3E85542D79561E1E4A316822E"
+                            },
+                            "code": "3C5B71F3E85542D79561E1E4A316822E",
+                            "id": 2506920,
+                            "type": 4,
+                            "term_value": "termijnaffaire",
+                            "term_references": [
+                                {
+                                    "code": "BF139639499A44A497A0047DF773CD92",
+                                    "text": "Gedelegeerde Verordening (EU) nr. 231/2013 van de Commissie van 19 december 2012 tot aanvulling van Richtlijn 2011/61/EU van het Europees Parlement en de Raad ten aanzien van vrijstellingen, algemene voorwaarden voor de bedrijfsuitoefening, bewaarders, hefboomfinanciering, transparantie en toezicht, bijlage I, punt 8, <a href=\"http://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32013R0231\" target=\"_blank\">CELEX:32013R0231/NL</a>",
+                                    "tooltip_text": "Gedelegeerde Verordening (EU) nr. 231/2013 va...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "CDEA8E64C1174D37A329256A74F43F7A",
+                                    "division_name": "NL",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-31T12:28:04.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2015-08-30T22:00:00.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 3
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTB-BAN82-658",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 2,
+                    "completion_aggregated_score": 6
+                }
+            },
+            "completion_score": 0,
+            "completion_aggregated_score": 0
+        },
+        {
+            "meta": {
+                "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140"
+            },
+            "code": "82792046133DAE7CE053C3E4A79E4140",
+            "id": 1392928,
+            "score": 1252251780.0,
+            "result_group": 2,
+            "domains": [
+                {
+                    "code": "1C9C154AD10E4515B60A5AEEB1A04B7C"
+                }
+            ],
+            "anchor_language": "undef",
+            "metadata": {
+                "creation": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2001-08-08T22:00:00.001Z"
+                },
+                "modification": {
+                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                    "division_name": "Central Terminology",
+                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                    "institution_name": "COM",
+                    "timestamp": "2002-01-08T13:37:16.001Z"
+                },
+                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                "institution_name": "COM",
+                "owned_by_creator": true,
+                "confidentiality": 0,
+                "primarity": 0,
+                "locking": {
+                    "lock": {
+                        "meta": {
+                            "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/_lock"
+                        }
+                    }
+                }
+            },
+            "language": {
+                "es": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/es"
+                    },
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/es/term-entries/F08F982BFED34842824BBC2C09A4D19F"
+                            },
+                            "code": "F08F982BFED34842824BBC2C09A4D19F",
+                            "id": 975438,
+                            "type": 4,
+                            "term_value": "término del contrato",
+                            "highlighted_term_value": "<mark>término</mark> del contrato",
+                            "term_references": [
+                                {
+                                    "code": "93CB9FF3D1594D22B93B6805DE15E7C1",
+                                    "text": "Díez Picazo, G., Sistema de derecho civil, Madrid, Tecnos, 1989, vol. II, p. 106",
+                                    "tooltip_text": "Díez Picazo, G., Sistema de derecho civil, Ma...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-DDS70-2983",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/es/term-entries/65D4504EF0B14F8E9146064659460E16"
+                            },
+                            "code": "65D4504EF0B14F8E9146064659460E16",
+                            "id": 975439,
+                            "type": 4,
+                            "term_value": "fin del contrato",
+                            "term_references": [
+                                {
+                                    "code": "EF16D26205C6450FAA7978F5E3AF3508",
+                                    "text": "Díez Picazo, G., Sistema de derecho civil, Madrid, Tecnos, 1989, vol. II, p. 106",
+                                    "tooltip_text": "Díez Picazo, G., Sistema de derecho civil, Ma...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-DDS70-2983",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/es/term-entries/9CC05CEF9434401DB0ACD57EFF40146E"
+                            },
+                            "code": "9CC05CEF9434401DB0ACD57EFF40146E",
+                            "id": 975440,
+                            "type": 4,
+                            "term_value": "terminación del contrato",
+                            "term_references": [
+                                {
+                                    "code": "B89008C669F54ED9B9D2B2C932088D41",
+                                    "text": "J. Goiburu L. de Munain, Ministerio de Trabajo y Seguridad Social",
+                                    "tooltip_text": "J. Goiburu L. de Munain, Ministerio de Trabaj...",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 3
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-DDS70-2983",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 0,
+                    "completion_aggregated_score": 2
+                },
+                "de": {
+                    "meta": {
+                        "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/de"
+                    },
+                    "definition": "Auslaufen des Vertrags",
+                    "tooltip_definition": "Auslaufen des Vertrags",
+                    "definition_references": [
+                        {
+                            "code": "0BA3A9CA296C4A7AB3F5DB9AF473242D",
+                            "text": "FRANKL",
+                            "metadata": {
+                                "confidentiality": 0
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "creation": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "modification": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        },
+                        "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                        "institution_name": "COM",
+                        "owned_by_creator": true,
+                        "validation": 1,
+                        "validation_metadata": {
+                            "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                            "division_name": "Central Terminology",
+                            "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                            "institution_name": "COM",
+                            "timestamp": "2003-09-23T22:00:00.001Z"
+                        }
+                    },
+                    "term_entries": [
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/de/term-entries/807D6FEF4DBC494AB25BACFDC9ABF074"
+                            },
+                            "code": "807D6FEF4DBC494AB25BACFDC9ABF074",
+                            "id": 975443,
+                            "type": 4,
+                            "term_value": "Vertragsablauf",
+                            "term_references": [
+                                {
+                                    "code": "1B24875A159D4B8E8B494AD6A1CCDB27",
+                                    "text": "FRANKL",
+                                    "tooltip_text": "FRANKL",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 1
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-DDS70-2983",
+                            "completion_score": 2
+                        },
+                        {
+                            "meta": {
+                                "href": "https://iate.europa.eu/em-api/entries/82792046133DAE7CE053C3E4A79E4140/language-entries/de/term-entries/1DEE7E2FD7ED4C809818BE42994F07B0"
+                            },
+                            "code": "1DEE7E2FD7ED4C809818BE42994F07B0",
+                            "id": 975444,
+                            "type": 4,
+                            "term_value": "Vertragsende",
+                            "term_references": [
+                                {
+                                    "code": "B02AC5D7B80F4A6FB0A69C7DF1B80631",
+                                    "text": "FRANKL",
+                                    "tooltip_text": "FRANKL",
+                                    "metadata": {
+                                        "confidentiality": 0
+                                    }
+                                }
+                            ],
+                            "metadata": {
+                                "creation": {
+                                    "division_code": "B2D01AFD4FEB4D7FA9063DEF7D502039",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                    "institution_name": "COM",
+                                    "timestamp": "2003-09-23T22:00:00.001Z"
+                                },
+                                "modification": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "institution_code": "95C369D8146F4E92BC3E00566C278F8D",
+                                "institution_name": "COM",
+                                "owned_by_creator": true,
+                                "validation": 1,
+                                "validation_metadata": {
+                                    "division_code": "AD12B908C455402185FF61BB9028B22D",
+                                    "division_name": "Central Terminology",
+                                    "institution_code": "C675A92E415A4D828CD1DD8E96159614",
+                                    "institution_name": "CdT",
+                                    "timestamp": "2014-05-19T12:09:44.001Z"
+                                },
+                                "reliability": 3,
+                                "display_order": 2
+                            },
+                            "initial_source_id": "Eurodicautom",
+                            "legacy_id": "BTL-DDS70-2983",
+                            "completion_score": 2
+                        }
+                    ],
+                    "completion_score": 2,
+                    "completion_aggregated_score": 4
+                }
+            },
+            "completion_score": 0,
+            "completion_aggregated_score": 0
+        }
+    ],
+    "offset": 0,
+    "limit": 5,
+    "size": 18,
+    "next": {
+        "href": "https://iate.europa.eu/em-api/entries/_search?expand=true&offset=5&limit=5"
+    },
+    "request": {
+        "source": "es",
+        "targets": [
+            "en",
+            "es",
+            "de",
+            "nl",
+            "mul",
+            "la"
+        ],
+        "query_operator": 1,
+        "query": "término",
+        "search_in_term_types": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "filter_by_domains": [
+            "86817304A07344BC8B544B390129ADDF",
+            "5B8AB13A1DA9412F8EE914DD40D469E1",
+            "70C8DCD591A145A69CBFAC9405AB90E1",
+            "1C9C154AD10E4515B60A5AEEB1A04B7C",
+            "7593C35C03034FBA9737E2A7EEADDD6A",
+            "78481530C8D346EFBC4CE34FBD730476",
+            "698DCDA39DF14751BB4E2449B7274C3D",
+            "0460ABF0F73B4799BCD7DC5287D810B0",
+            "4FEA3CDDFE3B4DD188D9A6E23004B136",
+            "0B52BF975B664CD5997CE4DB99EA67D1",
+            "1C2BB68922D84C1AB0B6B362EBA5100A",
+            "08A084532207495CB9276FE30188048C",
+            "DFFE1B0A73624006888F21D57085832A",
+            "D8811DC89580413D8B7B2BD77AD18F10",
+            "F93ED12A90064881879E66EEA9987598"
+        ],
+        "search_in_fields": [
+            0
+        ]
+    }
+}

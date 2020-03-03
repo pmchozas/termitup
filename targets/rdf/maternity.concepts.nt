@@ -1,0 +1,57 @@
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#prefLabel> "income maintenance benefit in the event of childbirth"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#prefLabel> "bevallingsuitkering ter vervanging van inkomsten"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "moederschapsverzekering"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://purl.org/dc/elements/1.1/source> "1690911".
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#broader> <http://lkg.lynx-project.eu/kos/LT6643179>.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#related> <http://lkg.lynx-project.eu/kos/LT6201648>.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "maternity insurance"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#definition> "flat-rate or earnings-related payments intended to compensate the protected person for the loss of earnings due to absence from work in connection with childbirth for the period before and/or after confinement or in connection with adoption.The benefit may also be paid to the father"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#definition> "The condition or fact of being a mother"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#definition> "Estado o cualidad de madre"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#prefLabel> "maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "seguro de maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einkommenssicherung bei der Geburt"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Mutterschaftsversicherung"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "maternity leave"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Council Directive 92/85/EEC on the introduction of measures to encourage improvements in the safety and health at work of pregnant workers and workers who have recently given birth or are breastfeeding"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "maternity leave directive"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Maternity Directive"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Maternity Leave Directive"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "income maintenance benefit in the event of childbirth"@en.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "permiso de maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "permiso por maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "seguro por maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Directiva 92/85/CEE del Consejo relativa a la aplicación de medidas para promover la mejora de la seguridad y de la salud en el trabajo de la trabajadora embarazada"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> " que haya dado a luz o en período de lactancia"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Directiva de maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Directiva sobre el permiso de maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "prestación de mantenimiento de renta en caso de parto"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "prestación económica por maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Mutterschaftsurlaub"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Richtlinie 92/85/EWG über die Durchführung von Maßnahmen zur Verbesserung der Sicherheit und des Gesundheitsschutzes von schwangeren Arbeitnehmerinnen"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> " Wöchnerinnen und stillenden Arbeitnehmerinnen am Arbeitsplatz"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Mutterschaftsrichtlinie"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Mutterschutzrichtlinie"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Einkommenssicherung bei der Geburt"@de.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "moederschapsverlof"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "zwangerschaps- en bevallingsverlof"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "zwangerschapsverlof"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "moederschapsrust"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "Richtlijn 92/85/EEG inzake de tenuitvoerlegging van maatregelen ter bevordering van de verbetering van de veiligheid en de gezondheid op het werk van werkneemsters tijdens de zwangerschap"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> " na de bevalling en tijdens de lactatie"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "moederschapsrichtlijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "richtlijn moederschapsverlof"@nl.
+<http://lkg.lynx-project.eu/kos/LT3876976> <http://www.w3.org/2004/02/skos/core#altLabel> "bevallingsuitkering ter vervanging van inkomsten"@nl.
+<http://lkg.lynx-project.eu/kos/LT6643179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT6643179> <http://www.w3.org/2004/02/skos/core#prefLabel> "family"@en.
+<http://lkg.lynx-project.eu/kos/LT6643179> <http://www.w3.org/2004/02/skos/core#prefLabel> "familia"@es.
+<http://lkg.lynx-project.eu/kos/LT6643179> <http://www.w3.org/2004/02/skos/core#prefLabel> "Familie"@de.
+<http://lkg.lynx-project.eu/kos/LT6643179> <http://www.w3.org/2004/02/skos/core#prefLabel> "gezin"@nl.
+<http://lkg.lynx-project.eu/kos/LT6643179> <http://www.w3.org/2002/07/owl#sameAs> "http://eurovoc.europa.eu/965".
+<http://lkg.lynx-project.eu/kos/LT6201648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT6201648> <http://www.w3.org/2004/02/skos/core#prefLabel> "maternity leave"@en.
+<http://lkg.lynx-project.eu/kos/LT6201648> <http://www.w3.org/2004/02/skos/core#prefLabel> "baja por maternidad"@es.
+<http://lkg.lynx-project.eu/kos/LT6201648> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mutterschaftsurlaub"@de.
+<http://lkg.lynx-project.eu/kos/LT6201648> <http://www.w3.org/2004/02/skos/core#prefLabel> "zwangerschapsverlof"@nl.
+<http://lkg.lynx-project.eu/kos/LT6201648> <http://www.w3.org/2002/07/owl#sameAs> "http://eurovoc.europa.eu/103".

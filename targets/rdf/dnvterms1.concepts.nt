@@ -1,0 +1,1220 @@
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambient"@en.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#prefLabel> "omgevingslucht"@nl.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "omgevingslucht"@nl.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/803838>.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "ambient"@en.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#definition> "The portion of the atmosphere, external to buildings, to which the general public has access."@en.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#prefLabel> "aire ambiente"@es.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "aire ambiente"@es.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atmosphäre"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "Umgebungs-"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "environmental"@en.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "free air"@en.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "ambient air"@en.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "umgebend"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "Außenluft"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "Umgebungsluft"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "umgebende Luft"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "Raumluft"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "Aussenluft"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "Atmosphäre"@de.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "omgevende lucht"@nl.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "omringende lucht"@nl.
+<http://lkg.lynx-project.eu/kos/LT5277766> <http://www.w3.org/2004/02/skos/core#altLabel> "ambiënte lucht"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquifer"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#prefLabel> "dak van het reservoir"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "watervoerende laag"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/3510056>.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "aquifer"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#definition> "porous rock deep under the ground which holds salty water and could also hold carbon dioxide"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#prefLabel> "techo del depósito"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "acuífero"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquifergas"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Grundwasserleiter"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#definition> "Das in Gesteinsporen gehaltene Wasser (Formationswasser) kann mit wachsender Tiefe größere Mengen Gas binden. Bei Druckentlastung löst sich dann ein Teil des Gases und tritt entweder als freies Gas in die Atmosphäre oder wird bei geeigneten geologisch-strukturellen Voraussetzungen in Lagerstätten gefangen. Der im Formationswasser verbleibende Teil wird als Aquifergas bezeichnet."@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "water-bearing stratum"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "water bearing stratum"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> " water-bearing strata"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> " water bearing strata"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "water-bearing formation"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "reservoir top"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "aquifer top"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "aquifer gas"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "saline aquifer"@en.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "manto acuífero"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "capa acuífera"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "formación acuífera"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "acuifero"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "techo del depósito"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "techo del acuífero"@es.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Grundwasser(schicht)"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Grundwasserspeicher"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Grundwasserschicht"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Grundwasserträger"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Wasserleiter"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "obere Begrenzung des Aquifers"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "Aquifergas"@de.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "aquifer"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> " watervoerend pakket"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "waterlaag"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "waterhoudende grondlaag"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "waterhoudende aardlaag"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "waterhoudende laag"@nl.
+<http://lkg.lynx-project.eu/kos/LT6613990> <http://www.w3.org/2004/02/skos/core#altLabel> "dak van het reservoir"@nl.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://www.w3.org/2004/02/skos/core#prefLabel> "Back to Top"@en.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/3509624>.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://www.w3.org/2004/02/skos/core#altLabel> "go to top"@en.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://www.w3.org/2004/02/skos/core#definition> "link to a command that takes a webpage user to the top of the page being viewed"@en.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://www.w3.org/2004/02/skos/core#altLabel> "back to top"@en.
+<http://lkg.lynx-project.eu/kos/LT6472810> <http://www.w3.org/2004/02/skos/core#altLabel> "top of the page"@en.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baseload Plants"@en.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#prefLabel> "centrale voor basisproductie"@nl.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#altLabel> "centrale voor basisproductie"@nl.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1680954>.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#altLabel> "baseload plant"@en.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#definition> "a plant,usually housing high efficiency steam-electric units, which is normally operated to take all or part of the minimum load of a system,and which consequently produces electricity at an essentially constant rate and runs continuously"@en.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#prefLabel> "planta de carga base"@es.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#altLabel> "planta de carga base"@es.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grundlastkraftwerk"@de.
+<http://lkg.lynx-project.eu/kos/LT1475683> <http://www.w3.org/2004/02/skos/core#altLabel> "Grundlastkraftwerk"@de.
+<http://lkg.lynx-project.eu/kos/LT7960500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7960500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Binary-Cycle Plant"@en.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brine"@en.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#prefLabel> "pekel"@nl.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "pekel"@nl.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#definition> "flavour van olie uit olijven die zijn bewaard in pekel"@nl.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1266265>.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "brine"@en.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#prefLabel> "salmuera"@es.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "salmuera"@es.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#definition> "Disolución de una sal en agua, generalmente cloruro sódico o cálcico, con concentraciones de 20-30%, que se utiliza principalmente en los sistemas de refrigeración como vehículo de eliminación de calor, debido a su bajo punto de congelación, y en la industria alimentaria."@es.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#prefLabel> "in Salzlake"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "Sole"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "in brine"@en.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "Salzlösung"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "salzhaltiges Wasser"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "lakig"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "Salzlake"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "in Salzlake"@de.
+<http://lkg.lynx-project.eu/kos/LT7227682> <http://www.w3.org/2004/02/skos/core#altLabel> "zoutoplossing"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#prefLabel> "BTU"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#prefLabel> "laagwaardig gas"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "BThU"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1447653>.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "British thermal unit"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#definition> "gaseous fuel with an energy content of 300-500 Btu per foot"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#prefLabel> "gas de potencia calorífica media"@es.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "BthU"@es.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#prefLabel> "mittelkalorisches Gas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "Btu"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "lean gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "low BTU gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "low calorific gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "low calorific value gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "low joule value gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "LJV gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "high Btu gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "intermediate-Btu gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "medium-Btu gas"@en.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "gas de pequeño valor calorífico"@es.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "gas pobre"@es.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "gas de gran potencia calorífica"@es.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "gas de potencia calorífica media"@es.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "Schwachgas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "Armgas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "hochkalorisches Gas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "Gas mit hohem Heizwert"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "Starkgas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "hochwertiges Gas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "mittelkalorisches Gas"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "Gas mit mittlerem Heizwert"@de.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "arm gas"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "gas met lage calorische waarde"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "gas met lage verbrandingswaarde"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "laagcalorisch gas"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "laagwaardig gas"@nl.
+<http://lkg.lynx-project.eu/kos/LT4715737> <http://www.w3.org/2004/02/skos/core#altLabel> "laag calorisch gas"@nl.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cap Rocks"@en.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "ondoorlatende deklaag"@nl.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/3578906>.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "impermeable cap rock"@en.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "cubierta de roca impermeable"@es.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "undurchlässiges Deckgestein"@de.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "cap rock"@en.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "Cape rock lobster"@en.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "LBC"@en.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "Caps rock lobster"@en.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "roca de cubierta"@es.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "langosta del Cabo"@es.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "impermeable Deckschicht"@de.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "undurchlaessiges Deckgestein"@de.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "Kaplanguste"@de.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "Afrikanische Languste"@de.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "Rote Languste"@de.
+<http://lkg.lynx-project.eu/kos/LT8795025> <http://www.w3.org/2004/02/skos/core#altLabel> "Kaapse langoest"@nl.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cascading Heat"@en.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#prefLabel> "cascade-opslag van thermisch energie"@nl.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "warmtepompencascade"@nl.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1155416>.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "cascade heat pump system"@en.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#prefLabel> "almacenamiento de calor en cascada"@es.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "sistema de bombas de calor en cascada"@es.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wärmespeicherung nach dem Kaskadeverfahren"@de.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmepumpenkaskade"@de.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "Storage in cascading heat-system"@en.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "sistema de bombas de calor en serie"@es.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "almacenamiento de calor en cascada"@es.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmespeicherung nach dem Kaskadeverfahren"@de.
+<http://lkg.lynx-project.eu/kos/LT1366900> <http://www.w3.org/2004/02/skos/core#altLabel> "cascade-opslag van thermisch energie"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#prefLabel> "Condensate"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#prefLabel> "condensaat"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "condensaat"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1746880>.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "condensate"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#definition> "A straw-coloured or colourless liquid hydrocarbon mixture of over approx.50 API gravity,which may be recovered at the surface from unassociated gas reservoirs"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#prefLabel> "vapor condensado"@es.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "condensado"@es.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kondensat"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Kondensat"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "flushing liquor"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "liquor"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "ammoniacal liquor"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "surrogate"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "document surrogate"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "information product"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "condensed steam"@en.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "aguas amoniacales"@es.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "producto documental"@es.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "vapor condensado"@es.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Ammoniakwasser"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "ammoniakhaltiges Wasser"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Kuehlerkondensat"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Spülwasser"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Spülflüssigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Ersatzdokument"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Substitut"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "Dampfkondensat"@de.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "ammoniakwater"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "substitutie-document"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "vervangingsdocument"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "gecondenseerde stoom"@nl.
+<http://lkg.lynx-project.eu/kos/LT2417679> <http://www.w3.org/2004/02/skos/core#altLabel> "condensvloeistof"@nl.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#prefLabel> "Condenser"@en.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#prefLabel> "koelapparatuur"@nl.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "condensor"@nl.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1617962>.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "condenser"@en.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#definition> "the portion of a still which is cooled by water and converts the vapours to liquids"@en.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#prefLabel> "condensador"@es.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "condensador"@es.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#definition> "tubo del alambique en forma de espiral o tubular en que se condensan los vapores alcohólicos"@es.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kühler"@de.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "Kondensator"@de.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#definition> "Roehren-oder spiralfoermiger Ansatz des Brennapparates, der mit Wasser gekuehlt wird und in welchem sich die Alkoholdaempfe verdichten (kondensieren)"@de.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "condensing unit"@en.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "injector-condenser"@en.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "refrigerante"@es.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "serpentín"@es.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "Kühler"@de.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "Verfluessiger"@de.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "verdichter"@nl.
+<http://lkg.lynx-project.eu/kos/LT2286835> <http://www.w3.org/2004/02/skos/core#altLabel> "koelapparatuur"@nl.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cooling Tower"@en.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#prefLabel> "natte koeltoren"@nl.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "koeltoren"@nl.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1376506>.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "cooling tower"@en.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#definition> "a structure in which the condenser cooling water is in direct contact with air"@en.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#prefLabel> "torre de refrigeración húmeda"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "torre de refrigeración"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Naßkühlturm"@de.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "Kühlturm"@de.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "cooling column"@en.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "ventilated bin"@en.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "wet cooling tower"@en.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "torre de enfriamiento"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "columna de enfriamiento"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "silo de aireación"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "silo de ventilación"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "silo ventilado"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "torre de refrigeración húmeda"@es.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "Belüftungssilo"@de.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "Zentralrohrsilo"@de.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "Naßkühlturm"@de.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "natte koeltoren"@nl.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "ventilatietoren"@nl.
+<http://lkg.lynx-project.eu/kos/LT7695111> <http://www.w3.org/2004/02/skos/core#altLabel> "geventileerde silo"@nl.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#prefLabel> "Crust"@en.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#prefLabel> "droogtekorst"@nl.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "aardkorst"@nl.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1427393>.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "crust"@en.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#definition> "generally an outer layer, usually of clay or fine silt, which has been affected by desication or weathering"@en.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#prefLabel> "costra endurecida"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "corteza terrestre"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kruste"@de.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdkruste"@de.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "earth's crust"@en.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "scab"@en.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "costra cutanea"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "depósito en botellas"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "costra"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "costra endurecida"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "costra seca"@es.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "Schorf"@de.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "Farbdepot"@de.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "Salzkruste"@de.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "Kruste"@de.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "crusta"@nl.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "korst"@nl.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "korstdepot"@nl.
+<http://lkg.lynx-project.eu/kos/LT1725623> <http://www.w3.org/2004/02/skos/core#altLabel> "droogtekorst"@nl.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Direct Use"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1883333>.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "direct use of the invention"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#prefLabel> "utilización directa de los bienes de dominio público por la Administración"@es.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "prohibición de la explotación directa de la invención"@es.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#definition> "uso que las administraciones públicas hacen directamente de los bienes que componen su patrimonio"@es.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verbot der unmittelbaren Benutzung der Erfindung"@de.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "unmittelbare Benutzung der Erfindung"@de.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "prohibition of direct use of the invention"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "LMO for direct use as food"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> " feed or for processing"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "living modified organism for direct use as food"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "LMO-FFP"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "direct use by public administration authorities of public property"@en.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "utilización directa de los bienes de dominio público por la Administración"@es.
+<http://lkg.lynx-project.eu/kos/LT7314600> <http://www.w3.org/2004/02/skos/core#altLabel> "Verbot der unmittelbaren Benutzung der Erfindung"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#prefLabel> "District Heating"@en.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#prefLabel> "warmtetransportnet"@nl.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "stadsverwarming"@nl.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1220630>.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "district heating"@en.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#prefLabel> "planta de calefacción urbana"@es.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "calefacción urbana"@es.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fernwärmenetz"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernwärme"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "distance heating"@en.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "district heating plant"@en.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "district heating cable"@en.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "district heating system"@en.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "planta de calefacción urbana"@es.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernheizung"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "Blockheizkraftwerk"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernheizkabel"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernwärmeanlage"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "Fernwärmenetz"@de.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "stadsverwarmingsinstallatie"@nl.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "warmtedistributieleiding"@nl.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "warmtetransportkabel"@nl.
+<http://lkg.lynx-project.eu/kos/LT3364843> <http://www.w3.org/2004/02/skos/core#altLabel> "warmtetransportnet"@nl.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drilling"@en.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#prefLabel> "boren"@nl.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "boren"@nl.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#definition> "verspanend bewerkingsproces voor het maken of vergroten van￿ gaten met roterende hoofdbeweging en rechtlijnige aanzetbeweging"@nl.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1218083>.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "drilling"@en.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#prefLabel> "taladro por rotación"@es.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "perforación"@es.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#definition> "agujero taladrado en la roca"@es.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bohren"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohrung"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#definition> "Herstellen von Loechern durch Bohrer, die sich mit Hilfe der an der Spitze befindlichen Schneide in den Werkstoff einschneiden"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "drill hole"@en.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "boring"@en.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "drilling from the solid"@en.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "drill"@en.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "taladro por rotación"@es.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "agujero de taladro"@es.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohrarbeiten"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohren"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Abbohren"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohrloch"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Einbohren"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Vollbohren"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohren ins Volle"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "Lochen"@de.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "boorgat"@nl.
+<http://lkg.lynx-project.eu/kos/LT8216696> <http://www.w3.org/2004/02/skos/core#altLabel> "in vol materiaal boren"@nl.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dry Steam"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#prefLabel> "droge-stoomveld"@nl.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "droge stoom"@nl.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/750068>.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "dry steam"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#prefLabel> "campo de vapor seco"@es.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "vapor seco"@es.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trockendampfvorkommen"@de.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "Trockendampf"@de.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "LV dry steam coal"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "low-volatility dry steam coal"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "dry steam coal"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "dry steam field"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "dry field"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "steam dominated field"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "vapour dominated field"@en.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "magra"@es.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "magras"@es.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "campo de vapor seco"@es.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "Magerkohle"@de.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "Trockendampfvorkommen"@de.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "Trockendampffeld"@de.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "magerkool"@nl.
+<http://lkg.lynx-project.eu/kos/LT3678624> <http://www.w3.org/2004/02/skos/core#altLabel> "droge-stoomveld"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Efficiency"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#prefLabel> "rendement"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "doelmatigheid"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#definition> "De verhouding tussen de output en de input in een bepaald proces, bijv. het geleverde vermogen van een motor in verhouding tot het opgenomen vermogen.(1)"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1155065>.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "efficiency"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#definition> "The ratio of the energy output to the energy input of a process or a machine."@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#prefLabel> "rendimiento"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "eficiencia"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wirkungsgrad"@de.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "Wirtschaftlichkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "principle of efficiency"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "work output"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "output"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "performance"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "actual efficiency"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "operating efficiency"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "working capacity"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "productivity"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "return"@en.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "rendimiento real"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "rendimiento efectivo"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "rendimiento del trabajo"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "rendimiento de la mano de obra"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "eficiencia 2) eficacia de los programas"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "rendimiento"@es.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "effektive Leistung"@de.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "Arbeitsleistung"@de.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "Effizienz"@de.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "Wirkungsgrad"@de.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "arbeidsrendement"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "arbeidsprestatie"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "werkprestatie"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "efficiëntie"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "efficiency"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "rendement"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "opbrengst"@nl.
+<http://lkg.lynx-project.eu/kos/LT7637738> <http://www.w3.org/2004/02/skos/core#altLabel> "verbruiksrendement"@nl.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enhanced Geothermal Systems"@en.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/3272727>.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://www.w3.org/2004/02/skos/core#altLabel> "enhanced geothermal system"@en.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://www.w3.org/2004/02/skos/core#altLabel> "Hot Dry Rock"@en.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://www.w3.org/2004/02/skos/core#altLabel> "EGS"@en.
+<http://lkg.lynx-project.eu/kos/LT7530900> <http://www.w3.org/2004/02/skos/core#altLabel> "engineered geothermal system"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fault"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#prefLabel> "breuklijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "fout"@nl.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#definition> "een breuk of breukzone waarlangs het gesteente aan twee zijden een verplaatsing heeft ondergaan, relatief aan elkaar, parallel aan de breuk. De verplaatsing kan varieren tussen enkele centimeters en vele kilometers"@nl.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1118473>.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "fault"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#definition> "when the earth's crust is stressed beyond its folding resistance, breaks or -- occur which may displace the beds on either side of the --"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#prefLabel> "falla"@es.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "falta"@es.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spalte"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Fehler"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#definition> "Spalte = Bruch oder Bruchzone entlang welcher die Erdschollen auf beiden Seiten, parallel zum Bruch, relativ zueinander eine Verschiebung erfahren haben. Die Verschiebung kann zwischen einigen Zentimetern bis zu vielen Kilometern betragen"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "loophole"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "flaw"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "faulting"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "malfunction"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "rift"@en.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "escapatoria"@es.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "falla"@es.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "fallo"@es.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "avería"@es.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Schlupfloch"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Lücke im System"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Verwerfung"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Gebirgsstoerung"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Bruch"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Maschinenfehler"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Störung"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Spalte"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Sprung"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Verschiebung"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "Falte"@de.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "breuk"@nl.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "storing"@nl.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "breuklijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT5327676> <http://www.w3.org/2004/02/skos/core#altLabel> "verschuiving"@nl.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flash Steam"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#prefLabel> "flashen"@nl.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "flash-stoom"@nl.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1448589>.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "flash steam"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#prefLabel> "evaporación relámpago"@es.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "vapor de vaporización instantánea"@es.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#prefLabel> "ausdampfen"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "Entspannungsdampf"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "flashed steam"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "steam flashing"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "flashing"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "to flash"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "to flash into steam"@en.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "vapor de expansión instantánea"@es.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "evaporación relámpago"@es.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "expansión instantánea del vapor"@es.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "evaporación por cambio brusco de la presión"@es.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "entspannter"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "Dampf"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "entspannter Dampf"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "Entspannungsverdampfung"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "Flash-Verdampfung"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "ausdampfen"@de.
+<http://lkg.lynx-project.eu/kos/LT2465445> <http://www.w3.org/2004/02/skos/core#altLabel> "flashen"@nl.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fumarole"@en.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#prefLabel> "fumarole"@nl.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#altLabel> "fumarole"@nl.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/750583>.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#altLabel> "fumarole"@en.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#prefLabel> "humero"@es.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#altLabel> "humero"@es.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fumarole"@de.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#altLabel> "smoke-hole"@en.
+<http://lkg.lynx-project.eu/kos/LT2452828> <http://www.w3.org/2004/02/skos/core#altLabel> "fumarola"@es.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geology"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#prefLabel> "mijnbouw - geologie"@nl.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geologie"@nl.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/112167>.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geology"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#definition> "1.The study of geologic aspects of mineral deposits, with particular regard to problems associated with mining."@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#prefLabel> "geología minera"@es.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geología"@es.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bergbaugeologie"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Geologie"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "metallogeny"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "ore geology"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "deep geology"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "marine geology"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "mining geology"@en.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geología profunda"@es.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geología marina"@es.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geología minera"@es.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Wissenschaft von der Metallogenese"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Erzlagerstättenkunde"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Geologie der Erzlagerstätten"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "metallogenie"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Tiefengeologie"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Meeresgeologie"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "Bergbaugeologie"@de.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "ertskunde"@nl.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "geologie der ertsafzettingen"@nl.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "metallogenie"@nl.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "mariene geologie"@nl.
+<http://lkg.lynx-project.eu/kos/LT9569794> <http://www.w3.org/2004/02/skos/core#altLabel> "mijnbouw - geologie"@nl.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geothermal"@en.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#prefLabel> "geothermisch boorgat"@nl.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "aardwarmte"@nl.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1150164>.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal heat"@en.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#prefLabel> "pozo geotérmico"@es.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "calor geotérmico"@es.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#prefLabel> "geothermische Tiefenstufe"@de.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwärme"@de.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermic heat"@en.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal well"@en.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal step"@en.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "pozo geotérmico"@es.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "terrestrische Wärme"@de.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwaerme"@de.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermisches Bohrloch"@de.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische Tiefenstufe"@de.
+<http://lkg.lynx-project.eu/kos/LT3785169> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermisch boorgat"@nl.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geothermal Energy"@en.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#prefLabel> "geothermische energie"@nl.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische energie"@nl.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#definition> "energie die in de vorm van warmte onder het vaste aardoppervlak is opgeslagen"@nl.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1410163>.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal energy"@en.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#prefLabel> "aplicación de la energía geotérmica"@es.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "energía geotérmica"@es.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#prefLabel> "geothermische Energievorräte"@de.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische Energie"@de.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal energy system"@en.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "shallow geothermal energy"@en.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal energy resources"@en.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal energy application"@en.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "sistema de energía geotérmica"@es.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "recursos energéticos geotérmicos"@es.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "aplicación de la energía geotérmica"@es.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermale Energie"@de.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwärme"@de.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische Energiesysteme"@de.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische Energievorräte"@de.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "bodemenergie"@nl.
+<http://lkg.lynx-project.eu/kos/LT5833038> <http://www.w3.org/2004/02/skos/core#altLabel> "aardwarmte"@nl.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geothermal Gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#prefLabel> "geothermische gradiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische gradiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#definition> "de stijging van de temperatuur in de aardkorst in graden Celcius per km diepte. Hoe geringer de geothermische gradiënt, hoe dieper mijnbouw mogelijk is."@nl.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/750612>.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#prefLabel> "gradiente geotérmico"@es.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "gradiente geotérmico"@es.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#prefLabel> "Erdwärmegradient"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwärmegradient"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "thermal gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "temperature gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "virgin rock temperature gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermischer Temperaturgradient"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermisches Temperaturgefälle"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermischer Gradient"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwaermegradient"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermisches Temperaturgefaelle"@de.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "temperatuurgradiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT5601680> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische gradient"@nl.
+<http://lkg.lynx-project.eu/kos/LT3145029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT3145029> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geothermal Heat Pumps"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geyser"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#prefLabel> "geiser"@nl.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "onafhankelijk werkend waterverwarmingstoestel"@nl.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1154787>.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "stand-alone water heater"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#definition> "Geysers(Icelandic \"geysir\",from geysa = to rush forth or \"gjosa\" = to gush),are spouting hot springs that throw forth intermittent jets of water and steam(temperature between 100oC a nd 120oC)."@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#prefLabel> "géiser"@es.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "calentador de agua instantáneo"@es.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geysir"@de.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "Durchlauferhitzer"@de.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "instantaneous water heater"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "tankless water heater"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "on-demand water heater"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "geyser"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "hot spring"@en.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "géiser"@es.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "Geysir"@de.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "Geisir"@de.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "Geiser"@de.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "geiser"@nl.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "doorstroomtoestel"@nl.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "doorstroomapparaat"@nl.
+<http://lkg.lynx-project.eu/kos/LT4817088> <http://www.w3.org/2004/02/skos/core#altLabel> "geizer"@nl.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#prefLabel> "HDR"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/882391>.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "high dynamic range"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#prefLabel> "roca seca caliente"@es.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "etiqueta de fichero"@es.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dateikennsatz"@de.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "Dateikennsatz"@de.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "beginning-of-file-label"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "header label"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "hot dry rock"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "High Data Rate"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "High Density Traffic Airports Rule"@en.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "etiqueta de comienzo de fichero"@es.
+<http://lkg.lynx-project.eu/kos/LT7684165> <http://www.w3.org/2004/02/skos/core#altLabel> "roca seca caliente"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heat Exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#prefLabel> "roterende warmtewisselaar"@nl.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "warmtewisselaar"@nl.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1150557>.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "heat exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#prefLabel> "intercambiador de calor helicoidal"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "cambiador de calor"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wärmeaustauscher mit Spiralen"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmeaustauscher"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "coil heat exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "active type heat exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "active heat exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "rotary heat exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "spiral heat exchanger"@en.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "intercambiador de calor"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "termointercambiador"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "termocambiador de serpentín"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "cambiador activo de calor"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "cambiador térmico rotativo"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "intercambiador de calor helicoidal"@es.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmetauscher"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmeübertrager"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "Schlangenwaermetauscher"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "aktiver Wärmeaustauscher"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "aktiver Wärmetauscher"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "rotierender Waermeaustauscher"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmeaustauscher mit Spiralen"@de.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "warmteuitwisselaar"@nl.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "actieve warmtewisselaar"@nl.
+<http://lkg.lynx-project.eu/kos/LT7339420> <http://www.w3.org/2004/02/skos/core#altLabel> "roterende warmtewisselaar"@nl.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heat Flow"@en.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#prefLabel> "warmtestroom"@nl.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "warmtestroom"@nl.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1706794>.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "heat flow"@en.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#prefLabel> "aflujo de calor"@es.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "flujo térmico"@es.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waermestrom"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmefluss"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "heat flux"@en.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "heat emission"@en.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "flujo de calor"@es.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "aflujo de calor"@es.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmestromdichte"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmestrom"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Waermeabgabe"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Waermedurchsatz"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Waermefluss"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Waermestroemung"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "Waermestrom"@de.
+<http://lkg.lynx-project.eu/kos/LT9694298> <http://www.w3.org/2004/02/skos/core#altLabel> "afgegeven warmte"@nl.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hydrothermal Resource"@en.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/3573549>.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/2004/02/skos/core#altLabel> "hydrothermal resource"@en.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/2004/02/skos/core#definition> "a geothermal resource that often involves fluid, heat and permeability for the purposes of electricity generation"@en.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/2004/02/skos/core#prefLabel> "hydrothermale Lagerstätte"@de.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/2004/02/skos/core#altLabel> "hydrothermale Lagerstätte"@de.
+<http://lkg.lynx-project.eu/kos/LT9864454> <http://www.w3.org/2004/02/skos/core#definition> "unterirdisches Heißwasservorkommen (Aquifer) aus dem Heizwasser als Energieträger wirtschaftlich entnommen werden kann"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#prefLabel> "Injection"@en.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#prefLabel> "in een baan komen"@nl.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "inspuiting"@nl.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1347754>.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "injection"@en.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#definition> "the process of putting a spacecraft up to escape velocity"@en.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#prefLabel> "inyección"@es.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "inyección"@es.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beschleunigung auf Fluchtgeschwindigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "Einspritzung"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "fuel injection"@en.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "charge-carrier injection"@en.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "carrier injection"@en.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "inyección de portadores"@es.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "Injektion"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "Probenaufgabe"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "Einspritzen"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "Beschleunigung auf Fluchtgeschwindigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "brandstofinspuiting"@nl.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "injectie"@nl.
+<http://lkg.lynx-project.eu/kos/LT1828411> <http://www.w3.org/2004/02/skos/core#altLabel> "in een baan komen"@nl.
+<http://lkg.lynx-project.eu/kos/LT2380981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2380981> <http://www.w3.org/2004/02/skos/core#prefLabel> "KGRA"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kilowatt"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#prefLabel> "vergoeding per kilowatt"@nl.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt"@nl.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#definition> "verschuldigd bedrag per eenheid van in rekening te brengen vermogen kW(kVA)over een bepaald leveringstijdvak"@nl.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1199582>.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#definition> "an amount to be paid per unit of chargeable demand in kilowatt for a specified period of supply"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#prefLabel> "precio del kilovatio"@es.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "precio del kilovatio"@es.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leistungspreis"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#definition> "Preis fuer die Einheit der Verrechnungsleistung in Kilowatt(Kilovoltampere)fuer eine bestimmte Zeitspanne"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt day"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt-day"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW day"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW-day"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt fishing day"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt peak"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "peak kilowatt"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kWp"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "price per Kilowatt"@en.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "Kilowatt-Tag"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW-Tag"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW-Fangtag"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "Leistungspreis"@de.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowattdag"@nl.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "kW-dag"@nl.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "vergoeding per kilowatt"@nl.
+<http://lkg.lynx-project.eu/kos/LT4026904> <http://www.w3.org/2004/02/skos/core#altLabel> "vergoeding per kW"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kilowatt-Hour"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#prefLabel> "kosten van de niet-geleverde energie per kWh"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowattuur"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1365632>.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt-hour"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#definition> "the economic assessment of all types of consequences resulting from supply interruptions in a given electrical system,divided by the lost energy,expressed in kWh"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#prefLabel> "coste del kilovatio hora suministrado"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilovatiohora"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kosten je nicht gelieferter Kilowattstunde"@de.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kWh"@de.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kWh"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "KWh. kwhr"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "KWhr"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt-hour rate"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "energy rate"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "cost of kilowatt-hour lost"@en.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "Kw/h."@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "Kwh."@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kwh"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilovatio hora"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kWh"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatio por hora"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "precio del kilovatio hora"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "precio de la energía"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "coste del kilovatio hora suministrado"@es.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "Kilowattstunde"@de.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "Arbeitspreis"@de.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "Kosten je nicht gelieferter Kilowattstunde"@de.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kWh"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kilowatt-uur"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "vergoeding per kWh"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "energieprijs"@nl.
+<http://lkg.lynx-project.eu/kos/LT4469908> <http://www.w3.org/2004/02/skos/core#altLabel> "kosten van de niet-geleverde energie per kWh"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#prefLabel> "Load"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#prefLabel> "ovenvulling"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "belasting van de motor"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1620898>.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "engine load"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#definition> "the wood pieces being seasoned in a kiln,or being prepared for such treatment together"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#prefLabel> "carga de secado"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "carga del motor"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kammerfüllung"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Belastung des Motors"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "load on the engine"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "load of the engine"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "load"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "sales load"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "sales charge"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "front-end load"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "pull"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "output"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "draw"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "charge"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "kiln load"@en.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "carga total"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "comisión de entrada"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "tirada"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "extracción"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "carga de secado"@es.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Motorbelastung"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "mitgeführtes Material"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Eintrittsgebühr"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Schmelzleistung"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Durchsatz"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Kammerfüllung"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Trockencharge"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "Trockenpartie"@de.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "al het door een waterloop meegevoerde vaste materiaal"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "front-end load"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "ovenbelasting"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "glasafname van de oven"@nl.
+<http://lkg.lynx-project.eu/kos/LT1256538> <http://www.w3.org/2004/02/skos/core#altLabel> "ovenvulling"@nl.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magma"@en.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#prefLabel> "eruptieflichaam"@nl.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "magma"@nl.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1154753>.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "magma"@en.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#prefLabel> "cuerpo ígneo"@es.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "magma"@es.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magmenkörper"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "igneous body"@en.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "magma body"@en.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "eruptive body"@en.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "cuerpo ígneo"@es.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "cuerpo magmático"@es.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "cuerpo"@es.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "aufgemaischter Zucker"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "eingemaischter Zucker"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "aufgemaischter/eingemaischter Zucker"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "Magmenkörper"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "magmatischer Körper"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "Eruptivkörper"@de.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "eruptieflichaam"@nl.
+<http://lkg.lynx-project.eu/kos/LT5716271> <http://www.w3.org/2004/02/skos/core#altLabel> "magmatisch lichaam"@nl.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mantle"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#prefLabel> "mantel"@nl.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "beschermdek"@nl.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#definition> "deel van een effect dat de feitelijke eigendom vertegenwoordigt, zij het ook dat bij verkoop of eigendomsoverdracht steeds het blad zal moeten worden bijgeleverd"@nl.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1071513>.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "mantlerock"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#definition> "share or bond certificate without coupon sheet and talon"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#prefLabel> "capa (de un título)"@es.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "regolita"@es.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mantel"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "Schuttdecke"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "mantle"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "regolith"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "rock mantle"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "soil mantle"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "pod tube"@en.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "manto terrestre"@es.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "manto"@es.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "capa (de un título)"@es.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "certificado sin hoja de cupones"@es.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "Regolith"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "Mantel"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdmantel"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "Saum"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "Bestandsmantel"@de.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "aardmantel"@nl.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "mantel"@nl.
+<http://lkg.lynx-project.eu/kos/LT4774875> <http://www.w3.org/2004/02/skos/core#altLabel> "bosmantel"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multiplier Effect"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#prefLabel> "transferproject"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplicatoreffect"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/145357>.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplier effect"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#prefLabel> "proyecto de difusión"@es.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "proyecto piloto de difusión"@es.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projekt mit Multiplikationswirkung"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Multiplikatoreffekt"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplying effect"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplier effect pilot project"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Hall multiplier"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Hall-effect multiplier"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplier-effect project"@en.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplicador Hall"@es.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplicador de efecto Hall"@es.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "proyecto de difusión"@es.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Hebeleffekt Hebelwirkung Multiplikatorprinzip"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Multiplikatorwirkung"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Pilotprojekt mit Multiplikatorwirkung"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Hallmultiplikator"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Hall-Effekt-Vervielfacher"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "Projekt mit Multiplikationswirkung"@de.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplier-effect"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "multiplicator-effect"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "proef- en multiplicatorproject"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "vermenigvuldiger met het Hall-effect"@nl.
+<http://lkg.lynx-project.eu/kos/LT8247151> <http://www.w3.org/2004/02/skos/core#altLabel> "transferproject"@nl.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peaking Plants"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#prefLabel> "piekvereffeningsvoorziening"@nl.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "piekinstallatie"@nl.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1077095>.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak load plant"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#definition> "equipment specially installed in electricity and gas supply systems to meet peak loads at times of high demand. Shaving plant usually has a low capital installation cost but is comparatively expensive to run. Examples include gas turbines used to generate electricity and small oil gasification plants in gas supply systems used to manufacture gas when the rate of supply from other sources is insufficient(2)"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#prefLabel> "central de punta"@es.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "central de punta"@es.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#definition> "Tipo de instalación de generación eléctrica proyectada para cubrir la demanda de energía eléctrica en las horas punta; en dichas horas – punta, se pone en marcha y trabaja en paralelo con la central principal. Los otros tipos de central en función del servicio son las centrales principales o de base, las de reserva, las de socorro y las de bombeo."@es.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peak-shaving-anlage"@de.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "Peak-shaving-anlage"@de.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#definition> "Erdgasverfluessigungsanlage zum Zwecke der Vorratshaltung fuer die Deckung von Verbrauchsspitzen"@de.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak load power station"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> " peak-load power station"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak-load plant"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak load power plant"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak-shaving facility"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak-load shaving facility"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak-shaving plant"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "peak load shaving plant"@en.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "Anlage zur Deckung des Spitzenbedarfs"@de.
+<http://lkg.lynx-project.eu/kos/LT2877727> <http://www.w3.org/2004/02/skos/core#altLabel> "piekvereffeningsvoorziening"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#prefLabel> "Permeability"@en.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#prefLabel> "permeabiliteit"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "permeabiliteit"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#definition> "De verhouding tussen het totaalvolume van een lege ruimte en het volume dat door instromend water kan worden ingenomen als het ruim gevuld is."@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/3533376>.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "permeability"@en.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#definition> "Degree to which a fluid can flow through a porous medium."@en.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#prefLabel> "permeabilidad"@es.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "permeabilidad"@es.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#definition> "grado en que un fluido puede penetrar en un medio poroso"@es.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#prefLabel> "Permeabilität"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "Durchlaessigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#definition> "Maß für die Leichtigkeit, mit der eine Flüssigkeit durch ein poröses Medium fließen kann"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "coefficient of permeability"@en.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "permeability coefficient"@en.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "coeficiente de permeabilidad"@es.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "Permeabilitaet"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "Durchlaessigkeitskoeffizient"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "Permeabilität"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "Durchlässigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "Flutbarkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorlaatfactor"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "permeabiliteitscoëfficiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorlaatcoëfficiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorlaatbaarheid"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorlaatbare"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorlaatbaar"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorstroming"@nl.
+<http://lkg.lynx-project.eu/kos/LT9993895> <http://www.w3.org/2004/02/skos/core#altLabel> "doorstroom"@nl.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plate Tectonics"@en.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#prefLabel> "platentektoniek"@nl.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "plaattektoniek"@nl.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#definition> "Volgens deze theorie bestaat de buitenste laag van de aardkorst uit een tiental platen die ten opzichte van elkaar kunnen bewegen. In sommige grensgebieden wordt de aardkorst vanuit het binnenste van de aarde omhoog gedrukt. Daarbij worden de platen door nieuwe korst opzij geschoven. Door het verschuiven van de platen verwijderen zich de daarop liggende continenten ten opzichte van elkaar met een snelheid van enkele centimeters per jaar."@nl.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1870800>.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "plate tectonics"@en.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#definition> "mobile fragment of the Earth's rocky outer shell"@en.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#prefLabel> "tectónica de las placas"@es.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "tectónica de placas"@es.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plattentektonik"@de.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "Plattentektonik"@de.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "tectonic plate"@en.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "tectónica de las placas"@es.
+<http://lkg.lynx-project.eu/kos/LT1310978> <http://www.w3.org/2004/02/skos/core#altLabel> "platentektoniek"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#prefLabel> "Porosity"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#prefLabel> "porienvolume"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "poreusheid"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#definition> "het percentage lege ruimte per inhoudsmaat"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1377137>.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porosity"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#prefLabel> "porosidad"@es.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porosidad"@es.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#prefLabel> "Porositaet"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Porosität"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#definition> "das Verhaeltnis von gesamter Kokssubstanz zum Gesamtporenraum;auch der Quotient von scheinbarer und wahrer Dichte"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "soil porosity"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porosity of a soil"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "unsoundness"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "discontinuity"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "sponginess"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "pore volume"@en.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porosidad del suelo"@es.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porosidad de un suelo"@es.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Porositaet"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Hohlraumgehalt"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Bodenporositaet"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Porosität eines Bodens"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Mangel an Dichtigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Porigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Schwammigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Koksdichtigkeit"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "Lueckengrad"@de.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porositeit"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porositeit van de grond"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porositeit van een bodem"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "plaatselijke slinkporeusheid"@nl.
+<http://lkg.lynx-project.eu/kos/LT8543295> <http://www.w3.org/2004/02/skos/core#altLabel> "porienvolume"@nl.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reservoir"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#prefLabel> "reservoir"@nl.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "reservoir"@nl.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1645030>.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "reservoir rock"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#prefLabel> "depósito"@es.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "yacimiento"@es.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#prefLabel> "Behälter"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Speichergestein"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#definition> "Gefaess zur Sammlung des Druckmittels"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "container rock"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "reservoir"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "carrier bed"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "carrier rock"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "greenhouse gas reservoir"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "GHG reservoir"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "natural reservoir"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "pathological reservoir"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "receiver"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "tank"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "pool"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "accumulation"@en.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "roca reservorio"@es.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "roca almacén"@es.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "depósito"@es.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "reservorio"@es.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Speicherstätte"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Trägergestein"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Speicher"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Treibhausgasspeicher"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Behälter"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "Tank"@de.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "reservoirlaag"@nl.
+<http://lkg.lynx-project.eu/kos/LT2927822> <http://www.w3.org/2004/02/skos/core#altLabel> "reservoirgesteente"@nl.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salinity"@en.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#prefLabel> "zoutgehalte van het water"@nl.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "bodemsaliniteit"@nl.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1448421>.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "salinity"@en.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#prefLabel> "salinidad de agua"@es.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "salinidad"@es.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gesamtsalzgehalt"@de.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "Salzgehalt"@de.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "soil salinity"@en.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "water salinity"@en.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "salinity scale"@en.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "total salinity"@en.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "salinidad de suelo"@es.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "salinidad de agua"@es.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "Salinität"@de.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "Salzgehalt des Bodens"@de.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "Wassersalzgehalt"@de.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "Gesamtsalzgehalt"@de.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "zoutgraad van de bodem"@nl.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "zoutgehalte van de bodem"@nl.
+<http://lkg.lynx-project.eu/kos/LT1726293> <http://www.w3.org/2004/02/skos/core#altLabel> "zoutgehalte van het water"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subsidence"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#prefLabel> "bodemverzakking"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "zetting"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1118807>.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "settlement"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#prefLabel> "desprendimiento"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "asiento"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bodensenkung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Setzung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "consolidation"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "subsidence"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "compaction"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "settling"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "sinking"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "slumping"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "small landslide"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "bottom subsidence"@en.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "asentamiento"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "hundimiento"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "compactación"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "desprendimiento"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "deslizamiento"@es.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Kompaktion"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Zusammenpressen des Sedimentes"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Verdichtung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Sackung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Senkung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Lehnenabsitzung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Absackung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "Bodensenkung"@de.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "inklinking"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "samenpakking"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "compactie"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "verzakking"@nl.
+<http://lkg.lynx-project.eu/kos/LT4741480> <http://www.w3.org/2004/02/skos/core#altLabel> "bodemverzakking"@nl.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#prefLabel> "TDS"@en.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#prefLabel> "TDS"@nl.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "totaal bedrag van rentebetalingen"@nl.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/798865>.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "total debt service"@en.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#prefLabel> "estación de seguimiento y adquisición de datos"@es.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "servicio de la deuda total"@es.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#prefLabel> "Warenkorbstudie"@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "Schuldendienstquote"@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#definition> "Die Warenkorbmethode („total diet“ oder „market-basket-sample“) eignet sich für die Schätzung der durchschnittlichen Aufnahme unterschiedlichster Bestandteile (z.B. Schwermetalle und Spurenelemente) einzelner Nahrungsmittel und findet Verwendung bei langfristig angelegten nationalen Studien. Auf der Basis nationaler statistischer Konsumdaten werden Nahrungsmittel bei unterschiedlichen Einkaufsquellen erworben und in vorher festgelegten Küchen nach herkömmlichen Rezepturen zubereitet. Ähnliche Lebensmittel werden gewichtet zu Gruppen zusammengefaßt (7 bis max. 15 Gruppen wie z.B. „Brot und Cerealien“, „Fleisch und Geflügel“) und einer gruppenspezifischen chemischen Analyse unterzogen. Die Aufnahmemenge eines Stoffes errechnet sich als Produkt aus der Menge der durchschnittlich konsumierten Lebensmittel einer Gruppe (durchschnittlicher Konsum in kg) und der analysierten Konzentration des untersuchten Stoffes in der Gruppe. Die Summe der Aufnahmemengen der einzelnen Gruppen ergibt dann die Gesamtbelastung einer durchschnittlichen Person."@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "tracking and data acquisition station"@en.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "total dissolved solids"@en.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "Total Diet Study"@en.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "estación de seguimiento y adquisición de datos"@es.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "Gesamtgehalt an gelösten Feststoffen"@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "Gesamtfeststoffgehalt"@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "Warenkorbstudie"@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "Total Diet Study"@de.
+<http://lkg.lynx-project.eu/kos/LT8379632> <http://www.w3.org/2004/02/skos/core#altLabel> "volg-en data-acquisitiestation"@nl.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal Gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#prefLabel> "temperatuurgradiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "temperatuurgradient"@nl.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1447533>.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "temperature gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#definition> "the difference between the heat contents of the steam at the turbine inlet and at the exhaust"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#prefLabel> "caída térmica"@es.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "gradiente de temperatura"@es.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wärmegefälle"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "Temperaturgradient"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "thermal gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermal gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "virgin rock temperature gradient"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "heat drop"@en.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "gradiente térmico"@es.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "gradiente geotérmico"@es.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "caída térmica"@es.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwärmegradient"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermischer Temperaturgradient"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermisches Temperaturgefälle"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermischer Gradient"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "Erdwaermegradient"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermisches Temperaturgefaelle"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "Wärmegefälle"@de.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische gradiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "temperatuurgradiënt"@nl.
+<http://lkg.lynx-project.eu/kos/LT6863843> <http://www.w3.org/2004/02/skos/core#altLabel> "geothermische gradient"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transmission Line"@en.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#prefLabel> "transmissielijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "transmissielijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1366049>.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "transmission line"@en.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#definition> "the means for conveying electromagnetic energy between two points with a minimum of radiation"@en.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#prefLabel> "línea de transmisión"@es.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "línea de transmisión"@es.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Übertragungsleitung"@de.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "Übertragungsleitung"@de.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "line"@en.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "data transmission line"@en.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "línea de transmisión de datos"@es.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "línea de transmisión de haz"@es.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "Übertragungsleitung für gebündelte Strahlen"@de.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "transportleiding"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "transmissieleiding"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "datatransmissielijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "lijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT4748520> <http://www.w3.org/2004/02/skos/core#altLabel> "bundeltransmissielijn"@nl.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turbine"@en.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#prefLabel> "lagedrukturbine"@nl.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbine"@nl.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1482885>.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbine"@en.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#prefLabel> "turbina de alta presión"@es.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbina"@es.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#prefLabel> "Niederdruckturbine"@de.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "Turbinenlaufrad"@de.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "high-pressure turbine"@en.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "HP turbine"@en.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "low-pressure turbine"@en.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "LP turbine"@en.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbina de alta presión"@es.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbina AP"@es.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbina de baja presión"@es.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "turbina BP"@es.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "Hochdruckturbine"@de.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "HD-Turbine"@de.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "Niederdruckturbine"@de.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "ND-Turbine"@de.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "hogedrukturbine"@nl.
+<http://lkg.lynx-project.eu/kos/LT2636989> <http://www.w3.org/2004/02/skos/core#altLabel> "lagedrukturbine"@nl.
+<http://lkg.lynx-project.eu/kos/LT3339420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT3339420> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vapor-Dominated"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well Logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#prefLabel> "elektrisch loggen"@nl.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "elektrisch loggen"@nl.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/1472374>.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "well logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#prefLabel> "perfilaje eléctrico"@es.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "registro de perforación"@es.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#prefLabel> "geophysikalische Bohrlochmessungen"@de.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "Log.Diagramm"@de.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "well-logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "electrical coring"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "electrical logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "geophysical well logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "electrical well logging"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "geophysical well logs"@en.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "diagrafía"@es.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "perfilaje eléctrico"@es.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohrlochmessung"@de.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "Bohrdiagramme"@de.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "elektrisches Kernen"@de.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "geophysikalische Bohrlochmessung"@de.
+<http://lkg.lynx-project.eu/kos/LT9310072> <http://www.w3.org/2004/02/skos/core#altLabel> "geophysikalische Bohrlochmessungen"@de.

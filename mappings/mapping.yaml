@@ -1,0 +1,94 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  rev: http://purl.org/stuff/rev#
+  gtfs: http://vocab.gtfs.org/terms#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  skos: http://www.w3.org/2004/02/skos/core#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  terms:
+    sources:
+      - [dnvterms1_out.csv~csv]
+    s: http://lkg.lynx-project.eu/kos/$(term_id)
+    po:
+      - [a,skos:Concept]
+      - [skos:prefLabel,$(prefLabel@en),en~lang]
+      - [skos:altLabel,$(altLabel@en),en~lang]
+      - [skos:definition, $(definition@en),en~lang]
+      - [skos:prefLabel,$(prefLabel@es),es~lang]
+      - [skos:altLabel,$(altLabel@es),es~lang]
+      - [skos:definition, $(definition@es),es~lang]
+      - [skos:prefLabel,$(prefLabel@de),de~lang]
+      - [skos:altLabel,$(altLabel@de),de~lang]
+      - [skos:definition, $(definition@de),de~lang]
+      - [skos:prefLabel,$(prefLabel@nl),nl~lang]
+      - [skos:altLabel,$(altLabel@nl),nl~lang]
+      - [skos:definition, $(definition@nl),nl~lang]
+      - [dc:source, https://iate.europa.eu/entry/result/$(iate_id)~iri]
+      - p: skos:broader
+        o:
+          - mapping: broader
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(term_id)]
+                - [str2, $(term_id)]
+      - p: skos:narrower
+        o:
+          - mapping: narrower
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(term_id)]
+                - [str2, $(term_id)]
+      - p: skos:related
+        o:
+          - mapping: related
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(term_id)]
+                - [str2, $(term_id)]
+  broader:
+    sources:
+      - [dnvterms1_eurosource_br_out_ID.csv~csv]
+    s: http://lkg.lynx-project.eu/kos/$(broader_id)
+    po:
+      - [a,skos:Concept]
+      - [skos:prefLabel,$(brprefLabel@en),en~lang]
+      - [skos:prefLabel,$(brprefLabel@es),es~lang]
+      - [skos:prefLabel,$(brprefLabel@de),de~lang]
+      - [skos:prefLabel,$(brprefLabel@nl),nl~lang]
+      - [owl:sameAs, $(broader_uri)]
+  narrower:
+    sources:
+      - [dnvterms1_eurosource_na_out_ID.csv~csv]
+    s: http://lkg.lynx-project.eu/kos/$(narrower_id)
+    po:
+      - [a,skos:Concept]
+      - [skos:prefLabel,$(naprefLabel@en),en~lang]
+      - [skos:prefLabel,$(naprefLabel@es),es~lang]
+      - [skos:prefLabel,$(naprefLabel@de),de~lang]
+      - [skos:prefLabel,$(naprefLabel@nl),nl~lang]
+      - [owl:sameAs, $(narrower_uri)]
+  related:
+    sources:
+      - [dnvterms1_eurosource_re_out_ID.csv~csv]
+    s: http://lkg.lynx-project.eu/kos/$(related_id)
+    po:
+      - [a,skos:Concept]
+      - [skos:prefLabel,$(reprefLabel@en),en~lang]
+      - [skos:prefLabel,$(reprefLabel@es),es~lang]
+      - [skos:prefLabel,$(reprefLabel@de),de~lang]
+      - [skos:prefLabel,$(reprefLabel@nl),nl~lang]
+      - [owl:sameAs, $(related_uri)]

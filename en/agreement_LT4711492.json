@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4711492",
+    "@type": "skos:Concept",
+    "skos:inScheme": "agreement",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/786519",
+    "skos:topConceptOf": "LT4711492",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acuerdo"
+        },
+        {
+            "@language": "en",
+            "@value": "agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "Abkommen"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Acto jurídico de Derecho Internacional Público celebrado entre Estados u organizaciones internacionales por el que se crean obligaciones convencionales entre éstos.En principio a efectos de la Convención de Viena sobre el Derecho de los Tratados las voces \"tratado\" IATE:49472  \"acuerdo\" \"convenio\" IATE:829043 y \"convención\" son sinónimos.Ahora bien el Consejo de Europa establece una diferencia entre \"acuerdo\" y \"convenio\" en cuanto a la forma en que cada Estado expresa su consentimiento en obligarse por el instrumento. Los convenios siempre están sujetos a ratificación IATE:852731  en tanto que los acuerdos pueden firmarse con o sin reserva de ratificación. La denominación \"tratado\" suele reservarse para los más solemnes e importantes.Por su finalidad tradicionalmente se distingue entre tratados-acuerdos (en alemán Vereinbarung) que crean desenvuelven o modifican determinadas normas positivas del Derecho internacional y tratados-contratos (en alemán Vertrag) que a través de un cambio de prestaciones internacionales intentan conciliar intereses diversos."
+        },
+        {
+            "@language": "en",
+            "@value": "any legally binding written or oral understanding between two or more States or between States and international organisations"
+        },
+        {
+            "@language": "de",
+            "@value": "völkerrechtliche Übereinkunft zwischen zwei oder mehr Parteien"
+        }
+    ],
+    "skos:broader": [
+        "LT8704923",
+        "LT4495195",
+        "LT7617625",
+        "LT7726500"
+    ],
+    "skos:related": [
+        "LT5888801",
+        "LT1548718",
+        "LT7423527",
+        "LT5174984",
+        "LT8886859",
+        "LT6141061",
+        "LT6519284",
+        "LT2766506",
+        "LT6183942"
+    ]
+}
