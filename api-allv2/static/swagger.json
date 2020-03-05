@@ -1,0 +1,84 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "Search terms - ",
+    "version": "1.0.0",
+    "title": "Termitup",
+    "license": {
+      "name": "Lynx",
+      "url": "http://www.lynx-project.eu"
+    }
+  },
+  "tags": [
+    {
+      "name": "Search Terms",
+      "description": "---description---"
+    }
+  ],
+  "paths": {
+    "/term/{termino},{idioma},{targets},{context}": {
+      "get": {
+        "tags": [
+          "Search Terms"
+        ],
+        "description": "Multiple output of result",
+        "summary": "---Get--",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "termino",
+            "required": true,
+            "description": "Term of the entry",
+            "schema": {
+              "$ref": ""
+            }
+          },
+          {
+            "in": "path",
+            "name": "idioma",
+            "required": true,
+            "description": "Language of term (Es,En,Nl,De Etc.) only one",
+            "schema": {
+              "$ref": ""
+            }
+          },
+          {
+            "in": "path",
+            "name": "targets",
+            "required": true,
+            "description": "Language of out (Es,En,Nl,De Etc.) one o more",
+            "schema": {
+              "$ref": ""
+            }
+          },
+          {
+            "in": "path",
+            "name": "context",
+            "required": false,
+            "description": "context optional",
+            "schema": {
+              "$ref": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": ""
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed. No More Request.",
+            "content": {}
+          }
+        }
+      }
+    }
+  },
+
+}
