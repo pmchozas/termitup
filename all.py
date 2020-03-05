@@ -176,21 +176,7 @@ def getIate(target, item,leng,termSearch):
                     contx=
                 #defi=language['definition']'''
                 
-    '''
-    if('[' in defi):        
-        pos1=defi.index('[')
-        pos2=defi.index(']')
-        defi1=defi[:pos1]
-        defi2=defi[pos2+1:]
-        defi=defi1+defi2
     
-    if('<' in defi):        
-        pos1=defi.index('<')
-        pos2=defi.index('>')
-        defi1=defi[:pos1]
-        defi2=defi[pos2+1:]
-        defi=defi1+defi2
-    '''
     defi=re.sub(r'<[^>]*?>', '', defi)
     defi=defi.replace(',', '')
     
@@ -224,7 +210,7 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista):
             lbloq=[]
             iateIde=[]
             iate=[]
-            eurovoc=[]
+            eurovoc=''
             euro=[]
             termSearch[cont]
             term=i['items']
@@ -245,14 +231,13 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista):
                     lang.append(target+':'+str(bloq)) 
                     iateIde.append(str(ide_iate)+':'+str(bloq))
                     #print(get[1])
-                    relations=['broader', 'narrower', 'related']
-                    eurovoc.append(resultsEurovoc(termSearch[cont], idioma, relations, target))
-                    #print(eurovoc)
+                    
                 bloq=bloq+1
             
             d=(definicion_in,[])
             if(context):
                 maximo=wsid(termSearch[cont],  context, contextFile,  d)
+
             elif(contextFile):
                 file=open(contextFile+'.csv', 'r')
                 contextFile=csv.reader(file)
@@ -260,7 +245,9 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista):
             else:
                 contextFile=leerContextos(idioma)
                 maximo=wsid(termSearch[cont],  context, contextFile,  d)
-            print(maximo)
+                relations=['broader', 'narrower', 'related']
+                euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile)
+            #print(maximo)termino, idioma, relations, target
             m=definicion.index(maximo[0])
             b=lbloq[m]
             for j in range(len(lbloq)):
@@ -270,7 +257,8 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista):
                     defi.append(definicion2[j][:-2])
                     tar.append(lang[j][:-1])
                     iate.append(iateIde[j][:-2])
-                    euro.append(eurovoc[j])
+                    #euro.append(eurovoc[j])
+            
             
             lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile)
             fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala)
@@ -284,6 +272,7 @@ def wsid(termIn, context, contextFile,  definitions):
     idMax=''
     posMax=0
     if(context):
+        print('context', context, 'termIn', termIn)
         pesos=[]
         start=context.index(termIn)
         longTerm=len(termIn)
@@ -364,8 +353,8 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
     else:
         os.mkdir(idioma)
     
-    verify=verificar(idioma,termSearch)
-    print(verify)
+    verify=verificar(idioma,termSearch, '')
+    #print(verify)
     ide=verify[0]
     termSearch=verify[1]
     if(termSearch!=''):
@@ -377,15 +366,15 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
         data['skos:altLabel']=[]
         data['skos:definition']=[]
         
-        br=eurovoc[0][0][0].split('|')
-        na=eurovoc[0][1][0].split('|')
-        re=eurovoc[0][2][0].split('|')
-
-        if(br[0]!=''):
+        br=eurovoc[0][0]
+        na=eurovoc[1][0]
+        re=eurovoc[2][0]
+        
+        if(br!=''):
             data['skos:broader']=[]
-        if(na[0]!=''):
+        if(na!=''):
             data['skos:narrower']=[]
-        if(re[0]!=''):
+        if(re!=''):
             data['skos:related']=[]
         
         for i in range(len(prefLabel)):
@@ -415,69 +404,41 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
 
         
         for i in eurovoc:
-            broader=i[0]
-            for i in range(len(broader)):
-                slrp=broader[i].split('|')
-                if(slrp[0]!=''):
-                    verify=verificar(idioma,  slrp[0])
-                    ideB=verify[0]
-                    termSearchB=verify[1]
-                    data['skos:broader'].append(ideB)
-                    dataEurovoc=fileEurovoc(termSearchB, ideB, slrp[0], slrp[1], idioma)
-                    carpetas=os.listdir(idioma)
-                    if('broader' in carpetas):
-                        with open(idioma+'/'+'broader/'+termSearchB+'_'+ideB+'.json', 'w') as file:
-                            json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-                    else:
-                        os.makedirs(idioma+"/broader")
-                    with open(idioma+'/'+'broader/'+termSearchB+'_'+ideB+'.json', 'w') as file:
-                        json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-                    #print(termSearchB)
-                     
-        for i in eurovoc:
-            narrower=i[1]
-            for i in range(len(narrower)):
-                slrp=narrower[i].split('|')
-                if(slrp[0]!=''):
-                    verify=verificar(idioma,  slrp[0])
-                    ideB=verify[0]
-                    termSearchB=verify[1]
-                    data['skos:narrower'].append(ideB)
-                    dataEurovoc=fileEurovoc(termSearchB, ideB, slrp[0], slrp[1], idioma)
-                    carpetas=os.listdir(idioma)
-                    if('narrower' in carpetas):
-                        with open(idioma+'/'+'narrower/'+termSearchB+'_'+ideB+'.json', 'w') as file:
-                            json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-                    else:
-                        os.makedirs(idioma+"/narrower")
-                    with open(idioma+'/'+'narrower/'+termSearchB+'_'+ideB+'.json', 'w') as file:
-                        json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-                    #print(termSearchB)
-           
-        for i in eurovoc:
-            related=i[2]
-            for i in range(len(related)):
-                slrp=related[i].split('|')
-                if(slrp[0]!=''):
-                    verify=verificar(idioma,  slrp[0])
-                    ideB=verify[0]
-                    termSearchB=verify[1]
-                    data['skos:related'].append(ideB)
-                    dataEurovoc=fileEurovoc(termSearchB, ideB, slrp[0], slrp[1], idioma)
-                    carpetas=os.listdir(idioma)
-                    if('related' in carpetas):
-                        with open(idioma+'/'+'related/'+termSearchB+'_'+ideB+'.json', 'w') as file:
-                            json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-                    else:
-                        os.makedirs(idioma+"/related")
-                    with open(idioma+'/'+'related/'+termSearchB+'_'+ideB+'.json', 'w') as file:
-                        json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-                    #print(termSearchB)
+            relationsEurovoc(i[0], i[1], idioma,data, i[2] )
+            
         newFile=idioma+'/'+termSearch+'_'+ide+'.json'
         with open(newFile, 'w') as file:
             json.dump(data, file, indent=4,ensure_ascii=False)
-        dataRetriever(newFile)
-
+        #dataRetriever(newFile)
+        
+        
+def relationsEurovoc(relationList, uriList, idioma,data, relationEuro):
+    for i in range(len(relationList)):
+        relation=relationList[i]
+        uri=uriList[i]
+        if(relation!=''):
+            carpetas=os.listdir(idioma)
+            if(relationEuro not in carpetas):
+                os.makedirs(idioma+"/"+relationEuro)
+            
+            verify=verificar(idioma,  relation, relationEuro)
+            #print(verify)
+            ide=verify[0]
+            termSearch=verify[1]
+            if(ide!='' and termSearch!=''):
+                if('skos:'+relationEuro in data.keys()):
+                    data['skos:'+relationEuro].append(ide)
+                    dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma)
+                    
+                    
+                    with open(idioma+'/'+relationEuro+'/'+termSearch+'_'+ide+'.json', 'w') as file:
+                        json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
+                   
+                        
+                    #with open(idioma+'/'+relationEuro+'/'+termSearch+'_'+ide+'.json', 'w') as file:
+                    #    json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
+                    
+                     
         
 def fileEurovoc(termSearch, ide, relation, iduri, idioma):
     #print(relation[0])
@@ -490,15 +451,17 @@ def fileEurovoc(termSearch, ide, relation, iduri, idioma):
         data['skos:prefLabel'].append({'@language':idioma, '@value':relation})
     return(data)
 
-def verificar(idioma,  termSearch):
-    path=idioma+'/'
+def verificar(idioma,  termSearch, relation):
+    if(relation!=''):
+        path=idioma+'/'+relation+'/'
+    else:
+        path=idioma+'/'
     lista_arq = [obj for obj in listdir(path) if isfile(path + obj)]
     ide=sctmid_creator()
     for i in lista_arq:
         slp=i.split('_')
         idefile=slp[1]
         termfile=slp[0]
-        
         if(termSearch in termfile):
             print('ya existe termino', termfile)
             termSearch=''
@@ -507,33 +470,48 @@ def verificar(idioma,  termSearch):
             if(ide in idefile):
                 print('ya existe ide del termino', termfile)
                 ide=sctmid_creator()
-                verificar(idioma, termSearch)
+                verificar(idioma, termSearch, relation)
             else:
                 ide=ide
-
+    #print(ide, termSearch)
     return(ide, termSearch)
 
 
-def resultsEurovoc(termino, idioma, relations, target):
-    print(termino, target)
+def resultsEurovoc(termino, idioma, relations, target, context, contextFile):
+    #print(termino, target)
     results=[]
-    results2=[]
     resultado=''
     relation=''
-    for relation in relations:
-        uriTermino=getUriTerm(termino, target, idioma)
-        uriRelation=getRelation(uriTermino, relation) 
-        name=getName(uriRelation, target)
-        results.append([name+'|'+uriRelation])
-    #print(results)
+    uri=getUriTerm(termino, target, idioma)
+    nameDef=getName(uri, idioma)
+    nombres=nameDef[0]
+    definiciones=nameDef[1]
+    definicionesOnly=nameDef[2]
+    d=(definicionesOnly, [])
+    maximo=wsid(termino, context, contextFile, d)
+    m=definiciones.index(maximo[0])
+    alta=nombres[m]
+    print(alta)
+    uri=getUriTerm(alta, target, idioma) 
+    for relation in relations: 
+        uriRelation=getRelation(uri, relation)
+        nameDef=getName(uriRelation, idioma)
+        nombres=nameDef[0]
+        definiciones=nameDef[1]
+        definicionesOnly=nameDef[2]
+        results.append([nombres, uriRelation, relation])
+        #print(nombres, uriRelation, relation)
     return(results)
+
+      
+    
 
 #1. funcion que obtiene la uri de cada termino
 def getUriTerm(termino,lenguaje, idioma):
     termino2='"'+termino+'"'
     lenguaje2='"'+lenguaje+'"'
     idioma2='"'+idioma+'"'
-    resultado=''
+    resultado=[]
     resultadouri=''
     url = ("http://publications.europa.eu/webapi/rdf/sparql")
     query = """
@@ -544,12 +522,13 @@ def getUriTerm(termino,lenguaje, idioma):
     {
     VALUES ?searchTerm { """+termino2+""" }
     VALUES ?searchLang { """+idioma2+""" }
-    VALUES ?relation {skos:prefLabel skos:altLabel}
+    VALUES ?relation {skos:prefLabel}
     ?c a skos:Concept .
     ?c ?relation ?label .
     filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )
     }
     """
+    #filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )
     #filter (regex(?label, "(^)"""+termino+"""($)"))
     r=requests.get(url, params={'format': 'json', 'query': query})
     results=json.loads(r.text)
@@ -560,66 +539,114 @@ def getUriTerm(termino,lenguaje, idioma):
         for result in results["results"]["bindings"]:
             resultadouri=result["c"]["value"]
             resultadol=result["label"]["value"]
-    #print(resultadouri)
-    return(resultadouri)
+            resultado.append(resultadouri)
+            
+    return(resultado)
 
 #2. funcion que recibe la uri del termino al que sele desea saber su BROADER, obtiene la uri del BROADER 
 def getRelation(uri_termino, relacion):
-    resultado=''
-    url=("http://publications.europa.eu/webapi/rdf/sparql")
-    query="""
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
-        select ?c ?label         
-        from <http://eurovoc.europa.eu/100141>        
-        where       
-        {      
-        VALUES ?c {<"""+uri_termino+"""> }
-        VALUES ?relation { skos:"""+relacion+""" } # skos:broader
-        ?c a skos:Concept .
-        ?c ?relation ?label .
-        }
- 
- 
-    """
-    r=requests.get(url, params={'format': 'json', 'query': query})
-    results=json.loads(r.text)
-    if (len(results["results"]["bindings"])==0):
-            resultado=''
-    else:
-        for result in results["results"]["bindings"]:
-            resultado=result["label"]["value"]
-        
+    resultado=[]
+    resultadoRel=''
+
+    for i in uri_termino:
+        url=("http://publications.europa.eu/webapi/rdf/sparql")
+        query="""
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+            select ?c ?label         
+            from <http://eurovoc.europa.eu/100141>        
+            where       
+            {      
+            VALUES ?c {<"""+i+"""> }
+            VALUES ?relation { skos:"""+relacion+""" } # skos:broader
+            ?c a skos:Concept .
+            ?c ?relation ?label .
+            }
+     
+     
+        """
+        r=requests.get(url, params={'format': 'json', 'query': query})
+        results=json.loads(r.text)
+        if (len(results["results"]["bindings"])==0):
+                resultadoRel=''
+        else:
+            for result in results["results"]["bindings"]:
+                resultadoRel=result["label"]["value"]
+        resultado.append(resultadoRel)
+    
     return(resultado)
 
 
 #3. funcion que recibe la uri del broader y consulta cual es el termino correspondiente
-def getName(uri_broader,lenguaje):
-    resultado=''
+def getName(uri,lenguaje):
+    defs=[]
+    defsOnly=[]
+    names=[]
+    nameUri=''
+    valor=''
+    for i in uri:
+        lenguaje2='"'+lenguaje+'"'
+        url=("http://publications.europa.eu/webapi/rdf/sparql")
+        query="""
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+            select ?c ?label 
+            from <http://eurovoc.europa.eu/100141> 
+            where 
+            {
+            VALUES ?c { <"""+i+"""> }
+            VALUES ?searchLang { """+lenguaje2+""" undef } 
+            VALUES ?relation { skos:prefLabel  } 
+            ?c a skos:Concept . 
+            ?c ?relation ?label . 
+            filter ( lang(?label)=?searchLang )
+            }
+            """
+        r=requests.get(url, params={'format': 'json', 'query': query})
+        results=json.loads(r.text)
+        if (len(results["results"]["bindings"])==0):
+                nameUri=''
+        else:
+            for result in results["results"]["bindings"]:
+                nameUri=result["label"]["value"]
+        valor=getDef( nameUri, i,lenguaje)
+        
+        defs.append(valor[1])
+        names.append(valor[0])
+        if(valor[1]!=''):
+            defsOnly.append(valor[1])
+        
+    return(names, defs, defsOnly)
+
+#3. funcion que recibe la uri del broader y consulta cual es el termino correspondiente
+def getDef( nameUri,uriRelation,lenguaje):
+    definicion=''
+    resultado=[]
+    #for i in range(len(uriRelation)):
     lenguaje2='"'+lenguaje+'"'
     url=("http://publications.europa.eu/webapi/rdf/sparql")
     query="""
-        PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
-        select ?c ?label 
-        from <http://eurovoc.europa.eu/100141> 
-        where 
-        {
-        VALUES ?c { <"""+uri_broader+"""> }
-        VALUES ?searchLang { """+lenguaje2+""" undef } 
-        VALUES ?relation { skos:prefLabel  } 
-        ?c a skos:Concept . 
-        ?c ?relation ?label . 
-        filter ( lang(?label)=?searchLang )
-        }
-        """
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+            select ?c ?label 
+            from <http://eurovoc.europa.eu/100141> 
+            where 
+            {
+            VALUES ?c { <"""+uriRelation+"""> }
+            VALUES ?searchLang { """+lenguaje2+""" undef } 
+            VALUES ?relation { skos:definition  } 
+            ?c a skos:Concept . 
+            ?c ?relation ?label . 
+            filter ( lang(?label)=?searchLang )
+            }
+            """
     r=requests.get(url, params={'format': 'json', 'query': query})
     results=json.loads(r.text)
     if (len(results["results"]["bindings"])==0):
-            resultado=''
+                definicion=''
     else:
         for result in results["results"]["bindings"]:
-            resultado=result["label"]["value"]
-           
-    return(resultado)
+            definicion=result["label"]["value"]
+    #print(nameUri, definicion)
+    return(nameUri, definicion)
+
 
 def lexicalaSearch(languageIn, term):
     search = requests.get("https://dictapi.lexicala.com/search?source=global&language="+languageIn+"&text="+term+"", auth=('987123456', '987123456'))
@@ -818,7 +845,7 @@ def crearRelaciones(relacion, retrieved_wikidata,  A):
     if(skos in retrieved_wikidata.keys()):
         relat=retrieved_wikidata[skos]
         cambio=''.join(A)
-        verify=verificar(idioma,  cambio)
+        verify=verificar(idioma,  cambio, relacion)
         ideB=verify[0]
         termSearchB=verify[1]
         #print(ideB, termSearchB)
@@ -945,10 +972,7 @@ else:
     lista.append(read)
     jsonlist=haceJson(lista, idioma,targets)
     resultsIate( jsonlist, idioma, targets,context, contextFile, lista)
-    
-#FILE
-#python3 iate_wsid.py --sourceFile term_es --lang es --targets "es en de nl" --contextFile contextos_salida iate
-#term_es = nombre de mi archivo sin extension [solo lee archivos .csv], contextos_salida es el archivo de mis contextos en español [solo lee archivos .csv, con el formato que esta este]
+
 #TERM
-#python3 iate_wsid.py --sourceTerm término --lang es --targets "es en de nl" --contextFile contextos_salida iate
+#python3 all.py --sourceTerm término --lang es --targets "es en de nl"
 
