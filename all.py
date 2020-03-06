@@ -20,7 +20,7 @@ def leerContextos(lang):
     "es": "contexts/Spain-judgements-ES.ttl",
     "en": "contexts/UK-judgements-EN.ttl",
     "nl": "contexts/Austria-collectiveagreements-DE.ttl",
-    "de": "contexts/Austria-legislation-DE.ttl"
+    "de": "contexts/contracts_de.ttl"
     
     }
     
@@ -111,12 +111,8 @@ def obtenerToken():
 def haceJson(lista, idioma,targets):
     answer=[]
     auth_token=obtenerToken() 
-    for i in lista[0]:
-        if(i[:-1]=='\n'):
-            termino=i[:-1]
-        else:
-            termino=i
-
+    for i in lista:
+        termino=i
         hed = {'Authorization': 'Bearer ' +auth_token}
         jsonList=[]
         data = {"query": termino,
@@ -186,7 +182,7 @@ def getIate(target, item,leng,termSearch):
 
 
 #funcion que introduce todo en un csv 
-def resultsIate(jsonlist, idioma, targets, context, contextFile, lista):
+def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid):
     data=json.loads(jsonlist)
     resultado=''
     results=[]
@@ -235,36 +231,43 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista):
                 bloq=bloq+1
             
             d=(definicion_in,[])
-            if(context):
+            if(wsid=='si'):
                 maximo=wsid(termSearch[cont],  context, contextFile,  d)
-
-            elif(contextFile):
-                file=open(contextFile+'.csv', 'r')
-                contextFile=csv.reader(file)
-                maximo=wsid(termSearch[cont],  context, contextFile,  d)
-            else:
-                contextFile=leerContextos(idioma)
-                maximo=wsid(termSearch[cont],  context, contextFile,  d)
+                print(maximo)
                 relations=['broader', 'narrower', 'related']
-                euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile)
-            #print(maximo)termino, idioma, relations, target
-            m=definicion.index(maximo[0])
-            b=lbloq[m]
-            for j in range(len(lbloq)):
-                if(str(b) in prefLabel[j][-1:]):
+                euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile, wsid)
+                #print(maximo)termino, idioma, relations, target
+                m=definicion.index(maximo[0])
+                b=lbloq[m]
+                for j in range(len(lbloq)):
+                    if(str(b) in prefLabel[j][-1:]):
+                        pref.append(prefLabel[j][:-2])
+                        alt.append(synonyms[j][:-2])
+                        defi.append(definicion2[j][:-2])
+                        tar.append(lang[j][:-1])
+                        iate.append(iateIde[j][:-2])
+                        #euro.append(eurovoc[j])
+                lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile)
+                fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala)
+            else:
+                #print('sin desambiguacion',termSearch[cont] )
+                relations=['broader', 'narrower', 'related']
+                euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile, wsid)
+                
+                for j in range(len(lbloq)):
                     pref.append(prefLabel[j][:-2])
                     alt.append(synonyms[j][:-2])
                     defi.append(definicion2[j][:-2])
                     tar.append(lang[j][:-1])
                     iate.append(iateIde[j][:-2])
-                    #euro.append(eurovoc[j])
-            
-            
-            lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile)
-            fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala)
-            
+
+
+                lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile)
+                fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala)
+
             
         cont=cont+1;
+
 
 def wsid(termIn, context, contextFile,  definitions):
     #print('-----',termIn, context, contextFile,  definitions)
@@ -328,6 +331,12 @@ def wsid(termIn, context, contextFile,  definitions):
                     max_item = max(pesos, key=int)
                     posMax=pesos.index(max_item)
                     defiMax=listdef[posMax]
+                    
+                    if(len(listdef)>0):
+                        defiMax=listdef[posMax]
+                    else:
+                        defiMax=''
+
                     if(len(listIde)>0):
                         idMax=listIde[posMax]
                     else:
@@ -366,16 +375,6 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
         data['skos:altLabel']=[]
         data['skos:definition']=[]
         
-        br=eurovoc[0][0]
-        na=eurovoc[1][0]
-        re=eurovoc[2][0]
-        
-        if(br!=''):
-            data['skos:broader']=[]
-        if(na!=''):
-            data['skos:narrower']=[]
-        if(re!=''):
-            data['skos:related']=[]
         
         for i in range(len(prefLabel)):
             if(lang[i][:-1]==idioma):
@@ -402,7 +401,17 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
             if(definition[i]!=''):
                 data['skos:definition'].append({'@language':lang[i][:-1], '@value':definition[i]})
 
-        
+      
+        br=eurovoc[0][0][0]
+        na=eurovoc[1][0][0]
+        re=eurovoc[2][0][0]
+        if(br!=''):
+            data['skos:broader']=[]
+        if(na!=''):
+            data['skos:narrower']=[]
+        if(re!=''):
+            data['skos:related']=[]
+
         for i in eurovoc:
             relationsEurovoc(i[0], i[1], idioma,data, i[2] )
             
@@ -422,15 +431,13 @@ def relationsEurovoc(relationList, uriList, idioma,data, relationEuro):
                 os.makedirs(idioma+"/"+relationEuro)
             
             verify=verificar(idioma,  relation, relationEuro)
-            #print(verify)
             ide=verify[0]
             termSearch=verify[1]
             if(ide!='' and termSearch!=''):
                 if('skos:'+relationEuro in data.keys()):
                     data['skos:'+relationEuro].append(ide)
                     dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma)
-                    
-                    
+
                     with open(idioma+'/'+relationEuro+'/'+termSearch+'_'+ide+'.json', 'w') as file:
                         json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
                    
@@ -477,30 +484,49 @@ def verificar(idioma,  termSearch, relation):
     return(ide, termSearch)
 
 
-def resultsEurovoc(termino, idioma, relations, target, context, contextFile):
-    #print(termino, target)
+def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsid):
+   
     results=[]
     resultado=''
     relation=''
     uri=getUriTerm(termino, target, idioma)
-    nameDef=getName(uri, idioma)
-    nombres=nameDef[0]
-    definiciones=nameDef[1]
-    definicionesOnly=nameDef[2]
-    d=(definicionesOnly, [])
-    maximo=wsid(termino, context, contextFile, d)
-    m=definiciones.index(maximo[0])
-    alta=nombres[m]
-    print(alta)
-    uri=getUriTerm(alta, target, idioma) 
-    for relation in relations: 
-        uriRelation=getRelation(uri, relation)
-        nameDef=getName(uriRelation, idioma)
+    #print(uri)
+    if(len(uri)>0):
+        nameDef=getName(uri, idioma)
         nombres=nameDef[0]
         definiciones=nameDef[1]
         definicionesOnly=nameDef[2]
-        results.append([nombres, uriRelation, relation])
-        #print(nombres, uriRelation, relation)
+        d=(definicionesOnly, [])
+        if(wsid=='si'):
+            maximo=wsid(termino, context, contextFile, d)
+            m=definiciones.index(maximo[0])
+            alta=nombres[m]
+            print(alta)
+            uri=getUriTerm(alta, target, idioma) 
+            for relation in relations: 
+                uriRelation=getRelation(uri, relation)
+                nameDef=getName(uriRelation, idioma)
+                nombres=nameDef[0]
+                definiciones=nameDef[1]
+                definicionesOnly=nameDef[2]
+                results.append([nombres, uriRelation, relation])
+                #print(nombres, uriRelation, relation)
+        else:
+            uri=getUriTerm(termino, target, idioma) 
+            for relation in relations: 
+                uriRelation=getRelation(uri, relation)
+                nameDef=getName(uriRelation, idioma)
+                nombres=nameDef[0]
+                definiciones=nameDef[1]
+                definicionesOnly=nameDef[2]
+                results.append([nombres, uriRelation, relation])
+
+          
+
+    else:
+        for relation in relations: 
+            results.append([[''], [''], relation])
+    #print(results)
     return(results)
 
       
@@ -522,7 +548,7 @@ def getUriTerm(termino,lenguaje, idioma):
     {
     VALUES ?searchTerm { """+termino2+""" }
     VALUES ?searchLang { """+idioma2+""" }
-    VALUES ?relation {skos:prefLabel}
+    VALUES ?relation {skos:prefLabel skos:altLabel}
     ?c a skos:Concept .
     ?c ?relation ?label .
     filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )
@@ -659,22 +685,30 @@ def lexicalaSense(maximo):
     return(answerSense)
 
 def resultsSyns(idioma,termino,targets,context, contextFile): 
-    
+    tradMax=[]
+    getsyn=''
     if(termino):
         answer=lexicalaSearch(idioma, termino)
-        results=answer['n_results']
-        if(results>0):
-            definitions=definitionGet(answer)
-            #print(termino,context, contextFile, definitions)
-            maximo=wsid(termino,context, contextFile, definitions)
-            if(maximo[1]!=''):
-                tradMax=traductionGet(maximo, targets)
-                synsTrad=justSyn(tradMax)
-                getsyn=synonymsGet(maximo)
-            else:
-                getsyn=''
-                tradMax=[]
-            #print(termino, maximo[0], maximo[1], getsyn, tradMax, synsTrad)
+        if('n_results' in answer):
+            results=answer['n_results']
+            if(results>0):
+                definitions=definitionGet(answer)
+                if(wsid=='si'):
+                    maximo=wsid(termino,context, contextFile, definitions)
+                    if(maximo[1]!=''):
+                        tradMax=traductionGet(maximo, targets)
+                        synsTrad=justSyn(tradMax)
+                        getsyn=synonymsGet(maximo)
+                    else:
+                        getsyn=''
+                        tradMax=[]
+                else:
+                    maximo=(termino, '')
+                    tradMax=traductionGet(maximo, targets)
+                    synsTrad=justSyn(tradMax)
+                    getsyn=synonymsGet(maximo)
+
+                #print(termino, maximo[0], maximo[1], getsyn, tradMax, synsTrad)
     return(getsyn, tradMax)
 
 def justSyn(tradMax):
@@ -948,6 +982,7 @@ parser.add_argument("--lang", help="Source language")
 parser.add_argument("--targets", help="Source language out")
 parser.add_argument("--context", help="Contexto")
 parser.add_argument("--contextFile", help="Archivo de contextos")
+parser.add_argument("--wsid", help="")
 #parser.add_argument("apiName", help="Name of the api: 'iate', 'eurovoc' or 'syns'") 
 args=parser.parse_args()
 
@@ -959,20 +994,54 @@ idioma=args.lang
 targets=args.targets.split(' ')
 context=args.context
 contextFile=args.contextFile
+wsid=args.wsid
 if(termino):
     lista=[]
-    lista.append([termino+'\n'])
+    lista.append(termino)
+    #print(lista)
     jsonlist=haceJson(lista, idioma,targets)
+    if(context):
+        context=context
+
+    elif(contextFile):
+        file=open(contextFile+'.csv', 'r')
+        contextFile=csv.reader(file)
+    else:
+        contextFile=leerContextos(idioma)
     resultsIate( jsonlist, idioma, targets,context, contextFile, lista)
     
 else:
+    if(context):
+        context=context
+
+    elif(contextFile):
+        file=open(contextFile+'.csv', 'r')
+        contextFile=csv.reader(file)
+    else:
+        contextFile=leerContextos(idioma)
     lista=[]
     file=open(listTerm+'.csv', 'r')
-    read=file.readlines()
-    lista.append(read)
-    jsonlist=haceJson(lista, idioma,targets)
-    resultsIate( jsonlist, idioma, targets,context, contextFile, lista)
-
+    read=csv.reader(file)
+    for i in read:
+        lista.append(i[0])
+    ini=0
+    fin=200
+    tam=len(lista)
+    if(tam>200):
+        while(fin<tam):
+            lista1=[]
+            lista1=lista[ini:fin]
+            
+            print(lista1, ini, fin)
+            jsonlist=haceJson(lista1, idioma,targets)
+            resultsIate( jsonlist, idioma, targets,context, contextFile, lista1, wsid)
+            time.sleep(10)
+            ini=ini+200
+            fin=fin+200
+    else:
+        jsonlist=haceJson(lista, idioma,targets)
+        resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid)
+            
 #TERM
 #python3 all.py --sourceTerm término --lang es --targets "es en de nl"
 
