@@ -59,7 +59,7 @@ if __name__ == '__main__':
                         help="Use flask debug/dev mode with file change reloading")
     ARGS = PARSER.parse_args()
 
-    PORT = int(os.environ.get('PORT', 5000))
+    PORT = int(os.environ.get('PORT', 80))
 
     if ARGS.debug:
         print("Running in debug mode")
