@@ -1,0 +1,197 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4524238",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bauwerk",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1667830",
+    "skos:topConceptOf": "LT4524238",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "building"
+        },
+        {
+            "@language": "de",
+            "@value": "bauwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "bouw"
+        },
+        {
+            "@language": "es",
+            "@value": "obra"
+        },
+        {
+            "@language": "en",
+            "@value": "work"
+        },
+        {
+            "@language": "de",
+            "@value": "bauwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "werk"
+        },
+        {
+            "@language": "es",
+            "@value": "estructura edificada"
+        },
+        {
+            "@language": "en",
+            "@value": "built structure"
+        },
+        {
+            "@language": "de",
+            "@value": "bauwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "constructie"
+        },
+        {
+            "@language": "es",
+            "@value": "obra gruesa"
+        },
+        {
+            "@language": "de",
+            "@value": "bauwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "bouwwerk"
+        },
+        {
+            "@language": "es",
+            "@value": "obra"
+        },
+        {
+            "@language": "en",
+            "@value": "work"
+        },
+        {
+            "@language": "de",
+            "@value": "bauwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "werk"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " construction"
+        },
+        {
+            "@language": "de",
+            "@value": " Bauwerk"
+        },
+        {
+            "@language": "de",
+            "@value": " Gebäude"
+        },
+        {
+            "@language": "de",
+            "@value": " Erbauung"
+        },
+        {
+            "@language": "nl",
+            "@value": " constructie"
+        },
+        {
+            "@language": "nl",
+            "@value": " bouwwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": " bouwstructuur"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "el resultado de un conjunto de obras de construcción o de ingeniería civil destinada a cumplir por si misma una función económica o técnica"
+        },
+        {
+            "@language": "en",
+            "@value": "the outcome of building or civil engineering works taken as a whole that is sufficient of itself to fulfil an economic or technical function"
+        },
+        {
+            "@language": "de",
+            "@value": "das Ergebnis einer Gesamtheit von Tief-oder Hochbauarbeiten das seinem Wesen nach eine wirtschaftliche oder technische Funktion erfüllen soll"
+        },
+        {
+            "@language": "nl",
+            "@value": "het produkt van bouw-dan wel wegenbouwkundige werken in hun geheel dat er toe bestemd is als zodanig een economische of technische functie te vervullen"
+        },
+        {
+            "@language": "en",
+            "@value": "1.Any structure made of stone bricks wood concrete or steel built with a roof and walls such as a house or factory."
+        },
+        {
+            "@language": "es",
+            "@value": "construcción de cimientos muros forjados y otros elementos estructurales"
+        },
+        {
+            "@language": "nl",
+            "@value": "elke constructie van enige omvang van hout steen metaal of ander materiaal die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is of indirect steun vindt in of op de grond"
+        },
+        {
+            "@language": "es",
+            "@value": "---"
+        },
+        {
+            "@language": "en",
+            "@value": "---"
+        },
+        {
+            "@language": "de",
+            "@value": "das Ergebnis einer Gesamtheit von Hoch-und Tiefbauarbeiten und erfüllt als solcher eine wirtschaftliche oder technische Funktion"
+        },
+        {
+            "@language": "nl",
+            "@value": "(hier:)het produkt van bouw-dan wel van wegebouwkundige werken in hun geheel dat als zodanig volstaat om voor de gebruiker een economische en technische functie te vervullen"
+        }
+    ],
+    "skos:broader": [
+        "LT2993902",
+        "LT6279776"
+    ],
+    "skos:narrower": [
+        "LT9786078"
+    ],
+    "skos:related": [
+        "LT5845247"
+    ]
+}

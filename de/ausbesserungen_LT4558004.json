@@ -1,0 +1,126 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4558004",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ausbesserungen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1132797",
+    "skos:topConceptOf": "LT4558004",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "tenant's repair"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbesserungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "herstelling ten laste van de huurder"
+        },
+        {
+            "@language": "es",
+            "@value": "las reparaciones y el parcheo destinados a enmascarar defectos estan prohibidos"
+        },
+        {
+            "@language": "en",
+            "@value": "repairs and caulking intended to cover up defects are forbidden"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbesserungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "herstellen en dichthameren om foutieve plaatsen aan het oog te onttrekken is verboden"
+        },
+        {
+            "@language": "en",
+            "@value": "repair"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbesserungen"
+        },
+        {
+            "@language": "es",
+            "@value": "zurcido"
+        },
+        {
+            "@language": "en",
+            "@value": "mending"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbesserungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "herstellen"
+        },
+        {
+            "@language": "es",
+            "@value": "alisado"
+        },
+        {
+            "@language": "en",
+            "@value": "making good"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbesserungen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " tenantable repair"
+        },
+        {
+            "@language": "de",
+            "@value": " Wiederinstandsetzungskosten für die Wohnung nach Ablauf des Mietvertrags"
+        },
+        {
+            "@language": "nl",
+            "@value": " reparatie waartoe de huurder verplicht is"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausbesserung"
+        },
+        {
+            "@language": "nl",
+            "@value": " repareren"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

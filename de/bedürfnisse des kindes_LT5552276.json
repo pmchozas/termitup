@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5552276",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bedürfnisse des kindes",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1111201",
+    "skos:topConceptOf": "LT5552276",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "programa de integración de niños con problemas específicos"
+        },
+        {
+            "@language": "en",
+            "@value": "programme for the integration of children with special needs"
+        },
+        {
+            "@language": "de",
+            "@value": "bedürfnisse des kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "programma voor inpassing van kinderen met speciale behoeften"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

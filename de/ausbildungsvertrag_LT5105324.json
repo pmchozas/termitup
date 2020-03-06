@@ -1,0 +1,139 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5105324",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ausbildungsvertrag",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1391708",
+    "skos:topConceptOf": "LT5105324",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "contrato de trabajo de formación"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbildungsvertrag"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato para la formación"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbildungsvertrag"
+        },
+        {
+            "@language": "en",
+            "@value": "apprenticeship contract"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbildungsvertrag"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de trabajo de formación"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbildungsvertrag"
+        },
+        {
+            "@language": "es",
+            "@value": "convenio empleo-formación"
+        },
+        {
+            "@language": "en",
+            "@value": "employment-training agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "ausbildungsvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "arbeidsovereenkomst opleiding"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Ausbildungsvertrag"
+        },
+        {
+            "@language": "es",
+            "@value": " contrato de trabajo de formación"
+        },
+        {
+            "@language": "es",
+            "@value": " contrato para la formación en el trabajo"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausbildungsvertrag"
+        },
+        {
+            "@language": "en",
+            "@value": " training contract"
+        },
+        {
+            "@language": "en",
+            "@value": " apprenticeship agreement"
+        },
+        {
+            "@language": "de",
+            "@value": " Lehrvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": " leer-en arbeidsovereenkomst"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "ein Vertrag ueber eine berufliche Ausbildung der die sachliche und zeitliche Gliederung der Ausbildung und ihr Ziel den Beginn vorgesehene Massnahmen auserhalb der Ausbildungsstaette die Dauer der gesamten und der taeglichen Ausbildungszeit und der Probezeit die Verguetung den Urlaub und die Kuendigung vorsehen muss"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertrag durch welchen sich der Ausbildende dazu verpflichtet dem Auszubildenden die erforderlichen Berufskenntnisse und Faehigkeiten in der vorgesehenen Zeit zu vermitteln"
+        },
+        {
+            "@language": "en",
+            "@value": "1.a particular type of employment contract drawn up between an employer and an apprentice or between a training organisation and an apprentice. The employer undertakes to employ the trainee and to train him/her systematically for a trade or occupation. The apprentice commits himself/herself to work for the employer for the duration of the contract and to attend the training in enterprise and at apprentice training centres."
+        },
+        {
+            "@language": "de",
+            "@value": "1.der Ausbildungsvertrag im Handwerk heißt Lehrvertrag"
+        }
+    ]
+}

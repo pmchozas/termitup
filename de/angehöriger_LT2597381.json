@@ -1,0 +1,138 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2597381",
+    "@type": "skos:Concept",
+    "skos:inScheme": "angehöriger",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583451",
+    "skos:topConceptOf": "LT2597381",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "miembro de la familia"
+        },
+        {
+            "@language": "en",
+            "@value": "family member"
+        },
+        {
+            "@language": "de",
+            "@value": "angehöriger"
+        },
+        {
+            "@language": "nl",
+            "@value": "familielid"
+        },
+        {
+            "@language": "de",
+            "@value": "angehöriger"
+        },
+        {
+            "@language": "es",
+            "@value": "pariente"
+        },
+        {
+            "@language": "en",
+            "@value": "relative"
+        },
+        {
+            "@language": "de",
+            "@value": "angehöriger"
+        },
+        {
+            "@language": "nl",
+            "@value": "nabestaande"
+        },
+        {
+            "@language": "en",
+            "@value": "carer"
+        },
+        {
+            "@language": "de",
+            "@value": "angehöriger"
+        },
+        {
+            "@language": "de",
+            "@value": "angehöriger"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " familiar"
+        },
+        {
+            "@language": "de",
+            "@value": " Angehöriger"
+        },
+        {
+            "@language": "de",
+            "@value": " Familienmitglied"
+        },
+        {
+            "@language": "nl",
+            "@value": " lid van de familie in ruimere zin"
+        },
+        {
+            "@language": "nl",
+            "@value": " gezinslid"
+        },
+        {
+            "@language": "de",
+            "@value": " Angehöriger"
+        },
+        {
+            "@language": "de",
+            "@value": " Angehöriger eines Berufsstands"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "Voor de doelstellingen van het vrij verkeer en verblijf binnen de Unie worden als familielid aangemerkt: a) de echtgenoot; b) de partner met wie de burger van de Unie overeenkomstig de wetgeving van een lidstaat een geregistreerd partnerschap heeft gesloten voorzover de wetgeving van het gastland geregistreerd partnerschap gelijk stelt met huwelijk en aan de voorwaarden van de wetgeving van het gastland is voldaan; c) de rechtstreekse bloedverwanten in neergaande lijn alsmede die van de echtgenoot of partner als bedoeld onder b) beneden de leeftijd van 21 jaar of die te hunnen laste zijn; d) de rechtstreekse bloedverwanten in opgaande lijn alsmede die van de echtgenoot of partner als bedoeld onder b) die te hunnen laste zijn"
+        },
+        {
+            "@language": "en",
+            "@value": "worker providing personal care or support to a person who is a relative of the worker or lives in the same household as the worker and who is in need of significant care or support for a serious medical reason"
+        },
+        {
+            "@language": "de",
+            "@value": "Arbeitnehmer der einen Angehörigen oder eine im gleichen Haushalt wie der Arbeitnehmer lebende Person der bzw. die aus schwerwiegenden medizinischen Gründen gemäß der Definition in jedem Mitgliedstaat auf erhebliche Pflege oder Unterstützung angewiesen ist pflegt oder unterstützt"
+        }
+    ],
+    "skos:broader": [
+        "LT3626087",
+        "LT8720789",
+        "LT2655084",
+        "LT8690905",
+        "LT9373234"
+    ]
+}

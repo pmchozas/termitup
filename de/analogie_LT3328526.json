@@ -1,0 +1,121 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3328526",
+    "@type": "skos:Concept",
+    "skos:inScheme": "analogie",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1684396",
+    "skos:topConceptOf": "LT3328526",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "analogía"
+        },
+        {
+            "@language": "en",
+            "@value": "analogy"
+        },
+        {
+            "@language": "de",
+            "@value": "analogie"
+        },
+        {
+            "@language": "nl",
+            "@value": "analogie"
+        },
+        {
+            "@language": "de",
+            "@value": "analogie"
+        },
+        {
+            "@language": "en",
+            "@value": "hydrodynamic analogy"
+        },
+        {
+            "@language": "de",
+            "@value": "analogie"
+        },
+        {
+            "@language": "en",
+            "@value": "soap-film analogy"
+        },
+        {
+            "@language": "de",
+            "@value": "analogie"
+        },
+        {
+            "@language": "en",
+            "@value": "lattice analogy method"
+        },
+        {
+            "@language": "de",
+            "@value": "analogie"
+        },
+        {
+            "@language": "nl",
+            "@value": "berekeningswijze volgens vakwerkanalogie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "in experimental stress analysisthe evaluation of stresses by analogy with ideal and viscous incompressible fluids"
+        },
+        {
+            "@language": "de",
+            "@value": "bei einer experimentellen Spannungsanalyse die Berechnung der Spannungen mittels der Analogie zu idealen und viskosen inkompressiblen Flüssigkeiten"
+        },
+        {
+            "@language": "en",
+            "@value": "one of the possible forms of membrane analogy"
+        },
+        {
+            "@language": "de",
+            "@value": "eine der möglichen Formen der Membran-Analogie"
+        },
+        {
+            "@language": "en",
+            "@value": "a three-dimensional method of analysing stresses in a dam by considering it a frame consisting of diagonally braced squares"
+        },
+        {
+            "@language": "de",
+            "@value": "ein dreidimensionales Verfahren der Analyse von Kraeften in einer Sperre wobei sie als Rahmenwerk aus diagonal ausgesteiften Vierecken betrachtet wird"
+        }
+    ],
+    "skos:broader": [
+        "LT9456989"
+    ],
+    "skos:related": [
+        "LT3207589"
+    ]
+}

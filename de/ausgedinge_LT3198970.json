@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3198970",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ausgedinge",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1899235",
+    "skos:topConceptOf": "LT3198970",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "retirement"
+        },
+        {
+            "@language": "de",
+            "@value": "ausgedinge"
+        },
+        {
+            "@language": "nl",
+            "@value": "geheel van rechten die een bejaarde boer voor de verdere duur van zijn leven bedingt bij de overdracht van zijn landbouwbedrijf aan zijn opvolger, o.a.vruchtgebruik, recht van gebruik e n bewoning"
+        },
+        {
+            "@language": "de",
+            "@value": "ausgedinge"
+        },
+        {
+            "@language": "en",
+            "@value": "settlement on retirement"
+        },
+        {
+            "@language": "de",
+            "@value": "ausgedinge"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " settlement on retirement"
+        },
+        {
+            "@language": "en",
+            "@value": " provision for retired farmers"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausnahme"
+        },
+        {
+            "@language": "de",
+            "@value": " Altenteil"
+        },
+        {
+            "@language": "de",
+            "@value": " Austrag"
+        },
+        {
+            "@language": "de",
+            "@value": " Auszug"
+        },
+        {
+            "@language": "de",
+            "@value": " Altvaterrecht"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausnahme"
+        },
+        {
+            "@language": "de",
+            "@value": " Austrag"
+        },
+        {
+            "@language": "en",
+            "@value": " provision for retired farmers"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausnahme"
+        },
+        {
+            "@language": "de",
+            "@value": " Altenteil"
+        },
+        {
+            "@language": "de",
+            "@value": " Austrag"
+        },
+        {
+            "@language": "de",
+            "@value": " Auszug"
+        },
+        {
+            "@language": "de",
+            "@value": " Altvaterrecht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "rechtlich gesicherte Leistungen auf Lebenszeit an den Bauern der seinen Hof dem Nachfolger uebergibt (Wohnung Naturalleistungen)"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht des Altbauern auf Wohnung Unterhalt und Fürsorge nach Übergabe des Hofes"
+        }
+    ]
+}

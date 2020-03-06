@@ -1,0 +1,131 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5047110",
+    "@type": "skos:Concept",
+    "skos:inScheme": "auflösung der ehe",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583437",
+    "skos:topConceptOf": "LT5047110",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "disolución del matrimonio"
+        },
+        {
+            "@language": "en",
+            "@value": "dissolution of marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "auflösung der ehe"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontbinding van het huwelijk"
+        },
+        {
+            "@language": "en",
+            "@value": "Divorce(Conflict of Laws)Act"
+        },
+        {
+            "@language": "de",
+            "@value": "auflösung der ehe"
+        },
+        {
+            "@language": "nl",
+            "@value": "Wet conflictenrecht echtscheiding"
+        },
+        {
+            "@language": "es",
+            "@value": "disolución de una unión no matrimonial"
+        },
+        {
+            "@language": "en",
+            "@value": "dissolution of a relationship other than marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "auflösung der ehe"
+        },
+        {
+            "@language": "nl",
+            "@value": "beëindiging ongehuwd samenwonen"
+        },
+        {
+            "@language": "en",
+            "@value": "actions relating to divorce, separation and annulment of marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "auflösung der ehe"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Auflösung der Ehe"
+        },
+        {
+            "@language": "en",
+            "@value": " Act regulating the conflict of laws relating to divorce and judicial separation and the recognition thereof"
+        },
+        {
+            "@language": "nl",
+            "@value": " Wet houdende regeling van het conflictenrecht inzake ontbinding van het huwelijk en scheiding van tafel en bed en de erkenning daarvan"
+        },
+        {
+            "@language": "es",
+            "@value": " fin de una unión no matrimonial"
+        },
+        {
+            "@language": "nl",
+            "@value": " beëindiging van de samenleving van ongehuwden"
+        },
+        {
+            "@language": "nl",
+            "@value": " ontbinding van een samenlevingsvorm zonder huwelijk"
+        },
+        {
+            "@language": "de",
+            "@value": " Anträge auf Ehescheidung, Trennung ohne Auflösung des Ehebandes oder Ungültigerklärung einer Ehe"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "Het huwelijk wordt ontbonden door ofwel het overlijden van een van de echtgenoten ofwel door een echtscheiding. Ontbinding betekent dat het huwelijk voor de toekomst (ex nunc) ongedaan wordt gemaakt. [BE] / Beëindiging van het huwelijk door de dood door vermissing door echtscheiding en na scheiding van tafel en bed [NL]"
+        },
+        {
+            "@language": "de",
+            "@value": "Brockhaus Internationales Privatrecht"
+        }
+    ]
+}

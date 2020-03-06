@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2478573",
+    "@type": "skos:Concept",
+    "skos:inScheme": "badeanstalten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1715797",
+    "skos:topConceptOf": "LT2478573",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "Consultative Committee on public baths and swimming pools"
+        },
+        {
+            "@language": "de",
+            "@value": "badeanstalten"
+        },
+        {
+            "@language": "nl",
+            "@value": "Adviesorgaan voor bad- en zweminrichtingen"
+        },
+        {
+            "@language": "es",
+            "@value": "baño público"
+        },
+        {
+            "@language": "en",
+            "@value": "public bath"
+        },
+        {
+            "@language": "de",
+            "@value": "badeanstalten"
+        },
+        {
+            "@language": "nl",
+            "@value": "openbaar bad"
+        },
+        {
+            "@language": "es",
+            "@value": "piscina flotante"
+        },
+        {
+            "@language": "en",
+            "@value": "floating swimming pool"
+        },
+        {
+            "@language": "de",
+            "@value": "badeanstalten"
+        },
+        {
+            "@language": "nl",
+            "@value": "drijvende zweminrichting"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.A place having baths for public use."
+        }
+    ]
+}

@@ -232,7 +232,7 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid):
             
             d=(definicion_in,[])
             if(wsid=='si'):
-                maximo=wsid(termSearch[cont],  context, contextFile,  d)
+                maximo=wsidFunction(termSearch[cont],  context, contextFile,  d)
                 print(maximo)
                 relations=['broader', 'narrower', 'related']
                 euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile, wsid)
@@ -269,7 +269,7 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid):
         cont=cont+1;
 
 
-def wsid(termIn, context, contextFile,  definitions):
+def wsidFunction(termIn, context, contextFile,  definitions):
     #print('-----',termIn, context, contextFile,  definitions)
     defiMax=''
     idMax=''
@@ -369,7 +369,7 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
     if(termSearch!=''):
         data={}
         data={'@context':'','@id': ide, '@type':'skos:Concept', 'skos:inScheme': termSearch, "owl:sameAs":"https://iate.europa.eu/entry/result/"+iate[0],'skos:topConceptOf':ide, 'skos:prefLabel':'' }
-        data['@context']={"dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        data['@context']={"@base":"http://lynx-project.eu/kos/", "dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "dc":"http://purl.org/dc/elements/1.1/","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","skos:broader":{ '@type':'@id'},"skos:inScheme":{ '@type':'@id'},'skos:related':{ '@type':'@id'},'skos:narrower':{ '@type':'@id'},'skos:hasTopConcept':{ '@type':'@id'},'skos:topConceptOf':{ '@type':'@id'}}
         data['skos:prefLabel']=[]
         data['skos:altLabel']=[]
@@ -379,27 +379,27 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
         for i in range(len(prefLabel)):
             if(lang[i][:-1]==idioma):
                 if(prefLabel[i]!=''):
-                    data['skos:prefLabel'].append({'@language':lang[i][:-1], '@value':termSearch})
+                    data['skos:prefLabel'].append({'@language':lang[i][:-1], '@value':termSearch.strip(' ')})
             else:
                 if(prefLabel[i]!=''):
-                    data['skos:prefLabel'].append({'@language':lang[i][:-1], '@value':prefLabel[i]})
+                    data['skos:prefLabel'].append({'@language':lang[i][:-1], '@value':prefLabel[i].strip(' ')})
         for i in range(len(altLabel)):
             if(altLabel[i]!=''):
                 s_alt=altLabel[i].split('|')
                 for j in s_alt:
                     if(j != prefLabel[i] and j!=''):
-                        data['skos:altLabel'].append({'@language':lang[i][:-1], '@value':j})
+                        data['skos:altLabel'].append({'@language':lang[i][:-1], '@value':j.strip(' ')})
         
-        data['skos:altLabel'].append({'@language':idioma, '@value':lexicala[0]})
+        data['skos:altLabel'].append({'@language':idioma, '@value':lexicala[0].strip(' ')})
         
         #print(lexicala[1])
         for i in lexicala[1]:
             s_lex=i.split(',')
-            data['skos:altLabel'].append({'@language':s_lex[1], '@value':s_lex[0]})
+            data['skos:altLabel'].append({'@language':s_lex[1], '@value':s_lex[0].strip(' ')})
         
         for i in range(len(definition)):
             if(definition[i]!=''):
-                data['skos:definition'].append({'@language':lang[i][:-1], '@value':definition[i]})
+                data['skos:definition'].append({'@language':lang[i][:-1], '@value':definition[i].strip(' ')})
 
       
         br=eurovoc[0][0][0]
@@ -451,7 +451,7 @@ def fileEurovoc(termSearch, ide, relation, iduri, idioma):
     #print(relation[0])
     data={}
     data={'@context':'','@id': ide, '@type':'skos:Concept', 'skos:inScheme': termSearch, 'skos:topConceptOf':ide,"owl:sameAs":iduri, 'skos:prefLabel':'' }
-    data['@context']={"dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    data['@context']={"@base":"http://lynx-project.eu/kos/","dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "dc":"http://purl.org/dc/elements/1.1/","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","skos:broader":{ '@type':'@id'},"skos:inScheme":{ '@type':'@id'},'skos:related':{ '@type':'@id'},'skos:narrower':{ '@type':'@id'},'skos:hasTopConcept':{ '@type':'@id'},'skos:topConceptOf':{ '@type':'@id'}}
     data['skos:prefLabel']=[]
     if(relation!=''):
@@ -498,7 +498,7 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
         definicionesOnly=nameDef[2]
         d=(definicionesOnly, [])
         if(wsid=='si'):
-            maximo=wsid(termino, context, contextFile, d)
+            maximo=wsidFunction(termino, context, contextFile, d)
             m=definiciones.index(maximo[0])
             alta=nombres[m]
             print(alta)
@@ -692,7 +692,7 @@ def resultsSyns(idioma,termino,targets,context, contextFile):
             if(results>0):
                 definitions=definitionGet(answer)
                 if(wsid=='si'):
-                    maximo=wsid(termino,context, contextFile, definitions)
+                    maximo=wsidFunction(termino,context, contextFile, definitions)
                     if(maximo[1]!=''):
                         tradMax=traductionGet(maximo, targets)
                         synsTrad=justSyn(tradMax)
@@ -981,11 +981,8 @@ parser.add_argument("--targets", help="Source language out")
 parser.add_argument("--context", help="Contexto")
 parser.add_argument("--contextFile", help="Archivo de contextos")
 parser.add_argument("--wsid", help="")
-#parser.add_argument("apiName", help="Name of the api: 'iate', 'eurovoc' or 'syns'") 
 args=parser.parse_args()
 
-#nameapi=args.apiName
-#if(nameapi=='iate'):
 termino=args.sourceTerm
 listTerm=args.sourceFile
 idioma=args.lang
@@ -996,7 +993,6 @@ wsid=args.wsid
 if(termino):
     lista=[]
     lista.append(termino)
-    #print(lista)
     jsonlist=haceJson(lista, idioma,targets)
     if(context):
         context=context

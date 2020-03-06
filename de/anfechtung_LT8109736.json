@@ -1,0 +1,140 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8109736",
+    "@type": "skos:Concept",
+    "skos:inScheme": "anfechtung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/927146",
+    "skos:topConceptOf": "LT8109736",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "anulación"
+        },
+        {
+            "@language": "en",
+            "@value": "avoidance"
+        },
+        {
+            "@language": "de",
+            "@value": "anfechtung"
+        },
+        {
+            "@language": "nl",
+            "@value": "nietigheid"
+        },
+        {
+            "@language": "es",
+            "@value": "apelación"
+        },
+        {
+            "@language": "en",
+            "@value": "appeal"
+        },
+        {
+            "@language": "de",
+            "@value": "anfechtung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beroep"
+        },
+        {
+            "@language": "es",
+            "@value": "contestación"
+        },
+        {
+            "@language": "de",
+            "@value": "anfechtung"
+        },
+        {
+            "@language": "en",
+            "@value": "exception (ata 200)"
+        },
+        {
+            "@language": "de",
+            "@value": "anfechtung"
+        },
+        {
+            "@language": "es",
+            "@value": "contestación de la elección"
+        },
+        {
+            "@language": "de",
+            "@value": "anfechtung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Anfechtung"
+        },
+        {
+            "@language": "es",
+            "@value": " impugnación"
+        },
+        {
+            "@language": "de",
+            "@value": " Anfechtung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Pérdida de su eficacia por defecto de fondo o de forma de un acto jurídico.Por extensión invalidez que se conviene o pacta de un acto en principio eficaz."
+        },
+        {
+            "@language": "en",
+            "@value": "process whereby a party or as the case may be a court invokes a ground of invalidity so as to make a juridical act or legal relationship which has been valid until that point retrospectively ineffective from the beginning"
+        },
+        {
+            "@language": "de",
+            "@value": "nachträgliche Beseitigung bestimmter Rechtsfolgen die bewirkt dass das anfechtbare Rechtsgeschäft als von Anfang an nichtig anzusehen ist"
+        },
+        {
+            "@language": "en",
+            "@value": "1.Resort to a superior court to review the decision of an inferior court or administrative agency."
+        },
+        {
+            "@language": "de",
+            "@value": "fuer unrichtig erklaeren in Zweifel ziehen Behauptung des Gegenteils"
+        }
+    ],
+    "skos:broader": [
+        "LT3489315"
+    ],
+    "skos:narrower": [
+        "LT5870514"
+    ],
+    "skos:related": [
+        "LT9887267"
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1954166",
+    "@type": "skos:Concept",
+    "skos:inScheme": "auflage",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1205418",
+    "skos:topConceptOf": "LT1954166",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "compresa"
+        },
+        {
+            "@language": "en",
+            "@value": "packing"
+        },
+        {
+            "@language": "de",
+            "@value": "auflage"
+        },
+        {
+            "@language": "nl",
+            "@value": "compres"
+        },
+        {
+            "@language": "es",
+            "@value": "asiento de montaje"
+        },
+        {
+            "@language": "en",
+            "@value": "flange"
+        },
+        {
+            "@language": "de",
+            "@value": "auflage"
+        },
+        {
+            "@language": "nl",
+            "@value": "flens"
+        },
+        {
+            "@language": "de",
+            "@value": "auflage"
+        },
+        {
+            "@language": "es",
+            "@value": "edición"
+        },
+        {
+            "@language": "en",
+            "@value": "edition"
+        },
+        {
+            "@language": "de",
+            "@value": "auflage"
+        },
+        {
+            "@language": "nl",
+            "@value": "editie"
+        },
+        {
+            "@language": "es",
+            "@value": "impresión"
+        },
+        {
+            "@language": "en",
+            "@value": "impression"
+        },
+        {
+            "@language": "de",
+            "@value": "auflage"
+        },
+        {
+            "@language": "nl",
+            "@value": "oplage"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " compress"
+        },
+        {
+            "@language": "en",
+            "@value": " pad"
+        },
+        {
+            "@language": "en",
+            "@value": " pledget"
+        },
+        {
+            "@language": "en",
+            "@value": " pack"
+        },
+        {
+            "@language": "de",
+            "@value": " Packung"
+        },
+        {
+            "@language": "de",
+            "@value": " Auflage"
+        },
+        {
+            "@language": "es",
+            "@value": " base"
+        },
+        {
+            "@language": "es",
+            "@value": " asiento"
+        },
+        {
+            "@language": "en",
+            "@value": " mounting base"
+        },
+        {
+            "@language": "en",
+            "@value": " seating"
+        },
+        {
+            "@language": "de",
+            "@value": " Befestigungsplatte"
+        },
+        {
+            "@language": "de",
+            "@value": " Auflage"
+        },
+        {
+            "@language": "de",
+            "@value": " Aufl."
+        },
+        {
+            "@language": "de",
+            "@value": " Auflage"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausgabe"
+        },
+        {
+            "@language": "en",
+            "@value": " printing"
+        },
+        {
+            "@language": "de",
+            "@value": " Druckauflage"
+        },
+        {
+            "@language": "nl",
+            "@value": " oplaag"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the original and all unchanged copies or replications of a definedidentifiable version of an actual document"
+        },
+        {
+            "@language": "en",
+            "@value": "whole set of copies of an edition or issue printed at one time and in a single operation"
+        },
+        {
+            "@language": "de",
+            "@value": "die Gesamtzahl der auf einmal hergestellten Exemplare einer Publikation"
+        },
+        {
+            "@language": "nl",
+            "@value": "het gezamenlijke aantal afdrukken van een dokument dat voor een uitgave wordt gedrukt"
+        }
+    ]
+}

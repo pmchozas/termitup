@@ -1,0 +1,183 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9923157",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ausschlussfristen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1393302",
+    "skos:topConceptOf": "LT9923157",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "plazo de caducidad"
+        },
+        {
+            "@language": "de",
+            "@value": "ausschlussfristen"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo de caducidad"
+        },
+        {
+            "@language": "en",
+            "@value": "peremptory time limit"
+        },
+        {
+            "@language": "de",
+            "@value": "ausschlussfristen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervaltermijn"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo de caducidad"
+        },
+        {
+            "@language": "en",
+            "@value": "strict time limit"
+        },
+        {
+            "@language": "de",
+            "@value": "ausschlussfristen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervaltermijn"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo de caducidad"
+        },
+        {
+            "@language": "de",
+            "@value": "ausschlussfristen"
+        },
+        {
+            "@language": "en",
+            "@value": "time limit"
+        },
+        {
+            "@language": "de",
+            "@value": "ausschlussfristen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervaltermijn"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " plazo de vencimiento"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo perentorio máximo"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo perentorio de exclusión"
+        },
+        {
+            "@language": "de",
+            "@value": " Verwirkungsfrist"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausschlussfrist"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo preclusivo"
+        },
+        {
+            "@language": "de",
+            "@value": " Präklusivfrist"
+        },
+        {
+            "@language": "de",
+            "@value": " Verwirkungsfrist"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo perentorio"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo de perención"
+        },
+        {
+            "@language": "de",
+            "@value": " Verfallfrist"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo de prescripción"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo perentorio máximo"
+        },
+        {
+            "@language": "es",
+            "@value": " plazo de exclusión"
+        },
+        {
+            "@language": "de",
+            "@value": " Praeklusivfrist"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"plazo de caducidad\": (...) un plazo previsto legalmente o acordado por los particulares a cuyo término ya no puede ejercitarse un derecho o una acción determinados. Por tanto el plazo de caducidad no admite interrupción o suspensión. El efecto de la caducidad es automático."
+        },
+        {
+            "@language": "en",
+            "@value": "time limit which extinguishes the right in question if the time limit is not met"
+        },
+        {
+            "@language": "de",
+            "@value": "Frist innerhalb der ein Recht geltend gemacht werden kann bzw. muß da es nach deren Ablauf verfällt"
+        },
+        {
+            "@language": "nl",
+            "@value": "In het verbintenissenrecht de termijn waarbinnen een bepaalde handeling moet worden gesteld of een bepaald feit zich moet hebben voorgedaan op straffe van verval; in het gerechtelijk privaatrecht de termijn binnen welke een rechtsvordering moet worden uitgeoefend of een proceshandeling moet worden gesteld zoals de termijn voor het instellen van hoger beroep of cassatieberoep en waarvan de schending kan voorgeschreven zijn op straffe van verval nietigheid of een sanctie sui generis zoals wering uit de debatten."
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzlich festgelegte Zeitspanne nach deren Ablauf ein Recht nicht mehr geltend gemacht werden kann."
+        }
+    ]
+}

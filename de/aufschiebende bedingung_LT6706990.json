@@ -1,0 +1,131 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6706990",
+    "@type": "skos:Concept",
+    "skos:inScheme": "aufschiebende bedingung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1392588",
+    "skos:topConceptOf": "LT6706990",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "condición suspensiva"
+        },
+        {
+            "@language": "de",
+            "@value": "aufschiebende bedingung"
+        },
+        {
+            "@language": "es",
+            "@value": "condición suspensiva"
+        },
+        {
+            "@language": "en",
+            "@value": "condition precedent"
+        },
+        {
+            "@language": "de",
+            "@value": "aufschiebende bedingung"
+        },
+        {
+            "@language": "nl",
+            "@value": "opschortende voorwaarde"
+        },
+        {
+            "@language": "es",
+            "@value": "condición suspensiva"
+        },
+        {
+            "@language": "en",
+            "@value": "condition precedent"
+        },
+        {
+            "@language": "de",
+            "@value": "aufschiebende bedingung"
+        },
+        {
+            "@language": "nl",
+            "@value": "opschortende voorwaarde"
+        },
+        {
+            "@language": "es",
+            "@value": "condición suspensiva"
+        },
+        {
+            "@language": "en",
+            "@value": "suspensive condition"
+        },
+        {
+            "@language": "de",
+            "@value": "aufschiebende bedingung"
+        },
+        {
+            "@language": "nl",
+            "@value": "opschortende voorwaarde"
+        },
+        {
+            "@language": "en",
+            "@value": "condition precedent to the guarantee taking effect"
+        },
+        {
+            "@language": "de",
+            "@value": "aufschiebende bedingung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Suspensivbedingung"
+        },
+        {
+            "@language": "es",
+            "@value": " condición precedente"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a precondition which must be satisfied before a contracta clause in a contractor a statutory provision takes effect"
+        },
+        {
+            "@language": "es",
+            "@value": "(Refiriéndose a obligaciones)\"Una obligación está sometida a condición suspensiva si la adquisición del derecho de crédito depende de que se cumpla la condición (...) En tal estado acreedor y deudor están jurídicamente vinculados pero habrán de esperar a que desaparezca la incertidumbre en que consiste la condición para saber si el acreedor tendrá derecho a la prestación o si el deudor quedará desligado de cumplirla ...\" (fuente)"
+        },
+        {
+            "@language": "de",
+            "@value": "Bedingung mit aufschiebender Wirkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"toekomstige onzekere voorwaarde die wanneer zij plaatsvindt een verbintenis doet ontstaan\""
+        }
+    ]
+}

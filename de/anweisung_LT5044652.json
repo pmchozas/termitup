@@ -1,0 +1,217 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5044652",
+    "@type": "skos:Concept",
+    "skos:inScheme": "anweisung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1392787",
+    "skos:topConceptOf": "LT5044652",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "instrucción"
+        },
+        {
+            "@language": "de",
+            "@value": "anweisung"
+        },
+        {
+            "@language": "es",
+            "@value": "instrucción"
+        },
+        {
+            "@language": "de",
+            "@value": "anweisung"
+        },
+        {
+            "@language": "es",
+            "@value": "cometido"
+        },
+        {
+            "@language": "de",
+            "@value": "anweisung"
+        },
+        {
+            "@language": "es",
+            "@value": "orden"
+        },
+        {
+            "@language": "en",
+            "@value": "command"
+        },
+        {
+            "@language": "de",
+            "@value": "anweisung"
+        },
+        {
+            "@language": "nl",
+            "@value": "commando"
+        },
+        {
+            "@language": "es",
+            "@value": "libranza"
+        },
+        {
+            "@language": "en",
+            "@value": "bank credit transfer"
+        },
+        {
+            "@language": "de",
+            "@value": "anweisung"
+        },
+        {
+            "@language": "nl",
+            "@value": "assignatie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " disposición"
+        },
+        {
+            "@language": "es",
+            "@value": " ordenanza"
+        },
+        {
+            "@language": "es",
+            "@value": " reglamento"
+        },
+        {
+            "@language": "de",
+            "@value": " Dienstvorschrift"
+        },
+        {
+            "@language": "de",
+            "@value": " Anweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Dienstanweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Arbeitsanweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Anweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Weisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Dienstvorschrift"
+        },
+        {
+            "@language": "de",
+            "@value": " Vorschrift"
+        },
+        {
+            "@language": "es",
+            "@value": " comisión"
+        },
+        {
+            "@language": "es",
+            "@value": " delegación"
+        },
+        {
+            "@language": "es",
+            "@value": " función"
+        },
+        {
+            "@language": "de",
+            "@value": " Beauftragung"
+        },
+        {
+            "@language": "de",
+            "@value": " Aufgabe"
+        },
+        {
+            "@language": "de",
+            "@value": " Anweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Anweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Befehl"
+        },
+        {
+            "@language": "en",
+            "@value": " bank giro credit"
+        },
+        {
+            "@language": "en",
+            "@value": " bank post bill"
+        },
+        {
+            "@language": "en",
+            "@value": " bank money order"
+        },
+        {
+            "@language": "de",
+            "@value": " Anweisung"
+        },
+        {
+            "@language": "de",
+            "@value": " Bankanweisung"
+        },
+        {
+            "@language": "nl",
+            "@value": " bankassignatie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "instrucción representada en el campo de control de una PDU y transmitida por una LLC que hace que la (s) LLC direccionada (s) ejecute (n) una función concreta de control del canal de datos"
+        },
+        {
+            "@language": "en",
+            "@value": "for the purposes of the logical link control protocol:in data communicationsan instruction represented in the control field of a PDU and transmitted by an LLC.It causes the addressed LLC(s)to execute a specific data link control function"
+        },
+        {
+            "@language": "en",
+            "@value": "a written order and authority to a bank to pay to a specified person a definite sum mentioned in the document for the account of the instructing person; one sold by a bank or banking institution which may normally be cashed at any other bank at home or abroad"
+        }
+    ],
+    "skos:broader": [
+        "LT8489345"
+    ],
+    "skos:narrower": [
+        "LT8647568"
+    ]
+}

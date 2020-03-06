@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7968038",
+    "@type": "skos:Concept",
+    "skos:inScheme": "anhörung des kindes",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583404",
+    "skos:topConceptOf": "LT7968038",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "audiencia del menor"
+        },
+        {
+            "@language": "en",
+            "@value": "hearing of the child"
+        },
+        {
+            "@language": "de",
+            "@value": "anhörung des kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "horen van de minderjarige"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " audiencia al menor"
+        },
+        {
+            "@language": "en",
+            "@value": " ascertaining the views and wishes of the child"
+        },
+        {
+            "@language": "de",
+            "@value": " Anhörung des Kindes"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Acción consistente en oír al menor en los asuntos que le conciernen sobre la base de que el menor tiene derecho a ser oído tanto en el ámbito familiar como en cualquier procedimiento administrativo o judicial en que esté directamente implicado y que conduzca a una decisión que afecte a su esfera personal familiar o social. [ES]"
+        }
+    ]
+}

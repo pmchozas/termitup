@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3749993",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bauführung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1709783",
+    "skos:topConceptOf": "LT3749993",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "bauführung"
+        },
+        {
+            "@language": "de",
+            "@value": "bauführung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Die Vorschriften greifen nur ein wenn ohne Rechtsgrundlage auf fremdem Grund oder mit fremdem Material gebaut wird. Dann sind drei Fälle zu unterscheiden:1.Bau auf eigenem Grund mit fremden Material. Der Grundeigentümer erlangt Eigentum am Bauwerk muss aber das Material ersetzen.2.Bau mit eigenem Material auf fremdem Grund 3.Bau mit fremdem Material auf fremdem Grund."
+        },
+        {
+            "@language": "de",
+            "@value": "Errichtung Abänderung oder Abtragung eines Gebäudes auf einem Grundstück; im weitesten Sinne jede baul. Tätigkeit"
+        }
+    ]
+}

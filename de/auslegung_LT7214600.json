@@ -1,0 +1,165 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7214600",
+    "@type": "skos:Concept",
+    "skos:inScheme": "auslegung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1234525",
+    "skos:topConceptOf": "LT7214600",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "interpretation"
+        },
+        {
+            "@language": "de",
+            "@value": "auslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "interpretatie"
+        },
+        {
+            "@language": "en",
+            "@value": "design"
+        },
+        {
+            "@language": "de",
+            "@value": "auslegung"
+        },
+        {
+            "@language": "es",
+            "@value": "interpretación restrictiva"
+        },
+        {
+            "@language": "en",
+            "@value": "strict interpretation"
+        },
+        {
+            "@language": "de",
+            "@value": "auslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "strikte uitlegging"
+        },
+        {
+            "@language": "en",
+            "@value": "narrow interpretation"
+        },
+        {
+            "@language": "de",
+            "@value": "auslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "enge interpretatie"
+        },
+        {
+            "@language": "en",
+            "@value": "liberal interpretation"
+        },
+        {
+            "@language": "de",
+            "@value": "auslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "extensieve interpretatie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " legal interpretation"
+        },
+        {
+            "@language": "en",
+            "@value": " judicial interpretation"
+        },
+        {
+            "@language": "es",
+            "@value": " interpretación estricta"
+        },
+        {
+            "@language": "en",
+            "@value": " narrow construction"
+        },
+        {
+            "@language": "en",
+            "@value": " narrow interpretation"
+        },
+        {
+            "@language": "en",
+            "@value": " close interpretation"
+        },
+        {
+            "@language": "en",
+            "@value": " strict construction"
+        },
+        {
+            "@language": "en",
+            "@value": " wide interpretation"
+        },
+        {
+            "@language": "en",
+            "@value": " broad interpretation"
+        },
+        {
+            "@language": "en",
+            "@value": " extensive interpretation"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "art or process of discovering and expounding the intended signification of the language used in a statute will contract or any other written document that is the meaning which the author designed it to convey to others"
+        },
+        {
+            "@language": "es",
+            "@value": "\"La aplicación de la norma jurídica a los casos que menciona o a los cuales se refiere expresamente.\""
+        },
+        {
+            "@language": "en",
+            "@value": "interpretation according to what the interpreter narrowly believes to have been the specific intentions or understandings of the text's authors or ratifiers"
+        },
+        {
+            "@language": "nl",
+            "@value": "strikte uitlegging: \"stringent er mogen geen ruime marges worden genomen bij de uitleg; die moet eerder beperkend dan uitbreidend zijn.\""
+        },
+        {
+            "@language": "en",
+            "@value": "interpretation which imposes a more comprehensive meaning of the laws in contrast to a 'strict' or 'narrow interpretation' IATE:889736"
+        }
+    ],
+    "skos:broader": [],
+    "skos:related": []
+}

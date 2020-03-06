@@ -1,0 +1,211 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9836638",
+    "@type": "skos:Concept",
+    "skos:inScheme": "aufrechnung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/856378",
+    "skos:topConceptOf": "LT9836638",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cálculo de la posición neta"
+        },
+        {
+            "@language": "en",
+            "@value": "netting"
+        },
+        {
+            "@language": "de",
+            "@value": "aufrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "saldering"
+        },
+        {
+            "@language": "en",
+            "@value": "set-off"
+        },
+        {
+            "@language": "de",
+            "@value": "aufrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldvergelijking"
+        },
+        {
+            "@language": "es",
+            "@value": "ajuste de la compensación de créditos"
+        },
+        {
+            "@language": "en",
+            "@value": "adjustment of a credit balance"
+        },
+        {
+            "@language": "de",
+            "@value": "aufrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "compensatie"
+        },
+        {
+            "@language": "es",
+            "@value": "recobros"
+        },
+        {
+            "@language": "en",
+            "@value": "recharge"
+        },
+        {
+            "@language": "de",
+            "@value": "aufrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "naneming"
+        },
+        {
+            "@language": "es",
+            "@value": "compensación"
+        },
+        {
+            "@language": "en",
+            "@value": "set-off"
+        },
+        {
+            "@language": "de",
+            "@value": "aufrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "compensatie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " compensación por saldos netos"
+        },
+        {
+            "@language": "es",
+            "@value": " liquidación por diferencia de saldos netos"
+        },
+        {
+            "@language": "es",
+            "@value": " neteo"
+        },
+        {
+            "@language": "en",
+            "@value": " netting off"
+        },
+        {
+            "@language": "de",
+            "@value": " Netting"
+        },
+        {
+            "@language": "de",
+            "@value": " Verrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": " netting"
+        },
+        {
+            "@language": "nl",
+            "@value": " compensatie"
+        },
+        {
+            "@language": "nl",
+            "@value": " verrekening"
+        },
+        {
+            "@language": "de",
+            "@value": " Verrechnung"
+        },
+        {
+            "@language": "nl",
+            "@value": " compensatie"
+        },
+        {
+            "@language": "nl",
+            "@value": " verrekening"
+        },
+        {
+            "@language": "en",
+            "@value": " adjustment of credit balance"
+        },
+        {
+            "@language": "es",
+            "@value": " cargos"
+        },
+        {
+            "@language": "de",
+            "@value": " Aufrechnung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Procedimiento de liquidación de operaciones de derivados financieros normalmente a través de un contrato marco."
+        },
+        {
+            "@language": "en",
+            "@value": "agreed offsetting of mutual obligations by participants in a system by means of the calculation of net settlement positions and their legal reduction to a (bilateral or multilateral) net amount"
+        },
+        {
+            "@language": "de",
+            "@value": "das \"bilaterale Netting\" ermöglicht die \"Berechnung der Eigenmittelanforderungen für bestimmte Geschäfte auf der Grundlage eines Nettobetrags anstelle eines Bruttobetrags vorausgesetzt dass rechtsverbindliche Vereinbarungen vorhanden sind die sicherstellen dass sich das Kreditrisiko auf den Nettobetrag beschränkt\""
+        },
+        {
+            "@language": "en",
+            "@value": "process by which a person may use a right to performance held against another person to extinguish in whole or in part an obligation owed to that person"
+        },
+        {
+            "@language": "de",
+            "@value": "wechselseitige Tilgung einander gegenüberstehender Forderungen aufgrund gesetzlicher Vorschriften oder aufgrund von Einzelvereinbarung"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederkerig tenietdoen van krachtens wet of overeenkomst tegenover elkaar staande schulden en vorderingen"
+        },
+        {
+            "@language": "en",
+            "@value": "a means of paying the amount of import or export duty"
+        },
+        {
+            "@language": "nl",
+            "@value": "betalingsvorm voor de verschuldigde invoer-of uitvoerrechten"
+        }
+    ]
+}

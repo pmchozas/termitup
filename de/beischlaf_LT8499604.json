@@ -1,0 +1,163 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8499604",
+    "@type": "skos:Concept",
+    "skos:inScheme": "beischlaf",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1496834",
+    "skos:topConceptOf": "LT8499604",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "coito"
+        },
+        {
+            "@language": "en",
+            "@value": "coitus"
+        },
+        {
+            "@language": "de",
+            "@value": "beischlaf"
+        },
+        {
+            "@language": "nl",
+            "@value": "coitus"
+        },
+        {
+            "@language": "es",
+            "@value": "incesto"
+        },
+        {
+            "@language": "en",
+            "@value": "sex with an adult relative"
+        },
+        {
+            "@language": "de",
+            "@value": "beischlaf"
+        },
+        {
+            "@language": "nl",
+            "@value": "incest"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " coition"
+        },
+        {
+            "@language": "en",
+            "@value": " sexual intercourse"
+        },
+        {
+            "@language": "en",
+            "@value": " sexual union"
+        },
+        {
+            "@language": "de",
+            "@value": " Concubitus"
+        },
+        {
+            "@language": "de",
+            "@value": " Coitus"
+        },
+        {
+            "@language": "de",
+            "@value": " Congressus"
+        },
+        {
+            "@language": "de",
+            "@value": " Cohabitatio"
+        },
+        {
+            "@language": "de",
+            "@value": " Beiwohnung"
+        },
+        {
+            "@language": "de",
+            "@value": " Geschlechtsverkehr"
+        },
+        {
+            "@language": "nl",
+            "@value": " congressus"
+        },
+        {
+            "@language": "nl",
+            "@value": " copulatio"
+        },
+        {
+            "@language": "nl",
+            "@value": " concubitus"
+        },
+        {
+            "@language": "nl",
+            "@value": " copulatie"
+        },
+        {
+            "@language": "nl",
+            "@value": " bijslaap"
+        },
+        {
+            "@language": "nl",
+            "@value": " geslachtsgemeenschap"
+        },
+        {
+            "@language": "en",
+            "@value": " incest"
+        },
+        {
+            "@language": "de",
+            "@value": " Inzest"
+        },
+        {
+            "@language": "de",
+            "@value": " Blutschande"
+        },
+        {
+            "@language": "nl",
+            "@value": " bloedschande"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "geschlechtliche Vereinigung zweier verschiedengeschlechtlicher Personen"
+        },
+        {
+            "@language": "es",
+            "@value": "Relación carnal entre parientes dentro de los grados en que está prohibido el matrimonio."
+        },
+        {
+            "@language": "nl",
+            "@value": "geslachtsverkeer tussen naaste bloedverwanten die wettelijk geen huwelijk mogen aangaan [BE]"
+        }
+    ]
+}
