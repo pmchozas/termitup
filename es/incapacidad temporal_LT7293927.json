@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7293927",
+    "@type": "skos:Concept",
+    "skos:inScheme": "incapacidad temporal",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/771994",
+    "skos:topConceptOf": "LT7293927",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "incapacidad temporal"
+        },
+        {
+            "@language": "en",
+            "@value": "incapacity for work"
+        },
+        {
+            "@language": "de",
+            "@value": "Arbeitsunfähigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "arbeidsongeschiktheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "ILT"
+        },
+        {
+            "@language": "es",
+            "@value": "incapacidad temporal"
+        },
+        {
+            "@language": "en",
+            "@value": "total incapacity for work"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "La prestación económica por incapacidad temporal trata de cubrir la falta de ingresos que se produce cuando el trabajador debido a una enfermedad o accidente está imposibilitado temporalmente para trabajar (...)."
+        },
+        {
+            "@language": "en",
+            "@value": "temporary incapacity for work due to illness or accident normally results in the affected worker being paid temporary \"incapacity benefit\" or \"statutory sick pay\" to cover the lack of income as well as being granted temporary sick leave to cover their absence from the workplace."
+        }
+    ]
+}

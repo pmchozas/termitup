@@ -26,15 +26,15 @@
             "@type": "@id"
         }
     },
-    "@id": "LT9792449",
+    "@id": "LT7881483",
     "@type": "skos:Concept",
-    "skos:inScheme": "leave on social grounds",
-    "skos:topConceptOf": "LT9792449",
-    "owl:sameAs": "http://eurovoc.europa.eu/108",
+    "skos:inScheme": "social-security benefit",
+    "skos:topConceptOf": "LT7881483",
+    "owl:sameAs": "http://eurovoc.europa.eu/2605",
     "skos:prefLabel": [
         {
             "@language": "en",
-            "@value": "leave on social grounds"
+            "@value": "social-security benefit"
         }
     ]
 }

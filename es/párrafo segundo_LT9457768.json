@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9457768",
+    "@type": "skos:Concept",
+    "skos:inScheme": "párrafo segundo",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/770055",
+    "skos:topConceptOf": "LT9457768",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "párrafo segundo"
+        },
+        {
+            "@language": "nl",
+            "@value": "Tweede Protocol ter uitvoering van artikel 1, lid 1, van het Verdrag betreffende de instelling en het statuut van een Benelux-Gerechtshof"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

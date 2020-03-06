@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3137106",
+    "@type": "skos:Concept",
+    "skos:inScheme": "concursal",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/823478",
+    "skos:topConceptOf": "LT3137106",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "concursal"
+        },
+        {
+            "@language": "en",
+            "@value": "bankruptcy law"
+        },
+        {
+            "@language": "de",
+            "@value": "Konkursrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "faillissementsrecht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "Derecho de Quiebra"
+        },
+        {
+            "@language": "es",
+            "@value": "Ley Concursal"
+        },
+        {
+            "@language": "de",
+            "@value": "Insolvenzrecht"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Parte del Derecho que se refiere a la necesidad de regular el reparto de pérdidas cuando alguien no puede hacer frente a sus deudas."
+        },
+        {
+            "@language": "en",
+            "@value": "law governing the process by which an insolvent person is made bankrupt and his estate administered for the benefit of his creditors"
+        }
+    ]
+}

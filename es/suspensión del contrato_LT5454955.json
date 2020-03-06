@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5454955",
+    "@type": "skos:Concept",
+    "skos:inScheme": "suspensión del contrato",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/910733",
+    "skos:topConceptOf": "LT5454955",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "suspensión del contrato"
+        },
+        {
+            "@language": "en",
+            "@value": "career break"
+        },
+        {
+            "@language": "de",
+            "@value": "Unterbrechung der Erwerbstätigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "loopbaanonderbreking"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "excedencia"
+        },
+        {
+            "@language": "es",
+            "@value": "suspensión del contrato de trabajo"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "La excedencia es la situación de suspensión del contrato de trabajo a solicitud del trabajador que le permite apartarse de la actividad laboral para dedicarse a otras tareas atender necesidades familiares (e. por cuidado de hijo) para el desarrollo de funciones sindicales (e. sindical) y por razones de incompatibilidad (e. forzosa). La suspensión del contrato de trabajo es la situación en que trabajador y empresario se liberan de forma temporal de sus respectivas obligaciones de trabajar y remunerar el trabajo. El contrato de trabajo puede suspenderse por mutuo acuerdo incapacidad temporal maternidad servicio militar o prestación social sustitoria privación de libertad excedencia forzosa desempeño de cargos públicos causas económicas técnicas organizativas o de producción etc."
+        },
+        {
+            "@language": "nl",
+            "@value": "NL: \"Een met instandhouding van de arbeidsovereenkomst of de publiekrechtelijke aanstelling gehele of gedeeltelijke onderbreking van de arbeid ten behoeve van zorg of educatie waaronder mede wordt verstaan het vergroten van de arbeidskwalificatie.\"BE: \"Mogelijkheid voor werknemers om tijdelijk de arbeidsovereenkomst te schorsen of de arbeidsprestaties te verminderen met behoud van zijn rechten in de sociale zekerheid en met een (beperkte) sociale uitkering (...).\""
+        }
+    ]
+}

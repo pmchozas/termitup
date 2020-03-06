@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9372629",
+    "@type": "skos:Concept",
+    "skos:inScheme": "grupo profesional",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1568110",
+    "skos:topConceptOf": "LT9372629",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "grupo profesional"
+        },
+        {
+            "@language": "en",
+            "@value": "occupation"
+        },
+        {
+            "@language": "de",
+            "@value": "Berufsgruppe"
+        },
+        {
+            "@language": "nl",
+            "@value": "beroepsgroep"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "categoría profesional"
+        },
+        {
+            "@language": "es",
+            "@value": "grupo ocupacional"
+        },
+        {
+            "@language": "en",
+            "@value": "occupational group"
+        },
+        {
+            "@language": "en",
+            "@value": "occupation group"
+        },
+        {
+            "@language": "en",
+            "@value": "profession"
+        },
+        {
+            "@language": "de",
+            "@value": "BerGr"
+        },
+        {
+            "@language": "de",
+            "@value": "Betriebsvereinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Fachgruppe"
+        },
+        {
+            "@language": "de",
+            "@value": "Bg"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "set of jobs whose main tasks and duties are characterised by a high degree of similarity"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesamtheit aller Personen die denselben Beruf ausueben"
+        },
+        {
+            "@language": "nl",
+            "@value": "groep van personen met hetzelfde of een verwant beroep bv. advocaten en notarissen"
+        }
+    ]
+}

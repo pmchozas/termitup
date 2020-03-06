@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,15 +26,34 @@
             "@type": "@id"
         }
     },
-    "@id": "LT5626899",
+    "@id": "LT7708281",
     "@type": "skos:Concept",
-    "skos:inScheme": "family",
-    "skos:topConceptOf": "LT5626899",
-    "owl:sameAs": "http://eurovoc.europa.eu/965",
+    "skos:inScheme": "contrato a tiempo parcial",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/127301",
+    "skos:topConceptOf": "LT7708281",
     "skos:prefLabel": [
         {
+            "@language": "es",
+            "@value": "contrato a tiempo parcial"
+        },
+        {
             "@language": "en",
-            "@value": "family"
+            "@value": "part-time contract"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertrag für Teilzeitarbeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "deeltijdcontract"
         }
-    ]
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
 }

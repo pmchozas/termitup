@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,15 +26,34 @@
             "@type": "@id"
         }
     },
-    "@id": "LT9046384",
+    "@id": "LT5213754",
     "@type": "skos:Concept",
-    "skos:inScheme": "social-security benefit",
-    "skos:topConceptOf": "LT9046384",
-    "owl:sameAs": "http://eurovoc.europa.eu/2605",
+    "skos:inScheme": "resultados de la empresa",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1111404",
+    "skos:topConceptOf": "LT5213754",
     "skos:prefLabel": [
         {
+            "@language": "es",
+            "@value": "resultados de la empresa"
+        },
+        {
             "@language": "en",
-            "@value": "social-security benefit"
+            "@value": "to link wages to company performance"
+        },
+        {
+            "@language": "de",
+            "@value": "die Löhne an die Leistungen der Unternehmen koppelen"
+        },
+        {
+            "@language": "nl",
+            "@value": "de lonen aan de resultaten van de onderneming koppelen"
         }
-    ]
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
 }

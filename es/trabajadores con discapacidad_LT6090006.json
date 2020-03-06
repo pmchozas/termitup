@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6090006",
+    "@type": "skos:Concept",
+    "skos:inScheme": "trabajadores con discapacidad",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3564773",
+    "skos:topConceptOf": "LT6090006",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "trabajadores con discapacidad"
+        },
+        {
+            "@language": "en",
+            "@value": "integrated workplace"
+        },
+        {
+            "@language": "de",
+            "@value": "behindertengerechter Arbeitsplatz"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Integrationsarbeitsplatz"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "puesto de trabajo adaptado a un trabajador con discapacidad"
+        },
+        {
+            "@language": "en",
+            "@value": "workplace environment where people with the most significant disabilities are meant to co-work with a majority of persons employed that are not disabled with the purpose of social inclusion in community"
+        },
+        {
+            "@language": "de",
+            "@value": "Arbeitsplatz in Firmen und Betrieben der nach den individuellen Bedürfnissen des beeinträchtigten Arbeitnehmers gestaltet ist"
+        }
+    ]
+}

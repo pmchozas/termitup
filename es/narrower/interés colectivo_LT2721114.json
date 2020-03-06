@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,15 +26,15 @@
             "@type": "@id"
         }
     },
-    "@id": "LT5686281",
+    "@id": "LT2721114",
     "@type": "skos:Concept",
-    "skos:inScheme": "organisation of health care",
-    "skos:topConceptOf": "LT5686281",
-    "owl:sameAs": "http://eurovoc.europa.eu/5764",
+    "skos:inScheme": "interés colectivo",
+    "skos:topConceptOf": "LT2721114",
+    "owl:sameAs": "http://eurovoc.europa.eu/5685",
     "skos:prefLabel": [
         {
-            "@language": "en",
-            "@value": "organisation of health care"
+            "@language": "es",
+            "@value": "interés colectivo"
         }
     ]
 }

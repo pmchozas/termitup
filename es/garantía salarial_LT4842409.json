@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4842409",
+    "@type": "skos:Concept",
+    "skos:inScheme": "garantía salarial",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1394738",
+    "skos:topConceptOf": "LT4842409",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "garantía salarial"
+        },
+        {
+            "@language": "de",
+            "@value": "Verdienstsicherung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Entgeltsicherung,Lohnsicherung"
+        },
+        {
+            "@language": "de",
+            "@value": "Lohngarantie"
+        },
+        {
+            "@language": "de",
+            "@value": "Lohnausgleichsgarantie"
+        },
+        {
+            "@language": "de",
+            "@value": "Sicherung des Arbeitseinkommens"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

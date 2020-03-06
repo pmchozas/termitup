@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7727334",
+    "@type": "skos:Concept",
+    "skos:inScheme": "causas objetivas",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/353639",
+    "skos:topConceptOf": "LT7727334",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "causas objetivas"
+        },
+        {
+            "@language": "en",
+            "@value": "displaced worker"
+        },
+        {
+            "@language": "de",
+            "@value": "entlassener Arbeitnehmer"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontslagen werknemer"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "dislocated worker"
+        },
+        {
+            "@language": "en",
+            "@value": "redundant worker"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Trabajador cuyo contrato es extinguido a voluntad de su empleador por causas objetivas (económicas técnicas organizativas o productivas)."
+        },
+        {
+            "@language": "en",
+            "@value": "worker whose employment is ended prematurely by redundancy or whose contract is not renewed due to economic reasons"
+        },
+        {
+            "@language": "de",
+            "@value": "Arbeitnehmer dessen Arbeitsverhältnis aus wirtschaftlichen Gründen vorzeitig durch Entlassung endet oder dessen Vertrag aus wirtschaftlichen Gründen nicht erneuert wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "werknemer wiens arbeidsovereenkomst voortijdig is beëindigd door gedwongen ontslag of wiens arbeidsovereenkomst om economische redenen niet is verlengd"
+        }
+    ]
+}

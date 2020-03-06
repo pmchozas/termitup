@@ -181,7 +181,7 @@ def getIate(target, item,leng,termSearch):
 
 
 #funcion que introduce todo en un csv 
-def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid):
+def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid, schema):
     data=json.loads(jsonlist)
     resultado=''
     results=[]
@@ -247,7 +247,7 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid):
                         iate.append(iateIde[j][:-2])
                         #euro.append(eurovoc[j])
                 lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile)
-                fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala)
+                fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala, schema)
             else:
                 #print('sin desambiguacion',termSearch[cont] )
                 relations=['broader', 'narrower', 'related']
@@ -262,7 +262,7 @@ def resultsIate(jsonlist, idioma, targets, context, contextFile, lista, wsid):
 
 
                 lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile)
-                fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala)
+                fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala, schema)
 
             
         cont=cont+1;
@@ -352,7 +352,7 @@ def wsidFunction(termIn, context, contextFile,  definitions):
     #print(defiMax, idMax)       
     return(defiMax, idMax)
 
-def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iate, lexicala):
+def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iate, lexicala, schema):
     #print(termSearch, prefLabel, altLabel,definition,idioma,lang)
     newFile=''
     raiz=os.getcwd()
@@ -369,7 +369,7 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
     if(termSearch!=''):
         data={}
         data={'@context':'','@id': ide, '@type':'skos:Concept', 'skos:inScheme': termSearch, "owl:sameAs":"https://iate.europa.eu/entry/result/"+iate[0],'skos:topConceptOf':ide, 'skos:prefLabel':'' }
-        data['@context']={"@base":"http://lynx-project.eu/kos/", "dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        data['@context']={"@base":"http://lynx-project.eu/kos/"+schema , "dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "dc":"http://purl.org/dc/elements/1.1/","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","skos:broader":{ '@type':'@id'},"skos:inScheme":{ '@type':'@id'},'skos:related':{ '@type':'@id'},'skos:narrower':{ '@type':'@id'},'skos:hasTopConcept':{ '@type':'@id'},'skos:topConceptOf':{ '@type':'@id'}}
         data['skos:prefLabel']=[]
         data['skos:altLabel']=[]
@@ -413,7 +413,7 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
             data['skos:related']=[]
 
         for i in eurovoc:
-            relationsEurovoc(i[0], i[1], idioma,data, i[2] )
+            relationsEurovoc(i[0], i[1], idioma,data, i[2], schema )
             
         newFile=idioma+'/'+termSearch+'_'+ide+'.json'
         with open(newFile, 'w') as file:
@@ -421,7 +421,7 @@ def fileJson(termSearch, prefLabel, altLabel,definition,idioma,lang, eurovoc,iat
         #dataRetriever(newFile)
         
         
-def relationsEurovoc(relationList, uriList, idioma,data, relationEuro):
+def relationsEurovoc(relationList, uriList, idioma,data, relationEuro, schema):
     for i in range(len(relationList)):
         relation=relationList[i]
         uri=uriList[i]
@@ -436,7 +436,7 @@ def relationsEurovoc(relationList, uriList, idioma,data, relationEuro):
             if(ide!='' and termSearch!=''):
                 if('skos:'+relationEuro in data.keys()):
                     data['skos:'+relationEuro].append(ide)
-                    dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma)
+                    dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma, schema)
 
                     with open(idioma+'/'+relationEuro+'/'+termSearch+'_'+ide+'.json', 'w') as file:
                         json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
@@ -447,11 +447,11 @@ def relationsEurovoc(relationList, uriList, idioma,data, relationEuro):
                     
                      
         
-def fileEurovoc(termSearch, ide, relation, iduri, idioma):
+def fileEurovoc(termSearch, ide, relation, iduri, idioma, schema):
     #print(relation[0])
     data={}
     data={'@context':'','@id': ide, '@type':'skos:Concept', 'skos:inScheme': termSearch, 'skos:topConceptOf':ide,"owl:sameAs":iduri, 'skos:prefLabel':'' }
-    data['@context']={"@base":"http://lynx-project.eu/kos/","dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    data['@context']={"@base":"http://lynx-project.eu/kos/"+schema ,"dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "dc":"http://purl.org/dc/elements/1.1/","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","skos:broader":{ '@type':'@id'},"skos:inScheme":{ '@type':'@id'},'skos:related':{ '@type':'@id'},'skos:narrower':{ '@type':'@id'},'skos:hasTopConcept':{ '@type':'@id'},'skos:topConceptOf':{ '@type':'@id'}}
     data['skos:prefLabel']=[]
     if(relation!=''):
@@ -981,6 +981,7 @@ parser.add_argument("--targets", help="Source language out")
 parser.add_argument("--context", help="Contexto")
 parser.add_argument("--contextFile", help="Archivo de contextos")
 parser.add_argument("--wsid", help="")
+parser.add_argument("--schema", help="")
 args=parser.parse_args()
 
 termino=args.sourceTerm
@@ -990,6 +991,7 @@ targets=args.targets.split(' ')
 context=args.context
 contextFile=args.contextFile
 wsid=args.wsid
+schema=args.schema
 if(termino):
     lista=[]
     lista.append(termino)
@@ -1009,7 +1011,7 @@ if(termino):
     else:
         contextFile=leerContextos(idioma)
 
-    resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid)
+    resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid,schema)
     
 else:
     if(context):
@@ -1041,13 +1043,13 @@ else:
             
             print(ini, fin)
             jsonlist=haceJson(lista1, idioma,targets)
-            resultsIate( jsonlist, idioma, targets,context, contextFile, lista1, wsid)
+            resultsIate( jsonlist, idioma, targets,context, contextFile, lista1, wsid,schema)
             time.sleep(10)
             ini=ini+200
             fin=fin+200
     else:
         jsonlist=haceJson(lista, idioma,targets)
-        resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid)
+        resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid, schema)
             
 #TERM
 #python3 all.py --sourceTerm término --lang es --targets "es en de nl"

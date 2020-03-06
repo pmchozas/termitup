@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,15 +26,31 @@
             "@type": "@id"
         }
     },
-    "@id": "LT3823634",
+    "@id": "LT1338511",
     "@type": "skos:Concept",
-    "skos:inScheme": "gynaecology",
-    "skos:topConceptOf": "LT3823634",
-    "owl:sameAs": "http://eurovoc.europa.eu/3284",
+    "skos:inScheme": "contrato de relevo",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1392984",
+    "skos:topConceptOf": "LT1338511",
     "skos:prefLabel": [
         {
-            "@language": "en",
-            "@value": "gynaecology"
+            "@language": "es",
+            "@value": "contrato de relevo"
+        },
+        {
+            "@language": "de",
+            "@value": "Kettenvertraege"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Aufeinanderfolge von befristeten Arbeitsverhaeltnissen"
         }
     ]
 }

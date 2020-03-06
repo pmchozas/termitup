@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,22 +26,43 @@
             "@type": "@id"
         }
     },
-    "@id": "LT3305549",
+    "@id": "LT3216331",
     "@type": "skos:Concept",
-    "skos:inScheme": "dias naturales",
-    "owl:sameAs": "https://iate.europa.eu/entry/result/763856",
-    "skos:topConceptOf": "LT3305549",
+    "skos:inScheme": "horas extraordinarias",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/833958",
+    "skos:topConceptOf": "LT3216331",
     "skos:prefLabel": [
         {
             "@language": "es",
-            "@value": "dias naturales"
+            "@value": "horas extraordinarias"
+        },
+        {
+            "@language": "en",
+            "@value": "overtime"
+        },
+        {
+            "@language": "de",
+            "@value": "Überstunden"
+        },
+        {
+            "@language": "nl",
+            "@value": "overwerk"
         }
     ],
     "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "overuren"
+        },
         {
             "@language": "es",
             "@value": ""
         }
     ],
-    "skos:definition": []
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Horas de trabajo que superan la jornada normal de trabajo. Sólo pueden prestarse en casos de urgencia o de acumulación excepcional de trabajo y según los casos dan lugar a compensación o retribución."
+        }
+    ]
 }

@@ -1,0 +1,97 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/labour law",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8160334",
+    "@type": "skos:Concept",
+    "skos:inScheme": "despido colectivo",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1395354",
+    "skos:topConceptOf": "LT8160334",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "despido colectivo"
+        },
+        {
+            "@language": "en",
+            "@value": "collective dismissal"
+        },
+        {
+            "@language": "de",
+            "@value": "Massenkündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "collectief ontslag"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "collective redundancy"
+        },
+        {
+            "@language": "en",
+            "@value": "mass redundancy"
+        },
+        {
+            "@language": "en",
+            "@value": "mass dismissal"
+        },
+        {
+            "@language": "de",
+            "@value": "Massenentlassung"
+        },
+        {
+            "@language": "nl",
+            "@value": "collectieve afdanking"
+        },
+        {
+            "@language": "nl",
+            "@value": "massaal ontslag"
+        },
+        {
+            "@language": "es",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Extinción de contratos de trabajo fundada en causas económicas técnicas organizativas o de producción cuando en un período de noventa días la extinción afecte al menos a:a) Diez trabajadores en las empresas que ocupen menos de cien trabajadores. b) El 10 por 100 del número de trabajadores de la empresa en aquellas que ocupen entre cien y trescientos trabajadores. c) Treinta trabajadores en las empresas que ocupen trescientos o más trabajadores."
+        },
+        {
+            "@language": "en",
+            "@value": "termination of a percentage (usually 10% or more) of an enterprise's employment contracts or of a predefined number of a company's employment contracts (depending on the laws in force) for economic technical organisational or productive reasons within a limited period of time (usually a few months)"
+        },
+        {
+            "@language": "de",
+            "@value": "eine (anzeigepflichtige) Massenentlassung liegt vor wenn in einem Betrieb innerhalb von 30 Tagen eine Anzahl von Arbeitnehmern entlassen wird die bei Betrieben mit mehr als 20 und weniger als 60 Arbeitnehmern 5 übersteigt bei Betrieben mit 60-499 Arbeitnehmern 10% oder mehr als 25bei Betrieben mit mindestens 500 Arbeitnehmern mindestens 30. Hierbei werden Arbeitnehmer denen außerordentlich gekündigt wird nicht mitgezählt"
+        }
+    ],
+    "skos:broader": []
+}

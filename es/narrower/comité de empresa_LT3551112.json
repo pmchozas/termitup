@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,15 +26,15 @@
             "@type": "@id"
         }
     },
-    "@id": "LT5377389",
+    "@id": "LT3551112",
     "@type": "skos:Concept",
-    "skos:inScheme": "motherhood",
-    "skos:topConceptOf": "LT5377389",
-    "owl:sameAs": "http://eurovoc.europa.eu/5159",
+    "skos:inScheme": "comité de empresa",
+    "skos:topConceptOf": "LT3551112",
+    "owl:sameAs": "http://eurovoc.europa.eu/6051",
     "skos:prefLabel": [
         {
-            "@language": "en",
-            "@value": "motherhood"
+            "@language": "es",
+            "@value": "comité de empresa"
         }
     ]
 }

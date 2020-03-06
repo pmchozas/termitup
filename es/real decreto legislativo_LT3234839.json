@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,18 +26,34 @@
             "@type": "@id"
         }
     },
-    "@id": "LT2272369",
+    "@id": "LT3234839",
     "@type": "skos:Concept",
-    "skos:inScheme": "días naturales",
-    "owl:sameAs": "https://iate.europa.eu/entry/result/763856",
-    "skos:topConceptOf": "LT2272369",
+    "skos:inScheme": "real decreto legislativo",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/144401",
+    "skos:topConceptOf": "LT3234839",
     "skos:prefLabel": [
         {
             "@language": "es",
-            "@value": "días naturales"
+            "@value": "real decreto legislativo"
+        },
+        {
+            "@language": "en",
+            "@value": "Royal Legislative Decree"
+        },
+        {
+            "@language": "de",
+            "@value": "königliche Gesetzesverordnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "Koninklijk Wetgevend Decreet"
         }
     ],
     "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "Real Decreto Legislativo"
+        },
         {
             "@language": "es",
             "@value": ""

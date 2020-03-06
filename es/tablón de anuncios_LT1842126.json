@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "http://lynx-project.eu/kos/",
+        "@base": "http://lynx-project.eu/kos/labour law",
         "dcterms": "http://purl.org/dc/terms/",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,81 +26,65 @@
             "@type": "@id"
         }
     },
-    "@id": "LT5972302",
+    "@id": "LT1842126",
     "@type": "skos:Concept",
-    "skos:inScheme": "maternity",
-    "owl:sameAs": "https://iate.europa.eu/entry/result/3583439",
-    "skos:topConceptOf": "LT5972302",
+    "skos:inScheme": "tablón de anuncios",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1391422",
+    "skos:topConceptOf": "LT1842126",
     "skos:prefLabel": [
         {
-            "@language": "en",
-            "@value": "maternity"
+            "@language": "es",
+            "@value": "tablón de anuncios"
         },
         {
             "@language": "en",
-            "@value": "maternity"
+            "@value": "notice board"
         },
         {
-            "@language": "en",
-            "@value": "maternity"
+            "@language": "de",
+            "@value": "schwarzes Brett"
         },
         {
-            "@language": "en",
-            "@value": "maternity"
-        },
-        {
-            "@language": "en",
-            "@value": "maternity"
+            "@language": "nl",
+            "@value": "aanplakbord"
         }
     ],
     "skos:altLabel": [
         {
             "@language": "en",
-            "@value": "maternity"
+            "@value": "bulletin board"
         },
         {
             "@language": "en",
-            "@value": "maternity"
+            "@value": "tack board"
         },
         {
-            "@language": "en",
-            "@value": "farrowing pen"
+            "@language": "de",
+            "@value": "Anschlagtafel"
         },
         {
-            "@language": "en",
-            "@value": "guard rail"
+            "@language": "de",
+            "@value": "Aushangtafel"
         },
         {
-            "@language": "en",
-            "@value": "pig guard rail"
-        },
-        {
-            "@language": "en",
-            "@value": "farrowing rail"
-        },
-        {
-            "@language": "en",
-            "@value": "farrowing crate"
-        },
-        {
-            "@language": "en",
+            "@language": "es",
             "@value": ""
         }
     ],
     "skos:definition": [
         {
             "@language": "en",
-            "@value": "The condition or fact of being a mother."
+            "@value": "a board displaying a notice or a warning"
+        },
+        {
+            "@language": "de",
+            "@value": "Tafel fuer Veroeffentlichungen"
         }
     ],
     "skos:broader": [
-        "LT9046384",
-        "LT5686281",
-        "LT5626899",
-        "LT9792449"
+        "LT8920716"
     ],
     "skos:related": [
-        "LT5377389",
-        "LT3823634"
+        "LT7515885"
     ]
 }
