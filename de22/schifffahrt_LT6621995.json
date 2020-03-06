@@ -1,0 +1,140 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6621995",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schifffahrt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1916952",
+    "skos:topConceptOf": "LT6621995",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "shipping"
+        },
+        {
+            "@language": "de",
+            "@value": "schifffahrt"
+        },
+        {
+            "@language": "en",
+            "@value": "polar shipping"
+        },
+        {
+            "@language": "de",
+            "@value": "schifffahrt"
+        },
+        {
+            "@language": "es",
+            "@value": "navegación autónoma"
+        },
+        {
+            "@language": "en",
+            "@value": "autonomous shipping"
+        },
+        {
+            "@language": "de",
+            "@value": "schifffahrt"
+        },
+        {
+            "@language": "nl",
+            "@value": "autonome scheepvaart"
+        },
+        {
+            "@language": "de",
+            "@value": "schifffahrt"
+        },
+        {
+            "@language": "nl",
+            "@value": "Directie Scheepvaart"
+        },
+        {
+            "@language": "de",
+            "@value": "schifffahrt"
+        },
+        {
+            "@language": "nl",
+            "@value": "bericht aan de binnenvaart"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "autonoom varen"
+        },
+        {
+            "@language": "nl",
+            "@value": "onbemand varen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "transport of goods by sea or some other means"
+        },
+        {
+            "@language": "en",
+            "@value": "navigation in waters surrounding the North and South poles"
+        },
+        {
+            "@language": "de",
+            "@value": "Schifffahrt in den polaren Gewässern der Arktis und Antarktis"
+        },
+        {
+            "@language": "es",
+            "@value": "Navegación que emplea buques que en diversos grados pueden navegar sin depender de la interacción humana."
+        },
+        {
+            "@language": "en",
+            "@value": "seafaring using unmanned ships that require no input from humans other than in an emergency"
+        },
+        {
+            "@language": "de",
+            "@value": "Verkehr mit selbstfahrenden Schiffen"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebruik\n van onbemande schepen die zonder menselijke besturing hun weg vinden en die vanuit een controlekamer aan de wal worden gevolgd"
+        }
+    ],
+    "skos:broader": [
+        "LT1660792",
+        "LT6515539"
+    ],
+    "skos:related": [
+        "LT1067221",
+        "LT1009188",
+        "LT6492535",
+        "LT9595024",
+        "LT2383373",
+        "LT5528111"
+    ]
+}

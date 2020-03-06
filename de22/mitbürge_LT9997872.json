@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9997872",
+    "@type": "skos:Concept",
+    "skos:inScheme": "mitbürge",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1131152",
+    "skos:topConceptOf": "LT9997872",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "joint surety"
+        },
+        {
+            "@language": "de",
+            "@value": "mitbürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "medeborg"
+        },
+        {
+            "@language": "es",
+            "@value": "cofiador mancomunado"
+        },
+        {
+            "@language": "en",
+            "@value": "co-surety"
+        },
+        {
+            "@language": "de",
+            "@value": "mitbürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "medeborg"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "collateral security"
+        },
+        {
+            "@language": "de",
+            "@value": "Mitbürge"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "one of a group of sureties which participates directly in a bond"
+        }
+    ]
+}

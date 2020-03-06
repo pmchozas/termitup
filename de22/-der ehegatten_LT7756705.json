@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7756705",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der ehegatten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583752",
+    "skos:topConceptOf": "LT7756705",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "separación de los cónyuges"
+        },
+        {
+            "@language": "en",
+            "@value": "separation of husband and wife"
+        },
+        {
+            "@language": "de",
+            "@value": "-der ehegatten"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheiding van de echtgenoten"
+        },
+        {
+            "@language": "en",
+            "@value": "separate estates of husband and wife"
+        },
+        {
+            "@language": "de",
+            "@value": "-der ehegatten"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigen goederen van de echtgenoten"
+        },
+        {
+            "@language": "es",
+            "@value": "reconciliación de los cónyuges"
+        },
+        {
+            "@language": "en",
+            "@value": "reconciliation"
+        },
+        {
+            "@language": "de",
+            "@value": "-der ehegatten"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzoening van de echtgenoten"
+        },
+        {
+            "@language": "de",
+            "@value": "-der ehegatten"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzoening van de echtgenoten"
+        },
+        {
+            "@language": "es",
+            "@value": "separación de hecho"
+        },
+        {
+            "@language": "en",
+            "@value": "de facto separation"
+        },
+        {
+            "@language": "de",
+            "@value": "-der ehegatten"
+        },
+        {
+            "@language": "nl",
+            "@value": "feitelijke scheiding"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Getrenntleben"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "Een scheiding van de echtgenoten kan zowel een (wettelijk niet geregelde) feitelijke scheiding zijn of een (wettelijk geregelde) scheiding van tafel en bed. Bij een scheiding houdt de duurzame levensgemeenschap fundament van het huwelijk op te bestaan. De echtgenoten gaan uiteen."
+        },
+        {
+            "@language": "nl",
+            "@value": "Onder het nieuwe echtscheidingsrecht zal de rechtsvordering tot EOO niet langer vervallen in geval van verzoening tussen de echtgenoten. Toch zal een verzoening na het instellen van de vordering nog een impacht hebben op de echtscheidingsuitspraak. Zo zal noch het bewijs van onherstelbare ontwrichting noch het bewijs van een ononderbroken feitelijke scheiding op afdoende wijze kunnen worden geleverd. [BE] ; Het willen beëindigen van de door scheiding van tafel en bed geschapen toestand het weer op zich nemen van de echtelijke verplichtingen en het aanvaarden dat de andere echtgenoot hetzelfde doet. [NL]"
+        },
+        {
+            "@language": "es",
+            "@value": "Conclusión de la vida en común de los cónyuges por acuerdo unilateral o bilateral de los mismos con carácter perpetuo o temporal y sin que haya intervenido la autoridad judicial. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "\"Die Ehegatten leben getrennt wenn zwischen ihnen keine häusliche Gemeinschaft besteht und ein Ehegatte sie erkennbar nicht herstellen will weil er die eheliche Lebensgemeinschaft ablehnt. Die häusliche Gemeinschaft besteht auch dann nicht mehr wenn die Ehegatten innerhalb der ehelichen Wohnung getrennt leben.\" [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Toestand waarin de echtgenoten feitelijk gescheiden leven. Deze echtscheidingsgrond valt onder \"de onherstelbare ontwrichting van het huwelijk\" wanneer de echtgenoten een bepaalde periode feitelijk gescheiden leven. De door de wet vereiste duurtijd van de feitelijke scheiding verschilt naargelang de echtscheiding door beide echtgenoten wordt gevorderd (meer dan zes maanden) dan wel door één echtgenoot alleen (meer dan één jaar). [BE] / verschijnsel dat echtgenoten niet samenwonen soms in afwachting van betere tijden vaker omdat echtscheiding of scheiding van tafel en bed een brug te ver wordt gevonden [NL]"
+        }
+    ]
+}

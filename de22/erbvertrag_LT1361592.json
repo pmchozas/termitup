@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1361592",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbvertrag",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/890919",
+    "skos:topConceptOf": "LT1361592",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "pacto sucesorio"
+        },
+        {
+            "@language": "en",
+            "@value": "agreement as to succession"
+        },
+        {
+            "@language": "de",
+            "@value": "erbvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfovereenkomst"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato sucesorio"
+        },
+        {
+            "@language": "en",
+            "@value": "coparcenary contract"
+        },
+        {
+            "@language": "de",
+            "@value": "erbvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "testamentaire beschikking bij overeenkomst vastgesteld"
+        },
+        {
+            "@language": "en",
+            "@value": "agreement as to succession"
+        },
+        {
+            "@language": "de",
+            "@value": "erbvertrag"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato sucesorio"
+        },
+        {
+            "@language": "en",
+            "@value": "coparcenary contract"
+        },
+        {
+            "@language": "de",
+            "@value": "erbvertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "erbvertrag"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "overeenkomst inzake erfopvolging"
+        },
+        {
+            "@language": "en",
+            "@value": "testamentary contract"
+        },
+        {
+            "@language": "en",
+            "@value": "testamentary contract"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1) Todo acuerdo realizado por escrito o resultante de testamentos mutuos IATE:1093800  por el que se confieran modifiquen o revoquen con o sin contraprestación derechos relativos a la sucesión futura IATE:3536433 de una o más personas que sean partes en dicho acuerdo.2) Todo acuerdo incluido el resultante de testamentos recíprocos por el que se confieran modifiquen o revoquen con o sin contraprestación derechos relativos a la sucesión o las sucesiones futuras de una o más personas que sean partes en dicho acuerdo."
+        },
+        {
+            "@language": "en",
+            "@value": "contractual arrangement involving the disposition of future property at the time of the death of the transferor"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Vereinbarung durch die mit oder ohne Gegenleistung Rechte einer oder mehrerer an dieser Vereinbarung beteiligter Personen am künftigen Nachlass begründet geändert oder entzogen werden"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"overeenkomst over het geheel of een deel van een nalatenschap waardoor rechten in de nalatenschap worden overgedragen of aan de nalatenschap wordt verzaakt.\""
+        },
+        {
+            "@language": "de",
+            "@value": "notariell beglaubigter Vertrag zwischen den Erben und dem Erblasser zu dessen Lebzeiten"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinbarung durch die mit oder ohne Gegenleistung Rechte einer oder mehrerer an dieser Vereinbarung beteiligter Personen am künftigen Nachlass begründet geändert oder entzogen werden"
+        }
+    ]
+}

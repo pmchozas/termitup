@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6738315",
+    "@type": "skos:Concept",
+    "skos:inScheme": "rechtsanwalt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/239437",
+    "skos:topConceptOf": "LT6738315",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "abogado"
+        },
+        {
+            "@language": "en",
+            "@value": "ATTY"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsanwalt"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsanwalt"
+        },
+        {
+            "@language": "es",
+            "@value": "abogado"
+        },
+        {
+            "@language": "en",
+            "@value": "advocate,barrister solicitor"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsanwalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "advocaat"
+        },
+        {
+            "@language": "es",
+            "@value": "abogado"
+        },
+        {
+            "@language": "en",
+            "@value": "lawyer"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsanwalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "advocaat"
+        },
+        {
+            "@language": "en",
+            "@value": "lawyer"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsanwalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "advocaat"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "attorney"
+        },
+        {
+            "@language": "en",
+            "@value": "lawyer"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsanwalt"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsanwalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "advokaat"
+        },
+        {
+            "@language": "es",
+            "@value": "letrado"
+        },
+        {
+            "@language": "nl",
+            "@value": "advokaat"
+        },
+        {
+            "@language": "en",
+            "@value": "solicitor"
+        },
+        {
+            "@language": "en",
+            "@value": "barrister"
+        },
+        {
+            "@language": "en",
+            "@value": "attorney"
+        },
+        {
+            "@language": "en",
+            "@value": "attorney-at-law"
+        },
+        {
+            "@language": "en",
+            "@value": "advocate"
+        },
+        {
+            "@language": "nl",
+            "@value": "advokaat,advocate"
+        },
+        {
+            "@language": "nl",
+            "@value": "advokate"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"abogado/abogada: Licenciado o doctor en derecho que ejerce profesionalmente la dirección y defensa de las partes en toda clase de procesos o el asesoramiento y consejo jurídico.\"; \"letrado: abogado (licenciado o doctor en derecho). Jurista de una institución pública encargado de estudiar y preparar sus dictámenes o resoluciones. Letrado del Consejo de Estado. Letrado del Tribunal Constitucional\""
+        },
+        {
+            "@language": "en",
+            "@value": "in the traditional English system a member of one of the recognized branches of practice"
+        },
+        {
+            "@language": "de",
+            "@value": "unabhängiges Organ der Rechtspflege das Kläger und Beklagte berät und vor Gericht und in Rechtsangelegenheiten vertritt"
+        }
+    ]
+}

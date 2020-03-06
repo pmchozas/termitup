@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6651693",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gemeinschaftseigentum",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1071577",
+    "skos:topConceptOf": "LT6651693",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "comunidad de bienes"
+        },
+        {
+            "@language": "en",
+            "@value": "co-ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "gemeinschaftseigentum"
+        },
+        {
+            "@language": "nl",
+            "@value": "gemeenschappelijk eigendom"
+        },
+        {
+            "@language": "es",
+            "@value": "copropiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "co-ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "gemeinschaftseigentum"
+        },
+        {
+            "@language": "en",
+            "@value": "land in co-ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "gemeinschaftseigentum"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "joint ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "gemeinschaftliches Eigentum"
+        },
+        {
+            "@language": "nl",
+            "@value": "mede-eigendom"
+        },
+        {
+            "@language": "de",
+            "@value": "Flächen in Gemeinschaftseigentum"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Hay comunidad [de bienes] cuando la propiedad de una cosa o de un derecho pertenece pro indiviso a varias personas."
+        },
+        {
+            "@language": "en",
+            "@value": "situation in which a person or organisation shares ownership in an asset with another individual or group"
+        },
+        {
+            "@language": "de",
+            "@value": "Eigentum das mehr als einer Partei gehört die alle gleiche Rechte an dem Besitz haben"
+        },
+        {
+            "@language": "nl",
+            "@value": "meerdere personen zijn tegelijk eigenaar van hetzelfde goed: het eigendomsrecht is verdeeld maar het goed niet - dat behoort aan ieder van hen voor een wiskundig breukdeel"
+        }
+    ]
+}

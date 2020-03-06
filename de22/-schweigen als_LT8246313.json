@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8246313",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-schweigen als",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3543612",
+    "skos:topConceptOf": "LT8246313",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-schweigen als"
+        },
+        {
+            "@language": "es",
+            "@value": "zona de silencio"
+        },
+        {
+            "@language": "en",
+            "@value": "zone of silence"
+        },
+        {
+            "@language": "de",
+            "@value": "-schweigen als"
+        },
+        {
+            "@language": "nl",
+            "@value": "stiltezone"
+        },
+        {
+            "@language": "es",
+            "@value": "ley del silencio"
+        },
+        {
+            "@language": "en",
+            "@value": "wall of silence"
+        },
+        {
+            "@language": "de",
+            "@value": "-schweigen als"
+        },
+        {
+            "@language": "es",
+            "@value": "silencio administrativo"
+        },
+        {
+            "@language": "en",
+            "@value": "administrative silence"
+        },
+        {
+            "@language": "de",
+            "@value": "-schweigen als"
+        },
+        {
+            "@language": "es",
+            "@value": "silencio administrativo"
+        },
+        {
+            "@language": "de",
+            "@value": "-schweigen als"
+        },
+        {
+            "@language": "nl",
+            "@value": "stilzitten van een bestuursorgaan"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Untätiges Schweigen"
+        },
+        {
+            "@language": "nl",
+            "@value": " niet tijdig beslissen door een bestuursorgaan"
+        },
+        {
+            "@language": "nl",
+            "@value": " stilzwijgen van de administratie"
+        },
+        {
+            "@language": "nl",
+            "@value": " stilzwijgen van de overheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "kann gemäß ABGB grundsätzlich nicht als Willenserklärung ausgelegt werden d.h. schweigt jemand auf ein Angebot liegt darin eine Ablehnung. Etwas anderes gilt im bürgerlichen Recht aber wenn das Gesetz es anordnet (z.B. § 362 Unternehmensgesetzbuch)"
+        },
+        {
+            "@language": "en",
+            "@value": "assemblage of points on the Earth's surface at which a distant sound is not perceptible to the ear while...the sound is audible at more distant places situated on the same straight line from the s ource of the so und."
+        },
+        {
+            "@language": "es",
+            "@value": "en un sentido vulgar y etimológico existirá cuando la Administración no responde a las consultas peticiones reclamaciones quejas recursos sugerencias etc."
+        },
+        {
+            "@language": "es",
+            "@value": "Técnica establecida por la ley ante la falta de resolución en plazo de los procedimientos administrativos mediante la cual se pueden entender estimadas (silencio positivo) o desestimadas (silencio negativo) las peticiones dirigidas a la Administración. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Uitblijven van een antwoord binnen de termijn van het bestuursorgaan waarbij een verzoek werd ingediend wat wordt gelijkgesteld aan een besluit [NL] of beslissing [BE] waartegen de belanghebbende eventueel bezwaar kan maken of beroep kan aantekenen."
+        }
+    ]
+}

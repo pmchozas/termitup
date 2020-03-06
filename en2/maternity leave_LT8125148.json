@@ -1,0 +1,98 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8125148",
+    "@type": "skos:Concept",
+    "skos:inScheme": "maternity leave",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/777519",
+    "skos:topConceptOf": "LT8125148",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "permiso de maternidad"
+        },
+        {
+            "@language": "en",
+            "@value": "maternity leave"
+        },
+        {
+            "@language": "de",
+            "@value": "Mutterschaftsurlaub"
+        },
+        {
+            "@language": "nl",
+            "@value": "moederschapsverlof"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "permiso por maternidad"
+        },
+        {
+            "@language": "nl",
+            "@value": "zwangerschaps- en bevallingsverlof"
+        },
+        {
+            "@language": "nl",
+            "@value": "zwangerschapsverlof"
+        },
+        {
+            "@language": "nl",
+            "@value": "moederschapsrust"
+        },
+        {
+            "@language": "en",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Licencia a la que tiene derecho una mujer trabajadora antes y/o después del parto con el mantenimiento de los derechos relacionados con el contrato de trabajo y de una remuneración y/o del beneficio de una prestación adecuada por un tiempo ininterrumpido determinado por la legislación y las prácticas nacionales."
+        },
+        {
+            "@language": "en",
+            "@value": "leave from work for mothers in the period immediately preceding and following birth"
+        },
+        {
+            "@language": "de",
+            "@value": "Arbeitsbefreiung ohne Unterbrechung die Arbeitnehmerinnen entsprechend den einzelstaatlichen Rechtsvorschriften und Gepflogenheiten vor und/oder nach der Entbindung gewährt wird (Richtlinie des Rates 92/85/EWG vom 19.10.92ABl. Nr.L 348/1)"
+        },
+        {
+            "@language": "nl",
+            "@value": "verlof vóór en na de bevalling"
+        }
+    ],
+    "skos:broader": [
+        "LT4711421"
+    ],
+    "skos:related": [
+        "LT3680187"
+    ]
+}

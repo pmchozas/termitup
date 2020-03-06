@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2857875",
+    "@type": "skos:Concept",
+    "skos:inScheme": "deckname",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130187",
+    "skos:topConceptOf": "LT2857875",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "seudónimo"
+        },
+        {
+            "@language": "en",
+            "@value": "pen-name"
+        },
+        {
+            "@language": "de",
+            "@value": "deckname"
+        },
+        {
+            "@language": "nl",
+            "@value": "pseudoniem"
+        },
+        {
+            "@language": "es",
+            "@value": "seudónimo"
+        },
+        {
+            "@language": "en",
+            "@value": "pseudonym"
+        },
+        {
+            "@language": "de",
+            "@value": "deckname"
+        },
+        {
+            "@language": "nl",
+            "@value": "pseudoniem"
+        },
+        {
+            "@language": "en",
+            "@value": "assumed name"
+        },
+        {
+            "@language": "de",
+            "@value": "deckname"
+        },
+        {
+            "@language": "nl",
+            "@value": "aangenomen naam"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "pseudonym"
+        },
+        {
+            "@language": "de",
+            "@value": "Deckname"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuilnaam"
+        },
+        {
+            "@language": "de",
+            "@value": "Deckname"
+        },
+        {
+            "@language": "de",
+            "@value": "Deckname"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "an assumed name of the author"
+        },
+        {
+            "@language": "es",
+            "@value": "Nombre empleado en lugar del auténtico generalmente a fin de singularizarse evitar apellidos comunes o poco eufónicos. Suele escogerlo libremente la persona que lo usa para ocultar o encubrir su verdadera personalidad para guardar el anonimato en el desempeño de actividades lícitas o bien para identificarse de una manera más sencilla o más eficaz que con su nombre auténtico."
+        },
+        {
+            "@language": "en",
+            "@value": "a fictitious name especially one used by an author."
+        },
+        {
+            "@language": "de",
+            "@value": "zur Verdeckung der Identität einer Person verwandter von dem gesetzlich zustehenden wahren Namen abweichender Name einer Person"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Aangenomen naam waaronder iemand in het bijzonder een schrijver in de openbaarheid treedt\""
+        }
+    ]
+}

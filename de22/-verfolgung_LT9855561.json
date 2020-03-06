@@ -1,0 +1,160 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9855561",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-verfolgung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3584071",
+    "skos:topConceptOf": "LT9855561",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "persecución"
+        },
+        {
+            "@language": "en",
+            "@value": "persecution"
+        },
+        {
+            "@language": "de",
+            "@value": "-verfolgung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervolging"
+        },
+        {
+            "@language": "es",
+            "@value": "seguimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "tracking"
+        },
+        {
+            "@language": "de",
+            "@value": "-verfolgung"
+        },
+        {
+            "@language": "es",
+            "@value": "persecución"
+        },
+        {
+            "@language": "en",
+            "@value": "persecution"
+        },
+        {
+            "@language": "de",
+            "@value": "-verfolgung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervolging"
+        },
+        {
+            "@language": "en",
+            "@value": "proceedings"
+        },
+        {
+            "@language": "de",
+            "@value": "-verfolgung"
+        },
+        {
+            "@language": "nl",
+            "@value": "dagvaarding"
+        },
+        {
+            "@language": "en",
+            "@value": "prosecution"
+        },
+        {
+            "@language": "de",
+            "@value": "-verfolgung"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderzoeksprocedure"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Zielverfolgung"
+        },
+        {
+            "@language": "en",
+            "@value": "prosecution"
+        },
+        {
+            "@language": "de",
+            "@value": "Verfolgung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verfolgung"
+        },
+        {
+            "@language": "nl",
+            "@value": "procedure"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "Threat to life or serious violation of human rights on account of race religion nationality political opinion or membership of a particular social group. [INT]"
+        },
+        {
+            "@language": "de",
+            "@value": "Menschenrechtsverletzungen oder andere ernsthafte Schäden die häufig aber nicht immer ein systematisches und wiederkehrendes Element beinhalten. [UE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Bedreiging van het leven of vrijheid van een individu groep of gemeenschap op grond van ras godsdienst nationaliteit politieke overtuiging of het behoren tot een bepaalde sociale groep. [INT] [UE] [NL] [BE]"
+        },
+        {
+            "@language": "es",
+            "@value": "En el ámbito militar determinación precisa y continuada de la posición de objetivos mediante el uso de radar dispositivos ópticos u otros medios."
+        },
+        {
+            "@language": "en",
+            "@value": "precise and continuous position-finding of targets by radar optical or other means"
+        },
+        {
+            "@language": "de",
+            "@value": "fortgesetzte präzise Bestimmung der Position von beweglichen Objekten mit Hilfe von u.a. Radarsystemen"
+        },
+        {
+            "@language": "es",
+            "@value": "Violación grave o sistemática o sostenida de los derechos humanos de una persona por motivos de raza religión nacionalidad pertenencia a determinado grupo social u opinión política. La persecución por motivos de género incluida aquella motivada por la preferencia sexual y la identidad de género están incluidas en las causas de persecución que reconoce el derecho de asilo."
+        }
+    ]
+}

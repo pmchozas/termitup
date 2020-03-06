@@ -1,0 +1,181 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8383374",
+    "@type": "skos:Concept",
+    "skos:inScheme": "maschine",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1219003",
+    "skos:topConceptOf": "LT8383374",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "máquina que fabrica los engranajes por deformación del metal"
+        },
+        {
+            "@language": "en",
+            "@value": "machine for making gears by changing the shape or form of metal"
+        },
+        {
+            "@language": "de",
+            "@value": "maschine"
+        },
+        {
+            "@language": "nl",
+            "@value": "machine voor het vervaardigen van tandwielen door vervorming van het metaal"
+        },
+        {
+            "@language": "es",
+            "@value": "máquina para fabricar por punzonado"
+        },
+        {
+            "@language": "en",
+            "@value": "machine for making gears by punching"
+        },
+        {
+            "@language": "de",
+            "@value": "maschine"
+        },
+        {
+            "@language": "nl",
+            "@value": "ponsmachine voor de vervaardiging van tandwielen"
+        },
+        {
+            "@language": "es",
+            "@value": "máquina"
+        },
+        {
+            "@language": "en",
+            "@value": "machinery"
+        },
+        {
+            "@language": "de",
+            "@value": "maschine"
+        },
+        {
+            "@language": "nl",
+            "@value": "machineriën"
+        },
+        {
+            "@language": "es",
+            "@value": "máquina"
+        },
+        {
+            "@language": "en",
+            "@value": "machine"
+        },
+        {
+            "@language": "de",
+            "@value": "maschine"
+        },
+        {
+            "@language": "nl",
+            "@value": "machine"
+        },
+        {
+            "@language": "es",
+            "@value": "máquina"
+        },
+        {
+            "@language": "en",
+            "@value": "machinery"
+        },
+        {
+            "@language": "de",
+            "@value": "maschine"
+        },
+        {
+            "@language": "nl",
+            "@value": "machine"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "die Verzahnungen durch spanloses Umformen herstellt"
+        },
+        {
+            "@language": "de",
+            "@value": "die Verzahnungen durch Lochstanzen herstellt"
+        },
+        {
+            "@language": "nl",
+            "@value": "machines"
+        },
+        {
+            "@language": "es",
+            "@value": "aparato"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.A group of parts or machines arranged to perform a useful function."
+        },
+        {
+            "@language": "en",
+            "@value": "a mechanical device actuated by some kind of power and designed to perform a specific duty"
+        },
+        {
+            "@language": "es",
+            "@value": "un conjunto de piezas o órganos unidos entre ellos de los cuales uno por lo menos habrá de ser móvil y en su caso de órganos de accionamiento circuitos de mando y de potencia etc. asociados de forma solidaria para una aplicación determinada en particular para la transformación tratamiento desplazamiento y acondicionamiento de un material"
+        },
+        {
+            "@language": "en",
+            "@value": "an assembly of linked parts or componentsat least one of which moveswith the appropriate actuatorscontrol and power circuitsetc.joined together for a specific applicationin particular for the processingtreatmentmoving or packaging of a material"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Gesamtheit von miteinander verbundenen Teilen oder Vorrichtungen von denen mindestens eines beweglich ist sowied gegebenenfalls von Betätigungsgeräten Steuer-und Energiekreisen usw.die für eine bestimmte Anwendung wie die Verarbeitung die Behandlung die Fortbewegung und die Aufbereitung eines Werkstoffes zusammengefügt sind"
+        },
+        {
+            "@language": "nl",
+            "@value": "een samenstel van onderling verbonden onderdelen of organen waarvan er ten minste één kan bewegen alsmede in voorkomend geval van aandrijfmechanismen bedienings-en vermogensschakelingen enz. die in hun samenhang bestemd zijn voor een bepaalde toepassing met name voor de verwerking de bewerking de verplaatsing en de verpakking van een materiaal"
+        }
+    ],
+    "skos:broader": [
+        "LT7210875",
+        "LT4039013",
+        "LT8701712",
+        "LT6062809"
+    ],
+    "skos:related": [
+        "LT6323716",
+        "LT5593967",
+        "LT4526168",
+        "LT7181509",
+        "LT6215270",
+        "LT8855262",
+        "LT2636294",
+        "LT9900432",
+        "LT3137869"
+    ]
+}

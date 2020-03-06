@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7582363",
+    "@type": "skos:Concept",
+    "skos:inScheme": "stützmauer",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1356224",
+    "skos:topConceptOf": "LT7582363",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "breast"
+        },
+        {
+            "@language": "de",
+            "@value": "stützmauer"
+        },
+        {
+            "@language": "nl",
+            "@value": "borstwering"
+        },
+        {
+            "@language": "es",
+            "@value": "muro de sostenimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "retaining wall"
+        },
+        {
+            "@language": "de",
+            "@value": "stützmauer"
+        },
+        {
+            "@language": "nl",
+            "@value": "beschoeiing"
+        },
+        {
+            "@language": "es",
+            "@value": "pie derecho"
+        },
+        {
+            "@language": "en",
+            "@value": "pier wall"
+        },
+        {
+            "@language": "de",
+            "@value": "stützmauer"
+        },
+        {
+            "@language": "nl",
+            "@value": "steunbeer"
+        },
+        {
+            "@language": "en",
+            "@value": "retaining wall"
+        },
+        {
+            "@language": "de",
+            "@value": "stützmauer"
+        },
+        {
+            "@language": "nl",
+            "@value": "steunmuur"
+        },
+        {
+            "@language": "es",
+            "@value": "trasdós de un muro"
+        },
+        {
+            "@language": "en",
+            "@value": "batter of a wall"
+        },
+        {
+            "@language": "de",
+            "@value": "stützmauer"
+        },
+        {
+            "@language": "nl",
+            "@value": "helling van een muur"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "windowback"
+        },
+        {
+            "@language": "de",
+            "@value": "Fensterbrüstung"
+        },
+        {
+            "@language": "de",
+            "@value": "Brüstungsmauer"
+        },
+        {
+            "@language": "de",
+            "@value": "Entlastung"
+        },
+        {
+            "@language": "de",
+            "@value": "Stützmauer"
+        },
+        {
+            "@language": "de",
+            "@value": "Tragstein"
+        },
+        {
+            "@language": "es",
+            "@value": "muro de contención"
+        },
+        {
+            "@language": "de",
+            "@value": "Böschungsmauer"
+        },
+        {
+            "@language": "nl",
+            "@value": "keermuur"
+        },
+        {
+            "@language": "nl",
+            "@value": "keerwand"
+        },
+        {
+            "@language": "nl",
+            "@value": "bekledingsmuur"
+        },
+        {
+            "@language": "nl",
+            "@value": "steunmuur"
+        },
+        {
+            "@language": "es",
+            "@value": "pilar"
+        },
+        {
+            "@language": "de",
+            "@value": "Pfeiler"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the wall under the sill of a windowdown to floor level"
+        },
+        {
+            "@language": "en",
+            "@value": "a wall built to hold back earth or other solid material"
+        }
+    ]
+}

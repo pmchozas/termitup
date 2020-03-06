@@ -1,0 +1,212 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6798699",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der unsicherheit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3508488",
+    "skos:topConceptOf": "LT6798699",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "incertidumbre de medida"
+        },
+        {
+            "@language": "en",
+            "@value": "measurement uncertainty"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unsicherheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "meetonzekerheid"
+        },
+        {
+            "@language": "es",
+            "@value": "incertidumbre"
+        },
+        {
+            "@language": "en",
+            "@value": "uncertainty"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unsicherheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "onzekerheid"
+        },
+        {
+            "@language": "es",
+            "@value": "incertidumbre expandida"
+        },
+        {
+            "@language": "en",
+            "@value": "expanded measurement uncertainty"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unsicherheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitgebreide meetonzekerheid"
+        },
+        {
+            "@language": "es",
+            "@value": "incertidumbre aleatoria"
+        },
+        {
+            "@language": "en",
+            "@value": "random uncertainty"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unsicherheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "willekeurige onzekerheid"
+        },
+        {
+            "@language": "es",
+            "@value": "inestabilidad del empleo"
+        },
+        {
+            "@language": "en",
+            "@value": "uncertainty of employment"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unsicherheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "onstabiliteit van de werkgelegenheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "incertidumbre"
+        },
+        {
+            "@language": "en",
+            "@value": "uncertainty"
+        },
+        {
+            "@language": "de",
+            "@value": "Unsicherheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "onzekerheid"
+        },
+        {
+            "@language": "es",
+            "@value": "incertidumbre de medida expandida"
+        },
+        {
+            "@language": "en",
+            "@value": "expanded uncertainty"
+        },
+        {
+            "@language": "de",
+            "@value": "erweiterte Unsicherheit"
+        },
+        {
+            "@language": "de",
+            "@value": "erweiterte Messunsicherheit"
+        },
+        {
+            "@language": "es",
+            "@value": "inestabilidad profesional"
+        },
+        {
+            "@language": "nl",
+            "@value": "onzekerheid van de werkgelegenheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Parámetro asociado al resultado de una medida que caracteriza la dispersión de los valores que se pueden atribuir a la magnitud que se mide."
+        },
+        {
+            "@language": "en",
+            "@value": "parameter associated with the result of a measurement that characterises the dispersion of the values that could reasonably be attributed to the measurand"
+        },
+        {
+            "@language": "de",
+            "@value": "nichtnegativer Parameter der die Streuung der Werte kennzeichnet die der Messgröße auf der Grundlage der benutzten Informationen beigeordnet ist"
+        },
+        {
+            "@language": "nl",
+            "@value": "parameter gerelateerd aan het resultaat van de bepaling van een grootheid die de spreiding karakteriseert van de waarden welke redelijkerwijs kunnen worden toegekend aan die bepaalde grootheid"
+        },
+        {
+            "@language": "es",
+            "@value": "Elemento cuyo resultado depende de acciones o acontecimientos futuros que no están bajo el control directo de la entidad pero que puede afectar a las cuentas."
+        },
+        {
+            "@language": "en",
+            "@value": "A matter whose outcome depends on future actions or events not under the direct control of the entity but that may affect the accounts."
+        },
+        {
+            "@language": "de",
+            "@value": "Eine Frage die von zukünftigen Maßnahmen oder Ereignissen abhängt die nicht unter der direkten Kontrolle der geprüften Stelle sind sich aber auf den Abschluss auswirken können."
+        },
+        {
+            "@language": "nl",
+            "@value": "Een kwestie waarvan de uitkomst afhangt van toekomstige acties of gebeurtenissen die niet onder de directe invloed van de entiteit staan maar die de rekeningen wel kunnen beïnvloeden."
+        },
+        {
+            "@language": "es",
+            "@value": "Cantidad que define un intervalo para el resultado de una medición en el cual puede esperarse que se encuentre una fracción grande de la distribución de los valores que podrían ser razonablemente atribuidos al objeto mensurable."
+        },
+        {
+            "@language": "en",
+            "@value": "measure which provides an interval within which the value of the measurand is believed to lie with a higher level of confidence. U is obtained by multiplying uc(y) the combined standard uncertainty by a coverage factor k ( IATE:3508491 ). The choice of the factor k is based on the level of confidence desired. For an approximate level of confidence of 95% k is 2"
+        },
+        {
+            "@language": "de",
+            "@value": "Häufig wird die erw. Messunsicherheit verwendet mit dem Ziel ein Werteintervall anzugeben das den Wert der gemessenen Größe mit hoher Wahrscheinlichkeit überdeckt. Die erw. Messunsicherheit ergibt sich aus der Standardmessunsicherheit durch Multiplikation mit einem Erweiterungsfaktor. Je größer dieser Faktor ist desto größer ist die Wahrscheinlichkeit der Überdeckung bzw. desto größer ist das Vertrauen dass der Wert der Messgröße in dem angegebenen Werteintervall liegt. Für den üblicherweise verwendeten Wert einer Überdeckungswahrscheinlichkeit von 95 %6 ist i.a. ein Erweiterungsfaktor von 2 zu verwenden. Wird zur Angabe der Unsicherheit einer Messgröße die erweiterte Messunsicherheit mitgeteilt muß nach allgemeiner Übereinkunft der gewählte Erweiterungsfaktor oder die Überdeckungswahrscheinlichkeit oder auch beides mit angegeben werden. Auf diese Weise kann in jedem Fall auf die fundamentalere Standardmessunsicherheit zurückgeschlossen werden."
+        },
+        {
+            "@language": "nl",
+            "@value": "grootheid die het interval rond een analyseresultaat weergeeft waarbinnen de waarde van de geanalyseerde parameter met een specifieke mate van betrouwbaarheid wordt geacht te liggen"
+        }
+    ]
+}

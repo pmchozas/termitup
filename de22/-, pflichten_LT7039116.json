@@ -1,0 +1,140 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7039116",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, pflichten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1719313",
+    "skos:topConceptOf": "LT7039116",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "cuddy"
+        },
+        {
+            "@language": "de",
+            "@value": "-, pflichten"
+        },
+        {
+            "@language": "nl",
+            "@value": "roef"
+        },
+        {
+            "@language": "de",
+            "@value": "-, pflichten"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijksplicht"
+        },
+        {
+            "@language": "en",
+            "@value": "import deposit"
+        },
+        {
+            "@language": "de",
+            "@value": "-, pflichten"
+        },
+        {
+            "@language": "nl",
+            "@value": "borgstellingsverplichting"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación propter rem"
+        },
+        {
+            "@language": "de",
+            "@value": "-, pflichten"
+        },
+        {
+            "@language": "es",
+            "@value": "débito conyugal"
+        },
+        {
+            "@language": "en",
+            "@value": "duty to consent to sexual intercourse"
+        },
+        {
+            "@language": "de",
+            "@value": "-, pflichten"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederzijdse plicht van echtgenoten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Kautionspflicht"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación ambulatoria"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche Pflicht"
+        },
+        {
+            "@language": "de",
+            "@value": "eheliche Pflichten"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijksverplichting"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtelijke plicht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "V.Dale"
+        },
+        {
+            "@language": "nl",
+            "@value": "politique économique: deposito da effetuare dagli importatori italiani nel quadro delle misure restrittive risultanti dell'attuale situazione economica in Italia"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho de obligación en el cual el deudor aparece determinado por el hecho de ser propietario o poseedor de una cosa; es deudor de la prestación quien en cada momento sea propietario. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Verplichtingen die voortvloeien uit het primair huwelijksstelsel zijnde samenwoning getrouwheid hulp en bijstand. [BE]"
+        }
+    ]
+}

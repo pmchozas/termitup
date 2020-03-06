@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6276257",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der obsorge",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/778128",
+    "skos:topConceptOf": "LT6276257",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "patria potestad"
+        },
+        {
+            "@language": "en",
+            "@value": "parental authority"
+        },
+        {
+            "@language": "de",
+            "@value": "-der obsorge"
+        },
+        {
+            "@language": "nl",
+            "@value": "ouderlijk gezag"
+        },
+        {
+            "@language": "de",
+            "@value": "-der obsorge"
+        },
+        {
+            "@language": "de",
+            "@value": "-der obsorge"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "autoridad parental"
+        },
+        {
+            "@language": "en",
+            "@value": "custody"
+        },
+        {
+            "@language": "de",
+            "@value": "Obsorge"
+        },
+        {
+            "@language": "de",
+            "@value": "elterliche Gewalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "ouderlijke macht"
+        },
+        {
+            "@language": "de",
+            "@value": "Vormundschaft"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Conjunto de derechos y deberes de los padres en cuanto a las personas y bienes de sus hijos menores de edad no emancipados."
+        },
+        {
+            "@language": "de",
+            "@value": "die Personensorge und die Vermögenssorge umfassende (elterliche) Sorge für ein Kind"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Gedurende hun huwelijk oefenen de ouders het gezag gezamenlijk uit en na ontbinding van het huwelijk anders dan door de dood of na scheiding van tafel en bed blijven zij dit gezag gezamenlijk uitoefenen; in het belang van het kind kan de rechtbank bepalen dat het gezag over een kind of de kinderen aan een van hen alleen toekomt; ouders die niet met elkaar zijn gehuwd noch met elkaar gehuwd zijn geweest en die nimmer het gezag over hun minderjarige kinderen hebben uitgeoefend oefenen dit gezamenlijk uit indien zulks op hun beider verzoek in het  bij het kantongerecht bijgehouden register betreffende het gezag over minderjarigen is aangetekend\""
+        },
+        {
+            "@language": "de",
+            "@value": "die Ausübung der elteriichen Rechte und Pflichten gegenüber einem minderjährigen Kind durch eine andere Person wenn dies weder durch Eltern noch Großeltern oder Pflegeeltern möglich ist."
+        }
+    ]
+}

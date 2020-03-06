@@ -1,0 +1,240 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6032265",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vereinigung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1394858",
+    "skos:topConceptOf": "LT6032265",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "agrupación"
+        },
+        {
+            "@language": "de",
+            "@value": "vereinigung"
+        },
+        {
+            "@language": "es",
+            "@value": "suma lógica"
+        },
+        {
+            "@language": "en",
+            "@value": "logical sum"
+        },
+        {
+            "@language": "de",
+            "@value": "vereinigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "logische som"
+        },
+        {
+            "@language": "es",
+            "@value": "asociación"
+        },
+        {
+            "@language": "en",
+            "@value": "association"
+        },
+        {
+            "@language": "de",
+            "@value": "vereinigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "associatie"
+        },
+        {
+            "@language": "es",
+            "@value": "organización"
+        },
+        {
+            "@language": "de",
+            "@value": "vereinigung"
+        },
+        {
+            "@language": "es",
+            "@value": "unión"
+        },
+        {
+            "@language": "en",
+            "@value": "union"
+        },
+        {
+            "@language": "de",
+            "@value": "vereinigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vereniging"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "grupo"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Personenvereinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verein"
+        },
+        {
+            "@language": "de",
+            "@value": "Gruppe"
+        },
+        {
+            "@language": "de",
+            "@value": "Verband"
+        },
+        {
+            "@language": "de",
+            "@value": "Personenverband"
+        },
+        {
+            "@language": "de",
+            "@value": "Zusammenschluss"
+        },
+        {
+            "@language": "de",
+            "@value": "ODER-Verknüpfung"
+        },
+        {
+            "@language": "de",
+            "@value": "Disjunktion"
+        },
+        {
+            "@language": "de",
+            "@value": "Adjunktion"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "disjunctie"
+        },
+        {
+            "@language": "nl",
+            "@value": "vereniging"
+        },
+        {
+            "@language": "de",
+            "@value": "Sozietät"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verband"
+        },
+        {
+            "@language": "nl",
+            "@value": "vereniging"
+        },
+        {
+            "@language": "es",
+            "@value": "agrupación"
+        },
+        {
+            "@language": "es",
+            "@value": "asociación"
+        },
+        {
+            "@language": "es",
+            "@value": "federación"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verband"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinigungsmenge"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "given two classes A and B the logical sum A + B consists of all elements belonging to either A or B or both"
+        },
+        {
+            "@language": "de",
+            "@value": "Zusammenschluß in Form einer Gemeinschaft oder Gesellschaft"
+        },
+        {
+            "@language": "es",
+            "@value": "operador algebraico mediante el cual la unión de dos relaciones R y S genera una nueva relación U que contiene todos los elementos de R y S"
+        },
+        {
+            "@language": "en",
+            "@value": "relational algebra:algebraic operator.The union of two relations R and S returns a new relation U containing the tuples of both R and S.If a tuple is part of both R and Sit will appear only once in U"
+        },
+        {
+            "@language": "nl",
+            "@value": "een van de vijf basisoperaties in relationele algebra die alle tupels omvat die tenminste tot een van de desbetr. relaties behoren"
+        }
+    ],
+    "skos:broader": [
+        "LT9629249",
+        "LT3366133"
+    ],
+    "skos:narrower": [
+        "LT2954988",
+        "LT3608022"
+    ],
+    "skos:related": [
+        "LT5203973",
+        "LT9247350",
+        "LT1444671",
+        "LT1730577",
+        "LT1881331",
+        "LT7128079"
+    ]
+}

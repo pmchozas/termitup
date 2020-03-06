@@ -1,0 +1,160 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3490035",
+    "@type": "skos:Concept",
+    "skos:inScheme": "eigentumsvorbehalt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239357",
+    "skos:topConceptOf": "LT3490035",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "ownership reservation"
+        },
+        {
+            "@language": "de",
+            "@value": "eigentumsvorbehalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorbehoud van eigendomsrecht"
+        },
+        {
+            "@language": "es",
+            "@value": "reserva de dominio"
+        },
+        {
+            "@language": "en",
+            "@value": "retention of title"
+        },
+        {
+            "@language": "de",
+            "@value": "eigentumsvorbehalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigendomsvoorbehoud"
+        },
+        {
+            "@language": "es",
+            "@value": "cláusula de reserva de dominio"
+        },
+        {
+            "@language": "en",
+            "@value": "title clause"
+        },
+        {
+            "@language": "de",
+            "@value": "eigentumsvorbehalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "clausule van voorbehoud van eigendomsrecht"
+        },
+        {
+            "@language": "es",
+            "@value": "reserva de dominio"
+        },
+        {
+            "@language": "en",
+            "@value": "retention of title"
+        },
+        {
+            "@language": "de",
+            "@value": "eigentumsvorbehalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorbehoud van eigendomsrecht"
+        },
+        {
+            "@language": "en",
+            "@value": "simple reservation"
+        },
+        {
+            "@language": "de",
+            "@value": "eigentumsvorbehalt"
+        },
+        {
+            "@language": "nl",
+            "@value": "eenvoudig voorbehoud"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "retention of title"
+        },
+        {
+            "@language": "en",
+            "@value": "reservation of title"
+        },
+        {
+            "@language": "en",
+            "@value": "clause of reservation of title"
+        },
+        {
+            "@language": "en",
+            "@value": "clause of retention of title"
+        },
+        {
+            "@language": "de",
+            "@value": "Eigentumsvorbehalt"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "an agreement in connection with a sale of movable property in accordance with which the vendor retains ownership until full payment of the sale price"
+        },
+        {
+            "@language": "de",
+            "@value": "eine beim Verkauf beweglicher Sachen getroffene Abrede dass der Verkäufer bis zur Zahlung des Kaufpreises Eigentümer bleibt"
+        },
+        {
+            "@language": "nl",
+            "@value": "facultatief beding bij verkoop van een roerende zaak dat de verkoper eigenaar van de zaak blijft totdat de koopsom is betaald"
+        },
+        {
+            "@language": "es",
+            "@value": "Mecanismo jurídico que aplaza el traspaso de la propiedad de los bienes hasta el abono íntegro del precio de compra."
+        },
+        {
+            "@language": "en",
+            "@value": "\"retention of title\" is a specific term in Scots law which is defined in legal dictionaries."
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Het eigendomsvoorbehoud houdt in dat een verkoper van een bepaalde zaak ondanks aflevering van deze zaak aan de koper de eigendom daarvan nog niet verliest. De eigendom van de zaak gaat pas verloren wanneer de koper de (volledige) koopprijs heeft betaald. Het eigendomsvoorbehoud moet in een koopovereenkomst of in de algemene voorwaarden worden opgenomen.\""
+        }
+    ]
+}

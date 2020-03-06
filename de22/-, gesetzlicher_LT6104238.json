@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6104238",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, gesetzlicher",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/772756",
+    "skos:topConceptOf": "LT6104238",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "legal"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gesetzlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettig"
+        },
+        {
+            "@language": "en",
+            "@value": "lawful"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gesetzlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijk"
+        },
+        {
+            "@language": "es",
+            "@value": "matrimonio civil"
+        },
+        {
+            "@language": "en",
+            "@value": "legal marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gesetzlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "burgerlijk huwelijk"
+        },
+        {
+            "@language": "en",
+            "@value": "legal marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gesetzlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettig huwelijk"
+        },
+        {
+            "@language": "es",
+            "@value": "hora legal"
+        },
+        {
+            "@language": "en",
+            "@value": "standard time"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gesetzlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "standaardtijd"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "lawful"
+        },
+        {
+            "@language": "en",
+            "@value": "legitimate"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtmatig"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtsgeldig"
+        },
+        {
+            "@language": "nl",
+            "@value": "legitiem"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijk legaal"
+        },
+        {
+            "@language": "en",
+            "@value": "statutory"
+        },
+        {
+            "@language": "en",
+            "@value": "civil marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "Zivilehe"
+        },
+        {
+            "@language": "nl",
+            "@value": "officiële tijd"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Matrimonio celebrado ante el funcionario del Estado y de acuerdo con lo establecido a las leyes de este orden. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "vor einem staatlichen Standesbeamten geschlossene Ehe [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Het burgerlijk huwelijk is het huwelijk voltrokken voor de ambtenaar van de burgerlijke stand. Het burgerlijk huwelijk moet goed worden onderscheiden van het kerkelijk huwelijk. Gelet op de scheiding van kerk en staat moet in België de voltrekking van het burgerlijk huwelijk die van een kerkelijk huwelijk voorafgaan. Zie ook art. 267 SW. [BE]"
+        },
+        {
+            "@language": "en",
+            "@value": "the official time recognized in zones based on distance(in time)from an established origin DU BUREAU HYDROGRAPHIQUE INTERNATIONAL DE MONACO1951"
+        },
+        {
+            "@language": "nl",
+            "@value": "de in sommige landen aangehouden variatie op de zonetijd"
+        }
+    ]
+}

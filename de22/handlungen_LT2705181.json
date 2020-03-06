@@ -1,0 +1,145 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2705181",
+    "@type": "skos:Concept",
+    "skos:inScheme": "handlungen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1391470",
+    "skos:topConceptOf": "LT2705181",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "artimañas"
+        },
+        {
+            "@language": "de",
+            "@value": "handlungen"
+        },
+        {
+            "@language": "es",
+            "@value": "actuación"
+        },
+        {
+            "@language": "en",
+            "@value": "acts"
+        },
+        {
+            "@language": "de",
+            "@value": "handlungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "optreden"
+        },
+        {
+            "@language": "en",
+            "@value": "prohibited acts"
+        },
+        {
+            "@language": "de",
+            "@value": "handlungen"
+        },
+        {
+            "@language": "en",
+            "@value": "acts of the institutions"
+        },
+        {
+            "@language": "de",
+            "@value": "handlungen"
+        },
+        {
+            "@language": "es",
+            "@value": "acciones de nivel 3"
+        },
+        {
+            "@language": "en",
+            "@value": "level 3 actions"
+        },
+        {
+            "@language": "de",
+            "@value": "handlungen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "maniobras"
+        },
+        {
+            "@language": "es",
+            "@value": "intrigas"
+        },
+        {
+            "@language": "de",
+            "@value": "Machenschaften"
+        },
+        {
+            "@language": "de",
+            "@value": "Handlungen"
+        },
+        {
+            "@language": "de",
+            "@value": "Verhalten"
+        },
+        {
+            "@language": "de",
+            "@value": "Drittstufenmassnahmen"
+        },
+        {
+            "@language": "de",
+            "@value": "Handlungen der Stufe 3"
+        },
+        {
+            "@language": "de",
+            "@value": "Massnahmen der Stufe 3"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "listige heimtueckische Handlungen Intrigen"
+        },
+        {
+            "@language": "en",
+            "@value": "complex actions that require a great deal of judgment and a number of actions or manipulations during short time margins"
+        }
+    ],
+    "skos:broader": [
+        "LT6897596",
+        "LT3582738",
+        "LT8290492",
+        "LT2908194"
+    ],
+    "skos:narrower": [
+        "LT5438115"
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9390545",
+    "@type": "skos:Concept",
+    "skos:inScheme": "lade",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1703588",
+    "skos:topConceptOf": "LT9390545",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "tolva"
+        },
+        {
+            "@language": "en",
+            "@value": "hopper"
+        },
+        {
+            "@language": "de",
+            "@value": "lade"
+        },
+        {
+            "@language": "nl",
+            "@value": "trog"
+        },
+        {
+            "@language": "es",
+            "@value": "carga paleada"
+        },
+        {
+            "@language": "en",
+            "@value": "palletized unit load"
+        },
+        {
+            "@language": "de",
+            "@value": "lade"
+        },
+        {
+            "@language": "nl",
+            "@value": "gepalletiseerde last"
+        },
+        {
+            "@language": "es",
+            "@value": "movimiento del batan"
+        },
+        {
+            "@language": "en",
+            "@value": "weft motion"
+        },
+        {
+            "@language": "de",
+            "@value": "lade"
+        },
+        {
+            "@language": "es",
+            "@value": "batán"
+        },
+        {
+            "@language": "en",
+            "@value": "batten"
+        },
+        {
+            "@language": "de",
+            "@value": "lade"
+        },
+        {
+            "@language": "nl",
+            "@value": "prisma-lade"
+        },
+        {
+            "@language": "en",
+            "@value": "LAD"
+        },
+        {
+            "@language": "de",
+            "@value": "lade"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "tolva de recepción"
+        },
+        {
+            "@language": "es",
+            "@value": "tolva de alimentación"
+        },
+        {
+            "@language": "es",
+            "@value": "tolva de carga"
+        },
+        {
+            "@language": "en",
+            "@value": "inlet tray"
+        },
+        {
+            "@language": "en",
+            "@value": "receiving hopper"
+        },
+        {
+            "@language": "en",
+            "@value": "feed hopper"
+        },
+        {
+            "@language": "en",
+            "@value": "intake hopper"
+        },
+        {
+            "@language": "en",
+            "@value": "loading hopper"
+        },
+        {
+            "@language": "en",
+            "@value": "trough"
+        },
+        {
+            "@language": "de",
+            "@value": "Mulde"
+        },
+        {
+            "@language": "de",
+            "@value": "Trog"
+        },
+        {
+            "@language": "de",
+            "@value": "Lademulde"
+        },
+        {
+            "@language": "de",
+            "@value": "Lade"
+        },
+        {
+            "@language": "nl",
+            "@value": "stortbak"
+        },
+        {
+            "@language": "nl",
+            "@value": "inwerptrechter"
+        },
+        {
+            "@language": "de",
+            "@value": "Schlag eines Webstuhls"
+        },
+        {
+            "@language": "en",
+            "@value": "leukocyte adhesion deficiency"
+        },
+        {
+            "@language": "de",
+            "@value": "Leukozyten-Adhäsions-Defizienz"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "quantity of any itempackaged or unpackagedwhich is arranged on a pallet in a specified manner and securely strapped or fastened thereto so that the whole is handled as a unit"
+        },
+        {
+            "@language": "en",
+            "@value": "A swinging frame that carries the cylinder of a jacquard machine."
+        },
+        {
+            "@language": "en",
+            "@value": "a primary immunodeficiency characterized by defects in the leukocyte adhesion process marked leukocytosis and recurrent infections"
+        }
+    ],
+    "skos:broader": [
+        "LT1288352",
+        "LT7588251",
+        "LT7015124",
+        "LT7825130",
+        "LT8375213"
+    ],
+    "skos:related": [
+        "LT3659205",
+        "LT2995184",
+        "LT8061063",
+        "LT8941810"
+    ]
+}

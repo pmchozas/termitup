@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3973194",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bestandteil",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/792001",
+    "skos:topConceptOf": "LT3973194",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "component"
+        },
+        {
+            "@language": "de",
+            "@value": "bestandteil"
+        },
+        {
+            "@language": "es",
+            "@value": "componente"
+        },
+        {
+            "@language": "en",
+            "@value": "component"
+        },
+        {
+            "@language": "de",
+            "@value": "bestandteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "constituant"
+        },
+        {
+            "@language": "es",
+            "@value": "constituyente"
+        },
+        {
+            "@language": "en",
+            "@value": "constituent"
+        },
+        {
+            "@language": "de",
+            "@value": "bestandteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestanddeel"
+        },
+        {
+            "@language": "en",
+            "@value": "constituent"
+        },
+        {
+            "@language": "de",
+            "@value": "bestandteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestanddeel"
+        },
+        {
+            "@language": "es",
+            "@value": "componente inerte"
+        },
+        {
+            "@language": "en",
+            "@value": "inert component"
+        },
+        {
+            "@language": "de",
+            "@value": "bestandteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "inert bestanddeel"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "component"
+        },
+        {
+            "@language": "en",
+            "@value": "element"
+        },
+        {
+            "@language": "en",
+            "@value": "part"
+        },
+        {
+            "@language": "de",
+            "@value": "Unterabschnitt"
+        },
+        {
+            "@language": "de",
+            "@value": "inerter Bestandteil"
+        },
+        {
+            "@language": "de",
+            "@value": "Inertbestandteil"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "one of the parts of a composite entity"
+        },
+        {
+            "@language": "en",
+            "@value": "a micrographically distinguishable part of an alloy or mixture"
+        }
+    ]
+}

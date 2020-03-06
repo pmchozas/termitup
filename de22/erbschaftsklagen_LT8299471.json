@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8299471",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbschaftsklagen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3547145",
+    "skos:topConceptOf": "LT8299471",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "erbschaftsklagen"
+        },
+        {
+            "@language": "en",
+            "@value": "action claiming the rights of a heir"
+        },
+        {
+            "@language": "de",
+            "@value": "erbschaftsklagen"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfenisvordering"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Erbschaftsklage"
+        },
+        {
+            "@language": "nl",
+            "@value": "hereditatis petitio"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "die gesetzlich verankerte Möglichkeit dass der Besitznehmer auch nach erhaltener Einantwortung von jenem der ein besseres oder gleiches Erbrecht zu haben behauptet auf Abtretung oder Teilung der Erbschaft belangt werden kann. Das Eigentum einzelner Erbschaftsstücke wird nicht mit der Erbschafts- sondern der Eigentumsklage verfolgt."
+        },
+        {
+            "@language": "en",
+            "@value": "claim to succeed to an estate held by a third party"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtsvordering tot verkrijgen van een erfenis;rechtsvordering tot opvordering van nalatenschap"
+        }
+    ]
+}

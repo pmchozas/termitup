@@ -1,0 +1,224 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8413255",
+    "@type": "skos:Concept",
+    "skos:inScheme": "grunddienstbarkeiten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1414913",
+    "skos:topConceptOf": "LT8413255",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "servidumbres"
+        },
+        {
+            "@language": "en",
+            "@value": "easement"
+        },
+        {
+            "@language": "de",
+            "@value": "grunddienstbarkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "servituut"
+        },
+        {
+            "@language": "en",
+            "@value": "easement"
+        },
+        {
+            "@language": "de",
+            "@value": "grunddienstbarkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdienstbaarheid"
+        },
+        {
+            "@language": "en",
+            "@value": "easements,charges on real property,set up by the previous owner"
+        },
+        {
+            "@language": "de",
+            "@value": "grunddienstbarkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestemming door de huisvader"
+        },
+        {
+            "@language": "es",
+            "@value": "servidumbre"
+        },
+        {
+            "@language": "en",
+            "@value": "easement"
+        },
+        {
+            "@language": "de",
+            "@value": "grunddienstbarkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdienstbaarheid"
+        },
+        {
+            "@language": "es",
+            "@value": "servidumbre"
+        },
+        {
+            "@language": "en",
+            "@value": "land easement"
+        },
+        {
+            "@language": "de",
+            "@value": "grunddienstbarkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdienstbaarheid op onroerende goederen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Grunddienstbarkeit"
+        },
+        {
+            "@language": "en",
+            "@value": "servitude"
+        },
+        {
+            "@language": "de",
+            "@value": "Dienstbarkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "Grunddienstbarkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "Last"
+        },
+        {
+            "@language": "nl",
+            "@value": "servituut"
+        },
+        {
+            "@language": "es",
+            "@value": "servidumbre real"
+        },
+        {
+            "@language": "es",
+            "@value": "servidumbre del suelo"
+        },
+        {
+            "@language": "en",
+            "@value": "real servitude"
+        },
+        {
+            "@language": "en",
+            "@value": "land servitude"
+        },
+        {
+            "@language": "en",
+            "@value": "easement on real estate"
+        },
+        {
+            "@language": "de",
+            "@value": "Gerechtsame"
+        },
+        {
+            "@language": "de",
+            "@value": "Prädialservitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdienstbaarheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "se trata de obligaciones que pesan sobre una propiedad privada en beneficio de otra especialmente cuando se trata de utilidad pública"
+        },
+        {
+            "@language": "en",
+            "@value": "right attached to one piece of land entitling the owner thereof to some right over adjacent land but not to take any part or produce thereof"
+        },
+        {
+            "@language": "de",
+            "@value": "Obliegenheiten die Rechte an privatem Grundbesitz zugunsten öffentlicher Belange beschneiden"
+        },
+        {
+            "@language": "nl",
+            "@value": "zakelijke last waarmee een erf is bezwaard tot gebruik en ten nutte van een ander erf"
+        },
+        {
+            "@language": "de",
+            "@value": "die Errichtung sichtbarer und dauernd ausgeübter Grunddienstbarkeiten durch den gemeinsamen Eigentümer beider Grundstücke"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho real que se constituye gravando una cosa con la prestación de servicios determinados en provecho exclusivo de otra persona que no es su dueño o de una finca que corresponde a otro propietario"
+        },
+        {
+            "@language": "en",
+            "@value": "right enjoyed by landowners of making limited use of another landowner's adjoining land as by crossing it to reach their own property"
+        },
+        {
+            "@language": "de",
+            "@value": "teilweises Nutzungsrecht einer natürlichen oder juristischen Person an einem Grundstück"
+        },
+        {
+            "@language": "nl",
+            "@value": "last waarmede een onroerende zaak(het dienende erf)ten behoeve van een andere onroerende zaak(het heersende erf)is bezwaard"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho real que limita y condiciona la plena propiedad rústica o urbana y según el cual por ejemplo terceras personas a veces el propietario de otras fincas pueden ejercer ciertos derechos y restringir o prohibir ciertas usos"
+        },
+        {
+            "@language": "en",
+            "@value": "the registered obligation attached to a landed propertywhich entitles a person or persons other than the owner to carry out certain actionsor to exercise certain rightsin connection with it"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliches Recht an einem Grundstück meist zugunsten des jeweiligen Eigentümers eines anderen Grundstücks derart daß der Eigentümer das Grundstück in einzelnen Beziehungen nutzen darf oder daß auf dem Grundstück bestimmte Handlung nicht vorgenommen werden dürfen"
+        },
+        {
+            "@language": "nl",
+            "@value": "zakelijk recht op een onroerend goed ten gunste van de eigenaar van een ander erf bijv. recht van overpad en recht van uitwatering"
+        }
+    ]
+}

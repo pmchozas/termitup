@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5639407",
+    "@type": "skos:Concept",
+    "skos:inScheme": "kindeswohl",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583786",
+    "skos:topConceptOf": "LT5639407",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "interés superior del menor"
+        },
+        {
+            "@language": "en",
+            "@value": "child's best interests"
+        },
+        {
+            "@language": "de",
+            "@value": "kindeswohl"
+        },
+        {
+            "@language": "nl",
+            "@value": "belang van de minderjarige"
+        },
+        {
+            "@language": "es",
+            "@value": "principio del interés superior del niño"
+        },
+        {
+            "@language": "en",
+            "@value": "best interests of the child principle"
+        },
+        {
+            "@language": "de",
+            "@value": "kindeswohl"
+        },
+        {
+            "@language": "nl",
+            "@value": "beginsel van het belang van het kind"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "favor filii"
+        },
+        {
+            "@language": "es",
+            "@value": "interés del menor"
+        },
+        {
+            "@language": "en",
+            "@value": "welfare of the child"
+        },
+        {
+            "@language": "en",
+            "@value": "superior interests of the child"
+        },
+        {
+            "@language": "en",
+            "@value": "best interests of the child"
+        },
+        {
+            "@language": "de",
+            "@value": "Wohl des Kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "belang van het kind"
+        },
+        {
+            "@language": "es",
+            "@value": "principio del interés superior del menor"
+        },
+        {
+            "@language": "de",
+            "@value": "Kindeswohlgrundsatz"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundsatz des Kindeswohls"
+        },
+        {
+            "@language": "de",
+            "@value": "Kindeswohlgrundsatz"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundsatz des Wohls des Kindes"
+        },
+        {
+            "@language": "de",
+            "@value": "Kindeswohlgrundsatz"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Principio general que según la Convención sobre los Derechos del Niño [ IATE:786843 ] debe tenerse en cuenta en todas las medidas concernientes a los niños que adopten los tribunales u otras entidades públicas o privadas. El concepto del «interés superior del niño» se relaciona con la idea general de bienestar que depende de diversas circunstancias personales como la edad y el grado de madurez la presencia o ausencia de los padres el entorno del niño y sus experiencias vitales."
+        },
+        {
+            "@language": "en",
+            "@value": "principle whereby the well-being of a child is determined by a variety of individual circumstances such as the age the level of maturity of the child the presence or absence of parents the child’s environment and experiences"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundsatz bei dem eine Vielzahl individueller Umstände das Wohlbefinden eines Kindes bestimmt etwa Alter Reife des Kindes Anwesenheit oder Abwesenheit von Eltern die Umgebung und die Erfahrungen des Kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "in het Verdrag inzake de rechten van het kind [IATE:786843 ] verankerd beginsel volgens hetwelk bij alle maatregelen betreffende kinderen ongeacht of deze worden genomen door openbare of particuliere instellingen voor maatschappelijk welzijn of door rechterlijke instanties bestuurlijke autoriteiten of wetgevende lichamen de belangen van het kind de eerste overweging moeten vormen"
+        }
+    ]
+}

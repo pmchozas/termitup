@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8649626",
+    "@type": "skos:Concept",
+    "skos:inScheme": "staatsbürgerschaft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/790046",
+    "skos:topConceptOf": "LT8649626",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "nationality"
+        },
+        {
+            "@language": "de",
+            "@value": "staatsbürgerschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "nationaliteit"
+        },
+        {
+            "@language": "de",
+            "@value": "staatsbürgerschaft"
+        },
+        {
+            "@language": "es",
+            "@value": "doble nacionalidad"
+        },
+        {
+            "@language": "en",
+            "@value": "dual nationality"
+        },
+        {
+            "@language": "de",
+            "@value": "staatsbürgerschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "dubbele nationaliteit"
+        },
+        {
+            "@language": "es",
+            "@value": "país de nacionalidad"
+        },
+        {
+            "@language": "en",
+            "@value": "country of nationality"
+        },
+        {
+            "@language": "de",
+            "@value": "staatsbürgerschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "land van nationaliteit"
+        },
+        {
+            "@language": "en",
+            "@value": "Cypriot citizen"
+        },
+        {
+            "@language": "de",
+            "@value": "staatsbürgerschaft"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Staatsbürgerschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "doppelte Staatsangehörigkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "Doppelstaatsangehörigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "bipatridie"
+        },
+        {
+            "@language": "nl",
+            "@value": "meervoudige nationaliteit"
+        },
+        {
+            "@language": "es",
+            "@value": "Estado de nacionalidad"
+        },
+        {
+            "@language": "en",
+            "@value": "state of nationality"
+        },
+        {
+            "@language": "de",
+            "@value": "Land der Staatsbürgerschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "land waarvan iemand onderdaan is"
+        },
+        {
+            "@language": "nl",
+            "@value": "land waarvan iemand het staatsburgerschap heeft"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the fact or state of belonging to a nation; the status of being a national; specifically a legal relationship between an individual and a nation involving allegiance on the part of the individual and usually protection on the part of the State"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechts- und Schutzverhältnis zwischen einer natürlichen Person und einem Staat aus dem sich bestimmte (staatsbürgerliche) Rechte (z.B. Wahlrecht) und Pflichten (z.B. Steuerpflicht) ergeben"
+        },
+        {
+            "@language": "en",
+            "@value": "the state of a person being a national of two countries at the same time"
+        },
+        {
+            "@language": "nl",
+            "@value": "het feit dat een persoon de nationaliteit heeft van twee landen"
+        },
+        {
+            "@language": "es",
+            "@value": "País (o países) cuya nacionalidad posee una persona."
+        },
+        {
+            "@language": "en",
+            "@value": "country of which a person holds citizenship"
+        },
+        {
+            "@language": "nl",
+            "@value": "land waarvan iemand het staatsburgerschap heeft"
+        }
+    ]
+}

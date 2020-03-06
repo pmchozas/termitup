@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8998991",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bereicherung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/925178",
+    "skos:topConceptOf": "LT8998991",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "enriquecimiento ilícito"
+        },
+        {
+            "@language": "en",
+            "@value": "illicit enrichment"
+        },
+        {
+            "@language": "de",
+            "@value": "bereicherung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ongeoorloofde verrijking"
+        },
+        {
+            "@language": "en",
+            "@value": "job enrichment"
+        },
+        {
+            "@language": "de",
+            "@value": "bereicherung"
+        },
+        {
+            "@language": "en",
+            "@value": "cross-fertilisation"
+        },
+        {
+            "@language": "de",
+            "@value": "bereicherung"
+        },
+        {
+            "@language": "es",
+            "@value": "enriquecimiento injustificado"
+        },
+        {
+            "@language": "en",
+            "@value": "unexplained wealth"
+        },
+        {
+            "@language": "de",
+            "@value": "bereicherung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ongerechtvaardigde rijkdom"
+        },
+        {
+            "@language": "es",
+            "@value": "enriquecimiento injusto"
+        },
+        {
+            "@language": "en",
+            "@value": "unjust enrichment"
+        },
+        {
+            "@language": "de",
+            "@value": "bereicherung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ongerechtvaardigde verrijking"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "job enhancement"
+        },
+        {
+            "@language": "de",
+            "@value": "Bereicherung der Arbeit"
+        },
+        {
+            "@language": "en",
+            "@value": "unjustified wealth"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-verantwoord vermogen"
+        },
+        {
+            "@language": "es",
+            "@value": "enriquecimiento sin causa"
+        },
+        {
+            "@language": "en",
+            "@value": "unjustified enrichment"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Incremento significativo del patrimonio de un funcionario público respecto de sus ingresos legítimos que no pueda ser razonablemente justificado por él."
+        },
+        {
+            "@language": "en",
+            "@value": "significant increase in the assets of a public official that he or she cannot reasonably explain in relation to his or her lawful income"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanzienlijke toename van de activa van een overheidsfunctionaris waarvoor hij of zij in relatie tot zijn of haar rechtmatig inkomen geen redelijke verklaring kan geven"
+        },
+        {
+            "@language": "es",
+            "@value": "Incremento en la situación patrimonial de una persona que no puede justificarse con sus fuentes legítimas de ingresos."
+        },
+        {
+            "@language": "en",
+            "@value": "increase in assets that cannot be explained on the basis of a person's legitimate sources of income"
+        },
+        {
+            "@language": "es",
+            "@value": "\"enriquecimiento\": Acción o efecto de enriquecer o enriquecerse de hacer fortuna o de aumentarla considerablemente.\"enriquecimiento sin causa\": Aumento de un patrimonio con empobrecimiento del ajeno y sin el amparo en normas legales ni en los convenios ni actos privados.La doctrina jurídica suele incurrir en un descuido técnico que consiste en considerar injusto todo enriquecimiento sin causa. La afirmación peca cuando menos de apresurada. Si todo enriquecimiento sin causa adolece de inequitativo en lo económico puede no suceder lo mismo en el campo jurídico; por ejemplo cuando no solamente hay error en quien paga sin ser deudor sino confusión en el acreedor que por apariencias u otras circunstancias creyó que se satisfacía su crédito."
+        },
+        {
+            "@language": "en",
+            "@value": "A legal doctrine stating that if a person receives money or other property through no effort of his own at the expense of another the recipient should return the property to the rightful owner even if the property was not obtained illegally. Most courts will order that the property be returned if the party who has suffered the loss brings a lawsuit."
+        },
+        {
+            "@language": "de",
+            "@value": "Vermögensverschiebung ohne rechtfertigenden Grund die ein gesetzliches Schuldverhältnis begründet; Verbesserung der Vermögenslage einer Person ohne rechtlichen Grund"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"vermogensverschuiving van de een ten nadele van een ander zonder voldoende rechtsgrond; de verrijkte moet voorzover redelijk de schade vergoeden ten belope van het bedrag waarmee hij werd verrijkt; \"ongerechtvaardigd\" betekent niet dat de verrijking als onrecht wordt ervaren maar of er al dan niet een redelijke grond voor aanwezig was.\""
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4672939",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-arten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/923993",
+    "skos:topConceptOf": "LT4672939",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "spp."
+        },
+        {
+            "@language": "en",
+            "@value": "spp."
+        },
+        {
+            "@language": "de",
+            "@value": "-arten"
+        },
+        {
+            "@language": "nl",
+            "@value": "spp."
+        },
+        {
+            "@language": "es",
+            "@value": "especie de la lista"
+        },
+        {
+            "@language": "en",
+            "@value": "listed species"
+        },
+        {
+            "@language": "de",
+            "@value": "-arten"
+        },
+        {
+            "@language": "es",
+            "@value": "especies migratorias"
+        },
+        {
+            "@language": "en",
+            "@value": "migratory species"
+        },
+        {
+            "@language": "de",
+            "@value": "-arten"
+        },
+        {
+            "@language": "nl",
+            "@value": "trekdieren"
+        },
+        {
+            "@language": "es",
+            "@value": "especies endémicas"
+        },
+        {
+            "@language": "en",
+            "@value": "endemic species"
+        },
+        {
+            "@language": "de",
+            "@value": "-arten"
+        },
+        {
+            "@language": "nl",
+            "@value": "endemische soorten"
+        },
+        {
+            "@language": "en",
+            "@value": "short-lived species"
+        },
+        {
+            "@language": "de",
+            "@value": "-arten"
+        },
+        {
+            "@language": "nl",
+            "@value": "kortlevende soort"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Arten"
+        },
+        {
+            "@language": "de",
+            "@value": "Spezies"
+        },
+        {
+            "@language": "en",
+            "@value": "migratory animal"
+        },
+        {
+            "@language": "en",
+            "@value": "migrant species"
+        },
+        {
+            "@language": "de",
+            "@value": "wandernde Arten"
+        },
+        {
+            "@language": "de",
+            "@value": "endemische Arten"
+        },
+        {
+            "@language": "nl",
+            "@value": "inheemse soort"
+        },
+        {
+            "@language": "en",
+            "@value": "short lived"
+        },
+        {
+            "@language": "en",
+            "@value": "shortly-lived"
+        },
+        {
+            "@language": "de",
+            "@value": "Fischarten"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Abreviatura en plural de especies IATE:1624114 que se utiliza para denotar todas las especies de un taxón IATE:1624480 superior."
+        },
+        {
+            "@language": "en",
+            "@value": "abbreviation placed after the name of a family or genus to designate all the species belonging to that family or genus"
+        },
+        {
+            "@language": "de",
+            "@value": "bezeichnet zusammen mit dem Gattungsnamen verschiedene nicht im einzelnen genannte Arten der Gattung"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"afkorting \"spp.\" achter de naam van een familie of een genus dient ter aanduiding van alle soorten van deze familie of van dit genus\""
+        },
+        {
+            "@language": "es",
+            "@value": "Especies de animales o grupo de especies de animales incluidos en la lista de conformidad con el artículo 8 apartado 2 del Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo o en el caso de las enfermedades emergentes especies de animales o grupos de especies de animales que cumplen los criterios de las especies de la lista establecidos en el artículo 8 apartado 2 del mismo Reglamento."
+        },
+        {
+            "@language": "en",
+            "@value": "\n animal species or group of animal species listed in accordance with Article 8(2) of Regulation (EU) 2016/429 or in the case of emerging diseases an animal species or group of animal species which meets the criteria for listed species laid down in Article 8(2) of the same Regulation"
+        },
+        {
+            "@language": "en",
+            "@value": "the entire population or any geographically separate part of the population of any species or lower taxon of wild animals a significant proportion of whose members cyclically and predictably cross one or more national jurisdictional boundaries"
+        },
+        {
+            "@language": "nl",
+            "@value": "espèces d'animaux qui accomplissent des voyages. Les causes de ces migrations varient selon les espèces (épuisement de toutes les ressources climat ou par leur seul instinct). Les migrations accidentelles sont irrégulières; au contraire celles qui sont déterminées par l'instinct ont lieu périodiquement."
+        },
+        {
+            "@language": "en",
+            "@value": "any species whose range is restricted to a limited geographical area"
+        },
+        {
+            "@language": "en",
+            "@value": "species of fish that tend to survive for a maximum of five years"
+        },
+        {
+            "@language": "de",
+            "@value": "maximal fünf Jahre lebende Fischarten"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6546291",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbunwürdigkeit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1133097",
+    "skos:topConceptOf": "LT6546291",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "incapacidad por indignidad para suceder"
+        },
+        {
+            "@language": "en",
+            "@value": "debarment from succession"
+        },
+        {
+            "@language": "de",
+            "@value": "erbunwürdigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "onwaardigheid om uit een nalatenschap voordeel te trekken"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "incapacidad de suceder por causa de indignidad"
+        },
+        {
+            "@language": "es",
+            "@value": "indignidad para suceder"
+        },
+        {
+            "@language": "en",
+            "@value": "disqualification by conduct"
+        },
+        {
+            "@language": "nl",
+            "@value": "onwaardigheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En su principal acepción jurídica mala acción o pasividad grave que imposibilita o impide a quien en ella incurre para heredar al ofendido."
+        },
+        {
+            "@language": "en",
+            "@value": "excluding a person who has committed an unlawful act from inheriting in order to prevent them from acquiring a benefit in consequence"
+        },
+        {
+            "@language": "de",
+            "@value": "Verlust der Erbberechtigung infolge schwerwiegender Verfehlungen gegenüber dem Erblasser"
+        }
+    ]
+}

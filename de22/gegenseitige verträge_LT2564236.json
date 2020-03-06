@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2564236",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gegenseitige verträge",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130344",
+    "skos:topConceptOf": "LT2564236",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acto bilateral"
+        },
+        {
+            "@language": "en",
+            "@value": "bilateral act"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitige verträge"
+        },
+        {
+            "@language": "nl",
+            "@value": "meerzijdige rechtshandeling"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato sinalagmático"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitige verträge"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de bonos"
+        },
+        {
+            "@language": "en",
+            "@value": "bond indenture"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitige verträge"
+        },
+        {
+            "@language": "nl",
+            "@value": "prospectus van een obligatielening"
+        },
+        {
+            "@language": "en",
+            "@value": "bilateral contract"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitige verträge"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederkerige overeenkomst"
+        },
+        {
+            "@language": "en",
+            "@value": "contractus bilateralis aequalis"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitige verträge"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederkerige overeenkomst"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "gegenseitiger Vertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "synallagmatischer Vertrag"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato bilateral"
+        },
+        {
+            "@language": "de",
+            "@value": "synallagmatischer Vertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitig verpflichtender Vertrag"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de obligaciones"
+        },
+        {
+            "@language": "de",
+            "@value": "synallagmatischer Vertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitiger Vertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "tweezijdig contract"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Vertrag bei dem die notwendig beiderseitigen Verpflichtungen in einem gegenseitigen Abhaengigkeitsverhaeltnis stehen"
+        },
+        {
+            "@language": "es",
+            "@value": "Contrato entre el emisor de un bono y el portador de un bono que registra los términos de la obligación de deuda incluyendo la tasa de interés derechos de conversión y los términos bajo los cuales un emisor de bonos puede retirar la deuda con anticipación."
+        },
+        {
+            "@language": "en",
+            "@value": "the contract that sets forth the promises of a corporate bond issuer and the rights of investors"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertrag bei dem die beiderseitigen Verpflichtungen in einem gegenseitigen Abhängigkeitsverhältnis stehen (Beispiele: Kauf Tausch Dienst- bzw. Werkvertrag; anders dagegen: nur einseitig verpflichtendes Darlehen);"
+        },
+        {
+            "@language": "en",
+            "@value": "bilateral contractthe parties assuming corresponding obligations"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst waaruit voor ieder der beide partijen een verplichting voortvloeit"
+        }
+    ]
+}

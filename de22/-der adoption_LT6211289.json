@@ -1,0 +1,175 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6211289",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der adoption",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583373",
+    "skos:topConceptOf": "LT6211289",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acogimiento preadoptivo"
+        },
+        {
+            "@language": "en",
+            "@value": "placement of child for adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-der adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "opneming van het kind met het oog op adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "Declaración sobre los principios sociales y jurídicos relativos a la protección y al bienestar de los niños, con particular referencia a la adopción y la colocación en hogares de guarda, en los planos nacional e internacional"
+        },
+        {
+            "@language": "en",
+            "@value": "Declaration on Social and Legal Principles relating to the Protection and Welfare of Children, with Special Reference to Foster Placement and Adoption Nationally and Internationally"
+        },
+        {
+            "@language": "de",
+            "@value": "-der adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "Verklaring inzake sociale en juridische beginselen betreffende de bescherming en het welzijn van kinderen, in het bijzonder met betrekking tot plaatsing in een pleeggezin en adoptie, zowel nationaal als internationaal"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción"
+        },
+        {
+            "@language": "en",
+            "@value": "adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-der adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción"
+        },
+        {
+            "@language": "en",
+            "@value": "adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-der adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción plena"
+        },
+        {
+            "@language": "en",
+            "@value": "full adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-der adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "sterke adoptie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Adoptionspflege"
+        },
+        {
+            "@language": "nl",
+            "@value": " plaatsing van het kind met het oog op adoptie"
+        },
+        {
+            "@language": "de",
+            "@value": " Adoption"
+        },
+        {
+            "@language": "de",
+            "@value": " Annahme an Kindes Statt"
+        },
+        {
+            "@language": "de",
+            "@value": " starke Adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": " volle adoptie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Es aquel que tiene por finalidad preparar la adopción facilitando un periodo de convivencia del menor con el nuevo núcleo familiar. Procede instarlo cuando se prevea la imposibilidad de reinserción del menor con su familia biológica y se considere necesaria su integración plena en otra familia."
+        },
+        {
+            "@language": "de",
+            "@value": "Pflege des Kindes durch die Adoptionsbewerber zur Eingewöhnung im Hinblick auf die angestrebte Adoption. [DE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Institución de Derecho de Familia constituida judicialmente mediante la cual una persona se integra plenamente y con los mismos efectos que la filiación biológica en la vida familiar de otra u otras rompiéndose salvo excepciones las relaciones jurídicas que tenía con su familia anterior. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "De adoptie is een instelling waarbij tussen twee individuen ten gevolge van een gerechtelijke beslissing een band geschapen wordt die rechtsgevolgen teweegbrengt welke gelijk zijn aan of sterk gelijken op die van de afstamming."
+        },
+        {
+            "@language": "es",
+            "@value": "Supone una nueva relación familiar equiparada plenamente a la biológica por lo que se establece (salvo excepciones legalmente previstas ) la ruptura de vínculos personales familiares y jurídicos entre el hijo adoptivo y sus padres naturales o biológicos. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "Die Volladoption (starke Adoption) ist eine Adoption als deren Folge der Angenommene rechtlich voll in die Adoptivfamilie eingegliedert wird und die bisherigen Verwandtschaftsverhältnisse erlöschen. [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Bij volle adoptie worden de banden met de oorspronkelijke familie in de regel verbroken en wordt de geadopteerde een volwaardig lid van de familie van de adoptant(en). [BE] / Sterke adoptie betekent dat door adoptie de geadopteerde de adoptiefouder en zijn bloedverwanten of de adoptiefouders en hun bloedverwanten in familierechtelijke betrekking tot elkaar komen te staan terwijl tegelijkertijd de familierechtelijke betrekking tussen de geadopteerde zijn oorspronkelijke ouders en hun bloedverwanten ophoudt te bestaan."
+        }
+    ]
+}

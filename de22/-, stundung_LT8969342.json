@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8969342",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, stundung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3556424",
+    "skos:topConceptOf": "LT8969342",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "concesión de periodos de gracia"
+        },
+        {
+            "@language": "en",
+            "@value": "forbearance"
+        },
+        {
+            "@language": "de",
+            "@value": "-, stundung"
+        },
+        {
+            "@language": "nl",
+            "@value": "clementie"
+        },
+        {
+            "@language": "es",
+            "@value": "aplazamiento de pago"
+        },
+        {
+            "@language": "en",
+            "@value": "postponement of payment"
+        },
+        {
+            "@language": "de",
+            "@value": "-, stundung"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitstel van betaling"
+        },
+        {
+            "@language": "de",
+            "@value": "-, stundung"
+        },
+        {
+            "@language": "es",
+            "@value": "moratoria"
+        },
+        {
+            "@language": "en",
+            "@value": "moratorium"
+        },
+        {
+            "@language": "de",
+            "@value": "-, stundung"
+        },
+        {
+            "@language": "en",
+            "@value": "stay of bankruptcy"
+        },
+        {
+            "@language": "de",
+            "@value": "-, stundung"
+        },
+        {
+            "@language": "nl",
+            "@value": "concordatair uitstel"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "stay of payment"
+        },
+        {
+            "@language": "en",
+            "@value": "deferment of payment"
+        },
+        {
+            "@language": "de",
+            "@value": "Zahlungsaufschub"
+        },
+        {
+            "@language": "de",
+            "@value": "Stundung"
+        },
+        {
+            "@language": "de",
+            "@value": "Moratorium"
+        },
+        {
+            "@language": "de",
+            "@value": "Stundung"
+        },
+        {
+            "@language": "en",
+            "@value": "proceedings to allow time for composition"
+        },
+        {
+            "@language": "de",
+            "@value": "völlige Stundung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"aplazamiento de pago fiscal\": Se aplaza un pago debido a la Hacienda Pública cuando se difiere el pago total de la deuda tributaria a determinada fecha. Existe un régimen general de aplazamiento a solicitud del interesado y unos regímenes especiales de entre los que destacan los relativos al Impuesto de Sucesiones y la suspensión del ingreso en vía económico-administrativa. En todo caso es preciso garantizar el pago y siempre se incrementa con los intereses de demora correspondientes."
+        },
+        {
+            "@language": "de",
+            "@value": "Aufschub den Gläubiger einem Schuldner für dessen Zahlungsverpflichtungen ihnen gegenüber (Tilgungen und Zinszahlungen) gewähren. (Büschgen Das kleine Bankenlexikon (1992)"
+        },
+        {
+            "@language": "de",
+            "@value": "die Verschiebung des Fälligkeitszeitpunktes einer Forderung durch Vereinbarung mit dem betreibenden Gläubiger und zwar nach Entstehung des Exekutionstitels (bzw. bei gerichtlichen Entscheidungen nach dem im § 35 Absatz 1 angegebenen Zeitpunkt) woraufhin der Verpflichtete die Einstellung der Exekution beantragen kann"
+        }
+    ]
+}

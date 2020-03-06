@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6866873",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-änderung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/778614",
+    "skos:topConceptOf": "LT6866873",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "enmienda"
+        },
+        {
+            "@language": "en",
+            "@value": "amendment"
+        },
+        {
+            "@language": "de",
+            "@value": "-änderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "amendement"
+        },
+        {
+            "@language": "es",
+            "@value": "enmienda"
+        },
+        {
+            "@language": "en",
+            "@value": "amendment"
+        },
+        {
+            "@language": "de",
+            "@value": "-änderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "amendering"
+        },
+        {
+            "@language": "es",
+            "@value": "enmienda"
+        },
+        {
+            "@language": "en",
+            "@value": "amendment"
+        },
+        {
+            "@language": "de",
+            "@value": "-änderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "wijziging"
+        },
+        {
+            "@language": "es",
+            "@value": "alteración"
+        },
+        {
+            "@language": "en",
+            "@value": "alteration"
+        },
+        {
+            "@language": "de",
+            "@value": "-änderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "afwisseling"
+        },
+        {
+            "@language": "en",
+            "@value": "change"
+        },
+        {
+            "@language": "de",
+            "@value": "-änderung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Abänderung"
+        },
+        {
+            "@language": "de",
+            "@value": "Änderungsantrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "het amenderen"
+        },
+        {
+            "@language": "nl",
+            "@value": "verandering"
+        },
+        {
+            "@language": "nl",
+            "@value": "wijziging"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"Propuesta de modificación del texto de un proyecto o proposición de ley formulada en el trámite oportuno del procedimiento legislativo. Sometida al órgano que debate el proyecto la enmienda es aceptada o rechazada siendo en el primer caso incorporada a la redacción de aquel.\""
+        },
+        {
+            "@language": "en",
+            "@value": "change made to a text by substitution alteration or addition or any combination of these methods intended to improve it in some respect"
+        },
+        {
+            "@language": "es",
+            "@value": "Revisión formal del texto de un tratado por acuerdo entre todas las partes. La propuesta debe ser notificada a todos los Estados contratantes y someterse a las mismas formalidades del tratado original. Suele plasmarse en un nuevo tratado."
+        },
+        {
+            "@language": "en",
+            "@value": "formal alteration of treaty provisions affecting all the parties to the particular agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "förmliche Änderung einer mehrseitigen Übereinkunft mit Wirkung zwischen allen Parteien meist gemäß dafür vorgesehenen Bestimmungen ansonsten durch einstimmigen Beschluss"
+        },
+        {
+            "@language": "en",
+            "@value": "modificationaddition or deletion of specific parts of the content of a normative document"
+        },
+        {
+            "@language": "de",
+            "@value": "Abänderung Zusatz oder Weglassung bestimmter Teile des Inhaltes eines normativen Dokumentes"
+        },
+        {
+            "@language": "en",
+            "@value": "1.The act of altering or the state of being altered."
+        }
+    ]
+}

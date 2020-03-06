@@ -1,0 +1,228 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1304891",
+    "@type": "skos:Concept",
+    "skos:inScheme": "strafbare handlung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3584001",
+    "skos:topConceptOf": "LT1304891",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "infracción penal"
+        },
+        {
+            "@language": "en",
+            "@value": "criminal offence"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare handlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "misdrijf"
+        },
+        {
+            "@language": "es",
+            "@value": "infracción penal"
+        },
+        {
+            "@language": "en",
+            "@value": "criminal offence"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare handlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "strafbaar feit"
+        },
+        {
+            "@language": "es",
+            "@value": "infracción"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare handlung"
+        },
+        {
+            "@language": "es",
+            "@value": "crimen"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare handlung"
+        },
+        {
+            "@language": "es",
+            "@value": "acto delictivo"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare handlung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "delito"
+        },
+        {
+            "@language": "en",
+            "@value": "crime"
+        },
+        {
+            "@language": "en",
+            "@value": "offence"
+        },
+        {
+            "@language": "de",
+            "@value": "Straftat"
+        },
+        {
+            "@language": "de",
+            "@value": "Delikt"
+        },
+        {
+            "@language": "nl",
+            "@value": "strafbaar feit"
+        },
+        {
+            "@language": "nl",
+            "@value": "delict"
+        },
+        {
+            "@language": "es",
+            "@value": "delito"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verstoss"
+        },
+        {
+            "@language": "de",
+            "@value": "Zuwiderhandlung"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtswidrige Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsverletzung"
+        },
+        {
+            "@language": "es",
+            "@value": "fechoría"
+        },
+        {
+            "@language": "es",
+            "@value": "desafuero"
+        },
+        {
+            "@language": "es",
+            "@value": "pecado"
+        },
+        {
+            "@language": "es",
+            "@value": "vergüenza"
+        },
+        {
+            "@language": "de",
+            "@value": "Frevel"
+        },
+        {
+            "@language": "de",
+            "@value": "Suende"
+        },
+        {
+            "@language": "de",
+            "@value": "Delikt"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": "deliktische Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Conducta antisocial que constituye el delito o violación de la ley en un doble sentido: en cuanto es antijurídica o contraria al ordenamiento jurídico y cuanto es antinormativa de un precepto legal concreto que tipifica la conducta como delito. [ES]"
+        },
+        {
+            "@language": "en",
+            "@value": "An act (or sometimes a failure to act) that is deemed by statute or by the common law to be a public wrong and is therefore punishable by the state in criminal proceedings. [UK]"
+        },
+        {
+            "@language": "de",
+            "@value": "Tatbestandsmäßige rechtswidrige und schuldhafte Handlung an die das Gesetz eine Strafdrohung knüpft. [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Een gedraging die onder de daarin omschreven omstandigheden verricht door de wet verboden en strafbaar is gesteld. [NL] [BE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Acción u omisión dolosa o imprudente penada por la ley."
+        },
+        {
+            "@language": "en",
+            "@value": "act harmful not only to some individual but also to a community society or the state ('a public wrong')"
+        },
+        {
+            "@language": "de",
+            "@value": "tatbestandsmäßige rechtswidrige und schuldhafte Handlung an die das Gesetz eine Strafandrohung knüpft"
+        },
+        {
+            "@language": "nl",
+            "@value": "door de wet omschreven wederrechtelijke menselijke gedraging waartegen de wet met een straf dreigt. Elk strafbaar feit bestaat hoofdzakelijk uit een materieel bestanddeel (handeling of verzuim) en een moreel bestanddeel (opzet of onachtzaamheid ook schuld genoemd)."
+        },
+        {
+            "@language": "de",
+            "@value": "rechtswidrige schuldhafte Handlung die im Zivilrecht grundsaetzlich mit Schadensersatzpflicht im Strafrecht mit Straffolge verknuepft ist"
+        }
+    ]
+}

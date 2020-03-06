@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3333520",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schiedsrichter",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/793916",
+    "skos:topConceptOf": "LT3333520",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "árbitro"
+        },
+        {
+            "@language": "en",
+            "@value": "arbitrator"
+        },
+        {
+            "@language": "de",
+            "@value": "schiedsrichter"
+        },
+        {
+            "@language": "nl",
+            "@value": "arbiter"
+        },
+        {
+            "@language": "es",
+            "@value": "despachar"
+        },
+        {
+            "@language": "en",
+            "@value": "average adjuster"
+        },
+        {
+            "@language": "de",
+            "@value": "schiedsrichter"
+        },
+        {
+            "@language": "nl",
+            "@value": "begroter van averij"
+        },
+        {
+            "@language": "es",
+            "@value": "jurado"
+        },
+        {
+            "@language": "en",
+            "@value": "referee"
+        },
+        {
+            "@language": "de",
+            "@value": "schiedsrichter"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheidsrechter"
+        },
+        {
+            "@language": "es",
+            "@value": "autoridad de arbitraje"
+        },
+        {
+            "@language": "en",
+            "@value": "referee"
+        },
+        {
+            "@language": "de",
+            "@value": "schiedsrichter"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheidsrechter"
+        },
+        {
+            "@language": "es",
+            "@value": "árbitro"
+        },
+        {
+            "@language": "de",
+            "@value": "schiedsrichter"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "scheidsrechter"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheidsman"
+        },
+        {
+            "@language": "de",
+            "@value": "Schiedsrichter"
+        },
+        {
+            "@language": "nl",
+            "@value": "strandrechter"
+        },
+        {
+            "@language": "es",
+            "@value": "juez arbitral"
+        },
+        {
+            "@language": "es",
+            "@value": "juez árbitro"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En un procedimiento arbitral de resolución de controversias la persona o personas (colegio arbitral) a cuya decisión (laudo arbitral) acuerdan las partes someter la solución de determinados conflictos que hayan surgido o puedan surgir entre ellas respecto a una determinada relación jurídica."
+        },
+        {
+            "@language": "en",
+            "@value": "individual or part of an arbitration panel (tribunal) who takes part in alternative dispute resolution and whose decisions are binding (in contrast to mediation negotiation and conciliation where decisions are non-binding)"
+        },
+        {
+            "@language": "nl",
+            "@value": "lid van een scheidsgerecht"
+        },
+        {
+            "@language": "es",
+            "@value": "a efectos de las administraciones de telecomunicación agente regulador al que se ha confiado la concesión de licencias el control de las homologaciones y pliegos de condiciones y la vigilancia de las condiciones de utilización"
+        },
+        {
+            "@language": "en",
+            "@value": "for the purpose of the telecommunications administrationsa regulator entrusted with licencingcontrol of type approval and binding specificationsfrequency allocationand surveillance of usage conditions"
+        },
+        {
+            "@language": "de",
+            "@value": "im Rahmen der Fernmeldeverwaltungen Person oder Unternehmen das mit hoheitlichen Funktionen beauftragt ist d.h.mit der Zulassung von Betreibern und Anbietern der Kontrolle der Gerätezulassung und von verbindlichen Spezifikationen und der Zuteilung von Frequenzen und der Überwachung der Nutzbedingungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "in het kader van de telecommunicatie-administratie persoon of onderneming belast met de regelgeving d.w.z. met het verlenen van vergunningen met controle op goedkeuringen en verplichte specificaties toewijzing van frequenties en controle van gebruiksvoorwaarden"
+        },
+        {
+            "@language": "de",
+            "@value": "fuer ein Schiedsgericht bestellter Richter"
+        }
+    ]
+}

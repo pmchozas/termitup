@@ -1,0 +1,118 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3411982",
+    "@type": "skos:Concept",
+    "skos:inScheme": "enkel",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583776",
+    "skos:topConceptOf": "LT3411982",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "nieto"
+        },
+        {
+            "@language": "en",
+            "@value": "grandson"
+        },
+        {
+            "@language": "de",
+            "@value": "enkel"
+        },
+        {
+            "@language": "nl",
+            "@value": "kleinzoon"
+        },
+        {
+            "@language": "es",
+            "@value": "tobillo"
+        },
+        {
+            "@language": "en",
+            "@value": "malleolus,ankle bone"
+        },
+        {
+            "@language": "de",
+            "@value": "enkel"
+        },
+        {
+            "@language": "nl",
+            "@value": "enkel"
+        },
+        {
+            "@language": "es",
+            "@value": "nieto"
+        },
+        {
+            "@language": "en",
+            "@value": "grandchild"
+        },
+        {
+            "@language": "de",
+            "@value": "enkel"
+        },
+        {
+            "@language": "nl",
+            "@value": "kleinzoon"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Enkel"
+        },
+        {
+            "@language": "de",
+            "@value": "Fußknöchel"
+        },
+        {
+            "@language": "de",
+            "@value": "Enkel"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "A son of one's son or daughter [UK]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Descendent van de tweede graad van het mannelijke geslacht"
+        }
+    ],
+    "skos:broader": [
+        "LT4060012"
+    ],
+    "skos:related": [
+        "LT2804936"
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5930307",
+    "@type": "skos:Concept",
+    "skos:inScheme": "alter",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1620304",
+    "skos:topConceptOf": "LT5930307",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "edad"
+        },
+        {
+            "@language": "en",
+            "@value": "age"
+        },
+        {
+            "@language": "de",
+            "@value": "alter"
+        },
+        {
+            "@language": "nl",
+            "@value": "gemiddelde leeftijd van een opstand"
+        },
+        {
+            "@language": "es",
+            "@value": "edad"
+        },
+        {
+            "@language": "en",
+            "@value": "age"
+        },
+        {
+            "@language": "de",
+            "@value": "alter"
+        },
+        {
+            "@language": "nl",
+            "@value": "leeftijd"
+        },
+        {
+            "@language": "es",
+            "@value": "vejez"
+        },
+        {
+            "@language": "en",
+            "@value": "old age"
+        },
+        {
+            "@language": "de",
+            "@value": "alter"
+        },
+        {
+            "@language": "nl",
+            "@value": "ouderdom"
+        },
+        {
+            "@language": "de",
+            "@value": "alter"
+        },
+        {
+            "@language": "es",
+            "@value": "vino envejecido"
+        },
+        {
+            "@language": "en",
+            "@value": "aged wine"
+        },
+        {
+            "@language": "de",
+            "@value": "alter"
+        },
+        {
+            "@language": "nl",
+            "@value": "oude wijn"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " mit anderem"
+        },
+        {
+            "@language": "de",
+            "@value": " mit anderen"
+        },
+        {
+            "@language": "de",
+            "@value": " gealterter Wein"
+        },
+        {
+            "@language": "de",
+            "@value": " gereifter Wein"
+        },
+        {
+            "@language": "de",
+            "@value": " ausgebauter Wein"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a) the mean age of the trees constituting a of a forest crop or stand. In practice in even-aged forests the mean age of dominant and sometimes also co-dominant trees is taken and the age of a plantation is generally taken from the year in which it was formed i.e. exclusive of the age of the nursery stock then brought to it; b) of a tree the time elapsed since germination of the seed or the budding of e.g. the sprout or cutting from which it developed"
+        },
+        {
+            "@language": "en",
+            "@value": "the injured worker's age(at last birthday)in yearsat the time of the occurrence"
+        },
+        {
+            "@language": "es",
+            "@value": "vino envejecido que ha llegado a un grado conveniente de envejecimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "wine which has received the correct amount of ageing"
+        }
+    ],
+    "skos:broader": [
+        "LT2617883",
+        "LT5864104",
+        "LT2427811",
+        "LT3355617",
+        "LT7866894",
+        "LT8705214",
+        "LT2310765",
+        "LT1207918",
+        "LT1935933",
+        "LT1153196",
+        "LT4993446",
+        "LT5591088",
+        "LT7457497",
+        "LT9274950",
+        "LT4613297",
+        "LT8353795",
+        "LT7119743",
+        "LT7368405",
+        "LT7600749",
+        "LT9098720",
+        "LT6065268",
+        "LT3563324",
+        "LT6768222",
+        "LT3568172",
+        "LT8145489"
+    ],
+    "skos:related": [
+        "LT9046241",
+        "LT5674732",
+        "LT2783135",
+        "LT9691292",
+        "LT8538772",
+        "LT5852449",
+        "LT9716002",
+        "LT8580069",
+        "LT2608208",
+        "LT7906468",
+        "LT6401840",
+        "LT6319656",
+        "LT1388101",
+        "LT1741107",
+        "LT8298092",
+        "LT9015919",
+        "LT5431532",
+        "LT8903542",
+        "LT2817713",
+        "LT3623610",
+        "LT9677062",
+        "LT1516542",
+        "LT6816643"
+    ]
+}

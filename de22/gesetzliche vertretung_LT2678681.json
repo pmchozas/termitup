@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2678681",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gesetzliche vertretung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583493",
+    "skos:topConceptOf": "LT2678681",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "representación legal del hijo"
+        },
+        {
+            "@language": "en",
+            "@value": "legal representation of children"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzliche vertretung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertegenwoordiging van het kind in burgerlijke handelingen"
+        },
+        {
+            "@language": "es",
+            "@value": "representación legal de un demente"
+        },
+        {
+            "@language": "en",
+            "@value": "the legal representation of a person who is mentally ill"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzliche vertretung"
+        },
+        {
+            "@language": "nl",
+            "@value": "de wettelijke vertegenwoordiging van geesteszieken"
+        },
+        {
+            "@language": "en",
+            "@value": "bodies legally representing the undertaking"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzliche vertretung"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzliche vertretung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Vertretung des Kindes"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzliche Vertretung des Kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertegenwoordiging van het kind in rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijke vertegenwoordiging van het kind"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "Acting as the child's legal representative has three aspects: administration of the child's property; consenting to transactions where the child does not have legal capacity; and suing and defending in civil proceedings."
+        }
+    ]
+}

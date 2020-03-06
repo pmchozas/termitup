@@ -1,0 +1,187 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4588473",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-für adoption",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583370",
+    "skos:topConceptOf": "LT4588473",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "adopción"
+        },
+        {
+            "@language": "en",
+            "@value": "adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-für adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción"
+        },
+        {
+            "@language": "en",
+            "@value": "adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-für adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción plena"
+        },
+        {
+            "@language": "en",
+            "@value": "full adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-für adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "sterke adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción simple"
+        },
+        {
+            "@language": "en",
+            "@value": "simple adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-für adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "zwakke adoptie"
+        },
+        {
+            "@language": "es",
+            "@value": "adopción simple"
+        },
+        {
+            "@language": "en",
+            "@value": "simple adoption"
+        },
+        {
+            "@language": "de",
+            "@value": "-für adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": "eenvoudige adoptie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Adoption"
+        },
+        {
+            "@language": "de",
+            "@value": " Annahme an Kindes Statt"
+        },
+        {
+            "@language": "de",
+            "@value": " starke Adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": " volle adoptie"
+        },
+        {
+            "@language": "de",
+            "@value": " schwache Adoption"
+        },
+        {
+            "@language": "nl",
+            "@value": " eenvoudige adoptie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Institución de Derecho de Familia constituida judicialmente mediante la cual una persona se integra plenamente y con los mismos efectos que la filiación biológica en la vida familiar de otra u otras rompiéndose salvo excepciones las relaciones jurídicas que tenía con su familia anterior. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "De adoptie is een instelling waarbij tussen twee individuen ten gevolge van een gerechtelijke beslissing een band geschapen wordt die rechtsgevolgen teweegbrengt welke gelijk zijn aan of sterk gelijken op die van de afstamming."
+        },
+        {
+            "@language": "es",
+            "@value": "Supone una nueva relación familiar equiparada plenamente a la biológica por lo que se establece (salvo excepciones legalmente previstas ) la ruptura de vínculos personales familiares y jurídicos entre el hijo adoptivo y sus padres naturales o biológicos. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "Die Volladoption (starke Adoption) ist eine Adoption als deren Folge der Angenommene rechtlich voll in die Adoptivfamilie eingegliedert wird und die bisherigen Verwandtschaftsverhältnisse erlöschen. [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Bij volle adoptie worden de banden met de oorspronkelijke familie in de regel verbroken en wordt de geadopteerde een volwaardig lid van de familie van de adoptant(en). [BE] / Sterke adoptie betekent dat door adoptie de geadopteerde de adoptiefouder en zijn bloedverwanten of de adoptiefouders en hun bloedverwanten in familierechtelijke betrekking tot elkaar komen te staan terwijl tegelijkertijd de familierechtelijke betrekking tussen de geadopteerde zijn oorspronkelijke ouders en hun bloedverwanten ophoudt te bestaan."
+        },
+        {
+            "@language": "es",
+            "@value": "Es una nueva relación pero sin ruptura de los vínculos personales familiares y jurídicos entre el adoptado y los padres o familia naturales o biológicos. Esta forma de adopción no está reconocida en el Ordenamiento Jurídico Español. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "Die schwache oder einfache Adoption ist eine Adoption bei der - im Gegensatz zur starken oder Volladoption - die rechtlichen Beziehungen zu den leiblichen Verwandten nicht vollständig erlöschen."
+        },
+        {
+            "@language": "nl",
+            "@value": "Door gewone adoptie verkrijgt de geadopteerde het statuut van kind van de adoptant(en). De geadopteerde blijft echter banden houden met zijn oorspronkelijke familie en trent niet in de familie van de adoptant(en). [BE] / In tegenstelling tot sterke adoptie worden bij zwakke adoptie de juridische banden met de oorspronkelijke familie niet of niet geheel verbroken [NL]"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtliche Möglichkeit zur Adoption wobei es sich in den meisten Fällen um die Adoption durch einen Verwandten handelt. Beispiel: Ein Onkel adoptiert seinen Neffen..."
+        },
+        {
+            "@language": "nl",
+            "@value": "juridische regeling die hoofdzakelijk van toepassing is op situaties binnen families.Bijvoorbeeld:een oom adopteert een neef zonder dat de familierechtelijke betrekkingen tussen de neef en diens ouders...worden verbroken..."
+        }
+    ]
+}

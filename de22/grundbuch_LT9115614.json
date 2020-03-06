@@ -1,0 +1,260 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9115614",
+    "@type": "skos:Concept",
+    "skos:inScheme": "grundbuch",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1253196",
+    "skos:topConceptOf": "LT9115614",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "catastro"
+        },
+        {
+            "@language": "en",
+            "@value": "land register"
+        },
+        {
+            "@language": "de",
+            "@value": "grundbuch"
+        },
+        {
+            "@language": "nl",
+            "@value": "kadaster"
+        },
+        {
+            "@language": "en",
+            "@value": "journal"
+        },
+        {
+            "@language": "de",
+            "@value": "grundbuch"
+        },
+        {
+            "@language": "nl",
+            "@value": "journaal"
+        },
+        {
+            "@language": "es",
+            "@value": "registro de la propiedad inmobiliaria"
+        },
+        {
+            "@language": "en",
+            "@value": "land register"
+        },
+        {
+            "@language": "de",
+            "@value": "grundbuch"
+        },
+        {
+            "@language": "nl",
+            "@value": "kadaster"
+        },
+        {
+            "@language": "es",
+            "@value": "catastro y registro de la propiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "land and property register"
+        },
+        {
+            "@language": "de",
+            "@value": "grundbuch"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigendomsregister"
+        },
+        {
+            "@language": "es",
+            "@value": "Registro de la Propiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "land register"
+        },
+        {
+            "@language": "de",
+            "@value": "grundbuch"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "registro catastral"
+        },
+        {
+            "@language": "es",
+            "@value": "registro de la propiedad rústica"
+        },
+        {
+            "@language": "en",
+            "@value": "land registry"
+        },
+        {
+            "@language": "en",
+            "@value": "cadastre"
+        },
+        {
+            "@language": "en",
+            "@value": "cadaster"
+        },
+        {
+            "@language": "en",
+            "@value": "cadastral register"
+        },
+        {
+            "@language": "de",
+            "@value": "Kataster"
+        },
+        {
+            "@language": "de",
+            "@value": "Flurbuch"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundkataster"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundbuch Katasteraufnahme"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundsteuerregister"
+        },
+        {
+            "@language": "de",
+            "@value": "Liegenschaftskataster"
+        },
+        {
+            "@language": "nl",
+            "@value": "grondboek"
+        },
+        {
+            "@language": "de",
+            "@value": "Journal"
+        },
+        {
+            "@language": "de",
+            "@value": "Memorial"
+        },
+        {
+            "@language": "nl",
+            "@value": "dagboek"
+        },
+        {
+            "@language": "en",
+            "@value": "real estate register"
+        },
+        {
+            "@language": "es",
+            "@value": "registro de la propiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "property register"
+        },
+        {
+            "@language": "en",
+            "@value": "register of real properties"
+        },
+        {
+            "@language": "en",
+            "@value": "land charge register"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "censo y padrón estadístico de la fincas rústicas"
+        },
+        {
+            "@language": "en",
+            "@value": "register of property showing the extent value and ownership of land for taxation"
+        },
+        {
+            "@language": "de",
+            "@value": "auf zivilrechtlicher Vorschrift beruhendes durch die öffentliche Verwaltung gefertigtes Register der Personen und Körperschaften welche Rechte an einem Flurstück besitzen"
+        },
+        {
+            "@language": "nl",
+            "@value": "instelling die basisvoorzieningen levert op het gebied van betrouwbare geo-informatievoorziening en dienstverlening bij onroerend-goedtransacties; op grond hiervan ook: openbaar register waarin alle gronden de eigendomsrechten daarvan en de daaraan verbonden servituten zijn omschreven"
+        },
+        {
+            "@language": "en",
+            "@value": "a chronological record of the accounting transactions of a business either in detail or summarised"
+        },
+        {
+            "@language": "de",
+            "@value": "zusammengefaßte oder einzelne Aufzeichnungen aller Geschäftsvorfälle in chronologischer Folge"
+        },
+        {
+            "@language": "nl",
+            "@value": "chronologische vastlegging van de transacties individueel of periodiek groepsgewijze samengevat"
+        },
+        {
+            "@language": "es",
+            "@value": "Registro que tiene por objeto la inscripción o anotación de los actos contratos y resoluciones judiciales o administrativas que afecten a la propiedad y a otros derechos sobre bienes inmuebles así como de determinadas resoluciones judiciales que afectan a la capacidad de las personas."
+        },
+        {
+            "@language": "en",
+            "@value": "The land register enables the owner to establish title to land for which a certificate is issued."
+        },
+        {
+            "@language": "de",
+            "@value": "Offenlegung u. Nachweis der Rechtsverhältnisse an einem Grundstück"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Het van staatswege gehouden openbaar register van onroerende goederen waarin deze met aanduiding van gemeente sectie en nummer zijn omschreven en waarin aantekening geschiedt van alle zakelijke rechten door in- of overschrijving van de daaromtrent gemaakte akten.\""
+        },
+        {
+            "@language": "en",
+            "@value": "1.The system of registering certain legal estates or interests in land. It describes the land and any additional rights incidental to it such as rights of way over adjoining land."
+        },
+        {
+            "@language": "es",
+            "@value": "registro público en el que se inscriben todos los inmuebles sus propietarios y las cargas que les gravan"
+        },
+        {
+            "@language": "en",
+            "@value": "a public register in which particulars of landed propertythe ownership thereof and charges thereonare recorded"
+        },
+        {
+            "@language": "de",
+            "@value": "auf zivilrechtlicher Vorschrift beruhendes durch die öffentliche Verwaltung gefertigtes Register der Personen und Körperschaften welche Rechte an einem Flurstück besitzen über diese Rechte und die Rechte untereinander ;öffentliches Register in dem Bestand Eigentumsverhältnisse und Belastungen von Grundstücken verzeichnet sind"
+        }
+    ]
+}

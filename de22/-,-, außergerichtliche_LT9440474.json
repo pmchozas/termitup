@@ -1,0 +1,196 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9440474",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-,-, außergerichtliche",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/132674",
+    "skos:topConceptOf": "LT9440474",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "ejecución extrajudicial"
+        },
+        {
+            "@language": "en",
+            "@value": "extrajudicial execution"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, außergerichtliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitengerechtelijke executie"
+        },
+        {
+            "@language": "es",
+            "@value": "organismo extrajudicial"
+        },
+        {
+            "@language": "en",
+            "@value": "out-of-court body"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, außergerichtliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitengerechtelijk orgaan"
+        },
+        {
+            "@language": "es",
+            "@value": "resolución extrajudicial"
+        },
+        {
+            "@language": "en",
+            "@value": "extra-judicial settlement"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, außergerichtliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitengerechtelijke beslechting"
+        },
+        {
+            "@language": "es",
+            "@value": "acto extrajudicial"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, außergerichtliche"
+        },
+        {
+            "@language": "en",
+            "@value": "out-of-court composition"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, außergerichtliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitengerechtelijk akkoord"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "ejecución sumaria"
+        },
+        {
+            "@language": "es",
+            "@value": "ejecuciones extrajudiciales, sumarias o arbitrarias"
+        },
+        {
+            "@language": "en",
+            "@value": "summary execution"
+        },
+        {
+            "@language": "en",
+            "@value": "extrajudicial killing"
+        },
+        {
+            "@language": "en",
+            "@value": "extra-legal, arbitrary and summary executions"
+        },
+        {
+            "@language": "de",
+            "@value": "Hinrichtung im Schnellverfahren"
+        },
+        {
+            "@language": "de",
+            "@value": "Schnellhinrichtung"
+        },
+        {
+            "@language": "de",
+            "@value": "außergerichtliche Hinrichtung"
+        },
+        {
+            "@language": "de",
+            "@value": "außergerichtliche Tötung"
+        },
+        {
+            "@language": "de",
+            "@value": "gezielte Tötung"
+        },
+        {
+            "@language": "nl",
+            "@value": "standrechtelijke executie"
+        },
+        {
+            "@language": "nl",
+            "@value": "politieke moord"
+        },
+        {
+            "@language": "en",
+            "@value": "extra-judicial body"
+        },
+        {
+            "@language": "en",
+            "@value": "non-judicial means of dispute settlement"
+        },
+        {
+            "@language": "en",
+            "@value": "extra-judicial settlement of conflicts"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderhands akkoord"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Hay ejecución extrajudicial cuando individuos cuya actuación compromete la responsabilidad internacional del Estado matan a una persona en acto que presenta los rasgos característicos de una privación ilegítima de la vida. Por lo tanto para que con rigor pueda hablarse de este crimen internacional la muerte de la víctima ha de ser deliberada e injustificada. La ejecución extrajudicial debe distinguirse pues de los homicidios cometidos por servidores públicos que mataron: a. Por imprudencia impericia negligencia o violación del reglamento; b. En legítima defensa; c. En combate dentro de un conflicto armado; d. Al hacer uso racional necesario y proporcionado de la fuerza como encargados de hacer cumplir la ley. El 15 de diciembre de 1989 mediante la Resolución 44/162 la Asamblea General de las Naciones Unidas aprobó el instrumento titulado Principios relativos a una eficaz prevención e investigación de ejecuciones extralegales arbitrarias y sumarias."
+        },
+        {
+            "@language": "en",
+            "@value": "unlawful and deliberate killing carried out by order of a government or with its acquiescence"
+        },
+        {
+            "@language": "de",
+            "@value": "Mord der von staatlichen Organen (Polizei Militär Sicherheitskräfte usw.) verübt wird oder mit Duldung oder Billigung des Staates geschieht."
+        },
+        {
+            "@language": "nl",
+            "@value": "\"executies die na een heel summier of geen proces worden voltrokken bijvoorbeeld in geval van desertie op het strijdveld\""
+        },
+        {
+            "@language": "nl",
+            "@value": "buiten medewerking of tegenwoordigheid van de rechtbank"
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8743520",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gesundheit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1085406",
+    "skos:topConceptOf": "LT8743520",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "salud pública"
+        },
+        {
+            "@language": "en",
+            "@value": "public health"
+        },
+        {
+            "@language": "de",
+            "@value": "gesundheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "volksgezondheid"
+        },
+        {
+            "@language": "es",
+            "@value": "salud"
+        },
+        {
+            "@language": "en",
+            "@value": "health"
+        },
+        {
+            "@language": "de",
+            "@value": "gesundheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "gezondheid"
+        },
+        {
+            "@language": "es",
+            "@value": "salud"
+        },
+        {
+            "@language": "en",
+            "@value": "health"
+        },
+        {
+            "@language": "de",
+            "@value": "gesundheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "gezondheid"
+        },
+        {
+            "@language": "es",
+            "@value": "Grupo Interregional de Salud"
+        },
+        {
+            "@language": "en",
+            "@value": "Interregional Group on Health"
+        },
+        {
+            "@language": "de",
+            "@value": "gesundheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "interregionale groep Gezondheid"
+        },
+        {
+            "@language": "en",
+            "@value": "sexual health"
+        },
+        {
+            "@language": "de",
+            "@value": "gesundheit"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "sanidad pública"
+        },
+        {
+            "@language": "de",
+            "@value": "Volksgesundheit"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesundheit"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesundheit der Bevölkerung"
+        },
+        {
+            "@language": "es",
+            "@value": "Grupo de Salud"
+        },
+        {
+            "@language": "es",
+            "@value": "GI"
+        },
+        {
+            "@language": "es",
+            "@value": "GI de Salud"
+        },
+        {
+            "@language": "en",
+            "@value": "Interregional Group on Health and Wellbeing"
+        },
+        {
+            "@language": "en",
+            "@value": "Health Interregional Group"
+        },
+        {
+            "@language": "en",
+            "@value": "IRGH"
+        },
+        {
+            "@language": "de",
+            "@value": "Interregionale Gruppe Gesundheit"
+        },
+        {
+            "@language": "de",
+            "@value": "Sexualgesundheit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "parte de la Higiene que estudia los medios de prevenir la enfermedad y de fomentar en la colectividad una vida sana y una legislación sanitaria adecuada así como hábitos de vida sanos que preserven el medio ambiente"
+        },
+        {
+            "@language": "en",
+            "@value": "the science and the art of preventing disease prolonging life and promoting physical health and efficiency through organized community efforts for the sanitation of the environment the control of community infections the education of the individual in principles of personal hygiene the organization of medical and nursing services for the early diagnosis and preventive treatment of disease and the development of the social machinery which will ensure to every individual in the community a standard of living adequate for the maintenance of health"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesundheitswesen: umfasst Apotheken- und Arzneimittelwesen Krankheitsbekämpfung (Seuchen) Impfwesen Krankenhauswesen Gesundheitsfürsorge Lebensmittelrecht u. Umweltschutz sowie Tierarzt Viehseuchengesetz und Fleischbeschaugesetz"
+        },
+        {
+            "@language": "nl",
+            "@value": "Tak van de gezondheidszorg die streeft naar het voorkómen van ziekten het bevorderen van de hygiëne en het doen naleven van de desbetreffende wetgeving bij de gehele bevolking"
+        },
+        {
+            "@language": "en",
+            "@value": "1.A state of dynamic equilibrium between an organism and its environment in which all functions of mind and body are normal."
+        },
+        {
+            "@language": "es",
+            "@value": "estado de completo bienestar físico mental y social que no corresponde meramente a la ausencia de afecciones o enfermedades; Estado de un individuo o una comunidad sin discapacidad alguna con una resistencia razonable a las enfermedades y en un medio ambiente sano"
+        },
+        {
+            "@language": "en",
+            "@value": "the state of complete physical mental and social well being and not merely the absence of disease or infirmity (WHO); The state of an individual or a community free from disabilitating conditions demonstrating a reasonable resistance to diseases and living in a salubrious environment; -DDMG"
+        },
+        {
+            "@language": "de",
+            "@value": "Zustand völligen körperlichen geistigen und sozialen Wohlbefinden-nicht nur Fehlen von Krankheit oder Gebrechlichkeit (WHO);Zustand eines einzelnen oder einer Gemeinschaft: in guter Verfassung widerstandsfähig gegen Krankheiten in gesunder Umgebung lebend"
+        },
+        {
+            "@language": "nl",
+            "@value": "Toestand van optimaal welzijn in geestelijk lichamelijk en maatschappelijk opzicht; Toestand van een individu of van een gemeenschap die vrij is van ziekmakende constituties tentoongespreid in een redelijke bestandheid tegen ziekte en levend in een gezond milieu"
+        },
+        {
+            "@language": "es",
+            "@value": "Grupo interregional del Comité de las Regiones creado con el fin de que los miembros del CDR debatan e intercambien opiniones sobre los temas relativos a la salud en la UE y ahonden en otros temas de salud pública."
+        },
+        {
+            "@language": "en",
+            "@value": "interregional group of the Committee of the Regions established to facilitate a constructive dialogue with the European Commission and the European Parliament and to discuss among other things the use of structural funds the health work force patient mobility nutrition and obesity and health inequalities indicators"
+        },
+        {
+            "@language": "de",
+            "@value": "interregionale Gruppe des AdR zum Austausch über Fragen der Gesundheitspolitik"
+        },
+        {
+            "@language": "nl",
+            "@value": "interregionale groep van het Comité van de Regio's die is opgericht om ervoor te zorgen dat alle leden van het CvdR en hun plaatsvervangers vrijelijk van gedachten kunnen wisselen over volksgezondheid in de EU en dieper kunnen ingaan op de daarmee samenhangende vraagstukken"
+        },
+        {
+            "@language": "en",
+            "@value": "A state of physical emotional mental and social well-being in relation to sexuality; it is not merely the absence of disease dysfunction or infirmity. Sexual health requires a positive and respectful approach to sexuality and sexual relationships as well as the possibility of having pleasurable and safe sexual experiences free of coercion discrimination and violence. For sexual health to be attained and maintained the sexual rights of all persons must be respected protected and fulfilled."
+        },
+        {
+            "@language": "de",
+            "@value": "sexuelle Gesundheit ist die Erfahrung eines fortdauernden Prozesses körperlichen seelischen und soziokulturellen Wohlbefindens in Bezug auf die Sexualität. Sexuelle Gesundheit zeigt sich im freien und verantwortungsvollen Ausdruck sexueller Fähigkeiten der das harmonische persönliche und soziale Wohlergehen befördert und so auf beiden Ebenen das Leben bereichert. Sexuelle Gesundheit ist nicht einfach die Abwesenheit von Funktionsstörungen Krankheit oder Schwäche. Wenn sexuelle Gesundheit erreicht und erhalten werden soll so müssen die sexuellen Rechte aller Menschen anerkannt und durchgesetzt werden"
+        }
+    ],
+    "skos:broader": [],
+    "skos:narrower": [
+        "LT2963920",
+        "LT1676427"
+    ],
+    "skos:related": [
+        "LT3764248",
+        "LT3235278",
+        "LT5219497",
+        "LT6973241"
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5553167",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, gewählter",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/89341",
+    "skos:topConceptOf": "LT5553167",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "Elected"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewählter"
+        },
+        {
+            "@language": "es",
+            "@value": "cifras de llamada"
+        },
+        {
+            "@language": "en",
+            "@value": "dialed digits"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewählter"
+        },
+        {
+            "@language": "nl",
+            "@value": "kiescijfers"
+        },
+        {
+            "@language": "es",
+            "@value": "nivel seleccionado"
+        },
+        {
+            "@language": "en",
+            "@value": "selected level"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewählter"
+        },
+        {
+            "@language": "es",
+            "@value": "prestaciones opcionales"
+        },
+        {
+            "@language": "en",
+            "@value": "elective benefits"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewählter"
+        },
+        {
+            "@language": "nl",
+            "@value": "optionele uitkeringen"
+        },
+        {
+            "@language": "es",
+            "@value": "Presidente electo de la Comisión"
+        },
+        {
+            "@language": "en",
+            "@value": "President-elect of the Commission"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewählter"
+        },
+        {
+            "@language": "nl",
+            "@value": "nieuwgekozen voorzitter"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "optionele prestaties"
+        },
+        {
+            "@language": "en",
+            "@value": "President-elect"
+        },
+        {
+            "@language": "en",
+            "@value": "European Commission President-elect"
+        },
+        {
+            "@language": "de",
+            "@value": "gewählter Präsident"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkozen voorzitter"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkozen voorzitter van de Commissie"
+        },
+        {
+            "@language": "nl",
+            "@value": "gekozen voorzitter van de Commissie"
+        },
+        {
+            "@language": "nl",
+            "@value": "gekozen voorzitter"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.Staff elected to represent the staff on official bodies. They are assigned to an administrative unit and continue to work there"
+        },
+        {
+            "@language": "de",
+            "@value": "1.Beamte oder sonstige Bedienstete die in die statutarische Personalvertretung gewählt worden sind. Sie werden in einer Verwaltungseinheit dienstlich verwendet in der sie weiterhin ihre berufliche Tätigkeit ausüben"
+        },
+        {
+            "@language": "en",
+            "@value": "the series of numbers received via telephone company interface devices or base site controllers as a result of dialling on land or mobile telephone terminals"
+        },
+        {
+            "@language": "en",
+            "@value": "benefits the beneficiary may or may not insure andif he does sothe option as to the form in which to take the benefit"
+        },
+        {
+            "@language": "en",
+            "@value": "person who has been elected by the European Parliament as President of the Commission but has not yet officially taken office"
+        }
+    ]
+}

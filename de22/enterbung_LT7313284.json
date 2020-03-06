@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7313284",
+    "@type": "skos:Concept",
+    "skos:inScheme": "enterbung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1131619",
+    "skos:topConceptOf": "LT7313284",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "desheredación"
+        },
+        {
+            "@language": "en",
+            "@value": "disinheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "enterbung"
+        },
+        {
+            "@language": "nl",
+            "@value": "onterving"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "exheredation"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Privación de la herencia IATE:848094 .En este concepto cabe una graduación muy amplia. En efecto la desheredación puede provenir de la ley en cuyo caso constituye propiamente la indignidad para suceder IATE:1133097 . Puede derivarse también de un descuido del testador IATE:80201  hipótesis en la cual se denomina preterición. Pero más propiamente la desheredación es la expresa disposición testamentaria IATE:3534954 que fundada en las causas legales despoja de sus derechos sucesorios IATE:3536433 a un heredero legítimo o forzoso IATE:1131737 ."
+        },
+        {
+            "@language": "en",
+            "@value": "act by which an owner of an estate deprives a would-be heir of the expectancy to inherit the estate"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausschluss einzelner oder aller Erben von der gesetzlichen Erbfolge im Rahmen einer Verfügung von Todes wegen"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"testamentaire beschikking waarmee de testator rechtstreeks of onrechtstreeks een erfgenaam zijn wettelijk erfdeel ontneemt\""
+        }
+    ]
+}

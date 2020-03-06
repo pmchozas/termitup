@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7054536",
+    "@type": "skos:Concept",
+    "skos:inScheme": "wappen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/886962",
+    "skos:topConceptOf": "LT7054536",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "escudo"
+        },
+        {
+            "@language": "en",
+            "@value": "coat of arms"
+        },
+        {
+            "@language": "de",
+            "@value": "wappen"
+        },
+        {
+            "@language": "nl",
+            "@value": "wapen"
+        },
+        {
+            "@language": "es",
+            "@value": "escudo"
+        },
+        {
+            "@language": "en",
+            "@value": "escutcheon"
+        },
+        {
+            "@language": "de",
+            "@value": "wappen"
+        },
+        {
+            "@language": "nl",
+            "@value": "wapenschild"
+        },
+        {
+            "@language": "es",
+            "@value": "insignia, emblema o escudo"
+        },
+        {
+            "@language": "en",
+            "@value": "badge, emblem or escutcheon"
+        },
+        {
+            "@language": "de",
+            "@value": "wappen"
+        },
+        {
+            "@language": "nl",
+            "@value": "badge,embleem en wapenschild"
+        },
+        {
+            "@language": "es",
+            "@value": "marcas que incluyan insignias, emblemas o escudos"
+        },
+        {
+            "@language": "en",
+            "@value": "trade marks which include badges, emblems or escutcheons"
+        },
+        {
+            "@language": "de",
+            "@value": "wappen"
+        },
+        {
+            "@language": "es",
+            "@value": "escudo"
+        },
+        {
+            "@language": "en",
+            "@value": "crest"
+        },
+        {
+            "@language": "de",
+            "@value": "wappen"
+        },
+        {
+            "@language": "nl",
+            "@value": "blazoen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "escudo nacional"
+        },
+        {
+            "@language": "de",
+            "@value": "Wappenbildnis"
+        },
+        {
+            "@language": "nl",
+            "@value": "wapenbeeld"
+        },
+        {
+            "@language": "es",
+            "@value": "blasón"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

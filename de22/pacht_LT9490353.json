@@ -1,0 +1,139 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9490353",
+    "@type": "skos:Concept",
+    "skos:inScheme": "pacht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1667692",
+    "skos:topConceptOf": "LT9490353",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "lease of land"
+        },
+        {
+            "@language": "de",
+            "@value": "pacht"
+        },
+        {
+            "@language": "nl",
+            "@value": "pacht"
+        },
+        {
+            "@language": "es",
+            "@value": "arrendamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "tenant farming"
+        },
+        {
+            "@language": "de",
+            "@value": "pacht"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho de arrendamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "lease hold estate"
+        },
+        {
+            "@language": "de",
+            "@value": "pacht"
+        },
+        {
+            "@language": "nl",
+            "@value": "onroerend goed in pacht"
+        },
+        {
+            "@language": "es",
+            "@value": "arrendamiento"
+        },
+        {
+            "@language": "de",
+            "@value": "pacht"
+        },
+        {
+            "@language": "es",
+            "@value": "canon de arrendamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "lease charges"
+        },
+        {
+            "@language": "de",
+            "@value": "pacht"
+        },
+        {
+            "@language": "nl",
+            "@value": "pacht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Pacht"
+        },
+        {
+            "@language": "de",
+            "@value": "Pacht"
+        },
+        {
+            "@language": "es",
+            "@value": "arriendo"
+        },
+        {
+            "@language": "es",
+            "@value": "locación"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "vertragliche Überlassung des Gebrauchs und der Fruchtziehung einer Sache oder eines Rechts gegen Entgelt den. sog. Pachtzins"
+        },
+        {
+            "@language": "en",
+            "@value": "tenants right of possession for a specific period of time under a lease agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertrag der den Verpaechter verpflichtet dem Paechter gegen Zahlung des Pachtzinses den Gebrauch des gepachteten Gegenstandes und darueber hinaus den Genuss der bei ordnungsgemaesser Wirtschaft anfallenden Fruechte waehrend der Pachtzeit zu gewaehren"
+        }
+    ],
+    "skos:broader": [
+        "LT1454481"
+    ]
+}

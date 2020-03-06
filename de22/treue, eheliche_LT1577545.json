@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1577545",
+    "@type": "skos:Concept",
+    "skos:inScheme": "treue, eheliche",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583666",
+    "skos:topConceptOf": "LT1577545",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "deber de fidelidad"
+        },
+        {
+            "@language": "en",
+            "@value": "duty of fidelity"
+        },
+        {
+            "@language": "de",
+            "@value": "treue, eheliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting tot getrouwheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "eheliche Treuepflicht"
+        },
+        {
+            "@language": "de",
+            "@value": "Verpflichtung zu ehelicher Treue"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "De getrouwheidsverplichting legt de echtgenoten de verplichting op zich van iedere geslachtelijke omgang met een ander dan de mede-echtgenoot te onthouden zolang het huwelijk duurt. Overspel is dan wel geen specifieke grond tot echtscheiding meer maar een proces-verbaal waarin overspel wordt vastgesteld kan toch worden aangewend als bewijsmiddel voor de onherstelbare ontwrichting van het huwelijk. Hetzelfde geldt voor andere vormen van ontrouw zoals verregaande intimiteit met een ander persoon dan de echtgenoot. [BE] / Verplichting tot huwelijkstrouw [NL]"
+        }
+    ]
+}

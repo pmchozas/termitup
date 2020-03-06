@@ -1,0 +1,163 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6576700",
+    "@type": "skos:Concept",
+    "skos:inScheme": "novation",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/883360",
+    "skos:topConceptOf": "LT6576700",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "novación"
+        },
+        {
+            "@language": "en",
+            "@value": "novation"
+        },
+        {
+            "@language": "de",
+            "@value": "novation"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldvernieuwing"
+        },
+        {
+            "@language": "es",
+            "@value": "renegociación de la deuda"
+        },
+        {
+            "@language": "en",
+            "@value": "debt workout"
+        },
+        {
+            "@language": "de",
+            "@value": "novation"
+        },
+        {
+            "@language": "nl",
+            "@value": "herschikking van de schuld"
+        },
+        {
+            "@language": "en",
+            "@value": "renewal"
+        },
+        {
+            "@language": "de",
+            "@value": "novation"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldvernieuwing"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Umwandlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Schuld"
+        },
+        {
+            "@language": "de",
+            "@value": "Novation"
+        },
+        {
+            "@language": "nl",
+            "@value": "novatie"
+        },
+        {
+            "@language": "de",
+            "@value": "Novation"
+        },
+        {
+            "@language": "de",
+            "@value": "Schuldumwandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "novatie"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldhernieuwing"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Cambio o sustitución de una obligación por otra posterior que la extingue o la modifica. La novación se puede producir por variación del objeto o las condiciones principales por sustitución de la persona del deudor o por subrogación de un tercero en los derechos del acreedor."
+        },
+        {
+            "@language": "en",
+            "@value": "satisfaction and discharge of existing contractual obligations by means of their replacement by new obligations"
+        },
+        {
+            "@language": "de",
+            "@value": "Aufhebung eines Schuldverhältnisses und Begründung eines neuen anstelle des alten"
+        },
+        {
+            "@language": "nl",
+            "@value": "wijziging in de overeenkomst tussen de schuldeiser en de schuldenaar doordat:- de schuldenaar tegenover zijn schuldeiser een nieuwe schuld aangaat welke gesteld wordt in de plaats van de oude die teniet gaat;- een nieuwe schuldenaar gesteld wordt in de plaats van de vorige die door de schuldeiser van zijn verbintenis ontslagen wordt; of- ten gevolge van een nieuwe verbintenis een nieuwe schuldeiser gesteld wordt in de plaats van de vorige ten opzichte van wie de schuldenaar van zijn verbintenis ontslagen wordt."
+        },
+        {
+            "@language": "en",
+            "@value": "the process of moving towards a satisfactory method of paying off a debt by a debtor country including restructuring adjustment obtaining new money and servicing existing debt"
+        },
+        {
+            "@language": "de",
+            "@value": "die Aufhebung eines bestehenden Schuldverhältnisses und gleichzeitige Begründung eines neuen das an die Stelle des bisherigen tritt"
+        },
+        {
+            "@language": "en",
+            "@value": "the act or process of transforming or extending a credit agreement whereby the old debt is cancelled by the establishment of a new one (e.g. in current accounts by striking and acknowledging a balance)"
+        },
+        {
+            "@language": "nl",
+            "@value": "in-de-plaatsstelling van een nieuwe verbintenis voor een oude die daardoor vernietigd wordt van een nieuwe schuldenaar voor een oude die daardoor ontslagen wordt of van een nieuwe sc huldeiser waardoor de schuldenaar tegenover de oude ontslagen wordt"
+        }
+    ],
+    "skos:broader": [
+        "LT4798265",
+        "LT5921399",
+        "LT6085319"
+    ],
+    "skos:related": [
+        "LT1832997",
+        "LT8386051",
+        "LT7322176",
+        "LT1666565"
+    ]
+}

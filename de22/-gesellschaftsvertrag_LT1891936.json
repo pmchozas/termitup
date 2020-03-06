@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1891936",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-gesellschaftsvertrag",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1071660",
+    "skos:topConceptOf": "LT1891936",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "estatutos"
+        },
+        {
+            "@language": "en",
+            "@value": "articles of association"
+        },
+        {
+            "@language": "de",
+            "@value": "-gesellschaftsvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "statuten van een vennootschap"
+        },
+        {
+            "@language": "en",
+            "@value": "memorandum and articles of association"
+        },
+        {
+            "@language": "de",
+            "@value": "-gesellschaftsvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "statuten"
+        },
+        {
+            "@language": "es",
+            "@value": "estatuto de asociación"
+        },
+        {
+            "@language": "en",
+            "@value": "memorandum of association"
+        },
+        {
+            "@language": "de",
+            "@value": "-gesellschaftsvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "vennootschapsakte"
+        },
+        {
+            "@language": "es",
+            "@value": "escritura de constitución"
+        },
+        {
+            "@language": "en",
+            "@value": "memorandum of association"
+        },
+        {
+            "@language": "de",
+            "@value": "-gesellschaftsvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "akte van oprichting"
+        },
+        {
+            "@language": "en",
+            "@value": "security and society contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-gesellschaftsvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "Veiligheids- en Samenlevingscontract"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "articles of incorporation"
+        },
+        {
+            "@language": "de",
+            "@value": "Satzung einer Gesellschaft"
+        },
+        {
+            "@language": "en",
+            "@value": "constitution"
+        },
+        {
+            "@language": "en",
+            "@value": "charter"
+        },
+        {
+            "@language": "en",
+            "@value": "bye-laws"
+        },
+        {
+            "@language": "en",
+            "@value": "by-laws , by-law, bye-law"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesellschaftssatzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "firma-contract"
+        },
+        {
+            "@language": "de",
+            "@value": "Ges.-Vertr."
+        },
+        {
+            "@language": "de",
+            "@value": "Gesellschaftsvertrag"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Normas por las que se rige una sociedad."
+        },
+        {
+            "@language": "en",
+            "@value": "legal written document setting out the rules according to which a corporation will be run as agreed by the shareholders directors and the company secretary"
+        },
+        {
+            "@language": "en",
+            "@value": "document that defines the responsibilities of the directors the kind of business to be undertaken and the means by which the shareholders exert control over the board of directors"
+        },
+        {
+            "@language": "en",
+            "@value": "an important and essential document in which the persons associating together to form a new company set down in detail the objects of the companyits nameand the country in which its registered office will bewhether the liabilities of its members will be limitedthe amount of its authorized capital and the number and value of its shares"
+        },
+        {
+            "@language": "de",
+            "@value": "die Rechtsverhältnisse der Gesellschafter untereinander ordnende Grundlage jeder Gesellschaft beim Grundsatz der Vertragsfreiheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "authentieke of onderhandse akte waarbij een vennootschap aangegaan wordt"
+        }
+    ]
+}

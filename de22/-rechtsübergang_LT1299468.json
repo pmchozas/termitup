@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1299468",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-rechtsübergang",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3578493",
+    "skos:topConceptOf": "LT1299468",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cesión"
+        },
+        {
+            "@language": "en",
+            "@value": "transfer"
+        },
+        {
+            "@language": "de",
+            "@value": "-rechtsübergang"
+        },
+        {
+            "@language": "nl",
+            "@value": "overgang"
+        },
+        {
+            "@language": "es",
+            "@value": "cesión de la marca"
+        },
+        {
+            "@language": "en",
+            "@value": "assignment of marks"
+        },
+        {
+            "@language": "de",
+            "@value": "-rechtsübergang"
+        },
+        {
+            "@language": "nl",
+            "@value": "overgang"
+        },
+        {
+            "@language": "en",
+            "@value": "partial transfer of right"
+        },
+        {
+            "@language": "de",
+            "@value": "-rechtsübergang"
+        },
+        {
+            "@language": "en",
+            "@value": "to publish a transfer"
+        },
+        {
+            "@language": "de",
+            "@value": "-rechtsübergang"
+        },
+        {
+            "@language": "nl",
+            "@value": "een overgang openbaar maken"
+        },
+        {
+            "@language": "es",
+            "@value": "cesión de la marca comunitaria"
+        },
+        {
+            "@language": "en",
+            "@value": "transfer of the Community trade mark"
+        },
+        {
+            "@language": "de",
+            "@value": "-rechtsübergang"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Übergang der Rechte"
+        },
+        {
+            "@language": "en",
+            "@value": "transfer of trade marks"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "transmisión del derecho a favor de otra persona física o jurídica"
+        },
+        {
+            "@language": "en",
+            "@value": "passage of a right from one person to another"
+        },
+        {
+            "@language": "de",
+            "@value": "Übergehen eines Rechts von einer natürlichen oder juristischen Person zu einer anderen"
+        }
+    ]
+}

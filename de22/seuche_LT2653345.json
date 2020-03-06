@@ -1,0 +1,179 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2653345",
+    "@type": "skos:Concept",
+    "skos:inScheme": "seuche",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/2228983",
+    "skos:topConceptOf": "LT2653345",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "enfermedad contagiosa"
+        },
+        {
+            "@language": "en",
+            "@value": "contagious disease"
+        },
+        {
+            "@language": "de",
+            "@value": "seuche"
+        },
+        {
+            "@language": "nl",
+            "@value": "besmettelijke ziekte"
+        },
+        {
+            "@language": "es",
+            "@value": "epidemia"
+        },
+        {
+            "@language": "en",
+            "@value": "epidemic"
+        },
+        {
+            "@language": "de",
+            "@value": "seuche"
+        },
+        {
+            "@language": "nl",
+            "@value": "epidemie"
+        },
+        {
+            "@language": "en",
+            "@value": "transmissible disease"
+        },
+        {
+            "@language": "de",
+            "@value": "seuche"
+        },
+        {
+            "@language": "nl",
+            "@value": "besmettelijke ziekten"
+        },
+        {
+            "@language": "de",
+            "@value": "seuche"
+        },
+        {
+            "@language": "es",
+            "@value": "epidemia de ESB"
+        },
+        {
+            "@language": "en",
+            "@value": "BSE epidemic"
+        },
+        {
+            "@language": "de",
+            "@value": "seuche"
+        },
+        {
+            "@language": "nl",
+            "@value": "BSE-epidemie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "kontagiöse Infektionskrankheit"
+        },
+        {
+            "@language": "de",
+            "@value": "Seuche"
+        },
+        {
+            "@language": "de",
+            "@value": "Seuche"
+        },
+        {
+            "@language": "en",
+            "@value": "communicable disease"
+        },
+        {
+            "@language": "de",
+            "@value": "Seuche"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1) Enfermedad IATE:1516229 que se transmite con facilidad de una persona a otra por contacto con el agente infeccioso. El contacto puede producirse a través de fluidos corporales gotitas de Flügge (las partículas de líquido expulsadas con la tos o el estornudo) objetos contaminados como los utensilios que entran en contacto con los alimentos transmisión aérea por inhalación transmisión por medio de vectores o ingestión de agua o alimentos.2) \"contagiosa\": Enfermedad transmisible por contacto; los términos contagiosa y transmisible se utilizan frecuentemente como sinónimos.\"transmisible\": Enfermedad infecciosa que se transmite de un individuo a otro mediante contacto directo con la persona enferma o indirecto (por medio de un vector IATE:1624779 o fómites IATE:36118 )."
+        },
+        {
+            "@language": "en",
+            "@value": "a highly communicable disease capable of spreading rapidly from one individual to another by direct contact or close proximity i.e. by spread of infected droplets coughed or exhaled into the air"
+        },
+        {
+            "@language": "de",
+            "@value": "Krankheit die sich rasch von einem Individuum zum nächsten überträgt meist als Tröpfcheninfektion über die Atemluft durch Husten oder Niesen des infizierten Individuums"
+        },
+        {
+            "@language": "nl",
+            "@value": "Ziekte die door besmetting (de overdracht van pathogene organismen) wordt overgebracht. Deze overdracht vindt zeer gemakkelijk plaats bv. door druppeltjes in de ademlucht en door direct of indirect contact."
+        },
+        {
+            "@language": "es",
+            "@value": "Enfermedad accidental transitoria generalmente infecciosa IATE:2228981  que ataca al mismo tiempo y en el mismo país o región a gran número de personas."
+        },
+        {
+            "@language": "en",
+            "@value": "sudden outbreak of infectious disease that spreads rapidly through the population affecting a large proportion of people"
+        },
+        {
+            "@language": "de",
+            "@value": "Infektionskrankheit fuer die eine Massenausbreitung und ein schwerer Verlauf charakteristisch sind; massenhaftes Auftreten einer Infektionskrankheit in einem begrenzten Gebiet entweder als Tardiv-Epidemie mit langsamem oder als Explosiv-Epidemie mit steilem Anstieg der Erkrankungsziffer"
+        },
+        {
+            "@language": "nl",
+            "@value": "een opmerkelijk binnen een bepaald tijdsverband optredende toename van het aantal gevallen van een bepaalde ziekte in een bevolking;sterk verbreide voorbijgaande meestal infectieuze ziekte in een mensen-of dierengemeenschap"
+        },
+        {
+            "@language": "en",
+            "@value": "a subcategory of communicable diseases \n1 that encompasses diseases caused by bloodborne pathogens or by sexually transmitted infectious agents \n1 communicable disease [ IATE:2228982 ]"
+        },
+        {
+            "@language": "de",
+            "@value": "durch Uebertraeger verbreitete Infektionskrankheit"
+        },
+        {
+            "@language": "de",
+            "@value": "Seuche: plötzliche Erkrankung zahlreicher Menschen (oder Tiere) an einer schweren Infektionskrankheit. Je nach Art der zeitl.und örtl. Gebundenheit unterscheidet man: - Endemien (ständiges Vorkommen einer Krankheit in einem bestimmten Gebiet) - Epidemien (stark gehäuftes örtl. und zeitl. begrenztes Vorkommen einer Erkrankung) und - Pandemien (Ausbreitung einer Infektionskrankheit über Länder und Kontinente)."
+        }
+    ],
+    "skos:broader": [],
+    "skos:narrower": [
+        "LT7427875"
+    ],
+    "skos:related": [
+        "LT4286180"
+    ]
+}

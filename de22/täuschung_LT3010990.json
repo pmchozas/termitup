@@ -1,0 +1,220 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3010990",
+    "@type": "skos:Concept",
+    "skos:inScheme": "täuschung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/826936",
+    "skos:topConceptOf": "LT3010990",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "engaño"
+        },
+        {
+            "@language": "en",
+            "@value": "deceit"
+        },
+        {
+            "@language": "de",
+            "@value": "täuschung"
+        },
+        {
+            "@language": "nl",
+            "@value": "bedrog"
+        },
+        {
+            "@language": "de",
+            "@value": "täuschung"
+        },
+        {
+            "@language": "en",
+            "@value": "fraud"
+        },
+        {
+            "@language": "de",
+            "@value": "täuschung"
+        },
+        {
+            "@language": "nl",
+            "@value": "misleiding"
+        },
+        {
+            "@language": "es",
+            "@value": "dolo"
+        },
+        {
+            "@language": "en",
+            "@value": "fraud"
+        },
+        {
+            "@language": "de",
+            "@value": "täuschung"
+        },
+        {
+            "@language": "nl",
+            "@value": "bedrog"
+        },
+        {
+            "@language": "es",
+            "@value": "falsedad u omisión dolosa"
+        },
+        {
+            "@language": "en",
+            "@value": "fraudulent misrepresentation"
+        },
+        {
+            "@language": "de",
+            "@value": "täuschung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "fraude"
+        },
+        {
+            "@language": "de",
+            "@value": "Irreführung"
+        },
+        {
+            "@language": "de",
+            "@value": "irreführende Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Täuschung"
+        },
+        {
+            "@language": "de",
+            "@value": "arglistige Täuschung"
+        },
+        {
+            "@language": "de",
+            "@value": "Täuschung"
+        },
+        {
+            "@language": "en",
+            "@value": "fraud in the inducement"
+        },
+        {
+            "@language": "de",
+            "@value": "arglistige Täuschung"
+        },
+        {
+            "@language": "de",
+            "@value": "Betrug"
+        },
+        {
+            "@language": "de",
+            "@value": "Arglist"
+        },
+        {
+            "@language": "de",
+            "@value": "dolose Handlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Arglist"
+        },
+        {
+            "@language": "de",
+            "@value": "List"
+        },
+        {
+            "@language": "nl",
+            "@value": "arglist"
+        },
+        {
+            "@language": "nl",
+            "@value": "opzet"
+        },
+        {
+            "@language": "es",
+            "@value": "alegación falsa"
+        },
+        {
+            "@language": "en",
+            "@value": "deceit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En español jurídico el engaño no es en sí un delito sino que es la conducta en la que se basan los delitos de estafa ( IATE:891603 ) falsedad (IATE:1899416) y otros"
+        },
+        {
+            "@language": "en",
+            "@value": "1. The act of intentionally giving a false impression 2. A false statement of fact made by a person knowingly or recklessly with the intent that someone else will act upon it 3. A tort arising from a false representation made knowingly or recklessly with the intent that another person should detrimentally rely on it."
+        },
+        {
+            "@language": "de",
+            "@value": "jedes Verhalten das auf Erregung Bestärkung oder Unterhaltung eines Irrtums gerichtet ist"
+        },
+        {
+            "@language": "nl",
+            "@value": "die gevallen waarbij iemand met de bedoeling zichzelf te bevoordelen een ander door valsheid in dwaling brengt of houdt waardoor deze vermogensnadeel ondervindt."
+        },
+        {
+            "@language": "de",
+            "@value": "im vertragsrechtlichen Sinne die bewusste Täuschung bzw. die bewusste Verursachung eines Irrtums."
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho civil: \"Hay dolo cuando con palabras o maquinaciones insidiosas de parte de uno de los contratantes es inducido el otro a celebrar un contrato que sin ellas no hubiera hecho.\" Derecho penal: \"resolución libre y consciente de realizar voluntariamente una acción u omisión prevista y sancionada por la ley.\""
+        },
+        {
+            "@language": "en",
+            "@value": "misrepresentation perpetrated in order to induce another party to enter into a legal agreement which that party would not otherwise have concluded"
+        },
+        {
+            "@language": "de",
+            "@value": "jedes Verhalten das beim Geschäftsgegner einen Irrtum erzeugt oder unterhält und bei dem der Täuschende weiß oder in Kauf nimmt dass er durch seine Täuschung die Willensentschließung des anderen beeinflusst"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"(Rechtshandeling) het iemand bewegen tot het verrichten van een rechtshandeling door hem opzettelijk een onjuiste mededeling te doen of het opzettelijk achterhouden van een mededeling terwijl spreken plicht was of het verrichten van een andere kunstgreep (...).\""
+        },
+        {
+            "@language": "es",
+            "@value": "Concepto del Derecho civil y administrativo alemán e inglés que se refiere al hecho de efectuar una afirmación falsa a sabiendas de que lo es o de ocultar cierta información para obtener un beneficio a expensas de otro (por ejemplo induciéndolo a firmar un contrato que le perjudica)."
+        },
+        {
+            "@language": "en",
+            "@value": "Instance of false statement where (1) the party making the statement is aware that it is false or disregards the possibility of it being false (2) the party making the statement does so to induce another party to enter into a contract and (3) the other party enters the contract as a result of the statement and consequently suffers a loss."
+        },
+        {
+            "@language": "de",
+            "@value": "jedes Verhalten das beim Geschäftsgegner einen Irrtum erzeugt oder unterhält und beim dem der Täuschende weiß oder in Kauf nimmt dass er durch seine Täuschung die Willensentschließung des anderen beeinflusst"
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1198518",
+    "@type": "skos:Concept",
+    "skos:inScheme": "tränke",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1258148",
+    "skos:topConceptOf": "LT1198518",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "bebedero"
+        },
+        {
+            "@language": "en",
+            "@value": "waterer"
+        },
+        {
+            "@language": "de",
+            "@value": "tränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "drinkwaterbak"
+        },
+        {
+            "@language": "es",
+            "@value": "bebedero"
+        },
+        {
+            "@language": "de",
+            "@value": "tränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "drinkwaterbak"
+        },
+        {
+            "@language": "es",
+            "@value": "bebedero"
+        },
+        {
+            "@language": "en",
+            "@value": "drinking trough"
+        },
+        {
+            "@language": "de",
+            "@value": "tränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "drinkgoot"
+        },
+        {
+            "@language": "es",
+            "@value": "bebedero suspendido"
+        },
+        {
+            "@language": "en",
+            "@value": "hanging drinker"
+        },
+        {
+            "@language": "de",
+            "@value": "tränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "hangende drinkbak"
+        },
+        {
+            "@language": "es",
+            "@value": "bebedero de doble taza"
+        },
+        {
+            "@language": "en",
+            "@value": "double side drinker"
+        },
+        {
+            "@language": "de",
+            "@value": "tränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "dubbele drinkbak"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "aguada"
+        },
+        {
+            "@language": "en",
+            "@value": "drinker"
+        },
+        {
+            "@language": "en",
+            "@value": "water trough"
+        },
+        {
+            "@language": "en",
+            "@value": "drinking bowl"
+        },
+        {
+            "@language": "en",
+            "@value": "trough"
+        },
+        {
+            "@language": "en",
+            "@value": "drinking trough"
+        },
+        {
+            "@language": "de",
+            "@value": "Tränkebecken"
+        },
+        {
+            "@language": "de",
+            "@value": "Wassertrog"
+        },
+        {
+            "@language": "de",
+            "@value": "Viehtränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "drinkbak"
+        },
+        {
+            "@language": "nl",
+            "@value": "veedrinkbak"
+        },
+        {
+            "@language": "nl",
+            "@value": "drenktrog"
+        },
+        {
+            "@language": "nl",
+            "@value": "trog"
+        },
+        {
+            "@language": "es",
+            "@value": "aguada"
+        },
+        {
+            "@language": "de",
+            "@value": "Tränkebecken"
+        },
+        {
+            "@language": "de",
+            "@value": "Wassertrog"
+        },
+        {
+            "@language": "de",
+            "@value": "Viehtränke"
+        },
+        {
+            "@language": "nl",
+            "@value": "drinkbak"
+        },
+        {
+            "@language": "nl",
+            "@value": "veedrinkbak"
+        },
+        {
+            "@language": "nl",
+            "@value": "drenktrog"
+        },
+        {
+            "@language": "nl",
+            "@value": "trog"
+        },
+        {
+            "@language": "nl",
+            "@value": "veedrinkput"
+        },
+        {
+            "@language": "es",
+            "@value": "bebedero doble"
+        },
+        {
+            "@language": "en",
+            "@value": "double water bowl drinker"
+        },
+        {
+            "@language": "de",
+            "@value": "zweiseitige Tränke"
+        },
+        {
+            "@language": "de",
+            "@value": "Doppelbecken"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [],
+    "skos:broader": [],
+    "skos:related": []
+}

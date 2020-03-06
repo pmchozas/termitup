@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5310431",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-verzug",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1224470",
+    "skos:topConceptOf": "LT5310431",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "elasticidad"
+        },
+        {
+            "@language": "en",
+            "@value": "stretch"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzug"
+        },
+        {
+            "@language": "nl",
+            "@value": "strek"
+        },
+        {
+            "@language": "es",
+            "@value": "incumplimiento"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzug"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzug"
+        },
+        {
+            "@language": "en",
+            "@value": "deficiency"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzug"
+        },
+        {
+            "@language": "nl",
+            "@value": "tekort"
+        },
+        {
+            "@language": "en",
+            "@value": "drawing frame"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzug"
+        },
+        {
+            "@language": "nl",
+            "@value": "rek- endoubleermachine"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "estiramiento"
+        },
+        {
+            "@language": "es",
+            "@value": "estirado"
+        },
+        {
+            "@language": "de",
+            "@value": "Streckung"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausdehnung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzug"
+        },
+        {
+            "@language": "de",
+            "@value": "Zug"
+        },
+        {
+            "@language": "de",
+            "@value": "Recken"
+        },
+        {
+            "@language": "es",
+            "@value": "demora"
+        },
+        {
+            "@language": "de",
+            "@value": "Nichterfuellung einer Verpflichtung"
+        },
+        {
+            "@language": "de",
+            "@value": "Nichterfuellung bei Faelligkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "Schuldnerverzug"
+        },
+        {
+            "@language": "de",
+            "@value": "Leistungsverzug"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzug"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzug"
+        },
+        {
+            "@language": "nl",
+            "@value": "rek- en verdeelstoel"
+        },
+        {
+            "@language": "nl",
+            "@value": "rekmachine"
+        },
+        {
+            "@language": "nl",
+            "@value": "rekstoel"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "A term used in mule spinning to indicate the distance traversed by the mule carriage on its outward or inward run.It was usually 5-7 ft(see draw(mule))."
+        },
+        {
+            "@language": "de",
+            "@value": "Schuldnerverzug tritt unter bestimmten Voraussetzungen (Mahnung usw) ein wenn der Schuldner seine Leistung nicht rechtzeitig erbringt obwohl die Leistung moeglich ist"
+        },
+        {
+            "@language": "en",
+            "@value": "an insufficient paymentoften relating to an amount recovered under a power of sale or foreclosure action"
+        },
+        {
+            "@language": "de",
+            "@value": "Spinnereimaschine mit der Aufgabe die Faseranordnung der Faserbaender durch Strecken (Verziehen) und die Gleichmaessigkeit durch Dublieren zu verbessern. Wesentliches Arbeitsorgan der Strecke ist das Streckwerk; ausserdem gibt es noch Organe fuer die Zuleitung der Faserbaender und die Aufnahme der gestreckten Baender sowie Sicherheits- und Reinigungsgeraete manchmal auch Zaehlwerke"
+        }
+    ]
+}

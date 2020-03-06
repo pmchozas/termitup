@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7459220",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der lebendgeburt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1568722",
+    "skos:topConceptOf": "LT7459220",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "nacido vivo"
+        },
+        {
+            "@language": "en",
+            "@value": "live birth"
+        },
+        {
+            "@language": "de",
+            "@value": "-der lebendgeburt"
+        },
+        {
+            "@language": "nl",
+            "@value": "levendgeborene"
+        },
+        {
+            "@language": "en",
+            "@value": "proportion of live births outside marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "-der lebendgeburt"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "live births"
+        },
+        {
+            "@language": "de",
+            "@value": "Lebendgeborenes"
+        },
+        {
+            "@language": "nl",
+            "@value": "levendgeboorte"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "birth of a child who showed any sign of life"
+        },
+        {
+            "@language": "nl",
+            "@value": "kind dat levend ter wereld gekomen is"
+        }
+    ]
+}

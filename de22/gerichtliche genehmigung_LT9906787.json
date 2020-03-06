@@ -1,0 +1,96 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9906787",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gerichtliche genehmigung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1129903",
+    "skos:topConceptOf": "LT9906787",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "court approval"
+        },
+        {
+            "@language": "de",
+            "@value": "gerichtliche genehmigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "toestemming van de rechter"
+        },
+        {
+            "@language": "es",
+            "@value": "Aprobación judicial de un acto jurídico realizado en nombre y por cuenta de un menor"
+        },
+        {
+            "@language": "en",
+            "@value": "approval of a legal act undertaken on behalf of a minor"
+        },
+        {
+            "@language": "de",
+            "@value": "gerichtliche genehmigung"
+        },
+        {
+            "@language": "en",
+            "@value": "assembly of bondholders meeting with the authorization of the court"
+        },
+        {
+            "@language": "de",
+            "@value": "gerichtliche genehmigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vergadering van houders van schuldbrieven die bijeenkomt met toestemming van de rechter"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "judicial authorisation"
+        },
+        {
+            "@language": "de",
+            "@value": "gerichtliche Genehmigung eines Rechtsgeschäfts für Minderjährige"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "authorisation given by a judicial authority to a person to act in a civil matter"
+        },
+        {
+            "@language": "de",
+            "@value": "Durch das Familiengericht erteilte bzw. zu erteilende Genehmigung eines Rechtsgeschäfts das von den Eltern für ihr minderjähriges Kind bzw. vom Vormund für sein minderjähriges Mündel abgeschlossen werden soll oder wurde und nach dem Gesetz einer solchen Genehmigung bedarf. [DE]"
+        }
+    ]
+}

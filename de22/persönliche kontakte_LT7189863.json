@@ -1,0 +1,120 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7189863",
+    "@type": "skos:Concept",
+    "skos:inScheme": "persönliche kontakte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/2201077",
+    "skos:topConceptOf": "LT7189863",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "contactos interpersonales"
+        },
+        {
+            "@language": "en",
+            "@value": "people-to-people contacts"
+        },
+        {
+            "@language": "de",
+            "@value": "persönliche kontakte"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoonlijke contacten"
+        },
+        {
+            "@language": "es",
+            "@value": "transacción no personal"
+        },
+        {
+            "@language": "en",
+            "@value": "non-face-to-face transaction"
+        },
+        {
+            "@language": "de",
+            "@value": "persönliche kontakte"
+        },
+        {
+            "@language": "nl",
+            "@value": "transactie op afstand"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "people to people contacts"
+        },
+        {
+            "@language": "de",
+            "@value": "Kontakte zwischen den Menschen"
+        },
+        {
+            "@language": "nl",
+            "@value": "contacten van mens tot mens"
+        },
+        {
+            "@language": "nl",
+            "@value": "interpersoonlijke contacten"
+        },
+        {
+            "@language": "nl",
+            "@value": "contacten tussen mensen"
+        },
+        {
+            "@language": "es",
+            "@value": "transacción comercial a distancia"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Los establecidos entre dos o más personas."
+        },
+        {
+            "@language": "en",
+            "@value": "direct contacts between individuals fostered for the purposes of promoting mutual understanding between nations"
+        },
+        {
+            "@language": "es",
+            "@value": "Operación mercantil o financiera de compra o venta generalmente de tipo electrónico en la que al no haber una presencia física de las partes se dificulta la identificación y en consecuencia aumentan los riesgos de fraude o abusos de diversa índole."
+        },
+        {
+            "@language": "en",
+            "@value": "transaction where the contractor or intermediary and the consumer are not simultaneously physically present by exclusive means of the internet telemarketing or other electronic means of communication"
+        },
+        {
+            "@language": "nl",
+            "@value": "transacties die worden aangegaan met een cliënt die niet fysiek aanwezig is"
+        }
+    ]
+}

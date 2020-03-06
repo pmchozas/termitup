@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8528411",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, ersitzung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239792",
+    "skos:topConceptOf": "LT8528411",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "prescripción adquisitiva"
+        },
+        {
+            "@language": "en",
+            "@value": "positive prescription"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ersitzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkrijgende verjaring"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ersitzung"
+        },
+        {
+            "@language": "es",
+            "@value": "usucapión"
+        },
+        {
+            "@language": "en",
+            "@value": "acquisitive prescription"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ersitzung"
+        },
+        {
+            "@language": "en",
+            "@value": "aperture in the party wall or the neighbour's wall existing in virtue of an agreement,title or prescription"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ersitzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "venster in de gemene scheidsmuur"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "usucapión"
+        },
+        {
+            "@language": "en",
+            "@value": "acquisitive prescription"
+        },
+        {
+            "@language": "en",
+            "@value": "usucapio"
+        },
+        {
+            "@language": "de",
+            "@value": "Erwerb durch Besitz"
+        },
+        {
+            "@language": "de",
+            "@value": "Erwerb des Eigentums infolge fortgesetzten Besitzes"
+        },
+        {
+            "@language": "nl",
+            "@value": "acquisitieve verjaring"
+        },
+        {
+            "@language": "en",
+            "@value": "usucaption"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Del latín \"usucapĭo\" la usucapión es la adquisición de un derecho o de una propiedad a través de su ejercicio en las condiciones y plazos previsto por la ley. La usucapión también conocida como prescripción adquisitiva es un modo de acceder a la propiedad de una cosa mediante la posesión continuada de los derechos reales durante el tiempo que establece la legislación"
+        },
+        {
+            "@language": "en",
+            "@value": "acquisition of property or other real rights on the basis of a long or indefinite period of uninterrupted use or of long-standing custom"
+        },
+        {
+            "@language": "de",
+            "@value": "Eigentumserwerb nach Ablauf einer bestimmten Frist unter gesetzlichen Bedingungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "middel om door verloop van een bepaalde tijd en onder de voorwaarden bij de wet bepaald iets in eigendom te verkrijgen"
+        },
+        {
+            "@language": "de",
+            "@value": "Erwerb einer beweglichen Sache dadurch dass man sie 10 Jahre in Eigenbesitz gehabt hat (d.h.als sich gehörend besessen hat)"
+        }
+    ]
+}

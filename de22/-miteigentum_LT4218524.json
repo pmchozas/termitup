@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4218524",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-miteigentum",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1667857",
+    "skos:topConceptOf": "LT4218524",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "common ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "-miteigentum"
+        },
+        {
+            "@language": "nl",
+            "@value": "medeëigendom"
+        },
+        {
+            "@language": "es",
+            "@value": "copropiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "co-ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "-miteigentum"
+        },
+        {
+            "@language": "en",
+            "@value": "land in co-ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "-miteigentum"
+        },
+        {
+            "@language": "es",
+            "@value": "acuerdo de copropiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "joint ownership agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "-miteigentum"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst van gezamelijk eigendom"
+        },
+        {
+            "@language": "es",
+            "@value": "presidentes de comunidades de propietarios"
+        },
+        {
+            "@language": "en",
+            "@value": "syndic of co-owners"
+        },
+        {
+            "@language": "de",
+            "@value": "-miteigentum"
+        },
+        {
+            "@language": "nl",
+            "@value": "bewindvoeder van medeëigendom"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "coproperty"
+        },
+        {
+            "@language": "en",
+            "@value": "joint ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "Flächen in Gemeinschaftseigentum"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the ownership of property by two or more people together"
+        },
+        {
+            "@language": "en",
+            "@value": "an agreement between owners defining their rightsownershipmonetary obligations and responsibilities"
+        }
+    ]
+}

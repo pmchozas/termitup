@@ -1,0 +1,173 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9200912",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gleichheit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1449585",
+    "skos:topConceptOf": "LT9200912",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "correspondencia"
+        },
+        {
+            "@language": "en",
+            "@value": "match"
+        },
+        {
+            "@language": "de",
+            "@value": "gleichheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "selectief collationeren"
+        },
+        {
+            "@language": "es",
+            "@value": "igualdad soberana"
+        },
+        {
+            "@language": "en",
+            "@value": "sovereign equality"
+        },
+        {
+            "@language": "de",
+            "@value": "gleichheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "soevereine gelijkheid"
+        },
+        {
+            "@language": "es",
+            "@value": "igualdad soberana"
+        },
+        {
+            "@language": "en",
+            "@value": "sovereign equality"
+        },
+        {
+            "@language": "de",
+            "@value": "gleichheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "soevereine gelijkheid"
+        },
+        {
+            "@language": "es",
+            "@value": "similitud esencial"
+        },
+        {
+            "@language": "en",
+            "@value": "essential similarity"
+        },
+        {
+            "@language": "de",
+            "@value": "gleichheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "wezenlijke gelijkwaardigheid"
+        },
+        {
+            "@language": "en",
+            "@value": "substantive equality"
+        },
+        {
+            "@language": "de",
+            "@value": "gleichheit"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Gleichheit"
+        },
+        {
+            "@language": "de",
+            "@value": "Übereinstimmung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a data processing operation similar to a mergeexcept that instead of producing a sequence of items made up from the input sequences are matched against each other on the basis of some key"
+        },
+        {
+            "@language": "nl",
+            "@value": "elke techniek om identieke sleutels records enzovoort volgens een bepaald criterium op te sporen"
+        },
+        {
+            "@language": "es",
+            "@value": "Los \"principios de significación primordial que rigen las relaciones mutuas de los Estados participantes\" en la CSCE (OSCE desde 1994) son: igualdad soberana respeto de los derechos inherentes a la soberanía; abstención de recurrir a la amenaza o al uso de la fuerza; inviolabilidad de las fronteras; integridad territorial de los Estados; arreglo de las controversias por medios pacíficos; no intervención en los asuntos internos; respeto de los derechos humanos y de las libertades fundamentales incluida la libertad de pensamiento conciencia religión o creencia; igualdad de derechos y libre determinación de los pueblos; cooperación entre los Estados; cumplimiento de buena fe de las obligaciones contraídas según el derecho internacional."
+        },
+        {
+            "@language": "en",
+            "@value": "The Helsinki Final Act refers to \"sovereign equality respect for the rights inherent in sovereignty\""
+        },
+        {
+            "@language": "nl",
+            "@value": "een van de 10 beginselen die de onderlinge betrekkingen van de (aan de OVSE) deelnemende staten leiden: 1. soevereine gelijkheid eerbiediging van de rechten die inherent zijn aan de soevereiniteit 2. het zich onthouden van dreiging met of gebruik van geweld 3. onschendbaarheid van de grenzen 4. territoriale integriteit van de staten 5. vreedzame regeling van geschillen 6. niet-inmenging in binnenlandse aangelegenheden 7. eerbiediging van de rechten van de mens en van de fundamentele vrijheden met inbegrip van de vrijheid van denken geweten godsdienst of overtuiging 8. gelijkheid van rechten en het zelfbeschikkingsrecht van de volken 9. samenwerking tussen de staten 10. het te goeder trouw nakomen van verplichtingen krachtens het internationale recht"
+        },
+        {
+            "@language": "es",
+            "@value": "Semejanza de una especialidad farmacéutica respecto de otra original o de referencia."
+        },
+        {
+            "@language": "en",
+            "@value": "similarity of a medicinal product to an original medicinal product as a consequence of having the same qualitative1 and quantitative composition2 in terms of active substances3 of having the same pharmaceutical form4 and of being bioequivalent5 unless it is apparent in the light of scientific knowledge that it differs from the original product as regards safety and efficacy1 qualitative composition [ IATE:3518736 ]2 quantitative composition [ IATE:3518738 ]3 active substance [ IATE:35093 ]4 pharmaceutical form [ IATE:1106950 ]5 bioequivalence [ IATE:1090485 ]"
+        },
+        {
+            "@language": "nl",
+            "@value": "gelijkwaardigheid van een farmaceutische specialiteit aan een oorspronkelijke specialiteit doordat zij voldoet aan de criteria van dezelfde kwalitatieve en kwantitatieve samenstelling aan werkzame bestanddelen dezelfde farmaceutische vorm en biologische equivalentie mits die farmaceutische specialiteit gelet op de wetenschappelijke inzichten niet aanzienlijk blijkt te verschillen van de oorspronkelijke specialiteit wat de veiligheid of doeltreffendheid betreft"
+        },
+        {
+            "@language": "de",
+            "@value": "Gleichheit in der Rechtswirklichkeit"
+        }
+    ],
+    "skos:broader": [
+        "LT9339669"
+    ],
+    "skos:narrower": [
+        "LT1464139",
+        "LT1626461"
+    ],
+    "skos:related": [
+        "LT5381698",
+        "LT5428118",
+        "LT6291594",
+        "LT6932168"
+    ]
+}

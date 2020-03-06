@@ -1,0 +1,184 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6095365",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, verjährung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/878641",
+    "skos:topConceptOf": "LT6095365",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "prescripción"
+        },
+        {
+            "@language": "en",
+            "@value": "prescription"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verjährung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verjaring"
+        },
+        {
+            "@language": "es",
+            "@value": "prescripción extintiva"
+        },
+        {
+            "@language": "en",
+            "@value": "negative prescription"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verjährung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verjaring"
+        },
+        {
+            "@language": "en",
+            "@value": "statute of limitations"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verjährung"
+        },
+        {
+            "@language": "es",
+            "@value": "limitación estatutaria de prescripción"
+        },
+        {
+            "@language": "en",
+            "@value": "prescription statutory limitation"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verjährung"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorgeschreven verjaring(stermijn)"
+        },
+        {
+            "@language": "es",
+            "@value": "prescripción"
+        },
+        {
+            "@language": "en",
+            "@value": "negative prescription"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verjährung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "prescripción liberatoria"
+        },
+        {
+            "@language": "en",
+            "@value": "extinctive prescription"
+        },
+        {
+            "@language": "en",
+            "@value": "prescription of a claim"
+        },
+        {
+            "@language": "en",
+            "@value": "statute of limitation"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorgeschreven verjaring(stermijn"
+        },
+        {
+            "@language": "en",
+            "@value": "limitation"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"Consolidación de una situación jurídica por efecto del transcurso del tiempo; ya sea convirtiendo un hecho en derecho como la posesión en propiedad (prescripción adquisitiva IATE:1239792 ); ya perpetuando una renuncia abandono desidia inactividad o impotencia (prescripción extintiva IATE:1239793 ).\""
+        },
+        {
+            "@language": "en",
+            "@value": "principle whereby a right or obligation is created by lapse of time or a right or liability is extinguished by lapse of time"
+        },
+        {
+            "@language": "de",
+            "@value": "der durch Zeitablauf eintretende Verlust der Durchsetzbarkeit eines Rechts"
+        },
+        {
+            "@language": "nl",
+            "@value": "het tenietgaan van een vordering tot nakoming van een verbintenis de vordering als zodanig blijft als natuurlijke verbintenis (art. 6:3 BW) bestaan."
+        },
+        {
+            "@language": "es",
+            "@value": "La prescripción extintiva provoca la desaparición de un derecho real o de crédito o de una acción y se basa en un dato puramente negativo como es el no ejercicio de su derecho por el titular del mismo."
+        },
+        {
+            "@language": "en",
+            "@value": "legal presumption that following the lapse of prescribed period of time a person entitled to challenge or to make a claim has determined not to do so and their rights are accordingly extinguished"
+        },
+        {
+            "@language": "de",
+            "@value": "Erlöschen von Verpflichtungen oder Untergang von Ansprüchen die gemäß gesetzlichen Bedingungen nach Ablauf einer bestimmten Frist nicht mehr geltend gemacht werden können"
+        },
+        {
+            "@language": "nl",
+            "@value": "het vervallen van verplichtingen of van rechten die krachtens wettelijk bepalingen na verloop van een bepaalde tijd hun geldigheid verloren hebben"
+        },
+        {
+            "@language": "en",
+            "@value": "period of time established by a statute of limitations for commencing an action or prosecution"
+        },
+        {
+            "@language": "es",
+            "@value": "\"Modalidad de extinción de los derechos y de las pretensiones para hacerlos valer derivada de la falta de ejercicio durante el tiempo establecido por la Ley.\" [ES]"
+        },
+        {
+            "@language": "en",
+            "@value": "'Provision whereby after a certain period of time stated by statute claims cannot be brought. A \"limitation period\" is \"the period within which a person who has a right to claim against another person must start court proceedings to establish that right\"'"
+        },
+        {
+            "@language": "de",
+            "@value": "Zeitablauf der den Verpflichteten berechtigt die Leistung zu verweigern. [DE]"
+        }
+    ]
+}

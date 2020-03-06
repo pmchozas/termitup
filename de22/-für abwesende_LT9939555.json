@@ -1,0 +1,188 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9939555",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-für abwesende",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1436590",
+    "skos:topConceptOf": "LT9939555",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "ausente"
+        },
+        {
+            "@language": "en",
+            "@value": "absent"
+        },
+        {
+            "@language": "de",
+            "@value": "-für abwesende"
+        },
+        {
+            "@language": "nl",
+            "@value": "afwezig"
+        },
+        {
+            "@language": "de",
+            "@value": "-für abwesende"
+        },
+        {
+            "@language": "nl",
+            "@value": "ab."
+        },
+        {
+            "@language": "es",
+            "@value": "rebelde"
+        },
+        {
+            "@language": "de",
+            "@value": "-für abwesende"
+        },
+        {
+            "@language": "es",
+            "@value": "operador indisponible temporalmente"
+        },
+        {
+            "@language": "en",
+            "@value": "operator temporarily unavailable"
+        },
+        {
+            "@language": "de",
+            "@value": "-für abwesende"
+        },
+        {
+            "@language": "nl",
+            "@value": "operator tijdelijk afwezig"
+        },
+        {
+            "@language": "es",
+            "@value": "servicio de abonado ausente"
+        },
+        {
+            "@language": "en",
+            "@value": "advice facility"
+        },
+        {
+            "@language": "de",
+            "@value": "-für abwesende"
+        },
+        {
+            "@language": "nl",
+            "@value": "service voor absente abonnees"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "absent"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesend"
+        },
+        {
+            "@language": "nl",
+            "@value": "abs."
+        },
+        {
+            "@language": "nl",
+            "@value": "afw."
+        },
+        {
+            "@language": "nl",
+            "@value": "absent"
+        },
+        {
+            "@language": "nl",
+            "@value": "afwezig"
+        },
+        {
+            "@language": "es",
+            "@value": "contumaz"
+        },
+        {
+            "@language": "de",
+            "@value": "säumige Partei"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesende Partei"
+        },
+        {
+            "@language": "en",
+            "@value": "absent subscriber service"
+        },
+        {
+            "@language": "en",
+            "@value": "message waiting service"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesende Teilnehmer-Dienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "boodschappendienst"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "condition in which the value of the signal is lower than the set standard"
+        },
+        {
+            "@language": "nl",
+            "@value": "toestand waarin de waarde van het signaal lager is dan de gestelde norm"
+        },
+        {
+            "@language": "de",
+            "@value": "Partei die einen Termin zur mündlichen Verhandlung versäumt hat"
+        },
+        {
+            "@language": "en",
+            "@value": "a telecommand signal in the digital selective-calling system for the maritime mobile service"
+        },
+        {
+            "@language": "en",
+            "@value": "the transmission of a fixed length message to the caller during a period specified in advance by the called subscriber"
+        },
+        {
+            "@language": "de",
+            "@value": "Übermittlung eines vereinbarten Textes begrenzter Länge an den Anrufer während eines vom Angerufenen vorgegebenen Zeitraumes"
+        },
+        {
+            "@language": "nl",
+            "@value": "Automatische omschakeling van een niet-beantwoorde oproep naar een telefoniste of een automatisch antwoordapparaat"
+        }
+    ]
+}

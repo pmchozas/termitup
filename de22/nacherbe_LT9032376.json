@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9032376",
+    "@type": "skos:Concept",
+    "skos:inScheme": "nacherbe",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1071682",
+    "skos:topConceptOf": "LT9032376",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "fideicomisario"
+        },
+        {
+            "@language": "en",
+            "@value": "beneficiary of a trust by will"
+        },
+        {
+            "@language": "de",
+            "@value": "nacherbe"
+        },
+        {
+            "@language": "nl",
+            "@value": "verwachter"
+        },
+        {
+            "@language": "en",
+            "@value": "substitutional heir"
+        },
+        {
+            "@language": "de",
+            "@value": "nacherbe"
+        },
+        {
+            "@language": "nl",
+            "@value": "verwachter"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "beneficiary of a fidei-commissum or trust"
+        },
+        {
+            "@language": "en",
+            "@value": "reversioner"
+        },
+        {
+            "@language": "nl",
+            "@value": "fideï-commis"
+        },
+        {
+            "@language": "en",
+            "@value": "reversioner"
+        },
+        {
+            "@language": "en",
+            "@value": "first tenant-entail in remainder"
+        },
+        {
+            "@language": "en",
+            "@value": "beneficiary heir"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the second heir mentioned under fidei-commissum"
+        },
+        {
+            "@language": "de",
+            "@value": "der durch Verfuegung von Todeswegen eingesetzte Erbe der Erbe werden soll nachdem zunaechst ein anderer (der Vorerbe) Erbe geworden war"
+        },
+        {
+            "@language": "nl",
+            "@value": "bij erfstelling-over-de-hand degene aan wie de bezwaarde erfgenaam de erfenis moet uitkeren nalaten"
+        },
+        {
+            "@language": "nl",
+            "@value": "de persoon aan wie bij een erfstelling-over-de-hand na de bezwaarde erfgenaam het goed moet worden uitgekeerd"
+        }
+    ]
+}

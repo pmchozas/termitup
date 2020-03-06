@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8500599",
+    "@type": "skos:Concept",
+    "skos:inScheme": "besitzklagen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130440",
+    "skos:topConceptOf": "LT8500599",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "possessory action"
+        },
+        {
+            "@language": "de",
+            "@value": "besitzklagen"
+        },
+        {
+            "@language": "nl",
+            "@value": "bezitsactie"
+        },
+        {
+            "@language": "es",
+            "@value": "acción posesoria"
+        },
+        {
+            "@language": "de",
+            "@value": "besitzklagen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Besitzrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "Besitzklage"
+        },
+        {
+            "@language": "nl",
+            "@value": "bezitsvordering"
+        },
+        {
+            "@language": "nl",
+            "@value": "bezitsrechtelijke vordering"
+        },
+        {
+            "@language": "es",
+            "@value": "juicio posesorio"
+        },
+        {
+            "@language": "de",
+            "@value": "possessorische Klage"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "claim for possession of real estate"
+        },
+        {
+            "@language": "de",
+            "@value": "Besitzentziehungsklage auf Widereinräumung des Besitzes"
+        },
+        {
+            "@language": "nl",
+            "@value": "elke der rechtsvorderingen welke de burgerlijke bezitter van een onroerende zaak eventueel kan instellen tot handhaving of herstel in het bezit tegen degene die hem in zijn bezit stoort ook tegen de eigenaar"
+        },
+        {
+            "@language": "de",
+            "@value": "Klage gegen eine wiederrechtliche Entziehung oder Stoerung des Besitzes gegen den Willen des Besitzers"
+        }
+    ]
+}

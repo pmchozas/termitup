@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6314842",
+    "@type": "skos:Concept",
+    "skos:inScheme": "nachkommen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1394341",
+    "skos:topConceptOf": "LT6314842",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "infringir"
+        },
+        {
+            "@language": "de",
+            "@value": "nachkommen"
+        },
+        {
+            "@language": "es",
+            "@value": "incumplimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "failure to comply"
+        },
+        {
+            "@language": "de",
+            "@value": "nachkommen"
+        },
+        {
+            "@language": "de",
+            "@value": "nachkommen"
+        },
+        {
+            "@language": "nl",
+            "@value": "lijn"
+        },
+        {
+            "@language": "en",
+            "@value": "inheritance accruing to the line of descent"
+        },
+        {
+            "@language": "de",
+            "@value": "nachkommen"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfopvolging door afstammelingen"
+        },
+        {
+            "@language": "en",
+            "@value": "succession by heirs unable to be fully disinherited"
+        },
+        {
+            "@language": "de",
+            "@value": "nachkommen"
+        },
+        {
+            "@language": "nl",
+            "@value": "regelmatige erfopvolging"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "transgredir"
+        },
+        {
+            "@language": "es",
+            "@value": "quebrantar"
+        },
+        {
+            "@language": "de",
+            "@value": "verletzen"
+        },
+        {
+            "@language": "de",
+            "@value": "zuwiderhandeln"
+        },
+        {
+            "@language": "de",
+            "@value": "nicht befolgen"
+        },
+        {
+            "@language": "de",
+            "@value": "nicht einhalten"
+        },
+        {
+            "@language": "de",
+            "@value": "nicht nachkommen"
+        },
+        {
+            "@language": "de",
+            "@value": "autogame Nachkommen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "wanneer de erfenis toevalt aan wettige bloedverwanten van de overledene"
+        }
+    ]
+}

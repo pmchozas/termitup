@@ -1,0 +1,96 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6270037",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schadloshaltung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/139039",
+    "skos:topConceptOf": "LT6270037",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acuerdo de indemnización"
+        },
+        {
+            "@language": "en",
+            "@value": "indemnity agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "schadloshaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijwaringsovereenkomst"
+        },
+        {
+            "@language": "es",
+            "@value": "asunción de la responsabilidad fiscal"
+        },
+        {
+            "@language": "en",
+            "@value": "tax indemnity"
+        },
+        {
+            "@language": "de",
+            "@value": "schadloshaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "fiscale vergoeding"
+        },
+        {
+            "@language": "es",
+            "@value": "disponer de un derecho de reclamar obligaciones de garantía a un tercero"
+        },
+        {
+            "@language": "en",
+            "@value": "to have a right of recourse on a warranty or guarantee against a third party"
+        },
+        {
+            "@language": "de",
+            "@value": "schadloshaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "het recht hebben dat een derde de betrokkene voor de gevolgen van een proces vrijwaart"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a contractual agreement made between two or more partieswhereby one party agrees to indemnify or reimburse the other party for taxation liabilities incurredor incurred in excess of a stated amountin relation to a particular transaction"
+        }
+    ]
+}

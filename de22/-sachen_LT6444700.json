@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6444700",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-sachen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1719310",
+    "skos:topConceptOf": "LT6444700",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-sachen"
+        },
+        {
+            "@language": "nl",
+            "@value": "roerende, lichamelijke zaken"
+        },
+        {
+            "@language": "de",
+            "@value": "-sachen"
+        },
+        {
+            "@language": "es",
+            "@value": "materia de personas"
+        },
+        {
+            "@language": "en",
+            "@value": "personal matters"
+        },
+        {
+            "@language": "de",
+            "@value": "-sachen"
+        },
+        {
+            "@language": "nl",
+            "@value": "zuiver persoonlijke zaak"
+        },
+        {
+            "@language": "es",
+            "@value": "ocultación de bienes robados"
+        },
+        {
+            "@language": "en",
+            "@value": "receiving stolen goods"
+        },
+        {
+            "@language": "de",
+            "@value": "-sachen"
+        },
+        {
+            "@language": "nl",
+            "@value": "heling (van gestolen goederen)"
+        },
+        {
+            "@language": "en",
+            "@value": "in re A versus B"
+        },
+        {
+            "@language": "de",
+            "@value": "-sachen"
+        },
+        {
+            "@language": "nl",
+            "@value": "in zake A tegen B"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

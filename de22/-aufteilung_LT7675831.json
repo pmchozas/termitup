@@ -1,0 +1,192 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7675831",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-aufteilung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1449687",
+    "skos:topConceptOf": "LT7675831",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "modelo"
+        },
+        {
+            "@language": "en",
+            "@value": "layout"
+        },
+        {
+            "@language": "de",
+            "@value": "-aufteilung"
+        },
+        {
+            "@language": "nl",
+            "@value": "layout"
+        },
+        {
+            "@language": "es",
+            "@value": "reparto"
+        },
+        {
+            "@language": "en",
+            "@value": "apportionment"
+        },
+        {
+            "@language": "de",
+            "@value": "-aufteilung"
+        },
+        {
+            "@language": "nl",
+            "@value": "gedeeltelijke toewijzing"
+        },
+        {
+            "@language": "es",
+            "@value": "parcelación"
+        },
+        {
+            "@language": "en",
+            "@value": "allotment"
+        },
+        {
+            "@language": "de",
+            "@value": "-aufteilung"
+        },
+        {
+            "@language": "nl",
+            "@value": "toewijzing"
+        },
+        {
+            "@language": "es",
+            "@value": "parcelación en copropiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "parcelling out of title into plots on joint-ownership basis"
+        },
+        {
+            "@language": "de",
+            "@value": "-aufteilung"
+        },
+        {
+            "@language": "es",
+            "@value": "división"
+        },
+        {
+            "@language": "en",
+            "@value": "partitioning"
+        },
+        {
+            "@language": "de",
+            "@value": "-aufteilung"
+        },
+        {
+            "@language": "nl",
+            "@value": "splitsing"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "cliché"
+        },
+        {
+            "@language": "en",
+            "@value": "visual"
+        },
+        {
+            "@language": "de",
+            "@value": "Aufbau"
+        },
+        {
+            "@language": "de",
+            "@value": "Aufstellungsweise"
+        },
+        {
+            "@language": "de",
+            "@value": "Aufteilung"
+        },
+        {
+            "@language": "de",
+            "@value": "Einteilung"
+        },
+        {
+            "@language": "de",
+            "@value": "Entwurf"
+        },
+        {
+            "@language": "de",
+            "@value": "Übersichtsplan"
+        },
+        {
+            "@language": "nl",
+            "@value": "lay-out"
+        },
+        {
+            "@language": "de",
+            "@value": "Rationierung"
+        },
+        {
+            "@language": "de",
+            "@value": "Aufteilung"
+        },
+        {
+            "@language": "en",
+            "@value": "stacking allotment"
+        },
+        {
+            "@language": "de",
+            "@value": "Stapelung nach Partien"
+        },
+        {
+            "@language": "de",
+            "@value": "Gemarkungsregulierung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the overall plan or design such as flowcharts or diagramsformat for card columns or fieldsoutline of the proceduremakeup of a book or documentetc."
+        },
+        {
+            "@language": "nl",
+            "@value": "uiterlijke verschijningsvorm van een tekst op het beeldscherm en via de printer"
+        },
+        {
+            "@language": "en",
+            "@value": "the distribution of batched goods to predetermined stacking locations"
+        },
+        {
+            "@language": "en",
+            "@value": "when a transaction appearing to the parties involved as a single transaction is recorded as two or more differently classified transactions"
+        }
+    ]
+}

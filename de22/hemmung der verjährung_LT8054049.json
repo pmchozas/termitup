@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8054049",
+    "@type": "skos:Concept",
+    "skos:inScheme": "hemmung der verjährung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/899993",
+    "skos:topConceptOf": "LT8054049",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "suspensión de la prescripción"
+        },
+        {
+            "@language": "en",
+            "@value": "suspension of the limitation period"
+        },
+        {
+            "@language": "de",
+            "@value": "hemmung der verjährung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schorsing van verjaring"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Verjährungshemmung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Ruhen der Verjährung in der Form dass die Verjährungsfrist IATE:784869 während eines bestimmten Zeitraums stillsteht und nach Wegfall des Hemmungsgrunds weiterläuft"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"schorsing (van verjaring): verlenging tijdelijke opschorting van de aanvang tijdelijk ophouden van de loop voor de duur of het bestaan van bepaalde persoonlijke of zakelijke factoren te onderscheiden van stuiting\""
+        }
+    ]
+}

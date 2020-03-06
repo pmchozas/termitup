@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7116956",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-befestigung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/84335",
+    "skos:topConceptOf": "LT7116956",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-befestigung"
+        },
+        {
+            "@language": "en",
+            "@value": "fixing"
+        },
+        {
+            "@language": "de",
+            "@value": "-befestigung"
+        },
+        {
+            "@language": "es",
+            "@value": "instalación para remolque"
+        },
+        {
+            "@language": "en",
+            "@value": "attaching device"
+        },
+        {
+            "@language": "de",
+            "@value": "-befestigung"
+        },
+        {
+            "@language": "es",
+            "@value": "revestimiento con nervaduras"
+        },
+        {
+            "@language": "en",
+            "@value": "ribbed pitching"
+        },
+        {
+            "@language": "de",
+            "@value": "-befestigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "geprofileerde oeverbescherming"
+        },
+        {
+            "@language": "es",
+            "@value": "fijación rígida"
+        },
+        {
+            "@language": "en",
+            "@value": "rigid fastening"
+        },
+        {
+            "@language": "de",
+            "@value": "-befestigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "starre ophanging"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "fastening"
+        },
+        {
+            "@language": "en",
+            "@value": "coupling device"
+        },
+        {
+            "@language": "de",
+            "@value": "Befestigung"
+        },
+        {
+            "@language": "en",
+            "@value": "ribbed beaching"
+        },
+        {
+            "@language": "es",
+            "@value": "suspensión rígida"
+        },
+        {
+            "@language": "de",
+            "@value": "unelastische Fahrdrahtaufhaengung"
+        },
+        {
+            "@language": "de",
+            "@value": "starre Befestigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "stijve rijdraadophanging"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "revestimiento de protección que tiene un sistema de resaltos regulares para oponer un rozamiento mayor al desagüe"
+        },
+        {
+            "@language": "en",
+            "@value": "pitching having a system of regular projections to offer greater friction to the flow"
+        },
+        {
+            "@language": "de",
+            "@value": "Befestigung mit regelmaessig angeordneten Vorspruengen um der Stroemung eine groessere Reibung entgegenzusetzen"
+        },
+        {
+            "@language": "en",
+            "@value": "a method of suspending an overhead contact system in which the wire or cable is attached directly to its supports"
+        }
+    ]
+}

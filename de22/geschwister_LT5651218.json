@@ -1,0 +1,196 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5651218",
+    "@type": "skos:Concept",
+    "skos:inScheme": "geschwister",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583383",
+    "skos:topConceptOf": "LT5651218",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "unidad fraternal"
+        },
+        {
+            "@language": "en",
+            "@value": "siblings"
+        },
+        {
+            "@language": "de",
+            "@value": "geschwister"
+        },
+        {
+            "@language": "nl",
+            "@value": "broers en zussen"
+        },
+        {
+            "@language": "es",
+            "@value": "hermano"
+        },
+        {
+            "@language": "en",
+            "@value": "sibling"
+        },
+        {
+            "@language": "de",
+            "@value": "geschwister"
+        },
+        {
+            "@language": "nl",
+            "@value": "broer of zus"
+        },
+        {
+            "@language": "es",
+            "@value": "hermanos"
+        },
+        {
+            "@language": "en",
+            "@value": "sibs"
+        },
+        {
+            "@language": "de",
+            "@value": "geschwister"
+        },
+        {
+            "@language": "es",
+            "@value": "Fratría"
+        },
+        {
+            "@language": "en",
+            "@value": "Sibship"
+        },
+        {
+            "@language": "de",
+            "@value": "geschwister"
+        },
+        {
+            "@language": "es",
+            "@value": "Hermanos"
+        },
+        {
+            "@language": "en",
+            "@value": "Siblings"
+        },
+        {
+            "@language": "de",
+            "@value": "geschwister"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "unidad fraterna"
+        },
+        {
+            "@language": "en",
+            "@value": "siblings"
+        },
+        {
+            "@language": "en",
+            "@value": "sib"
+        },
+        {
+            "@language": "nl",
+            "@value": "halfzus"
+        },
+        {
+            "@language": "nl",
+            "@value": "zus"
+        },
+        {
+            "@language": "nl",
+            "@value": "broer"
+        },
+        {
+            "@language": "nl",
+            "@value": "halfbroer"
+        },
+        {
+            "@language": "nl",
+            "@value": "halfbroer of halfzus"
+        },
+        {
+            "@language": "nl",
+            "@value": "zus"
+        },
+        {
+            "@language": "nl",
+            "@value": "halfbroer"
+        },
+        {
+            "@language": "nl",
+            "@value": "halfzus"
+        },
+        {
+            "@language": "nl",
+            "@value": "broer"
+        },
+        {
+            "@language": "en",
+            "@value": "siblings"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Vinculación nacida de la hermandad (relación de parentesco entre hermanos) sobre la que el Derecho basa el principio de no separación de los hermanos y la conveniencia de mantener la unidad de convivencia de éstos salvo causa justificada."
+        },
+        {
+            "@language": "en",
+            "@value": "“sibling” means a brother sister half-brother or half-sister [UK]"
+        },
+        {
+            "@language": "de",
+            "@value": "Von denselben Eltern abstammende Kinder. Man unterscheidet vollbürtige (leibliche) Geschwister und wenn sie nur einen Elternteil gemeinsam haben halbbürtige Geschwister (Stiefgeschwister Halbgeschwister); Geschwister sind auch minderjährig Adoptierte. [DE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Persona que con respecto a otra tiene el mismo padre y la misma madre o solamente el mismo padre o la misma madre."
+        },
+        {
+            "@language": "en",
+            "@value": "brother or a sister; that is any person who shares at least one of the same parents"
+        },
+        {
+            "@language": "de",
+            "@value": "Kind gleicher Eltern oder zumindest eines gleichen Elternteils"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoon die dezelfde vader en/of moeder heeft"
+        },
+        {
+            "@language": "en",
+            "@value": "offspring of the same parents but from separate fertilisationsi.e.separate gametes"
+        }
+    ]
+}

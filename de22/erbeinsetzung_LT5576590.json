@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5576590",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbeinsetzung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1133127",
+    "skos:topConceptOf": "LT5576590",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "mutual testament"
+        },
+        {
+            "@language": "de",
+            "@value": "erbeinsetzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schenking aan de langstlevende"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "gegenseitige Einsetzung der Ehepartner (in DE auch der Partner eingetragener Lebenspartnerschaften) als Alleinerben und Bestimmung des Schlusserben an den das Erbe nach dem Tod des Längstlebenden geht im Rahmen einer gemeinsamen Verfügung (Testament IATE:1130370 oder Erbvertrag IATE:890919 )"
+        }
+    ]
+}

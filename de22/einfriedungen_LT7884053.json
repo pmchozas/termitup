@@ -1,0 +1,119 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7884053",
+    "@type": "skos:Concept",
+    "skos:inScheme": "einfriedungen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1207685",
+    "skos:topConceptOf": "LT7884053",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cerca"
+        },
+        {
+            "@language": "en",
+            "@value": "hurdle"
+        },
+        {
+            "@language": "de",
+            "@value": "einfriedungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "omheining"
+        },
+        {
+            "@language": "en",
+            "@value": "grassland is temporarily enclosed with electric fences"
+        },
+        {
+            "@language": "de",
+            "@value": "einfriedungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "schrikdraadinstallaties voor tijdelijke omheiningen van weilanden"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "valla"
+        },
+        {
+            "@language": "en",
+            "@value": "fencing"
+        },
+        {
+            "@language": "en",
+            "@value": "fence"
+        },
+        {
+            "@language": "en",
+            "@value": "picket fence"
+        },
+        {
+            "@language": "en",
+            "@value": "paling fence"
+        },
+        {
+            "@language": "en",
+            "@value": "wattle"
+        },
+        {
+            "@language": "de",
+            "@value": "Umzaeunung"
+        },
+        {
+            "@language": "de",
+            "@value": "Gatter"
+        },
+        {
+            "@language": "de",
+            "@value": "Einfriedung"
+        },
+        {
+            "@language": "de",
+            "@value": "Umwehrung"
+        },
+        {
+            "@language": "nl",
+            "@value": "afrastering"
+        },
+        {
+            "@language": "nl",
+            "@value": "omheiningen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

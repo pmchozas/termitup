@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5416795",
+    "@type": "skos:Concept",
+    "skos:inScheme": "beweggrund",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1667057",
+    "skos:topConceptOf": "LT5416795",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "motivaciones de los toxicomanos"
+        },
+        {
+            "@language": "en",
+            "@value": "motivation of drug addicts"
+        },
+        {
+            "@language": "de",
+            "@value": "beweggrund"
+        },
+        {
+            "@language": "nl",
+            "@value": "motivaties van de verslaafden"
+        },
+        {
+            "@language": "es",
+            "@value": "delito inspirado por móviles políticos"
+        },
+        {
+            "@language": "en",
+            "@value": "offence inspired by political motives"
+        },
+        {
+            "@language": "de",
+            "@value": "beweggrund"
+        },
+        {
+            "@language": "nl",
+            "@value": "strafbaar feit om een politiek motief"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

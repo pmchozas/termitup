@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1838127",
+    "@type": "skos:Concept",
+    "skos:inScheme": "grundstücke",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/792948",
+    "skos:topConceptOf": "LT1838127",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "valores inmobiliarios"
+        },
+        {
+            "@language": "en",
+            "@value": "real property"
+        },
+        {
+            "@language": "de",
+            "@value": "grundstücke"
+        },
+        {
+            "@language": "nl",
+            "@value": "onroerende waarden"
+        },
+        {
+            "@language": "es",
+            "@value": "terrenos y bienes naturales"
+        },
+        {
+            "@language": "en",
+            "@value": "freehold land"
+        },
+        {
+            "@language": "de",
+            "@value": "grundstücke"
+        },
+        {
+            "@language": "nl",
+            "@value": "bedrijfsterreinen"
+        },
+        {
+            "@language": "en",
+            "@value": "land which has not been built"
+        },
+        {
+            "@language": "de",
+            "@value": "grundstücke"
+        },
+        {
+            "@language": "es",
+            "@value": "terrenos y edificios"
+        },
+        {
+            "@language": "en",
+            "@value": "land and buildings"
+        },
+        {
+            "@language": "de",
+            "@value": "grundstücke"
+        },
+        {
+            "@language": "nl",
+            "@value": "terreinen en gebouwen"
+        },
+        {
+            "@language": "es",
+            "@value": "Terrenos y construcciones"
+        },
+        {
+            "@language": "de",
+            "@value": "grundstücke"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Grundstücke"
+        },
+        {
+            "@language": "nl",
+            "@value": "terreinen"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundstücke und Gebäude"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Immobilien = Grundstücke; umfassen (z.B. bei Eink.Steuer DE) 1. Grund und Boden 2. Gebäude"
+        },
+        {
+            "@language": "en",
+            "@value": "the group of accounts showing the value at cost of freehold land owned by the business; the classification by account depends on the land's characteristics i.e. undeveloped land developed land below and above level ground quarry mines and land with construction"
+        }
+    ]
+}

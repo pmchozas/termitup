@@ -1,0 +1,139 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9140335",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-darlehensvertrages",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1683354",
+    "skos:topConceptOf": "LT9140335",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "préstamo de construcción"
+        },
+        {
+            "@language": "en",
+            "@value": "construction loan agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "-darlehensvertrages"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst voor een bouwlening"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de préstamo"
+        },
+        {
+            "@language": "en",
+            "@value": "loan contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-darlehensvertrages"
+        },
+        {
+            "@language": "nl",
+            "@value": "leningsovereenkomst"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de préstamo"
+        },
+        {
+            "@language": "en",
+            "@value": "loan contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-darlehensvertrages"
+        },
+        {
+            "@language": "nl",
+            "@value": "leningovereenkomst"
+        },
+        {
+            "@language": "en",
+            "@value": "loan contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-darlehensvertrages"
+        },
+        {
+            "@language": "nl",
+            "@value": "leningovereenkomst"
+        },
+        {
+            "@language": "es",
+            "@value": "firmar un convenio de préstamo"
+        },
+        {
+            "@language": "en",
+            "@value": "to conclude a loan agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "-darlehensvertrages"
+        },
+        {
+            "@language": "nl",
+            "@value": "een leningsovereenkomst sluiten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " préstamo garantizado con los inmuebles construidos"
+        },
+        {
+            "@language": "de",
+            "@value": " Kreditvertrag"
+        },
+        {
+            "@language": "en",
+            "@value": " loan agreement"
+        },
+        {
+            "@language": "nl",
+            "@value": " leningovereenkomst"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "an agreement between a lender and a builder setting out terms of an agreement:loan amountratemethod of drawing fundsconditions for advancing"
+        }
+    ]
+}

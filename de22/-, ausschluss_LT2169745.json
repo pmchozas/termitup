@@ -1,0 +1,192 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2169745",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, ausschluss",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1396441",
+    "skos:topConceptOf": "LT2169745",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "baja en el seguro"
+        },
+        {
+            "@language": "en",
+            "@value": "exclusion"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitsluiting"
+        },
+        {
+            "@language": "es",
+            "@value": "Eliminación"
+        },
+        {
+            "@language": "en",
+            "@value": "Elimination"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "Eliminatie"
+        },
+        {
+            "@language": "es",
+            "@value": "reajuste de espacios mediante cuadrados"
+        },
+        {
+            "@language": "en",
+            "@value": "quad"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitvulling"
+        },
+        {
+            "@language": "es",
+            "@value": "radiación"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ausschluss"
+        },
+        {
+            "@language": "es",
+            "@value": "exclusión del gasto"
+        },
+        {
+            "@language": "en",
+            "@value": "exclusion of expenditure"
+        },
+        {
+            "@language": "de",
+            "@value": "-, ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "weigering"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Ausschluß aus der Versicherung"
+        },
+        {
+            "@language": "de",
+            "@value": "Elimination"
+        },
+        {
+            "@language": "en",
+            "@value": "mutton quad"
+        },
+        {
+            "@language": "es",
+            "@value": "exclusión"
+        },
+        {
+            "@language": "es",
+            "@value": "no asunción del gasto"
+        },
+        {
+            "@language": "en",
+            "@value": "exclusion"
+        },
+        {
+            "@language": "en",
+            "@value": "disallowance of expenditure"
+        },
+        {
+            "@language": "en",
+            "@value": "expenditure disallowed"
+        },
+        {
+            "@language": "en",
+            "@value": "disallowance"
+        },
+        {
+            "@language": "de",
+            "@value": "Ablehnung der Übernahme von Ausgaben"
+        },
+        {
+            "@language": "de",
+            "@value": "Ablehnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitsluiting"
+        },
+        {
+            "@language": "nl",
+            "@value": "onttrekking"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a unit of space normally equivalent to one em of the current nominal type size"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausrichtung eines Textblocks linksbündig rechtsbündig zentriert oder im Blocksatz"
+        },
+        {
+            "@language": "de",
+            "@value": "eines Mitglieds aus einer Vereinigung"
+        },
+        {
+            "@language": "es",
+            "@value": "En el ámbito de la política agrícola común exclusión de la financiación de la Unión de los gastos no efectuados de conformidad con la normativa de la Unión aplicable."
+        },
+        {
+            "@language": "en",
+            "@value": "in the scope of EU accounts procedures for agriculture exclusion from EU financing of amounts unduly spent by an EU Member State"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-erkenning van uitgaven voor financiering uit de Uniebegroting tijdens de procedure van goedkeuring van de rekeningen van de lidstaten door de Unie"
+        }
+    ]
+}

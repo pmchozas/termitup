@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5596700",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-vaterschaftsanerkenntnis",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583672",
+    "skos:topConceptOf": "LT5596700",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "reconocimiento de la filiación paterna"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledgement of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "nl",
+            "@value": "erkenning van het vaderschap"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledgment of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "nl",
+            "@value": "erkenning van een kind"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaftsanerkenntnis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "reconocimiento de la paternidad"
+        },
+        {
+            "@language": "en",
+            "@value": "declaration of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": "Anerkennung der Vaterschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "de",
+            "@value": "Anerkennung der Vaterschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Vaterschaftsanerkennung"
+        },
+        {
+            "@language": "en",
+            "@value": "declaration of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": "Vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "de",
+            "@value": "Vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "Erkenning is een eenzijdige ongerichte familierechtelijke rechtshandeling waardoor een familierechtelijke betrekking tussen een man en een kind tot stand wordt gebracht en de man vader van het kind wordt. Vereist is niet dat de man de verwekker of biologische vader van het kind is."
+        },
+        {
+            "@language": "de",
+            "@value": "die persönliche Erklärung eines Mannes in einer inländischen öffentlichen oder öffentlich-beglaubigten Urkunde wodurch seine außereheliche Vaterschaft festgestellt wird."
+        }
+    ]
+}

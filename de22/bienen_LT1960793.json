@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1960793",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bienen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1258001",
+    "skos:topConceptOf": "LT1960793",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "apícola"
+        },
+        {
+            "@language": "en",
+            "@value": "bee"
+        },
+        {
+            "@language": "de",
+            "@value": "bienen"
+        },
+        {
+            "@language": "nl",
+            "@value": "bijen..."
+        },
+        {
+            "@language": "en",
+            "@value": "bees"
+        },
+        {
+            "@language": "de",
+            "@value": "bienen"
+        },
+        {
+            "@language": "nl",
+            "@value": "bijen"
+        },
+        {
+            "@language": "es",
+            "@value": "R57"
+        },
+        {
+            "@language": "en",
+            "@value": "R57"
+        },
+        {
+            "@language": "de",
+            "@value": "bienen"
+        },
+        {
+            "@language": "nl",
+            "@value": "R57"
+        },
+        {
+            "@language": "es",
+            "@value": "aspergilosis de las abejas"
+        },
+        {
+            "@language": "en",
+            "@value": "stonebrood"
+        },
+        {
+            "@language": "de",
+            "@value": "bienen"
+        },
+        {
+            "@language": "nl",
+            "@value": "steenbroed"
+        },
+        {
+            "@language": "es",
+            "@value": "aspergilosis de las abejas"
+        },
+        {
+            "@language": "en",
+            "@value": "stonebrood"
+        },
+        {
+            "@language": "de",
+            "@value": "bienen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "tóxico para las abejas"
+        },
+        {
+            "@language": "en",
+            "@value": "toxic to bees"
+        },
+        {
+            "@language": "de",
+            "@value": "giftig für Bienen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vergiftig voor bijen"
+        },
+        {
+            "@language": "en",
+            "@value": "aspergillosis of bees"
+        },
+        {
+            "@language": "en",
+            "@value": "aspergillosis of bees"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "systematische Sammelbezeichnung fuer die als Familie Anthophila Ordnung Hymenoptera zusammengefassten von Honig und Pollen lebenden weltweit verbreiteten ueber 12000 Bienenarten mit 300 Gattungen"
+        }
+    ]
+}

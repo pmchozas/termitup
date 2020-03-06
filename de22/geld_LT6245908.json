@@ -1,0 +1,223 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6245908",
+    "@type": "skos:Concept",
+    "skos:inScheme": "geld",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1569411",
+    "skos:topConceptOf": "LT6245908",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "moneda"
+        },
+        {
+            "@language": "de",
+            "@value": "geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "valuta"
+        },
+        {
+            "@language": "de",
+            "@value": "geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "b"
+        },
+        {
+            "@language": "es",
+            "@value": "moneda"
+        },
+        {
+            "@language": "en",
+            "@value": "currency"
+        },
+        {
+            "@language": "de",
+            "@value": "geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "munt"
+        },
+        {
+            "@language": "es",
+            "@value": "en el valor"
+        },
+        {
+            "@language": "en",
+            "@value": "at the money"
+        },
+        {
+            "@language": "de",
+            "@value": "geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "at-the-money"
+        },
+        {
+            "@language": "en",
+            "@value": "in the money"
+        },
+        {
+            "@language": "de",
+            "@value": "geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "in-the-money"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "G"
+        },
+        {
+            "@language": "nl",
+            "@value": "bieden"
+        },
+        {
+            "@language": "es",
+            "@value": "valuta"
+        },
+        {
+            "@language": "en",
+            "@value": "money"
+        },
+        {
+            "@language": "de",
+            "@value": "Geld"
+        },
+        {
+            "@language": "de",
+            "@value": "Valuta"
+        },
+        {
+            "@language": "nl",
+            "@value": "geld"
+        },
+        {
+            "@language": "es",
+            "@value": "at-the-money"
+        },
+        {
+            "@language": "es",
+            "@value": "option at the money"
+        },
+        {
+            "@language": "es",
+            "@value": "en el dinero"
+        },
+        {
+            "@language": "es",
+            "@value": "at the money"
+        },
+        {
+            "@language": "es",
+            "@value": "opción ATM"
+        },
+        {
+            "@language": "es",
+            "@value": "a dinero"
+        },
+        {
+            "@language": "de",
+            "@value": "at the money"
+        },
+        {
+            "@language": "nl",
+            "@value": "at the money"
+        },
+        {
+            "@language": "en",
+            "@value": "in-the-money"
+        },
+        {
+            "@language": "en",
+            "@value": "ITM"
+        },
+        {
+            "@language": "de",
+            "@value": "in the money"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Opción cuyo precio de ejercicio es igual o similar al curso del valor intrínseco en el mercado subyacente."
+        },
+        {
+            "@language": "en",
+            "@value": "of an option having an exercise price that is equal or close to the price in the underlying market"
+        },
+        {
+            "@language": "de",
+            "@value": "beschreibt eine Option deren Ausübungspreis dem Preis des Basiswerts am Kassamarkt genau entspricht"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Een optie is at-the-money als de uitoefenprijs (vrijwel) gelijk is aan de actuele koers van de onderliggende waarde.\""
+        },
+        {
+            "@language": "en",
+            "@value": "characteristic of an option (or similar derivative) at a given time whereby its strike price is more favourable than the spot price of the underlying asset making it advantageous to exercise that option"
+        },
+        {
+            "@language": "de",
+            "@value": "beschreibt eine Kaufoption ( IATE:1474809 ) deren Ausübungspreis unter dem Preis des Basiswerts am Kassamarkt liegt bzw. eine Verkaufsoption ( IATE:1768211 ) deren Ausübungspreis über dem Preis des Basiswerts am Kassamarkt liegt"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoedanigheid van een optie als deze intrinsieke waarde bezit bijvoorbeeld bij een call-optie als de koers van de onderliggende waarde hoger is dan de uitoefenprijs van de optie"
+        }
+    ],
+    "skos:broader": [
+        "LT2679639",
+        "LT6813073",
+        "LT7194385",
+        "LT9692967",
+        "LT6220119",
+        "LT7909407",
+        "LT1061883",
+        "LT6264526",
+        "LT4790923"
+    ]
+}

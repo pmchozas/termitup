@@ -1,0 +1,140 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8399650",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-vereinbarte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/841093",
+    "skos:topConceptOf": "LT8399650",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "agreed quantities"
+        },
+        {
+            "@language": "de",
+            "@value": "-vereinbarte"
+        },
+        {
+            "@language": "es",
+            "@value": "lenguaje convencional"
+        },
+        {
+            "@language": "en",
+            "@value": "conventional language"
+        },
+        {
+            "@language": "de",
+            "@value": "-vereinbarte"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeengekomen taal"
+        },
+        {
+            "@language": "en",
+            "@value": "agreed term"
+        },
+        {
+            "@language": "de",
+            "@value": "-vereinbarte"
+        },
+        {
+            "@language": "es",
+            "@value": "acuerdo de cese de hostilidades"
+        },
+        {
+            "@language": "en",
+            "@value": "ceasefire agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "-vereinbarte"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestand"
+        },
+        {
+            "@language": "es",
+            "@value": "acta aprobada"
+        },
+        {
+            "@language": "en",
+            "@value": "agreed minutes"
+        },
+        {
+            "@language": "de",
+            "@value": "-vereinbarte"
+        },
+        {
+            "@language": "nl",
+            "@value": "goedgekeurd proces-verbaal"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "vereinbarte Sprache"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinbarung über die Einstellung der Feindseligkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestandsovereenkomst"
+        },
+        {
+            "@language": "es",
+            "@value": "acta acordada"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeengekomen notulen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1) \"acta\": Relación de las deliberaciones y de los acuerdos de una junta o corporación extendida por escrito. Constancia análoga de los hechos que pasan o de las razones expuestas en cualquier reunión cuando interesa que se conserve antecedente de lo sucedido o tratado. Este documento lo suelen firmar los reunidos cuando formulan declaraciones o concluyen acuerdos; y en otros casos las autoridades presentes para reforzar la autenticidad del mismo.2) Cuando los acuerdos alcanzados en una reunión y reflejados en el acta han sido refrendados por todos los participantes el acta hace fe y los acuerdos surten efectos jurídicos. Este método de celebración de acuerdos se emplea en muchos organismos internacionales (ONU GATT etc.)."
+        },
+        {
+            "@language": "en",
+            "@value": "in the context of international agreements involving the EU a record of a decision reached between two parties; it may stand alone or be annexed to an agreement to deal with administrative details or interpretations"
+        },
+        {
+            "@language": "de",
+            "@value": "Form eines Abkommens im Rahmen internationaler Übereinkünfte der EU mit Drittstaaten"
+        }
+    ]
+}

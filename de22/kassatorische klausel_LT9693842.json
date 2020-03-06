@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9693842",
+    "@type": "skos:Concept",
+    "skos:inScheme": "kassatorische klausel",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1683043",
+    "skos:topConceptOf": "LT9693842",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "certificado de impedimento"
+        },
+        {
+            "@language": "en",
+            "@value": "estoppel certificate"
+        },
+        {
+            "@language": "de",
+            "@value": "kassatorische klausel"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-ontvankelijkverklaring"
+        },
+        {
+            "@language": "es",
+            "@value": "cláusula conminatoria"
+        },
+        {
+            "@language": "de",
+            "@value": "kassatorische klausel"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "certificado de acción innegable"
+        },
+        {
+            "@language": "es",
+            "@value": "certificado de desestimación"
+        },
+        {
+            "@language": "de",
+            "@value": "Verfallklausel"
+        },
+        {
+            "@language": "de",
+            "@value": "kassatorische Klausel"
+        },
+        {
+            "@language": "de",
+            "@value": "lex commissoria"
+        },
+        {
+            "@language": "de",
+            "@value": "Verfallklausel"
+        },
+        {
+            "@language": "de",
+            "@value": "kassatorische Klausel"
+        },
+        {
+            "@language": "de",
+            "@value": "lex commissoria"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a written statement or certificate which states certain facts upon which the receiver of the statement or a third party may relye.g.lender's estoppel statement as to a purchaser or property"
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinbarung wonach der Schuldner seine Rechte aus einem Vertrag verliert wenn er seine Verbindlichkeiten nicht oder nicht rechtzeitig erfuellt"
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4705355",
+    "@type": "skos:Concept",
+    "skos:inScheme": "papiergeld",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239755",
+    "skos:topConceptOf": "LT4705355",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "moneda fiduciaria"
+        },
+        {
+            "@language": "en",
+            "@value": "paper money"
+        },
+        {
+            "@language": "de",
+            "@value": "papiergeld"
+        },
+        {
+            "@language": "nl",
+            "@value": "papiergeld"
+        },
+        {
+            "@language": "es",
+            "@value": "papel moneda"
+        },
+        {
+            "@language": "en",
+            "@value": "paper money"
+        },
+        {
+            "@language": "de",
+            "@value": "papiergeld"
+        },
+        {
+            "@language": "nl",
+            "@value": "papiergeld"
+        },
+        {
+            "@language": "es",
+            "@value": "papel moneda"
+        },
+        {
+            "@language": "en",
+            "@value": "paper money"
+        },
+        {
+            "@language": "de",
+            "@value": "papiergeld"
+        },
+        {
+            "@language": "nl",
+            "@value": "papieren pasgeld"
+        },
+        {
+            "@language": "es",
+            "@value": "papel moneda no convertible"
+        },
+        {
+            "@language": "en",
+            "@value": "inconvertible paper money"
+        },
+        {
+            "@language": "de",
+            "@value": "papiergeld"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet inwisselbaar papieren geld"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "dinero fiduciario"
+        },
+        {
+            "@language": "en",
+            "@value": "bank notes"
+        },
+        {
+            "@language": "en",
+            "@value": "bills"
+        },
+        {
+            "@language": "en",
+            "@value": "soft money"
+        },
+        {
+            "@language": "en",
+            "@value": "fiduciary money"
+        },
+        {
+            "@language": "en",
+            "@value": "paper currency"
+        },
+        {
+            "@language": "en",
+            "@value": "inconvertible money"
+        },
+        {
+            "@language": "en",
+            "@value": "fiat money"
+        },
+        {
+            "@language": "en",
+            "@value": "fiduciary currency"
+        },
+        {
+            "@language": "en",
+            "@value": "fiat currency"
+        },
+        {
+            "@language": "de",
+            "@value": "Banknoten"
+        },
+        {
+            "@language": "de",
+            "@value": "Notenumlauf"
+        },
+        {
+            "@language": "de",
+            "@value": "Papierwährung"
+        },
+        {
+            "@language": "de",
+            "@value": "Bargeld"
+        },
+        {
+            "@language": "de",
+            "@value": "fiduziarisches Geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "fiduciair geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "baar geld"
+        },
+        {
+            "@language": "nl",
+            "@value": "bankbiljetten"
+        },
+        {
+            "@language": "nl",
+            "@value": "chartaal geld"
+        },
+        {
+            "@language": "en",
+            "@value": "currency notes"
+        },
+        {
+            "@language": "en",
+            "@value": "irredeemable money"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet converteerbaar papiergeld"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Dinero que representa un valor que no tiene en sí mismo (a diferencia del oro p. ej.) pero que es aceptado de forma general como medio de pago y depósito de valor por la confianza que merece la entidad que lo emite (el banco central)."
+        },
+        {
+            "@language": "en",
+            "@value": "money which owes its acceptability to public trust; the intrinsic value of such money e.g. bank notes is usually nil or very much lower than the normal value; coins or notes which are not worth much as a paper or metal but are said by the government to have a value"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"vertrouwensgeld of geld dat in tegenstelling tot intrinsiek volwaardig geld (zoals gouden munten) zelf geen waarde vertegenwoordigt maar op basis van een algeheel vertrouwen (meestal gefundeerd op wettelijke regelingen) als betaalmiddel fungeert (m.n. papiergeld)\"."
+        }
+    ]
+}

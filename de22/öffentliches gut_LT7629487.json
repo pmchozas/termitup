@@ -1,0 +1,192 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7629487",
+    "@type": "skos:Concept",
+    "skos:inScheme": "öffentliches gut",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/355659",
+    "skos:topConceptOf": "LT7629487",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "public good"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentliches gut"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentliches gut"
+        },
+        {
+            "@language": "es",
+            "@value": "bien público mundial"
+        },
+        {
+            "@language": "en",
+            "@value": "global public good"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentliches gut"
+        },
+        {
+            "@language": "nl",
+            "@value": "mondiaal publiek goed"
+        },
+        {
+            "@language": "es",
+            "@value": "orden público y buenas costumbres"
+        },
+        {
+            "@language": "en",
+            "@value": "public policy and morality"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentliches gut"
+        },
+        {
+            "@language": "es",
+            "@value": "Programa «Retos y bienes públicos mundiales»"
+        },
+        {
+            "@language": "en",
+            "@value": "Global Public Goods and Challenges Programme"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentliches gut"
+        },
+        {
+            "@language": "nl",
+            "@value": "programma voor mondiale collectieve goederen en uitdagingen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Kollektivgut"
+        },
+        {
+            "@language": "de",
+            "@value": "Eigentum der Allgemeinheit"
+        },
+        {
+            "@language": "en",
+            "@value": "GPG"
+        },
+        {
+            "@language": "en",
+            "@value": "GPG"
+        },
+        {
+            "@language": "de",
+            "@value": "globales öffentliches Gut"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationaal publiek goed"
+        },
+        {
+            "@language": "nl",
+            "@value": "mondiaal collectief goed"
+        },
+        {
+            "@language": "nl",
+            "@value": "mondiale collectieve voorziening"
+        },
+        {
+            "@language": "es",
+            "@value": "Programa \"Bienes públicos y desafíos globales\""
+        },
+        {
+            "@language": "en",
+            "@value": "GPGC"
+        },
+        {
+            "@language": "en",
+            "@value": "GPGC Programme"
+        },
+        {
+            "@language": "en",
+            "@value": "GPGC"
+        },
+        {
+            "@language": "en",
+            "@value": "thematic programme on Global Public Goods and Challenges"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "product that one individual can consume without reducing its availability to another individual and from which no one is excluded"
+        },
+        {
+            "@language": "de",
+            "@value": "Gut bei dessen Konsum keine Rivalität besteht (d. h. wenn eine Person das Gut nutzt verringert sich aufgrund dieser Nutzung nicht der Nutzen für andere Personen) und von dessen Nutzung niemand ausgeschlossen werden kann"
+        },
+        {
+            "@language": "de",
+            "@value": "Bez. für Sachen an denen Gemeingebrauch besteht z.B.Straßen Flüsse Wasserstraßen Luftraum"
+        },
+        {
+            "@language": "es",
+            "@value": "Bien público con beneficios universalmente consolidados en cuanto a los países (que abarca más de un grupo de países) las personas (que afectan a varios grupos de población preferiblemente a todos) y las generaciones (que se amplían tanto a las generaciones actuales como a las futuras o que al menos cumplen las necesidades de las generaciones actuales sin cerrar de antemano las opciones de desarrollo para las generaciones futuras)."
+        },
+        {
+            "@language": "en",
+            "@value": "public good with benefits that are strongly universal in terms of countries (covering more than one group of countries) people (accruing to several preferably all population groups) and generations (meeting the needs of the present without compromising the ability of future generations to meet their own needs)"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentliches Gut (Kollektivgut) IATE:355659  das ein globales Kollektivbedürfnis befriedigtn (z.B. Sicherheit saubere Umwelt) dessen Bereitstellung sich aber für den einzelnen Staat unter ökonomischen Überlegungen nicht lohnt; kann daher nur staatenübergreifend (global) \"produziert\" werden; diese Güter lassen sich über Grenzen Generationen und Bevölkerungsgruppen hinweg nutzen"
+        },
+        {
+            "@language": "nl",
+            "@value": "Grensoverschrijdende zaak die in het belang is voor mensen wereldwijd en waarvan niemand uitgesloten mag worden. Naast tastbare goederen zoals water vallen er ook minder tastbare 'goederen' onder; zoals financiële stabiliteit en gezondheid."
+        },
+        {
+            "@language": "es",
+            "@value": "Programa temático que se desarrolla en contratos para apoyar el desarrollo sostenible la agricultura etc. en diversos países."
+        },
+        {
+            "@language": "en",
+            "@value": "thematic EU programme which aims to support inclusive sustainable development supporting actions in areas to be drawn from environment and climate change sustainable energy human development (including decent work social justice and culture) food and nutrition security and sustainable agriculture and migration and asylum"
+        },
+        {
+            "@language": "de",
+            "@value": "EU Programm das das Ziel verfolgt die Zusammenarbeit den Austausch von Wissen und Erfahrungen sowie die Kapazitäten der Partnerländer im Hinblick darauf zu stärken einen Beitrag zur Beseitigung der Armut zum sozialen Zusammenhalt und zu einer nachhaltigen Entwicklung zu leisten"
+        }
+    ]
+}

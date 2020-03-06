@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7598144",
+    "@type": "skos:Concept",
+    "skos:inScheme": "hypothek",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239648",
+    "skos:topConceptOf": "LT7598144",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "mortgage"
+        },
+        {
+            "@language": "de",
+            "@value": "hypothek"
+        },
+        {
+            "@language": "nl",
+            "@value": "hypotheek"
+        },
+        {
+            "@language": "es",
+            "@value": "hipoteca"
+        },
+        {
+            "@language": "en",
+            "@value": "mortgage"
+        },
+        {
+            "@language": "de",
+            "@value": "hypothek"
+        },
+        {
+            "@language": "nl",
+            "@value": "hypotheek"
+        },
+        {
+            "@language": "es",
+            "@value": "primera hipoteca"
+        },
+        {
+            "@language": "en",
+            "@value": "first mortgage"
+        },
+        {
+            "@language": "de",
+            "@value": "hypothek"
+        },
+        {
+            "@language": "nl",
+            "@value": "eerste hypotheek"
+        },
+        {
+            "@language": "es",
+            "@value": "préstamo hipotecario porcentualmente elevado"
+        },
+        {
+            "@language": "en",
+            "@value": "high ratio mortgage"
+        },
+        {
+            "@language": "de",
+            "@value": "hypothek"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoge ratiohypotheek"
+        },
+        {
+            "@language": "en",
+            "@value": "to borrow on mortgage"
+        },
+        {
+            "@language": "de",
+            "@value": "hypothek"
+        },
+        {
+            "@language": "nl",
+            "@value": "geld op hypotheek opnemen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "mortgage agreement"
+        },
+        {
+            "@language": "en",
+            "@value": "mortgage contract"
+        },
+        {
+            "@language": "de",
+            "@value": "Hypothek"
+        },
+        {
+            "@language": "de",
+            "@value": "erststellig Hypothek"
+        },
+        {
+            "@language": "nl",
+            "@value": "eerste hypoteek"
+        },
+        {
+            "@language": "de",
+            "@value": "auf Hypothek entleihen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a legal agreement by which a bank building society etc. lends money at interest in exchange for taking title of the debtor's property with the condition that the conveyance of title becomes void upon the payment of the debt"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliches Recht an einem Grundstück und an der Grundstücksbestandteilen(oder an einem Schiff)zwecks Sicherung einer Forderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "zakelijk recht op een onroerend goed (ook schip)dat tot zekerheidsstelling voor het nakomen van een verplichting kan dienen"
+        },
+        {
+            "@language": "en",
+            "@value": "one that takes precedence over all others.(Mortgage seniority established by date and time of registration.)"
+        },
+        {
+            "@language": "nl",
+            "@value": "het eerste zakelijke recht op een onroerend geld dat tot zekerheidsstelling voor het nakomen van een verplichting kan dienen"
+        },
+        {
+            "@language": "en",
+            "@value": "a mortgage loan which exceeds 75% of the lending value of the propertyand must be insured against default of payment"
+        }
+    ]
+}

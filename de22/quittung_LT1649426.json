@@ -1,0 +1,244 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1649426",
+    "@type": "skos:Concept",
+    "skos:inScheme": "quittung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1592501",
+    "skos:topConceptOf": "LT1649426",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acuse de recibo"
+        },
+        {
+            "@language": "en",
+            "@value": "ACK"
+        },
+        {
+            "@language": "de",
+            "@value": "quittung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontvangstbevestiging"
+        },
+        {
+            "@language": "es",
+            "@value": "recibo"
+        },
+        {
+            "@language": "en",
+            "@value": "receipt"
+        },
+        {
+            "@language": "de",
+            "@value": "quittung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kwijtbrief"
+        },
+        {
+            "@language": "en",
+            "@value": "discharge"
+        },
+        {
+            "@language": "de",
+            "@value": "quittung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kwijting"
+        },
+        {
+            "@language": "de",
+            "@value": "quittung"
+        },
+        {
+            "@language": "es",
+            "@value": "acuse de recibo"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledgement"
+        },
+        {
+            "@language": "de",
+            "@value": "quittung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontvangstbevestiging"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "ACK"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledgement"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledgment"
+        },
+        {
+            "@language": "en",
+            "@value": "receipt"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledge"
+        },
+        {
+            "@language": "en",
+            "@value": "receive acknowledge"
+        },
+        {
+            "@language": "de",
+            "@value": "positive Rückmeldung"
+        },
+        {
+            "@language": "de",
+            "@value": "Empfangsbestätigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Annahmebestätigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Quittierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevestiging"
+        },
+        {
+            "@language": "nl",
+            "@value": "kwitering"
+        },
+        {
+            "@language": "es",
+            "@value": "carta de pago"
+        },
+        {
+            "@language": "en",
+            "@value": "2. ( customs ) receipt"
+        },
+        {
+            "@language": "de",
+            "@value": "Quittungsformular"
+        },
+        {
+            "@language": "de",
+            "@value": "2. Passierschein"
+        },
+        {
+            "@language": "de",
+            "@value": "Zollquittung"
+        },
+        {
+            "@language": "de",
+            "@value": "Zollschein"
+        },
+        {
+            "@language": "nl",
+            "@value": "quitantie"
+        },
+        {
+            "@language": "en",
+            "@value": "receipt"
+        },
+        {
+            "@language": "en",
+            "@value": "acquittance"
+        },
+        {
+            "@language": "en",
+            "@value": "payment"
+        },
+        {
+            "@language": "de",
+            "@value": "Bezahlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Quittung"
+        },
+        {
+            "@language": "de",
+            "@value": "Empfangsbescheinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Zahlungsbestätigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Bestätigung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a transmission made by a receiving station to indicate that a message has been satisfactorily received"
+        },
+        {
+            "@language": "nl",
+            "@value": "Bevestiging van ontvangst van een stuursignaal commando of verzoek al of niet vergezeld van een toestandsindicatie"
+        },
+        {
+            "@language": "de",
+            "@value": "schriftliche Empfangsbekenntnis des Gläubigers"
+        },
+        {
+            "@language": "de",
+            "@value": "Quittung: schriftliche Empfangsbekenntnis des Gläubigers die Leistung des Schuldners als Erfüllung empfangen zu haben"
+        },
+        {
+            "@language": "es",
+            "@value": "función de la capa (N) que permite a una entidad receptora (N) informar a una entidad emisora (N) de la recepción de una unidad de datos de protocolo (N)"
+        },
+        {
+            "@language": "en",
+            "@value": "a function of the(N)-layer which allows a receiving(N)-entity to inform a sending(N)-entity of the receipt of an(N)-protocol-data-unit"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Funktion der (N)-Schicht welche einer empfangenden (N)-Instanz erlaubt eine sendende (N)-Instanz über den Empfang einer (N)-Protokoll-Dateneinheit zu informieren"
+        }
+    ]
+}

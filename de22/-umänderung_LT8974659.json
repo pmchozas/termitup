@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8974659",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-umänderung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1354885",
+    "skos:topConceptOf": "LT8974659",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "mutualisation"
+        },
+        {
+            "@language": "de",
+            "@value": "-umänderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "overgang naar een onderlinge verzekeringsmaatschappij"
+        },
+        {
+            "@language": "es",
+            "@value": "refundición"
+        },
+        {
+            "@language": "en",
+            "@value": "recasting of a book"
+        },
+        {
+            "@language": "de",
+            "@value": "-umänderung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "mutualization"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the conversionby means of buying out the shareholdersof an insurance company with risk capital into a mutual insurance company"
+        },
+        {
+            "@language": "de",
+            "@value": "Änderung einer Eigentumsgesellschaft in eine Versicherungsgesellschaft auf Gegenseitigkeit"
+        },
+        {
+            "@language": "es",
+            "@value": "dar nueva forma a una obra literaria"
+        }
+    ]
+}

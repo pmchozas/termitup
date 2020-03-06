@@ -1,0 +1,279 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8815935",
+    "@type": "skos:Concept",
+    "skos:inScheme": "völkerrecht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/829047",
+    "skos:topConceptOf": "LT8815935",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "Derecho internacional público"
+        },
+        {
+            "@language": "en",
+            "@value": "international law"
+        },
+        {
+            "@language": "de",
+            "@value": "völkerrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationaal publiekrecht"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho internacional"
+        },
+        {
+            "@language": "en",
+            "@value": "international law"
+        },
+        {
+            "@language": "de",
+            "@value": "völkerrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationaal recht"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho internacional"
+        },
+        {
+            "@language": "en",
+            "@value": "international law"
+        },
+        {
+            "@language": "de",
+            "@value": "völkerrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationaal recht"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho internacional humanitario"
+        },
+        {
+            "@language": "en",
+            "@value": "international humanitarian law"
+        },
+        {
+            "@language": "de",
+            "@value": "völkerrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationaal humanitair recht"
+        },
+        {
+            "@language": "es",
+            "@value": "Comisión de Derecho Internacional"
+        },
+        {
+            "@language": "en",
+            "@value": "International Law Commission"
+        },
+        {
+            "@language": "de",
+            "@value": "völkerrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "Commissie voor internationaal recht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "Derecho internacional"
+        },
+        {
+            "@language": "en",
+            "@value": "public international law"
+        },
+        {
+            "@language": "de",
+            "@value": "internationales Recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "volkenrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "internationales Recht"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho internacional humanitario aplicable en los conflictos armados"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho aplicable en la guerra"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho de la guerra"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho aplicable a los conflictos armados"
+        },
+        {
+            "@language": "es",
+            "@value": "ius in bello"
+        },
+        {
+            "@language": "es",
+            "@value": "DIH"
+        },
+        {
+            "@language": "en",
+            "@value": "IHL"
+        },
+        {
+            "@language": "en",
+            "@value": "international humanitarian law applicable in armed conflicts"
+        },
+        {
+            "@language": "de",
+            "@value": "humanitäres Kriegsvölkerrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "humanitäres Kriegsrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "internationales humanitäres Recht"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht des bewaffneten Konflikts"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationale humanitaire ius in bello oorlogsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "humanitair recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "IHR"
+        },
+        {
+            "@language": "es",
+            "@value": "CDI"
+        },
+        {
+            "@language": "en",
+            "@value": "ILC"
+        },
+        {
+            "@language": "de",
+            "@value": "Völkerrechtskommission - VRK"
+        },
+        {
+            "@language": "de",
+            "@value": "VRK"
+        },
+        {
+            "@language": "de",
+            "@value": "Kommission für Völkerrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "ILC"
+        },
+        {
+            "@language": "nl",
+            "@value": "CIR"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Conjunto de normas jurídicas que regulan las relaciones internacionales entre personas públicas tales como los Estados y las organizaciones internacionales."
+        },
+        {
+            "@language": "en",
+            "@value": "the set of legal rules governing international relations between public bodies such as States and international organisations"
+        },
+        {
+            "@language": "de",
+            "@value": "die durch Vertrag oder Gewohnheitsrecht begründeten Rechtssätze die in Frieden und Krieg die Rechte und Pflichten die Beziehungen und den Verkehr der Staaten und der sonstigen Rechtssubjekte des Völkerrechts untereinander regeln"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"het geheel van juridische voorschriften dat de internationale relaties tussen publiekrechtelijke rechtspersonen zoals staten en internationale organisaties regelt\""
+        },
+        {
+            "@language": "es",
+            "@value": "Conjunto de normas que en tiempo de guerra protege a las personas que no participan en las hostilidades o que han dejado de hacerlo."
+        },
+        {
+            "@language": "en",
+            "@value": "set of binding rules and customs that govern armed conflicts with the aim of limiting the effects of war on people and property and protecting vulnerable persons"
+        },
+        {
+            "@language": "de",
+            "@value": "Teil des allgemeinen Völkerrechts in dem Mindestnormen für internationale und zum Teil auch innerstaatliche bewaffnete Konflikte festgelegt sind so dass zum einen Bestimmungen zum Schutz von Personen die nicht oder nicht mehr an den Feindseligkeiten teilnehmen wie ZivilistInnen Verwundete Kranke und zum anderen Beschränkungen der Kriegsmittel und -methoden wie zum Beispiel das Verbot von chemischen oder biologischen Waffen beinhaltet sind"
+        },
+        {
+            "@language": "nl",
+            "@value": "Onderdeel van het internationaal recht dat bestaat uit een geheel van regels die om humanitaire redenen de gevolgen van gewapende conflicten beperken; humanitaire wetten die zijn omschreven in de vier Conventies van Genève (1949) en de twee Additionele Protocollen (1977) in samenwerking met het Internationale Rode Kruis. Hoofddoel is hulpverlening aan oorlogsslachtoffers"
+        },
+        {
+            "@language": "es",
+            "@value": "Creada por la Asamblea General de las Naciones Unidas en 1947 para propiciar el desarrollo progresivo del Derecho internacional y su codificación. \nEn 2002 la Comisión que se reúne anualmente estaba formada por 34 miembros elegidos por la Asamblea General con mandatos de cinco años y que actúan a título personal y no como representantes de sus respectivos gobiernos. \nLa mayor parte de la labor de la Comisión consiste en preparar textos sobre asuntos de Derecho internacional bien por propia iniciativa o bien a pedido de la Asamblea General o del Consejo Económico y Social. Cuando la Comisión ultima un proyecto de articulado relativo a un asunto determinado la Asamblea General convoca por lo general una conferencia internacional de plenipotenciarios para integrar dichos artículos en una convención que posteriormente se abre a la adhesión de los Estados."
+        },
+        {
+            "@language": "en",
+            "@value": "commission established by the United Nations General Assembly in 1947 to undertake the mandate of the Assembly under Article 13(1)( \na) of the Charter of the United Nations to 'initiate studies and make recommendations for the purpose of ... encouraging the progressive development of international law and its codification'"
+        }
+    ],
+    "skos:broader": [
+        "LT4761730"
+    ],
+    "skos:related": [
+        "LT3846972",
+        "LT5294201"
+    ]
+}

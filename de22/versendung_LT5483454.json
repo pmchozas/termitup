@@ -1,0 +1,192 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5483454",
+    "@type": "skos:Concept",
+    "skos:inScheme": "versendung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/830674",
+    "skos:topConceptOf": "LT5483454",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "envío"
+        },
+        {
+            "@language": "en",
+            "@value": "dispatch"
+        },
+        {
+            "@language": "de",
+            "@value": "versendung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzending"
+        },
+        {
+            "@language": "es",
+            "@value": "puesto a la venta"
+        },
+        {
+            "@language": "en",
+            "@value": "date of publication"
+        },
+        {
+            "@language": "de",
+            "@value": "versendung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ten verkoop aanbieden"
+        },
+        {
+            "@language": "es",
+            "@value": "expedición"
+        },
+        {
+            "@language": "en",
+            "@value": "despatching"
+        },
+        {
+            "@language": "de",
+            "@value": "versendung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzenden"
+        },
+        {
+            "@language": "es",
+            "@value": "expedición"
+        },
+        {
+            "@language": "en",
+            "@value": "despatching"
+        },
+        {
+            "@language": "de",
+            "@value": "versendung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzending"
+        },
+        {
+            "@language": "es",
+            "@value": "declaración de expedición"
+        },
+        {
+            "@language": "en",
+            "@value": "declaration for dispatch"
+        },
+        {
+            "@language": "de",
+            "@value": "versendung"
+        },
+        {
+            "@language": "nl",
+            "@value": "aangifte tot verzending"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "expedición"
+        },
+        {
+            "@language": "de",
+            "@value": "Versand"
+        },
+        {
+            "@language": "en",
+            "@value": "publication"
+        },
+        {
+            "@language": "de",
+            "@value": "Herausgabe"
+        },
+        {
+            "@language": "en",
+            "@value": "sending"
+        },
+        {
+            "@language": "de",
+            "@value": "Versendung"
+        },
+        {
+            "@language": "en",
+            "@value": "dispatch note(rail,road)"
+        },
+        {
+            "@language": "en",
+            "@value": "forwarding note(rail,road)"
+        },
+        {
+            "@language": "en",
+            "@value": "forwarding declaration"
+        },
+        {
+            "@language": "en",
+            "@value": "sender's declaration"
+        },
+        {
+            "@language": "de",
+            "@value": "Versanderklärung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzendadvies"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the act of sending off a consignment of goods"
+        },
+        {
+            "@language": "de",
+            "@value": "das Versenden von Gegenständen bes. von Waren"
+        },
+        {
+            "@language": "nl",
+            "@value": "het sturen van goederen naar elders"
+        },
+        {
+            "@language": "es",
+            "@value": "operación mediante la cual los envíos son depositados en recipientes (en sacas normalmente o cajones) para su traslado"
+        },
+        {
+            "@language": "en",
+            "@value": "the postal items are put into containers ready for conveyance"
+        }
+    ]
+}

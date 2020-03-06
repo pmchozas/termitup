@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1086324",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-vergessene",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1757761",
+    "skos:topConceptOf": "LT1086324",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "desaprendizaje"
+        },
+        {
+            "@language": "en",
+            "@value": "unlearning"
+        },
+        {
+            "@language": "de",
+            "@value": "-vergessene"
+        },
+        {
+            "@language": "nl",
+            "@value": "afleren"
+        },
+        {
+            "@language": "es",
+            "@value": "acción contra el olvido"
+        },
+        {
+            "@language": "en",
+            "@value": "action \"to prevent the public forgetting\""
+        },
+        {
+            "@language": "de",
+            "@value": "-vergessene"
+        },
+        {
+            "@language": "nl",
+            "@value": "actie „tegen het vergeten”"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "aprendizaje inverso"
+        },
+        {
+            "@language": "en",
+            "@value": "reverse learning"
+        },
+        {
+            "@language": "de",
+            "@value": "umgekehrtes Lernen"
+        },
+        {
+            "@language": "nl",
+            "@value": "omgekeerd leren"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "fase de aprendizaje negativo durante la cual el sistema muestrea aleatoriamente los estados según su distribución de Boltzmann y el aprendizaje de Hebbs se produce con un coeficiente negativo"
+        },
+        {
+            "@language": "en",
+            "@value": "negative learning phase during which the system randomly samples states according to their Boltzmann distribution and Hebbian learning occurs with a negative coefficient"
+        },
+        {
+            "@language": "de",
+            "@value": "da nicht alle lokalen Minima tatsächlich gelerntes Wissen repräsentieren versucht man diese mittels umgekehrtenen Lernens zu eliminieren. Dabei wird die normale Lernregel jedoch mit umgekehrtem Vorzeichen auf Zustände des Systems angewendet die dieses von zufälligen Anfangsbedingungen aus erreicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "negatieve leerfase waarbij het systeem willekeurig toestanden verzamelt volgens de Boltzmann verdeling en het Hebbiaans leren plaatsvindt met een negatieve coëfficiënt"
+        }
+    ]
+}

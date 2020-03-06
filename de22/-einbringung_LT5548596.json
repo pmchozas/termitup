@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5548596",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-einbringung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3557519",
+    "skos:topConceptOf": "LT5548596",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "introducción"
+        },
+        {
+            "@language": "en",
+            "@value": "introduction"
+        },
+        {
+            "@language": "de",
+            "@value": "-einbringung"
+        },
+        {
+            "@language": "nl",
+            "@value": "introductie"
+        },
+        {
+            "@language": "en",
+            "@value": "assets brought in"
+        },
+        {
+            "@language": "de",
+            "@value": "-einbringung"
+        },
+        {
+            "@language": "de",
+            "@value": "-einbringung"
+        },
+        {
+            "@language": "en",
+            "@value": "injection into the ground"
+        },
+        {
+            "@language": "de",
+            "@value": "-einbringung"
+        },
+        {
+            "@language": "es",
+            "@value": "introducción procedente del mar"
+        },
+        {
+            "@language": "en",
+            "@value": "introduction from the sea"
+        },
+        {
+            "@language": "de",
+            "@value": "-einbringung"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvoer van uit de zee voortkomende planten en dieren"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "contribution of assets"
+        },
+        {
+            "@language": "de",
+            "@value": "Einbringung von Unternehmensteilen"
+        },
+        {
+            "@language": "de",
+            "@value": "Versenkung in den Untergrund"
+        },
+        {
+            "@language": "de",
+            "@value": "Einbringung aus dem Meer"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "El movimiento como consecuencia de la intervención humana de una especie fuera de su área de distribución natural IATE:1622976 ."
+        },
+        {
+            "@language": "en",
+            "@value": "movement as a consequence of human intervention of a species outside its natural range"
+        },
+        {
+            "@language": "de",
+            "@value": "die als Folge menschlichen Einwirkens erfolgende Verbringung einer Art aus ihrem natürlichen Verbreitungsgebiet heraus"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"de verplaatsing als gevolg van menselijk ingrijpen van een soort buiten zijn natuurlijke verspreidingsgebied\""
+        },
+        {
+            "@language": "de",
+            "@value": "Exekution wegen Gebühren und Gerichtsgebühren"
+        },
+        {
+            "@language": "es",
+            "@value": "el traslado a un Estado de especímenes de cualquier especie capturados en el medio marino fuera de la jurisdicción de cualquier Estado"
+        },
+        {
+            "@language": "en",
+            "@value": "transportation into a State of specimens of any species which were taken in the marine environment not under the jurisdiction of any State"
+        },
+        {
+            "@language": "de",
+            "@value": "die Beförderung eines Exemplars einer Art das der nicht der Hoheitsgewalt eines Staates unterstehenden Meeresumwelt entnommen worden ist in einen Staat"
+        },
+        {
+            "@language": "nl",
+            "@value": "het tot binnen de grenzen van een Staat vervoeren van specimens van soorten die zijn gehaald uit zeegebied dat niet tot het rechtsgebied van een Staat behoort"
+        }
+    ]
+}

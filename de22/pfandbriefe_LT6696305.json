@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6696305",
+    "@type": "skos:Concept",
+    "skos:inScheme": "pfandbriefe",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239730",
+    "skos:topConceptOf": "LT6696305",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "mortgage bond"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandbriefe"
+        },
+        {
+            "@language": "nl",
+            "@value": "hypothecaire obligatie"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación hipotecaria"
+        },
+        {
+            "@language": "en",
+            "@value": "mortgage bond"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandbriefe"
+        },
+        {
+            "@language": "nl",
+            "@value": "hypothecaire obligatie"
+        },
+        {
+            "@language": "es",
+            "@value": "Cedula Hipotecaria"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandbriefe"
+        },
+        {
+            "@language": "nl",
+            "@value": "pandbrief"
+        },
+        {
+            "@language": "en",
+            "@value": "mortgage bond"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandbriefe"
+        },
+        {
+            "@language": "es",
+            "@value": "efecto cambiario suizo"
+        },
+        {
+            "@language": "en",
+            "@value": "domestic mortgage bond"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandbriefe"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "mortgage certificate"
+        },
+        {
+            "@language": "en",
+            "@value": "mortgage debenture"
+        },
+        {
+            "@language": "de",
+            "@value": "Hypothekenpfandbrief"
+        },
+        {
+            "@language": "de",
+            "@value": "hypothekarisch gesicherte Schuldverschreibung"
+        },
+        {
+            "@language": "de",
+            "@value": "Hypothekenschuldverschreibung"
+        },
+        {
+            "@language": "nl",
+            "@value": "pandbrief"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "bond which is secured by tangible property often real property and issued by real estate banks in some countries; a bond which is secured by tangible property often real property; this instrument is contrasted with debenture which is backed by the general creditworthiness of the issuer rather than by specific property"
+        },
+        {
+            "@language": "de",
+            "@value": "der Pfandbrief ist ein festverzinsliches durch ein gesetzlich genau umschriebenes Spezialpfandrecht gesichertes obligationen-ähnliches Wertpapier zur Finanzierung des langfristigen und ausschließlich erstrangigen Hypothekarkreditgeschäfts der Banken"
+        },
+        {
+            "@language": "nl",
+            "@value": "een vaste rente dragende obligatie van een kredietinstelling doorgaans een hypotheekbank die gedekt is door hypotheek in dien zin dat de gezamenlijke houders van de obligaties in geval van faillissement preferentie hebben op de door de bank genomen hypotheeken"
+        },
+        {
+            "@language": "en",
+            "@value": "A bond secured by a mortgage on a property. Mortgage bonds are backed by real estate or physical equipment that can be liquidated. These are usually considered high-grade safe investments. If an issuer in default has both secured and unsecured bonds outstanding secured bondholders are paid off first then unsecured bondholders. Naturally because unsecured bonds carry greater risk than secured bonds they usually pay higher yields."
+        },
+        {
+            "@language": "de",
+            "@value": "Anleihe/ Schuldverschreibung die von Realkreditinstituten (Hypothekenbanken u.ä.) zur Finanzierung von Hypothekendarlehen aufgelegt wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "Obligatie waarbij als zekerheid hypotheken op onroerend goed in onderpand zijn."
+        },
+        {
+            "@language": "nl",
+            "@value": "1.door hypotheekbanken uitgegeven schuldbewijzen aan toonder die doorlopend bij de emittent voor afgifte beschikbaar zijn en die ter beurze verhandelbaar zijn."
+        }
+    ]
+}

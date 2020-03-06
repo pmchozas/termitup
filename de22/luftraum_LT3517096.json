@@ -1,0 +1,184 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3517096",
+    "@type": "skos:Concept",
+    "skos:inScheme": "luftraum",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1345869",
+    "skos:topConceptOf": "LT3517096",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "espacio aéreo"
+        },
+        {
+            "@language": "en",
+            "@value": "airspace"
+        },
+        {
+            "@language": "de",
+            "@value": "luftraum"
+        },
+        {
+            "@language": "nl",
+            "@value": "luchtruim"
+        },
+        {
+            "@language": "es",
+            "@value": "atmósfera"
+        },
+        {
+            "@language": "en",
+            "@value": "atmosphere"
+        },
+        {
+            "@language": "de",
+            "@value": "luftraum"
+        },
+        {
+            "@language": "nl",
+            "@value": "atmosfeer"
+        },
+        {
+            "@language": "es",
+            "@value": "espacio aéreo nacional"
+        },
+        {
+            "@language": "en",
+            "@value": "national air-space"
+        },
+        {
+            "@language": "de",
+            "@value": "luftraum"
+        },
+        {
+            "@language": "nl",
+            "@value": "nationaal luchtruim"
+        },
+        {
+            "@language": "es",
+            "@value": "espacio aéreo superior"
+        },
+        {
+            "@language": "en",
+            "@value": "upper airspace"
+        },
+        {
+            "@language": "de",
+            "@value": "luftraum"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoger luchtruim"
+        },
+        {
+            "@language": "en",
+            "@value": "upper air space"
+        },
+        {
+            "@language": "de",
+            "@value": "luftraum"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoger gelegen luchtruim"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "luchtruimte"
+        },
+        {
+            "@language": "de",
+            "@value": "Luftraum"
+        },
+        {
+            "@language": "en",
+            "@value": "upper air space"
+        },
+        {
+            "@language": "nl",
+            "@value": "hogere"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Espacio que rodea tanto la tierra firme como los espacios acuáticos de la tierra. En sentido jurídico el espacio aéreo de un Estado es la proyección hacia la atmósfera de los límites de los territorios marítimos y terrestres de un Estado sobre los que éste ejerce una soberanía total y exclusiva."
+        },
+        {
+            "@language": "en",
+            "@value": "\"part of the atmosphere above the surface subject to the laws of a particular country or controlling authority\""
+        },
+        {
+            "@language": "de",
+            "@value": "Raum in der Luft oberhalb der Erdoberfläche oder ein bestimmter Teil dieses Raums der allgemein durch die nach oben projizierten Begrenzungen eines auf der Erdoberfläche befindlichen Gebiets definiert wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"term die algemeen gebruikt wordt om de ruimte boven het aardoppervlak aan te geven waarin luchtverkeer kan plaatsvinden. In feite is dit zowat alles tot en met de stratosfeer. Dit luchtruim is internationaal gereguleerd op basis van geldende voorschriften uitgevaardigd door de ICAO de internationale organisatie voor de burgerluchtvaart. Daarenboven bepaalt de overheid van ieder land afzonderlijk hoe deze in het eigen luchtruim worden ingevuld.\""
+        },
+        {
+            "@language": "es",
+            "@value": "envoltura gaseosa de unos 60 km. de altura que rodea a la Tierra; Por extensión el aire que está sobre una región o un territorio; En física unidad de presión ambiente equivalente a 1 kg por cm2"
+        },
+        {
+            "@language": "en",
+            "@value": "the gaseous envelope of about 60 km in height that surrounds the earth; By extension the air over a country or territory; Physics: pressure exerted by atmosphere on the earth's surface taken as a unit of pressure about 1 kg weight per cm2"
+        },
+        {
+            "@language": "de",
+            "@value": "Die etwa 60 km hohe Gashülle der Erde; Im engeren Sinne auch Luftraum über einem Land oder einem Gebiet; Physik: Druck der von der Luthüle auf die Erdoberfläche ausgeübt wird; Auch: Druckeinheit entspricht 1 kg pro cm2"
+        },
+        {
+            "@language": "nl",
+            "@value": "Het gasvormig omhulsel rondom de aarde ongeveer 60 km dik; In ruime betekenis de lucht boven een land of gebied"
+        },
+        {
+            "@language": "es",
+            "@value": "El espacio aéreo por encima del nivel de vuelo 285 (altitud -marcada por el altímetro- de 28500 pies)."
+        },
+        {
+            "@language": "en",
+            "@value": "Above flight level 285 (8 700 metres)."
+        },
+        {
+            "@language": "de",
+            "@value": "Luftraum oberhalb FL 285 (8700 m)"
+        },
+        {
+            "@language": "nl",
+            "@value": "luchtruim boven vliegniveau 285 (ongeveer 85 km)"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3992733",
+    "@type": "skos:Concept",
+    "skos:inScheme": "lebensgemeinschaft, eheliche",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583487",
+    "skos:topConceptOf": "LT3992733",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "comunidad de vida"
+        },
+        {
+            "@language": "en",
+            "@value": "lifelong union"
+        },
+        {
+            "@language": "de",
+            "@value": "lebensgemeinschaft, eheliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "levensgemeenschap"
+        },
+        {
+            "@language": "es",
+            "@value": "matrimonio"
+        },
+        {
+            "@language": "de",
+            "@value": "lebensgemeinschaft, eheliche"
+        },
+        {
+            "@language": "es",
+            "@value": "comunidad de vida"
+        },
+        {
+            "@language": "en",
+            "@value": "cohabitation"
+        },
+        {
+            "@language": "de",
+            "@value": "lebensgemeinschaft, eheliche"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "consortium vitae"
+        },
+        {
+            "@language": "de",
+            "@value": "eheliche Lebensgemeinschaft"
+        },
+        {
+            "@language": "es",
+            "@value": "cohabitación"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "The right of one spouse to the lifelong company assistance affection and fellowship of the other."
+        },
+        {
+            "@language": "nl",
+            "@value": "De Belgische wetgever beschouwt het huwelijk als een instelling waarvan het hoofddoel bestaat in het creëren tussen twee personen van een duurzame levensgemeenschap waarvan de gevolgen bij wet worden geregeld. Deze duurzamen levensgemeenschap is een samenlevingsvorm tussen twee personen en behelst aldus een relatie waarin de exclusiviteit van de partners tegenover elkaar vooropstaat. Het huwelijk is een instelling die een bestendige dit is niet een tijdelijke levensgemeenschap inhoudt. [BE]"
+        }
+    ]
+}

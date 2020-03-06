@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4047161",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vermächtnisnehmer",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3538824",
+    "skos:topConceptOf": "LT4047161",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "legatario"
+        },
+        {
+            "@language": "en",
+            "@value": "devisee or legatee"
+        },
+        {
+            "@language": "de",
+            "@value": "vermächtnisnehmer"
+        },
+        {
+            "@language": "nl",
+            "@value": "legataris"
+        },
+        {
+            "@language": "es",
+            "@value": "legatario"
+        },
+        {
+            "@language": "en",
+            "@value": "legatee"
+        },
+        {
+            "@language": "de",
+            "@value": "vermächtnisnehmer"
+        },
+        {
+            "@language": "nl",
+            "@value": "legataris"
+        },
+        {
+            "@language": "es",
+            "@value": "heredero o legatario"
+        },
+        {
+            "@language": "en",
+            "@value": "heir, devisee or legatee"
+        },
+        {
+            "@language": "de",
+            "@value": "vermächtnisnehmer"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfgenaam of legataris"
+        },
+        {
+            "@language": "de",
+            "@value": "vermächtnisnehmer"
+        },
+        {
+            "@language": "de",
+            "@value": "vermächtnisnehmer"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "legatarios legataria legatarias"
+        },
+        {
+            "@language": "en",
+            "@value": "heir entitled under a will"
+        },
+        {
+            "@language": "en",
+            "@value": "testamentary heir"
+        },
+        {
+            "@language": "en",
+            "@value": "beneficiary of a will"
+        },
+        {
+            "@language": "en",
+            "@value": "legatee"
+        },
+        {
+            "@language": "en",
+            "@value": "devisee"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Persona a quien por testamento IATE:1130370 se deja un legado IATE:860996 o manda.El sucesor a título singular; o sea en una o más cosas o derechos determinados a diferencia del heredero IATE:83114  que sucede al causante IATE:2217762 a título universal y en la totalidad o cuota parte de su patrimonio."
+        },
+        {
+            "@language": "en",
+            "@value": "someone who receives a legacy or devise"
+        },
+        {
+            "@language": "de",
+            "@value": "Person der per letztwilliger Verfügung ein Geldbetrag einzelne Sachen oder einzelne Rechte hinterlassen werden"
+        },
+        {
+            "@language": "nl",
+            "@value": "degene aan wie een legaat (IATE:1443665 ) is toegekend."
+        },
+        {
+            "@language": "es",
+            "@value": "Expresión empleada en el Convenio de la Haya sobre la Ley Aplicable a las Sucesiones por Causa de Muerte IATE:881243 para incluir a todos los beneficiarios IATE:873075 de una sucesión.El concepto de \"legatario\" IATE:3538824 abarca tanto el que recibe en legado una cosa mueble IATE:762913 como el que recibe una cosa inmueble IATE:3537987 ."
+        },
+        {
+            "@language": "en",
+            "@value": "- heir: someone who inherits under the laws of intestacy- devisee: someone who inherits real property by will- legatee: someone who inherits personal property by will"
+        },
+        {
+            "@language": "nl",
+            "@value": "'heir': erfgenaam (IATE:83114 ) zowel bij uiterste wilsbeschikking ingestelde erfgenaam (IATE:1253167 ) als erfgenaam bij versterf (IATE:1253166 );'devisee or legatee': legataris (IATE:3538824 ) zonder onderscheid tussen roerende en onroerende goederen"
+        }
+    ]
+}

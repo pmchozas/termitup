@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1855019",
+    "@type": "skos:Concept",
+    "skos:inScheme": "standesbeamte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583616",
+    "skos:topConceptOf": "LT1855019",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "encargado del registro civil"
+        },
+        {
+            "@language": "en",
+            "@value": "superintendent registrar"
+        },
+        {
+            "@language": "de",
+            "@value": "standesbeamte"
+        },
+        {
+            "@language": "nl",
+            "@value": "ambtenaar van de burgerlijke stand"
+        },
+        {
+            "@language": "en",
+            "@value": "registrar of Births, Marriages and Deaths"
+        },
+        {
+            "@language": "de",
+            "@value": "standesbeamte"
+        },
+        {
+            "@language": "nl",
+            "@value": "Ambtenaar van de Burgerlijke Stand"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "De ambtenaar van de burgerlijke stand is een ambtenaar in dienst van de gemeente die is belast met het opnemen in de onder hem berustende registers van de burgerlijke stand van akten en daaraan toe te voegen latere vermeldingen alsmede al datgene dat wat de instandhouding van de registers en de zorg voor de toegankelijkheid van de daarin neergelegde gegevens betreft. / De ambtenaar van de burgerlijke stand is in het bijzonder gelast al wat het houden van de registers [bevolkingsregister en vreemdelingenregister] betreft nauwgezet in acht te nemen. [BE]"
+        }
+    ]
+}

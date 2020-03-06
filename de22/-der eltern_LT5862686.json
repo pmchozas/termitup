@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5862686",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der eltern",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1111264",
+    "skos:topConceptOf": "LT5862686",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "elección paterna"
+        },
+        {
+            "@language": "en",
+            "@value": "parental wishes"
+        },
+        {
+            "@language": "de",
+            "@value": "-der eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "wensen van de ouders"
+        },
+        {
+            "@language": "es",
+            "@value": "derechos y deberes de los padres"
+        },
+        {
+            "@language": "en",
+            "@value": "rights and obligations of parents"
+        },
+        {
+            "@language": "de",
+            "@value": "-der eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechten en verplichtingen van de ouders"
+        },
+        {
+            "@language": "es",
+            "@value": "responsabilidad civil por los actos de un menor"
+        },
+        {
+            "@language": "en",
+            "@value": "vicarious liability of a child's parents"
+        },
+        {
+            "@language": "de",
+            "@value": "-der eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "burgerrechtelijke aansprakelijkheid voor de minderjarige kinderen"
+        },
+        {
+            "@language": "en",
+            "@value": "mellow parenting"
+        },
+        {
+            "@language": "de",
+            "@value": "-der eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "opvoedsteun"
+        },
+        {
+            "@language": "es",
+            "@value": "autorización de los padres al menor"
+        },
+        {
+            "@language": "en",
+            "@value": "parental authorisation for minor"
+        },
+        {
+            "@language": "de",
+            "@value": "-der eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "toelating van de ouders voor de minderjarige"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "derechos y deberes de los progenitores"
+        },
+        {
+            "@language": "en",
+            "@value": "rights and duties of parents"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechte und Pflichten der Eltern"
+        },
+        {
+            "@language": "de",
+            "@value": "Haftung der Eltern für ihre Kinder"
+        },
+        {
+            "@language": "de",
+            "@value": "Haftung des Aufsichtspflichtigen"
+        },
+        {
+            "@language": "de",
+            "@value": "Elternhaftung"
+        },
+        {
+            "@language": "nl",
+            "@value": "aansprakelijkheid voor kinderen"
+        },
+        {
+            "@language": "de",
+            "@value": "Mellow-Parenting-Programm"
+        },
+        {
+            "@language": "nl",
+            "@value": "opvoedingssteun"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "programme aimed at helping vulnerable parents with additional social and/or healthcare needs to improve their relationship with their child based on principles of attachment theory"
+        },
+        {
+            "@language": "de",
+            "@value": "Begleitprogramm für Eltern mit besonderem gesundheitlichen oder sozialen Förderbedarf das auf Grundlage der Bindungstheorie zur Förderung der frühkindlichen Entwicklung und der Eltern-Kind-Beziehung beitragen soll"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzamelbegrip voor preventieve activiteiten en interventies die tot doel hebben de opvoedingscompetenties van ouders te vergroten en de opvoedingssituatie te verbeteren"
+        }
+    ]
+}

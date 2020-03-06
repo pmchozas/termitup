@@ -1,0 +1,188 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1637743",
+    "@type": "skos:Concept",
+    "skos:inScheme": "mitteilung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/796411",
+    "skos:topConceptOf": "LT1637743",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "notificación"
+        },
+        {
+            "@language": "en",
+            "@value": "notification"
+        },
+        {
+            "@language": "de",
+            "@value": "mitteilung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kennisgeving"
+        },
+        {
+            "@language": "es",
+            "@value": "notificación"
+        },
+        {
+            "@language": "en",
+            "@value": "notification"
+        },
+        {
+            "@language": "de",
+            "@value": "mitteilung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kennisgeving"
+        },
+        {
+            "@language": "es",
+            "@value": "declaración"
+        },
+        {
+            "@language": "de",
+            "@value": "mitteilung"
+        },
+        {
+            "@language": "es",
+            "@value": "notificación"
+        },
+        {
+            "@language": "de",
+            "@value": "mitteilung"
+        },
+        {
+            "@language": "en",
+            "@value": "notification"
+        },
+        {
+            "@language": "de",
+            "@value": "mitteilung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Mitteilung"
+        },
+        {
+            "@language": "de",
+            "@value": "Vortrag"
+        },
+        {
+            "@language": "de",
+            "@value": "Vorbringen"
+        },
+        {
+            "@language": "de",
+            "@value": "Erklaerung"
+        },
+        {
+            "@language": "de",
+            "@value": "Mitteilung"
+        },
+        {
+            "@language": "de",
+            "@value": "Behauptung"
+        },
+        {
+            "@language": "es",
+            "@value": "comunicación"
+        },
+        {
+            "@language": "es",
+            "@value": "advertencia"
+        },
+        {
+            "@language": "es",
+            "@value": "aviso"
+        },
+        {
+            "@language": "de",
+            "@value": "Verstaendigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Mitteilung"
+        },
+        {
+            "@language": "de",
+            "@value": "Nachricht"
+        },
+        {
+            "@language": "de",
+            "@value": "Notifizierung"
+        },
+        {
+            "@language": "de",
+            "@value": "Meldung"
+        },
+        {
+            "@language": "de",
+            "@value": "Bekanntgabe"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En el ámbito del Derecho Internacional formalidad por la que un Estado u organización internacional comunica a otro Estado actos con repercusiones jurídicas. Puede tener los mismos efectos que la ratificación y en los acuerdos bilaterales se usa en su lugar"
+        },
+        {
+            "@language": "en",
+            "@value": "formality through which a state or an international organisation communicates certain facts or events of legal importance"
+        },
+        {
+            "@language": "de",
+            "@value": "amtliche Verständigung eines Staates durch einen anderen über den bevorstehenden oder erfolgten Eintritt einer rechtserheblichen Tatsache"
+        },
+        {
+            "@language": "es",
+            "@value": "Información por parte del responsable del tratamiento de datos a los terceros a quienes se hayan comunicado los datos de toda rectificación supresión o bloqueo de datos personales."
+        },
+        {
+            "@language": "de",
+            "@value": "Information des für die Verarbeitung Verantwortlichen IATE:909791 an Dritte denen Daten übermittelt wurden darüber dass diese berichtigt gelöscht oder gesperrt wurden"
+        },
+        {
+            "@language": "de",
+            "@value": "Meldeverfahren innerhalb der EU"
+        }
+    ],
+    "skos:broader": [],
+    "skos:related": [
+        "LT9348761"
+    ]
+}

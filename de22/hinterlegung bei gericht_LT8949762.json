@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8949762",
+    "@type": "skos:Concept",
+    "skos:inScheme": "hinterlegung bei gericht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3547204",
+    "skos:topConceptOf": "LT8949762",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "hinterlegung bei gericht"
+        },
+        {
+            "@language": "en",
+            "@value": "deposit of a sum with the clerk to the court"
+        },
+        {
+            "@language": "de",
+            "@value": "hinterlegung bei gericht"
+        },
+        {
+            "@language": "nl",
+            "@value": "consignatie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Hinterlegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "gerechtelijke bewaring"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Wird die Forderung deren Pfändung und Überweisung wenn auch vorbehaltlich früher erworbener Rechte Dritter ausgesprochen wurde nicht nur vom betreibenden Gläubiger sondern auch von anderen Personen in Anspruch genommen so ist bei Vorliegen einer unklaren Sach- und Rechtslage der Drittschuldner befugt und auf Antrag eines Gläubigers verpflichtet den Betrag der Forderung samt Nebengebühren nach Maßgabe ihrer Fälligkeit zugunsten aller dieser Personen beim Exekutionsgericht zu hinterlegen."
+        }
+    ]
+}

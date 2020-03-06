@@ -1,0 +1,116 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9659061",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-gefährliche",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1260193",
+    "skos:topConceptOf": "LT9659061",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "good which constitutes a hazard"
+        },
+        {
+            "@language": "de",
+            "@value": "-gefährliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "goed dat een gevaar oplevert"
+        },
+        {
+            "@language": "es",
+            "@value": "mercancías peligrosas"
+        },
+        {
+            "@language": "en",
+            "@value": "dangerous goods"
+        },
+        {
+            "@language": "de",
+            "@value": "-gefährliche"
+        },
+        {
+            "@language": "es",
+            "@value": "productos peligrosos"
+        },
+        {
+            "@language": "en",
+            "@value": "dangerous goods"
+        },
+        {
+            "@language": "de",
+            "@value": "-gefährliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaarlijke goederen"
+        },
+        {
+            "@language": "en",
+            "@value": "goods which constitute a hazard"
+        },
+        {
+            "@language": "de",
+            "@value": "-gefährliche"
+        },
+        {
+            "@language": "de",
+            "@value": "-gefährliche"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "DG"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Artículos o substancias que pueden poner en riesgo la salud seguridad propiedades o medio ambiente y que se muestran en la lista de mercancías peligrosas de las Instrucciones Técnicas o que son clasificadas de acuerdo con esas Instrucciones."
+        },
+        {
+            "@language": "en",
+            "@value": "Articles or substances which are capable of posing a risk to health safety property or the environment and which are shown in the list of dangerous goods in the Technical Instructions or which are classified according to those Instructions."
+        },
+        {
+            "@language": "de",
+            "@value": "Gegenstände oder Stoffe die ein Risiko für die Gesundheit die Sicherheit Sachwerte oder die Umwelt darstellen können und im Verzeichnis gefährlicher Güter in den Gefahrgutvorschriften (Technical Instructions TI) aufgeführt sind oder die gemäß diesen Vorschriften als gefährliche Güter eingestuft werden."
+        },
+        {
+            "@language": "en",
+            "@value": "1.Goods or products that are full of hazards or risks when used transported etc."
+        }
+    ]
+}

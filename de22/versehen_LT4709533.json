@@ -1,0 +1,184 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4709533",
+    "@type": "skos:Concept",
+    "skos:inScheme": "versehen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1395567",
+    "skos:topConceptOf": "LT4709533",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "versehen"
+        },
+        {
+            "@language": "es",
+            "@value": "error material"
+        },
+        {
+            "@language": "en",
+            "@value": "clerical error"
+        },
+        {
+            "@language": "de",
+            "@value": "versehen"
+        },
+        {
+            "@language": "es",
+            "@value": "efectuar"
+        },
+        {
+            "@language": "en",
+            "@value": "serve"
+        },
+        {
+            "@language": "de",
+            "@value": "versehen"
+        },
+        {
+            "@language": "nl",
+            "@value": "bedienen"
+        },
+        {
+            "@language": "en",
+            "@value": "provided with"
+        },
+        {
+            "@language": "de",
+            "@value": "versehen"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorzien van"
+        },
+        {
+            "@language": "en",
+            "@value": "provided with"
+        },
+        {
+            "@language": "de",
+            "@value": "versehen"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorzien van"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Verfehlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verstoss"
+        },
+        {
+            "@language": "de",
+            "@value": "Unterlassung"
+        },
+        {
+            "@language": "de",
+            "@value": "Versaeumnis"
+        },
+        {
+            "@language": "de",
+            "@value": "Versehen"
+        },
+        {
+            "@language": "en",
+            "@value": "error of a clerical nature"
+        },
+        {
+            "@language": "en",
+            "@value": "errors of a clerical nature"
+        },
+        {
+            "@language": "en",
+            "@value": "clerical mistake"
+        },
+        {
+            "@language": "de",
+            "@value": "redaktioneller Irrtum"
+        },
+        {
+            "@language": "de",
+            "@value": "Redaktionsfehler"
+        },
+        {
+            "@language": "de",
+            "@value": "Redaktionsversehen"
+        },
+        {
+            "@language": "de",
+            "@value": "Fehler"
+        },
+        {
+            "@language": "de",
+            "@value": "versehen"
+        },
+        {
+            "@language": "de",
+            "@value": "bedienen"
+        },
+        {
+            "@language": "en",
+            "@value": "fitted with"
+        },
+        {
+            "@language": "en",
+            "@value": "equipped with"
+        },
+        {
+            "@language": "de",
+            "@value": "versehen mit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Errata mera equivocación en la manipulación de datos."
+        },
+        {
+            "@language": "en",
+            "@value": "a mistake made in copying or writing out a document"
+        }
+    ],
+    "skos:broader": [],
+    "skos:narrower": [
+        "LT6785591"
+    ],
+    "skos:related": [
+        "LT7630179",
+        "LT3262859"
+    ]
+}

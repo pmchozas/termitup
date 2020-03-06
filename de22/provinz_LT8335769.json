@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8335769",
+    "@type": "skos:Concept",
+    "skos:inScheme": "provinz",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3538290",
+    "skos:topConceptOf": "LT8335769",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "provincia"
+        },
+        {
+            "@language": "en",
+            "@value": "province"
+        },
+        {
+            "@language": "de",
+            "@value": "provinz"
+        },
+        {
+            "@language": "nl",
+            "@value": "provincie"
+        },
+        {
+            "@language": "es",
+            "@value": "provincia"
+        },
+        {
+            "@language": "en",
+            "@value": "province"
+        },
+        {
+            "@language": "de",
+            "@value": "provinz"
+        },
+        {
+            "@language": "nl",
+            "@value": "provincie"
+        },
+        {
+            "@language": "es",
+            "@value": "provincia"
+        },
+        {
+            "@language": "en",
+            "@value": "province"
+        },
+        {
+            "@language": "de",
+            "@value": "provinz"
+        },
+        {
+            "@language": "nl",
+            "@value": "provincie"
+        },
+        {
+            "@language": "es",
+            "@value": "provincia"
+        },
+        {
+            "@language": "en",
+            "@value": "province"
+        },
+        {
+            "@language": "de",
+            "@value": "provinz"
+        },
+        {
+            "@language": "nl",
+            "@value": "provincie"
+        },
+        {
+            "@language": "es",
+            "@value": "provincia"
+        },
+        {
+            "@language": "en",
+            "@value": "county"
+        },
+        {
+            "@language": "de",
+            "@value": "provinz"
+        },
+        {
+            "@language": "nl",
+            "@value": "provincie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "condado"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En Bélgica segundo nivel subnacional de organización territorial."
+        },
+        {
+            "@language": "en",
+            "@value": "The intermediate sub-national geographical and administrative unit in Belgium."
+        },
+        {
+            "@language": "de",
+            "@value": "Gebietskörperschaft der mittleren Ebene in Belgien"
+        },
+        {
+            "@language": "nl",
+            "@value": "Tussenliggende geografische en bestuurlijke eenheid in België onder het nationale niveau."
+        },
+        {
+            "@language": "es",
+            "@value": "En los Países Bajos primer nivel subnacional de organización territorial."
+        },
+        {
+            "@language": "en",
+            "@value": "The largest sub-national geographical and administrative unit in the Netherlands."
+        },
+        {
+            "@language": "de",
+            "@value": "Gebietskörperschaft der obersten Ebene in den Niederlanden"
+        },
+        {
+            "@language": "nl",
+            "@value": "De grootste geografische en bestuurlijke entiteit in Nederland onder het nationale niveau."
+        },
+        {
+            "@language": "es",
+            "@value": "Segundo nivel subnacional de la organización territorial española."
+        },
+        {
+            "@language": "en",
+            "@value": "The intermediate sub-national geographical and administrative unit in Spain."
+        },
+        {
+            "@language": "de",
+            "@value": "Gebietskörperschaft der mittleren Ebene in Spanien"
+        },
+        {
+            "@language": "nl",
+            "@value": "De intermediaire geografische en bestuurlijke eenheid in Spanje onder het nationale niveau."
+        },
+        {
+            "@language": "es",
+            "@value": "En Italia una de las dos entidades del segundo nivel subnacional de organización territorial."
+        },
+        {
+            "@language": "en",
+            "@value": "Italy's geographical and administrative unit of intermediate level (between \"region\"(IATE:3532436 ) and \"municipality\" (IATE:3533755 ) and alternative to \"metropolitan city\" (IATE:3532468 ) having corporate status. \"Provinces\" have both own (e.g. in the fields of environment transport and land planning) and delegated (e.g. in the fields of health and education) administrative functions and wield regulatory powers within the scope of such competences."
+        },
+        {
+            "@language": "de",
+            "@value": "Gebietskörperschaft der mittleren Ebene in Italien"
+        },
+        {
+            "@language": "nl",
+            "@value": "Territoriale bestuurseenheid in Italië die zich tussen de regio (IATE:3532436 ) en de gemeente (IATE:3533755 ) bevindt naast de grootstad (IATE:3532468 ). De provincies hebben eigen bestuurlijke taken (bijv. op het gebied van milieu verkeer en vervoer ruimtelijke ordening) en taken die hun worden toegewezen via nationale of regionale wetgeving (bijv. op het gebied van volksgezondheid en onderwijs). Ook beschikken ze over regelgevingsbevoegdheid op deze beleidsterreinen."
+        },
+        {
+            "@language": "es",
+            "@value": "En Suecia unidad geográfico-administrativa del primer nivel subnacional de organización territorial."
+        },
+        {
+            "@language": "en",
+            "@value": "Territorial entity of the state administration in Sweden"
+        },
+        {
+            "@language": "de",
+            "@value": "Gebietskörperschaft der obersten Ebene in Schweden"
+        },
+        {
+            "@language": "nl",
+            "@value": "Geografische en bestuurlijke eenheid in Zweden die de vertegenwoordiging van de centrale overheid op regionaal niveau vormt en het bestuursgebied van een provincieraad of regio is."
+        }
+    ]
+}

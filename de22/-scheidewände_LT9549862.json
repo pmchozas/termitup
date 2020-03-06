@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9549862",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-scheidewände",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1207007",
+    "skos:topConceptOf": "LT9549862",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "mampara"
+        },
+        {
+            "@language": "en",
+            "@value": "partition"
+        },
+        {
+            "@language": "de",
+            "@value": "-scheidewände"
+        },
+        {
+            "@language": "nl",
+            "@value": "schot"
+        },
+        {
+            "@language": "en",
+            "@value": "septum"
+        },
+        {
+            "@language": "de",
+            "@value": "-scheidewände"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheidingswand"
+        },
+        {
+            "@language": "de",
+            "@value": "-scheidewände"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheidingswand"
+        },
+        {
+            "@language": "es",
+            "@value": "partidor"
+        },
+        {
+            "@language": "en",
+            "@value": "skimming wall"
+        },
+        {
+            "@language": "de",
+            "@value": "-scheidewände"
+        },
+        {
+            "@language": "nl",
+            "@value": "duikschot"
+        },
+        {
+            "@language": "es",
+            "@value": "guiaonda coaxial tabicada"
+        },
+        {
+            "@language": "en",
+            "@value": "septate waveguide"
+        },
+        {
+            "@language": "de",
+            "@value": "-scheidewände"
+        },
+        {
+            "@language": "nl",
+            "@value": "schotgolfgeleider"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "partition wall"
+        },
+        {
+            "@language": "de",
+            "@value": "Zwischenwand"
+        },
+        {
+            "@language": "de",
+            "@value": "Scheidewand"
+        },
+        {
+            "@language": "nl",
+            "@value": "tussenschot"
+        },
+        {
+            "@language": "nl",
+            "@value": "tussenwand"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheidingswand"
+        },
+        {
+            "@language": "en",
+            "@value": "scum board"
+        },
+        {
+            "@language": "de",
+            "@value": "Tauchwand"
+        },
+        {
+            "@language": "es",
+            "@value": "guiaondas con aletas radiales"
+        },
+        {
+            "@language": "de",
+            "@value": "Hohlleiter mit axialer Scheidewand"
+        },
+        {
+            "@language": "nl",
+            "@value": "schottengolfgeleider"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "dividing wall of membrane between bodily spaces"
+        },
+        {
+            "@language": "en",
+            "@value": "a waveguide formed from two coaxial metal cylinders with a radial metal septum or fin connecting the inner to the outer cylinder along their length"
+        }
+    ]
+}

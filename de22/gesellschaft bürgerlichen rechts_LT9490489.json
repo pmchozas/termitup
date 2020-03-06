@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9490489",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gesellschaft bürgerlichen rechts",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239924",
+    "skos:topConceptOf": "LT9490489",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "sociedad civil"
+        },
+        {
+            "@language": "en",
+            "@value": "nonstock corporation"
+        },
+        {
+            "@language": "de",
+            "@value": "gesellschaft bürgerlichen rechts"
+        },
+        {
+            "@language": "nl",
+            "@value": "maatschap"
+        },
+        {
+            "@language": "en",
+            "@value": "civil-law partnership"
+        },
+        {
+            "@language": "de",
+            "@value": "gesellschaft bürgerlichen rechts"
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad de Derecho civil"
+        },
+        {
+            "@language": "en",
+            "@value": "company or firm constituted under civil law"
+        },
+        {
+            "@language": "de",
+            "@value": "gesellschaft bürgerlichen rechts"
+        },
+        {
+            "@language": "en",
+            "@value": "register of non-commercial companies"
+        },
+        {
+            "@language": "de",
+            "@value": "gesellschaft bürgerlichen rechts"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "civil law partnership"
+        },
+        {
+            "@language": "en",
+            "@value": "civil society"
+        },
+        {
+            "@language": "de",
+            "@value": "bürgerliche Gesellschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Personengesellschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Zivilgesellschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "vereniging"
+        },
+        {
+            "@language": "nl",
+            "@value": "burgermaatschappij"
+        },
+        {
+            "@language": "en",
+            "@value": "non-commercial partnership"
+        },
+        {
+            "@language": "en",
+            "@value": "non-trading partnership"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "«La sociedad [civil] es un contrato por el cual dos o más personas se obligan a poner en común dinero bienes o industria con ánimo de partir entre sí las ganancias» (art. 1665 del Código Civil)."
+        },
+        {
+            "@language": "en",
+            "@value": "a corporation having no issued shares"
+        },
+        {
+            "@language": "de",
+            "@value": "Zusammenschluß von Personen zu einem vertraglich festgelegten Zweck"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst waarbij twee of meer personen zich verbinden iets in gemeenschap te brengen"
+        },
+        {
+            "@language": "de",
+            "@value": "---"
+        }
+    ]
+}

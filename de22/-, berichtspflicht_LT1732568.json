@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1732568",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, berichtspflicht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3523730",
+    "skos:topConceptOf": "LT1732568",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "canal de información"
+        },
+        {
+            "@language": "en",
+            "@value": "reporting line"
+        },
+        {
+            "@language": "de",
+            "@value": "-, berichtspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapportagelijn"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación de presentar un informe"
+        },
+        {
+            "@language": "en",
+            "@value": "obligation to submit a report"
+        },
+        {
+            "@language": "de",
+            "@value": "-, berichtspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "protocolplicht"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación de información"
+        },
+        {
+            "@language": "en",
+            "@value": "reporting commitment"
+        },
+        {
+            "@language": "de",
+            "@value": "-, berichtspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapportageverplichting"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación de información"
+        },
+        {
+            "@language": "en",
+            "@value": "reporting obligation"
+        },
+        {
+            "@language": "de",
+            "@value": "-, berichtspflicht"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación de información"
+        },
+        {
+            "@language": "en",
+            "@value": "reporting commitment"
+        },
+        {
+            "@language": "de",
+            "@value": "-, berichtspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapportageverplichting"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "line of reporting"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapportageketen"
+        },
+        {
+            "@language": "de",
+            "@value": "Verpflichtung zur Abgabe eines Rechenschaftsberichtes"
+        },
+        {
+            "@language": "en",
+            "@value": "reporting obligations"
+        },
+        {
+            "@language": "de",
+            "@value": "Berichterstattungspflicht"
+        },
+        {
+            "@language": "de",
+            "@value": "Informationspflicht"
+        },
+        {
+            "@language": "de",
+            "@value": "Meldepflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapportage verplichting"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "richting waarin verslagen worden uitgebracht binnen een structuur"
+        },
+        {
+            "@language": "es",
+            "@value": "Obligación de las entidades financieras de hacer públicas sus cuentas"
+        },
+        {
+            "@language": "en",
+            "@value": "obligation to issue accounting reports"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9220743",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gewohnheitsrecht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/137757",
+    "skos:topConceptOf": "LT9220743",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "derecho consuetudinario"
+        },
+        {
+            "@language": "en",
+            "@value": "customary law"
+        },
+        {
+            "@language": "de",
+            "@value": "gewohnheitsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "gewoonterecht"
+        },
+        {
+            "@language": "es",
+            "@value": "costumbre"
+        },
+        {
+            "@language": "de",
+            "@value": "gewohnheitsrecht"
+        },
+        {
+            "@language": "es",
+            "@value": "prácticas consuetudinarias"
+        },
+        {
+            "@language": "en",
+            "@value": "customary practices"
+        },
+        {
+            "@language": "de",
+            "@value": "gewohnheitsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebruikelijke handelwijzen"
+        },
+        {
+            "@language": "en",
+            "@value": "customary practices"
+        },
+        {
+            "@language": "de",
+            "@value": "gewohnheitsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebruikelijke handelwijzen"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho consuetudinario agrario"
+        },
+        {
+            "@language": "en",
+            "@value": "rural customary law"
+        },
+        {
+            "@language": "de",
+            "@value": "gewohnheitsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "gewoonterecht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "ongeschreven recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "costumier recht"
+        },
+        {
+            "@language": "es",
+            "@value": "norma consuetudinaria"
+        },
+        {
+            "@language": "de",
+            "@value": "Verkehrssitte"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebruikelijke handelwijze"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Reglas basadas en la costumbre esto es en normas habitualmente no expresadas por escrito que resultan de prácticas reiteradas generalmente asumidas por la mayoría de los que están en un lugar o participan en una determinada situación."
+        },
+        {
+            "@language": "en",
+            "@value": "traditional common rule or practice that has become an intrinsic part of the accepted and expected conduct in a community profession or trade and is treated as a legal requirement"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesamtheit der ungeschriebenen Rechtsnormen die sich durch ständige Übung gebildet haben und auf dem allgemeinen Rechtsbewusstsein beruhen"
+        },
+        {
+            "@language": "nl",
+            "@value": "Recht dat blijkens een bestaand gebruik in de samenleving als zodanig wordt geaccepteerd"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesamtheit der Rechtsvorschriften die sich in langjaehriger Uebung herausgebildet haben"
+        }
+    ],
+    "skos:narrower": [
+        "LT6962594"
+    ],
+    "skos:related": [
+        "LT4916889"
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1554262",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-werkvertrag",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1416230",
+    "skos:topConceptOf": "LT1554262",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "work order"
+        },
+        {
+            "@language": "de",
+            "@value": "-werkvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "werkopdracht"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de obras"
+        },
+        {
+            "@language": "en",
+            "@value": "manufacturing on service contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-werkvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "aangenomen werk"
+        },
+        {
+            "@language": "en",
+            "@value": "contract to make up work"
+        },
+        {
+            "@language": "de",
+            "@value": "-werkvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanneming van werk"
+        },
+        {
+            "@language": "en",
+            "@value": "job-processing contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-werkvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "contract voor loonveredeling"
+        },
+        {
+            "@language": "es",
+            "@value": "contrato de obra"
+        },
+        {
+            "@language": "en",
+            "@value": "works contract"
+        },
+        {
+            "@language": "de",
+            "@value": "-werkvertrag"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "job order"
+        },
+        {
+            "@language": "de",
+            "@value": "Werkvertrag"
+        },
+        {
+            "@language": "en",
+            "@value": "works contract"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst tot aanneming van werk"
+        },
+        {
+            "@language": "de",
+            "@value": "Werkvertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst tot loonveredeling"
+        },
+        {
+            "@language": "nl",
+            "@value": "loonveredelingscontract"
+        },
+        {
+            "@language": "en",
+            "@value": "contract for work and labour"
+        },
+        {
+            "@language": "en",
+            "@value": "contract for services"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "an agreement on a standard form which contains only a description of the work to be done and the rate to be paid for itwithout any reference to the total quantity to be executed.Ithoweveris accompanied with a specification of the work"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Vereinbarung auf einem Formblatt das nur eine Beschreibung der auszufuehrenden Arbeit und den dafuer zu bezahlenden Einheitspreis enthaelt ohne Hinweis auf die auszufuehrende Gesamtanlage oder auf die Zeit innerhalb welcher die Arbeit auszufuehren ist. Eine Beschreibung der Leistung gehoert jedoch dazu"
+        },
+        {
+            "@language": "en",
+            "@value": "the contract by which the contractor undertakes the productionmanufacture or further manufacture of the objects concerned or the rendering of a service"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitiger Vertrag durch den sich der Unternehmer zur Herstellung des versprochenen Werks der Besteller zur Entrichtung der vereinbarten Vergütung verpflichtet"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst waarbij de ondernemer zich ertoe verbindt een bepaald werk uit te voeren"
+        },
+        {
+            "@language": "nl",
+            "@value": "In het Nederlandse Burgerlijk Wetboek wordt de term \"overeenkomsten tot het verrichten van arbeid\" gebezigd als overkoepelend begrip voor de arbeidsovereenkomst de overeenkomst tot het verrichten van enkele diensten en de overeenkomst tot aanneming van werk. Het Duitse BGB hanteert het begrip \"Dienstvertrag\" waaronder zowel de arbeidsovereenkomst (Arbeitsvertrag) als de overeenkomst tot het verrichten van enkele diensten (\"freier Dienstvertrag\") vallen. Daarnaast is er een afzonderlijke titel over het Werkvertrag (aanneming van werk). Als belangrijkste onderscheid tussen een aanneming van werk en een overeenkomst tot het verrichten van enkele diensten geldt zowel in NL als in D dat de eerste vooral een resultaatsverplichting inhoudt de tweede een inspanningsverplichting (Erfolg bzw. Tätigkeit)."
+        }
+    ]
+}

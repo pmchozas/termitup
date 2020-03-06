@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1709770",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-durch privatgläubiger",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/157566",
+    "skos:topConceptOf": "LT1709770",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acreedor privado"
+        },
+        {
+            "@language": "en",
+            "@value": "private creditor"
+        },
+        {
+            "@language": "de",
+            "@value": "-durch privatgläubiger"
+        },
+        {
+            "@language": "nl",
+            "@value": "particuliere crediteur"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "private sector creditor"
+        },
+        {
+            "@language": "de",
+            "@value": "Privatgläubiger"
+        },
+        {
+            "@language": "nl",
+            "@value": "particuliere schuldeiser"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Se usa esta expresión para referirse a las personas físicas o jurídicas a las cuales se les debe incluye los préstamos de: a) proveedores es decir créditos de fabricantes exportadores u otros proveedores de mercancías b) mercados financieros es decir préstamos de bancos privados y otras instituciones financieras privadas y los bonos emitidos por el gobierno y colocados en el sector privado y c) otras fuentes es decir los pasivos externos correspondientes a Bienes nacionalizados y deudas sin clasificar contraídas frente a acreedores privados."
+        },
+        {
+            "@language": "en",
+            "@value": "creditor that is neither a government nor a public sector agency"
+        },
+        {
+            "@language": "de",
+            "@value": "Gläubiger die weder Staaten noch staatliche Stellen sind sondern z.B. Banken Versicherungen Pensionsfonds u. andere institutionelle Anleger"
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7061897",
+    "@type": "skos:Concept",
+    "skos:inScheme": "beute",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/120991",
+    "skos:topConceptOf": "LT7061897",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "presa"
+        },
+        {
+            "@language": "en",
+            "@value": "prey"
+        },
+        {
+            "@language": "de",
+            "@value": "beute"
+        },
+        {
+            "@language": "nl",
+            "@value": "prooidier"
+        },
+        {
+            "@language": "es",
+            "@value": "colmena de tronco"
+        },
+        {
+            "@language": "en",
+            "@value": "log hive"
+        },
+        {
+            "@language": "de",
+            "@value": "beute"
+        },
+        {
+            "@language": "nl",
+            "@value": "holle boomstam"
+        },
+        {
+            "@language": "es",
+            "@value": "seda para envolver a la presa"
+        },
+        {
+            "@language": "en",
+            "@value": "silk for swathing prey"
+        },
+        {
+            "@language": "de",
+            "@value": "beute"
+        },
+        {
+            "@language": "nl",
+            "@value": "zijde om de prooi in te wikkelen"
+        },
+        {
+            "@language": "es",
+            "@value": "relación predador-presa"
+        },
+        {
+            "@language": "en",
+            "@value": "predator-prey relation"
+        },
+        {
+            "@language": "de",
+            "@value": "beute"
+        },
+        {
+            "@language": "nl",
+            "@value": "relatie tussen roofvijand en prooisoort"
+        },
+        {
+            "@language": "es",
+            "@value": "relaciones entre el predador y la presa"
+        },
+        {
+            "@language": "en",
+            "@value": "predator-prey relations"
+        },
+        {
+            "@language": "de",
+            "@value": "beute"
+        },
+        {
+            "@language": "nl",
+            "@value": "relaties tussen roofvis en prooivis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Beutetier"
+        },
+        {
+            "@language": "de",
+            "@value": "unbewegliche Beute"
+        },
+        {
+            "@language": "de",
+            "@value": "Stabilbeute"
+        },
+        {
+            "@language": "nl",
+            "@value": "vaste bijenkorf"
+        },
+        {
+            "@language": "en",
+            "@value": "predator-prey relationship"
+        },
+        {
+            "@language": "en",
+            "@value": "predator-prey interaction"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Modelo primitivo de colmena alojada en el tronco ahuecado de un árbol muy común en el norte de la Península Ibérica."
+        },
+        {
+            "@language": "en",
+            "@value": "relations existing between predator and prey populations occurring in the same environment consisting in regulating their number and characteristics; this leads to either steady or fluctuating equilibrium of these populations"
+        }
+    ],
+    "skos:broader": [
+        "LT7044859"
+    ],
+    "skos:related": [
+        "LT9955107"
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8793089",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-bestimmte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1138825",
+    "skos:topConceptOf": "LT8793089",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "specific quantities"
+        },
+        {
+            "@language": "de",
+            "@value": "-bestimmte"
+        },
+        {
+            "@language": "nl",
+            "@value": "bepaalde hoeveelheden"
+        },
+        {
+            "@language": "es",
+            "@value": "frecuencia designada"
+        },
+        {
+            "@language": "en",
+            "@value": "designated frequency"
+        },
+        {
+            "@language": "de",
+            "@value": "-bestimmte"
+        },
+        {
+            "@language": "nl",
+            "@value": "aangewezen frequentie"
+        },
+        {
+            "@language": "en",
+            "@value": "fixed maturity"
+        },
+        {
+            "@language": "de",
+            "@value": "-bestimmte"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo fijo"
+        },
+        {
+            "@language": "de",
+            "@value": "-bestimmte"
+        },
+        {
+            "@language": "es",
+            "@value": "ciertas entidades de crédito"
+        },
+        {
+            "@language": "en",
+            "@value": "certain credit institutions"
+        },
+        {
+            "@language": "de",
+            "@value": "-bestimmte"
+        },
+        {
+            "@language": "nl",
+            "@value": "bepaalde kredietinstellingen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the frequency assigned for distress and safety communications on which other authorised communications are permitted"
+        }
+    ]
+}

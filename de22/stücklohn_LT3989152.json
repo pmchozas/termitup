@@ -1,0 +1,184 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3989152",
+    "@type": "skos:Concept",
+    "skos:inScheme": "stücklohn",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239911",
+    "skos:topConceptOf": "LT3989152",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "piece-work payment"
+        },
+        {
+            "@language": "de",
+            "@value": "stücklohn"
+        },
+        {
+            "@language": "nl",
+            "@value": "stukloon"
+        },
+        {
+            "@language": "es",
+            "@value": "salario por pieza"
+        },
+        {
+            "@language": "en",
+            "@value": "piece-wages"
+        },
+        {
+            "@language": "de",
+            "@value": "stücklohn"
+        },
+        {
+            "@language": "en",
+            "@value": "to do piece-work"
+        },
+        {
+            "@language": "de",
+            "@value": "stücklohn"
+        },
+        {
+            "@language": "es",
+            "@value": "salario de mercado"
+        },
+        {
+            "@language": "de",
+            "@value": "stücklohn"
+        },
+        {
+            "@language": "en",
+            "@value": "professional milkers paid on a contact or per cow basis"
+        },
+        {
+            "@language": "de",
+            "@value": "stücklohn"
+        },
+        {
+            "@language": "nl",
+            "@value": "beroepsmelkers die een forfaitair loon of uitsluitend stukloon ontvangen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "straight piecework"
+        },
+        {
+            "@language": "en",
+            "@value": "piece rate"
+        },
+        {
+            "@language": "en",
+            "@value": "piece work remuneration"
+        },
+        {
+            "@language": "en",
+            "@value": "payment by the job"
+        },
+        {
+            "@language": "en",
+            "@value": "job wage"
+        },
+        {
+            "@language": "en",
+            "@value": "task wage"
+        },
+        {
+            "@language": "en",
+            "@value": "unit wage"
+        },
+        {
+            "@language": "en",
+            "@value": "piece wage"
+        },
+        {
+            "@language": "en",
+            "@value": "piecework earnings"
+        },
+        {
+            "@language": "de",
+            "@value": "Akkordlohn"
+        },
+        {
+            "@language": "de",
+            "@value": "Leistungslohn"
+        },
+        {
+            "@language": "nl",
+            "@value": "collectief stukloon"
+        },
+        {
+            "@language": "nl",
+            "@value": "akkoordloon"
+        },
+        {
+            "@language": "es",
+            "@value": "salario a destajo"
+        },
+        {
+            "@language": "en",
+            "@value": "piece-rate"
+        },
+        {
+            "@language": "en",
+            "@value": "piece-work rate"
+        },
+        {
+            "@language": "de",
+            "@value": "Stuecklohn"
+        },
+        {
+            "@language": "de",
+            "@value": "Leistungslohn"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "remuneration calculated on the basis of units of production; a predetermined amount paid to an employee under a wage incentive system for each unit of output; a) piece rate: a predetermined amount paid to an employee under a wage incentive system for each unit of output b) piece wage piece-work pay piecework earnings piece rates: wage payments according to the amount of work done and not the hours worked c) straight piecework: this most commonly used incentive system involves a fixed price per unit of output based upon a combination of time study and job evaluation"
+        },
+        {
+            "@language": "de",
+            "@value": "Entlohnung auf der Grundlage der erzeugten Mengen ;Akkordlohn Stücklohn Leistungslohn: nach der Menge der geleisteten Arbeit oder der individuell dafür aufgewandten Zeit bemessener Lohn"
+        },
+        {
+            "@language": "nl",
+            "@value": "beloning op basis van geproduceerde of bewerkte aantallen"
+        },
+        {
+            "@language": "de",
+            "@value": "Nach der Menge der geleisteten Arbeit und der individuell dafuer aufgewandten Zeit bemessener Lohn"
+        }
+    ]
+}

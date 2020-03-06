@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3007257",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, beendigung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3545702",
+    "skos:topConceptOf": "LT3007257",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cese"
+        },
+        {
+            "@language": "en",
+            "@value": "discontinuance"
+        },
+        {
+            "@language": "de",
+            "@value": "-, beendigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "stopzetting"
+        },
+        {
+            "@language": "es",
+            "@value": "terminación anormal"
+        },
+        {
+            "@language": "en",
+            "@value": "abnormal termination"
+        },
+        {
+            "@language": "de",
+            "@value": "-, beendigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "abnormale beëindiging"
+        },
+        {
+            "@language": "es",
+            "@value": "terminación del vuelo"
+        },
+        {
+            "@language": "en",
+            "@value": "termination of the flight"
+        },
+        {
+            "@language": "de",
+            "@value": "-, beendigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "het beëindigen van de vlucht"
+        },
+        {
+            "@language": "es",
+            "@value": "fin del mandato"
+        },
+        {
+            "@language": "en",
+            "@value": "termination of office"
+        },
+        {
+            "@language": "de",
+            "@value": "-, beendigung"
+        },
+        {
+            "@language": "es",
+            "@value": "cese en funciones, cese en sus funciones"
+        },
+        {
+            "@language": "de",
+            "@value": "-, beendigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "afloop van de ambtstermijn"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "abnormal end"
+        },
+        {
+            "@language": "en",
+            "@value": "ABEND"
+        },
+        {
+            "@language": "en",
+            "@value": "dead end"
+        },
+        {
+            "@language": "de",
+            "@value": "fehlerbedingte Beendigung"
+        },
+        {
+            "@language": "de",
+            "@value": "vorzeitige Beendigung"
+        },
+        {
+            "@language": "en",
+            "@value": "termination of tenure of office"
+        },
+        {
+            "@language": "es",
+            "@value": "finalización del mandato"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausscheiden aus dem Dienst"
+        },
+        {
+            "@language": "de",
+            "@value": "Abschluss der Amtstätigkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "Ablauf der Amtstätigkeit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Rescate expiración sin valor liberación de póliza activación de cláusulas de no caducidad automática ejercicio de otras opciones de cese o ejercicio de opciones de continuidad."
+        },
+        {
+            "@language": "en",
+            "@value": "surrender of an insurance policy lapse without value making a contract paid-up automatic non-forfeiture provisions or exercising other discontinuity options or not exercising continuity options"
+        },
+        {
+            "@language": "de",
+            "@value": "Rückkauf wertloser Verfall Beitragsfreistellung eines Vertrags automatische Unverfallbarkeitsbestimmung oder die Ausübung sonstiger Beendigungsoptionen oder die Nichtausübung von Fortführungsoptionen"
+        },
+        {
+            "@language": "nl",
+            "@value": "afkoop verval zonder waarde premievrij maken van een overeenkomst automatische voortzettingsclausules dan wel uitoefening van andere stopzettingsopties of niet-uitoefening van voortzettingsopties van een verzekeringsovereenkomst"
+        },
+        {
+            "@language": "en",
+            "@value": "the cessation of processing prior to planned termination"
+        },
+        {
+            "@language": "nl",
+            "@value": "beëindigen van een verwerking door operateur of besturingssysteem tengevolge van een machinestoring of programmafout waarbij geen normale herstart mogelijk is"
+        }
+    ]
+}

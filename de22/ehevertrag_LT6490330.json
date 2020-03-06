@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6490330",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ehevertrag",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583491",
+    "skos:topConceptOf": "LT6490330",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "capitulaciones matrimoniales"
+        },
+        {
+            "@language": "en",
+            "@value": "marriage contract"
+        },
+        {
+            "@language": "de",
+            "@value": "ehevertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijkse voorwaarden"
+        },
+        {
+            "@language": "de",
+            "@value": "ehevertrag"
+        },
+        {
+            "@language": "en",
+            "@value": "marriage contract"
+        },
+        {
+            "@language": "de",
+            "@value": "ehevertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijkscontract"
+        },
+        {
+            "@language": "es",
+            "@value": "donaciones entre cónyuges"
+        },
+        {
+            "@language": "en",
+            "@value": "\"avantages matrimoniaux\""
+        },
+        {
+            "@language": "de",
+            "@value": "ehevertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "ehevertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "voordelen ter zake van het huwelijk"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "huwelijkscontract"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijksovereenkomst"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijksvoorwaarden"
+        },
+        {
+            "@language": "de",
+            "@value": "Ehevertrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijkskontrakt"
+        },
+        {
+            "@language": "nl",
+            "@value": "huwelijksovereenkomst"
+        },
+        {
+            "@language": "en",
+            "@value": "matrimonial benefits"
+        },
+        {
+            "@language": "de",
+            "@value": "Vermögensvorteile unter Ehegatten"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Convención celebrada en atención a determinado matrimonio por celebrar o ya celebrado con el fin principal de fijar el régimen a que deben sujetarse los bienes del mismo. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "vor oder während der Ehe zwischen den (zukünftigen) Ehegatten vereinbarte Regelung über ihre güterrechtlichen Verhältnisse. Ein Ehevertrag kann auch Regelungen zum Versorgungsausgleich und zum Unterhalt nach einer eventuellen Scheidung enthalten. [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "notarieel contract door (aanstaande) echtgenoten afsloten voor het huwelijk of tijdens het huwelijk door middel van de wettelijk bepaalde wijzigingsprocedure en waarbij zij de vermogensrechtelijke gevolgen van hun huwelijk regelen door aanname van een huwelijksvermogensstelsel [BE] ; Overeenkomst die voor het huwelijk wordt gesloten om de vermogensrechtelijke betrekkingen tussen de echtgenoten te organiseren [UE]"
+        },
+        {
+            "@language": "de",
+            "@value": "ein Vertrag durch den die Familienverhältnisse gegründet werden. In dem Ehevertrage erklären zwei Personen verschiedenen Geschlechtes gesetzmäßig ihren Willen in unzertrennlicher Gemeinschaft zu leben Kinder zu zeugen sie zu erziehen und sich gegenseitig Beistand zu leisten."
+        },
+        {
+            "@language": "nl",
+            "@value": "(hier)overeenkomst aangaande huwelijkse voorwaarden"
+        },
+        {
+            "@language": "es",
+            "@value": "Donaciones que los futuros esposos se hacen recíprocamente antes de celebrarse el matrimonio y en consideración al mismo bien en un contrato de capitulaciones matrimoniales bien en documento separado."
+        }
+    ]
+}

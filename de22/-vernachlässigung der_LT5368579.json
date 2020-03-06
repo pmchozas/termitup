@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5368579",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-vernachlässigung der",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583434",
+    "skos:topConceptOf": "LT5368579",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "desamparo del menor"
+        },
+        {
+            "@language": "en",
+            "@value": "abandonment of a child"
+        },
+        {
+            "@language": "de",
+            "@value": "-vernachlässigung der"
+        },
+        {
+            "@language": "nl",
+            "@value": "verwaarlozing van een kind"
+        },
+        {
+            "@language": "en",
+            "@value": "handle life with care-prevent violence and negligence"
+        },
+        {
+            "@language": "de",
+            "@value": "-vernachlässigung der"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Vernachlässigung der Fürsorge- oder Erziehungspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "grove verwaarlozing van de verzorging en opvoeding van een kind"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Se considera como situación de desamparo la que se produce de hecho a causa del incumplimiento o del imposible o inadecuado ejercicio de los deberes de protección establecidos por las leyes para la guarda de los menores cuando éstos queden privados de la necesaria asistencia moral o material. [ES]"
+        },
+        {
+            "@language": "en",
+            "@value": "The failure of a parent or a guardian to provide any financial assistance to or communicate with a child over a period of time. When this happens a court may consider the child abandoned by the parent or guardian and order that person's rights terminated. [CA]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Grond tot ontzetting uit het ouderlijk gezag wegens het moedwillig verzuim zijn plicht als ouder te vervullen. [NL]"
+        }
+    ]
+}

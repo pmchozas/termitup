@@ -1,0 +1,196 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6824364",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-kündigung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/783001",
+    "skos:topConceptOf": "LT6824364",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "denuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "denunciation"
+        },
+        {
+            "@language": "de",
+            "@value": "-kündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "opzegging"
+        },
+        {
+            "@language": "es",
+            "@value": "retiro"
+        },
+        {
+            "@language": "en",
+            "@value": "withdrawal"
+        },
+        {
+            "@language": "de",
+            "@value": "-kündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "uittreding"
+        },
+        {
+            "@language": "es",
+            "@value": "denuncia de rescisión del arrendamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "notice of termination"
+        },
+        {
+            "@language": "de",
+            "@value": "-kündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schriftelijke opzegging"
+        },
+        {
+            "@language": "es",
+            "@value": "suspensión"
+        },
+        {
+            "@language": "en",
+            "@value": "request to terminate"
+        },
+        {
+            "@language": "de",
+            "@value": "-kündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzoek om beëindiging"
+        },
+        {
+            "@language": "es",
+            "@value": "denuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "notice to quit"
+        },
+        {
+            "@language": "de",
+            "@value": "-kündigung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "retirada"
+        },
+        {
+            "@language": "de",
+            "@value": "Austritt"
+        },
+        {
+            "@language": "de",
+            "@value": "Kündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "terugtrekking"
+        },
+        {
+            "@language": "es",
+            "@value": "denuncia"
+        },
+        {
+            "@language": "es",
+            "@value": "extinción"
+        },
+        {
+            "@language": "de",
+            "@value": "Kündigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "opzeggingsbrief"
+        },
+        {
+            "@language": "es",
+            "@value": "rescisión"
+        },
+        {
+            "@language": "en",
+            "@value": "notice of termination"
+        },
+        {
+            "@language": "en",
+            "@value": "cancellation"
+        },
+        {
+            "@language": "de",
+            "@value": "Aufkündigung eines Vertrages"
+        },
+        {
+            "@language": "de",
+            "@value": "Auflösung eines Vertrages"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Declaración unilateral de un Estado vinculado por un Tratado internacional de considerarse desvinculado del mismo. Si se trata de un Tratado multilateral la denuncia se llama más propiamente retirada."
+        },
+        {
+            "@language": "en",
+            "@value": "The giving of formal notice to a foreign country of the termination of a treaty agreement or the like."
+        },
+        {
+            "@language": "de",
+            "@value": "eine einseitige Willenserklärung einer Vertragspartei mit der ein Vertragsverhältnis mit Wirkung für die Zukunft beendet wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"eenzijdig beëindigen van een uit overeenkomst voortvloeiende rechtsverhouding waarbij de overeenkomst in stand blijft.\""
+        },
+        {
+            "@language": "es",
+            "@value": "Declaración unilateral de un Estado vinculado por un Tratado internacional MULTILATERAL de considerarse desvinculado del mismo. En el caso de un Tratado internacional se habla de 'denuncia' IATE:783001 ."
+        },
+        {
+            "@language": "de",
+            "@value": "Kündigung: empfangsbedürftiges einseitiges Rechtsgeschäft durch das die Beendigung eines Rechtsverhältnisses meist nach Ablauf einer Frist herbeigeführt werden soll ;Aufloesung eines Vertrags z.B.eines Arbeitsverhaeltnisses"
+        }
+    ]
+}

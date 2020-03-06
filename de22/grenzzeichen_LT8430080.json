@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8430080",
+    "@type": "skos:Concept",
+    "skos:inScheme": "grenzzeichen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1247990",
+    "skos:topConceptOf": "LT8430080",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "mojón"
+        },
+        {
+            "@language": "en",
+            "@value": "boundary sign"
+        },
+        {
+            "@language": "de",
+            "@value": "grenzzeichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "grensteken"
+        },
+        {
+            "@language": "es",
+            "@value": "señal límite de apartadero"
+        },
+        {
+            "@language": "en",
+            "@value": "shunting limit signal"
+        },
+        {
+            "@language": "de",
+            "@value": "grenzzeichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijbalk"
+        },
+        {
+            "@language": "es",
+            "@value": "piquete"
+        },
+        {
+            "@language": "en",
+            "@value": "in the clear sign"
+        },
+        {
+            "@language": "de",
+            "@value": "grenzzeichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "totaal vrij teken"
+        },
+        {
+            "@language": "es",
+            "@value": "piquete de vía"
+        },
+        {
+            "@language": "en",
+            "@value": "fouling point"
+        },
+        {
+            "@language": "de",
+            "@value": "grenzzeichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijeruimte balk"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "hito"
+        },
+        {
+            "@language": "es",
+            "@value": "señal de demarcación"
+        },
+        {
+            "@language": "en",
+            "@value": "boundary mark"
+        },
+        {
+            "@language": "en",
+            "@value": "monument"
+        },
+        {
+            "@language": "de",
+            "@value": "Grenzmal"
+        },
+        {
+            "@language": "de",
+            "@value": "Grenzmarke"
+        },
+        {
+            "@language": "nl",
+            "@value": "grensmerk"
+        },
+        {
+            "@language": "en",
+            "@value": "stabling limit signal"
+        },
+        {
+            "@language": "de",
+            "@value": "Sicherheitszeichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrij balk"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "unverwesliches Merkmal oder festes Zeichen zur erkennbaren Bezeichnung und dauerhaften Festlegung eines Grenzpunktes in erster Linie Grenzsteine aber auch Grenzpfähle (in sumpfigem Gelände)eiserne Rohre oder Bolzen (in Verkehrsflächen und an baulichen Anlagen)Meißelzeichen (Kreuz auf felsigem Untergrund) usw."
+        },
+        {
+            "@language": "es",
+            "@value": "señal en la vía en una zona de cambios que indica que a partir de allí se libra el gálibo de la otra vía convergente"
+        },
+        {
+            "@language": "en",
+            "@value": "special wayside signs which indicate the switch area"
+        },
+        {
+            "@language": "de",
+            "@value": "rot/weiß gestrichene ca.15 cm hohe Signalbake. Sie gibt den Punkt an an dem der grenzzeichenfreie Bereich beginnt"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2943312",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, anforderungen an",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1483405",
+    "skos:topConceptOf": "LT2943312",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "petición"
+        },
+        {
+            "@language": "en",
+            "@value": "request"
+        },
+        {
+            "@language": "de",
+            "@value": "-, anforderungen an"
+        },
+        {
+            "@language": "nl",
+            "@value": "request-primitieve"
+        },
+        {
+            "@language": "es",
+            "@value": "requisito"
+        },
+        {
+            "@language": "en",
+            "@value": "requirement"
+        },
+        {
+            "@language": "de",
+            "@value": "-, anforderungen an"
+        },
+        {
+            "@language": "nl",
+            "@value": "eis"
+        },
+        {
+            "@language": "es",
+            "@value": "requisito"
+        },
+        {
+            "@language": "en",
+            "@value": "requirement"
+        },
+        {
+            "@language": "de",
+            "@value": "-, anforderungen an"
+        },
+        {
+            "@language": "es",
+            "@value": "demanda"
+        },
+        {
+            "@language": "en",
+            "@value": "request"
+        },
+        {
+            "@language": "de",
+            "@value": "-, anforderungen an"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvraag"
+        },
+        {
+            "@language": "es",
+            "@value": "requisitos"
+        },
+        {
+            "@language": "en",
+            "@value": "requirements"
+        },
+        {
+            "@language": "de",
+            "@value": "-, anforderungen an"
+        },
+        {
+            "@language": "nl",
+            "@value": "eisen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "petición primitiva"
+        },
+        {
+            "@language": "en",
+            "@value": "request primitive"
+        },
+        {
+            "@language": "de",
+            "@value": "Anforderungs-Primitiv-Element"
+        },
+        {
+            "@language": "nl",
+            "@value": "basisprimitieve uitgaand verzoek"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "primitiva emitida por un usuario del servicio para solicitar un procedimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "a primitive issued by a service-user to invoke some procedure"
+        },
+        {
+            "@language": "de",
+            "@value": "von einem Dienstbenutzer erzeugtes Dienst-Element das einen Ablauf aufruft"
+        },
+        {
+            "@language": "en",
+            "@value": "provision that conveys criteria to be fulfilled"
+        },
+        {
+            "@language": "de",
+            "@value": "Festlegung die zu erfüllende Kriterien gibt"
+        },
+        {
+            "@language": "es",
+            "@value": "condición o capacidad que necesita un usuario para resolver un problema o alcanzar un objetivo"
+        },
+        {
+            "@language": "en",
+            "@value": "a condition or capability needed by a user to solve a problem or achieve an objective"
+        },
+        {
+            "@language": "de",
+            "@value": "Voraussetzung und Fähigkeit die ein Benutzer benötigt um ein Problem zu lösen oder ein Ziel zu erreichen"
+        },
+        {
+            "@language": "en",
+            "@value": "message originating an interactive series of messages"
+        }
+    ]
+}

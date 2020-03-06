@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6049467",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-einschränkung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1757439",
+    "skos:topConceptOf": "LT6049467",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "limitación"
+        },
+        {
+            "@language": "en",
+            "@value": "constraint"
+        },
+        {
+            "@language": "de",
+            "@value": "-einschränkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorwaarde"
+        },
+        {
+            "@language": "es",
+            "@value": "limitación"
+        },
+        {
+            "@language": "en",
+            "@value": "limitation"
+        },
+        {
+            "@language": "de",
+            "@value": "-einschränkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beperking"
+        },
+        {
+            "@language": "es",
+            "@value": "restricción"
+        },
+        {
+            "@language": "en",
+            "@value": "constraint"
+        },
+        {
+            "@language": "de",
+            "@value": "-einschränkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beperking"
+        },
+        {
+            "@language": "es",
+            "@value": "restricción"
+        },
+        {
+            "@language": "en",
+            "@value": "restraint"
+        },
+        {
+            "@language": "de",
+            "@value": "-einschränkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beperking"
+        },
+        {
+            "@language": "es",
+            "@value": "condición de constricción"
+        },
+        {
+            "@language": "en",
+            "@value": "constraint condition"
+        },
+        {
+            "@language": "de",
+            "@value": "-einschränkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "restrictievoorwaarde"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "restricción"
+        },
+        {
+            "@language": "de",
+            "@value": "Beschränkung"
+        },
+        {
+            "@language": "de",
+            "@value": "Einschränkung"
+        },
+        {
+            "@language": "de",
+            "@value": "Restriktion"
+        },
+        {
+            "@language": "de",
+            "@value": "Randbedingung"
+        },
+        {
+            "@language": "de",
+            "@value": "Nebenbedingung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beperking"
+        },
+        {
+            "@language": "nl",
+            "@value": "constraint"
+        },
+        {
+            "@language": "nl",
+            "@value": "gedwongenheid"
+        },
+        {
+            "@language": "nl",
+            "@value": "begrenzing"
+        },
+        {
+            "@language": "nl",
+            "@value": "inperking"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a) a fact that restricts the possible solutions to a problem; b) a characteristic used to screen possible solution candidates; c) a relation among objects that sets a limit on the values the objects can achieve"
+        },
+        {
+            "@language": "de",
+            "@value": "Methode beim Problembehandeln in der Weise daß Mengen von Objekten mit Hilfe von Beschränkungen d.h.Rand-und Anfangsbedingungen definiert werden wobei die Problemlösung darin besteht eine Anfangsmenge so zu reduzieren daß eine Restmenge übrigbleibt die alle Bedingungen erfüllt"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorwaarde die het aantal mogelijke oplossingen beperkt(1); voorwaarde opgelegd aan een systeem die de vrijheid van het systeem beperkt; de gedwongenheden kunnen fysiek zijn of mathematisch noodzakelijk of incidenteel(2)"
+        },
+        {
+            "@language": "es",
+            "@value": "Condición anotada en el certificado médico o licencia que será cumplida mientras se ejercen las atribuciones de la licencia."
+        },
+        {
+            "@language": "en",
+            "@value": "A condition placed on the medical certificate or licence that shall be complied with whilst exercising the privileges of the licence."
+        },
+        {
+            "@language": "de",
+            "@value": "eine auf dem Tauglichkeitszeugnis der Lizenz oder dem ärztlichen Gutachten für Flugbegleiter festgehaltene Bedingung die beim Ausüben der mit der Lizenz oder der Flugbegleiterbescheinigung verbundenen Rechte zu erfüllen ist;"
+        },
+        {
+            "@language": "es",
+            "@value": "determina un subconjunto de los valores de un tipo. Un valor de ese subconjunto satisface la restricción"
+        },
+        {
+            "@language": "en",
+            "@value": "a constraint determines a subset of the values of a type.A value in that subset satisfies the constraint"
+        },
+        {
+            "@language": "de",
+            "@value": "begrenzt die Menge der möglichen Werte eines Typs"
+        },
+        {
+            "@language": "en",
+            "@value": "condition on aspect service primitive(ASP)parameters and protocol data unit(PDU)fields used in transmission or expected in reception"
+        }
+    ]
+}

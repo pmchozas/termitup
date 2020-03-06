@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4114906",
+    "@type": "skos:Concept",
+    "skos:inScheme": "körperverletzung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583864",
+    "skos:topConceptOf": "LT4114906",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "agresión física"
+        },
+        {
+            "@language": "en",
+            "@value": "physical assault"
+        },
+        {
+            "@language": "de",
+            "@value": "körperverletzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "fysiek geweld"
+        },
+        {
+            "@language": "en",
+            "@value": "bodily harm"
+        },
+        {
+            "@language": "de",
+            "@value": "körperverletzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "lichamelijk letsel"
+        },
+        {
+            "@language": "en",
+            "@value": "assault and battery"
+        },
+        {
+            "@language": "de",
+            "@value": "körperverletzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "mishandeling"
+        },
+        {
+            "@language": "es",
+            "@value": "daños corporales"
+        },
+        {
+            "@language": "en",
+            "@value": "bodily harm"
+        },
+        {
+            "@language": "de",
+            "@value": "körperverletzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "lichamelijk letsel"
+        },
+        {
+            "@language": "es",
+            "@value": "agresión con lesiones graves"
+        },
+        {
+            "@language": "en",
+            "@value": "causing serious harm"
+        },
+        {
+            "@language": "de",
+            "@value": "körperverletzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "zwaar lichamelijk letsel"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "physical aggression"
+        },
+        {
+            "@language": "en",
+            "@value": "battery"
+        },
+        {
+            "@language": "nl",
+            "@value": "slagen en verwondingen"
+        },
+        {
+            "@language": "nl",
+            "@value": "lichamelijk letsel"
+        },
+        {
+            "@language": "nl",
+            "@value": "slagen en verwondingen"
+        },
+        {
+            "@language": "en",
+            "@value": "GBH"
+        },
+        {
+            "@language": "en",
+            "@value": "grievous bodily injury"
+        },
+        {
+            "@language": "en",
+            "@value": "grievous bodily harm"
+        },
+        {
+            "@language": "nl",
+            "@value": "zware mishandeling"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "Intentional or reckless application of unlawful physical force to another person.[UK_EAW]"
+        },
+        {
+            "@language": "de",
+            "@value": "Körperliche Misshandlung oder Schädigung der Gesundheit einer anderen Person [DE]"
+        },
+        {
+            "@language": "en",
+            "@value": "hurt or injury caused by another that interferes with the health or comfort of the victim"
+        },
+        {
+            "@language": "en",
+            "@value": "Really serious physical injury. Under the Offences Against the Person Act 1861 there are several offences involving grievous bodily harm."
+        },
+        {
+            "@language": "de",
+            "@value": "Körperverletzung die zur Folge hat dass die verletzte Person das Sehvermögen auf einem Auge oder beiden Augen das Gehör das Sprechvermögen oder die Fortpflanzungsfähigkeit verliert ein wichtiges Glied des Körpers verliert oder dauernd nicht mehr gebrauchen kann oder in erheblicher Weise dauernd entstellt wird oder in Siechtum Lähmung oder geistige Krankheit oder Behinderung verfällt. [DE]"
+        }
+    ]
+}

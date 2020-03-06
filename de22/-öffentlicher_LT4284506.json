@@ -1,0 +1,176 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4284506",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-öffentlicher",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1132080",
+    "skos:topConceptOf": "LT4284506",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "public place"
+        },
+        {
+            "@language": "de",
+            "@value": "-öffentlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "publieke plaats"
+        },
+        {
+            "@language": "es",
+            "@value": "camino público"
+        },
+        {
+            "@language": "en",
+            "@value": "public road"
+        },
+        {
+            "@language": "de",
+            "@value": "-öffentlicher"
+        },
+        {
+            "@language": "es",
+            "@value": "texto público"
+        },
+        {
+            "@language": "en",
+            "@value": "public text"
+        },
+        {
+            "@language": "de",
+            "@value": "-öffentlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "public tekst"
+        },
+        {
+            "@language": "es",
+            "@value": "notario"
+        },
+        {
+            "@language": "en",
+            "@value": "notary public"
+        },
+        {
+            "@language": "de",
+            "@value": "-öffentlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "notaris"
+        },
+        {
+            "@language": "es",
+            "@value": "tarifa comercial"
+        },
+        {
+            "@language": "en",
+            "@value": "commercial tariff"
+        },
+        {
+            "@language": "de",
+            "@value": "-öffentlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "handelstarief"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "openbare plaats"
+        },
+        {
+            "@language": "en",
+            "@value": "public way"
+        },
+        {
+            "@language": "nl",
+            "@value": "openbare tekst"
+        },
+        {
+            "@language": "en",
+            "@value": "lawyer notary"
+        },
+        {
+            "@language": "en",
+            "@value": "public notary"
+        },
+        {
+            "@language": "en",
+            "@value": "notary-at-law"
+        },
+        {
+            "@language": "en",
+            "@value": "notary"
+        },
+        {
+            "@language": "en",
+            "@value": "civil law notary"
+        },
+        {
+            "@language": "en",
+            "@value": "civil notary"
+        },
+        {
+            "@language": "de",
+            "@value": "Öffentlicher Notar"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "in Standard Generalized Markup Language(SGML)a text that is known beyond the context of a single document or system environmentand which can be accessed with a public identifier"
+        },
+        {
+            "@language": "nl",
+            "@value": "tekst die bestaat uit entiteiten die centraal gedeponeerd zijn en door alle gebruikers kunnen worden toegepast; vaak betreft het tekenverzamelingen e. d"
+        },
+        {
+            "@language": "en",
+            "@value": "person exercising under the authority of the courts a liberal profession and who is officially authorized to attest documents or actions so as to give them legal authenticity"
+        },
+        {
+            "@language": "de",
+            "@value": "von der Justizverwaltung öffentlich bestellte meist freiberuflich tätige Person die zu öffentlichen Beurkundungen befugt ist um diesen Rechtskraft zu verleihen"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoon die in de hoedanigheid van openbaar ambtenaar én ondernemer bij wet bevoegd is om authentieke akten te verlijden"
+        }
+    ]
+}

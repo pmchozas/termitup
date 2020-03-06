@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9923103",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-,-, auswahl",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1085689",
+    "skos:topConceptOf": "LT9923103",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "clasificación"
+        },
+        {
+            "@language": "en",
+            "@value": "triage"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, auswahl"
+        },
+        {
+            "@language": "nl",
+            "@value": "triage"
+        },
+        {
+            "@language": "es",
+            "@value": "selección"
+        },
+        {
+            "@language": "en",
+            "@value": "selection"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, auswahl"
+        },
+        {
+            "@language": "nl",
+            "@value": "selectie"
+        },
+        {
+            "@language": "es",
+            "@value": "selección"
+        },
+        {
+            "@language": "en",
+            "@value": "selection"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, auswahl"
+        },
+        {
+            "@language": "nl",
+            "@value": "keuze"
+        },
+        {
+            "@language": "es",
+            "@value": "selección"
+        },
+        {
+            "@language": "en",
+            "@value": "selection"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, auswahl"
+        },
+        {
+            "@language": "nl",
+            "@value": "keuze"
+        },
+        {
+            "@language": "en",
+            "@value": "identification"
+        },
+        {
+            "@language": "de",
+            "@value": "-,-, auswahl"
+        },
+        {
+            "@language": "nl",
+            "@value": "selectie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Sichtung"
+        },
+        {
+            "@language": "de",
+            "@value": "Selektionierung(Selektierung)"
+        },
+        {
+            "@language": "de",
+            "@value": "Auswahl"
+        },
+        {
+            "@language": "de",
+            "@value": "Selektion"
+        },
+        {
+            "@language": "nl",
+            "@value": "selectie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "clasificación de las víctimas de un desastre realizado para administrar el tratamiento que impongan en cada caso la gravedad de la lesión o enfermedad y la disponibilidad de instalaciones médicas y facilidades de transporte"
+        },
+        {
+            "@language": "en",
+            "@value": "selection and categorisation of the victims of a disaster with the view to appropriate treatment according to the degree of severity of illness or injury and the availability of medical and transport facilities; -DDMG"
+        },
+        {
+            "@language": "de",
+            "@value": "Auswahl und Kategorisierung von Katastrophenopfern im Hinblick auf eine angemessene Behandlung nach dem Schweregrad der Krankheit oder Verletzung und den verfügbaren medizinischen Einrichtungen und Transportmöglichkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "Het rangschikken van gewonden naar aard en ernst van de verwondingen en het aan de hand daarvan bepalen van behandelings-en/of afvoerurgentie"
+        },
+        {
+            "@language": "en",
+            "@value": "a) the process by which a computer contacts a peripheral or station to send it a message; b) the process of indicating the number of the terminal being called"
+        },
+        {
+            "@language": "nl",
+            "@value": "proces waarbij de computer het contact tot stand brengt met het eindstation waarheen een bericht moet worden verzonden"
+        },
+        {
+            "@language": "en",
+            "@value": "taking the alternative A if the report on a condition is of one stateand alternative B if the report on the condition is of another state"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkiezen van één orgaan of gedragslijn uit meerdere mogelijkheden overeenkomstig de uitslag van een bepaalde test of gestelde voorwaarde"
+        },
+        {
+            "@language": "en",
+            "@value": "algebraic language operator whichwhen applied to a relationreturns the nuplets meeting the specified condition"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkiezen van één orgaan of gedragslijn uit meerdere mogelijke overeenkomstig de uitslag van een bepaalde test of gestelde voorwaarde"
+        }
+    ]
+}

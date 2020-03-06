@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5965339",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der kinder",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1690877",
+    "skos:topConceptOf": "LT5965339",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "guardería"
+        },
+        {
+            "@language": "en",
+            "@value": "child day care"
+        },
+        {
+            "@language": "de",
+            "@value": "-der kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "kinderzorg"
+        },
+        {
+            "@language": "es",
+            "@value": "riesgo sanitario para los niños"
+        },
+        {
+            "@language": "en",
+            "@value": "health hazard for children"
+        },
+        {
+            "@language": "de",
+            "@value": "-der kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaar voor de gezondheid van kinderen"
+        },
+        {
+            "@language": "en",
+            "@value": "rights of unborn children"
+        },
+        {
+            "@language": "de",
+            "@value": "-der kinder"
+        },
+        {
+            "@language": "es",
+            "@value": "enfermedad de Brown-Symmers"
+        },
+        {
+            "@language": "en",
+            "@value": "Brown-Symmers disease"
+        },
+        {
+            "@language": "de",
+            "@value": "-der kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "encephalitis serosa infantilis"
+        },
+        {
+            "@language": "es",
+            "@value": "deber de cuidar a los hijos"
+        },
+        {
+            "@language": "en",
+            "@value": "responsibilty to safeguard and promote child's health development and welfare"
+        },
+        {
+            "@language": "de",
+            "@value": "-der kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting kinderen levensonderhoud te verschaffen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "akute seröse Enzephalitis der Kinder"
+        },
+        {
+            "@language": "de",
+            "@value": "Enzephalomyelitis Kelly"
+        },
+        {
+            "@language": "nl",
+            "@value": "ziekte van Brown-Summers"
+        },
+        {
+            "@language": "nl",
+            "@value": "infantiele encephalitis serosa"
+        },
+        {
+            "@language": "en",
+            "@value": "responsibilty to maintain and protect a child"
+        },
+        {
+            "@language": "de",
+            "@value": "Pflicht, das Kind zu erziehen und zu beaufsichtigen"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting in de kosten van levensonderhoud van kinderen te voorzien"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "shelter and board provided to pre-school children during the day or part of the dayfor example in nurseries.Financial assistance towards the payment of a nurse to look after children during the day is also included here"
+        },
+        {
+            "@language": "de",
+            "@value": "besonders im Kleinkindalter auftretende perakute seröse Enzephalitis mit Fieber Meningismus gastroenteralen und bulbären Symptomen Koma und Krämpfen"
+        }
+    ]
+}

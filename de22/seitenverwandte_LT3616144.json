@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3616144",
+    "@type": "skos:Concept",
+    "skos:inScheme": "seitenverwandte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1093647",
+    "skos:topConceptOf": "LT3616144",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "pariente colateral"
+        },
+        {
+            "@language": "en",
+            "@value": "collateral relative"
+        },
+        {
+            "@language": "de",
+            "@value": "seitenverwandte"
+        },
+        {
+            "@language": "nl",
+            "@value": "bloedverwant in de zijlijn"
+        },
+        {
+            "@language": "en",
+            "@value": "succession distributed to collaterals"
+        },
+        {
+            "@language": "de",
+            "@value": "seitenverwandte"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfopvolging in de zijlijn"
+        },
+        {
+            "@language": "en",
+            "@value": "collateral heir"
+        },
+        {
+            "@language": "de",
+            "@value": "seitenverwandte"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "colateral"
+        },
+        {
+            "@language": "en",
+            "@value": "collateral"
+        },
+        {
+            "@language": "de",
+            "@value": "Seitenverwandter"
+        },
+        {
+            "@language": "nl",
+            "@value": "collateralen"
+        },
+        {
+            "@language": "nl",
+            "@value": "collateraal, collaterale verwant, collaterale verwanten"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfopvolging in de zijlinie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Pariente biológico que procede de un mismo tronco común pero no en línea directa: hermanos tíos sobrinos etc."
+        },
+        {
+            "@language": "en",
+            "@value": "biological relative who is not a lineal"
+        },
+        {
+            "@language": "de",
+            "@value": "Verwandter der nicht linear ist d. h. von dem man nicht in direkter Linie abstammt und der nicht von einem selbst direkt abstammt"
+        },
+        {
+            "@language": "nl",
+            "@value": "andere bloedverwant dan een bloedverwant in de rechte lijn"
+        },
+        {
+            "@language": "en",
+            "@value": "One who is not of the direct line of deceasedbut comes from a collateral lineas a brothersisteran unclean aunta nephewa nieceor a cousin of deceased.(Black's5th ed.1979p.237)"
+        }
+    ]
+}

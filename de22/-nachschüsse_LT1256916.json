@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1256916",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-nachschüsse",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1113039",
+    "skos:topConceptOf": "LT1256916",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "ajuste a mercado"
+        },
+        {
+            "@language": "en",
+            "@value": "variation margin"
+        },
+        {
+            "@language": "de",
+            "@value": "-nachschüsse"
+        },
+        {
+            "@language": "nl",
+            "@value": "variatiemarge"
+        },
+        {
+            "@language": "es",
+            "@value": "umbral de margen"
+        },
+        {
+            "@language": "en",
+            "@value": "margin threshold"
+        },
+        {
+            "@language": "de",
+            "@value": "-nachschüsse"
+        },
+        {
+            "@language": "nl",
+            "@value": "margedrempel"
+        },
+        {
+            "@language": "es",
+            "@value": "periodo de riesgo del margen"
+        },
+        {
+            "@language": "en",
+            "@value": "margin period of risk"
+        },
+        {
+            "@language": "de",
+            "@value": "-nachschüsse"
+        },
+        {
+            "@language": "nl",
+            "@value": "marge-risicoperiode"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "mark-to-market value"
+        },
+        {
+            "@language": "en",
+            "@value": "maintenance margin"
+        },
+        {
+            "@language": "de",
+            "@value": "Schwankungsmarge"
+        },
+        {
+            "@language": "de",
+            "@value": "Nachschussmargin"
+        },
+        {
+            "@language": "de",
+            "@value": "Nachschussmarge"
+        },
+        {
+            "@language": "nl",
+            "@value": "margerisicoperiode"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1) Margen IATE:1127617 percibido o abonado para reflejar las exposiciones corrientes [ IATE:2233761 ] resultantes de variaciones reales en el precio de mercado [ IATE:1465109 ]. \n2) Importe en efectivo o en valores admisibles que el prestatario debe depositar para que las contrapartes tengan plena cobertura a lo largo de toda la duración de la operación."
+        },
+        {
+            "@language": "en",
+            "@value": "amount of cash or eligible securities that has to be deposited by the borrower to ensure that the counterparties remain fully collateralised throughout the term of a transaction"
+        },
+        {
+            "@language": "de",
+            "@value": "Betrag der in Form von Bargeld oder beleihbaren Wertpapieren vom Kreditnehmer zu hinterlegen ist damit die Geschäftspartner während der gesamten Laufzeit der Transaktion in vollem Umfang abgesichert sind"
+        },
+        {
+            "@language": "nl",
+            "@value": "bedrag aan contanten of in aanmerking komende waardepapieren dat bij een geldgever moet worden gedeponeerd om ervoor te zorgen dat tegenpartijen gedurende de periode waarin een transactie loopt beschikken over volledig onderpand. Het bedrag van de variation margin wordt bepaald door het onderpand symmetrisch op de marktwaarde te bepalen"
+        },
+        {
+            "@language": "es",
+            "@value": "máxima cuantía que una exposición pendiente puede alcanzar antes de que una parte tenga el derecho a pedir garantías reales"
+        },
+        {
+            "@language": "en",
+            "@value": "\"the largest amount of an exposure that remains outstanding until one party has the right to call for collateral\""
+        },
+        {
+            "@language": "de",
+            "@value": "die Höhe die eine ausstehende Forderung maximal erreichen darf bevor ein Vertragspartner das Recht auf Anforderung der Sicherheit hat"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"het hoogste bedrag dat een uitstaande vordering mag bereiken voordat een partij het recht heeft een zekerheid te eisen\""
+        },
+        {
+            "@language": "es",
+            "@value": "periodo de tiempo desde el último intercambio de garantías reales que cubran un conjunto de operaciones compensables con una contraparte en situación de impago hasta que se liquiden las operaciones y el riesgo de mercado resultante vuelva a cubrirse"
+        },
+        {
+            "@language": "en",
+            "@value": "\"the time period from the last exchange of collateral covering a netting set of transactions with a defaulting counterpart until that counterpart is closed out and the resulting market risk is re‐hedged\""
+        },
+        {
+            "@language": "de",
+            "@value": "Zeitraum zwischen dem letzten Austausch von Sicherheiten die den mit einer ausfallenden Gegenpartei bestehenden Netting-Satz besichern und dem Zeitpunkt zu dem die mit der Gegenpartei bestehenden Geschäfte beendet werden und das resultierende Marktrisiko erneut abgesichert wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"de periode vanaf de laatste ruil van zekerheden ter dekking van een samenstel van verrekenbare transacties met een in gebreke blijvende tegenpartij totdat de betrokken tegenpartij is geliquideerd en het resulterende marktrisico opnieuw is afgedekt\""
+        }
+    ]
+}

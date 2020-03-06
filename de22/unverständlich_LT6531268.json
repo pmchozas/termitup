@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6531268",
+    "@type": "skos:Concept",
+    "skos:inScheme": "unverständlich",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1370245",
+    "skos:topConceptOf": "LT6531268",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "murmullo confuso"
+        },
+        {
+            "@language": "en",
+            "@value": "babble"
+        },
+        {
+            "@language": "de",
+            "@value": "unverständlich"
+        },
+        {
+            "@language": "nl",
+            "@value": "telefoongeruis"
+        },
+        {
+            "@language": "es",
+            "@value": "diafonía ininteligible"
+        },
+        {
+            "@language": "en",
+            "@value": "unintelligible crosstalk"
+        },
+        {
+            "@language": "de",
+            "@value": "unverständlich"
+        },
+        {
+            "@language": "nl",
+            "@value": "onverstaanbare overspraak"
+        },
+        {
+            "@language": "es",
+            "@value": "componente de diafonía inteligible"
+        },
+        {
+            "@language": "en",
+            "@value": "unintelligible crosstalk component"
+        },
+        {
+            "@language": "de",
+            "@value": "unverständlich"
+        },
+        {
+            "@language": "nl",
+            "@value": "onverstaanbare-overspraakcomponent"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "diafonía múltiple"
+        },
+        {
+            "@language": "es",
+            "@value": "diafonía"
+        },
+        {
+            "@language": "en",
+            "@value": "multiple crosstalk"
+        },
+        {
+            "@language": "en",
+            "@value": "crosstalk noise"
+        },
+        {
+            "@language": "de",
+            "@value": "Gemurmel"
+        },
+        {
+            "@language": "de",
+            "@value": "Geglapper"
+        },
+        {
+            "@language": "de",
+            "@value": "Mehrfachnebensprechen"
+        },
+        {
+            "@language": "de",
+            "@value": "unverstandliches Nebensprechen"
+        },
+        {
+            "@language": "nl",
+            "@value": "meervoudige overspraak"
+        },
+        {
+            "@language": "nl",
+            "@value": "overspraakruis"
+        },
+        {
+            "@language": "es",
+            "@value": "diafonía invertida"
+        },
+        {
+            "@language": "en",
+            "@value": "inverted crosstalk"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-verstaanbaar overspreken"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the aggregate crosstalk from a number of disturbing sources; the circuit noise due to the aggregate crosstalk from a number of disturbing sources"
+        },
+        {
+            "@language": "nl",
+            "@value": "ruis in een kanaal ten gevolge van het gezamenlijk overspreken van een groot aantal storende kanalen ;De ruis in een kanaal tengevolge van overspraak van een aantal storende kanalen.;ruis in een kanaal tengevolge van overspraak van een aantal storende kanalen"
+        },
+        {
+            "@language": "en",
+            "@value": "a crosstalk givingin the disturbed channelunintelligible telephone signals"
+        },
+        {
+            "@language": "nl",
+            "@value": "bij telefonie overspreken dat aanleiding geeft tot het ontstaan van niet-verstaanbare bijgeluiden in het gestoorde kanaal"
+        },
+        {
+            "@language": "es",
+            "@value": "son las corrientes transferidas procedentes de corrientes vocales que pueden introducirse en ciertos canales en el punto considerado y provocar en ellos una diafonía inteligible"
+        },
+        {
+            "@language": "en",
+            "@value": "the transferred speech currents which can introduce unintelligible crosstalk into certain channels at the point considered"
+        }
+    ]
+}

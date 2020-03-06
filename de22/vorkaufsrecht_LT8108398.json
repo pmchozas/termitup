@@ -1,0 +1,232 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8108398",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vorkaufsrecht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239515",
+    "skos:topConceptOf": "LT8108398",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "pre-emption right"
+        },
+        {
+            "@language": "de",
+            "@value": "vorkaufsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "recht van voorkeur"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho de prelación"
+        },
+        {
+            "@language": "en",
+            "@value": "right of pre-emption"
+        },
+        {
+            "@language": "de",
+            "@value": "vorkaufsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "recht van voorkoop"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho preferente de compra"
+        },
+        {
+            "@language": "en",
+            "@value": "pre-emption"
+        },
+        {
+            "@language": "de",
+            "@value": "vorkaufsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorkoop"
+        },
+        {
+            "@language": "en",
+            "@value": "purchase option"
+        },
+        {
+            "@language": "de",
+            "@value": "vorkaufsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "optie voor koop"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho preferente de suscripción"
+        },
+        {
+            "@language": "en",
+            "@value": "right"
+        },
+        {
+            "@language": "de",
+            "@value": "vorkaufsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "recht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "preemption rights"
+        },
+        {
+            "@language": "en",
+            "@value": "right of pre-emption"
+        },
+        {
+            "@language": "en",
+            "@value": "preemptive right"
+        },
+        {
+            "@language": "en",
+            "@value": "pre-emptive right"
+        },
+        {
+            "@language": "en",
+            "@value": "subscription right"
+        },
+        {
+            "@language": "en",
+            "@value": "subscription privilege"
+        },
+        {
+            "@language": "en",
+            "@value": "preemptive subscription right"
+        },
+        {
+            "@language": "de",
+            "@value": "Zeichnungsrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "Subskriptionsrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "Zeichnungsberechtigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht auf vorzugsweise Zeichnung"
+        },
+        {
+            "@language": "de",
+            "@value": "Vorkaufsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorkeursrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "claimrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "claim"
+        },
+        {
+            "@language": "nl",
+            "@value": "inschrijvingsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "optierecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "intekeningsrecht"
+        },
+        {
+            "@language": "nl",
+            "@value": "toe-eigening vooraf"
+        },
+        {
+            "@language": "nl",
+            "@value": "pre-emptie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "right of current shareholders to maintain their fractional ownership of a company by buying a proportional number of shares of any future issue of common stock"
+        },
+        {
+            "@language": "de",
+            "@value": "a) das dem Aktionär eingeräumte Recht bei einer Kapitalerhöhung einen seinem Anteil am bisherigen Grundkapital entsprechenden Teil der neuen Aktien zu beziehen; b) Urkunde die das Bezugsrecht verbrieft"
+        },
+        {
+            "@language": "nl",
+            "@value": "a)het aan aandeelhouders toegekende recht om bij een verhoging van het kapitaal voor een met hun aandelenbezit overeenkomend aantal nieuwe aandelen in te schrijven;b)het document waaran dit recht is verbonden"
+        },
+        {
+            "@language": "es",
+            "@value": "Orden de preferencia con la que deben realizarse los pagos en caso de incapacidad del deudor para hacer frente a todos ellos."
+        },
+        {
+            "@language": "en",
+            "@value": "1.The right of first refusal to purchase land in the event that the grantor of the right should decide to sell."
+        },
+        {
+            "@language": "en",
+            "@value": "the legal or contractual right to elect to purchase under certain conditions the property concerned"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzliches oder vertragliches Recht einen Gegenstand zu bestimmten Bedingungen mit Vorzug gegenüber einem Dritten zu kaufen"
+        },
+        {
+            "@language": "nl",
+            "@value": "het door de wet bepaalde of bij overeenkomst bedongen recht om een zaak bij voorrang boven alle andere gegadigden op bepaalde voorwaarden te mogen kopen"
+        },
+        {
+            "@language": "en",
+            "@value": "a special security issued by a company in a rights offering(typically good for only a short period)that gives a stockholder the right to purchase new shares issued by the corporation at a preset priceusually below the market price"
+        }
+    ]
+}

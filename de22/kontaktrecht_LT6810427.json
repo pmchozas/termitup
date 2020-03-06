@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6810427",
+    "@type": "skos:Concept",
+    "skos:inScheme": "kontaktrecht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3572661",
+    "skos:topConceptOf": "LT6810427",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "visitation right"
+        },
+        {
+            "@language": "de",
+            "@value": "kontaktrecht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "child visitation right"
+        },
+        {
+            "@language": "en",
+            "@value": "right of visitation"
+        },
+        {
+            "@language": "en",
+            "@value": "visiting right"
+        },
+        {
+            "@language": "de",
+            "@value": "Kontaktrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "Besuchsrecht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "in family law the right granted by a court to a parent or other relative who is deprived of custody1 of a child to visit the child on a regular basis"
+        },
+        {
+            "@language": "de",
+            "@value": "im Familienrecht unabhängig von der Regelung der elterlichen Sorge bestehendes Recht zum persönlichen Umgang mit dem Kind und des Kindes mit seinen Bezugspersonen"
+        }
+    ]
+}

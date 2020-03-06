@@ -1,0 +1,116 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3453644",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vormerkung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/849060",
+    "skos:topConceptOf": "LT3453644",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "pre-emption entry"
+        },
+        {
+            "@language": "de",
+            "@value": "vormerkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vóór-aantekening in het \"Grundbuch\""
+        },
+        {
+            "@language": "de",
+            "@value": "vormerkung"
+        },
+        {
+            "@language": "de",
+            "@value": "vormerkung"
+        },
+        {
+            "@language": "en",
+            "@value": "reservation of areas"
+        },
+        {
+            "@language": "de",
+            "@value": "vormerkung"
+        },
+        {
+            "@language": "es",
+            "@value": "anotación previa en el Registro de la propiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "caution in the land register"
+        },
+        {
+            "@language": "de",
+            "@value": "vormerkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorinschrijving in het hypotheekregister"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Auflassungsvormerkung im Grundbuch"
+        },
+        {
+            "@language": "de",
+            "@value": "Vormerkung im Grundbuch"
+        },
+        {
+            "@language": "de",
+            "@value": "bücherliche Anmerkung"
+        },
+        {
+            "@language": "de",
+            "@value": "Vormerkung"
+        },
+        {
+            "@language": "de",
+            "@value": "Zwischenverfügung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Eintragung im Grundbuch die entweder bloß zur Ersichtlichmachung rechtserheblicher Umstände insbesondere persönlicher Verhältnisse (z.B. Bestellung eines Sachwalters) dient; oder die darüber hinaus besonders geregelte Rechtswirkungen auslöst (z.B. Streitanmerkung)."
+        },
+        {
+            "@language": "de",
+            "@value": "eine Eintragung ins Grundbuch die einen bedingten Rechtserwerb oder Verlust mit sich bringt und nur unter der Bedingung ihrer nachfolgenden Rechtfertigung die Erwerbung Übertragung Beschränkung oder Erlöschung bücherlicher Rechte bewirkt."
+        }
+    ]
+}

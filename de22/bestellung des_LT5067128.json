@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5067128",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bestellung des",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/872938",
+    "skos:topConceptOf": "LT5067128",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "judgment appointing the liquidator"
+        },
+        {
+            "@language": "de",
+            "@value": "bestellung des"
+        },
+        {
+            "@language": "es",
+            "@value": "labor"
+        },
+        {
+            "@language": "de",
+            "@value": "bestellung des"
+        },
+        {
+            "@language": "nl",
+            "@value": "cultuurmaatregel"
+        },
+        {
+            "@language": "es",
+            "@value": "mando"
+        },
+        {
+            "@language": "en",
+            "@value": "order"
+        },
+        {
+            "@language": "de",
+            "@value": "bestellung des"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestellen"
+        },
+        {
+            "@language": "en",
+            "@value": "irregularity in the appointment"
+        },
+        {
+            "@language": "de",
+            "@value": "bestellung des"
+        },
+        {
+            "@language": "nl",
+            "@value": "onregelmatigheid in de benoeming"
+        },
+        {
+            "@language": "es",
+            "@value": "suscripción solicitada tardíamente"
+        },
+        {
+            "@language": "en",
+            "@value": "late application for subscription"
+        },
+        {
+            "@language": "de",
+            "@value": "bestellung des"
+        },
+        {
+            "@language": "nl",
+            "@value": "laattijdig besteld abonnement"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Feldbestellung"
+        },
+        {
+            "@language": "es",
+            "@value": "orden"
+        },
+        {
+            "@language": "de",
+            "@value": "nachträgliche Bestellung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "das Bearbeiten der Felder"
+        },
+        {
+            "@language": "de",
+            "@value": "Bestellung ist die Auftragserteilung zum Zweck der Beschaffung eines Dokuments"
+        }
+    ]
+}

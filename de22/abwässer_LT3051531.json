@@ -1,0 +1,211 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3051531",
+    "@type": "skos:Concept",
+    "skos:inScheme": "abwässer",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1402333",
+    "skos:topConceptOf": "LT3051531",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "wastewater"
+        },
+        {
+            "@language": "de",
+            "@value": "abwässer"
+        },
+        {
+            "@language": "es",
+            "@value": "aguas residuales"
+        },
+        {
+            "@language": "en",
+            "@value": "waste water"
+        },
+        {
+            "@language": "de",
+            "@value": "abwässer"
+        },
+        {
+            "@language": "nl",
+            "@value": "afvalwater"
+        },
+        {
+            "@language": "es",
+            "@value": "efluente"
+        },
+        {
+            "@language": "en",
+            "@value": "effluent"
+        },
+        {
+            "@language": "de",
+            "@value": "abwässer"
+        },
+        {
+            "@language": "nl",
+            "@value": "afvalwater"
+        },
+        {
+            "@language": "es",
+            "@value": "agua usada"
+        },
+        {
+            "@language": "en",
+            "@value": "sewage"
+        },
+        {
+            "@language": "de",
+            "@value": "abwässer"
+        },
+        {
+            "@language": "es",
+            "@value": "agua contaminada"
+        },
+        {
+            "@language": "en",
+            "@value": "foul water"
+        },
+        {
+            "@language": "de",
+            "@value": "abwässer"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " waste water"
+        },
+        {
+            "@language": "de",
+            "@value": " Abwässer"
+        },
+        {
+            "@language": "es",
+            "@value": " aguas sucias"
+        },
+        {
+            "@language": "en",
+            "@value": " soiled water"
+        },
+        {
+            "@language": "en",
+            "@value": " farmyard dirty water"
+        },
+        {
+            "@language": "nl",
+            "@value": " vervuild water"
+        },
+        {
+            "@language": "nl",
+            "@value": " verontreinigd water"
+        },
+        {
+            "@language": "es",
+            "@value": " aguas de desecho"
+        },
+        {
+            "@language": "en",
+            "@value": " used water"
+        },
+        {
+            "@language": "es",
+            "@value": " agua polucionada"
+        },
+        {
+            "@language": "en",
+            "@value": " polluted water"
+        },
+        {
+            "@language": "de",
+            "@value": " verunreinigtes Wasser"
+        },
+        {
+            "@language": "de",
+            "@value": " Abwasser"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "water from any combination of domestic industrial commercial or agricultural activities surface runoff [ IATE:1415844 ]/stormwater [ IATE:1427108 ] and any sewer inflow/infiltration"
+        },
+        {
+            "@language": "de",
+            "@value": "Wasser das aus überbauten Gebieten abgeleitet werden muß darunter Abwasser aus Haushalt Gewerbe und Industrie einschließlich Kühlwasser sowie Regenwasser Schneeschmelz-und Sickerwasser ob verschmutzt oder unverschmutzt ;Nicht trinkbare gesundheitsgefährdende verschmutzte Haushalts-und Industrieabwässer"
+        },
+        {
+            "@language": "es",
+            "@value": "Aguas de escorrentía [ IATE:1118855 ] pluvial que suelen estar mezcladas con estiércol [ IATE:1255100 ] agua procedente de la limpieza de superficies (p. ej. suelos) y equipos y agua generada por el funcionamiento de sistemas de depuración del aire."
+        },
+        {
+            "@language": "en",
+            "@value": "rainwater run-off [ IATE:1118855 ] commonly mixed with manure [ IATE:1255100 ] water derived from the cleaning of surfaces (e.g. floors) and equipment and water derived from the operation of air cleaning systems on a farm"
+        },
+        {
+            "@language": "nl",
+            "@value": "afvloeiend hemelwater gewoonlijk gemengd met mest water afkomstig van het reinigen van oppervlakken (bv. vloeren) en uitrusting alsmede water afkomstig van luchtzuiveringssystemen"
+        },
+        {
+            "@language": "es",
+            "@value": "flujo de agua tratada o no procedente de residuos domésticos urbanos agrícolas o industriales"
+        },
+        {
+            "@language": "en",
+            "@value": "some sewage water or other liquid partially or completely treated or in its natural state flowing out of a reservoir basin or treatment plant"
+        },
+        {
+            "@language": "de",
+            "@value": "Das in Haushalt Gewerbe Landwirtschaft oder Industrie anfallende gebrauchte Wasser behandelt oder unbehandelt"
+        },
+        {
+            "@language": "nl",
+            "@value": "Water dat in huishouding of industrie zijn diensten gedaan heeft en gewoonlijk met verschillende stoffen beladen is"
+        },
+        {
+            "@language": "es",
+            "@value": "agua utilizada por el hombre para su consumo su actividad o su confort"
+        },
+        {
+            "@language": "en",
+            "@value": "waste matter transported through sewers"
+        },
+        {
+            "@language": "es",
+            "@value": "agua que contiene en su seno organismos patógenos o sustancias minerales u orgánicas de diverso origen que la hace inadecuada para la mayoría de los usos"
+        },
+        {
+            "@language": "en",
+            "@value": "a water which is charged with or characterised by offensive or noinsome matter; water containing sewage or other contaminants"
+        }
+    ]
+}

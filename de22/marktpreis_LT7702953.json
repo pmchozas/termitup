@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7702953",
+    "@type": "skos:Concept",
+    "skos:inScheme": "marktpreis",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239809",
+    "skos:topConceptOf": "LT7702953",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "precio de mercado"
+        },
+        {
+            "@language": "en",
+            "@value": "market price"
+        },
+        {
+            "@language": "de",
+            "@value": "marktpreis"
+        },
+        {
+            "@language": "nl",
+            "@value": "marktprijs"
+        },
+        {
+            "@language": "en",
+            "@value": "market value"
+        },
+        {
+            "@language": "de",
+            "@value": "marktpreis"
+        },
+        {
+            "@language": "nl",
+            "@value": "1a)beurskoers"
+        },
+        {
+            "@language": "es",
+            "@value": "precio basado en el mercado"
+        },
+        {
+            "@language": "en",
+            "@value": "market-based price"
+        },
+        {
+            "@language": "de",
+            "@value": "marktpreis"
+        },
+        {
+            "@language": "nl",
+            "@value": "martkprijs"
+        },
+        {
+            "@language": "es",
+            "@value": "precio unitario de mercado"
+        },
+        {
+            "@language": "en",
+            "@value": "unit market price"
+        },
+        {
+            "@language": "de",
+            "@value": "marktpreis"
+        },
+        {
+            "@language": "nl",
+            "@value": "marktprijs per eenheid"
+        },
+        {
+            "@language": "en",
+            "@value": "quoted market price"
+        },
+        {
+            "@language": "de",
+            "@value": "marktpreis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Marktpreis"
+        },
+        {
+            "@language": "nl",
+            "@value": "1b)notering"
+        },
+        {
+            "@language": "nl",
+            "@value": "marktprijs"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Precio real al que puede comprarse un bien o servicio en un mercado concreto es decir aquel en el que en condiciones normales de mercado la oferta iguala a la demanda."
+        },
+        {
+            "@language": "en",
+            "@value": "the current price at which an asset or service can be bought or sold"
+        },
+        {
+            "@language": "de",
+            "@value": "Preis den ein Gut oder eine Leistung zu einem bestimmten Zeitpunkt auf einem bestimmten Markt hat"
+        },
+        {
+            "@language": "nl",
+            "@value": "prijs waartegen een goed of dienst kan worden verkocht of gekocht en die op een markt tot stand komt als resultante van alle vraag en aanbod op een bepaald moment"
+        },
+        {
+            "@language": "en",
+            "@value": "a) the price on a commodity exchange of an article; b) the price in the open market of an article"
+        },
+        {
+            "@language": "de",
+            "@value": "a)Preis von Wertpapieren an einer Börse;b)Preis von Waren an einer Börse"
+        },
+        {
+            "@language": "nl",
+            "@value": "a)de op de beurs genoteerde prijs voor effecten;b)de op de beurs genoteerde prijs voor goederen"
+        },
+        {
+            "@language": "en",
+            "@value": "a price set by the mutual decisions of many buyers and sellers in a competitive market"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentlich zugängliche Information über einen in einem aktiven Markt vorhandenen Preis"
+        }
+    ],
+    "skos:broader": [],
+    "skos:related": [
+        "LT7861179"
+    ]
+}

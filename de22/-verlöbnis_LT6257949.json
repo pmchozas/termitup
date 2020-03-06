@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6257949",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-verlöbnis",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583440",
+    "skos:topConceptOf": "LT6257949",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "esponsales"
+        },
+        {
+            "@language": "en",
+            "@value": "engagement"
+        },
+        {
+            "@language": "de",
+            "@value": "-verlöbnis"
+        },
+        {
+            "@language": "nl",
+            "@value": "verloving"
+        },
+        {
+            "@language": "de",
+            "@value": "-verlöbnis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Verlöbnis"
+        },
+        {
+            "@language": "de",
+            "@value": "Verlöbnis"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "Zich verbinden door middel van trouwbeloften. Volgens de klassieke rechtsleer en de gevestigde rechtspraak is de verloving enkel een feitelijke toestand die buiten het gebied van het recht blijft. De verbintenis om met elkaar te trouwen druist in tegen de openbare orde omdat zij de huwelijksvrijheid beperkt."
+        },
+        {
+            "@language": "de",
+            "@value": "ein vorläufiges Versprechen sich zu ehelichen unter was für Umständen oder Bedingungen es gegeben oder erhalten worden zieht keine rechtliche Verbindlichkeit nach sich weder zur Schließung der Ehe selbst noch zur Leistung desjenigen was auf den Fall des Rücktrittes bedungen worden ist."
+        }
+    ]
+}

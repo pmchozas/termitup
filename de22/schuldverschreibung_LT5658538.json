@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5658538",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schuldverschreibung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/844627",
+    "skos:topConceptOf": "LT5658538",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "obligación"
+        },
+        {
+            "@language": "en",
+            "@value": "bond"
+        },
+        {
+            "@language": "de",
+            "@value": "schuldverschreibung"
+        },
+        {
+            "@language": "nl",
+            "@value": "obligatie"
+        },
+        {
+            "@language": "es",
+            "@value": "empréstito"
+        },
+        {
+            "@language": "en",
+            "@value": "bond issue"
+        },
+        {
+            "@language": "de",
+            "@value": "schuldverschreibung"
+        },
+        {
+            "@language": "nl",
+            "@value": "obligatielening"
+        },
+        {
+            "@language": "en",
+            "@value": "debt certificate"
+        },
+        {
+            "@language": "de",
+            "@value": "schuldverschreibung"
+        },
+        {
+            "@language": "de",
+            "@value": "schuldverschreibung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldbrief"
+        },
+        {
+            "@language": "es",
+            "@value": "obligación propia"
+        },
+        {
+            "@language": "en",
+            "@value": "own-debt security"
+        },
+        {
+            "@language": "de",
+            "@value": "schuldverschreibung"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigen obligatie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "bono"
+        },
+        {
+            "@language": "de",
+            "@value": "Obligation"
+        },
+        {
+            "@language": "de",
+            "@value": "Anleihe"
+        },
+        {
+            "@language": "de",
+            "@value": "festverzinsliches Wertpapier"
+        },
+        {
+            "@language": "de",
+            "@value": "Rentenpapier"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldbewijs"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldbrief"
+        },
+        {
+            "@language": "nl",
+            "@value": "pandbewijs"
+        },
+        {
+            "@language": "nl",
+            "@value": "schuldbekentenis"
+        },
+        {
+            "@language": "es",
+            "@value": "empréstito obligacional"
+        },
+        {
+            "@language": "en",
+            "@value": "bond loan"
+        },
+        {
+            "@language": "en",
+            "@value": "debenture loan"
+        },
+        {
+            "@language": "de",
+            "@value": "Schuldverschreibung"
+        },
+        {
+            "@language": "de",
+            "@value": "Obligation"
+        },
+        {
+            "@language": "de",
+            "@value": "Obligationsanleihe"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Valor mobiliario IATE:754316 que representa una parte proporcional de un empréstito IATE:860905 . La sociedad emisora IATE:1557075 se compromete a retribuir a los tenedores de los valores (obligacionistas) con un interés que puede ser fijo o variable y a devolver el capital aportado en la fecha establecida para el vencimiento de los títulos."
+        },
+        {
+            "@language": "en",
+            "@value": "debt security which entitles its holder to receive interest payments on specified dates following its date of issue and to repayment of its face value at the end of its term to maturity"
+        },
+        {
+            "@language": "de",
+            "@value": "börsenfähiges Wertpapier das das Recht des Gläubigers (= Inhabers) gegen den Schuldner (= Emittenten) auf laufende Zinszahlungen und die Rückzahlung des zur Verfügung gestellten Kapitals zu einem bestimmten Zeitpunkt verbrieft"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"verhandelbaar bewijs van deelneming in een geldlening met een vaste nominale waarde waarover een meestal vaste rente wordt betaald. Na verloop van de looptijd wordt de geldlening afgelost.\""
+        },
+        {
+            "@language": "es",
+            "@value": "Forma de financiación por la que una empresa o entidad acude al mercado para solicitar un préstamo a un gran número de inversores dividiendo la deuda en pequeñas participaciones (títulos-valores). Todos los títulos de una emisión comparten las mismas características en cuanto a importe remuneración vencimiento etc."
+        },
+        {
+            "@language": "en",
+            "@value": "A debt instrument (security) issued by a government company or other entity usually for a period of more than one year in order to raise capital by borrowing."
+        },
+        {
+            "@language": "de",
+            "@value": "Schuldaufnahmen größeren Umfangs am Kapitalmarkt insb. gegen Ausgabe von Schuldverschreibungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"geldlening op lange termijn afgesloten met een meestal groot aantal vermogensverschaffers. Deze krijgen als bewijs voor de door hen verstrekte geldbedragen schuldbekentenissen. De geldnemer een onderneming of andere instelling bijvoorbeeld de overheid is verplicht om een vast interestbedrag (meestal jaarlijks) te betalen.\""
+        },
+        {
+            "@language": "de",
+            "@value": "Br."
+        },
+        {
+            "@language": "nl",
+            "@value": "F.A."
+        }
+    ]
+}

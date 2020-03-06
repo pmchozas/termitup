@@ -1,0 +1,228 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9298230",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-bevollmächtigter",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3570822",
+    "skos:topConceptOf": "LT9298230",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "representante de una parte"
+        },
+        {
+            "@language": "en",
+            "@value": "representative of a party"
+        },
+        {
+            "@language": "de",
+            "@value": "-bevollmächtigter"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertegenwoordiger van een partij"
+        },
+        {
+            "@language": "es",
+            "@value": "mandatario"
+        },
+        {
+            "@language": "en",
+            "@value": "agent"
+        },
+        {
+            "@language": "de",
+            "@value": "-bevollmächtigter"
+        },
+        {
+            "@language": "nl",
+            "@value": "lasthebber"
+        },
+        {
+            "@language": "es",
+            "@value": "mandatario"
+        },
+        {
+            "@language": "en",
+            "@value": "nominee"
+        },
+        {
+            "@language": "de",
+            "@value": "-bevollmächtigter"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevolmachtigde"
+        },
+        {
+            "@language": "es",
+            "@value": "delegado"
+        },
+        {
+            "@language": "en",
+            "@value": "empowered person"
+        },
+        {
+            "@language": "de",
+            "@value": "-bevollmächtigter"
+        },
+        {
+            "@language": "nl",
+            "@value": "gedelegeerde"
+        },
+        {
+            "@language": "es",
+            "@value": "mandatario"
+        },
+        {
+            "@language": "en",
+            "@value": "authorised representative"
+        },
+        {
+            "@language": "de",
+            "@value": "-bevollmächtigter"
+        },
+        {
+            "@language": "nl",
+            "@value": "gemachtigde"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Prozessbevollmächtigter"
+        },
+        {
+            "@language": "de",
+            "@value": "Parteivertreter"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertreter einer Partei"
+        },
+        {
+            "@language": "es",
+            "@value": "apoderado"
+        },
+        {
+            "@language": "es",
+            "@value": "encargado de negocios"
+        },
+        {
+            "@language": "es",
+            "@value": "delegado"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertreter"
+        },
+        {
+            "@language": "de",
+            "@value": "Agent"
+        },
+        {
+            "@language": "es",
+            "@value": "representante"
+        },
+        {
+            "@language": "es",
+            "@value": "depositario"
+        },
+        {
+            "@language": "es",
+            "@value": "testaferro"
+        },
+        {
+            "@language": "nl",
+            "@value": "nominee"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertegenwoordiger"
+        },
+        {
+            "@language": "nl",
+            "@value": "delegatieverkrijger"
+        },
+        {
+            "@language": "de",
+            "@value": "bevollmächtigter Vertreter"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevolmachtigde"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a person authorised by a citizen to deal with the authorities on her or his behalf"
+        },
+        {
+            "@language": "de",
+            "@value": "zum Handeln im Namen einer anderen Person Ermächtigter"
+        },
+        {
+            "@language": "en",
+            "@value": "person who is authorised to act for another"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentlich oder privat Beauftragter"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoon die in naam en voor rekening van een ander een of meer rechtshandelingen mag verrichten"
+        },
+        {
+            "@language": "es",
+            "@value": "En el mandato persona que acepta el cargo del mandante."
+        },
+        {
+            "@language": "en",
+            "@value": "legal owner of property who holds it on behalf of the beneficial owner"
+        },
+        {
+            "@language": "de",
+            "@value": "per Willenserklärung bzw. durch deren Empfang für eine andere Person in deren Namen handelnder und entscheidender Stellvertreter"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoon of (financiële) instelling die 'in naam' eigenaar is van aandelen of een bedrijf en voor de werkelijke aandeelhouder een aantal diensten verricht"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"een in de Gemeenschap gevestigde natuurlijke of rechtspersoon die schriftelijk door een fabrikant is gemachtigd om namens hem specifieke taken te vervullen\""
+        }
+    ]
+}

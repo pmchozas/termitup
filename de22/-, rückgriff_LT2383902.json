@@ -1,0 +1,176 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2383902",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, rückgriff",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239851",
+    "skos:topConceptOf": "LT2383902",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "right of recourse"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rückgriff"
+        },
+        {
+            "@language": "nl",
+            "@value": "regres"
+        },
+        {
+            "@language": "es",
+            "@value": "sin acción regresiva"
+        },
+        {
+            "@language": "en",
+            "@value": "without recourse"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rückgriff"
+        },
+        {
+            "@language": "nl",
+            "@value": "zonder regres"
+        },
+        {
+            "@language": "es",
+            "@value": "recurso a las capacidades de otras entidades"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rückgriff"
+        },
+        {
+            "@language": "nl",
+            "@value": "beroep op de draagkracht van andere lichamen"
+        },
+        {
+            "@language": "es",
+            "@value": "cesión con derecho de recurso a favor del comprador"
+        },
+        {
+            "@language": "en",
+            "@value": "transaction with recourse"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rückgriff"
+        },
+        {
+            "@language": "nl",
+            "@value": "transactie met regres"
+        },
+        {
+            "@language": "es",
+            "@value": "factoring con recurso"
+        },
+        {
+            "@language": "en",
+            "@value": "factoring with recourse"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rückgriff"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "regress"
+        },
+        {
+            "@language": "de",
+            "@value": "Rückgriff"
+        },
+        {
+            "@language": "nl",
+            "@value": "verhaal"
+        },
+        {
+            "@language": "de",
+            "@value": "ohne Rueckgriff"
+        },
+        {
+            "@language": "nl",
+            "@value": "à forfait"
+        },
+        {
+            "@language": "es",
+            "@value": "recurso a las capacidades de un tercero"
+        },
+        {
+            "@language": "de",
+            "@value": "Rückgriff auf Dritte"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the claim of a creditor against a third party in respect of a liability not met by a debtor"
+        },
+        {
+            "@language": "de",
+            "@value": "Inanspruchnahme eines Dritten wegen bestimmter Forderungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "recht van verhaal op een derde wegens bepaalde vorderingen; verhaalsrecht van een niet-betaalde houder van een wissel op de voorgaande endossant die weer zijn voorganger kan aanspreken; ook (in het algemeen) recht op schadevergoeding of terugbet aling"
+        },
+        {
+            "@language": "en",
+            "@value": "in discounting billsthe bank can waive its right of recourse"
+        },
+        {
+            "@language": "de",
+            "@value": "Vermerk auf Wechseln durch den die Haftung fuer Zahlung ausgeschlossen werden soll; gilt nach deutschem Recht als nicht geschrieben"
+        },
+        {
+            "@language": "de",
+            "@value": "Inanspruchnahme der Kapazitäten von Drittunternehmen durch einen Bewerber oder Bieter für einen bestimmten öffentlichen Auftrag im Hinblick auf die erforderliche wirtschaftliche und finanzielle sowie die technische und berufliche Leistungsfähigkeit. [DE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Acuerdo por el que un banco cede a un tercero un préstamo u otro activo pero sigue estando obligado a asumir el riesgo crediticio en caso de impago del prestatario o de deterioro del valor del activo."
+        },
+        {
+            "@language": "en",
+            "@value": "arrangement whereby a business sells a debt to a third party in exchange for a percentage of the debt's total value but the business remains liable for the debt and must pay back its entire value to the third party if the debt remains uncollectible"
+        },
+        {
+            "@language": "de",
+            "@value": "Geschäft bei dem eine Bank einem Dritten eine Kredit- oder sonstige Forderung verkauft aber verpflichtet bleibt das Kreditrisiko zu übernehmen wenn der Kreditnehmer ausfällt oder der Wert der Forderung sich aus sonstigen Gründen mindert"
+        }
+    ]
+}

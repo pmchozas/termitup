@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1664104",
+    "@type": "skos:Concept",
+    "skos:inScheme": "entsagung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3547143",
+    "skos:topConceptOf": "LT1664104",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "entsagung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Erlass"
+        },
+        {
+            "@language": "de",
+            "@value": "Erlassvertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzicht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Rechtsaufgabe des Gläubigers. Der Verzicht kann entgeltlich oder unentgeltlich sein bedarf aber der Zustimmung des Gläubigers."
+        }
+    ]
+}

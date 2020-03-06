@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5021687",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vorschuss",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/2146171",
+    "skos:topConceptOf": "LT5021687",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "anticipo"
+        },
+        {
+            "@language": "en",
+            "@value": "imprest"
+        },
+        {
+            "@language": "de",
+            "@value": "vorschuss"
+        },
+        {
+            "@language": "nl",
+            "@value": "gelden ter goede rekening"
+        },
+        {
+            "@language": "en",
+            "@value": "advance"
+        },
+        {
+            "@language": "de",
+            "@value": "vorschuss"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorschot"
+        },
+        {
+            "@language": "es",
+            "@value": "pago anticipado"
+        },
+        {
+            "@language": "en",
+            "@value": "advance payment"
+        },
+        {
+            "@language": "de",
+            "@value": "vorschuss"
+        },
+        {
+            "@language": "nl",
+            "@value": "vooruitbetaling"
+        },
+        {
+            "@language": "en",
+            "@value": "advance"
+        },
+        {
+            "@language": "de",
+            "@value": "vorschuss"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorschot"
+        },
+        {
+            "@language": "es",
+            "@value": "anticipo"
+        },
+        {
+            "@language": "en",
+            "@value": "advance"
+        },
+        {
+            "@language": "de",
+            "@value": "vorschuss"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Vorauszahlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Vorschusszahlung"
+        },
+        {
+            "@language": "en",
+            "@value": "advance prepayment"
+        },
+        {
+            "@language": "de",
+            "@value": "Vorschuss"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Provisión de fondos correspondiente a una transacción económica que se realiza con anterioridad a la fecha acordada de antemano. \nEn el contexto del presupuesto de la Unión IATE:928874 se refiere en general a una provisión para pagos de escasa cuantía."
+        },
+        {
+            "@language": "en",
+            "@value": "monies advanced for the disbursement of minor amounts on regular basis"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorschot of lening in het bijzonder van overheidswege aan iemand in staatsdienst"
+        },
+        {
+            "@language": "es",
+            "@value": "(I) 1. Pagos provisionales por obras todavía no realizadas suministros todavía no entregados o servicios todavía no prestados. Un anticipo sólo puede entregarse después de que se haya celebrado el contrato se haya reservado un compromiso de crédito delegado y se haya prestado una fianza (por la misma cantidad). Hay tres tipos de anticipo: para suministros para equipamiento y anticipos iniciales. 2. Importes abonados a los Estados ACP o a las entidades que ellos designen para los programas de acción se consideran anticipos hasta que no se haya justificado su utilización de acuerdo con los programas de trabajo. 3. Importes abonados a los Estados ACP por el programa de ajuste estructural se consideran también anticipos hasta que no se haya confirmado la correcta utilización de los fondos por el Estado ACP."
+        },
+        {
+            "@language": "en",
+            "@value": "(I) (1) Provisional payments for works not yet performed supplies not yet delivered or services not yet rendered. An advance can be made only after the contract is concluded an assignment of funds booked and a guarantee (for the same amount) provided. There are three types of advance: for supplies equipment and start-up. (2) Amounts paid to ACP States or their nominated agencies for work on direct labour contracts are considered advances until receipt of supporting documents testifying to their use in compliance with the work programmes. (3) Amounts paid to ACP States for structural adjustment programmes are also considered advances until confirmation of the proper utilisation of the funds by the ACP State is received."
+        },
+        {
+            "@language": "de",
+            "@value": "(I) 1. Vorläufige Zahlungen für noch nicht erbrachte Bau- Liefer- oder Dienstleistungen. Ein Vorschuss kann erst dann gezahlt werden wenn der Vertrag geschlossen ist eine sekundäre Mittelbindung gebucht wurde und eine Bankgarantie (in gleicher Höhe) geleistet ist. Es gibt drei Arten von Vorschüssen: für Lieferungen für Ausrüstung und für die Anlaufphase. 2. Die an die AKP-Staaten oder die von ihnen benannten Stellen ausgezahlten Summen für in staatlicher Regie ausgeführte Aufträge gelten solange als Vorschüsse bis Belege über ihre programmgemäße Verwendung vorliegen. 3. An die AKP-Staaten ausgezahlte Summen für das Strukturanpassungsprogramm gelten ebenfalls als Vorschüsse bis die ordnungsgemäße Verwendung der Mittel durch die AKP-Staaten bestätigt ist."
+        }
+    ]
+}

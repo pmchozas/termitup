@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7684491",
+    "@type": "skos:Concept",
+    "skos:inScheme": "verkaufsauftrag",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1557286",
+    "skos:topConceptOf": "LT7684491",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "orden de venta"
+        },
+        {
+            "@language": "en",
+            "@value": "order to sell"
+        },
+        {
+            "@language": "de",
+            "@value": "verkaufsauftrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkooporder"
+        },
+        {
+            "@language": "es",
+            "@value": "confirmación de compra o de venta"
+        },
+        {
+            "@language": "en",
+            "@value": "confirmation of purchase or sale"
+        },
+        {
+            "@language": "de",
+            "@value": "verkaufsauftrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevestiging van aan-of verkoop"
+        },
+        {
+            "@language": "es",
+            "@value": "sistema de calce de operaciones"
+        },
+        {
+            "@language": "en",
+            "@value": "trade matching system"
+        },
+        {
+            "@language": "de",
+            "@value": "verkaufsauftrag"
+        },
+        {
+            "@language": "nl",
+            "@value": "tradematchingstelsel"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "sistema de case de operaciones"
+        },
+        {
+            "@language": "en",
+            "@value": "order matching system"
+        },
+        {
+            "@language": "nl",
+            "@value": "tradematchingsysteem"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "instructions sent by a clientor his authorized representativeto sell a given quantity of an identified security under specified conditions"
+        },
+        {
+            "@language": "en",
+            "@value": "confirmation sent by the executing party providing for the accounting in detail for the securities as well as the payment side of the deal"
+        },
+        {
+            "@language": "es",
+            "@value": "Sistema por el que se lleva a cabo el proceso de comparar los detalles de una operación (como el número de contratos mes del contrato y precio) presentados por las partes de la negociación. La cámara de compensación por lo general garantiza una operación desde el momento en que ésta ha sido calzada con éxito."
+        },
+        {
+            "@language": "en",
+            "@value": "system for matching trade details (such as number of contracts contract month and price) submitted by the trade counterparties"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"trade matching: Engelse term voor het tegen elkaar wegstrepen van aan- en verkooptransacties in aandelen obligaties of andere financiële waarden zodat uiteindelijk een aan- of verkoopsaldo overblijft.\""
+        }
+    ]
+}

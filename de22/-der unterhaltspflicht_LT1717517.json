@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1717517",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-der unterhaltspflicht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583684",
+    "skos:topConceptOf": "LT1717517",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "abandono de familia"
+        },
+        {
+            "@language": "en",
+            "@value": "failure to fulfil marital or parental obligations"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unterhaltspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-nakoming van de onderhoudsplicht"
+        },
+        {
+            "@language": "es",
+            "@value": "negativa al pago de la prestación alimenticia"
+        },
+        {
+            "@language": "en",
+            "@value": "non-support"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unterhaltspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "weigering tot onderhoud"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unterhaltspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "verlating van familie"
+        },
+        {
+            "@language": "en",
+            "@value": "Convention concerning the recognition and enforcement of decisions relating to maintenance obligations towards children"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unterhaltspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "Verdrag nopens de erkenning en de tenuitvoerlegging van beslissingen over onderhoudsverplichtingen jegens kinderen"
+        },
+        {
+            "@language": "es",
+            "@value": "Convenio sobre reconocimiento y ejecución de decisiones en materia de obligaciones alimenticias con respecto a menores"
+        },
+        {
+            "@language": "en",
+            "@value": "Convention concerning the Recognition and Enforcement of Decisions relating to Maintenance Obligations towards Children"
+        },
+        {
+            "@language": "de",
+            "@value": "-der unterhaltspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "Verdrag nopens de erkenning en de tenuitvoerlegging van beslissingen over onderhoudsverplichtingen jegens kinderen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "failure to maintain"
+        },
+        {
+            "@language": "de",
+            "@value": "Nichterfüllung der Unterhaltspflicht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Incumplimiento de los deberes de asistencia inherentes a la patria potestad y al matrimonio. [ES]"
+        },
+        {
+            "@language": "en",
+            "@value": "The wilful and unjustified abandonment of a person's duty or obligations [...] to a spouse or family [CA]"
+        }
+    ]
+}

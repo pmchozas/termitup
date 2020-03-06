@@ -1,0 +1,135 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3583158",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ärztliche behandlung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1430921",
+    "skos:topConceptOf": "LT3583158",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "medical care"
+        },
+        {
+            "@language": "de",
+            "@value": "ärztliche behandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "medische zorg"
+        },
+        {
+            "@language": "es",
+            "@value": "tratamiento médico"
+        },
+        {
+            "@language": "en",
+            "@value": "medical treatment"
+        },
+        {
+            "@language": "de",
+            "@value": "ärztliche behandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "geneeskundige behandeling"
+        },
+        {
+            "@language": "es",
+            "@value": "atención médica"
+        },
+        {
+            "@language": "en",
+            "@value": "medical attention"
+        },
+        {
+            "@language": "de",
+            "@value": "ärztliche behandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "medische zorg"
+        },
+        {
+            "@language": "es",
+            "@value": "gastos médicos"
+        },
+        {
+            "@language": "en",
+            "@value": "medical expenses"
+        },
+        {
+            "@language": "de",
+            "@value": "ärztliche behandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kosten van geneeskundige hulp"
+        },
+        {
+            "@language": "en",
+            "@value": "medical expenses"
+        },
+        {
+            "@language": "de",
+            "@value": "ärztliche behandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kosten van geneeskundige hulp"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " medizinische Behandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": " medische hulp"
+        },
+        {
+            "@language": "nl",
+            "@value": " medische kosten"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "professional attention by medical practitioners"
+        },
+        {
+            "@language": "nl",
+            "@value": "geneeskundige verzorging en verpleging"
+        }
+    ]
+}

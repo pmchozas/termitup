@@ -1,0 +1,175 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9806931",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, naher",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1491276",
+    "skos:topConceptOf": "LT9806931",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "a corta distancia"
+        },
+        {
+            "@language": "en",
+            "@value": "short-range"
+        },
+        {
+            "@language": "de",
+            "@value": "-, naher"
+        },
+        {
+            "@language": "nl",
+            "@value": "op korte afstand"
+        },
+        {
+            "@language": "es",
+            "@value": "cosido"
+        },
+        {
+            "@language": "en",
+            "@value": "seam stitching"
+        },
+        {
+            "@language": "de",
+            "@value": "-, naher"
+        },
+        {
+            "@language": "nl",
+            "@value": "stikken"
+        },
+        {
+            "@language": "es",
+            "@value": "coser"
+        },
+        {
+            "@language": "en",
+            "@value": "to sew"
+        },
+        {
+            "@language": "de",
+            "@value": "-, naher"
+        },
+        {
+            "@language": "nl",
+            "@value": "naaien"
+        },
+        {
+            "@language": "es",
+            "@value": "hipofosfito de sodio"
+        },
+        {
+            "@language": "en",
+            "@value": "sodium hypophosphite"
+        },
+        {
+            "@language": "de",
+            "@value": "-, naher"
+        },
+        {
+            "@language": "nl",
+            "@value": "natriumhypofosfiet"
+        },
+        {
+            "@language": "es",
+            "@value": "fosfato monosódico"
+        },
+        {
+            "@language": "en",
+            "@value": "monosodium phosphate"
+        },
+        {
+            "@language": "de",
+            "@value": "-, naher"
+        },
+        {
+            "@language": "nl",
+            "@value": "mononatriumfosfaat"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " short range"
+        },
+        {
+            "@language": "de",
+            "@value": " kurze Reichweite"
+        },
+        {
+            "@language": "de",
+            "@value": " Nah-"
+        },
+        {
+            "@language": "de",
+            "@value": " Steppen"
+        },
+        {
+            "@language": "es",
+            "@value": " PO2NaH2"
+        },
+        {
+            "@language": "en",
+            "@value": " NaH2PO2"
+        },
+        {
+            "@language": "de",
+            "@value": " NaH2PO2"
+        },
+        {
+            "@language": "nl",
+            "@value": " NaH2PO2"
+        },
+        {
+            "@language": "es",
+            "@value": " PO4NaH2"
+        },
+        {
+            "@language": "en",
+            "@value": " NaH2PO4"
+        },
+        {
+            "@language": "de",
+            "@value": " NaH2PO4"
+        },
+        {
+            "@language": "nl",
+            "@value": " NaH2PO4"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "het met garen aan elkaar verbinden van de gevouwen vellen van een boek (zie \"genaaid op de rug\" en \"genaaid op het plat\")"
+        }
+    ]
+}

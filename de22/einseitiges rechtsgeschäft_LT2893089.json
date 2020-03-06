@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2893089",
+    "@type": "skos:Concept",
+    "skos:inScheme": "einseitiges rechtsgeschäft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1129994",
+    "skos:topConceptOf": "LT2893089",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "acto jurídico unilateral"
+        },
+        {
+            "@language": "en",
+            "@value": "unilateral legal instrument"
+        },
+        {
+            "@language": "de",
+            "@value": "einseitiges rechtsgeschäft"
+        },
+        {
+            "@language": "nl",
+            "@value": "eenzijdige rechtshandeling"
+        },
+        {
+            "@language": "en",
+            "@value": "act of benevolence"
+        },
+        {
+            "@language": "de",
+            "@value": "einseitiges rechtsgeschäft"
+        },
+        {
+            "@language": "nl",
+            "@value": "eenzijdige rechtshandeling"
+        },
+        {
+            "@language": "en",
+            "@value": "act intended to have legal effect"
+        },
+        {
+            "@language": "de",
+            "@value": "einseitiges rechtsgeschäft"
+        },
+        {
+            "@language": "nl",
+            "@value": "eenzijdige rechtshandeling"
+        },
+        {
+            "@language": "es",
+            "@value": "acto unilateral"
+        },
+        {
+            "@language": "de",
+            "@value": "einseitiges rechtsgeschäft"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "einseitige Rechtshandlung"
+        },
+        {
+            "@language": "de",
+            "@value": "einseitiges Rechtsgeschaeft"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Rechtsgeschaeft das nur aus einer Willenserklaerung besteht"
+        }
+    ]
+}

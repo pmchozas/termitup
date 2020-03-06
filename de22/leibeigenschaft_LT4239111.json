@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4239111",
+    "@type": "skos:Concept",
+    "skos:inScheme": "leibeigenschaft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/153189",
+    "skos:topConceptOf": "LT4239111",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "servidumbre"
+        },
+        {
+            "@language": "de",
+            "@value": "leibeigenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "horigheid"
+        },
+        {
+            "@language": "es",
+            "@value": "servidumbre de la gleba"
+        },
+        {
+            "@language": "en",
+            "@value": "serfdom"
+        },
+        {
+            "@language": "de",
+            "@value": "leibeigenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "lijfeigenschap"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "dienstbaarheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"la condición de la persona que está obligada por la ley por la costumbre o por un acuerdo a vivir y a trabajar sobre una tierra que pertenece a otra persona y a prestar a ésta mediante remuneración o gratuitamente determinados servicios sin libertad para cambiar su condición.\""
+        },
+        {
+            "@language": "en",
+            "@value": "The condition or status of a tenant who is by law custom or agreement bound to live and labour on land belonging to another person and to render some determinate service to such other person whether for reward or not and is not free to change his status."
+        }
+    ]
+}

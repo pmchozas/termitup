@@ -1,0 +1,252 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5374448",
+    "@type": "skos:Concept",
+    "skos:inScheme": "krieg",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/49625",
+    "skos:topConceptOf": "LT5374448",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "guerra"
+        },
+        {
+            "@language": "en",
+            "@value": "war"
+        },
+        {
+            "@language": "de",
+            "@value": "krieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "oorlog"
+        },
+        {
+            "@language": "es",
+            "@value": "guerra fría"
+        },
+        {
+            "@language": "en",
+            "@value": "cold war"
+        },
+        {
+            "@language": "de",
+            "@value": "krieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "koude oorlog"
+        },
+        {
+            "@language": "es",
+            "@value": "Guerra Fría"
+        },
+        {
+            "@language": "en",
+            "@value": "Cold War"
+        },
+        {
+            "@language": "de",
+            "@value": "krieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "Koude Oorlog"
+        },
+        {
+            "@language": "en",
+            "@value": "hybrid warfare"
+        },
+        {
+            "@language": "de",
+            "@value": "krieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "hybride oorlog"
+        },
+        {
+            "@language": "es",
+            "@value": "<i>ius in bello</i>"
+        },
+        {
+            "@language": "en",
+            "@value": "jus in bello"
+        },
+        {
+            "@language": "de",
+            "@value": "krieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "ius in bello"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "hybrid war"
+        },
+        {
+            "@language": "de",
+            "@value": "irreguläre Kriegführung"
+        },
+        {
+            "@language": "de",
+            "@value": "hybrider Krieg"
+        },
+        {
+            "@language": "de",
+            "@value": "Hybrid-Krieg"
+        },
+        {
+            "@language": "de",
+            "@value": "Hybridkrieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "hybride oorlogvoering"
+        },
+        {
+            "@language": "es",
+            "@value": "Derecho aplicable en la guerra"
+        },
+        {
+            "@language": "en",
+            "@value": "law in war"
+        },
+        {
+            "@language": "en",
+            "@value": "ius in bello"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht im Krieg"
+        },
+        {
+            "@language": "nl",
+            "@value": "jus"
+        },
+        {
+            "@language": "nl",
+            "@value": "humanitair oorlogsrecht (soms kortweg oorlogsrecht genoemd)"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationaal humanitair recht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1. Desavenencia y rompimiento de la paz entre dos o más potencias.2. Lucha armada entre dos o más naciones o entre bandos de una misma nación."
+        },
+        {
+            "@language": "en",
+            "@value": "1.Open armed conflict between two or more parties nations or states."
+        },
+        {
+            "@language": "es",
+            "@value": "Expresión empleada después del término de la segunda guerra mundial para caracterizar una situación de tensión política entre Estados que sin llegar al conflicto armado pretenden enfrentarse crearse obstáculos recíprocos buscar ventajas en detrimento de los otros perpetuar sus diferencias en lugar de buscar soluciones amistosas y abstenerse de cualquier esfuerzo de cooperación y comprensión mutua."
+        },
+        {
+            "@language": "en",
+            "@value": "state of political hostility between countries characterised by threats propaganda and other measures short of open warfare"
+        },
+        {
+            "@language": "de",
+            "@value": "Konfrontation zwischen Staaten die sich feindlich gegenüberstehen die Auseinandersetzung jedoch nicht mit kriegerischen Mitteln (d.h. Waffengewalt) sondern mittels Propaganda Drohungen und gegenseitiger Aufrüstung austragen"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"voort­du­ren­de toe­stand van vijandigheid tus­sen sta­ten zich uitend in al­ler­lei hin­der­lij­ke maat­re­gelen en ha­te­lij­ke pro­pa­gan­da en gepaard gaand met (groot­scheep­se) mi­li­tair-in­dus­trië­le voor­be­rei­din­gen op een mo­ge­lijk daad­wer­ke­lijk uit­breken van een oor­log zon­der dat het tot wa­pen­ge­weld komt.\""
+        },
+        {
+            "@language": "es",
+            "@value": "Estado de hostilidad y tensiones geopolíticas entre la Unión Soviética y los Estados Unidos entre 1945 y 1990."
+        },
+        {
+            "@language": "en",
+            "@value": "state of hostility that existed between the Soviet bloc countries and the Western powers from 1945 to 1990"
+        },
+        {
+            "@language": "de",
+            "@value": "Konflikt zwischen den Westmächten unter Führung der Vereinigten Staaten von Amerika und dem sogenannten Ostblock unter Führung der Sowjetunion den diese von 1947 bis 1989 mit nahezu allen Mitteln austrugen"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"periode van gewapende vrede tussen de communistische en de kapitalistische wereld in de tweede helft van de 20e eeuw\""
+        },
+        {
+            "@language": "en",
+            "@value": "broad range of hostile actions of which military force is only a small part that are invariably executed in concert as part of a flexible strategy with long-term objectives"
+        },
+        {
+            "@language": "de",
+            "@value": "Kriegsführung der ein breites Spektrum an traditionellen und unkonventionellen Mitteln zugrundeliegt das den Einsatz von Partisanenkämpfern organisierter Kriminalität Terrorismus Massenvernichtungswaffen Cyberangriffen Störungen der Energieversorgung wirtschaftliche Kriegsführung und Propaganda umfasst"
+        },
+        {
+            "@language": "nl",
+            "@value": "een vorm van oorlogvoering die door de complexiteit van de oorlog de vele betrokken actoren en het vervagen van de conflictcategorieën een veelzijdige inzet van de krijgsmacht vergt en vaak door samenwerking met niet-conventionele strijdkrachten wordt gekenmerkt"
+        },
+        {
+            "@language": "es",
+            "@value": "Conjunto de normas que rige la conducta de los beligerantes durante la guerra y en un sentido más amplio incluye también los derechos y las obligaciones de los neutrales."
+        },
+        {
+            "@language": "en",
+            "@value": "an aspect of the international law of war which addresses the practices forbidden to belligerents during a war defining standards by which a country can conduct war"
+        },
+        {
+            "@language": "de",
+            "@value": "Eine der beiden grundlegenden Ebenen des Konfliktvölkerrechts die Regeln für die Anwendung von Gewalt in bewaffneten Konflikten schafft (\"Recht im Krieg\")"
+        },
+        {
+            "@language": "nl",
+            "@value": "specifieke regels (cf. notes) die gelden ten tijde van gewapende conflicten"
+        }
+    ],
+    "skos:broader": [
+        "LT4753251",
+        "LT6386833"
+    ],
+    "skos:related": [
+        "LT9461715",
+        "LT8911218",
+        "LT5385800",
+        "LT1606918",
+        "LT6397974",
+        "LT6755155"
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5651272",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbschaft, annahme",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130479",
+    "skos:topConceptOf": "LT5651272",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "aceptación de la herencia"
+        },
+        {
+            "@language": "en",
+            "@value": "acceptance of an inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbschaft, annahme"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvaarding van een nalatenschap"
+        },
+        {
+            "@language": "es",
+            "@value": "aceptación expresa"
+        },
+        {
+            "@language": "en",
+            "@value": "express acceptance of an inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbschaft, annahme"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitdrukkelijke aanvaarding van een nalatenschap"
+        },
+        {
+            "@language": "es",
+            "@value": "aceptación tácita"
+        },
+        {
+            "@language": "en",
+            "@value": "tacit acceptance of an inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbschaft, annahme"
+        },
+        {
+            "@language": "nl",
+            "@value": "stilzwijgende aanvaarding van een nalatenschap"
+        },
+        {
+            "@language": "de",
+            "@value": "erbschaft, annahme"
+        },
+        {
+            "@language": "es",
+            "@value": "declaración relativa a la aceptación de la herencia, de un legado o de la parte legítima o la renuncia a los mismos"
+        },
+        {
+            "@language": "en",
+            "@value": "declaration concerning the acceptance or the waiver of the succession or of a legacy"
+        },
+        {
+            "@language": "de",
+            "@value": "erbschaft, annahme"
+        },
+        {
+            "@language": "nl",
+            "@value": "verklaring betreffende de aanvaarding of verwerping van een erfenis of een legaat"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "aceptación de la sucesión"
+        },
+        {
+            "@language": "en",
+            "@value": "acceptance of an estate the legacy aditio"
+        },
+        {
+            "@language": "en",
+            "@value": "acceptance of the succession"
+        },
+        {
+            "@language": "de",
+            "@value": "Annahme eines Vermächtnisses"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbschaftsannahme"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvaarding van een erfenis"
+        },
+        {
+            "@language": "de",
+            "@value": "ausdrückliche Erbschaftsannahme"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitdrukkelijk aanvaarden van een erfenis"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitdrukkelijke aanvaarding van een erfenis"
+        },
+        {
+            "@language": "es",
+            "@value": "declaraciones declaración de aceptación o renuncia de la herencia, de un legado o de la legítima declaraciones relativas a la aceptación de la sucesión, de un legado o de una legítima o a la renuncia a los mismos"
+        },
+        {
+            "@language": "es",
+            "@value": "declaración relativa a la aceptación de la sucesión o de un legado o la renuncia a los mismos"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Acto por el cual el heredero testamentario IATE:1253161 o ab intestato IATE:1131732 manifiesta su voluntad de suceder al causante IATE:2217762 con los derechos y deberes inherentes a ello."
+        },
+        {
+            "@language": "en",
+            "@value": "heir's agreement to take an inheritance"
+        },
+        {
+            "@language": "nl",
+            "@value": "Eenzijdige en onherroepelijke rechtshandeling waardoor een erfgenaam uitdrukkelijk of stilzwijgend een nalatenschap aanvaardt."
+        }
+    ]
+}

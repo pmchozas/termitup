@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9967107",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gastwirt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1132892",
+    "skos:topConceptOf": "LT9967107",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "distraint upon the goods of a person living in furnished rooms"
+        },
+        {
+            "@language": "de",
+            "@value": "gastwirt"
+        },
+        {
+            "@language": "nl",
+            "@value": "vreemdelingenbeslag"
+        },
+        {
+            "@language": "es",
+            "@value": "Caja de Previsión de Hoteleros"
+        },
+        {
+            "@language": "en",
+            "@value": "Hoteliers' Provident Fund"
+        },
+        {
+            "@language": "de",
+            "@value": "gastwirt"
+        },
+        {
+            "@language": "nl",
+            "@value": "Voorzorgsfonds voor hotelbezitters"
+        },
+        {
+            "@language": "es",
+            "@value": "Convenio sobre la responsabilidad de los hoteleros en lo relativo a los objetos que los huéspedes traigan consigo"
+        },
+        {
+            "@language": "en",
+            "@value": "Convention on the Liability of Hotel-keepers concerning the Property of their Guests"
+        },
+        {
+            "@language": "de",
+            "@value": "gastwirt"
+        },
+        {
+            "@language": "nl",
+            "@value": "Overeenkomst nopens de aansprakelijkheid van hotelhouders voor de zaken van hun gasten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "foreign attachment"
+        },
+        {
+            "@language": "nl",
+            "@value": "beslag tegen buitengezetenen"
+        },
+        {
+            "@language": "nl",
+            "@value": "forain beslag"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Beschlagnahme gegen einen Schuldner der am Pfändungsort keinen Wohnsitz hat"
+        },
+        {
+            "@language": "nl",
+            "@value": "bewarend beslag op vermogensbestanddelen ten laste van een schuldenaar die geen bekende woonplaats binnen Nederland heeft(= NL-regeling)dan wel die buiten de woonplaats van de beslaglegger woonachtig is(= B-regeling)"
+        },
+        {
+            "@language": "es",
+            "@value": "Acuerdo entre Estados miembros del Consejo de Europa IATE:857218 que lleva el n.° 41 de la Serie de Tratados Europeos IATE:874111 de dicha organización.Dispone que los hoteleros son responsables de todo deterioro destrucción o sustracción de los objetos traídos por los huéspedes del hotel hasta una cuantía máxima determinada que no se aplica si los objetos se han dado en depósito al hotelero o si el huésped se ha negado a darlos en depósito."
+        }
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7605623",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-ausschluss",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/870332",
+    "skos:topConceptOf": "LT7605623",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "exclusión del gasto"
+        },
+        {
+            "@language": "en",
+            "@value": "exclusion of expenditure"
+        },
+        {
+            "@language": "de",
+            "@value": "-ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "weigering"
+        },
+        {
+            "@language": "es",
+            "@value": "inhabilitación"
+        },
+        {
+            "@language": "en",
+            "@value": "debarment"
+        },
+        {
+            "@language": "de",
+            "@value": "-ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitsluiting"
+        },
+        {
+            "@language": "es",
+            "@value": "cuadratín"
+        },
+        {
+            "@language": "en",
+            "@value": "space"
+        },
+        {
+            "@language": "de",
+            "@value": "-ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "tussenruimte"
+        },
+        {
+            "@language": "es",
+            "@value": "exclusión"
+        },
+        {
+            "@language": "de",
+            "@value": "-ausschluss"
+        },
+        {
+            "@language": "de",
+            "@value": "-ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-tegenwerpbaarheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "exclusión"
+        },
+        {
+            "@language": "es",
+            "@value": "no asunción del gasto"
+        },
+        {
+            "@language": "en",
+            "@value": "exclusion"
+        },
+        {
+            "@language": "en",
+            "@value": "disallowance of expenditure"
+        },
+        {
+            "@language": "en",
+            "@value": "expenditure disallowed"
+        },
+        {
+            "@language": "en",
+            "@value": "disallowance"
+        },
+        {
+            "@language": "de",
+            "@value": "Ablehnung der Übernahme von Ausgaben"
+        },
+        {
+            "@language": "de",
+            "@value": "Ablehnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitsluiting"
+        },
+        {
+            "@language": "nl",
+            "@value": "onttrekking"
+        },
+        {
+            "@language": "es",
+            "@value": "espacio"
+        },
+        {
+            "@language": "de",
+            "@value": "Spatium"
+        },
+        {
+            "@language": "de",
+            "@value": "Spatien"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausschluss"
+        },
+        {
+            "@language": "nl",
+            "@value": "spatie"
+        },
+        {
+            "@language": "es",
+            "@value": "caducidad"
+        },
+        {
+            "@language": "es",
+            "@value": "prescripción"
+        },
+        {
+            "@language": "de",
+            "@value": "Praeklusion"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsausschluss"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausschluss"
+        },
+        {
+            "@language": "de",
+            "@value": "Nichtanwendbarkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-tegenwerpelijkheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En el ámbito de la política agrícola común exclusión de la financiación de la Unión de los gastos no efectuados de conformidad con la normativa de la Unión aplicable."
+        },
+        {
+            "@language": "en",
+            "@value": "in the scope of EU accounts procedures for agriculture exclusion from EU financing of amounts unduly spent by an EU Member State"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-erkenning van uitgaven voor financiering uit de Uniebegroting tijdens de procedure van goedkeuring van de rekeningen van de lidstaten door de Unie"
+        },
+        {
+            "@language": "es",
+            "@value": "Sanción que implica la exclusión de participar en procedimientos de contratación pública."
+        },
+        {
+            "@language": "en",
+            "@value": "denial of access to bidding as a sanction for corruption in public procurement"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausschluss eines Bieters der wegen Korruption rechtskräftig verurteilt wurde vom Vergabeverfahren"
+        },
+        {
+            "@language": "de",
+            "@value": "Praeklusion: Ausschlusswirkung fuer bestimmte Rechte und Rechtshandlungen. So schliesst der Ablauf den gesetzlichen Frist fuer die Mängelrüge beim Kauf-oder Werkvertrag die Geltendmachung des Mangels der Ablauf einer Antrags-oder Rechtsmittelfrist in der Regel die Stellung des Antrags oder die Einlegung des Rechtsmittels aus"
+        },
+        {
+            "@language": "de",
+            "@value": "Im Glossar \"Konkurs- und Vergleichsrecht\" unseres früheren Kollegen Herbert Michel (\"Glossar HM\") findet sich neben dem Begriff \"procédure en i.\" = \"Widerspruchsverfahren\" auch der Eintrag\"i. à la masse des créanciers des actes accomplis par le débiteur\" = \"Unwirksamkeit von Rechtshandlungen gegenüber den Konkursgläubigern die der Schuldner vorgenommen hat\". Das Widerspruchsverfahren hat also zum Ziel Handlungen des Schuldners für rechtsunwirksam erklären zu lassen."
+        }
+    ]
+}

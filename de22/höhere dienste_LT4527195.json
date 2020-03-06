@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4527195",
+    "@type": "skos:Concept",
+    "skos:inScheme": "höhere dienste",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1225653",
+    "skos:topConceptOf": "LT4527195",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "administrator"
+        },
+        {
+            "@language": "de",
+            "@value": "höhere dienste"
+        },
+        {
+            "@language": "nl",
+            "@value": "beleidsambtenaar"
+        },
+        {
+            "@language": "de",
+            "@value": "höhere dienste"
+        },
+        {
+            "@language": "es",
+            "@value": "servicio gráfico de elevada resolución"
+        },
+        {
+            "@language": "en",
+            "@value": "high resolution graphic service"
+        },
+        {
+            "@language": "de",
+            "@value": "höhere dienste"
+        },
+        {
+            "@language": "nl",
+            "@value": "grafische dienst met hoge resolutie"
+        },
+        {
+            "@language": "es",
+            "@value": "funcionario del Cuerpo Superior de la Seguridad Social"
+        },
+        {
+            "@language": "en",
+            "@value": "senior official in the Social Security Administration"
+        },
+        {
+            "@language": "de",
+            "@value": "höhere dienste"
+        },
+        {
+            "@language": "en",
+            "@value": "Netherlands Executive Staff Federation"
+        },
+        {
+            "@language": "de",
+            "@value": "höhere dienste"
+        },
+        {
+            "@language": "nl",
+            "@value": "Nederlandse Centrale voor Hoger Personeel"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "grafischer"
+        },
+        {
+            "@language": "de",
+            "@value": "graphischer Dienst mit hoher Auflösung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

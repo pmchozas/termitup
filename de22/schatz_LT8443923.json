@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8443923",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schatz",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1253288",
+    "skos:topConceptOf": "LT8443923",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "tasador"
+        },
+        {
+            "@language": "en",
+            "@value": "taxer"
+        },
+        {
+            "@language": "de",
+            "@value": "schatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "taxateur"
+        },
+        {
+            "@language": "es",
+            "@value": "estimador"
+        },
+        {
+            "@language": "en",
+            "@value": "estimator"
+        },
+        {
+            "@language": "de",
+            "@value": "schatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatter"
+        },
+        {
+            "@language": "es",
+            "@value": "tasador"
+        },
+        {
+            "@language": "en",
+            "@value": "pricer"
+        },
+        {
+            "@language": "de",
+            "@value": "schatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatter"
+        },
+        {
+            "@language": "de",
+            "@value": "schatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "ramen"
+        },
+        {
+            "@language": "es",
+            "@value": "valorar"
+        },
+        {
+            "@language": "en",
+            "@value": "to price"
+        },
+        {
+            "@language": "de",
+            "@value": "schatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "appraiser"
+        },
+        {
+            "@language": "en",
+            "@value": "estimator"
+        },
+        {
+            "@language": "de",
+            "@value": "Kalkulator"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatter"
+        },
+        {
+            "@language": "de",
+            "@value": "Schätzfunktion !"
+        },
+        {
+            "@language": "nl",
+            "@value": "schattingsfunctie"
+        },
+        {
+            "@language": "de",
+            "@value": "Taxator"
+        },
+        {
+            "@language": "nl",
+            "@value": "taxateur"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatten"
+        },
+        {
+            "@language": "es",
+            "@value": "fijar el precio"
+        },
+        {
+            "@language": "es",
+            "@value": "poner precio"
+        },
+        {
+            "@language": "nl",
+            "@value": "taxeren"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a statistic usually intended to estimate an unknown population parameter"
+        },
+        {
+            "@language": "nl",
+            "@value": "een statische grootheid gebruikt om de waarde van een onbekende parameter te schatten"
+        }
+    ]
+}

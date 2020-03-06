@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5992382",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-verzicht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1647300",
+    "skos:topConceptOf": "LT5992382",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "renuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "renunciation"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "afstand"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzicht"
+        },
+        {
+            "@language": "es",
+            "@value": "abandono"
+        },
+        {
+            "@language": "en",
+            "@value": "relinquishment"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "afstand"
+        },
+        {
+            "@language": "es",
+            "@value": "renuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "forgoing"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "werknemersbijdrage"
+        },
+        {
+            "@language": "es",
+            "@value": "renuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "surrender"
+        },
+        {
+            "@language": "de",
+            "@value": "-verzicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "afstand"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "disclaimer"
+        },
+        {
+            "@language": "de",
+            "@value": "Erlass"
+        },
+        {
+            "@language": "de",
+            "@value": "Erlassvertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzicht"
+        },
+        {
+            "@language": "de",
+            "@value": "negatives Schuldanerkenntis"
+        },
+        {
+            "@language": "es",
+            "@value": "renuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "surrender"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzicht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Desistimiento o dejación voluntaria que una persona hace de un derecho posesión posición  título etc. que le corresponden."
+        },
+        {
+            "@language": "en",
+            "@value": "action of giving up or surrendering or tacitly abandoning a right position possession title etc."
+        },
+        {
+            "@language": "nl",
+            "@value": "eenzijdige akte waarbij een partij hetzij uitdrukkelijk hetzij stilzwijgend afziet van een recht dat mag worden prijsgegeven"
+        },
+        {
+            "@language": "de",
+            "@value": "die Aufhebung einer Verbindlichkeit durch Rechtsaufgabe des Gläubigers. Der Verzicht kann entgeltlich oder unentgeltlich sein bedarf aber der Zustimmung des Gläubigers."
+        },
+        {
+            "@language": "en",
+            "@value": "the leaving to an employer by an employee of a part of his salary so that the employer can use the money forgone to buy pension or life assurance benefits"
+        }
+    ]
+}

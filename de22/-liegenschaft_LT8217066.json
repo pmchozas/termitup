@@ -1,0 +1,212 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8217066",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-liegenschaft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/889825",
+    "skos:topConceptOf": "LT8217066",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "bien inmueble"
+        },
+        {
+            "@language": "en",
+            "@value": "immovable property"
+        },
+        {
+            "@language": "de",
+            "@value": "-liegenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "onroerend goed"
+        },
+        {
+            "@language": "en",
+            "@value": "real property"
+        },
+        {
+            "@language": "de",
+            "@value": "-liegenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "onroerend goed door zijn aard"
+        },
+        {
+            "@language": "es",
+            "@value": "bien fundiario"
+        },
+        {
+            "@language": "en",
+            "@value": "holding"
+        },
+        {
+            "@language": "de",
+            "@value": "-liegenschaft"
+        },
+        {
+            "@language": "en",
+            "@value": "entailed estate"
+        },
+        {
+            "@language": "de",
+            "@value": "-liegenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "goed dat door erfmaking na of bij gebreke van een ander vermaakt wordt"
+        },
+        {
+            "@language": "en",
+            "@value": "ban on dividing a plot of land into lots"
+        },
+        {
+            "@language": "de",
+            "@value": "-liegenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "verbod om een stuk grond te verkavelen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "real property"
+        },
+        {
+            "@language": "en",
+            "@value": "real estate property"
+        },
+        {
+            "@language": "en",
+            "@value": "real estate"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundstück"
+        },
+        {
+            "@language": "de",
+            "@value": "unbewegliches Vermögen"
+        },
+        {
+            "@language": "de",
+            "@value": "unbewegliche Sache"
+        },
+        {
+            "@language": "de",
+            "@value": "Immobilie"
+        },
+        {
+            "@language": "de",
+            "@value": "Liegenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "vastgoed"
+        },
+        {
+            "@language": "nl",
+            "@value": "onroerende zaak"
+        },
+        {
+            "@language": "de",
+            "@value": "Liegenschaft"
+        },
+        {
+            "@language": "es",
+            "@value": "bien inmueble"
+        },
+        {
+            "@language": "es",
+            "@value": "bienes inmuebles"
+        },
+        {
+            "@language": "es",
+            "@value": "bienes raíces"
+        },
+        {
+            "@language": "en",
+            "@value": "real estate"
+        },
+        {
+            "@language": "de",
+            "@value": "unbewegliches Vermögen"
+        },
+        {
+            "@language": "en",
+            "@value": "estate in reversion"
+        },
+        {
+            "@language": "en",
+            "@value": "remainder"
+        },
+        {
+            "@language": "de",
+            "@value": "Verbot eine Liegenschaft zu erschließen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Se consideran bienes inmuebles por contraposición a los bienes muebles los que tienen una situación fija en el espacio y no son susceptibles de desplazamiento.(...) Atendiendo a su naturaleza se pueden clasificar los bienes inmuebles como:Inmuebles por naturaleza: las tierras fincas minas canteras (...); las aguas vivas (...) y las aguas estancadas.Inmuebles por incorporación: los caminos edificios y construcciones (...) adheridas al suelo; los árboles plantas y los frutos pendientes (...); todo lo que esté unido a un inmueble de manera fija (...).Inmuebles por destino: las estatuas relieves pinturas u otros objetos de uso u ornamentación (...); las máquinas (...) instrumentos o utensilios destinados por el propietario de la finca a la industria o explotación que realice en un edificio o heredad (...); los viveros de animales (...) unidos a la finca y formando parte de ella de un modo permanente."
+        },
+        {
+            "@language": "en",
+            "@value": "property that cannot be moved; an object so firmly attached to the land that it is regarded as part of the land"
+        },
+        {
+            "@language": "de",
+            "@value": "abgegrenzter Teil der Erdoberfläche (= Grundstück) welcher steuerrechtlich in Grund u. Boden einerseits und Gebäude andererseits aufgeteilt wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"de grond de nog niet gewonnen delfstoffen de met de grond verenigde beplantingen alsmede de gebouwen en werken die duurzaam met de grond zijn verenigd hetzij rechtstreeks hetzij door vereniging met andere gebouwen of werken.\""
+        },
+        {
+            "@language": "en",
+            "@value": "landbuildings and other construction work carried out thereon"
+        },
+        {
+            "@language": "de",
+            "@value": "Teil einer Bodenfläche samt der damit fest verbundenen Baulichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "grond en al hetgeen daarmede onverbrekelijk verbonden is"
+        }
+    ]
+}

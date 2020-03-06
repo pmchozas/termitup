@@ -1,0 +1,160 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5852407",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-bürge",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/917415",
+    "skos:topConceptOf": "LT5852407",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "sponsor"
+        },
+        {
+            "@language": "de",
+            "@value": "-bürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "gezinshereniger"
+        },
+        {
+            "@language": "es",
+            "@value": "fiador"
+        },
+        {
+            "@language": "en",
+            "@value": "guarantor"
+        },
+        {
+            "@language": "de",
+            "@value": "-bürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "garant"
+        },
+        {
+            "@language": "es",
+            "@value": "fiador"
+        },
+        {
+            "@language": "en",
+            "@value": "guarantor"
+        },
+        {
+            "@language": "de",
+            "@value": "-bürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "borg"
+        },
+        {
+            "@language": "en",
+            "@value": "guarantor"
+        },
+        {
+            "@language": "de",
+            "@value": "-bürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "borg"
+        },
+        {
+            "@language": "en",
+            "@value": "surety"
+        },
+        {
+            "@language": "de",
+            "@value": "-bürge"
+        },
+        {
+            "@language": "nl",
+            "@value": "borg"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Bürge"
+        },
+        {
+            "@language": "es",
+            "@value": "garante"
+        },
+        {
+            "@language": "es",
+            "@value": "avalista"
+        },
+        {
+            "@language": "de",
+            "@value": "Sicherungsgeber"
+        },
+        {
+            "@language": "nl",
+            "@value": "borg"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "third country national residing lawfully in a Member State and applying or whose family members apply for family reunification to be joined with him/her"
+        },
+        {
+            "@language": "de",
+            "@value": "sich rechtmäßig in einem Mitgliedstaat aufhaltender Drittstaatsangehöriger der oder dessen Familienangehörige einen Antrag auf Familienzusammenführung mit ihm stellt bzw. stellen"
+        },
+        {
+            "@language": "nl",
+            "@value": "1. \"Elke onderdaan van een derde land die in een lidstaat tijdelijk bescherming geniet (...) en die wenst dat leden van zijn gezin zich bij hem/haar voegen.\" 2. \"Onderdaan van een derde land die wettig in een lidstaat verblijft en die een verzoek indient of wiens gezinsleden een verzoek indienen tot gezinshereniging om met hem verenigd te worden.\""
+        },
+        {
+            "@language": "es",
+            "@value": "Persona física o jurídica que firma un aval obligándose con ello a su pago si no lo hace el obligado principal."
+        },
+        {
+            "@language": "en",
+            "@value": "a third party who binds himself to fulfil the obligations of a debtor towards his creditor if the debtor should be in default"
+        },
+        {
+            "@language": "de",
+            "@value": "dritte Person die sich gegenüber einem Gläubiger verpflichtet die Verbindlichkeit des Schuldners bei Zahlungsunfähigkeit zu erfüllen"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoon die zich tegenover een schuldeiser verbindt om te voldoen aan de verplichting van een schuldenaar indien deze in gebreke blijft"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9510710",
+    "@type": "skos:Concept",
+    "skos:inScheme": "überwachung des schuldners",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1113707",
+    "skos:topConceptOf": "LT9510710",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "the debtor giving his consent to suspervision by a trustee"
+        },
+        {
+            "@language": "de",
+            "@value": "überwachung des schuldners"
+        },
+        {
+            "@language": "nl",
+            "@value": "de schuldenaar stelt zich vrijwillig onder toezicht van een bewindvoerder"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "bewindvoerder(hier:)functionaris bij surseance van betaling;(bij faillissement:curator)"
+        }
+    ]
+}

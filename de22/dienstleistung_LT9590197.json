@@ -1,0 +1,229 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9590197",
+    "@type": "skos:Concept",
+    "skos:inScheme": "dienstleistung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/764480",
+    "skos:topConceptOf": "LT9590197",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "prestación de servicios"
+        },
+        {
+            "@language": "en",
+            "@value": "provision of services"
+        },
+        {
+            "@language": "de",
+            "@value": "dienstleistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verrichten van diensten"
+        },
+        {
+            "@language": "es",
+            "@value": "servicio (N)"
+        },
+        {
+            "@language": "en",
+            "@value": "service"
+        },
+        {
+            "@language": "de",
+            "@value": "dienstleistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "dienst van een laag"
+        },
+        {
+            "@language": "en",
+            "@value": "rendering of services"
+        },
+        {
+            "@language": "de",
+            "@value": "dienstleistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "dienstverlening"
+        },
+        {
+            "@language": "es",
+            "@value": "prestación de servicio"
+        },
+        {
+            "@language": "en",
+            "@value": "rendering of services"
+        },
+        {
+            "@language": "de",
+            "@value": "dienstleistung"
+        },
+        {
+            "@language": "es",
+            "@value": "servicio verde"
+        },
+        {
+            "@language": "en",
+            "@value": "green service"
+        },
+        {
+            "@language": "de",
+            "@value": "dienstleistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "groene dienst"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "service provision"
+        },
+        {
+            "@language": "en",
+            "@value": "supply of services"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbringung von Dienstleistungen"
+        },
+        {
+            "@language": "de",
+            "@value": "Dienstleistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verrichting van diensten"
+        },
+        {
+            "@language": "nl",
+            "@value": "dienstverrichting"
+        },
+        {
+            "@language": "en",
+            "@value": "(N)-service"
+        },
+        {
+            "@language": "de",
+            "@value": "(N)-Dienst"
+        },
+        {
+            "@language": "de",
+            "@value": "Dienst"
+        },
+        {
+            "@language": "de",
+            "@value": "Schichtendienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "N-service"
+        },
+        {
+            "@language": "en",
+            "@value": "supply of services"
+        },
+        {
+            "@language": "en",
+            "@value": "provision of services"
+        },
+        {
+            "@language": "nl",
+            "@value": "dienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "dienstverrichting"
+        },
+        {
+            "@language": "de",
+            "@value": "Öko-Dienstleistung"
+        },
+        {
+            "@language": "de",
+            "@value": "grüne Dienstleistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "diensten"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Serán consideradas como «prestaciones de servicios» todas las operaciones que \nno tengan la consideración de entrega de bienes (...).\nTales operaciones pueden consistir entre otras:\n— en la cesión de un bien incorporal representado o no por un título;\n— en la obligación de no hacer o de tolerar actos o situaciones determinadas;\n— en la realización de un servicio en virtud de requerimiento coactivo de la autoridad pública o en su nombre o en los términos previstos por la Ley."
+        },
+        {
+            "@language": "es",
+            "@value": "capacidad de la capa (N) y de las capas por debajo de ella que se ofrece a las entidades (N + 1) en la frontera entre la capa (N) y la capa (N + 1)"
+        },
+        {
+            "@language": "en",
+            "@value": "1)in network architecture the capabilities that a layer provides to the adjacent layer closer to the end user; 2)a capability of the (N)-layer and the layers beneath it which is provided to (N + 1)-entities at the boundary between the (N)-layer and the (N + 1)-layer"
+        },
+        {
+            "@language": "de",
+            "@value": "1)als Dienstleistung wird im Rahmen einer Netz-Architektur die Fähigkeit einer Schicht (und der darunterliegenden Schichten)die der jeweils übergeordneten zur Verfügung gestellt werden bezeichnet;2)die Fähigkeit einer (N)-Schicht und der Schichten unter ihr welche den (N + 1)-Instanzen an der Grenze der (N)-Schicht und der (N + 1)-Schicht bereitgestellt wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "in een netwerkarchitectuur:functie van een laag en van de daaronderliggende laag die aan de bovenliggende laag wordt geboden"
+        },
+        {
+            "@language": "es",
+            "@value": "Servicio que tiene por objeto mantener mejorar y administrar la naturaleza el paisaje y los espacios naturales. Puede tratarse de servicios de protección de las especies de la diversidad en la explotación agraria la gestión (desde el punto de vista botánico o ecológico) de las parcelas y las plantaciones etc."
+        },
+        {
+            "@language": "en",
+            "@value": "environmentally-friendly service"
+        },
+        {
+            "@language": "de",
+            "@value": "umweltgerechte Dienstleistung"
+        }
+    ],
+    "skos:narrower": [
+        "LT4460395",
+        "LT7876565"
+    ],
+    "skos:related": [
+        "LT4102951",
+        "LT2314528",
+        "LT7690872"
+    ]
+}

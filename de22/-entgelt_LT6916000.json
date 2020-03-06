@@ -1,0 +1,160 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6916000",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-entgelt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1365982",
+    "skos:topConceptOf": "LT6916000",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "precio"
+        },
+        {
+            "@language": "en",
+            "@value": "price"
+        },
+        {
+            "@language": "de",
+            "@value": "-entgelt"
+        },
+        {
+            "@language": "nl",
+            "@value": "totaalbedrag"
+        },
+        {
+            "@language": "en",
+            "@value": "premium"
+        },
+        {
+            "@language": "de",
+            "@value": "-entgelt"
+        },
+        {
+            "@language": "en",
+            "@value": "premium"
+        },
+        {
+            "@language": "de",
+            "@value": "-entgelt"
+        },
+        {
+            "@language": "es",
+            "@value": "importe requerido"
+        },
+        {
+            "@language": "en",
+            "@value": "required consideration"
+        },
+        {
+            "@language": "de",
+            "@value": "-entgelt"
+        },
+        {
+            "@language": "nl",
+            "@value": "verschuldigde rechten"
+        },
+        {
+            "@language": "es",
+            "@value": "a título gratuito"
+        },
+        {
+            "@language": "en",
+            "@value": "free of charge"
+        },
+        {
+            "@language": "de",
+            "@value": "-entgelt"
+        },
+        {
+            "@language": "nl",
+            "@value": "zonder kosten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Entgelt"
+        },
+        {
+            "@language": "nl",
+            "@value": "prijs"
+        },
+        {
+            "@language": "en",
+            "@value": "as a gift"
+        },
+        {
+            "@language": "en",
+            "@value": "without consideration"
+        },
+        {
+            "@language": "en",
+            "@value": "without valuable consideration"
+        },
+        {
+            "@language": "de",
+            "@value": "ohne Entgelt"
+        },
+        {
+            "@language": "de",
+            "@value": "ohne Bezahlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "kosteloos"
+        },
+        {
+            "@language": "nl",
+            "@value": "om niet"
+        },
+        {
+            "@language": "nl",
+            "@value": "zonder tegenprestatie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the amount to be paid for a quantity purchased or for a service received"
+        },
+        {
+            "@language": "de",
+            "@value": "für die Übernahme einer Bürgschaft oder Garantie"
+        },
+        {
+            "@language": "es",
+            "@value": "\"a título gratuito\": Lo otorgado sin sujetar a obligación con total beneficio del favorecido que no queda sometido a contraprestaciones o muy inferiores a las utilidades logradas."
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6998175",
+    "@type": "skos:Concept",
+    "skos:inScheme": "rechtsmissbrauch",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/793842",
+    "skos:topConceptOf": "LT6998175",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "abuso de derecho"
+        },
+        {
+            "@language": "en",
+            "@value": "abuse of right"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsmissbrauch"
+        },
+        {
+            "@language": "nl",
+            "@value": "misbruik van recht"
+        },
+        {
+            "@language": "es",
+            "@value": "abuso de derecho"
+        },
+        {
+            "@language": "en",
+            "@value": "abuse of rights"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsmissbrauch"
+        },
+        {
+            "@language": "nl",
+            "@value": "abus de droit"
+        },
+        {
+            "@language": "es",
+            "@value": "abuso de derecho"
+        },
+        {
+            "@language": "en",
+            "@value": "abuse of right"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtsmissbrauch"
+        },
+        {
+            "@language": "nl",
+            "@value": "misbruik van recht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Missbrauch der Rechte"
+        },
+        {
+            "@language": "en",
+            "@value": "misuse of law"
+        },
+        {
+            "@language": "en",
+            "@value": "abuse of law"
+        },
+        {
+            "@language": "de",
+            "@value": "unzulässige Rechtsausübung"
+        },
+        {
+            "@language": "de",
+            "@value": "mißbräuchliche Rechtsausübung"
+        },
+        {
+            "@language": "nl",
+            "@value": "misbruik van recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtsmisbruik"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtsmisbruik"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "El concepto de abuso de derecho está integrado por los siguientes elementos esenciales: uso de un derecho objetiva o externamente legal; daño a un interés de terceros no protegido por una especial prerrogativa jurídica; Inmoralidad o antisocialidad de ese daño manifestada en forma subjetiva (cuando en derecho se actúa con la intención de perjudicar o sencillamente sin un fin serio y legítimo) o bajo forma objetiva (cuando el daño proviene de exceso o anormalidad en el ejercicio del derecho)."
+        },
+        {
+            "@language": "en",
+            "@value": "exercise of a person's rights in a manner which is unreasonable with consequent harm to another whether there was an intent or mere carelessness or indifference as to resulting harm"
+        },
+        {
+            "@language": "de",
+            "@value": "Ausübung eines subjektiven Rechts die zwar formell dem Gesetz entspricht wobei die Geltendmachung jedoch wegen der besonderen Umstände des Einzelfalls treuwidrig ist"
+        },
+        {
+            "@language": "nl",
+            "@value": "situatie waarin de gerechtigde zijn bevoegdheden misbruikt om anderen daardoor te hinderen"
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2318117",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, registrierung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3550357",
+    "skos:topConceptOf": "LT2318117",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "registro"
+        },
+        {
+            "@language": "en",
+            "@value": "registration"
+        },
+        {
+            "@language": "de",
+            "@value": "-, registrierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "registratie"
+        },
+        {
+            "@language": "es",
+            "@value": "notorización"
+        },
+        {
+            "@language": "en",
+            "@value": "notarization"
+        },
+        {
+            "@language": "de",
+            "@value": "-, registrierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "notarisatie"
+        },
+        {
+            "@language": "es",
+            "@value": "registro"
+        },
+        {
+            "@language": "en",
+            "@value": "registration"
+        },
+        {
+            "@language": "de",
+            "@value": "-, registrierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "registratie"
+        },
+        {
+            "@language": "es",
+            "@value": "registro"
+        },
+        {
+            "@language": "en",
+            "@value": "registration"
+        },
+        {
+            "@language": "de",
+            "@value": "-, registrierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "registratie"
+        },
+        {
+            "@language": "es",
+            "@value": "registro"
+        },
+        {
+            "@language": "en",
+            "@value": "registration"
+        },
+        {
+            "@language": "de",
+            "@value": "-, registrierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "registratie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "inscripción en el registro"
+        },
+        {
+            "@language": "de",
+            "@value": "Registrierung"
+        },
+        {
+            "@language": "de",
+            "@value": "Beglaubigung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Acción de inscribir los datos de un operador profesional [ IATE:3550267 e IATE:3549505 ] en un registro [ IATE:3550356 ]"
+        },
+        {
+            "@language": "en",
+            "@value": "act of recording the details of a professional operator [ IATE:3550267 and IATE:3549505 ] into a register [ IATE:3550356 ]"
+        },
+        {
+            "@language": "nl",
+            "@value": "opname van een professionele marktdeelnemer in het officieel register van professionele marktdeelnemers"
+        },
+        {
+            "@language": "es",
+            "@value": "registro de datos por una tercera parte fiable que suministra posteriores recursos a los mismos y garantiza la exactitud en lo que respecta a sus características como contenido origen tiempo y entrega de los datos"
+        },
+        {
+            "@language": "en",
+            "@value": "the registration of data with a trusted third party that allows the later assurance of the accuracy of its characteristics such as contentorigintime and delivery"
+        },
+        {
+            "@language": "de",
+            "@value": "Mechanismus bei dem eine dedizierte Instanz im Netzwerk quasi als Schiedsrichter entscheidet wenn z.B.ein Teilnehmer die Existenz einer Kommunikation abstreitet"
+        },
+        {
+            "@language": "nl",
+            "@value": "registratie van data met ondersteuning van een betrouwbare derde zodat op een later tijdstip de nauwkeurigheid van kenmerken zoals inhoud oorsprong tijd en bezorging is verzekerd"
+        },
+        {
+            "@language": "es",
+            "@value": "El registro consiste en presentar a la Agencia un expediente técnico y de ser necesario un informe de seguridad química para una sustancia fabricada o importada en la Unión Europea (y en el Espacio Económico Europeo (EEE) cuando se aplique a estos países)."
+        },
+        {
+            "@language": "en",
+            "@value": "The submission to the European Chemicals Agency of a technical dossier and if required a chemical safety report for a substance being manufactured in or imported into the European Union (and in the European Economic Area (EEA) once implemented in these countries)."
+        },
+        {
+            "@language": "de",
+            "@value": "Zur Registrierung wird bei der Agentur ein technisches Dossier und erforderlichenfalls eines Stoffsicherheitsbericht zu einem Stoff eingereicht der in der Europäischen Union (und nach der Umsetzung in den betreffenden Ländern im Europäischen Wirtschaftsgebiet (EWR)) hergestellt oder dorthin eingeführt wird."
+        },
+        {
+            "@language": "nl",
+            "@value": "Registratie is het bij het Agentschap indienen van een technisch dossier en indien nodig een chemisch veiligheidsrapport voor een stof die in de Europese Unie (en in de Europese Economische Ruimte (EER)) zodra die in deze landen ingevoerd is) wordt vervaardigd of ingevoerd."
+        },
+        {
+            "@language": "en",
+            "@value": "a procedure of allocationby an appropriate national or international organisationof a type designation to a semiconductor-device specification"
+        },
+        {
+            "@language": "es",
+            "@value": "término ambiguo que debería estar siempre acompañado de un calificativo. Véase también registro de localización o registro de abono"
+        },
+        {
+            "@language": "en",
+            "@value": "an ambiguous term that should always be qualified; see either location registration or subscription registration"
+        },
+        {
+            "@language": "de",
+            "@value": "ein doppeldeutiger Begriff der grundsätzlich näher erläutert werden sollte. Siehe entweder Standorterfassung oder Anwenderregistrierung"
+        },
+        {
+            "@language": "nl",
+            "@value": "een onduidelijke term die altijd nader gedefinieerd moet zijn. Zie locatieregistratie of abonnementregistratie"
+        }
+    ]
+}

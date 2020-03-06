@@ -1,0 +1,284 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3797695",
+    "@type": "skos:Concept",
+    "skos:inScheme": "verzugszinsen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1071491",
+    "skos:topConceptOf": "LT3797695",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "intereses de moratoria"
+        },
+        {
+            "@language": "en",
+            "@value": "default interest"
+        },
+        {
+            "@language": "de",
+            "@value": "verzugszinsen"
+        },
+        {
+            "@language": "nl",
+            "@value": "moratoire rente"
+        },
+        {
+            "@language": "es",
+            "@value": "interés de demora"
+        },
+        {
+            "@language": "en",
+            "@value": "interest on deferred payment"
+        },
+        {
+            "@language": "de",
+            "@value": "verzugszinsen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertragingsrente"
+        },
+        {
+            "@language": "es",
+            "@value": "intereses de demora"
+        },
+        {
+            "@language": "en",
+            "@value": "default interests"
+        },
+        {
+            "@language": "de",
+            "@value": "verzugszinsen"
+        },
+        {
+            "@language": "nl",
+            "@value": "achterstandsrente"
+        },
+        {
+            "@language": "es",
+            "@value": "intereses de demora"
+        },
+        {
+            "@language": "en",
+            "@value": "late payment penalty"
+        },
+        {
+            "@language": "de",
+            "@value": "verzugszinsen"
+        },
+        {
+            "@language": "nl",
+            "@value": "moratoire rente"
+        },
+        {
+            "@language": "en",
+            "@value": "outstanding arrears of interest due"
+        },
+        {
+            "@language": "de",
+            "@value": "verzugszinsen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "interés de demora"
+        },
+        {
+            "@language": "es",
+            "@value": "interés moratorio"
+        },
+        {
+            "@language": "en",
+            "@value": "interest on arrears"
+        },
+        {
+            "@language": "en",
+            "@value": "interest on amounts paid late"
+        },
+        {
+            "@language": "en",
+            "@value": "moratory interest"
+        },
+        {
+            "@language": "en",
+            "@value": "moratorium interest"
+        },
+        {
+            "@language": "en",
+            "@value": "late interest"
+        },
+        {
+            "@language": "en",
+            "@value": "late payment interest"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzugszinsen"
+        },
+        {
+            "@language": "de",
+            "@value": "Zinsen auf rückständige Forderungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "moratoire interest"
+        },
+        {
+            "@language": "nl",
+            "@value": "rente bij uitstel van betaling"
+        },
+        {
+            "@language": "nl",
+            "@value": "rente wegens vertraagde overmaking"
+        },
+        {
+            "@language": "nl",
+            "@value": "verwijlinterest"
+        },
+        {
+            "@language": "nl",
+            "@value": "achterstallige rente"
+        },
+        {
+            "@language": "es",
+            "@value": "intereses de demora"
+        },
+        {
+            "@language": "es",
+            "@value": "interés de mora"
+        },
+        {
+            "@language": "es",
+            "@value": "intereses de mora"
+        },
+        {
+            "@language": "en",
+            "@value": "interest on arrears"
+        },
+        {
+            "@language": "en",
+            "@value": "post-maturity interest"
+        },
+        {
+            "@language": "en",
+            "@value": "interest on overdue payments"
+        },
+        {
+            "@language": "en",
+            "@value": "late payment interest"
+        },
+        {
+            "@language": "de",
+            "@value": "Säumniszuschlag"
+        },
+        {
+            "@language": "nl",
+            "@value": "achterstandsrente"
+        },
+        {
+            "@language": "nl",
+            "@value": "moratoire interest"
+        },
+        {
+            "@language": "nl",
+            "@value": "interesten"
+        },
+        {
+            "@language": "nl",
+            "@value": "achterstalligheidsrente"
+        },
+        {
+            "@language": "en",
+            "@value": "interest on late payment"
+        },
+        {
+            "@language": "en",
+            "@value": "delayed interest"
+        },
+        {
+            "@language": "en",
+            "@value": "interest charged for non-payment"
+        },
+        {
+            "@language": "en",
+            "@value": "interest charged for late payment"
+        },
+        {
+            "@language": "de",
+            "@value": "Verzugszuschlaege"
+        },
+        {
+            "@language": "nl",
+            "@value": "achterstallingheidsrente"
+        },
+        {
+            "@language": "nl",
+            "@value": "rente bij te late betaling"
+        },
+        {
+            "@language": "en",
+            "@value": "surcharge for late payment of tax"
+        },
+        {
+            "@language": "nl",
+            "@value": "rente wegens late betaling"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "punitive interest charged by a lender to a borrower if installments are not paid according to the loan terms"
+        },
+        {
+            "@language": "nl",
+            "@value": "wie niet op tijd het door hem verschuldigde bedrag in geld betaalt is een schadeverhoeding verschuldigd gelijk aan de wettelijke interessen op dat bedrag; de rente begint te lopen vanaf de dag dat zij in rechte wordt gevorderd; indien de crediteur in een ingebrekestelling uitdrukkelijk heeft verklaard op rentevergoeding aanspraak te maken loopt de rente vanaf de dag dat de in de ingebrekestelling gestelde termijn is verstreken"
+        },
+        {
+            "@language": "es",
+            "@value": "\"Son los que se producen como consecuencia del retraso en el pago de una deuda.\" (Trivium)"
+        },
+        {
+            "@language": "en",
+            "@value": "Post-maturity or late payment interest accrues on a debt which is not paid when repayment is due."
+        },
+        {
+            "@language": "nl",
+            "@value": "bedrag of percentage dat moet worden betaald bij uitblijven van betaling binnen de gestelde termijn"
+        },
+        {
+            "@language": "en",
+            "@value": "a tax penalty imposed for failure to make timely tax paymentsand which takes the form of additions to the tax and are assessed as part of the tax"
+        }
+    ]
+}

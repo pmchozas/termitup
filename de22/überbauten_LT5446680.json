@@ -1,0 +1,176 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5446680",
+    "@type": "skos:Concept",
+    "skos:inScheme": "überbauten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1549785",
+    "skos:topConceptOf": "LT5446680",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "superestructura"
+        },
+        {
+            "@language": "en",
+            "@value": "superstructure"
+        },
+        {
+            "@language": "de",
+            "@value": "überbauten"
+        },
+        {
+            "@language": "nl",
+            "@value": "bovenbouw"
+        },
+        {
+            "@language": "es",
+            "@value": "espacio construido"
+        },
+        {
+            "@language": "en",
+            "@value": "built-up area"
+        },
+        {
+            "@language": "de",
+            "@value": "überbauten"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebouwde ruimte"
+        },
+        {
+            "@language": "es",
+            "@value": "calle cubierta"
+        },
+        {
+            "@language": "en",
+            "@value": "covered street"
+        },
+        {
+            "@language": "de",
+            "@value": "überbauten"
+        },
+        {
+            "@language": "nl",
+            "@value": "overdekte straat"
+        },
+        {
+            "@language": "es",
+            "@value": "área cubierta"
+        },
+        {
+            "@language": "en",
+            "@value": "floor area"
+        },
+        {
+            "@language": "de",
+            "@value": "überbauten"
+        },
+        {
+            "@language": "nl",
+            "@value": "vloeroppervlak"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "covered area"
+        },
+        {
+            "@language": "en",
+            "@value": "ground coverage"
+        },
+        {
+            "@language": "en",
+            "@value": "site coverage"
+        },
+        {
+            "@language": "en",
+            "@value": "covered surface"
+        },
+        {
+            "@language": "en",
+            "@value": "built-up surface"
+        },
+        {
+            "@language": "de",
+            "@value": "bebautes Gebiet"
+        },
+        {
+            "@language": "de",
+            "@value": "überbaute Fläche"
+        },
+        {
+            "@language": "de",
+            "@value": "überdeckte Grundrissfläche"
+        },
+        {
+            "@language": "nl",
+            "@value": "bebouwd gebied"
+        },
+        {
+            "@language": "nl",
+            "@value": "bebouwd oppervlak"
+        },
+        {
+            "@language": "en",
+            "@value": "covered road"
+        },
+        {
+            "@language": "en",
+            "@value": "decked road"
+        },
+        {
+            "@language": "de",
+            "@value": "überbaute Straße"
+        },
+        {
+            "@language": "es",
+            "@value": "superficie cubierta"
+        },
+        {
+            "@language": "en",
+            "@value": "floor space"
+        },
+        {
+            "@language": "nl",
+            "@value": "grondoppervlak"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "space on any storey of a building between exterior walls and required fire wallsincluding the space occupied by interior walls and partition but not exits and vertical service spaces"
+        }
+    ]
+}

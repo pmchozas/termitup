@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7636822",
+    "@type": "skos:Concept",
+    "skos:inScheme": "selbsthilfe",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1728744",
+    "skos:topConceptOf": "LT7636822",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "self-help"
+        },
+        {
+            "@language": "de",
+            "@value": "selbsthilfe"
+        },
+        {
+            "@language": "nl",
+            "@value": "zelfhulp"
+        },
+        {
+            "@language": "en",
+            "@value": "self care"
+        },
+        {
+            "@language": "de",
+            "@value": "selbsthilfe"
+        },
+        {
+            "@language": "nl",
+            "@value": "zelfzorg"
+        },
+        {
+            "@language": "en",
+            "@value": "selfhelp"
+        },
+        {
+            "@language": "de",
+            "@value": "selbsthilfe"
+        },
+        {
+            "@language": "nl",
+            "@value": "zelfhulp"
+        },
+        {
+            "@language": "de",
+            "@value": "selbsthilfe"
+        },
+        {
+            "@language": "nl",
+            "@value": "sociale redzaamheid"
+        },
+        {
+            "@language": "es",
+            "@value": "ayuda mutua"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative self-help"
+        },
+        {
+            "@language": "de",
+            "@value": "selbsthilfe"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderlinge hulp"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "selfhelp"
+        },
+        {
+            "@language": "en",
+            "@value": "mutual self-help"
+        },
+        {
+            "@language": "de",
+            "@value": "Selbsthilfe"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "Vertrouwen op eigen kracht. Geldt voornamelijk voor groepen."
+        },
+        {
+            "@language": "de",
+            "@value": "unter Selbsthilfe ist die aktive Teilnahme von Bevoelkerungsgruppen an der wirtschaftliche und sozialen Entwicklung jeweiliger EL zu verstehen"
+        },
+        {
+            "@language": "nl",
+            "@value": "Omvat het geheel van aktiviteiten van groepen mensen die in eenzelfde probleemsituatie verkeren: AA-groepen Fobieclub Vrouwen in de overgang etc (MBZ: Wegwijzer Maatschappelijk Werk)"
+        },
+        {
+            "@language": "de",
+            "@value": "Sozialarbeit mit dem Ziel Aktivierung des Klienten zur Selbsthilfe ist effektiver und dadurch kostensparend auf Zeit."
+        }
+    ]
+}

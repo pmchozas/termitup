@@ -1,0 +1,212 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7048258",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbteil",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1132384",
+    "skos:topConceptOf": "LT7048258",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "porción hereditaria"
+        },
+        {
+            "@language": "en",
+            "@value": "share of a beneficiary"
+        },
+        {
+            "@language": "de",
+            "@value": "erbteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdeel"
+        },
+        {
+            "@language": "es",
+            "@value": "herencia"
+        },
+        {
+            "@language": "en",
+            "@value": "inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfenis"
+        },
+        {
+            "@language": "es",
+            "@value": "patrimonio hereditario"
+        },
+        {
+            "@language": "en",
+            "@value": "inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfmassa"
+        },
+        {
+            "@language": "en",
+            "@value": "portion of inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "aandeel in aan/in een erfenis"
+        },
+        {
+            "@language": "es",
+            "@value": "cuota hereditaria"
+        },
+        {
+            "@language": "en",
+            "@value": "share in an inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "aandeel in de erfenis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "cuota sucesoria"
+        },
+        {
+            "@language": "de",
+            "@value": "Nachlassquote"
+        },
+        {
+            "@language": "de",
+            "@value": "Anteile von Erben oder Vermächtnisnehmern"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbquote"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbe"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbanteil"
+        },
+        {
+            "@language": "en",
+            "@value": "hereditary"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbmasse"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbteil"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "aandeel in de nalatenschap"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdeel"
+        },
+        {
+            "@language": "es",
+            "@value": "parte hereditaria"
+        },
+        {
+            "@language": "es",
+            "@value": "parte hijuela"
+        },
+        {
+            "@language": "en",
+            "@value": "share in a legacy"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfdeel"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Parte de la masa de la herencia IATE:221254 que recibe un heredero IATE:83114 o un legatario IATE:3538824 ."
+        },
+        {
+            "@language": "en",
+            "@value": "share in an estate that passes to a beneficiary under a disposition of property upon death or a transfer through intestate succession or as a reserved share"
+        },
+        {
+            "@language": "nl",
+            "@value": "deel van de nalatenschap waarop een erfgenaam recht heeft"
+        },
+        {
+            "@language": "es",
+            "@value": "Conjunto de bienes derechos o acciones que se heredan.Transmisión de los derechos activos y pasivos que una persona tenía en vida a otra que sobrevive a la cual el testador o la ley llaman para recibirlos."
+        },
+        {
+            "@language": "en",
+            "@value": "property that a beneficiary receives from the estate of a deceased person"
+        },
+        {
+            "@language": "de",
+            "@value": "Anteil eines Miterben am Vermögen der verstorbenen Person"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"hetgeen een erfgenaam ontvangt van een nalatenschap of uit een boedel: het geheel of een evenredig gedeelte van de goederen en schulden bij uiterste wil nagelaten in tegenstelling tot een legaat.\""
+        }
+    ]
+}

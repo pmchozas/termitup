@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8200977",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-eingetragene",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/809347",
+    "skos:topConceptOf": "LT8200977",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "marca registrada"
+        },
+        {
+            "@language": "en",
+            "@value": "registered trademark"
+        },
+        {
+            "@language": "de",
+            "@value": "-eingetragene"
+        },
+        {
+            "@language": "nl",
+            "@value": "het aangevraagde merk"
+        },
+        {
+            "@language": "en",
+            "@value": "reported catches"
+        },
+        {
+            "@language": "de",
+            "@value": "-eingetragene"
+        },
+        {
+            "@language": "de",
+            "@value": "-eingetragene"
+        },
+        {
+            "@language": "en",
+            "@value": "registered terms"
+        },
+        {
+            "@language": "de",
+            "@value": "-eingetragene"
+        },
+        {
+            "@language": "nl",
+            "@value": "gedeponeerde condities"
+        },
+        {
+            "@language": "es",
+            "@value": "bienes inventariados"
+        },
+        {
+            "@language": "de",
+            "@value": "-eingetragene"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "registered trademark"
+        },
+        {
+            "@language": "en",
+            "@value": "the mark applied for"
+        },
+        {
+            "@language": "de",
+            "@value": "Warenzeichen"
+        },
+        {
+            "@language": "de",
+            "@value": "eingetragene Marke"
+        },
+        {
+            "@language": "de",
+            "@value": "eingetragenes Warenzeichen"
+        },
+        {
+            "@language": "de",
+            "@value": "registriertes Warenzeichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "gedeponeerd handelsmerk"
+        },
+        {
+            "@language": "de",
+            "@value": "eingetragene Kauffrau"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the name or motif identifying an article or product protected through registration in a public register and intended to differentiate between competing products"
+        },
+        {
+            "@language": "de",
+            "@value": "durch öffentliche Registrierung geschütztes Wort oder Bildzeichen um konkurrierende Erzeugnisse zu unterscheiden"
+        },
+        {
+            "@language": "nl",
+            "@value": "door inschrijving in een openbaar register beschermde benaming embleem of figuur ter onderscheiding van concurrerende produkten"
+        },
+        {
+            "@language": "de",
+            "@value": "eine natürliche Person die als Einzelunternehmerin im Firmenbuch eingetragen ist."
+        },
+        {
+            "@language": "nl",
+            "@value": "bergings-sleep-en andere condities"
+        }
+    ]
+}

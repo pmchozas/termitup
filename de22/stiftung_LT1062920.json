@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1062920",
+    "@type": "skos:Concept",
+    "skos:inScheme": "stiftung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3510810",
+    "skos:topConceptOf": "LT1062920",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "fondo de dotación"
+        },
+        {
+            "@language": "en",
+            "@value": "endowment"
+        },
+        {
+            "@language": "de",
+            "@value": "stiftung"
+        },
+        {
+            "@language": "nl",
+            "@value": "stichting"
+        },
+        {
+            "@language": "en",
+            "@value": "foundation"
+        },
+        {
+            "@language": "de",
+            "@value": "stiftung"
+        },
+        {
+            "@language": "nl",
+            "@value": "stichting"
+        },
+        {
+            "@language": "es",
+            "@value": "Fundación DCE"
+        },
+        {
+            "@language": "en",
+            "@value": "ECD Foundation"
+        },
+        {
+            "@language": "de",
+            "@value": "stiftung"
+        },
+        {
+            "@language": "nl",
+            "@value": "Stichting ECD"
+        },
+        {
+            "@language": "en",
+            "@value": "Inter-Church Broadcasting Association"
+        },
+        {
+            "@language": "de",
+            "@value": "stiftung"
+        },
+        {
+            "@language": "nl",
+            "@value": "Stichting IKOR"
+        },
+        {
+            "@language": "en",
+            "@value": "Ideal Homes Institute"
+        },
+        {
+            "@language": "de",
+            "@value": "stiftung"
+        },
+        {
+            "@language": "nl",
+            "@value": "Stichting Wonen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a body administering funds provided for social or philanthropic purposes"
+        },
+        {
+            "@language": "de",
+            "@value": "Verwendung von Vermögen für bestimmte oft gemeinnützige oder wohltätige Zwecke"
+        },
+        {
+            "@language": "nl",
+            "@value": "een door een rechtshandeling afgezonderd vermogen om daarmee een bepaald veelal niet-commercieel doel te bereiken"
+        }
+    ]
+}

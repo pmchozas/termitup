@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9546377",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bevollmächtigung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1395549",
+    "skos:topConceptOf": "LT9546377",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "mandato"
+        },
+        {
+            "@language": "de",
+            "@value": "bevollmächtigung"
+        },
+        {
+            "@language": "es",
+            "@value": "autorización"
+        },
+        {
+            "@language": "en",
+            "@value": "authorisation"
+        },
+        {
+            "@language": "de",
+            "@value": "bevollmächtigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "machtiging"
+        },
+        {
+            "@language": "en",
+            "@value": "elections through electoral colleges or by means of the present system of delegation"
+        },
+        {
+            "@language": "de",
+            "@value": "bevollmächtigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkiezingen via kiesmannen of via het systeem van afvaardiging"
+        },
+        {
+            "@language": "en",
+            "@value": "authorisation of an association of representatives"
+        },
+        {
+            "@language": "de",
+            "@value": "bevollmächtigung"
+        },
+        {
+            "@language": "es",
+            "@value": "prueba del poder otorgado al Abogado"
+        },
+        {
+            "@language": "en",
+            "@value": "proof of the authority granted to the lawyer"
+        },
+        {
+            "@language": "de",
+            "@value": "bevollmächtigung"
+        },
+        {
+            "@language": "nl",
+            "@value": "bewijs van de aan de advocaat gegeven volmacht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Bevollmächtigung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "a) Vollmacht: die durch Rechtsgeschäft erteilte Vertretungsmacht(= Ermächtigung jemanden gegenüber Dritten zu vertreten) b)Bevollmächtigung: Erteilung einer Vollmacht"
+        }
+    ]
+}

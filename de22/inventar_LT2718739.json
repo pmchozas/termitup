@@ -1,0 +1,154 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2718739",
+    "@type": "skos:Concept",
+    "skos:inScheme": "inventar",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/47256",
+    "skos:topConceptOf": "LT2718739",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "inventario"
+        },
+        {
+            "@language": "en",
+            "@value": "inventory"
+        },
+        {
+            "@language": "de",
+            "@value": "inventar"
+        },
+        {
+            "@language": "nl",
+            "@value": "inventaris"
+        },
+        {
+            "@language": "es",
+            "@value": "inventario"
+        },
+        {
+            "@language": "en",
+            "@value": "inventory"
+        },
+        {
+            "@language": "de",
+            "@value": "inventar"
+        },
+        {
+            "@language": "nl",
+            "@value": "inventaris"
+        },
+        {
+            "@language": "es",
+            "@value": "capital muerto"
+        },
+        {
+            "@language": "en",
+            "@value": "deadstock"
+        },
+        {
+            "@language": "de",
+            "@value": "inventar"
+        },
+        {
+            "@language": "nl",
+            "@value": "dode inventaris"
+        },
+        {
+            "@language": "es",
+            "@value": "aperos de labranza"
+        },
+        {
+            "@language": "en",
+            "@value": "deadstock"
+        },
+        {
+            "@language": "de",
+            "@value": "inventar"
+        },
+        {
+            "@language": "nl",
+            "@value": "dode have"
+        },
+        {
+            "@language": "es",
+            "@value": "capital mobiliario inanimado"
+        },
+        {
+            "@language": "en",
+            "@value": "deadstock"
+        },
+        {
+            "@language": "de",
+            "@value": "inventar"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Bestandsaufnahme"
+        },
+        {
+            "@language": "de",
+            "@value": "Bestandsverzeichnis"
+        },
+        {
+            "@language": "nl",
+            "@value": "inventarisatie"
+        },
+        {
+            "@language": "nl",
+            "@value": "dode have"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.list of the contents of a house for sale of an office for rent or the estate of a deceased person etc.;2.A detailed list of articles goods property etc."
+        },
+        {
+            "@language": "en",
+            "@value": "total amount of furniture and equipment available for show"
+        },
+        {
+            "@language": "nl",
+            "@value": "dode have is de dode inventaris van een landbouwbedrijf bestaande uit de machines werktuigen gereedschappen en voorraden in tegenstelling tot de levende inventaris d.i.het vee"
+        }
+    ],
+    "skos:broader": [
+        "LT2538512"
+    ],
+    "skos:narrower": [
+        "LT3000152"
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3064170",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-von der vermögensverwaltung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1125500",
+    "skos:topConceptOf": "LT3064170",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "gestión de activos"
+        },
+        {
+            "@language": "en",
+            "@value": "management of assets"
+        },
+        {
+            "@language": "de",
+            "@value": "-von der vermögensverwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beheer van activa"
+        },
+        {
+            "@language": "es",
+            "@value": "administración de bienes"
+        },
+        {
+            "@language": "de",
+            "@value": "-von der vermögensverwaltung"
+        },
+        {
+            "@language": "en",
+            "@value": "administration of assets"
+        },
+        {
+            "@language": "de",
+            "@value": "-von der vermögensverwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vermogensbeheer"
+        },
+        {
+            "@language": "es",
+            "@value": "gestión activa de un fondo"
+        },
+        {
+            "@language": "en",
+            "@value": "active fund management"
+        },
+        {
+            "@language": "de",
+            "@value": "-von der vermögensverwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "actief fondsbeheer"
+        },
+        {
+            "@language": "es",
+            "@value": "gestión indiciaria"
+        },
+        {
+            "@language": "en",
+            "@value": "indexed investment management"
+        },
+        {
+            "@language": "de",
+            "@value": "-von der vermögensverwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "aan de index gekoppeld beheer"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " administración de activos"
+        },
+        {
+            "@language": "en",
+            "@value": " asset management"
+        },
+        {
+            "@language": "de",
+            "@value": " Vermögensverwaltung"
+        },
+        {
+            "@language": "en",
+            "@value": " property administration"
+        },
+        {
+            "@language": "de",
+            "@value": " aktive Vermögensverwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": " actief beheer"
+        },
+        {
+            "@language": "es",
+            "@value": " gestión pasiva"
+        },
+        {
+            "@language": "en",
+            "@value": " indexed management"
+        },
+        {
+            "@language": "en",
+            "@value": " passive fund management"
+        },
+        {
+            "@language": "en",
+            "@value": " index tracking fund management"
+        },
+        {
+            "@language": "de",
+            "@value": " Fondsmanagement"
+        },
+        {
+            "@language": "de",
+            "@value": " Fondsverwaltung"
+        },
+        {
+            "@language": "de",
+            "@value": " passive Vermögensverwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": " passief beheer"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "management of a client's investments by a financial services company usually an investment bank"
+        },
+        {
+            "@language": "de",
+            "@value": "ein Vermoegen verwalten"
+        },
+        {
+            "@language": "en",
+            "@value": "the management of assets or a certain part of the assets by an asset manager commissioned to perform this function on the basis of a management mandate.The asset management of the bank is sometimes linked with the safe custody business"
+        },
+        {
+            "@language": "nl",
+            "@value": "door een bank of andere gespecialiseerde instelling beheren van het vermogen van een client"
+        },
+        {
+            "@language": "es",
+            "@value": "Estilo de gestión de carteras que pretende superar el rendimiento de un índice o activo de referencia aprovechando las ineficiencias de los mercados; para ello se recurre a la selección de activos infravalorados y a la identificación del mejor momento para comprar o vender."
+        },
+        {
+            "@language": "en",
+            "@value": "a portfolio is actively managed if shares are bought and sold when they appear cheap or dear.The methods used for deciding which shares to buy and sell may be traditionalbased on the fund manager's judgementor quantitativebased upon computer analysis as to the factors which are likely to make the shares cheap or dear"
+        },
+        {
+            "@language": "de",
+            "@value": "Vermögensverwaltungsstil bei dem die Titelselektion relativ unabhängig von einem Referenzwert/Index allein anhand von subjektiven Beurteilungen der Marktentwicklung (meist durch einen beauftragten Vermögensverwalter) erfolgt um eine möglichst hohe über dem Index liegende Wertsteigerung zu erzielen etwa durch gutes Markt-Timing optimale Wertpapierauswahl etc."
+        },
+        {
+            "@language": "nl",
+            "@value": "[Bij passief beheer ( IATE:1682827 ) neemt men genoegen met het rendement van de benchmark. Bij actief beheer wordt getracht een beter rendement te behalen dan de benchmark. Dit doet men door bewust af te wijken van de samenstelling van de benchmark. In dit verband wordt onder benchmark verstaan een meetlat waartegen het rendement van beleggingen kan worden afgezet. Over het algemeen is dit een bestaande index (zoals de AEX). De benchmark dient als uitgangspunt voor de uitvoering van de beleggingen.\""
+        },
+        {
+            "@language": "es",
+            "@value": "Modalidad de gestión de carteras IATE:795853 con la que se pretende obtener una rentabilidad equivalente a la del índice o índices de referencia (bursátil IATE:146730 o de renta fija IATE:3516292 ) mediante una elección de títulos IATE:754316 que replique su evolución."
+        },
+        {
+            "@language": "en",
+            "@value": "a type of management that differs from active investment management in that the investment decisions do not rely on investment managersstrategiesstock selection or market timing.Insteadthe portfolio seeks to emulate(or track)either a market indexor a specifically designed index"
+        },
+        {
+            "@language": "de",
+            "@value": "Vermögensverwaltungsstil der ein Portfolio so konstruiert dass es möglichst die exakt gleiche Performance (Rendite) wie ein Index hat; dies wird erreicht durch volle Nachbildung oder nahezu vollständige Nachbildung eines bestimmten Marktindex (z.B. Aktienindex)"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Bij passief beheer belegt men in alle soorten beleggingen die in een bepaalde benchmark voorkomen conform de verhoudingen daarvan binnen die benchmark dan wel in een representatief deel van die beleggingen. Men neemt dan genoegen met het rendement van de benchmark. In dit verband wordt onder benchmark verstaan een meetlat waartegen het rendement van beleggingen kan worden afgezet. Over het algemeen is dit een bestaande index (zoals de AEX). De benchmark dient als uitgangspunt voor de uitvoering van de beleggingen.\""
+        }
+    ]
+}

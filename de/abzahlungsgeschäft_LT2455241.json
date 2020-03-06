@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2455241",
+    "@type": "skos:Concept",
+    "skos:inScheme": "abzahlungsgeschäft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/53843",
+    "skos:topConceptOf": "LT2455241",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "compra a plazos"
+        },
+        {
+            "@language": "en",
+            "@value": "hire-purchase"
+        },
+        {
+            "@language": "de",
+            "@value": "abzahlungsgeschäft"
+        },
+        {
+            "@language": "nl",
+            "@value": "huurkoop"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "venta a plazos"
+        },
+        {
+            "@language": "de",
+            "@value": "Mietkauf"
+        },
+        {
+            "@language": "de",
+            "@value": "Abzahlungsgeschäft"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1) Contrato de compraventa de cosas muebles corporales en el que la parte compradora paga parte del precio al recibir la cosa y se compromete a abonar el resto en un tiempo superior a tres meses. La parte compradora adquiere la posesión de la cosa al perfeccionar el contrato y la propiedad una vez finalizado el pago. 2) Operación de crédito mediante la cual un consumidor comprador otorga un depósito IATE:1071776 por la compra de un bien y pagará el saldo con interés pactado con el vendedor en abonos a lo largo de un periodo corto."
+        },
+        {
+            "@language": "en",
+            "@value": "form of instalment purchase when the parties agree that the purchaser shall become proprietor of the goods sold only after the full purchase price heas benn paid"
+        },
+        {
+            "@language": "nl",
+            "@value": "methode van computeraanschaf-financiering waarbij de koopsom in over een aantal jaren gespreide termijnen door de gebruiker wordt voldaan en de eigendom eerst op deze laatste overgaat als de laatste termijn is betaald"
+        }
+    ]
+}

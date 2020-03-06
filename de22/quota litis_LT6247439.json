@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6247439",
+    "@type": "skos:Concept",
+    "skos:inScheme": "quota litis",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3555599",
+    "skos:topConceptOf": "LT6247439",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cuota litis mixta"
+        },
+        {
+            "@language": "en",
+            "@value": "damages-based agreement"
+        },
+        {
+            "@language": "de",
+            "@value": "quota litis"
+        },
+        {
+            "@language": "nl",
+            "@value": "quota pars litis-afspraak"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "DBA"
+        },
+        {
+            "@language": "de",
+            "@value": "Streitanteilsvereinbarung"
+        },
+        {
+            "@language": "nl",
+            "@value": "pactum de quota litis"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Modalidad de retribución de un abogado en la que este cobra un porcentaje de lo obtenido por el cliente en caso de ganar el pleito (al igual que en la cuota litis IATE:914169 en sentido estricto) además de lo necesario para cubrir los gastos."
+        },
+        {
+            "@language": "en",
+            "@value": "type of ‘no win no fee’ [ IATE:1092777 ] agreement under which a lawyer can recover an agreed percentage of a client’s damages if the case is won but will receive nothing if the case is lost"
+        },
+        {
+            "@language": "de",
+            "@value": "v.a. im US/UK-Recht gebräuchl. Vereinbarung über eine Form der erfolgsbasierten Vergütung von Rechtsanwälten bei der dieser als Gegenleistung für erfolgreiches Wirken einen prozentualen Anteil (i.d.R. 25 %) des von ihm für den Mandanten Erstrittenen erhält"
+        },
+        {
+            "@language": "nl",
+            "@value": "honorariumovereenkomst waarbij advocaat en cliënt afspreken dat bij gunstige afloop de advocaat aanspraak kan maken op een percentage van de opbrengst al dan niet in combinatie met een andere beloning"
+        }
+    ]
+}

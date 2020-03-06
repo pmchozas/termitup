@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9355333",
+    "@type": "skos:Concept",
+    "skos:inScheme": "testamentsvollstrecker",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/887035",
+    "skos:topConceptOf": "LT9355333",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "albacea"
+        },
+        {
+            "@language": "en",
+            "@value": "executor"
+        },
+        {
+            "@language": "de",
+            "@value": "testamentsvollstrecker"
+        },
+        {
+            "@language": "nl",
+            "@value": "executeur"
+        },
+        {
+            "@language": "de",
+            "@value": "testamentsvollstrecker"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "ejecutor testamentario"
+        },
+        {
+            "@language": "en",
+            "@value": "executor of a will"
+        },
+        {
+            "@language": "en",
+            "@value": "executor of an estate"
+        },
+        {
+            "@language": "de",
+            "@value": "Willensvollstrecker"
+        },
+        {
+            "@language": "de",
+            "@value": "Nachlassabwickler"
+        },
+        {
+            "@language": "nl",
+            "@value": "executeur-testamentair"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitvoerder van een uiterste wilsbeschikking"
+        },
+        {
+            "@language": "nl",
+            "@value": "wil"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Persona que tiene a su cargo cumplir o ejecutar lo que el testador IATE:80201 ha ordenado en su testamento IATE:1130370 u otra forma de disposición de última voluntad IATE:3534954 ."
+        },
+        {
+            "@language": "en",
+            "@value": "a representative of a dead person appointed by the testator in his or her will who pays off any debts or taxes and distributes the property and possessions to those entitled to them"
+        },
+        {
+            "@language": "de",
+            "@value": "i.d.R. vom Erblasser bestimmte Person die eingewilligt hat den letzten Willen des Erblassers zu vollziehen oder zu überwachen"
+        },
+        {
+            "@language": "nl",
+            "@value": "door de erflater benoemde persoon die tot taak heeft de goederen der nalatenschap te beheren en de schulden der nalatenschap te voldoen"
+        }
+    ]
+}

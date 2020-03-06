@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6457276",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-verbot",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1101512",
+    "skos:topConceptOf": "LT6457276",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "prohibición de consolidar los derechos de aduana por acuerdos internacionales"
+        },
+        {
+            "@language": "en",
+            "@value": "to debar from binding customs duties by international agreements"
+        },
+        {
+            "@language": "de",
+            "@value": "-verbot"
+        },
+        {
+            "@language": "nl",
+            "@value": "verbod om door middel van internationale overeenkomsten de douanerechten te consolideren"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "durch internationale Vereinbarungen eine dauernde Beibehaltung der Zoelle zu vereinbaren"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

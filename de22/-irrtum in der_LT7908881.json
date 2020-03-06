@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7908881",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-irrtum in der",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1609868",
+    "skos:topConceptOf": "LT7908881",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "error en la medición de la distancia"
+        },
+        {
+            "@language": "en",
+            "@value": "ranging error"
+        },
+        {
+            "@language": "de",
+            "@value": "-irrtum in der"
+        },
+        {
+            "@language": "nl",
+            "@value": "afstandsmeetfout"
+        },
+        {
+            "@language": "es",
+            "@value": "error"
+        },
+        {
+            "@language": "en",
+            "@value": "mistake"
+        },
+        {
+            "@language": "de",
+            "@value": "-irrtum in der"
+        },
+        {
+            "@language": "nl",
+            "@value": "fout"
+        },
+        {
+            "@language": "en",
+            "@value": "nautical error"
+        },
+        {
+            "@language": "de",
+            "@value": "-irrtum in der"
+        },
+        {
+            "@language": "nl",
+            "@value": "nautische vergissing"
+        },
+        {
+            "@language": "de",
+            "@value": "-irrtum in der"
+        },
+        {
+            "@language": "es",
+            "@value": "falacia del fiscal"
+        },
+        {
+            "@language": "en",
+            "@value": "prosecutor's fallacy"
+        },
+        {
+            "@language": "de",
+            "@value": "-irrtum in der"
+        },
+        {
+            "@language": "nl",
+            "@value": "Prokureurssofisme"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "error"
+        },
+        {
+            "@language": "de",
+            "@value": "Fehler"
+        },
+        {
+            "@language": "de",
+            "@value": "Irrtum"
+        },
+        {
+            "@language": "de",
+            "@value": "menschliche Fehlhandlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "menselijke fout"
+        },
+        {
+            "@language": "de",
+            "@value": "I.v."
+        },
+        {
+            "@language": "de",
+            "@value": "Irrtum vorbehalten"
+        },
+        {
+            "@language": "de",
+            "@value": "Irrtum des Verfolgers"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a human action that produces an unintended result.(1)The failure of a human to carry out an operation in the required mannere.g.in writing a programor in operating a piece of equipment(2)"
+        },
+        {
+            "@language": "de",
+            "@value": "Fehlerverhalten eines Menschen bei der Ausführung einer Arbeit z.b.beim Schreiben eines Programms oder bei der Bedienung eines Gerätes"
+        }
+    ]
+}

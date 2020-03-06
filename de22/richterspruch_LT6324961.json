@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6324961",
+    "@type": "skos:Concept",
+    "skos:inScheme": "richterspruch",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1393774",
+    "skos:topConceptOf": "LT6324961",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "disolución por resolución judicial"
+        },
+        {
+            "@language": "de",
+            "@value": "richterspruch"
+        },
+        {
+            "@language": "es",
+            "@value": "jurisprudencia"
+        },
+        {
+            "@language": "de",
+            "@value": "richterspruch"
+        },
+        {
+            "@language": "en",
+            "@value": "deprivation of eligibility for election by court order"
+        },
+        {
+            "@language": "de",
+            "@value": "richterspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": "de ontzegging van het passieve kiesrecht bij rechterlijk vonnis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Aufloesung durch Richterspruch"
+        },
+        {
+            "@language": "de",
+            "@value": "Fortentwicklung des Rechts durch die Gerichte"
+        },
+        {
+            "@language": "de",
+            "@value": "Fortentwicklung des Rechts durch Richterspruch"
+        },
+        {
+            "@language": "de",
+            "@value": "Richterrecht"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Richterrecht: Rechtsfortbildung der Gerichte insbesondere durch Ausfüllen von Gesetzeslücken Grundsatzentscheidungen der oberen Gerichte zu streitigen Rechtsfragen Fortentwicklung oder Überprüfung bestehender Auslegungen"
+        }
+    ]
+}

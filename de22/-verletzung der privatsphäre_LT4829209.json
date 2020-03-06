@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4829209",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-verletzung der privatsphäre",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3574085",
+    "skos:topConceptOf": "LT4829209",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "privacy breach"
+        },
+        {
+            "@language": "de",
+            "@value": "-verletzung der privatsphäre"
+        },
+        {
+            "@language": "nl",
+            "@value": "privacyschending"
+        },
+        {
+            "@language": "es",
+            "@value": "intrusión en la vida privada"
+        },
+        {
+            "@language": "en",
+            "@value": "invasion of privacy"
+        },
+        {
+            "@language": "de",
+            "@value": "-verletzung der privatsphäre"
+        },
+        {
+            "@language": "nl",
+            "@value": "inbreuk op de privacy"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "violación del derecho a la intimidad personal"
+        },
+        {
+            "@language": "es",
+            "@value": "violación de la intimidad"
+        },
+        {
+            "@language": "es",
+            "@value": "invasión de la intimidad"
+        },
+        {
+            "@language": "en",
+            "@value": "privacy intrusion"
+        },
+        {
+            "@language": "en",
+            "@value": "intrusion into privacy"
+        },
+        {
+            "@language": "en",
+            "@value": "violation of privacy"
+        },
+        {
+            "@language": "de",
+            "@value": "Bedrohung des Persönlichkeitsschutzes"
+        },
+        {
+            "@language": "de",
+            "@value": "Verletzung der Privatsphäre"
+        },
+        {
+            "@language": "de",
+            "@value": "Einbruch in die Privatsphäre"
+        },
+        {
+            "@language": "nl",
+            "@value": "inbreuk op de persoonlijke levenssfeer"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "an incident involving the unauthorised collection use or disclosure of personal information"
+        },
+        {
+            "@language": "de",
+            "@value": "Vorfall mit unerlaubter Erhebung Nutzung oder Weitergabe personenbezogener Daten"
+        },
+        {
+            "@language": "en",
+            "@value": "intrusion into the personal life of another without just cause which can give the person whose privacy has been invaded a right to bring a lawsuit for damages against the person or entity that intruded"
+        },
+        {
+            "@language": "de",
+            "@value": "Angriff auf die Persönlichkeitssphäre z.B.durch Offenbarung von Geschäftsgeheimnissen Abhören und Anzapfen von Leitungen Verletzung des Briefsgeheimnisses Mißbrauch von Kommunikationssystemen und Verleumdung; 2)Schädigung des Rufes und des Ansehens der Privatsphäre oder der Person durch die Verbreitung derzu seiner Person gespeicherten Daten"
+        },
+        {
+            "@language": "nl",
+            "@value": "een inbreuk op iemands privacy is b.v.het openbaarmaken van feiten uit iemands privéleven of een mededeling die de eer en goede naam van iemand aantast"
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8228280",
+    "@type": "skos:Concept",
+    "skos:inScheme": "durchlaß",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1402049",
+    "skos:topConceptOf": "LT8228280",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "alcantarilla"
+        },
+        {
+            "@language": "en",
+            "@value": "culvert"
+        },
+        {
+            "@language": "de",
+            "@value": "durchlaß"
+        },
+        {
+            "@language": "nl",
+            "@value": "bruggetje"
+        },
+        {
+            "@language": "de",
+            "@value": "durchlaß"
+        },
+        {
+            "@language": "de",
+            "@value": "durchlaß"
+        },
+        {
+            "@language": "es",
+            "@value": "paso"
+        },
+        {
+            "@language": "en",
+            "@value": "culvert"
+        },
+        {
+            "@language": "de",
+            "@value": "durchlaß"
+        },
+        {
+            "@language": "en",
+            "@value": "clearance"
+        },
+        {
+            "@language": "de",
+            "@value": "durchlaß"
+        },
+        {
+            "@language": "nl",
+            "@value": "doorlaat"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "duiker"
+        },
+        {
+            "@language": "en",
+            "@value": "daylight"
+        },
+        {
+            "@language": "de",
+            "@value": "Höhendurchlass"
+        },
+        {
+            "@language": "de",
+            "@value": "Breitendurchlass"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "indicates the largest width and height of a workpiece that can be machined on a milling machinesuch as a planomiller"
+        },
+        {
+            "@language": "de",
+            "@value": "Mass das die groesste Breite und Hoehe eines Werkstueckes angibt das auf einer Fraesmaschine z.B.Portal-Fraesmaschine noch bearbeitbar ist"
+        },
+        {
+            "@language": "nl",
+            "@value": "Grootste hoogte en breedte van het werkstuk dat op de freesmachine te bewerken is"
+        }
+    ]
+}

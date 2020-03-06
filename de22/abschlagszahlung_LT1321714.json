@@ -1,0 +1,155 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1321714",
+    "@type": "skos:Concept",
+    "skos:inScheme": "abschlagszahlung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1416256",
+    "skos:topConceptOf": "LT1321714",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "progress payment"
+        },
+        {
+            "@language": "de",
+            "@value": "abschlagszahlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "lopende betaling"
+        },
+        {
+            "@language": "en",
+            "@value": "payment on account"
+        },
+        {
+            "@language": "de",
+            "@value": "abschlagszahlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorschot"
+        },
+        {
+            "@language": "es",
+            "@value": "pago a cuenta"
+        },
+        {
+            "@language": "en",
+            "@value": "payment of the first instalment"
+        },
+        {
+            "@language": "de",
+            "@value": "abschlagszahlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vooruitbetaling"
+        },
+        {
+            "@language": "en",
+            "@value": "making an advance payment"
+        },
+        {
+            "@language": "de",
+            "@value": "abschlagszahlung"
+        },
+        {
+            "@language": "es",
+            "@value": "entrega a cuenta"
+        },
+        {
+            "@language": "en",
+            "@value": "payment of an installment"
+        },
+        {
+            "@language": "de",
+            "@value": "abschlagszahlung"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorschotverstrekking"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " partial payment"
+        },
+        {
+            "@language": "en",
+            "@value": " running payment"
+        },
+        {
+            "@language": "en",
+            "@value": " payment on account"
+        },
+        {
+            "@language": "de",
+            "@value": " Abschlagszahlung"
+        },
+        {
+            "@language": "de",
+            "@value": " Teilzahlung"
+        },
+        {
+            "@language": "en",
+            "@value": " advance payment"
+        },
+        {
+            "@language": "en",
+            "@value": " advance"
+        },
+        {
+            "@language": "de",
+            "@value": " Abschlagzahlung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "Intermediate payment made during the course of a contract or transaction on evidence of progress being made"
+        },
+        {
+            "@language": "de",
+            "@value": "anders als die bloße Anzahlung ist die Abschlagszahlung regelmäßig vorweggenommene (Teil-)Erfüllung (z. B. Zahlung auf bereits geleistete aber noch nicht abgerechnete Arbeit) nicht Vorschuss (auf künftig fällig werdende Leistungen) oder Darlehensvertrag"
+        },
+        {
+            "@language": "de",
+            "@value": "Teilzahlung; Zahlung des Teilbetrags einer Schuld"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Overwegende dat de voorschriften en de procedures voor vastlegging en betaling moeten worden vereenvoudigd; dat het daartoe dienstig is dat de begrotingsmiddelen jaarlijks in één keer worden vastgelegd in overeenstemming met de meerjarige financiële vooruitzichten en met het financieringsplan voor de bijstandspakketten en dat de bijdragen worden betaald door middel van een voorschot en vervolgens vergoedingen van de gedane uitgaven; dat de eventueel door het voorschot voortgebrachte rente overeenkomstig de vaste rechtspraak moet worden aangemerkt als middelen van de betrokken lidstaat die om het effect van de fondsen te versterken voor dezelfde doeleinden als het voorschot zelf dienen te worden gebruikt; (...) Nadat de eerste betalingsverplichting is aangegaan maakt de Commissie een voorschot aan de betalingsautoriteit over. Dit voorschot bedraagt tot 7 % van de bijdrage van de fondsen in het betrokken bijstandspakket en kan in beginsel over twee begrotingsjaren worden gespreid afhankelijk van de beschikbaarheid van begrotingsmiddelen.\""
+        }
+    ]
+}

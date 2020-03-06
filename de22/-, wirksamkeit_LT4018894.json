@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4018894",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, wirksamkeit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3510351",
+    "skos:topConceptOf": "LT4018894",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "potencia"
+        },
+        {
+            "@language": "en",
+            "@value": "potency"
+        },
+        {
+            "@language": "de",
+            "@value": "-, wirksamkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "potentie"
+        },
+        {
+            "@language": "es",
+            "@value": "eficacia de la precipitación"
+        },
+        {
+            "@language": "en",
+            "@value": "effectiveness of precipitation"
+        },
+        {
+            "@language": "de",
+            "@value": "-, wirksamkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "effectiviteit van de neerslag"
+        },
+        {
+            "@language": "es",
+            "@value": "efecto"
+        },
+        {
+            "@language": "en",
+            "@value": "effects"
+        },
+        {
+            "@language": "de",
+            "@value": "-, wirksamkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "effecten"
+        },
+        {
+            "@language": "en",
+            "@value": "effectiveness"
+        },
+        {
+            "@language": "de",
+            "@value": "-, wirksamkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "effectiviteit"
+        },
+        {
+            "@language": "es",
+            "@value": "Eficacia"
+        },
+        {
+            "@language": "en",
+            "@value": "Efficacy"
+        },
+        {
+            "@language": "de",
+            "@value": "-, wirksamkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "Maximale effectiviteit onder ideale omstandigheden"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "potent"
+        },
+        {
+            "@language": "nl",
+            "@value": "werkzaamheid"
+        },
+        {
+            "@language": "de",
+            "@value": "Wirksamkeit des gefallenen Regens"
+        },
+        {
+            "@language": "de",
+            "@value": "Wirksamkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "Effektivität"
+        },
+        {
+            "@language": "nl",
+            "@value": "doeltreffendheid"
+        },
+        {
+            "@language": "de",
+            "@value": "Wirkung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Actividad de un fármaco agonista por unidad de peso. Se suele representar como la concentración que se necesita para producir el efecto máximo en la curva de concentración y efecto en el eje de abscisas. Se utiliza para comparar agonistas y es tanto mayor cuanto menor sea la concentración mencionada. Está condicionada por la vía de administración y por las variables farmacocinéticas."
+        },
+        {
+            "@language": "en",
+            "@value": "expression of the activity of a drug in terms of the concentration or amount needed to produce a defined effect"
+        },
+        {
+            "@language": "nl",
+            "@value": "kracht van de werking van een geneesmiddel"
+        },
+        {
+            "@language": "en",
+            "@value": "fraction of precipitation used by vegetation. It depends on the fraction of liquid water absorbed by the soil and made available to the plant roots."
+        }
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6872369",
+    "@type": "skos:Concept",
+    "skos:inScheme": "kreditinstitut",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1556841",
+    "skos:topConceptOf": "LT6872369",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "banco"
+        },
+        {
+            "@language": "en",
+            "@value": "bank"
+        },
+        {
+            "@language": "de",
+            "@value": "kreditinstitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "bank"
+        },
+        {
+            "@language": "es",
+            "@value": "entidad de crédito"
+        },
+        {
+            "@language": "en",
+            "@value": "credit institution"
+        },
+        {
+            "@language": "de",
+            "@value": "kreditinstitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "kredietinstelling"
+        },
+        {
+            "@language": "es",
+            "@value": "entidad de crédito privada"
+        },
+        {
+            "@language": "en",
+            "@value": "private credit institution"
+        },
+        {
+            "@language": "de",
+            "@value": "kreditinstitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "particuliere kredietinstelling"
+        },
+        {
+            "@language": "es",
+            "@value": "entidad de crédito de la zona A"
+        },
+        {
+            "@language": "en",
+            "@value": "Zone A credit institution"
+        },
+        {
+            "@language": "de",
+            "@value": "kreditinstitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "kredietinstelling van zone A"
+        },
+        {
+            "@language": "es",
+            "@value": "entidad de crédito de la zona B"
+        },
+        {
+            "@language": "en",
+            "@value": "Zone B credit institution"
+        },
+        {
+            "@language": "de",
+            "@value": "kreditinstitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "kredietinstelling von zone B"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "institución bancaria"
+        },
+        {
+            "@language": "en",
+            "@value": "banks"
+        },
+        {
+            "@language": "en",
+            "@value": "banking institution"
+        },
+        {
+            "@language": "en",
+            "@value": "institutions"
+        },
+        {
+            "@language": "de",
+            "@value": "Bank"
+        },
+        {
+            "@language": "de",
+            "@value": "Kreditinstitut"
+        },
+        {
+            "@language": "nl",
+            "@value": "bankinstelling"
+        },
+        {
+            "@language": "de",
+            "@value": "Kreditwesen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Institución financiera que media entre el ahorro al que capta a través de diversas modalidades de depósito para convertirlo en créditos y préstamos."
+        },
+        {
+            "@language": "en",
+            "@value": "financial institution authorized or chartered by its national regulatory authority to be designated as a bank"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"instelling die verschillende functies verricht en diensten verleent in het geld- kapitaal- en betalingsverkeer. Banken nemen deposito's aan van klanten beheren spaargelden verstrekken kredieten aan bedrijven en particulieren […] verzorgen betalings- en effectenverkeer en adviseren en begeleiden bedrijven bij hun gang naar de beurs\""
+        },
+        {
+            "@language": "es",
+            "@value": "Empresa cuya actividad consiste en recibir del público depósitos u otros fondos reembolsables y en conceder créditos por cuenta propia."
+        },
+        {
+            "@language": "en",
+            "@value": "undertaking whose business is to receive deposits or other repayable funds from the public and to grant credits for its own account"
+        },
+        {
+            "@language": "de",
+            "@value": "Unternehmen das Einlagen oder andere rückzahlbare Gelder des Publikums entgegennimmt und Kredite für eigene Rechnung gewährt"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"een onderneming waarvan de werkzaamheden bestaan in het van het publiek in ontvangst nemen van deposito's of van andere terugbetaalbare gelden en het verlenen van kredieten voor eigen rekening\""
+        },
+        {
+            "@language": "es",
+            "@value": "toda entidad de crédito autorizada en los Estados miembros de acuerdo con el artículo 3 de la Directiva 77/780/CEE incluidas sus sucursales en los países terceros y todas las empresas públicas o privadas que estén comprendidas en la definición contenida en el primer guión del artículo 1 de la Directiva 77/780/CEE autorizadas en otros países de la zona A incluidas sus sucursales"
+        },
+        {
+            "@language": "en",
+            "@value": "all credit institutions authorized in the Member Statesin accordance with Article 3 of Directive 77/780/EECincluding their branches in third countriesand all private and public undertakings covered by the definition in the first indent of Article 1 of Directive 77/780/EEC and authorized in other Zone A countriesincluding their branches"
+        },
+        {
+            "@language": "de",
+            "@value": "alle gemäß Artikel 3 der Richtlinie 77/780/EWG in den Mitgliedstaaten zugelassenen Kreditinstitute einschließlich ihrer Zweigstellen in Drittländern sowie alle unter die Definition nach Artikel 1 erster Gedankenstrich der Richtlinie 77/780/EWG fallenden privaten und öffentlichen Unternehmen die in anderen Ländern der Zone A zugelassen sind einschließlich ihrer Zweigstellen"
+        },
+        {
+            "@language": "nl",
+            "@value": "alle kredietinstellingen die in de Lid-Staten overeenkomstig artikel 3 van Richtlijn 77/780/EEG een vergunning hebben verkregen inclusief hun bijkantoren in derde landen en alle onder de definitie van artikel 1eerste streepje van Richtlijn 77/780/EEG vallende particuliere en openbare ondernemingen waaraan een vergunning is verleend in andere landen van zone A inclusief hun bijkantoren"
+        },
+        {
+            "@language": "es",
+            "@value": "todas las empresas públicas o privadas autorizadas fuera de la zona A que estén comprendidas en la definición contenida en el primer guión del artículo 1 de la Directiva 77/780/CEE incluidas sus sucursales en la Comunidad"
+        },
+        {
+            "@language": "en",
+            "@value": "all private and public undertakings authorized outside Zone A covered by the definition in the first indent of Article 1 of Directive 77/780/EECincluding their branches within the Community"
+        },
+        {
+            "@language": "de",
+            "@value": "alle privaten und öffentlichen Unternehmen die außerhalb der Zone A zugelassen sind und der Definition in Artikel 1 erster Gedankenstrich der Richtlinie 77/780/EWG genügen einschließlich ihrer Zweigstellen in der Gemeinschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "alle particuliere en openbare ondernemingen die een vergunning hebben verkregen buiten zone A en die voldoen aan de definitie van artikel 1eerste streepje van Richtlijn 77/780/EEG inclusief hun bijkantoren in de Gemeenschap"
+        }
+    ]
+}

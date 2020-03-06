@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9801337",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbfähigkeit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1253163",
+    "skos:topConceptOf": "LT9801337",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "capacidad de suceder"
+        },
+        {
+            "@language": "en",
+            "@value": "capacity to inherit"
+        },
+        {
+            "@language": "de",
+            "@value": "erbfähigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfbekwaamheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "capacidad para suceder"
+        },
+        {
+            "@language": "en",
+            "@value": "capacity to succeed"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevoegdheid tot erfopvolging"
+        },
+        {
+            "@language": "nl",
+            "@value": "bekwaamheid om te erven"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Pueden heredar cuantos no estén incapacitados; en principio las criaturas abortivas y las asociaciones y corporaciones no permitidas por la ley."
+        },
+        {
+            "@language": "en",
+            "@value": "ability to inherit subject to certain conditions such as legal age"
+        },
+        {
+            "@language": "de",
+            "@value": "Fähigkeit Erbe oder Nacherbe zu werden oder sonst Zuwendungen von Todes wegen zu erhalten"
+        },
+        {
+            "@language": "nl",
+            "@value": "Erfbekwaamheid houdt in:1. De erfgenaam moet bestaan op het moment dat de erfenis openvalt;2. De erfgenaam mag niet onbekwaam zijn om te erven (dwz. geen zware misdaden hebben gepleegd)."
+        }
+    ]
+}

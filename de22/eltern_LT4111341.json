@@ -1,0 +1,227 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4111341",
+    "@type": "skos:Concept",
+    "skos:inScheme": "eltern",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1254650",
+    "skos:topConceptOf": "LT4111341",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "genitor"
+        },
+        {
+            "@language": "en",
+            "@value": "parent"
+        },
+        {
+            "@language": "de",
+            "@value": "eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "ouder"
+        },
+        {
+            "@language": "es",
+            "@value": "progenitores desconocidos"
+        },
+        {
+            "@language": "en",
+            "@value": "unknown parents"
+        },
+        {
+            "@language": "de",
+            "@value": "eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "onbekende ouders"
+        },
+        {
+            "@language": "es",
+            "@value": "elección paterna"
+        },
+        {
+            "@language": "en",
+            "@value": "parental wishes"
+        },
+        {
+            "@language": "de",
+            "@value": "eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "wensen van de ouders"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo de padres solteros"
+        },
+        {
+            "@language": "en",
+            "@value": "child of parents neither of whom is married"
+        },
+        {
+            "@language": "de",
+            "@value": "eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitenhuwelijks kind"
+        },
+        {
+            "@language": "es",
+            "@value": "ascendiente en línea directa"
+        },
+        {
+            "@language": "en",
+            "@value": "lineal ascendant"
+        },
+        {
+            "@language": "de",
+            "@value": "eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "ascendent"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "P"
+        },
+        {
+            "@language": "de",
+            "@value": "Eltern"
+        },
+        {
+            "@language": "de",
+            "@value": "P"
+        },
+        {
+            "@language": "nl",
+            "@value": "ouders"
+        },
+        {
+            "@language": "nl",
+            "@value": "P"
+        },
+        {
+            "@language": "es",
+            "@value": "padres desconocidos"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo de padres no casados"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo de progenitores no casados"
+        },
+        {
+            "@language": "de",
+            "@value": "Kind lediger Eltern"
+        },
+        {
+            "@language": "nl",
+            "@value": "kind van ongehuwde ouders"
+        },
+        {
+            "@language": "nl",
+            "@value": "gewoon natuurlijk kind"
+        },
+        {
+            "@language": "es",
+            "@value": "ascendiente en línea recta"
+        },
+        {
+            "@language": "es",
+            "@value": "ascendiente"
+        },
+        {
+            "@language": "en",
+            "@value": "relative in the ascending line"
+        },
+        {
+            "@language": "en",
+            "@value": "direct relative in the ascending line"
+        },
+        {
+            "@language": "en",
+            "@value": "direct ascendant"
+        },
+        {
+            "@language": "en",
+            "@value": "forebear"
+        },
+        {
+            "@language": "de",
+            "@value": "Eltern und Voreltern"
+        },
+        {
+            "@language": "de",
+            "@value": "Vorfahre"
+        },
+        {
+            "@language": "nl",
+            "@value": "bloedverwant in de opgaande lijn"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "el ascendiente inmediato directo padre o madre de un individuo o generación"
+        },
+        {
+            "@language": "es",
+            "@value": "Hijo habido fuera del matrimonio de dos personas libres de casarse. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Een kind had de staat van natuurlijk kind wanneer de ouders niet gehuwd waren op het ogenblik van de verwekking of op het ogenblik van de geboorte. [...] Vandaag is er nergens in het Burgerlijk Wetboek nog sprake van wettige of natuurlijke kinderen. [...] Wat vroeger als een natuurlijk kind werd bestempeld wordt thans een buitenhuwelijks kind genoemd. [BE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Es el padre madre o cualquiera de los abuelos de quien desciende una persona. Es decir persona ligada a otra por parentesco en línea recta de sucesivas generaciones y anterior en el tiempo. [ES]"
+        }
+    ],
+    "skos:broader": [
+        "LT4669491"
+    ],
+    "skos:related": [
+        "LT8508389",
+        "LT1264613"
+    ]
+}

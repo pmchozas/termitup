@@ -1,0 +1,234 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7513411",
+    "@type": "skos:Concept",
+    "skos:inScheme": "delikt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3584001",
+    "skos:topConceptOf": "LT7513411",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "infracción penal"
+        },
+        {
+            "@language": "en",
+            "@value": "criminal offence"
+        },
+        {
+            "@language": "de",
+            "@value": "delikt"
+        },
+        {
+            "@language": "nl",
+            "@value": "misdrijf"
+        },
+        {
+            "@language": "es",
+            "@value": "crimen"
+        },
+        {
+            "@language": "de",
+            "@value": "delikt"
+        },
+        {
+            "@language": "es",
+            "@value": "infracción"
+        },
+        {
+            "@language": "de",
+            "@value": "delikt"
+        },
+        {
+            "@language": "es",
+            "@value": "delito preterintencional"
+        },
+        {
+            "@language": "de",
+            "@value": "delikt"
+        },
+        {
+            "@language": "en",
+            "@value": "administrative offence"
+        },
+        {
+            "@language": "de",
+            "@value": "delikt"
+        },
+        {
+            "@language": "nl",
+            "@value": "administratief delict"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "delito"
+        },
+        {
+            "@language": "en",
+            "@value": "crime"
+        },
+        {
+            "@language": "en",
+            "@value": "offence"
+        },
+        {
+            "@language": "de",
+            "@value": "Straftat"
+        },
+        {
+            "@language": "de",
+            "@value": "Delikt"
+        },
+        {
+            "@language": "nl",
+            "@value": "strafbaar feit"
+        },
+        {
+            "@language": "nl",
+            "@value": "delict"
+        },
+        {
+            "@language": "es",
+            "@value": "fechoría"
+        },
+        {
+            "@language": "es",
+            "@value": "desafuero"
+        },
+        {
+            "@language": "es",
+            "@value": "pecado"
+        },
+        {
+            "@language": "es",
+            "@value": "vergüenza"
+        },
+        {
+            "@language": "de",
+            "@value": "Frevel"
+        },
+        {
+            "@language": "de",
+            "@value": "Suende"
+        },
+        {
+            "@language": "de",
+            "@value": "Delikt"
+        },
+        {
+            "@language": "de",
+            "@value": "strafbare Handlung"
+        },
+        {
+            "@language": "es",
+            "@value": "transgresión"
+        },
+        {
+            "@language": "de",
+            "@value": "unerlaubte Handlung"
+        },
+        {
+            "@language": "es",
+            "@value": "infracción preterintencional"
+        },
+        {
+            "@language": "de",
+            "@value": "präterintentionales Delikt"
+        },
+        {
+            "@language": "en",
+            "@value": "regulatory offence"
+        },
+        {
+            "@language": "de",
+            "@value": "administrative Zuwiderhandlung"
+        },
+        {
+            "@language": "de",
+            "@value": "verwaltungsrechtliches Delikt"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Conducta antisocial que constituye el delito o violación de la ley en un doble sentido: en cuanto es antijurídica o contraria al ordenamiento jurídico y cuanto es antinormativa de un precepto legal concreto que tipifica la conducta como delito. [ES]"
+        },
+        {
+            "@language": "en",
+            "@value": "An act (or sometimes a failure to act) that is deemed by statute or by the common law to be a public wrong and is therefore punishable by the state in criminal proceedings. [UK]"
+        },
+        {
+            "@language": "de",
+            "@value": "Tatbestandsmäßige rechtswidrige und schuldhafte Handlung an die das Gesetz eine Strafdrohung knüpft. [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Een gedraging die onder de daarin omschreven omstandigheden verricht door de wet verboden en strafbaar is gesteld. [NL] [BE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Delito en el que la gravedad del resultado obtenido supera al propósito doloso del autor (ej.: se quiso golpear y se mata se quiso prender fuego a un local que resultó ser un polvorín)."
+        },
+        {
+            "@language": "de",
+            "@value": "Begehen eines Delikts wobei unbeabsichtigt ein schwererer Tatbestand erfüllt wird (Beispiel: Körperverletzung mit unbeabsichtigter Todesfolge)"
+        },
+        {
+            "@language": "en",
+            "@value": "The main characteristic would appear to be that it is a minor offence not a criminal one usually punishable with a fine."
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsverstoß der keinen kriminellen Gehalt hat u. daher nicht mit Strafe bedroht ist der aber als Ordnungs- bzw. Verwaltungsunrecht mit Geldbuße (nicht: Geldstrafe !) geahndet werden kann"
+        }
+    ],
+    "skos:broader": [
+        "LT8336284",
+        "LT8003892",
+        "LT8510823"
+    ],
+    "skos:narrower": [
+        "LT6428096",
+        "LT8711216",
+        "LT1259556",
+        "LT7610625"
+    ],
+    "skos:related": [
+        "LT6656869",
+        "LT7511688",
+        "LT4635800",
+        "LT4904469",
+        "LT3150689"
+    ]
+}

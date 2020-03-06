@@ -1,0 +1,207 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2450635",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gefahr",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/50175",
+    "skos:topConceptOf": "LT2450635",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "peligros"
+        },
+        {
+            "@language": "en",
+            "@value": "hazard"
+        },
+        {
+            "@language": "de",
+            "@value": "gefahr"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaren"
+        },
+        {
+            "@language": "es",
+            "@value": "peligro"
+        },
+        {
+            "@language": "en",
+            "@value": "hazard"
+        },
+        {
+            "@language": "de",
+            "@value": "gefahr"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaar"
+        },
+        {
+            "@language": "es",
+            "@value": "peligro"
+        },
+        {
+            "@language": "en",
+            "@value": "Danger"
+        },
+        {
+            "@language": "de",
+            "@value": "gefahr"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaar"
+        },
+        {
+            "@language": "es",
+            "@value": "peligro"
+        },
+        {
+            "@language": "en",
+            "@value": "hazard"
+        },
+        {
+            "@language": "de",
+            "@value": "gefahr"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaar"
+        },
+        {
+            "@language": "es",
+            "@value": "peligro"
+        },
+        {
+            "@language": "en",
+            "@value": "hazard"
+        },
+        {
+            "@language": "de",
+            "@value": "gefahr"
+        },
+        {
+            "@language": "nl",
+            "@value": "gevaar"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Risiko"
+        },
+        {
+            "@language": "de",
+            "@value": "Gefahren"
+        },
+        {
+            "@language": "de",
+            "@value": "schädliche Wirkung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.A physical or chemical agent capable of causing harm to persons property animals plants or other natural resources."
+        },
+        {
+            "@language": "es",
+            "@value": "Un peligro es una propiedad o serie de propiedades que hacen que una sustancia resulte peligrosa."
+        },
+        {
+            "@language": "en",
+            "@value": "Property or set of properties that make a substance dangerous."
+        },
+        {
+            "@language": "de",
+            "@value": "Bei der schädlichen Wirkung handelt es sich um eine oder mehrere Eigenschaften durch die ein Stoff gefährlich wird."
+        },
+        {
+            "@language": "nl",
+            "@value": "Het gevaar is een eigenschap of een reeks eigenschappen die een stof gevaarlijk maakt."
+        },
+        {
+            "@language": "es",
+            "@value": "palabra de advertencia utilizada para indicar las categorías de peligro más graves"
+        },
+        {
+            "@language": "en",
+            "@value": "A signal word indicating the more severe hazard categories"
+        },
+        {
+            "@language": "de",
+            "@value": "Signalwort für die schwerwiegenden Gefahrenkategorien"
+        },
+        {
+            "@language": "nl",
+            "@value": "signaalwoord ter aanduiding van de ernstigere gevarencategorieën"
+        },
+        {
+            "@language": "es",
+            "@value": "La condición objeto o actividad con el potencial para causar lesiones al personal daños al equipamiento o estructuras pérdida de material o reducción de la habilidad para llevar a cabo una función concreta. Nota: Un peligro se describe también a menudo como una fuente que podría causar daño."
+        },
+        {
+            "@language": "en",
+            "@value": "condition object or activity with the potential of causing injuries to personnel damage to equipment or structures loss of material or reduction of ability to perform a prescribed function."
+        },
+        {
+            "@language": "nl",
+            "@value": "Een toestand object of activiteit met het potentieel voor het veroorzaken van letsels aan personeel schade aan apparatuur en constructies verlies van materiaal of vermindering van het vermogen om de voorgeschreven functie uit te voeren. Opmerking: een gevaar wordt vaak ook beschreven als een bron die schade kan berokkenen."
+        },
+        {
+            "@language": "es",
+            "@value": "Posibilidad inherente en un material o situación de causar lesiones o daños a la salud de las personas o de producir pérdidas materiales."
+        },
+        {
+            "@language": "en",
+            "@value": "A potentially damaging physical event phenomenon or human activity that may cause the loss of life or injury property damage social and economic disruption or environmental degradation."
+        },
+        {
+            "@language": "de",
+            "@value": "ein biologisches chemisches oder physikalisches Agens in einem Lebensmittel oder Futtermittel oder einen Zustand eines Lebensmittels oder Futtermittels der eine Gesundheitsbeeinträchtigung verursachen kann"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"mogelijkheid kans dat uit gegeven omstandigheden onheil ongeluk of nadeel kan voortkomen\""
+        }
+    ],
+    "skos:broader": [
+        "LT7102681"
+    ],
+    "skos:related": [
+        "LT8545950",
+        "LT9551908"
+    ]
+}

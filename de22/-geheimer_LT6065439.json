@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6065439",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-geheimer",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1390758",
+    "skos:topConceptOf": "LT6065439",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "negocios en participación"
+        },
+        {
+            "@language": "de",
+            "@value": "-geheimer"
+        },
+        {
+            "@language": "es",
+            "@value": "clave privada"
+        },
+        {
+            "@language": "en",
+            "@value": "private key"
+        },
+        {
+            "@language": "de",
+            "@value": "-geheimer"
+        },
+        {
+            "@language": "nl",
+            "@value": "private sleutel"
+        },
+        {
+            "@language": "es",
+            "@value": "parámetro secreto"
+        },
+        {
+            "@language": "en",
+            "@value": "secret parameter"
+        },
+        {
+            "@language": "de",
+            "@value": "-geheimer"
+        },
+        {
+            "@language": "en",
+            "@value": "mental reservation"
+        },
+        {
+            "@language": "de",
+            "@value": "-geheimer"
+        },
+        {
+            "@language": "nl",
+            "@value": "eenzijdige schijnhandeling"
+        },
+        {
+            "@language": "es",
+            "@value": "confidente"
+        },
+        {
+            "@language": "en",
+            "@value": "confidential informant"
+        },
+        {
+            "@language": "de",
+            "@value": "-geheimer"
+        },
+        {
+            "@language": "nl",
+            "@value": "geheime informant"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "sociedad en participación"
+        },
+        {
+            "@language": "es",
+            "@value": "clave secreta"
+        },
+        {
+            "@language": "en",
+            "@value": "secret key"
+        },
+        {
+            "@language": "de",
+            "@value": "privater Schlüssel"
+        },
+        {
+            "@language": "nl",
+            "@value": "privésleutel"
+        },
+        {
+            "@language": "nl",
+            "@value": "geheime sleutel"
+        },
+        {
+            "@language": "de",
+            "@value": "stiller Vorbehalt"
+        },
+        {
+            "@language": "en",
+            "@value": "CI"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "en ciertos países contrato de derecho mercantil normalmente no revelado a terceros cuyo objeto está esencialmente regulado por el acuerdo establecido entre las partes"
+        },
+        {
+            "@language": "es",
+            "@value": "En un criptosistema asimétrico clave criptográfica de un usuario conocida por el mismo ."
+        },
+        {
+            "@language": "en",
+            "@value": "element known only to its owner used for encrypting and decrypting codes in symmetric and asymmetric cryptography"
+        },
+        {
+            "@language": "de",
+            "@value": "bei einem öffentlichen Schlüssel-System für Benutzer der Schlüssel eines Paares von Schlüsseln der nur von diesem Benutzer gekannt wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"De sleutel van een asymmetrisch sleutelpaar die alleen bekend dient te zijn bij de houder ervan en strikt geheim moet worden gehouden.In het kader van de PKI voor de overheid wordt de private sleutel door de bezitter gebruikt om zich elektronisch te identificeren zijn elektronische handtekening te zetten of om een vercijferd bericht te ontcijferen. Ook worden vaak de termen privésleutel en geheime sleutel (\"privésleutel\" onder andere in de Europese Richtlijn) gebruikt. In het Wetsvoorstel Electronische Handtekeningen wordt echter private sleutel gebruikt. Beide zijn bedoeld als vertaling van de Engelstalige term private key.\""
+        },
+        {
+            "@language": "en",
+            "@value": "constant or key kept from the knowledge of others or shared\nonly within a group that controls the\ndetailed operation of a cipher algorithm"
+        }
+    ]
+}

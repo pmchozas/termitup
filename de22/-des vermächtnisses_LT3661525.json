@@ -1,0 +1,155 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3661525",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-des vermächtnisses",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/53923",
+    "skos:topConceptOf": "LT3661525",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "legados"
+        },
+        {
+            "@language": "en",
+            "@value": "legacies"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vermächtnisses"
+        },
+        {
+            "@language": "nl",
+            "@value": "legaten"
+        },
+        {
+            "@language": "es",
+            "@value": "legados y donaciones"
+        },
+        {
+            "@language": "en",
+            "@value": "legacies and donations"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vermächtnisses"
+        },
+        {
+            "@language": "nl",
+            "@value": "schenkingen"
+        },
+        {
+            "@language": "es",
+            "@value": "aceptación de la herencia"
+        },
+        {
+            "@language": "en",
+            "@value": "acceptance of an inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vermächtnisses"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvaarding van een nalatenschap"
+        },
+        {
+            "@language": "es",
+            "@value": "donaciones y legados"
+        },
+        {
+            "@language": "en",
+            "@value": "gifts and bequests"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vermächtnisses"
+        },
+        {
+            "@language": "nl",
+            "@value": "giften en legaten"
+        },
+        {
+            "@language": "en",
+            "@value": "gifts and bequests"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vermächtnisses"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": " lenaten"
+        },
+        {
+            "@language": "es",
+            "@value": " aceptación de la sucesión"
+        },
+        {
+            "@language": "en",
+            "@value": " acceptance of an estate the legacy aditio"
+        },
+        {
+            "@language": "en",
+            "@value": " acceptance of the succession"
+        },
+        {
+            "@language": "de",
+            "@value": " Annahme eines Vermächtnisses"
+        },
+        {
+            "@language": "de",
+            "@value": " Erbschaftsannahme"
+        },
+        {
+            "@language": "nl",
+            "@value": " aanvaarding van een erfenis"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Acto por el cual el heredero testamentario IATE:1253161 o ab intestato IATE:1131732 manifiesta su voluntad de suceder al causante IATE:2217762 con los derechos y deberes inherentes a ello."
+        },
+        {
+            "@language": "en",
+            "@value": "heir's agreement to take an inheritance"
+        },
+        {
+            "@language": "nl",
+            "@value": "Eenzijdige en onherroepelijke rechtshandeling waardoor een erfgenaam uitdrukkelijk of stilzwijgend een nalatenschap aanvaardt."
+        }
+    ]
+}

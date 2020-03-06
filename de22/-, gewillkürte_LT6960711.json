@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6960711",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, gewillkürte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1253167",
+    "skos:topConceptOf": "LT6960711",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "sucesión testamentaria"
+        },
+        {
+            "@language": "en",
+            "@value": "testamentary succession"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewillkürte"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfopvolging krachtens uiterste wilsbeschikking"
+        },
+        {
+            "@language": "es",
+            "@value": "sucesión testamentaria"
+        },
+        {
+            "@language": "en",
+            "@value": "testamentary succession"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewillkürte"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewillkürte"
+        },
+        {
+            "@language": "de",
+            "@value": "-, gewillkürte"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "sucesión testada"
+        },
+        {
+            "@language": "en",
+            "@value": "testate succession"
+        },
+        {
+            "@language": "en",
+            "@value": "testacy"
+        },
+        {
+            "@language": "de",
+            "@value": "gewillkürte Erbfolge"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfopvolging krachtens uiterste wil"
+        },
+        {
+            "@language": "de",
+            "@value": "gewillkürte Erbfolge"
+        },
+        {
+            "@language": "de",
+            "@value": "gewillkürter Nachfluchtgrund"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "La transmisión patrimonial mortis causa IATE:872358 deferida por manifestación expresa de voluntad del causante IATE:2217762  contenida en testamento IATE:1130370 válido."
+        },
+        {
+            "@language": "en",
+            "@value": "succession to a deceased person's assets according to a will"
+        },
+        {
+            "@language": "de",
+            "@value": "durch eine letztwillige Verfügung (Testament oder Erbvertrag) bestimmte Reihenfolge der Erben"
+        },
+        {
+            "@language": "de",
+            "@value": "Handlungen des Asylantragstellers nach Verlassen seines Herkunftslands die eine Verfolgungsfurcht begründen können."
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4783992",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-als juristische person",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/773955",
+    "skos:topConceptOf": "LT4783992",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "persona jurídica"
+        },
+        {
+            "@language": "en",
+            "@value": "legal person"
+        },
+        {
+            "@language": "de",
+            "@value": "-als juristische person"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtspersoon"
+        },
+        {
+            "@language": "es",
+            "@value": "persona jurídica"
+        },
+        {
+            "@language": "en",
+            "@value": "legal person"
+        },
+        {
+            "@language": "de",
+            "@value": "-als juristische person"
+        },
+        {
+            "@language": "es",
+            "@value": "miembro corporativo"
+        },
+        {
+            "@language": "en",
+            "@value": "corporate member"
+        },
+        {
+            "@language": "de",
+            "@value": "-als juristische person"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtspersoon"
+        },
+        {
+            "@language": "es",
+            "@value": "persona jurídica"
+        },
+        {
+            "@language": "en",
+            "@value": "legal person"
+        },
+        {
+            "@language": "de",
+            "@value": "-als juristische person"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtspersoon"
+        },
+        {
+            "@language": "es",
+            "@value": "persona jurídica afiliada"
+        },
+        {
+            "@language": "en",
+            "@value": "affiliated juridical person"
+        },
+        {
+            "@language": "de",
+            "@value": "-als juristische person"
+        },
+        {
+            "@language": "nl",
+            "@value": "gelieerde rechtspersoon"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "persona abstracta"
+        },
+        {
+            "@language": "es",
+            "@value": "persona ficticia"
+        },
+        {
+            "@language": "es",
+            "@value": "persona moral"
+        },
+        {
+            "@language": "en",
+            "@value": "body corporate"
+        },
+        {
+            "@language": "en",
+            "@value": "corporate body"
+        },
+        {
+            "@language": "en",
+            "@value": "juristic person"
+        },
+        {
+            "@language": "en",
+            "@value": "artificial person"
+        },
+        {
+            "@language": "en",
+            "@value": "legal entity"
+        },
+        {
+            "@language": "en",
+            "@value": "juridical person"
+        },
+        {
+            "@language": "nl",
+            "@value": "lichaam met rechtspersoonlijkheid"
+        },
+        {
+            "@language": "es",
+            "@value": "persona moral"
+        },
+        {
+            "@language": "de",
+            "@value": "juristische Person"
+        },
+        {
+            "@language": "en",
+            "@value": "corporate membership"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "La condición de sujeto de derecho o de relaciones jurídicas está no sólo atribuida a la persona humana ( \npersona física o \npersona natural) sino también a las organizaciones o agrupaciones de personas físicas a las que la ley reconoce personalidad independiente de los sujetos que las integran. Son las denominadas \npersonas jurídicas \npersonas morales o \npersonas ficticias. Éstas han de estar dotadas de una organización más o menos estable y duradera porque personifican el designio de alcanzar un fin común a todas las personas que la integran o porque personifican una determinada masa patrimonial adscrita a una finalidad prevista."
+        },
+        {
+            "@language": "en",
+            "@value": "a human or non-human entity that is treated as a person for limited legal purposes"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtlich geregelte Organisation der die geltende Rechtsordnung eine eigene allgemeine Rechtsfähigkeit (d. h. Fähigkeit Träger von Rechten und Pflichten zu sein) - neben der Rechtsfähigkeit der sie konstituierenden Mitglieder - zuerkennt"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"evenals natuurlijke personen zelfstandig aan het rechtsverkeer deelnemend lichaam; samenwerkingsvorm van personen onder een organisatievorm waaraan de wetgever de hoedanigheid van subject van recht uitdrukkelijk of indirect heeft toegekend.\""
+        },
+        {
+            "@language": "en",
+            "@value": "a juridical person is 'affiliated' with another person when it controls or is controlled by that other person; or when it and the other person are both controlled by the same person"
+        },
+        {
+            "@language": "nl",
+            "@value": "(hier:)een rechtspersoon is gelieerd met een andere persoon wanneer de rechtspersoon zeggenschap heeft over de andere persoon of andersom dan wel dat zij beiden onder zeggenschap staan van dezelfde persoon"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3542407",
+    "@type": "skos:Concept",
+    "skos:inScheme": "drittschuldner",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130038",
+    "skos:topConceptOf": "LT3542407",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "tercero ejecutado"
+        },
+        {
+            "@language": "en",
+            "@value": "third party debtor"
+        },
+        {
+            "@language": "de",
+            "@value": "drittschuldner"
+        },
+        {
+            "@language": "nl",
+            "@value": "derde-beslagene"
+        },
+        {
+            "@language": "es",
+            "@value": "tercero tenedor de la cosa embargada"
+        },
+        {
+            "@language": "de",
+            "@value": "drittschuldner"
+        },
+        {
+            "@language": "en",
+            "@value": "third party required to meet claims"
+        },
+        {
+            "@language": "de",
+            "@value": "drittschuldner"
+        },
+        {
+            "@language": "en",
+            "@value": "special order for recovery of debt by attachment"
+        },
+        {
+            "@language": "de",
+            "@value": "drittschuldner"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "zur Leistung verpflichteter Dritter"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "im Zwangsvollstreckungsverfahren: Betreibt der Gläubiger die Pfändung einer dem Schuldner zustehenden Forderung (oder eines Rechts)so ist Drittschuldner die Person gegen die sich diese Forderung (das Recht) richtet. Der Drittschuldner ist also seinerseits Schuldner des Schuldners gegen den die Zwangsvollstreckung betrieben wird (z.B.der Arbeitgeber bei Pfändung des Arbeitslohns)"
+        },
+        {
+            "@language": "de",
+            "@value": "natürliche oder juristische Person gegen die der Schuldner eine Forderung geltend machen kann; im Inkassoverfahren regelmäßig in Anspruch genommene Drittschuldner sind Kreditinstitute (Pfändung von Konten und Sparbüchern Kontenpfändung) und Arbeitgeber (Pfändung des Arbeitseinkommens Lohnpfändung)"
+        }
+    ]
+}

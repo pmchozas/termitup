@@ -1,0 +1,192 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3488199",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, höhe",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1593157",
+    "skos:topConceptOf": "LT3488199",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "puntal"
+        },
+        {
+            "@language": "en",
+            "@value": "depth"
+        },
+        {
+            "@language": "de",
+            "@value": "-, höhe"
+        },
+        {
+            "@language": "nl",
+            "@value": "holte"
+        },
+        {
+            "@language": "es",
+            "@value": "A"
+        },
+        {
+            "@language": "en",
+            "@value": "H"
+        },
+        {
+            "@language": "de",
+            "@value": "-, höhe"
+        },
+        {
+            "@language": "nl",
+            "@value": "H"
+        },
+        {
+            "@language": "es",
+            "@value": "altura"
+        },
+        {
+            "@language": "en",
+            "@value": "height"
+        },
+        {
+            "@language": "de",
+            "@value": "-, höhe"
+        },
+        {
+            "@language": "es",
+            "@value": "altitud"
+        },
+        {
+            "@language": "en",
+            "@value": "altitude"
+        },
+        {
+            "@language": "de",
+            "@value": "-, höhe"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoogte"
+        },
+        {
+            "@language": "es",
+            "@value": "altitud de crucero"
+        },
+        {
+            "@language": "en",
+            "@value": "cruise altitude"
+        },
+        {
+            "@language": "de",
+            "@value": "-, höhe"
+        },
+        {
+            "@language": "nl",
+            "@value": "kruishoogte"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "D"
+        },
+        {
+            "@language": "de",
+            "@value": "Höhe"
+        },
+        {
+            "@language": "nl",
+            "@value": "D"
+        },
+        {
+            "@language": "es",
+            "@value": "Alteza"
+        },
+        {
+            "@language": "en",
+            "@value": "His/Her Highness"
+        },
+        {
+            "@language": "en",
+            "@value": "Highness"
+        },
+        {
+            "@language": "de",
+            "@value": "Hoh."
+        },
+        {
+            "@language": "de",
+            "@value": "Hoheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "Hoogheid"
+        },
+        {
+            "@language": "en",
+            "@value": "cruising level"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Dimensión vertical máxima medida en el centro del buque (la mitad de la eslora) desde la parte superior de la línea de cubierta hasta la cara inferior del casco en su intersección con la quilla. Corresponde a la distancia vertical medida en la cuaderna del medio entre la cara superior de la quilla y la línea recta del bao de la cubierta principal."
+        },
+        {
+            "@language": "en",
+            "@value": "The vertical distance measured at the middle of the vessel's length from top of keel or top of ceiling to top of upper deck at sidesor amidships.The designed depth depends on the draught and freeboard required."
+        },
+        {
+            "@language": "de",
+            "@value": "Senkrechter Abstand von der Kiellinie zum Deck gemessen an der Bordseite."
+        },
+        {
+            "@language": "nl",
+            "@value": "De verticale afstand tussen de bovenkant van de kiel en de bovenkant van de dekbalk in de zijden gemeten op de halve lengte tussen de loodlijnen"
+        },
+        {
+            "@language": "es",
+            "@value": "Altura desde el suelo = AGL (metros o pies)"
+        },
+        {
+            "@language": "en",
+            "@value": "Height above ground = AGL (meters or feet)"
+        },
+        {
+            "@language": "en",
+            "@value": "1) In general a term used to describe a topographic eminence. 2) A specific altitude or height above a given level. 3) In surveying the term refers to the angle between the horizontal and a point at a higher level."
+        },
+        {
+            "@language": "nl",
+            "@value": "een vlieghoogte die tijdens een aanzienlijk deel van de vlucht wordt gehandhaafd."
+        }
+    ]
+}

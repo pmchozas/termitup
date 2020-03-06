@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7987082",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gegenforderung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/792712",
+    "skos:topConceptOf": "LT7987082",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "reconvención"
+        },
+        {
+            "@language": "en",
+            "@value": "counterclaim"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenforderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "reconventionele vordering"
+        },
+        {
+            "@language": "en",
+            "@value": "counterclaim"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenforderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "tegeneis"
+        },
+        {
+            "@language": "en",
+            "@value": "cross action"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenforderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "tegenvordering"
+        },
+        {
+            "@language": "es",
+            "@value": "crédito compensable"
+        },
+        {
+            "@language": "en",
+            "@value": "counterclaim"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenforderung"
+        },
+        {
+            "@language": "nl",
+            "@value": "tegenvordering"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "demanda de reconvención"
+        },
+        {
+            "@language": "es",
+            "@value": "demanda reconvencional"
+        },
+        {
+            "@language": "en",
+            "@value": "counter claim"
+        },
+        {
+            "@language": "en",
+            "@value": "cross demand"
+        },
+        {
+            "@language": "en",
+            "@value": "cross petition"
+        },
+        {
+            "@language": "en",
+            "@value": "counter-claim"
+        },
+        {
+            "@language": "en",
+            "@value": "counter-action"
+        },
+        {
+            "@language": "en",
+            "@value": "counteraction"
+        },
+        {
+            "@language": "de",
+            "@value": "Gegenforderung"
+        },
+        {
+            "@language": "de",
+            "@value": "Gegenantrag"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"Ejercicio por el demandado en la contestación a la demanda de una acción frente al demandante inicial para que se sustancie en el mismo proceso y se decida en la misma sentencia que resolverá el contenido de la demanda originaria. En el Derecho español no es necesario que exista conexión entre la demanda reconvencional y la demanda inicial siempre que el juez del proceso sea competente para la reconvención y no haya de sustanciarse ésta en un procedimiento distinto del incoado.\""
+        },
+        {
+            "@language": "en",
+            "@value": "claim brought by a defendant in response to a claim and which he or she might have asserted by bringing separate proceedings"
+        },
+        {
+            "@language": "nl",
+            "@value": "eis in antwoord op een andere gesteld"
+        }
+    ]
+}

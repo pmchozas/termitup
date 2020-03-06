@@ -1,0 +1,163 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7399161",
+    "@type": "skos:Concept",
+    "skos:inScheme": "holz",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/44850",
+    "skos:topConceptOf": "LT7399161",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "Madera"
+        },
+        {
+            "@language": "en",
+            "@value": "wood"
+        },
+        {
+            "@language": "de",
+            "@value": "holz"
+        },
+        {
+            "@language": "nl",
+            "@value": "hout"
+        },
+        {
+            "@language": "es",
+            "@value": "madera"
+        },
+        {
+            "@language": "en",
+            "@value": "timber"
+        },
+        {
+            "@language": "de",
+            "@value": "holz"
+        },
+        {
+            "@language": "nl",
+            "@value": "(ruw /timmer-)hout"
+        },
+        {
+            "@language": "es",
+            "@value": "Madera"
+        },
+        {
+            "@language": "en",
+            "@value": "wooden"
+        },
+        {
+            "@language": "de",
+            "@value": "holz"
+        },
+        {
+            "@language": "nl",
+            "@value": "hout"
+        },
+        {
+            "@language": "en",
+            "@value": "wood"
+        },
+        {
+            "@language": "de",
+            "@value": "holz"
+        },
+        {
+            "@language": "es",
+            "@value": "madera no flotante"
+        },
+        {
+            "@language": "en",
+            "@value": "sinker"
+        },
+        {
+            "@language": "de",
+            "@value": "holz"
+        },
+        {
+            "@language": "nl",
+            "@value": "zinkhout"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "bosque"
+        },
+        {
+            "@language": "de",
+            "@value": "Wald"
+        },
+        {
+            "@language": "nl",
+            "@value": "bos"
+        },
+        {
+            "@language": "en",
+            "@value": "lumber"
+        },
+        {
+            "@language": "nl",
+            "@value": "(ruw /timmer-hout"
+        },
+        {
+            "@language": "nl",
+            "@value": "zinker"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.A dense growth of trees more extensive than a grove and smaller than a forest."
+        },
+        {
+            "@language": "en",
+            "@value": "wood prepared for use in building and carpentry"
+        },
+        {
+            "@language": "en",
+            "@value": "a species of tree whose timbereven if air-driedwould sink in water"
+        }
+    ],
+    "skos:broader": [
+        "LT7611170",
+        "LT5644651"
+    ],
+    "skos:related": [
+        "LT1336746",
+        "LT3447295",
+        "LT9098618",
+        "LT5392322",
+        "LT3258295"
+    ]
+}

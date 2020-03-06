@@ -1,0 +1,171 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9420359",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-vaterschaft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583438",
+    "skos:topConceptOf": "LT9420359",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "paternidad"
+        },
+        {
+            "@language": "en",
+            "@value": "fatherhood"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "vaderschap"
+        },
+        {
+            "@language": "en",
+            "@value": "putative fatherhood"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "vermoeden van vaderschap"
+        },
+        {
+            "@language": "es",
+            "@value": "impugnación de la paternidad"
+        },
+        {
+            "@language": "en",
+            "@value": "determination of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontkenning van vaderschap"
+        },
+        {
+            "@language": "es",
+            "@value": "reconocimiento de la filiación paterna"
+        },
+        {
+            "@language": "en",
+            "@value": "acknowledgement of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "erkenning van het vaderschap"
+        },
+        {
+            "@language": "de",
+            "@value": "-vaterschaft"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": " paternity"
+        },
+        {
+            "@language": "de",
+            "@value": " Vaterschaftsvermutung"
+        },
+        {
+            "@language": "de",
+            "@value": " Anfechtung der Vaterschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": " betwisting van vaderschap"
+        },
+        {
+            "@language": "es",
+            "@value": " reconocimiento de la paternidad"
+        },
+        {
+            "@language": "en",
+            "@value": " declaration of paternity"
+        },
+        {
+            "@language": "de",
+            "@value": " Anerkennung der Vaterschaft"
+        },
+        {
+            "@language": "de",
+            "@value": " Vaterschaftsanerkenntnis"
+        },
+        {
+            "@language": "de",
+            "@value": " Anerkennung der Vaterschaft"
+        },
+        {
+            "@language": "de",
+            "@value": " Vaterschaftsanerkennung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Cualidad de padre."
+        },
+        {
+            "@language": "en",
+            "@value": "The quality or state of being a father."
+        },
+        {
+            "@language": "nl",
+            "@value": "de man - die op het tijdstip van de geboorte van het kind met de vrouw uit wie het kind is geboren is gehuwd tenzij het huwelijk binnen 306 dagen voor de geboorte van het kind door zijn dood is ontbonden; - die het kind heeft erkend; - wiens vaderschap gerechtelijk is vastgesteld; of - die het kind heeft geadopteerd [NL] ; het kind dat geboren is tijdens het huwelijk (of binnen 300 dagen na ontbinding of nietigverklaring) heeft de echtgenoot van de moeder als vader. Buiten het huwelijk speelt de vaderschapsregel niet. [BE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Tiene por objeto obtener una resolución judicial cancelatoria de un estado de filiación paterna formalmente constatado es decir previamente inscrito en el Registro Civil. Se dirige a dejar sin efecto una filiación paterna determinada extrajudicialmente: por regla general la determinada en virtud de sentencia firme es inatacable. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Erkenning is een eenzijdige ongerichte familierechtelijke rechtshandeling waardoor een familierechtelijke betrekking tussen een man en een kind tot stand wordt gebracht en de man vader van het kind wordt. Vereist is niet dat de man de verwekker of biologische vader van het kind is."
+        },
+        {
+            "@language": "de",
+            "@value": "die persönliche Erklärung eines Mannes in einer inländischen öffentlichen oder öffentlich-beglaubigten Urkunde wodurch seine außereheliche Vaterschaft festgestellt wird."
+        }
+    ]
+}

@@ -1,0 +1,312 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8007995",
+    "@type": "skos:Concept",
+    "skos:inScheme": "land",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3553031",
+    "skos:topConceptOf": "LT8007995",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "Estado federado"
+        },
+        {
+            "@language": "en",
+            "@value": "federal province"
+        },
+        {
+            "@language": "de",
+            "@value": "land"
+        },
+        {
+            "@language": "nl",
+            "@value": "deelstaat"
+        },
+        {
+            "@language": "es",
+            "@value": "Estado federado"
+        },
+        {
+            "@language": "en",
+            "@value": "State"
+        },
+        {
+            "@language": "de",
+            "@value": "land"
+        },
+        {
+            "@language": "nl",
+            "@value": "deelstaat"
+        },
+        {
+            "@language": "es",
+            "@value": "suelo"
+        },
+        {
+            "@language": "en",
+            "@value": "soil"
+        },
+        {
+            "@language": "de",
+            "@value": "land"
+        },
+        {
+            "@language": "nl",
+            "@value": "bodem"
+        },
+        {
+            "@language": "es",
+            "@value": "Estado federado"
+        },
+        {
+            "@language": "en",
+            "@value": "Land"
+        },
+        {
+            "@language": "de",
+            "@value": "land"
+        },
+        {
+            "@language": "nl",
+            "@value": "deelstaat"
+        },
+        {
+            "@language": "es",
+            "@value": "país"
+        },
+        {
+            "@language": "en",
+            "@value": "country"
+        },
+        {
+            "@language": "de",
+            "@value": "land"
+        },
+        {
+            "@language": "nl",
+            "@value": "land"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Bundesland"
+        },
+        {
+            "@language": "en",
+            "@value": "Land"
+        },
+        {
+            "@language": "de",
+            "@value": "Bundesland"
+        },
+        {
+            "@language": "es",
+            "@value": "tierra"
+        },
+        {
+            "@language": "de",
+            "@value": "Grund und Boden"
+        },
+        {
+            "@language": "de",
+            "@value": "Land"
+        },
+        {
+            "@language": "nl",
+            "@value": "grond"
+        },
+        {
+            "@language": "nl",
+            "@value": "aarde"
+        },
+        {
+            "@language": "nl",
+            "@value": "grondsoort"
+        },
+        {
+            "@language": "nl",
+            "@value": "teellaag"
+        },
+        {
+            "@language": "nl",
+            "@value": "land"
+        },
+        {
+            "@language": "en",
+            "@value": "Laender"
+        },
+        {
+            "@language": "de",
+            "@value": "Bundesland"
+        },
+        {
+            "@language": "de",
+            "@value": "Gliedstaat"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En Austria primer nivel subnacional de organización territorial."
+        },
+        {
+            "@language": "en",
+            "@value": "The largest sub-national geographical and administrative unit in Austria."
+        },
+        {
+            "@language": "de",
+            "@value": "Gliedstaat der bundesstaatlich organisierten Republik Österreich"
+        },
+        {
+            "@language": "nl",
+            "@value": "De grootste geografische en bestuurlijke eenheid in Oostenrijk onder het nationale niveau."
+        },
+        {
+            "@language": "es",
+            "@value": "En Alemania primer nivel subnacional de organización territorial."
+        },
+        {
+            "@language": "en",
+            "@value": "The largest sub-national geographical and administrative unit in Germany"
+        },
+        {
+            "@language": "de",
+            "@value": "Länder (Bundesländer) sind nach der föderalen Verfassungsordnung der Bundesrepublik Deutschland als Glieder des Bundes Staaten mit eigener - wenn auch gegenständlich beschränkter - nicht vom Bund abgeleiteter sondern von ihm anerkannter staatlicher Hoheitsmacht."
+        },
+        {
+            "@language": "nl",
+            "@value": "De grootste geografische en bestuurlijke eenheid in Duitsland onder het nationale niveau."
+        },
+        {
+            "@language": "en",
+            "@value": "layer of unconsolidated particles derived from weathered rock organic material ( humus) water and air that forms the upper surface over much of the earth and supports plant growth"
+        },
+        {
+            "@language": "de",
+            "@value": "die oberste belebte Verwitterungsschicht der Erde auf welcher Hoehe Pflanzen wachsen koennen; volkswirtschaftlich auch Landflaeche Grund und Boden"
+        },
+        {
+            "@language": "nl",
+            "@value": "bovenste laag van de aardkorst welke voor de plantenproductie van belang is en waarin biologische krachten werkzaam zijn"
+        },
+        {
+            "@language": "nl",
+            "@value": "hier: benaming van elk der 16 samenstellende territoriale delen van Duitsland of van de 9 soortgelijke delen van Oostenrijk en van o.m.de VS Canada Brazilië India en Australië"
+        }
+    ],
+    "skos:broader": [
+        "LT3722484",
+        "LT2631436",
+        "LT5674293",
+        "LT1504587",
+        "LT9022479",
+        "LT6207249",
+        "LT9274207",
+        "LT3099781",
+        "LT1181267",
+        "LT7085483",
+        "LT3174774",
+        "LT1455173",
+        "LT7471491",
+        "LT7676665",
+        "LT8034519",
+        "LT6365076",
+        "LT5068356",
+        "LT7705606",
+        "LT5614079",
+        "LT8826106",
+        "LT5092593",
+        "LT3001006",
+        "LT8344003",
+        "LT4253423",
+        "LT4805104",
+        "LT1983476",
+        "LT5054761",
+        "LT5005480",
+        "LT9780479",
+        "LT7861573",
+        "LT1673311",
+        "LT9430551",
+        "LT7138312",
+        "LT8601001",
+        "LT6749606",
+        "LT1305034",
+        "LT3095354",
+        "LT3260721",
+        "LT3964257",
+        "LT5943321",
+        "LT6985235",
+        "LT8881117",
+        "LT4954598",
+        "LT1077806",
+        "LT6190418",
+        "LT1157191",
+        "LT9660830",
+        "LT4200438",
+        "LT2714362",
+        "LT4569504",
+        "LT1483439",
+        "LT7084434",
+        "LT4108352",
+        "LT7318667",
+        "LT3118302",
+        "LT4048960",
+        "LT6463372",
+        "LT4530794",
+        "LT4979505",
+        "LT1113575",
+        "LT7162992",
+        "LT9828684",
+        "LT5884281",
+        "LT6620091",
+        "LT2486209",
+        "LT6538874",
+        "LT2454692",
+        "LT7743115",
+        "LT4595804",
+        "LT1043856",
+        "LT2254559",
+        "LT3167769",
+        "LT1105540",
+        "LT6162730",
+        "LT8558456",
+        "LT6627037",
+        "LT7011890",
+        "LT4569630",
+        "LT9933560",
+        "LT7192706",
+        "LT7189083",
+        "LT7691747"
+    ]
+}

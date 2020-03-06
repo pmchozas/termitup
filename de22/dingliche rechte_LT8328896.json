@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8328896",
+    "@type": "skos:Concept",
+    "skos:inScheme": "dingliche rechte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/34774",
+    "skos:topConceptOf": "LT8328896",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "derechos reales"
+        },
+        {
+            "@language": "en",
+            "@value": "rights in rem"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche rechte"
+        },
+        {
+            "@language": "es",
+            "@value": "restricción escriturada"
+        },
+        {
+            "@language": "en",
+            "@value": "deed restriction"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "restrictie bij akte"
+        },
+        {
+            "@language": "es",
+            "@value": "derechos reales inmobiliarios"
+        },
+        {
+            "@language": "en",
+            "@value": "rights in rem in immovable property"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "zakelijke rechten op onroerende goederen"
+        },
+        {
+            "@language": "es",
+            "@value": "derecho real"
+        },
+        {
+            "@language": "en",
+            "@value": "right in rem"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "zakelijk recht"
+        },
+        {
+            "@language": "en",
+            "@value": "claim of ownership"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "petitoire rechtsvordering"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Verwertungsrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "dingliche Rechte"
+        },
+        {
+            "@language": "en",
+            "@value": "petitory action"
+        },
+        {
+            "@language": "de",
+            "@value": "Klage aus dinglichem Recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigendomsvordering"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigendomsactie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a restriction in a deed to limit or govern the use of the land"
+        },
+        {
+            "@language": "de",
+            "@value": "Belastungen des Eigentums durch Nutzungs-und Verwertungsrechte"
+        },
+        {
+            "@language": "es",
+            "@value": "En general: el que tienen las personas sobre las cosas; el que va unido a la cosa y no se extingue por la muerte del poseedor; poder directo e inmediato sobre una cosa que confiere a su titular el dominio sobre ella."
+        },
+        {
+            "@language": "en",
+            "@value": "a right involving or determining the status of a thing (the res) exercisable against the world at large and not just the parties to the litigation concerned"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht einer Person zur unmittelbaren Herrschaft über eine Sache (= Ding) das jedem Dritten gegenüber wirkt"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"recht op een zaak (stoffelijk voorwerp); absoluut tegenover iedereen te handhaven recht onderverdeeld in zakelijke genotsrechten (zoals erfpacht en opstal) en zakelijke zekerheidsrechten (pand en hypotheek)\""
+        },
+        {
+            "@language": "en",
+            "@value": "affirmative actionclaiming the ownership as distinguished from the possession or real property"
+        }
+    ]
+}

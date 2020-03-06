@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2957605",
+    "@type": "skos:Concept",
+    "skos:inScheme": "nachfrist",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/870533",
+    "skos:topConceptOf": "LT2957605",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "plazo adicional"
+        },
+        {
+            "@language": "en",
+            "@value": "further period"
+        },
+        {
+            "@language": "de",
+            "@value": "nachfrist"
+        },
+        {
+            "@language": "nl",
+            "@value": "extra termijn"
+        },
+        {
+            "@language": "en",
+            "@value": "period of grace for payment of fees"
+        },
+        {
+            "@language": "de",
+            "@value": "nachfrist"
+        },
+        {
+            "@language": "es",
+            "@value": "tasa pagada en un plazo adicional"
+        },
+        {
+            "@language": "en",
+            "@value": "fee paid within a further period"
+        },
+        {
+            "@language": "de",
+            "@value": "nachfrist"
+        },
+        {
+            "@language": "nl",
+            "@value": "binnen een extra termijn betaalde taks"
+        },
+        {
+            "@language": "en",
+            "@value": "period of grace for the filing of the request for examination"
+        },
+        {
+            "@language": "de",
+            "@value": "nachfrist"
+        },
+        {
+            "@language": "de",
+            "@value": "nachfrist"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Nachfrist für die Zahlung von Gebühren"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

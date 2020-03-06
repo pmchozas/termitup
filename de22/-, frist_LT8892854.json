@@ -1,0 +1,131 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8892854",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, frist",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1602397",
+    "skos:topConceptOf": "LT8892854",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "visita completa"
+        },
+        {
+            "@language": "en",
+            "@value": "general inspection"
+        },
+        {
+            "@language": "de",
+            "@value": "-, frist"
+        },
+        {
+            "@language": "nl",
+            "@value": "volledig onderzoek"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo"
+        },
+        {
+            "@language": "en",
+            "@value": "period of time"
+        },
+        {
+            "@language": "de",
+            "@value": "-, frist"
+        },
+        {
+            "@language": "nl",
+            "@value": "termijn"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo breve"
+        },
+        {
+            "@language": "en",
+            "@value": "short period"
+        },
+        {
+            "@language": "de",
+            "@value": "-, frist"
+        },
+        {
+            "@language": "nl",
+            "@value": "korte termijn"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo fijado"
+        },
+        {
+            "@language": "en",
+            "@value": "time-limit prescribed"
+        },
+        {
+            "@language": "de",
+            "@value": "-, frist"
+        },
+        {
+            "@language": "nl",
+            "@value": "gestelde termijn"
+        },
+        {
+            "@language": "es",
+            "@value": "plazo fijado"
+        },
+        {
+            "@language": "en",
+            "@value": "period prescribed"
+        },
+        {
+            "@language": "de",
+            "@value": "-, frist"
+        },
+        {
+            "@language": "nl",
+            "@value": "gestelde termijn"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Frist"
+        },
+        {
+            "@language": "nl",
+            "@value": "volledige schouwing"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

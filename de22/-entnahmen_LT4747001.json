@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4747001",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-entnahmen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/53699",
+    "skos:topConceptOf": "LT4747001",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "rentas distribuidas de las sociedades"
+        },
+        {
+            "@language": "en",
+            "@value": "distributed income of corporations"
+        },
+        {
+            "@language": "de",
+            "@value": "-entnahmen"
+        },
+        {
+            "@language": "nl",
+            "@value": "winstuitkeringen"
+        },
+        {
+            "@language": "en",
+            "@value": "sum withdrawn by members"
+        },
+        {
+            "@language": "de",
+            "@value": "-entnahmen"
+        },
+        {
+            "@language": "es",
+            "@value": "sumas deducidas de las reservas disponibles"
+        },
+        {
+            "@language": "en",
+            "@value": "sums drawn from the reserves"
+        },
+        {
+            "@language": "de",
+            "@value": "-entnahmen"
+        },
+        {
+            "@language": "es",
+            "@value": "dotación o retirada de fondos para dotaciones futuras"
+        },
+        {
+            "@language": "en",
+            "@value": "transfer to or from the fund for future appropriations"
+        },
+        {
+            "@language": "de",
+            "@value": "-entnahmen"
+        },
+        {
+            "@language": "nl",
+            "@value": "toevoeging of onttrekking aan het fonds voor toekomstige toewijzingen"
+        },
+        {
+            "@language": "es",
+            "@value": "recogida"
+        },
+        {
+            "@language": "en",
+            "@value": "taking"
+        },
+        {
+            "@language": "de",
+            "@value": "-entnahmen"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "recoger"
+        },
+        {
+            "@language": "en",
+            "@value": "to take"
+        },
+        {
+            "@language": "de",
+            "@value": "entnehmen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "dividends paid by corporations and withdrawals from the income of quasi-corporations"
+        }
+    ]
+}

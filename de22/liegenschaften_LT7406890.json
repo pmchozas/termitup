@@ -1,0 +1,140 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7406890",
+    "@type": "skos:Concept",
+    "skos:inScheme": "liegenschaften",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/130194",
+    "skos:topConceptOf": "LT7406890",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "viviendas"
+        },
+        {
+            "@language": "en",
+            "@value": "housing stock"
+        },
+        {
+            "@language": "de",
+            "@value": "liegenschaften"
+        },
+        {
+            "@language": "nl",
+            "@value": "woningbestand"
+        },
+        {
+            "@language": "en",
+            "@value": "accession to real estate"
+        },
+        {
+            "@language": "de",
+            "@value": "liegenschaften"
+        },
+        {
+            "@language": "nl",
+            "@value": "natrekking van onroerende goederen"
+        },
+        {
+            "@language": "es",
+            "@value": "propiedades del ferrocarril"
+        },
+        {
+            "@language": "en",
+            "@value": "railway estate"
+        },
+        {
+            "@language": "de",
+            "@value": "liegenschaften"
+        },
+        {
+            "@language": "nl",
+            "@value": "spoorwegeigendommen"
+        },
+        {
+            "@language": "en",
+            "@value": "release of property"
+        },
+        {
+            "@language": "de",
+            "@value": "liegenschaften"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevrijden onroerend goed"
+        },
+        {
+            "@language": "es",
+            "@value": "repertorio general de bienes raíces"
+        },
+        {
+            "@language": "de",
+            "@value": "liegenschaften"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "edificios"
+        },
+        {
+            "@language": "es",
+            "@value": "parque inmobiliario"
+        },
+        {
+            "@language": "en",
+            "@value": "buildings"
+        },
+        {
+            "@language": "de",
+            "@value": "Liegenschaften"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebouwenbestand"
+        },
+        {
+            "@language": "en",
+            "@value": "railway property"
+        },
+        {
+            "@language": "de",
+            "@value": "Freigabe"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "die am Schluß jedes Fortführungsjahres aufgestellte Liste (nach Vordruck)in der die Flächen der einzelnen Nutzungsarten (tlw. in Gruppen zusammengefaßt)die Gesamtfläche die Anzahl der Bestandsblätter und der Flurstücke ggf. auch die Anzahl der Gebäudeblätter der Wohngebäude der übrigen Gebäude und die Summe der Ertragsmeßzahlen gemeinde-(gemarkungs-)weise aufgeführt und für die den Amtsbezirk einer Katasterbehörde aufgerechnet sind (wird nicht i allen Ländern geführt)"
+        }
+    ]
+}

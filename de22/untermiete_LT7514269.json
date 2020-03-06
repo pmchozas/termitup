@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7514269",
+    "@type": "skos:Concept",
+    "skos:inScheme": "untermiete",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1133041",
+    "skos:topConceptOf": "LT7514269",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "subarrendamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "sublease"
+        },
+        {
+            "@language": "de",
+            "@value": "untermiete"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderverpachting"
+        },
+        {
+            "@language": "en",
+            "@value": "lodger"
+        },
+        {
+            "@language": "de",
+            "@value": "untermiete"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "subarriendo"
+        },
+        {
+            "@language": "en",
+            "@value": "underlease"
+        },
+        {
+            "@language": "de",
+            "@value": "Untermiete"
+        },
+        {
+            "@language": "de",
+            "@value": "Untervermietung"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderverhuring"
+        },
+        {
+            "@language": "en",
+            "@value": "subtenant"
+        },
+        {
+            "@language": "de",
+            "@value": "Einlieger"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Dar o tomar en arriendo algo no de su dueño ni de su administrador sino de otro arrendatario de ello"
+        },
+        {
+            "@language": "en",
+            "@value": "a person receiving accommodation in another's house for payment"
+        }
+    ]
+}

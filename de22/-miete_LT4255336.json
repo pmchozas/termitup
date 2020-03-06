@@ -1,0 +1,200 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4255336",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-miete",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1108118",
+    "skos:topConceptOf": "LT4255336",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "trinchera"
+        },
+        {
+            "@language": "en",
+            "@value": "windrow"
+        },
+        {
+            "@language": "de",
+            "@value": "-miete"
+        },
+        {
+            "@language": "nl",
+            "@value": "ril"
+        },
+        {
+            "@language": "es",
+            "@value": "almiar"
+        },
+        {
+            "@language": "en",
+            "@value": "rick"
+        },
+        {
+            "@language": "de",
+            "@value": "-miete"
+        },
+        {
+            "@language": "nl",
+            "@value": "hooimijt"
+        },
+        {
+            "@language": "es",
+            "@value": "arrendamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "rental fee"
+        },
+        {
+            "@language": "de",
+            "@value": "-miete"
+        },
+        {
+            "@language": "nl",
+            "@value": "huurprijs"
+        },
+        {
+            "@language": "es",
+            "@value": "canon de alquiler"
+        },
+        {
+            "@language": "en",
+            "@value": "hire charges"
+        },
+        {
+            "@language": "de",
+            "@value": "-miete"
+        },
+        {
+            "@language": "nl",
+            "@value": "wagenhuur"
+        },
+        {
+            "@language": "es",
+            "@value": "alquiler"
+        },
+        {
+            "@language": "de",
+            "@value": "-miete"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "wind-row"
+        },
+        {
+            "@language": "nl",
+            "@value": "tafelhoop"
+        },
+        {
+            "@language": "es",
+            "@value": "pajar"
+        },
+        {
+            "@language": "en",
+            "@value": "stack"
+        },
+        {
+            "@language": "de",
+            "@value": "Schober"
+        },
+        {
+            "@language": "de",
+            "@value": "Schobe"
+        },
+        {
+            "@language": "de",
+            "@value": "Diemen"
+        },
+        {
+            "@language": "de",
+            "@value": "Feime"
+        },
+        {
+            "@language": "nl",
+            "@value": "hooistapel"
+        },
+        {
+            "@language": "es",
+            "@value": "alquiler"
+        },
+        {
+            "@language": "de",
+            "@value": "Miete"
+        },
+        {
+            "@language": "es",
+            "@value": "venta de alquiler"
+        },
+        {
+            "@language": "de",
+            "@value": "Wagenmiete"
+        },
+        {
+            "@language": "de",
+            "@value": "Sachmiete"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Sistema semiabierto de compostaje que puede combinar la ventilación forzada mediante la inclusión de suelo perforado por donde se introduce el aire y el sistema de volteos mediante el empleo de volteadoras de la pila de compostaje."
+        },
+        {
+            "@language": "en",
+            "@value": "type of pile of waste which is generally a long line with a triangular or trapezoid shape"
+        },
+        {
+            "@language": "de",
+            "@value": "nach Abmaßen bestimmtes und gestaltetes Haufwerk von Rottegut"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzameling organisch afval die in een lange rij met driehoekige of trapeziumvormige doorsnede is neergelegd om te composteren"
+        },
+        {
+            "@language": "es",
+            "@value": "montón de heno o paja que se almacena al aire libre; el almiar puede ser redondo o rectangular y su parte superior tiene forma de tejado para dificultar la entrada del agua de lluvia"
+        },
+        {
+            "@language": "en",
+            "@value": "a payment for the transfer of the right to use an asset other than intangible property"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitiger Vertrag durch den sich der Vermieter zur Ueberlassung des Gebrauchs einer Sache gegen Entgelt verpflichtet"
+        }
+    ]
+}

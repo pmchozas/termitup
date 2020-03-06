@@ -1,0 +1,194 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6942464",
+    "@type": "skos:Concept",
+    "skos:inScheme": "rettungsdienst",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1359748",
+    "skos:topConceptOf": "LT6942464",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "servicios médicos de urgencia"
+        },
+        {
+            "@language": "en",
+            "@value": "emergency rescue service"
+        },
+        {
+            "@language": "de",
+            "@value": "rettungsdienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "nooddienst"
+        },
+        {
+            "@language": "es",
+            "@value": "servicios de salvamento"
+        },
+        {
+            "@language": "en",
+            "@value": "rescue service"
+        },
+        {
+            "@language": "de",
+            "@value": "rettungsdienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "reddingsdienst"
+        },
+        {
+            "@language": "es",
+            "@value": "servicio de rescate"
+        },
+        {
+            "@language": "en",
+            "@value": "rescue service"
+        },
+        {
+            "@language": "de",
+            "@value": "rettungsdienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "reddingsdienst"
+        },
+        {
+            "@language": "es",
+            "@value": "servicio de búsqueda y rescate"
+        },
+        {
+            "@language": "en",
+            "@value": "search and rescue service"
+        },
+        {
+            "@language": "de",
+            "@value": "rettungsdienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "opsporings- en reddingsdienst"
+        },
+        {
+            "@language": "en",
+            "@value": "search and rescue service"
+        },
+        {
+            "@language": "de",
+            "@value": "rettungsdienst"
+        },
+        {
+            "@language": "nl",
+            "@value": "opsporings- en reddingsdienst"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "EMS"
+        },
+        {
+            "@language": "en",
+            "@value": "emergency medical services"
+        },
+        {
+            "@language": "en",
+            "@value": "EMS"
+        },
+        {
+            "@language": "de",
+            "@value": "ärztlicher Nofalldienst"
+        },
+        {
+            "@language": "de",
+            "@value": "EMS"
+        },
+        {
+            "@language": "nl",
+            "@value": "medische noodhulp"
+        },
+        {
+            "@language": "nl",
+            "@value": "dringende medische hulpverlening"
+        },
+        {
+            "@language": "nl",
+            "@value": "Basisgezondheidsdienst"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "sistema que comprende las diversas partes que convenientemente supervisadas prestan asistencia médica extrahospitalaria en una circunstancia de necesidad apremiante e imprevista y prosiguen luego su prestación en una unidad de urgencia fija"
+        },
+        {
+            "@language": "en",
+            "@value": "the system of various resources that can deliver medical care and aid under supervision in an unpredicted immediate need outside a hospital and continued care once in an established emergency unit"
+        },
+        {
+            "@language": "de",
+            "@value": "interdisziplinäres System für ärztliche Erstversorgung außerhalb eines Krankenhauses in einem unvorhergesehenen Notfall mit Folgeversorgung in einem entsprechend ausgestatteten Unfallkrankenhaus"
+        },
+        {
+            "@language": "nl",
+            "@value": "Medische hulpverlening ter plaatse buiten een ziekenhuis en voortgezet in een medische noodeenheid"
+        },
+        {
+            "@language": "es",
+            "@value": "conjunto de servicios comunitarios municipales regionales o nacionales que intervienen en todos los aspectos del salvamento inmediato y secundario de una zona"
+        },
+        {
+            "@language": "en",
+            "@value": "The statutory communityregional or national authorities or services that are designated to deal with all aspects of immediate and secondary rescue in their area"
+        },
+        {
+            "@language": "de",
+            "@value": "Behörde oder Dienste auf Gemeinschafts-Gemeinde-Regionaloder Landesebene die in ihrem jeweiligen Zuständigkeitsbereich für alle Aspekte der ersten Hilfe und alle weiteren Rettungsarbeiten verantwortlich sind"
+        },
+        {
+            "@language": "nl",
+            "@value": "Gemeentelijke regionale of nationale autoriteiten die alle aspecten van het reddingswerk in hun gebied behandelen"
+        },
+        {
+            "@language": "en",
+            "@value": "1.Service organized to provide immediate assistance to persons injured or in distress."
+        }
+    ],
+    "skos:broader": [
+        "LT7999971"
+    ],
+    "skos:related": [
+        "LT3251606"
+    ]
+}

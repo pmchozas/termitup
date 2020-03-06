@@ -1,0 +1,131 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3834976",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-wirkung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/34958",
+    "skos:topConceptOf": "LT3834976",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "efecto"
+        },
+        {
+            "@language": "en",
+            "@value": "effects"
+        },
+        {
+            "@language": "de",
+            "@value": "-wirkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "effecten"
+        },
+        {
+            "@language": "es",
+            "@value": "Eficacia"
+        },
+        {
+            "@language": "en",
+            "@value": "Efficacy"
+        },
+        {
+            "@language": "de",
+            "@value": "-wirkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "Maximale effectiviteit onder ideale omstandigheden"
+        },
+        {
+            "@language": "es",
+            "@value": "efectos"
+        },
+        {
+            "@language": "en",
+            "@value": "effect"
+        },
+        {
+            "@language": "de",
+            "@value": "-wirkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "effecten"
+        },
+        {
+            "@language": "es",
+            "@value": "efecto"
+        },
+        {
+            "@language": "en",
+            "@value": "effect"
+        },
+        {
+            "@language": "de",
+            "@value": "-wirkung"
+        },
+        {
+            "@language": "nl",
+            "@value": "effect"
+        },
+        {
+            "@language": "de",
+            "@value": "-wirkung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Wirksamkeit"
+        },
+        {
+            "@language": "de",
+            "@value": " Wirkung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.Effects include: a) direct effects which are caused by the action and occur at the same time and place b) indirect effects which are caused by the action and are later in time or farther removed in distance that are still reasonably foreseeable."
+        },
+        {
+            "@language": "en",
+            "@value": "a biological change caused by exposure to a dose of a stipulated input"
+        },
+        {
+            "@language": "de",
+            "@value": "Einfluss einer aerztlichen Verrichtung"
+        }
+    ]
+}

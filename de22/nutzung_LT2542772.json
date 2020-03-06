@@ -1,0 +1,189 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2542772",
+    "@type": "skos:Concept",
+    "skos:inScheme": "nutzung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1622273",
+    "skos:topConceptOf": "LT2542772",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "explotación forestal"
+        },
+        {
+            "@language": "en",
+            "@value": "harvesting"
+        },
+        {
+            "@language": "de",
+            "@value": "nutzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "houtoogst bestaande uit velling en transport"
+        },
+        {
+            "@language": "en",
+            "@value": "right of user"
+        },
+        {
+            "@language": "de",
+            "@value": "nutzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "recht van gebruik"
+        },
+        {
+            "@language": "de",
+            "@value": "nutzung"
+        },
+        {
+            "@language": "es",
+            "@value": "detracción cinegética"
+        },
+        {
+            "@language": "en",
+            "@value": "utilization"
+        },
+        {
+            "@language": "de",
+            "@value": "nutzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "jachtbuit"
+        },
+        {
+            "@language": "es",
+            "@value": "detracción cinegética"
+        },
+        {
+            "@language": "en",
+            "@value": "exploitation"
+        },
+        {
+            "@language": "de",
+            "@value": "nutzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "jachtbuit"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Holzgewinnung"
+        },
+        {
+            "@language": "de",
+            "@value": "Holzeinschlag"
+        },
+        {
+            "@language": "de",
+            "@value": "Hauen und Bringen"
+        },
+        {
+            "@language": "en",
+            "@value": "a kind of usufruct"
+        },
+        {
+            "@language": "en",
+            "@value": "personal right to make useof something belonging to another"
+        },
+        {
+            "@language": "de",
+            "@value": "Nutzungsrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "Nießbrauch"
+        },
+        {
+            "@language": "de",
+            "@value": "Nutzung"
+        },
+        {
+            "@language": "de",
+            "@value": "Verwertung"
+        },
+        {
+            "@language": "en",
+            "@value": "utilisation"
+        },
+        {
+            "@language": "de",
+            "@value": "Nutzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "jachtvangst"
+        },
+        {
+            "@language": "de",
+            "@value": "Nutzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "jachtvangst"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the removal of produce from the forest for utilisationcomprising cuttingsometimes further initial processing(e.g.with treestopping and trimming)and extraction(when for timber logging)"
+        },
+        {
+            "@language": "nl",
+            "@value": "bep. recht dat men op iets heeft inclusief het genot van de vruchten ten behoeve van zichzelf en van het gezin een en ander volgens ongeveer dezelfde regels als die van het vruchtgebruik"
+        },
+        {
+            "@language": "nl",
+            "@value": "het geoorloofde afschieten of vangen van een zekere hoeveelheid wild of vis"
+        },
+        {
+            "@language": "en",
+            "@value": "the harvesting of wildlife from a population by shooting(gunrifleblowpipebow-and-arrowetc.)rod fishingand capture(trappingnettingetc.)assessed as yield"
+        },
+        {
+            "@language": "nl",
+            "@value": "het geoorloofde afschieten of vangen van een zekere hoeveelheid wild of vis"
+        }
+    ],
+    "skos:broader": [
+        "LT5371818",
+        "LT3924224",
+        "LT6786889"
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3854403",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schätzung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1570196",
+    "skos:topConceptOf": "LT3854403",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "estimación"
+        },
+        {
+            "@language": "en",
+            "@value": "estimate"
+        },
+        {
+            "@language": "de",
+            "@value": "schätzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatting"
+        },
+        {
+            "@language": "es",
+            "@value": "valoración"
+        },
+        {
+            "@language": "en",
+            "@value": "pricing"
+        },
+        {
+            "@language": "de",
+            "@value": "schätzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatting"
+        },
+        {
+            "@language": "es",
+            "@value": "estimación"
+        },
+        {
+            "@language": "en",
+            "@value": "estimation"
+        },
+        {
+            "@language": "de",
+            "@value": "schätzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schattingsprocedure"
+        },
+        {
+            "@language": "en",
+            "@value": "valuation before auction"
+        },
+        {
+            "@language": "de",
+            "@value": "schätzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatting voor publieke verkoop"
+        },
+        {
+            "@language": "es",
+            "@value": "Valor estimado"
+        },
+        {
+            "@language": "en",
+            "@value": "Estimate"
+        },
+        {
+            "@language": "de",
+            "@value": "schätzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "Schatting"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "valor estimado"
+        },
+        {
+            "@language": "de",
+            "@value": "geschätzter Wert"
+        },
+        {
+            "@language": "de",
+            "@value": "Schätzung"
+        },
+        {
+            "@language": "nl",
+            "@value": "raming"
+        },
+        {
+            "@language": "nl",
+            "@value": "geschatte waarde"
+        },
+        {
+            "@language": "nl",
+            "@value": "schatten"
+        },
+        {
+            "@language": "nl",
+            "@value": "taxatie"
+        },
+        {
+            "@language": "nl",
+            "@value": "het schatten"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Valor estadístico para el cálculo del parámetro de la población muestral."
+        },
+        {
+            "@language": "en",
+            "@value": "indication of the value of an unknown quantity based on observed data; or more formally the particular value of an estimator that is obtained from a particular sample of data and used to indicate the value of a parameter"
+        },
+        {
+            "@language": "en",
+            "@value": "process of determining what a company can expect to receive in exchange for its products"
+        },
+        {
+            "@language": "en",
+            "@value": "the process by which sample data are used to indicate the value of an unknown quantity in a population"
+        }
+    ],
+    "skos:broader": [
+        "LT3879517"
+    ]
+}

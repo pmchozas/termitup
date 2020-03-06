@@ -1,0 +1,128 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8626712",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gegenseitigkeit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1129476",
+    "skos:topConceptOf": "LT8626712",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "sistema de la reciprocidad"
+        },
+        {
+            "@language": "en",
+            "@value": "reciprocity"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederkerigheidsstelsel"
+        },
+        {
+            "@language": "en",
+            "@value": "reciprocally"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitigkeit"
+        },
+        {
+            "@language": "en",
+            "@value": "mutual fund"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitigkeit"
+        },
+        {
+            "@language": "es",
+            "@value": "reciprocidad material"
+        },
+        {
+            "@language": "en",
+            "@value": "material reciprocity"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitigkeit"
+        },
+        {
+            "@language": "es",
+            "@value": "cláusula de reciprocidad"
+        },
+        {
+            "@language": "en",
+            "@value": "reciprocal treatment"
+        },
+        {
+            "@language": "de",
+            "@value": "gegenseitigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederkerigheidsclausule"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "materiellrechtliche Gegenseitigkeit"
+        },
+        {
+            "@language": "en",
+            "@value": "reciprocity clause"
+        },
+        {
+            "@language": "de",
+            "@value": "Gegenseitigkeitsklausel"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "recognition by a court of a judgment given by a foreign court pursuant to a treaty providing that the courts of each country shall recognise judgments given by the courts of the other"
+        },
+        {
+            "@language": "es",
+            "@value": "Concesión de derechos a innovaciones o creaciones originadas en algún país en la proporción en que se les concedan a las que se originen en el propio."
+        },
+        {
+            "@language": "en",
+            "@value": "principle whereby one country (A) makes the granting of legal protection for intellectual property products from another country (B) conditional upon country B's granting legal protection for intellectual property products from country A"
+        }
+    ]
+}

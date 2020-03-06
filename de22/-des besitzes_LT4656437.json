@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4656437",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-des besitzes",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3543264",
+    "skos:topConceptOf": "LT4656437",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-des besitzes"
+        },
+        {
+            "@language": "es",
+            "@value": "atomización de la propiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "splitting up of holdings"
+        },
+        {
+            "@language": "de",
+            "@value": "-des besitzes"
+        },
+        {
+            "@language": "es",
+            "@value": "obra de acceso rural"
+        },
+        {
+            "@language": "en",
+            "@value": "occupation crossing"
+        },
+        {
+            "@language": "de",
+            "@value": "-des besitzes"
+        },
+        {
+            "@language": "nl",
+            "@value": "eigen overgang"
+        },
+        {
+            "@language": "de",
+            "@value": "-des besitzes"
+        },
+        {
+            "@language": "en",
+            "@value": "action for reinstatement"
+        },
+        {
+            "@language": "de",
+            "@value": "-des besitzes"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtsvordering tot herstel in bezit"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "parcelación de la propiedad"
+        },
+        {
+            "@language": "es",
+            "@value": "fragmentación de la propiedad"
+        },
+        {
+            "@language": "en",
+            "@value": "fragmentation of estates"
+        },
+        {
+            "@language": "de",
+            "@value": "Zerstückelung des Besitzes"
+        },
+        {
+            "@language": "en",
+            "@value": "access"
+        },
+        {
+            "@language": "en",
+            "@value": "accommodation"
+        },
+        {
+            "@language": "en",
+            "@value": "accomodation"
+        },
+        {
+            "@language": "de",
+            "@value": "mittelbarer Besitz"
+        },
+        {
+            "@language": "en",
+            "@value": "action for restoration"
+        },
+        {
+            "@language": "de",
+            "@value": "Klage auf Besitzwiederherstellung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Leugnet jemand fälschlich den Besitz einer Sache vor Gericht ist er zur Hergabe der Sache zu verurteilen auch wenn der Gegner sein Recht an der Sache nicht beweisen kann."
+        },
+        {
+            "@language": "es",
+            "@value": "obra de acceso (puente o alcantarilla) que permite la circulación entre dos partes de una explotación agrícola"
+        },
+        {
+            "@language": "en",
+            "@value": "crossing(bridge or culvert)which gives access between two portions of a farmer's land."
+        },
+        {
+            "@language": "de",
+            "@value": "Ueberfuehrung (Bruecke oder Durchlass)die zwei Teile Ackerland verbindet."
+        },
+        {
+            "@language": "de",
+            "@value": "wenn man eines Rechtes oder einer Sache die einem Andern gehört habhaft wird."
+        },
+        {
+            "@language": "en",
+            "@value": "action taken for the recovery of the possession of land by one who has been dispossessed by force"
+        }
+    ]
+}

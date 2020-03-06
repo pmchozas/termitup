@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4854830",
+    "@type": "skos:Concept",
+    "skos:inScheme": "rechnungslegung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3574471",
+    "skos:topConceptOf": "LT4854830",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cuentas"
+        },
+        {
+            "@language": "en",
+            "@value": "accounts"
+        },
+        {
+            "@language": "de",
+            "@value": "rechnungslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "rekeningen"
+        },
+        {
+            "@language": "es",
+            "@value": "documentación contable"
+        },
+        {
+            "@language": "en",
+            "@value": "tax accrual workpapers"
+        },
+        {
+            "@language": "de",
+            "@value": "rechnungslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "boekhoudkundige documenten"
+        },
+        {
+            "@language": "en",
+            "@value": "presenting the accounts"
+        },
+        {
+            "@language": "de",
+            "@value": "rechnungslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "rekening en verantwoording"
+        },
+        {
+            "@language": "de",
+            "@value": "rechnungslegung"
+        },
+        {
+            "@language": "es",
+            "@value": "divisa de referencia"
+        },
+        {
+            "@language": "en",
+            "@value": "reporting currency"
+        },
+        {
+            "@language": "de",
+            "@value": "rechnungslegung"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapportagevaluta"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Rechnungsführung"
+        },
+        {
+            "@language": "en",
+            "@value": "rendering of accounts"
+        },
+        {
+            "@language": "en",
+            "@value": "submission of accounts"
+        },
+        {
+            "@language": "en",
+            "@value": "statement of accounts"
+        },
+        {
+            "@language": "en",
+            "@value": "presentation currency"
+        },
+        {
+            "@language": "nl",
+            "@value": "rapporteringsvaluta"
+        },
+        {
+            "@language": "nl",
+            "@value": "presentatievaluta"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "El conjunto de registros contables."
+        },
+        {
+            "@language": "en",
+            "@value": "The accounting records as a whole."
+        },
+        {
+            "@language": "de",
+            "@value": "Unterlagen der Rechnungslegung (oder Rechnungsführung) als Ganzes."
+        },
+        {
+            "@language": "nl",
+            "@value": "De boekhoudkundige stukken als geheel"
+        },
+        {
+            "@language": "en",
+            "@value": "the documents produced by an accountant to evaluate a taxpayer's tax liabilityusually that of a company or corporation"
+        },
+        {
+            "@language": "es",
+            "@value": "Unidad monetaria que utiliza una entidad financiera en sus comunicaciones de información."
+        },
+        {
+            "@language": "en",
+            "@value": "currency which is used for an entity's financial statements"
+        },
+        {
+            "@language": "de",
+            "@value": "Währung in der die Rechnungslegung eines Kreditinstituts erfolgt"
+        },
+        {
+            "@language": "nl",
+            "@value": "munteenheid die door instellingen met vestigingen in verschillende landen (met verschillende munteenheden) wordt gebruikt in de financiële verslaglegging"
+        }
+    ]
+}

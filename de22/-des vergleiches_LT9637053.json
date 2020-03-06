@@ -1,0 +1,163 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9637053",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-des vergleiches",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1392481",
+    "skos:topConceptOf": "LT9637053",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "composición"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vergleiches"
+        },
+        {
+            "@language": "es",
+            "@value": "convenio con los acreedores"
+        },
+        {
+            "@language": "en",
+            "@value": "composition"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vergleiches"
+        },
+        {
+            "@language": "nl",
+            "@value": "akkoord"
+        },
+        {
+            "@language": "en",
+            "@value": "comparison"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vergleiches"
+        },
+        {
+            "@language": "nl",
+            "@value": "vergelijking"
+        },
+        {
+            "@language": "en",
+            "@value": "settlement"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vergleiches"
+        },
+        {
+            "@language": "es",
+            "@value": "concordato preventivo"
+        },
+        {
+            "@language": "en",
+            "@value": "arrangement with creditors"
+        },
+        {
+            "@language": "de",
+            "@value": "-des vergleiches"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorlopig akkoord"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " acuerdo"
+        },
+        {
+            "@language": "es",
+            "@value": " pacto"
+        },
+        {
+            "@language": "es",
+            "@value": " convenio"
+        },
+        {
+            "@language": "de",
+            "@value": " Uebereinkommen"
+        },
+        {
+            "@language": "de",
+            "@value": " Einigung"
+        },
+        {
+            "@language": "de",
+            "@value": " Zwangsvergleich"
+        },
+        {
+            "@language": "de",
+            "@value": " Vergleichung"
+        },
+        {
+            "@language": "de",
+            "@value": " Vergleich"
+        },
+        {
+            "@language": "es",
+            "@value": " convenio con acreedores"
+        },
+        {
+            "@language": "nl",
+            "@value": " schikking bij faillissement"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "An agreement between a debtor and his creditors discharging the debts in exchange for payment of a proportion of what is due. The debtor may have to register the agreement as a deed of arrangement."
+        },
+        {
+            "@language": "de",
+            "@value": "Der Zwangsvergleich ist ein Vertrag des Gemeinschuldners mit den einfachen Konkursgläubigern über deren Befriedigung durch den Schuldner anstelle der Vermögensverwertung und Erlösverteilung durch den Konkursverwalter. Nach Annahme durch eine qualifizierte Mehrheit der Gläubiger und gerichtlicher Bestätigung wirkt er auch gegen die überstimmte Minderheit. (Münchener Rechtslexikon München 1987 B. 3 S. 1308/9.)"
+        },
+        {
+            "@language": "nl",
+            "@value": "(Fw art. 138 e.v. (NL)) deal in een faillissement door de gefailleerde aan zijn gezamenlijke schuldeisers aangeboden; door aanvaarding en homologatie van het akkoord eindigt het faillissement; een akkoord is ook mogelijk bij surséance van betaling (art. 252 e.v.) en ontneemt de schuleisers hun vorderingsrecht op hetgeen het uitkeringspercentage te boven gaat."
+        },
+        {
+            "@language": "en",
+            "@value": "alternative to prosecution whereby the prosecutor offers a range of measures to an accused person who admits an offence: the measure is then validated by the court"
+        },
+        {
+            "@language": "de",
+            "@value": "je nach EU-Mitgliedstaat unterschiedlich geregeltes Verfahren nach dem die Staatsanwaltschaft die Strafverfolgung gegen Erfüllung einer oder mehrerer Auflagen (z.B. Zahlung einer Geldbuße) einstellen kann"
+        }
+    ]
+}

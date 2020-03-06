@@ -1,0 +1,167 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7545961",
+    "@type": "skos:Concept",
+    "skos:inScheme": "abwesenheit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1393363",
+    "skos:topConceptOf": "LT7545961",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "falta"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesenheit"
+        },
+        {
+            "@language": "es",
+            "@value": "ausencia"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesenheit"
+        },
+        {
+            "@language": "es",
+            "@value": "insumisión"
+        },
+        {
+            "@language": "en",
+            "@value": "failure to report for military service"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesenheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "dienstplichtontduiking"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesenheit"
+        },
+        {
+            "@language": "es",
+            "@value": "ausencia de impulsos"
+        },
+        {
+            "@language": "en",
+            "@value": "absence of pulses"
+        },
+        {
+            "@language": "de",
+            "@value": "abwesenheit"
+        },
+        {
+            "@language": "nl",
+            "@value": "afwezigheid van impulsen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " ausencia del trabajo"
+        },
+        {
+            "@language": "de",
+            "@value": " Abwesenheit"
+        },
+        {
+            "@language": "es",
+            "@value": " negativa a cumplir el servicio militar y la prestación social sustitutoria"
+        },
+        {
+            "@language": "es",
+            "@value": " abandono injustificado del servicio"
+        },
+        {
+            "@language": "en",
+            "@value": " absence without leave"
+        },
+        {
+            "@language": "en",
+            "@value": " failure to rejoin one's unit"
+        },
+        {
+            "@language": "en",
+            "@value": " draft dodging"
+        },
+        {
+            "@language": "en",
+            "@value": " draft evasion"
+        },
+        {
+            "@language": "de",
+            "@value": " eigenmächtige Abwesenheit"
+        },
+        {
+            "@language": "de",
+            "@value": " unerlaubte Abwesenheit"
+        },
+        {
+            "@language": "de",
+            "@value": " Refraktion"
+        },
+        {
+            "@language": "de",
+            "@value": " eigenmächtige Abwesenheit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "ein Abwesender ist eine Person deren Aufenthalt unbekannt oder die unerreichbar ist"
+        },
+        {
+            "@language": "es",
+            "@value": "Negativa al cumplimiento del servicio militar IATE:841680 y a la prestación social sustitutoria."
+        },
+        {
+            "@language": "en",
+            "@value": "\"insoumission\" appears to have three meanings: rebelliousness or insubordination; being late returning from leave (absence without leave); and failure to report for military service as a conscript."
+        },
+        {
+            "@language": "de",
+            "@value": "in DE umfasst \"eig. Abwesenheit\" sowohl Abwesenheit ohne Genehmigung von mehr als 3 Tagen als auch Nichtbefolgung e. Einberufungsbefehls (da schon ab Zustellung des Einberufungsbescheids ein milit. Unterstellungsverhältnis besteht); anders: \"Fahnenflucht\" (in DE): Abwesenheit um sich der Verpflichtung zum Wehrdienst dauernd oder für die Zeit eines bewaffneten Einsatzes zu entziehen oder die Beendigung des Wehrdienstverhältnisses zu erreichen"
+        },
+        {
+            "@language": "nl",
+            "@value": "bedoeld wordt : als dienstplichtige opzettelijk geen gevolg geven aan de oproeping ter inlijving voor de dienstplicht."
+        },
+        {
+            "@language": "de",
+            "@value": "besteht darin dass ein Soldat seine Truppe militärische Dienststelle oder den ihm sonst zugewiesenen Aufenthaltsort verläßt oder ihnen fernbleibt und sich dadurch wenn auch nur fahrlässig dem Dienst für länger als vierundzwanzig Stunden entzieht."
+        }
+    ]
+}

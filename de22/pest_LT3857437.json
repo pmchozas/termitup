@@ -1,0 +1,203 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3857437",
+    "@type": "skos:Concept",
+    "skos:inScheme": "pest",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3553191",
+    "skos:topConceptOf": "LT3857437",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "Comisión Especial sobre el Procedimiento de Autorización de la Unión para los Plaguicidas"
+        },
+        {
+            "@language": "en",
+            "@value": "Special Committee on the Union’s authorisation procedure for pesticides"
+        },
+        {
+            "@language": "de",
+            "@value": "pest"
+        },
+        {
+            "@language": "nl",
+            "@value": "Bijzondere Commissie toelatingsprocedure van de Unie voor pesticiden"
+        },
+        {
+            "@language": "es",
+            "@value": "peste roja"
+        },
+        {
+            "@language": "en",
+            "@value": "red plague"
+        },
+        {
+            "@language": "de",
+            "@value": "pest"
+        },
+        {
+            "@language": "es",
+            "@value": "peste de los pequeños rumiantes"
+        },
+        {
+            "@language": "en",
+            "@value": "peste des petits ruminants"
+        },
+        {
+            "@language": "de",
+            "@value": "pest"
+        },
+        {
+            "@language": "nl",
+            "@value": "pest bij kleine herkauwers"
+        },
+        {
+            "@language": "es",
+            "@value": "virus de la peste de los pequeños rumiantes"
+        },
+        {
+            "@language": "en",
+            "@value": "peste des petits ruminants virus"
+        },
+        {
+            "@language": "de",
+            "@value": "pest"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"peste des petits ruminants\" virus"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "PPR"
+        },
+        {
+            "@language": "es",
+            "@value": "infección por el virus de la peste de pequeños rumiantes"
+        },
+        {
+            "@language": "en",
+            "@value": "PPR"
+        },
+        {
+            "@language": "en",
+            "@value": "infection with peste des petits ruminants virus"
+        },
+        {
+            "@language": "en",
+            "@value": "sheep and goat plague"
+        },
+        {
+            "@language": "en",
+            "@value": "goat plague"
+        },
+        {
+            "@language": "en",
+            "@value": "pest of small ruminants"
+        },
+        {
+            "@language": "en",
+            "@value": "plague of small ruminants"
+        },
+        {
+            "@language": "en",
+            "@value": "pest of sheep and goats"
+        },
+        {
+            "@language": "en",
+            "@value": "Kata"
+        },
+        {
+            "@language": "en",
+            "@value": "pseudorinderpest"
+        },
+        {
+            "@language": "en",
+            "@value": "pneumoenteritis complex"
+        },
+        {
+            "@language": "en",
+            "@value": "stomatitis-pneumoenteritis syndrome"
+        },
+        {
+            "@language": "en",
+            "@value": "ovine rinderpest"
+        },
+        {
+            "@language": "en",
+            "@value": "small stock plague"
+        },
+        {
+            "@language": "de",
+            "@value": "Infektion mit dem Virus der Pest der kleinen Wiederkäuer"
+        },
+        {
+            "@language": "de",
+            "@value": "Pseudorinderpest"
+        },
+        {
+            "@language": "nl",
+            "@value": "kleine herkauwerspest, kleineherkauwerspest"
+        },
+        {
+            "@language": "nl",
+            "@value": "infectie met het virus van de pest bij kleine herkauwers („peste des petits ruminants”)"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Auftreten von oertlichen roten Korrosionsstellen an dem Silber ueberzogenem Kupfer ( draht ). Bei dem Angriff unter bestimmten Bedingungen entsteht rotes Cu O neben schwarzem CuO."
+        },
+        {
+            "@language": "es",
+            "@value": "Infección viral altamente contagiosa que afecta esencialmente a las cabras y a las ovejas aunque el ganado bovino los camellos los búfalos y algunas especies de rumiantes silvestres también se consideran susceptibles."
+        },
+        {
+            "@language": "en",
+            "@value": "infection mainly of domestic sheep and goats but also of cattle camels buffaloes and some wild ruminant species with peste des petits ruminants virus (PPRV)"
+        },
+        {
+            "@language": "nl",
+            "@value": "virusziekte bij geiten en schapen"
+        }
+    ],
+    "skos:broader": [
+        "LT5858224"
+    ],
+    "skos:related": [
+        "LT6948714",
+        "LT3616757"
+    ]
+}

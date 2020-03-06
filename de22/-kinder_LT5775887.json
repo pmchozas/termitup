@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5775887",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-kinder",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/128461",
+    "skos:topConceptOf": "LT5775887",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "COG"
+        },
+        {
+            "@language": "de",
+            "@value": "-kinder"
+        },
+        {
+            "@language": "es",
+            "@value": "hijos legítimos"
+        },
+        {
+            "@language": "en",
+            "@value": "legitimate children"
+        },
+        {
+            "@language": "de",
+            "@value": "-kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettige kinderen"
+        },
+        {
+            "@language": "en",
+            "@value": "backward children"
+        },
+        {
+            "@language": "de",
+            "@value": "-kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "kinderen met een achterstand"
+        },
+        {
+            "@language": "en",
+            "@value": "autistic children"
+        },
+        {
+            "@language": "de",
+            "@value": "-kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "autistisch kind"
+        },
+        {
+            "@language": "es",
+            "@value": "prestación por hijos"
+        },
+        {
+            "@language": "en",
+            "@value": "child benefit"
+        },
+        {
+            "@language": "de",
+            "@value": "-kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "kinderbijslag"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "Children of God"
+        },
+        {
+            "@language": "de",
+            "@value": "retardierte Kinder"
+        },
+        {
+            "@language": "de",
+            "@value": "spaetreife Kinder"
+        },
+        {
+            "@language": "en",
+            "@value": "child allowance"
+        },
+        {
+            "@language": "en",
+            "@value": "children's allowance"
+        },
+        {
+            "@language": "de",
+            "@value": "Kinderzulage"
+        },
+        {
+            "@language": "de",
+            "@value": "Leistung für Kinder"
+        },
+        {
+            "@language": "nl",
+            "@value": "kindergeld"
+        },
+        {
+            "@language": "nl",
+            "@value": "kindertoelage"
+        },
+        {
+            "@language": "nl",
+            "@value": "kindgebonden budget"
+        },
+        {
+            "@language": "nl",
+            "@value": "kindertoeslag"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Asignación económica que se reconoce por cada hijo a cargo del beneficiario"
+        },
+        {
+            "@language": "en",
+            "@value": "social security payment which is distributed to the parents or guardians of children teenagers and in some cases young adults"
+        },
+        {
+            "@language": "de",
+            "@value": "aus öffentlichen Mitteln für jedes Kind an Erziehungsberechtigte gewährte Leistung"
+        },
+        {
+            "@language": "nl",
+            "@value": "sociale uitkering die wordt toegekend als men kinderen verzorgt en/of onderhoudt"
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9070979",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, rechte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1393841",
+    "skos:topConceptOf": "LT9070979",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "derecho"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rechte"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rechte"
+        },
+        {
+            "@language": "es",
+            "@value": "justicia"
+        },
+        {
+            "@language": "en",
+            "@value": "justice"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "gerechtigheid"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rechte"
+        },
+        {
+            "@language": "nl",
+            "@value": "r."
+        },
+        {
+            "@language": "en",
+            "@value": "rights"
+        },
+        {
+            "@language": "de",
+            "@value": "-, rechte"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "pretensión legal"
+        },
+        {
+            "@language": "es",
+            "@value": "título legal"
+        },
+        {
+            "@language": "es",
+            "@value": "legitimación"
+        },
+        {
+            "@language": "es",
+            "@value": "legitimidad"
+        },
+        {
+            "@language": "es",
+            "@value": "poder"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsanspruch"
+        },
+        {
+            "@language": "de",
+            "@value": "Anspruch"
+        },
+        {
+            "@language": "de",
+            "@value": "Berechtigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtvaardigheid"
+        },
+        {
+            "@language": "nl",
+            "@value": "recht"
+        },
+        {
+            "@language": "nl",
+            "@value": "justitie"
+        },
+        {
+            "@language": "de",
+            "@value": "re"
+        },
+        {
+            "@language": "de",
+            "@value": "rechts"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechts"
+        },
+        {
+            "@language": "nl",
+            "@value": "met de rechterhand"
+        },
+        {
+            "@language": "en",
+            "@value": "special rights"
+        },
+        {
+            "@language": "de",
+            "@value": "besondere Rechte"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Befugnis die sich fuer den Berechtigten aus dem objektiven Recht unmittelbar ergibt oder die auf Grund des objektiven Rechts erworben wird"
+        },
+        {
+            "@language": "en",
+            "@value": "1.The correct application of law as opposed to arbitrariness."
+        },
+        {
+            "@language": "en",
+            "@value": "to grant the citizens of the Member States special rights as members of the Communlty"
+        },
+        {
+            "@language": "de",
+            "@value": "den Buergern der Mitgliedstaaten besondere Rechte als Angehoerige der Gemeinsdraft zuerkennen"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1818868",
+    "@type": "skos:Concept",
+    "skos:inScheme": "miterben",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130307",
+    "skos:topConceptOf": "LT1818868",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "accretion for the benefit of the co-heir"
+        },
+        {
+            "@language": "de",
+            "@value": "miterben"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanwas ten gunste van een medeerfgenaam"
+        },
+        {
+            "@language": "es",
+            "@value": "coherederos de una herencia indivisa"
+        },
+        {
+            "@language": "en",
+            "@value": "heirs in indivision"
+        },
+        {
+            "@language": "de",
+            "@value": "miterben"
+        },
+        {
+            "@language": "nl",
+            "@value": "medeerfgenamen van een onverdeelde boedel"
+        },
+        {
+            "@language": "en",
+            "@value": "action for the refund by one or several heirs to a third party of the interest in an estate sold to him by a joint heir"
+        },
+        {
+            "@language": "de",
+            "@value": "miterben"
+        },
+        {
+            "@language": "nl",
+            "@value": "naasting bij erfenis"
+        },
+        {
+            "@language": "es",
+            "@value": "coheredero"
+        },
+        {
+            "@language": "en",
+            "@value": "co-heir"
+        },
+        {
+            "@language": "de",
+            "@value": "miterben"
+        },
+        {
+            "@language": "nl",
+            "@value": "mede-erfgenaam"
+        },
+        {
+            "@language": "es",
+            "@value": "coheredero"
+        },
+        {
+            "@language": "en",
+            "@value": "co-heir"
+        },
+        {
+            "@language": "de",
+            "@value": "miterben"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "joint heir"
+        },
+        {
+            "@language": "en",
+            "@value": "coparcener"
+        },
+        {
+            "@language": "en",
+            "@value": "joint heir"
+        },
+        {
+            "@language": "en",
+            "@value": "coparcener"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

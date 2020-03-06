@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6380799",
+    "@type": "skos:Concept",
+    "skos:inScheme": "geburt",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583415",
+    "skos:topConceptOf": "LT6380799",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "nacimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "birth"
+        },
+        {
+            "@language": "de",
+            "@value": "geburt"
+        },
+        {
+            "@language": "nl",
+            "@value": "geboorte"
+        },
+        {
+            "@language": "es",
+            "@value": "paricion"
+        },
+        {
+            "@language": "en",
+            "@value": "birth"
+        },
+        {
+            "@language": "de",
+            "@value": "geburt"
+        },
+        {
+            "@language": "nl",
+            "@value": "geboorte"
+        },
+        {
+            "@language": "es",
+            "@value": "parto"
+        },
+        {
+            "@language": "en",
+            "@value": "childbirth"
+        },
+        {
+            "@language": "de",
+            "@value": "geburt"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevalling"
+        },
+        {
+            "@language": "es",
+            "@value": "parición"
+        },
+        {
+            "@language": "en",
+            "@value": "birth"
+        },
+        {
+            "@language": "de",
+            "@value": "geburt"
+        },
+        {
+            "@language": "es",
+            "@value": "parto anónimo"
+        },
+        {
+            "@language": "en",
+            "@value": "secret childbirth"
+        },
+        {
+            "@language": "de",
+            "@value": "geburt"
+        },
+        {
+            "@language": "nl",
+            "@value": "anonieme bevalling"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "paridera"
+        },
+        {
+            "@language": "es",
+            "@value": "parto"
+        },
+        {
+            "@language": "en",
+            "@value": "parturition"
+        },
+        {
+            "@language": "nl",
+            "@value": "partus"
+        },
+        {
+            "@language": "en",
+            "@value": "delivery"
+        },
+        {
+            "@language": "en",
+            "@value": "partus"
+        },
+        {
+            "@language": "en",
+            "@value": "parturition"
+        },
+        {
+            "@language": "de",
+            "@value": "Entbindung"
+        },
+        {
+            "@language": "de",
+            "@value": "Partus"
+        },
+        {
+            "@language": "nl",
+            "@value": "baring"
+        },
+        {
+            "@language": "nl",
+            "@value": "verlossing"
+        },
+        {
+            "@language": "nl",
+            "@value": "partus"
+        },
+        {
+            "@language": "nl",
+            "@value": "parturitio"
+        },
+        {
+            "@language": "es",
+            "@value": "paridera"
+        },
+        {
+            "@language": "es",
+            "@value": "parto"
+        },
+        {
+            "@language": "en",
+            "@value": "parturition"
+        },
+        {
+            "@language": "de",
+            "@value": "geheime Geburt"
+        },
+        {
+            "@language": "de",
+            "@value": "anonyme Geburt"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Der Vorgang durch den die Leibesfrucht des Menschen aus dem mütterlichen Körper an die Außenwelt gelangt. Die Geburt setzt ein mit dem Anfang der im weiteren Verlauf zur Ausstoßung der Frucht führenden Wehen. Im Privatrecht beginnt mit der Vollendung der Geburt die Rechtsfähigkeit des Menschen. Im Strafrecht ist bereits die Tötung eines Kindes in der Geburt strafbar."
+        },
+        {
+            "@language": "es",
+            "@value": "Posibilidad de que la mujer dé a luz manteniéndose en secreto su identidad."
+        },
+        {
+            "@language": "de",
+            "@value": "Entbindung mit medizinischer Betreuung nach der das Kind ohne Angabe von Personalien zurückgelassen wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "Een anonieme bevalling kan worden omschreven als een bevalling onder een wettelijk regime dat de vrouw toestaat om nav de bevalling haar identiteit niet bekend te maken noch aan de instelling die haar heeft opgenomen om te bevallen noch aan de personen die haar bijstaan en verzorgen.In dergelijk geval wordt een geboorteakte van het betrokken kind opgesteld zonder vermelding van de naam van de moeder maar bv met de vermelding X."
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6461702",
+    "@type": "skos:Concept",
+    "skos:inScheme": "substitution",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1546149",
+    "skos:topConceptOf": "LT6461702",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "substitution"
+        },
+        {
+            "@language": "de",
+            "@value": "substitution"
+        },
+        {
+            "@language": "nl",
+            "@value": "substitutio"
+        },
+        {
+            "@language": "es",
+            "@value": "sustitución"
+        },
+        {
+            "@language": "en",
+            "@value": "substitution"
+        },
+        {
+            "@language": "de",
+            "@value": "substitution"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervanging"
+        },
+        {
+            "@language": "es",
+            "@value": "mantenimiento"
+        },
+        {
+            "@language": "en",
+            "@value": "substitution"
+        },
+        {
+            "@language": "de",
+            "@value": "substitution"
+        },
+        {
+            "@language": "nl",
+            "@value": "substitutie"
+        },
+        {
+            "@language": "de",
+            "@value": "substitution"
+        },
+        {
+            "@language": "es",
+            "@value": "sustitución"
+        },
+        {
+            "@language": "en",
+            "@value": "substitution"
+        },
+        {
+            "@language": "de",
+            "@value": "substitution"
+        },
+        {
+            "@language": "nl",
+            "@value": "substitutie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Ersatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "substitutie"
+        },
+        {
+            "@language": "es",
+            "@value": "sustitución"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "in vor allem organischen Verbindungen der Austausch bestimmter gebundener Atome Gruppen oder Ionen gegen andere durch gezielte Reaktionen"
+        },
+        {
+            "@language": "nl",
+            "@value": "het vervangen van een radicaal in een chemische verbinding door een ander"
+        },
+        {
+            "@language": "en",
+            "@value": "in sampling inquiries it is sometimes difficult to make contract withor obtain information froma particular member of the sample.In such cases it is sometimes the practice to substitute a more conveniently examined member of the population in order to maintain the size of sample.Any such substitution shouldhoweverbe carried out upon a strictly controlled plan in order to avoid bias"
+        }
+    ]
+}

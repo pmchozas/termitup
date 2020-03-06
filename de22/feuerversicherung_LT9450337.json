@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9450337",
+    "@type": "skos:Concept",
+    "skos:inScheme": "feuerversicherung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1253607",
+    "skos:topConceptOf": "LT9450337",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "seguro contra incendios"
+        },
+        {
+            "@language": "en",
+            "@value": "fire-insurance"
+        },
+        {
+            "@language": "de",
+            "@value": "feuerversicherung"
+        },
+        {
+            "@language": "nl",
+            "@value": "brandverzekering"
+        },
+        {
+            "@language": "es",
+            "@value": "seguro contra incendios"
+        },
+        {
+            "@language": "en",
+            "@value": "fire-insurance"
+        },
+        {
+            "@language": "de",
+            "@value": "feuerversicherung"
+        },
+        {
+            "@language": "es",
+            "@value": "porcentaje del seguro contra incendios"
+        },
+        {
+            "@language": "en",
+            "@value": "percentage of fire loss insurance"
+        },
+        {
+            "@language": "de",
+            "@value": "feuerversicherung"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvullende brandverzekering"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "insurance against loss by fire"
+        },
+        {
+            "@language": "de",
+            "@value": "Feuerversicherung"
+        },
+        {
+            "@language": "en",
+            "@value": "insurance against loss by fire"
+        },
+        {
+            "@language": "de",
+            "@value": "Feuerversicherung"
+        },
+        {
+            "@language": "en",
+            "@value": "chomage insurance"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a consequential loss insurance; the sum payable is a percentage of the amount paid for material damage"
+        }
+    ]
+}

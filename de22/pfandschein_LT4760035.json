@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4760035",
+    "@type": "skos:Concept",
+    "skos:inScheme": "pfandschein",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1253741",
+    "skos:topConceptOf": "LT4760035",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "título prendario"
+        },
+        {
+            "@language": "en",
+            "@value": "farm warrant"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandschein"
+        },
+        {
+            "@language": "nl",
+            "@value": "certificaat van oogstkrediet"
+        },
+        {
+            "@language": "es",
+            "@value": "papeleta del monte de piedad"
+        },
+        {
+            "@language": "en",
+            "@value": "pawn ticket"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandschein"
+        },
+        {
+            "@language": "nl",
+            "@value": "lommerdbriefje"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandschein"
+        },
+        {
+            "@language": "es",
+            "@value": "titulo prendario"
+        },
+        {
+            "@language": "en",
+            "@value": "farm warrant"
+        },
+        {
+            "@language": "de",
+            "@value": "pfandschein"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "warrant"
+        },
+        {
+            "@language": "es",
+            "@value": "warrant agrícola"
+        },
+        {
+            "@language": "en",
+            "@value": "crop credit certificate"
+        },
+        {
+            "@language": "de",
+            "@value": "Pfandurkunde"
+        },
+        {
+            "@language": "de",
+            "@value": "Warrant"
+        },
+        {
+            "@language": "de",
+            "@value": "Leihschein"
+        },
+        {
+            "@language": "de",
+            "@value": "Pfandurkunde"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a ticket issued by a pawnbroker as a receipt for an article deposited"
+        },
+        {
+            "@language": "de",
+            "@value": "beim Pfandkredit dem Darlehensnehmer ueber das Pfand ausgestellte Bescheinigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Pfandschein Leihschein: Bescheinigung über ein hinterlegtes Pfand aus der Zinsen Kosten Laufzeit Verfallzeit und Verwertungsrecht ersichtlich sind"
+        }
+    ]
+}

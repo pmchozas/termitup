@@ -1,0 +1,244 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8277286",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-haftung der gesellschafter",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/844841",
+    "skos:topConceptOf": "LT8277286",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "responsabilidad personal legal de los socios y de los órganos"
+        },
+        {
+            "@language": "en",
+            "@value": "the personal liability of officers and members as such"
+        },
+        {
+            "@language": "de",
+            "@value": "-haftung der gesellschafter"
+        },
+        {
+            "@language": "nl",
+            "@value": "persoonlijke aansprakelijkheid van de vennoten en de organen"
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad de responsabilidad limitada"
+        },
+        {
+            "@language": "en",
+            "@value": "limited company"
+        },
+        {
+            "@language": "de",
+            "@value": "-haftung der gesellschafter"
+        },
+        {
+            "@language": "nl",
+            "@value": "besloten vennootschap"
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad limitada"
+        },
+        {
+            "@language": "en",
+            "@value": "limited company"
+        },
+        {
+            "@language": "de",
+            "@value": "-haftung der gesellschafter"
+        },
+        {
+            "@language": "nl",
+            "@value": "vennootschap met beperkte aansprakelijkheid"
+        },
+        {
+            "@language": "en",
+            "@value": "LLC"
+        },
+        {
+            "@language": "de",
+            "@value": "-haftung der gesellschafter"
+        },
+        {
+            "@language": "nl",
+            "@value": "vennootschap met beperkte aansprakelijkheid"
+        },
+        {
+            "@language": "en",
+            "@value": "liability for the debts of the firm"
+        },
+        {
+            "@language": "de",
+            "@value": "-haftung der gesellschafter"
+        },
+        {
+            "@language": "nl",
+            "@value": "aansprakelijkheid voor de schulden van de vennootschap"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "S. R. L."
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad limitada"
+        },
+        {
+            "@language": "es",
+            "@value": "S. L."
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad privada de responsabilidad limitada"
+        },
+        {
+            "@language": "en",
+            "@value": "limited"
+        },
+        {
+            "@language": "en",
+            "@value": "Ltd."
+        },
+        {
+            "@language": "en",
+            "@value": "Ltd"
+        },
+        {
+            "@language": "en",
+            "@value": "private limited liability company"
+        },
+        {
+            "@language": "en",
+            "@value": "private company with limited liability"
+        },
+        {
+            "@language": "en",
+            "@value": "private limited-liability company"
+        },
+        {
+            "@language": "en",
+            "@value": "private limited company"
+        },
+        {
+            "@language": "en",
+            "@value": "private company limited by shares"
+        },
+        {
+            "@language": "de",
+            "@value": "GmbH"
+        },
+        {
+            "@language": "de",
+            "@value": "Ges.mbH"
+        },
+        {
+            "@language": "de",
+            "@value": "Privatgesellschaft mit beschränkter Haftung"
+        },
+        {
+            "@language": "de",
+            "@value": "PGmbH"
+        },
+        {
+            "@language": "nl",
+            "@value": "B.V."
+        },
+        {
+            "@language": "nl",
+            "@value": "besloten vennootschap met beperkte aansprakelijkheid"
+        },
+        {
+            "@language": "nl",
+            "@value": "BVBA"
+        },
+        {
+            "@language": "en",
+            "@value": "limited liability company"
+        },
+        {
+            "@language": "de",
+            "@value": "Kapitalgesellschaft mit beschränkter Haftung"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesellschaft mit beschränkter Haftung"
+        },
+        {
+            "@language": "en",
+            "@value": "Limited Liability Company"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesellschaft mit beschränkter Haftung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Sociedad mercantil [ 881938 ] de capital [ 792632 ] en la que los socios tienen responsabilidad limitada y el capital está dividido en participaciones que no pueden cederse libremente ni venderse públicamente."
+        },
+        {
+            "@language": "en",
+            "@value": "company whose shareholders have limited liability and whose shares may not be offered to the general public unlike those of a public limited company IATE:792628"
+        },
+        {
+            "@language": "de",
+            "@value": "nicht börsennotierte Kapitalgesellschaft (d.h. Gesellschaftsanteile werden nicht öffentlich gehandelt) mit eigenständiger Rechtspersönlichkeit bei der die Gesellschafter lediglich mit ihren Einlagen haften"
+        },
+        {
+            "@language": "nl",
+            "@value": "een rechtspersoon met een in een of meer overdraagbare aandelen verdeeld kapitaal. De aandelen zijn op naam gesteld. Een aandeelhouder is niet persoonlijk aansprakelijk voor hetgeen in naam van de vennootschap wordt verricht en is niet gehouden boven het bedrag dat op zijn aandelen behoort te worden gestort in de verliezen van de vennootschap bij te dragen."
+        },
+        {
+            "@language": "es",
+            "@value": "Sociedad mercantil [ 881938 ] en la que la responsabilidad de los socios u accionistas es limitada."
+        },
+        {
+            "@language": "en",
+            "@value": "company in which the liability of members or subscribers of the company is limited to what they have invested in or guaranteed to the company"
+        },
+        {
+            "@language": "de",
+            "@value": "Gesellschaft mit eigener Rechtspersönlichkeit bei der sich die Haftung der Gesellschafter für Verluste auf ihren jeweiligen Anteil am Gesellschaftskapital beschränkt"
+        },
+        {
+            "@language": "nl",
+            "@value": "vennootschapsvorm waarin de vennoten in principe slechts aansprakelijk zijn tot het bedrag van de door hen gedane inbreng in de vennootschap."
+        }
+    ]
+}

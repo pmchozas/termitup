@@ -1,0 +1,184 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3864648",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, entstehung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1394641",
+    "skos:topConceptOf": "LT3864648",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-, entstehung"
+        },
+        {
+            "@language": "en",
+            "@value": "biogenic synthesis"
+        },
+        {
+            "@language": "de",
+            "@value": "-, entstehung"
+        },
+        {
+            "@language": "es",
+            "@value": "gestación de la crisis"
+        },
+        {
+            "@language": "en",
+            "@value": "crisis build-up"
+        },
+        {
+            "@language": "de",
+            "@value": "-, entstehung"
+        },
+        {
+            "@language": "nl",
+            "@value": "crisisopbouw"
+        },
+        {
+            "@language": "es",
+            "@value": "comienzo de la glaciación"
+        },
+        {
+            "@language": "en",
+            "@value": "onset of glaciation"
+        },
+        {
+            "@language": "de",
+            "@value": "-, entstehung"
+        },
+        {
+            "@language": "en",
+            "@value": "waste generation"
+        },
+        {
+            "@language": "de",
+            "@value": "-, entstehung"
+        },
+        {
+            "@language": "nl",
+            "@value": "afvalproductie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "biogenous synthesis"
+        },
+        {
+            "@language": "de",
+            "@value": "Entstehung einer Krise"
+        },
+        {
+            "@language": "en",
+            "@value": "generation of waste"
+        },
+        {
+            "@language": "en",
+            "@value": "waste production"
+        },
+        {
+            "@language": "en",
+            "@value": "production of waste"
+        },
+        {
+            "@language": "de",
+            "@value": "Müllanfall"
+        },
+        {
+            "@language": "de",
+            "@value": "anfallender Müll"
+        },
+        {
+            "@language": "de",
+            "@value": "anfallende Abfallmenge"
+        },
+        {
+            "@language": "de",
+            "@value": "Abfallproduktion"
+        },
+        {
+            "@language": "de",
+            "@value": "Müllproduktion"
+        },
+        {
+            "@language": "de",
+            "@value": "Abfallerzeugung"
+        },
+        {
+            "@language": "de",
+            "@value": "Abfallentstehung"
+        },
+        {
+            "@language": "de",
+            "@value": "Entstehung des Abfalls"
+        },
+        {
+            "@language": "de",
+            "@value": "Abfallaufkommen"
+        },
+        {
+            "@language": "de",
+            "@value": "Entstehung von Abfällen"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoeveelheid vrijgekomen afval"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "La segunda de las fases de los procedimientos de gestión de crisis IATE:933212 por parte de la UE en la que se elabora un concepto de gestión de crisis IATE:926288 ."
+        },
+        {
+            "@language": "en",
+            "@value": "in the crisis management procedures [ IATE:933212 ] of the Council of the EU the second of six phases of a crisis cycle at which point a crisis management concept [ IATE:926288 ] is drafted"
+        },
+        {
+            "@language": "de",
+            "@value": "Phase II der EU-Krisenbewältigungsverfahren IATE:933212"
+        },
+        {
+            "@language": "nl",
+            "@value": "een fase van het crisisverloop"
+        },
+        {
+            "@language": "en",
+            "@value": "weight or volume of materials and products that enter the waste stream before recycling composting landfilling or combustion takes place or the amount of waste generated by a given source or category of sources"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoeveelheid afval die vrijkomt door productie bij onder andere de industrie de energievoorziening en de consumptie bij onder andere huishoudens voordat het afval enige bewerking ondergaat of gesorteerd wordt"
+        }
+    ]
+}

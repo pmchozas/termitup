@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8935569",
+    "@type": "skos:Concept",
+    "skos:inScheme": "eingebrachte sachen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/803757",
+    "skos:topConceptOf": "LT8935569",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "Convenio sobre la responsabilidad de los hoteleros en lo relativo a los objetos que los huéspedes traigan consigo"
+        },
+        {
+            "@language": "en",
+            "@value": "Convention on the Liability of Hotel-keepers concerning the Property of their Guests"
+        },
+        {
+            "@language": "de",
+            "@value": "eingebrachte sachen"
+        },
+        {
+            "@language": "nl",
+            "@value": "Overeenkomst nopens de aansprakelijkheid van hotelhouders voor de zaken van hun gasten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Acuerdo entre Estados miembros del Consejo de Europa IATE:857218 que lleva el n.° 41 de la Serie de Tratados Europeos IATE:874111 de dicha organización.Dispone que los hoteleros son responsables de todo deterioro destrucción o sustracción de los objetos traídos por los huéspedes del hotel hasta una cuantía máxima determinada que no se aplica si los objetos se han dado en depósito al hotelero o si el huésped se ha negado a darlos en depósito."
+        }
+    ]
+}

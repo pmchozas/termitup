@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4913321",
+    "@type": "skos:Concept",
+    "skos:inScheme": "tierfang",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/131302",
+    "skos:topConceptOf": "LT4913321",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "captura sin crueldad"
+        },
+        {
+            "@language": "en",
+            "@value": "humane trapping"
+        },
+        {
+            "@language": "de",
+            "@value": "tierfang"
+        },
+        {
+            "@language": "nl",
+            "@value": "humane vangstmethode"
+        },
+        {
+            "@language": "es",
+            "@value": "norma acordada internacionalmente de captura sin crueldad"
+        },
+        {
+            "@language": "en",
+            "@value": "internationally agreed humane trapping standard"
+        },
+        {
+            "@language": "de",
+            "@value": "tierfang"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationale norm voor humane vangst"
+        },
+        {
+            "@language": "es",
+            "@value": "Acuerdo sobre normas internacionales de captura no cruel"
+        },
+        {
+            "@language": "en",
+            "@value": "Agreement on international humane trapping standards"
+        },
+        {
+            "@language": "de",
+            "@value": "tierfang"
+        },
+        {
+            "@language": "nl",
+            "@value": "overeenkomst betreffende internationale normen voor humane vangst met behulp van vallen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "captura no cruel"
+        },
+        {
+            "@language": "de",
+            "@value": "humaner Tierfang"
+        },
+        {
+            "@language": "es",
+            "@value": "norma internacional de captura no cruel"
+        },
+        {
+            "@language": "es",
+            "@value": "norma internacional sobre trampas para que la caza sea más humanitaria"
+        },
+        {
+            "@language": "es",
+            "@value": "norma internacional sobre el carácter humanitario de las trampas"
+        },
+        {
+            "@language": "es",
+            "@value": "norma internacional sobre una caza más humanitaria por medio de trampas"
+        },
+        {
+            "@language": "en",
+            "@value": "International Humane Trapping Standard"
+        },
+        {
+            "@language": "de",
+            "@value": "international vereinbarte humane Fangnorm"
+        },
+        {
+            "@language": "de",
+            "@value": "ISO-Norm für das Aufstellen humaner Fallen"
+        },
+        {
+            "@language": "de",
+            "@value": "internationale Norm für humanen Tierfang"
+        },
+        {
+            "@language": "nl",
+            "@value": "op internationaal gebied overeengekomen norm voor humane vangstmethoden"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationale ISO-normen voor humane vangstmethoden"
+        },
+        {
+            "@language": "de",
+            "@value": "Übereinkommen über internationale Normen für humanen Tierfang"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Conjunto de procedimientos de captura de animales concebidos para reducir todo lo posible el sufrimiento perceptible y las heridas del animal capturado mediante el empleo de trampas adecuadas.En el anexo I del Acuerdo entre la Comunidad Europea Canadá y la Federación de Rusia sobre normas internacionales de captura no cruel IATE:902476 se detallan las normas que deben cumplir esas trampas."
+        }
+    ]
+}

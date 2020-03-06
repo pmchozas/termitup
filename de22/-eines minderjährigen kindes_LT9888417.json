@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9888417",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-eines minderjährigen kindes",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583709",
+    "skos:topConceptOf": "LT9888417",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "hijo menor de edad"
+        },
+        {
+            "@language": "en",
+            "@value": "child"
+        },
+        {
+            "@language": "de",
+            "@value": "-eines minderjährigen kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "minderjarige"
+        },
+        {
+            "@language": "es",
+            "@value": "niño menor de edad"
+        },
+        {
+            "@language": "en",
+            "@value": "under-age child"
+        },
+        {
+            "@language": "de",
+            "@value": "-eines minderjährigen kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "minderjarig kind"
+        },
+        {
+            "@language": "es",
+            "@value": "menor soltero"
+        },
+        {
+            "@language": "en",
+            "@value": "unmarried minor child"
+        },
+        {
+            "@language": "de",
+            "@value": "-eines minderjährigen kindes"
+        },
+        {
+            "@language": "en",
+            "@value": "income of minor children"
+        },
+        {
+            "@language": "de",
+            "@value": "-eines minderjährigen kindes"
+        },
+        {
+            "@language": "es",
+            "@value": "defensor judicial"
+        },
+        {
+            "@language": "de",
+            "@value": "-eines minderjährigen kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertegenwoordiger ad hoc van de minderjarige"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "hijo menor"
+        },
+        {
+            "@language": "en",
+            "@value": "minor"
+        },
+        {
+            "@language": "de",
+            "@value": "Verfahrenspfleger für das minderjährige Kind"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Abkömmling ersten Grades der das 18. Lebensjahr noch nicht vollendet hat [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "(1) Persoon van het mannelijke of vrouwelijke geslacht die de volle leeftijd van 18 jaar nog niet heeft bereikt. [BE] // (2) Persoon die de ouderdom van 18 jaren niet heeft bereikt en niet gehuwd of geregistreerd is of gehuwd of geregistreerd is geweest of met toepassing van artikel 253ha meerderjarig is verklaard [NL]"
+        },
+        {
+            "@language": "es",
+            "@value": "Representación especial anormal o excepcional que procede en todos los supuestos en que surja en algún asunto oposición de intereses entre el padre y la madre y los hijos sometidos a su potestad o del menor emancipado cuya capacidad deben completar como de igual modo cuando dicho conflicto de intereses se suscite entre los menores o incapacitados y sus representantes legales o el curador así como cuando por cualquier causa el tutor o el curador no desempeñase sus funciones hasta que cese la causa determinante o se designe otra persona para desempeñar el cargo. [ES]"
+        }
+    ]
+}

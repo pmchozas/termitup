@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1913135",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, verwaltung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/851628",
+    "skos:topConceptOf": "LT1913135",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "management"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beleid"
+        },
+        {
+            "@language": "es",
+            "@value": "equipo administrativo"
+        },
+        {
+            "@language": "en",
+            "@value": "administrative equipment"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "administratieve voorzieningen"
+        },
+        {
+            "@language": "es",
+            "@value": "administración"
+        },
+        {
+            "@language": "en",
+            "@value": "administration"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestuur"
+        },
+        {
+            "@language": "es",
+            "@value": "administración"
+        },
+        {
+            "@language": "en",
+            "@value": "administration"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "administratie"
+        },
+        {
+            "@language": "en",
+            "@value": "management"
+        },
+        {
+            "@language": "de",
+            "@value": "-, verwaltung"
+        },
+        {
+            "@language": "nl",
+            "@value": "directie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "administration"
+        },
+        {
+            "@language": "de",
+            "@value": "Verwaltung"
+        },
+        {
+            "@language": "de",
+            "@value": "Führung"
+        },
+        {
+            "@language": "de",
+            "@value": "Handhabung"
+        },
+        {
+            "@language": "de",
+            "@value": "Steuerung"
+        },
+        {
+            "@language": "de",
+            "@value": "Lenkung"
+        },
+        {
+            "@language": "de",
+            "@value": "Management"
+        },
+        {
+            "@language": "de",
+            "@value": "Bewirtschaftung, Betriebsführung"
+        },
+        {
+            "@language": "nl",
+            "@value": "beheer"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestuur"
+        },
+        {
+            "@language": "de",
+            "@value": "Verwaltung"
+        },
+        {
+            "@language": "de",
+            "@value": "öffentlicher Dienst"
+        },
+        {
+            "@language": "en",
+            "@value": "administrative services"
+        },
+        {
+            "@language": "es",
+            "@value": "empresa privada de explotación reconocida"
+        },
+        {
+            "@language": "nl",
+            "@value": "overheid"
+        },
+        {
+            "@language": "nl",
+            "@value": "bestuur"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "management of the affairs of an organization such as a business or institution."
+        },
+        {
+            "@language": "es",
+            "@value": "en el contexto del CCITT una Administración (miembro de la UIT) o una empresa privada de explotación reconocida"
+        },
+        {
+            "@language": "en",
+            "@value": "in the context of CCITT an Administration(member of ITU)or a Recognized Private Operating Agency"
+        },
+        {
+            "@language": "nl",
+            "@value": "publieke of privé-postdienst"
+        },
+        {
+            "@language": "en",
+            "@value": "the administration and direction of the affairs of a public or private organisation"
+        },
+        {
+            "@language": "de",
+            "@value": "a)Leitung einer öffentlichen oder privaten Organisation;b)öffentliche Behörden als Gesamtheit betrachtet"
+        },
+        {
+            "@language": "nl",
+            "@value": "lichaam dat de dagelijkse gang van zaken bij een instelling of bedrijf leidt"
+        }
+    ]
+}

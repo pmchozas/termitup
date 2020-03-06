@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5189183",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-auskunftspflicht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1905383",
+    "skos:topConceptOf": "LT5189183",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "publicidad obligatoria"
+        },
+        {
+            "@language": "en",
+            "@value": "disclosure"
+        },
+        {
+            "@language": "de",
+            "@value": "-auskunftspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "mededelingsplicht"
+        },
+        {
+            "@language": "en",
+            "@value": "obligation to provide information"
+        },
+        {
+            "@language": "de",
+            "@value": "-auskunftspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting tot het geven van inlichtingen"
+        },
+        {
+            "@language": "en",
+            "@value": "accountability of the Bureau"
+        },
+        {
+            "@language": "de",
+            "@value": "-auskunftspflicht"
+        },
+        {
+            "@language": "es",
+            "@value": "cumplimiento de las obligaciones fiscales"
+        },
+        {
+            "@language": "en",
+            "@value": "tax compliance"
+        },
+        {
+            "@language": "de",
+            "@value": "-auskunftspflicht"
+        },
+        {
+            "@language": "nl",
+            "@value": "naleving van de belastingplicht"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "rule of disclosure"
+        },
+        {
+            "@language": "en",
+            "@value": "duty of disclosure"
+        },
+        {
+            "@language": "en",
+            "@value": "compulsory disclosure"
+        },
+        {
+            "@language": "en",
+            "@value": "duty of disclosure"
+        },
+        {
+            "@language": "en",
+            "@value": "statistical obligation"
+        },
+        {
+            "@language": "de",
+            "@value": "statistische Pflicht"
+        },
+        {
+            "@language": "es",
+            "@value": "cumplimiento tributario"
+        },
+        {
+            "@language": "de",
+            "@value": "Steuerehrlichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "belastingnaleving"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Obligación que tiene una parte en el marco de un procedimiento o litigio de revelar información a la otra parte."
+        },
+        {
+            "@language": "en",
+            "@value": "mandatory divulging of information to a litigation opponent according to procedural rules"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzlich normierter Anspruch Informationen von oder über eine bestimmte juristische oder natürliche Person zu erhalten"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting om in overeenstemming met de procedurele voorschriften stukken aan de tegenpartij te verstrekken in een rechtszaak"
+        },
+        {
+            "@language": "en",
+            "@value": "degree to which a taxpayer complies (or fails to comply) with the tax rules of his country for example by declaring income filing a return and paying the tax due in a timely manner"
+        }
+    ]
+}

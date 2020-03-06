@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4834332",
+    "@type": "skos:Concept",
+    "skos:inScheme": "leibrente",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3556198",
+    "skos:topConceptOf": "LT4834332",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "renta vitalicia"
+        },
+        {
+            "@language": "en",
+            "@value": "lifetime annuity"
+        },
+        {
+            "@language": "de",
+            "@value": "leibrente"
+        },
+        {
+            "@language": "nl",
+            "@value": "levenslange lijfrente"
+        },
+        {
+            "@language": "es",
+            "@value": "anualidad vitalicia"
+        },
+        {
+            "@language": "en",
+            "@value": "perpetual annuity"
+        },
+        {
+            "@language": "de",
+            "@value": "leibrente"
+        },
+        {
+            "@language": "en",
+            "@value": "life-contingent annuity"
+        },
+        {
+            "@language": "de",
+            "@value": "leibrente"
+        },
+        {
+            "@language": "es",
+            "@value": "seguro vitalicio cierto"
+        },
+        {
+            "@language": "en",
+            "@value": "life annuity certain"
+        },
+        {
+            "@language": "de",
+            "@value": "leibrente"
+        },
+        {
+            "@language": "nl",
+            "@value": "vaste lijfrente"
+        },
+        {
+            "@language": "es",
+            "@value": "renta vitalicia contratada privadamente"
+        },
+        {
+            "@language": "en",
+            "@value": "purchased life annuity"
+        },
+        {
+            "@language": "de",
+            "@value": "leibrente"
+        },
+        {
+            "@language": "nl",
+            "@value": "afgekochte lijfrente"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "life annuity"
+        },
+        {
+            "@language": "nl",
+            "@value": "lijfrente"
+        },
+        {
+            "@language": "es",
+            "@value": "renta perpetua"
+        },
+        {
+            "@language": "es",
+            "@value": "renta vitalicia"
+        },
+        {
+            "@language": "de",
+            "@value": "lebenslängliche Rente"
+        },
+        {
+            "@language": "de",
+            "@value": "Leibrente"
+        },
+        {
+            "@language": "de",
+            "@value": "Rente auf Lebenszeit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "annuity that ceases to be paid on the death of a specified person"
+        },
+        {
+            "@language": "de",
+            "@value": "wiederkehrende Zahlung (Rente) die bis zu einem bestimmten Ereignis – üblicherweise bis zum Tod des Empfängers der Rente – gezahlt wird"
+        },
+        {
+            "@language": "nl",
+            "@value": "periodieke rente die tot het overlijden wordt uitgekeerd"
+        },
+        {
+            "@language": "en",
+            "@value": "a perpetual and regular annual payment of money"
+        },
+        {
+            "@language": "de",
+            "@value": "wiederkehrende Zahlung die für die Dauer der Lebenszeit des/der Berechtigten geleistet wird"
+        },
+        {
+            "@language": "en",
+            "@value": "an annuity to be paid for a minimum determined periodafter this period and during the rest of the annuitant's life"
+        },
+        {
+            "@language": "en",
+            "@value": "an annuity purchased by individuals out of their own money"
+        }
+    ]
+}

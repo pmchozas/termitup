@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5095661",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-forderungen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1070579",
+    "skos:topConceptOf": "LT5095661",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "saldo devengado"
+        },
+        {
+            "@language": "en",
+            "@value": "monies outstanding"
+        },
+        {
+            "@language": "de",
+            "@value": "-forderungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitstaande bedragen"
+        },
+        {
+            "@language": "en",
+            "@value": "entitlements to be recovered"
+        },
+        {
+            "@language": "de",
+            "@value": "-forderungen"
+        },
+        {
+            "@language": "en",
+            "@value": "requirements"
+        },
+        {
+            "@language": "de",
+            "@value": "-forderungen"
+        },
+        {
+            "@language": "es",
+            "@value": "Créditos"
+        },
+        {
+            "@language": "de",
+            "@value": "-forderungen"
+        },
+        {
+            "@language": "es",
+            "@value": "derechos que hayan de cobrarse"
+        },
+        {
+            "@language": "en",
+            "@value": "entitlements to be collected"
+        },
+        {
+            "@language": "de",
+            "@value": "-forderungen"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanspraken"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Aussenstaende"
+        },
+        {
+            "@language": "de",
+            "@value": "Forderungen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": []
+}

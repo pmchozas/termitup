@@ -1,0 +1,248 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8381647",
+    "@type": "skos:Concept",
+    "skos:inScheme": "genossenschaft",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/838571",
+    "skos:topConceptOf": "LT8381647",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "cooperativa agraria"
+        },
+        {
+            "@language": "en",
+            "@value": "agricultural cooperative"
+        },
+        {
+            "@language": "de",
+            "@value": "genossenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "landbouwcoöperatie"
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad cooperativa"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative society"
+        },
+        {
+            "@language": "de",
+            "@value": "genossenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "coöperatie"
+        },
+        {
+            "@language": "es",
+            "@value": "sociedad cooperativa"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative"
+        },
+        {
+            "@language": "de",
+            "@value": "genossenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "coöperatieve vereniging"
+        },
+        {
+            "@language": "es",
+            "@value": "cooperativa comunidad"
+        },
+        {
+            "@language": "en",
+            "@value": "co-operative"
+        },
+        {
+            "@language": "de",
+            "@value": "genossenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "arbeidscooeperatie"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative society"
+        },
+        {
+            "@language": "de",
+            "@value": "genossenschaft"
+        },
+        {
+            "@language": "nl",
+            "@value": "coöperatieve vennootschap"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "sociedad cooperativa agrícola"
+        },
+        {
+            "@language": "es",
+            "@value": "cooperativa agrícola"
+        },
+        {
+            "@language": "es",
+            "@value": "cooperativa de agricultores"
+        },
+        {
+            "@language": "es",
+            "@value": "explotación cooperativa"
+        },
+        {
+            "@language": "en",
+            "@value": "farmers' cooperative"
+        },
+        {
+            "@language": "en",
+            "@value": "farm cooperative"
+        },
+        {
+            "@language": "de",
+            "@value": "Genossenschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "bäuerliche Genossenschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Agrargenossenschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Raiffeisengenossenschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Betrieb auf genossenschaftlicher Basis"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative"
+        },
+        {
+            "@language": "de",
+            "@value": "genossenschaftlich organisiertes Unternehmen"
+        },
+        {
+            "@language": "nl",
+            "@value": "coöperatieve onderneming"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative society"
+        },
+        {
+            "@language": "nl",
+            "@value": "coöperatieve vennootschap"
+        },
+        {
+            "@language": "nl",
+            "@value": "samenwerkende vennootschap"
+        },
+        {
+            "@language": "en",
+            "@value": "cooperative"
+        },
+        {
+            "@language": "nl",
+            "@value": "coöperatieve vereniging"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "\"Son cooperativas agrarias las que asocian a titulares de explotaciones agrícolas ganaderas o forestales que tienen como objeto la realización de todo tipo de actividades y operaciones encaminadas al mejor aprovechamiento de las explotaciones de sus socios de sus elementos o componentes de la cooperativa y a la mejora de la población agraria y del desarrollo del mundo rural así como atender a cualquier otro fin o servicio que sea propio de la actividad agraria ganadera forestal o estén directamente relacionados con ellas.\""
+        },
+        {
+            "@language": "de",
+            "@value": "für die ländliche Wirtschaft begründetes Instrument der Selbsthilfe; z.B.Darlehenskassen Warenbezugsgenossenschaften Absatzgenossenschaften Molkereigen.Winzergen. usw.(F.W.Raiffeisen 1818-1888)"
+        },
+        {
+            "@language": "nl",
+            "@value": "algemene benaming voor een coöperatieve vereniging uit de agrarische sfeer"
+        },
+        {
+            "@language": "es",
+            "@value": "Agrupación de personas físicas que desean obtener a través de la sociedad que constituyen ventajas económicas en materia de precios de servicios y de clientela."
+        },
+        {
+            "@language": "en",
+            "@value": "a business organisation owned and run by a society of persons or of groups of persons whose aim is not to make a profit but to give benefit to the members; a group of individuals which seeks to obtain through the cooperative society which they form certain economic advantages as regards cost service and customers"
+        },
+        {
+            "@language": "de",
+            "@value": "Zusammenschluss von natuerlichen Personen die vermittels der gebildeten Genossenschaft wirtschaftliche Vorteile bezueglich Preis Dienstleistungen oder Kunden erlangen wollen"
+        },
+        {
+            "@language": "nl",
+            "@value": "vereniging van natuurlijke personen die door middel van de vereniging die zij vormen pogen economische voordelen van prijs diensten en klanten te behalen uitsluitend ten behoeve van z ichzelf in hun kwaliteit van coöperatieve deelgenoten"
+        },
+        {
+            "@language": "es",
+            "@value": "una asociación de personas que se agrupan voluntariamente para lograr un objetivo común mediante la formación de una empresa controlada democráticamente que aportan una cuota equitativa del capital que se requiere y aceptan una justa parte en los riesgos y beneficios y en cuyo funcionamiento los socios participan activamente"
+        },
+        {
+            "@language": "en",
+            "@value": "an association of persons who have voluntarily joined together to achieve a common end through the formation of a democratically controlled organisationmaking equitable contributions to the capital required and accepting a fair share of the risks and benefits of the undertaking in which the members actively participate"
+        }
+    ],
+    "skos:broader": [
+        "LT5058000",
+        "LT7047698",
+        "LT5561739",
+        "LT3007901",
+        "LT5026341"
+    ],
+    "skos:narrower": [
+        "LT3344295"
+    ],
+    "skos:related": [
+        "LT3725152",
+        "LT5559204",
+        "LT9097845",
+        "LT1379866"
+    ]
+}

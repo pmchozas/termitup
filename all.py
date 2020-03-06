@@ -15,13 +15,12 @@ import time
 def leerContextos(lang):
     #f=open("readcontexts.json", 'r')
     #configuration = json.load(f)
-
+    
     configuration= {
     "es": "contexts/Spain-judgements-ES.ttl",
     "en": "contexts/UK-judgements-EN.ttl",
     "nl": "contexts/Austria-collectiveagreements-DE.ttl",
     "de": "contexts/contracts_de.ttl"
-    
     }
     
     es = '%s'%configuration["es"]
@@ -315,6 +314,7 @@ def wsidFunction(termIn, context, contextFile,  definitions):
                 listdef=definitions[0]
                 listIde=definitions[1]
                 definitionsJoin=', '.join(listdef)
+                print(listdef)
                 response = requests.post(
                                 'http://wsid-88-staging.cloud.itandtel.at/wsd/api/lm/disambiguate_demo/',
                                 params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitionsJoin}, 
@@ -998,10 +998,17 @@ if(termino):
         context=context
 
     elif(contextFile):
+        print('file')
         file=open(contextFile+'.csv', 'r')
-        contextFile=csv.reader(file)
+        contextF=csv.reader(file)
+        
+        contextFile=[]
+        for i in contextF:
+            contextFile.append([i[0], i[1],i[2],i[3]])
+    
     else:
         contextFile=leerContextos(idioma)
+
     resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid)
     
 else:
@@ -1009,10 +1016,16 @@ else:
         context=context
 
     elif(contextFile):
+        print('file')
         file=open(contextFile+'.csv', 'r')
-        contextFile=csv.reader(file)
+        contextF=csv.reader(file)
+
+        contextFile=[]
+        for i in contextF:
+            contextFile.append([i[0], i[1], i[2],i[3]])
     else:
         contextFile=leerContextos(idioma)
+    
     lista=[]
     file=open(listTerm+'.csv', 'r')
     read=csv.reader(file)
@@ -1026,7 +1039,7 @@ else:
             lista1=[]
             lista1=lista[ini:fin]
             
-            print(lista1, ini, fin)
+            print(ini, fin)
             jsonlist=haceJson(lista1, idioma,targets)
             resultsIate( jsonlist, idioma, targets,context, contextFile, lista1, wsid)
             time.sleep(10)

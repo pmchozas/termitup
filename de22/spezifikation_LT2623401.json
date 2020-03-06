@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2623401",
+    "@type": "skos:Concept",
+    "skos:inScheme": "spezifikation",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/58386",
+    "skos:topConceptOf": "LT2623401",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "Caracteristicas"
+        },
+        {
+            "@language": "en",
+            "@value": "specification"
+        },
+        {
+            "@language": "de",
+            "@value": "spezifikation"
+        },
+        {
+            "@language": "es",
+            "@value": "pliego de condiciones"
+        },
+        {
+            "@language": "en",
+            "@value": "product specification"
+        },
+        {
+            "@language": "de",
+            "@value": "spezifikation"
+        },
+        {
+            "@language": "nl",
+            "@value": "productdossier"
+        },
+        {
+            "@language": "es",
+            "@value": "Especificación"
+        },
+        {
+            "@language": "en",
+            "@value": "Specification"
+        },
+        {
+            "@language": "de",
+            "@value": "spezifikation"
+        },
+        {
+            "@language": "nl",
+            "@value": "Specificatie"
+        },
+        {
+            "@language": "es",
+            "@value": "especificación formal"
+        },
+        {
+            "@language": "en",
+            "@value": "formal specification"
+        },
+        {
+            "@language": "de",
+            "@value": "spezifikation"
+        },
+        {
+            "@language": "nl",
+            "@value": "formele specificatie"
+        },
+        {
+            "@language": "en",
+            "@value": "formal method"
+        },
+        {
+            "@language": "de",
+            "@value": "spezifikation"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Sollwert (m)"
+        },
+        {
+            "@language": "en",
+            "@value": "formal method of specification"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "especificación escrita y aprobada según normas establecidas; 2) como justificativo descripción en lenguaje formal del comportamiento visible de un sistema o de un elemento componente de un sistema"
+        },
+        {
+            "@language": "en",
+            "@value": "a) a specification written and approved in accordance with established standards; b) in proof of correctness a description in a formal language of the externally visible behaviour of a system or system component"
+        },
+        {
+            "@language": "en",
+            "@value": "a sophisticated method which is based upon the use of mathematical/logical techniques to describe in a precise and unambiguous way the characteristics of an information systemor of its components"
+        },
+        {
+            "@language": "de",
+            "@value": "formale mathematische Beschreibung von Systemanforderungen"
+        }
+    ]
+}

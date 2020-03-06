@@ -1,0 +1,213 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6514933",
+    "@type": "skos:Concept",
+    "skos:inScheme": "steuer",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1593316",
+    "skos:topConceptOf": "LT6514933",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "timón"
+        },
+        {
+            "@language": "en",
+            "@value": "rudder"
+        },
+        {
+            "@language": "de",
+            "@value": "steuer"
+        },
+        {
+            "@language": "nl",
+            "@value": "roer"
+        },
+        {
+            "@language": "es",
+            "@value": "contribución"
+        },
+        {
+            "@language": "de",
+            "@value": "steuer"
+        },
+        {
+            "@language": "en",
+            "@value": "tax"
+        },
+        {
+            "@language": "de",
+            "@value": "steuer"
+        },
+        {
+            "@language": "nl",
+            "@value": "belasting"
+        },
+        {
+            "@language": "es",
+            "@value": "impuestos"
+        },
+        {
+            "@language": "en",
+            "@value": "tax"
+        },
+        {
+            "@language": "de",
+            "@value": "steuer"
+        },
+        {
+            "@language": "nl",
+            "@value": "belasting"
+        },
+        {
+            "@language": "es",
+            "@value": "potencia fiscal"
+        },
+        {
+            "@language": "en",
+            "@value": "taxable horse power"
+        },
+        {
+            "@language": "de",
+            "@value": "steuer"
+        },
+        {
+            "@language": "nl",
+            "@value": "fiscaal vermogen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Steuer"
+        },
+        {
+            "@language": "de",
+            "@value": "Steuerruder"
+        },
+        {
+            "@language": "es",
+            "@value": "impuesto"
+        },
+        {
+            "@language": "de",
+            "@value": "Abgabe"
+        },
+        {
+            "@language": "de",
+            "@value": "Abgabe"
+        },
+        {
+            "@language": "nl",
+            "@value": "belastingsaanslag"
+        },
+        {
+            "@language": "de",
+            "@value": "Steuer PS"
+        },
+        {
+            "@language": "nl",
+            "@value": "verouderde schrijfwijze: fiskaal vermogen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Pieza móvil de acero o madera situada en la popa que convenientemente articulada puede girar alrededor de un eje vertical para dar al buque el rumbo deseado."
+        },
+        {
+            "@language": "en",
+            "@value": "device used for steering and manoeuvring a vessel"
+        },
+        {
+            "@language": "de",
+            "@value": "Flächenförmiger um eine vertikale Achse drehbarer Körper zum Steuern des Schiffs."
+        },
+        {
+            "@language": "nl",
+            "@value": "Toestel waarmee een vaartuig wordt bestuurd b.v.de verticale vlakke plaat die scharnierend aan de achtersteven is bevestigd of een soortgelijke voorziening waarmee de vaarrichting kan worden veranderd"
+        },
+        {
+            "@language": "de",
+            "@value": "Beitrag zur Deckung der Staatsbeduerfnisse"
+        },
+        {
+            "@language": "en",
+            "@value": "1.A pecuniary burden laid upon individuals or property to support the government and is a payment exacted by legislative authority. Essential characteristics of a tax are that it is not a voluntary payment or donation but an enforced contribution exacted pursuant to legislative authority. A rateable portion of the produce of the property and labour of the individual citizens taken by the nation in the exercise of its sovereign rights for the support of government for the administration of the laws and as the means for continuing in operation the various legitimate functions of the state."
+        },
+        {
+            "@language": "nl",
+            "@value": "fictief vermogen van een motor voor berekening van invoerrechten"
+        }
+    ],
+    "skos:broader": [
+        "LT7872780",
+        "LT5363910",
+        "LT9194394",
+        "LT3281495",
+        "LT8559688",
+        "LT2565475",
+        "LT4207085",
+        "LT1099342",
+        "LT6923073",
+        "LT9379380",
+        "LT6163393"
+    ],
+    "skos:related": [
+        "LT9647545",
+        "LT9642837",
+        "LT2469073",
+        "LT6776300",
+        "LT3275987",
+        "LT6112134",
+        "LT1442490",
+        "LT6259932",
+        "LT1845534",
+        "LT3830718",
+        "LT2354700",
+        "LT7278800",
+        "LT5008902",
+        "LT4195951",
+        "LT4456578",
+        "LT4208794",
+        "LT3329623",
+        "LT8949394",
+        "LT2872323",
+        "LT6030351",
+        "LT4453747",
+        "LT2737462",
+        "LT1452124",
+        "LT2834514",
+        "LT8404164",
+        "LT9813612"
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7465746",
+    "@type": "skos:Concept",
+    "skos:inScheme": "inhaber",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/862078",
+    "skos:topConceptOf": "LT7465746",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "right-holder"
+        },
+        {
+            "@language": "de",
+            "@value": "inhaber"
+        },
+        {
+            "@language": "nl",
+            "@value": "houder van het recht"
+        },
+        {
+            "@language": "es",
+            "@value": "portador"
+        },
+        {
+            "@language": "en",
+            "@value": "bearer"
+        },
+        {
+            "@language": "de",
+            "@value": "inhaber"
+        },
+        {
+            "@language": "nl",
+            "@value": "toonder"
+        },
+        {
+            "@language": "es",
+            "@value": "concesionario"
+        },
+        {
+            "@language": "en",
+            "@value": "assignee"
+        },
+        {
+            "@language": "de",
+            "@value": "inhaber"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtverkrijgende"
+        },
+        {
+            "@language": "de",
+            "@value": "inhaber"
+        },
+        {
+            "@language": "es",
+            "@value": "titular opositor"
+        },
+        {
+            "@language": "en",
+            "@value": "opposing holder"
+        },
+        {
+            "@language": "de",
+            "@value": "inhaber"
+        },
+        {
+            "@language": "nl",
+            "@value": "houder"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "rightholder"
+        },
+        {
+            "@language": "en",
+            "@value": "entitled person"
+        },
+        {
+            "@language": "en",
+            "@value": "holder of the right"
+        },
+        {
+            "@language": "en",
+            "@value": "rights-holder"
+        },
+        {
+            "@language": "en",
+            "@value": "right holder"
+        },
+        {
+            "@language": "en",
+            "@value": "rights holder"
+        },
+        {
+            "@language": "en",
+            "@value": "rightholder"
+        },
+        {
+            "@language": "en",
+            "@value": "holder of the right"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsinhaber"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechteinhaber"
+        },
+        {
+            "@language": "es",
+            "@value": "titular"
+        },
+        {
+            "@language": "es",
+            "@value": "tenedor de títulos"
+        },
+        {
+            "@language": "en",
+            "@value": "holder of securities"
+        },
+        {
+            "@language": "de",
+            "@value": "Wertpapierinhaber"
+        },
+        {
+            "@language": "nl",
+            "@value": "houder van effecten"
+        },
+        {
+            "@language": "en",
+            "@value": "franchisee"
+        },
+        {
+            "@language": "en",
+            "@value": "grantee"
+        },
+        {
+            "@language": "de",
+            "@value": "Konzessionär"
+        },
+        {
+            "@language": "nl",
+            "@value": "concessionaris"
+        },
+        {
+            "@language": "de",
+            "@value": "Besitzer"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "holder of an intellectual property right (e.g. trade mark design copyright or related right geographical indication patent supplementary protection certificate plant variety right utility model topography of semiconductor product trade name)"
+        },
+        {
+            "@language": "de",
+            "@value": "Inhaber eines Rechts geistigen Eigentums"
+        },
+        {
+            "@language": "nl",
+            "@value": "houder van een intellectuele-eigendomsrecht (zie note voor uitgebreide definitie)"
+        },
+        {
+            "@language": "en",
+            "@value": "the possessor of a security by the transfer of which he can acquire the amount of money mentioned therein or other rights"
+        },
+        {
+            "@language": "de",
+            "@value": "Berechtigte von Wertpapiere der nicht namentlich genannt ist"
+        },
+        {
+            "@language": "nl",
+            "@value": "houder van een niet op naam gesteld geldswaardig papier"
+        },
+        {
+            "@language": "en",
+            "@value": "one who obtains a concession"
+        },
+        {
+            "@language": "de",
+            "@value": "Wer eine Sache in seiner Macht oder Gewahrsame hat heißt ihr Inhaber."
+        }
+    ],
+    "skos:broader": [
+        "LT1212980",
+        "LT9461877"
+    ],
+    "skos:narrower": [
+        "LT2395630"
+    ],
+    "skos:related": [
+        "LT3940692",
+        "LT8821323",
+        "LT9322473"
+    ]
+}

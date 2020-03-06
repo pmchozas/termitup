@@ -1,0 +1,227 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5061932",
+    "@type": "skos:Concept",
+    "skos:inScheme": "bergwerk",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1594339",
+    "skos:topConceptOf": "LT5061932",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "coal mine"
+        },
+        {
+            "@language": "de",
+            "@value": "bergwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "kolenmijnen"
+        },
+        {
+            "@language": "es",
+            "@value": "mina"
+        },
+        {
+            "@language": "en",
+            "@value": "mine"
+        },
+        {
+            "@language": "de",
+            "@value": "bergwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "mijn"
+        },
+        {
+            "@language": "es",
+            "@value": "cultivo subterráneo"
+        },
+        {
+            "@language": "en",
+            "@value": "subterranean cultivation"
+        },
+        {
+            "@language": "de",
+            "@value": "bergwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "ondergrondse teelt"
+        },
+        {
+            "@language": "es",
+            "@value": "mina abandonada"
+        },
+        {
+            "@language": "en",
+            "@value": "abandoned mine"
+        },
+        {
+            "@language": "de",
+            "@value": "bergwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "verlaten mijn"
+        },
+        {
+            "@language": "en",
+            "@value": "amalgamated mine"
+        },
+        {
+            "@language": "de",
+            "@value": "bergwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "verenigde mijnen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Steinkohlenzeche"
+        },
+        {
+            "@language": "de",
+            "@value": "Kohlenzeche"
+        },
+        {
+            "@language": "de",
+            "@value": "Steinkohlenbergwerk"
+        },
+        {
+            "@language": "de",
+            "@value": "Kohlengrube"
+        },
+        {
+            "@language": "de",
+            "@value": "Bergwerk"
+        },
+        {
+            "@language": "nl",
+            "@value": "kolenmijn"
+        },
+        {
+            "@language": "nl",
+            "@value": "steenkolenmijn"
+        },
+        {
+            "@language": "nl",
+            "@value": "delven"
+        },
+        {
+            "@language": "nl",
+            "@value": "graven"
+        },
+        {
+            "@language": "es",
+            "@value": "cultivo en cuevas"
+        },
+        {
+            "@language": "es",
+            "@value": "cultivo en galerías subterráneas"
+        },
+        {
+            "@language": "en",
+            "@value": "underground cultivation"
+        },
+        {
+            "@language": "en",
+            "@value": "cultivation in mines"
+        },
+        {
+            "@language": "en",
+            "@value": "cultivation in caves"
+        },
+        {
+            "@language": "en",
+            "@value": "cultivation in railway tunnels"
+        },
+        {
+            "@language": "de",
+            "@value": "unterirdische Kultur"
+        },
+        {
+            "@language": "de",
+            "@value": "Kultur in Stollen"
+        },
+        {
+            "@language": "de",
+            "@value": "Kultur in Felsenkellern"
+        },
+        {
+            "@language": "de",
+            "@value": "Kultur im Bergwerk"
+        },
+        {
+            "@language": "de",
+            "@value": "Kultur in Tünneln"
+        },
+        {
+            "@language": "de",
+            "@value": "Kultur in Eisenbahntünneln"
+        },
+        {
+            "@language": "nl",
+            "@value": "grottenteelt"
+        },
+        {
+            "@language": "nl",
+            "@value": "teelt in onderaardse gangen"
+        },
+        {
+            "@language": "nl",
+            "@value": "teelt in spoorwegtunnels"
+        },
+        {
+            "@language": "nl",
+            "@value": "teelt in tunnels"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a mine in which coal is dug"
+        },
+        {
+            "@language": "en",
+            "@value": "1.An opening or excavation in the earth for extracting minerals."
+        }
+    ],
+    "skos:broader": [
+        "LT7002740"
+    ]
+}

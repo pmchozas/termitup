@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3019725",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gattung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/812865",
+    "skos:topConceptOf": "LT3019725",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "género"
+        },
+        {
+            "@language": "en",
+            "@value": "genus"
+        },
+        {
+            "@language": "de",
+            "@value": "gattung"
+        },
+        {
+            "@language": "nl",
+            "@value": "geslacht"
+        },
+        {
+            "@language": "es",
+            "@value": "genero"
+        },
+        {
+            "@language": "en",
+            "@value": "genus"
+        },
+        {
+            "@language": "de",
+            "@value": "gattung"
+        },
+        {
+            "@language": "nl",
+            "@value": "geslacht"
+        },
+        {
+            "@language": "es",
+            "@value": "género"
+        },
+        {
+            "@language": "en",
+            "@value": "genus"
+        },
+        {
+            "@language": "de",
+            "@value": "gattung"
+        },
+        {
+            "@language": "es",
+            "@value": "categoría de acciones"
+        },
+        {
+            "@language": "en",
+            "@value": "class of shares"
+        },
+        {
+            "@language": "de",
+            "@value": "gattung"
+        },
+        {
+            "@language": "nl",
+            "@value": "aandelencategorie"
+        },
+        {
+            "@language": "es",
+            "@value": "categoría del vagón"
+        },
+        {
+            "@language": "en",
+            "@value": "type of wagon"
+        },
+        {
+            "@language": "de",
+            "@value": "gattung"
+        },
+        {
+            "@language": "nl",
+            "@value": "wagensoort"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "genera"
+        },
+        {
+            "@language": "nl",
+            "@value": "genus"
+        },
+        {
+            "@language": "es",
+            "@value": "clase de acciones"
+        },
+        {
+            "@language": "de",
+            "@value": "Gattung von Aktien"
+        },
+        {
+            "@language": "nl",
+            "@value": "soort aandelen"
+        },
+        {
+            "@language": "nl",
+            "@value": "categorieen aandelen"
+        },
+        {
+            "@language": "de",
+            "@value": "Wagengattung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Categorí­a taxonómica que se ubica entre la familia IATE:907850 o su subdivisión la subfamilia IATE:1225006  el subgénero IATE:1225011 y la especie IATE:1624114 . Así­ un género es un grupo que reúne a varias especies emparentadas; sin embargo existen algunos géneros que son monoespecí­ficos (contienen una sola especie)."
+        },
+        {
+            "@language": "en",
+            "@value": "taxonomic rank [ IATE:3546819 ] in the binomial (Linnaean) classification system of biological organisms immediately beneath the rank of subfamily [ IATE:1225006 ] but immediately above the rank of subgenus [ IATE:1225011 ] consisting of a number of similar or closely related species"
+        },
+        {
+            "@language": "de",
+            "@value": "in der Biologie taxonomische Kategorie oberhalb der Art IATE:779355  wobei eine Gattung eine oder mehrere Arten umfasst"
+        },
+        {
+            "@language": "nl",
+            "@value": "In de wetenschappelijke nomenclatuur (plantkunde en dierkunde) is het geslacht een categorie tussen familie en soort."
+        },
+        {
+            "@language": "de",
+            "@value": "systematische Hauptkategorie oberhalb der Art"
+        },
+        {
+            "@language": "nl",
+            "@value": "begrip uit de biologische systematiek ter aanduiding van het taxon tussen familie en soort; bepaalde rang uit de biologische systematiek"
+        },
+        {
+            "@language": "en",
+            "@value": "a division into which a company may divide its share capital"
+        },
+        {
+            "@language": "de",
+            "@value": "Aktien mit gleichen Rechten bilden eine Gattung"
+        }
+    ]
+}

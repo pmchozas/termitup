@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1615313",
+    "@type": "skos:Concept",
+    "skos:inScheme": "unterricht",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/49298",
+    "skos:topConceptOf": "LT1615313",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "enseñanza"
+        },
+        {
+            "@language": "en",
+            "@value": "teaching"
+        },
+        {
+            "@language": "de",
+            "@value": "unterricht"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderwijs"
+        },
+        {
+            "@language": "de",
+            "@value": "unterricht"
+        },
+        {
+            "@language": "de",
+            "@value": "unterricht"
+        },
+        {
+            "@language": "de",
+            "@value": "unterricht"
+        },
+        {
+            "@language": "de",
+            "@value": "unterricht"
+        },
+        {
+            "@language": "nl",
+            "@value": "Bureau Onderwijs"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "1.The act of imparting knowledge or skill."
+        },
+        {
+            "@language": "de",
+            "@value": "planmaessiges regelmaessiges Lehren"
+        },
+        {
+            "@language": "de",
+            "@value": "planmaessiges regelmaessiges Lehren"
+        },
+        {
+            "@language": "de",
+            "@value": "planmaessiges regelmaessiges Lehren"
+        }
+    ],
+    "skos:narrower": [
+        "LT1605087",
+        "LT4190071"
+    ],
+    "skos:related": [
+        "LT5094874",
+        "LT4269475",
+        "LT7058992",
+        "LT3520220",
+        "LT3786926"
+    ]
+}

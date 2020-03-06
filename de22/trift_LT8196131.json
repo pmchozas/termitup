@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8196131",
+    "@type": "skos:Concept",
+    "skos:inScheme": "trift",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1256646",
+    "skos:topConceptOf": "LT8196131",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "pasturaje"
+        },
+        {
+            "@language": "en",
+            "@value": "grazing"
+        },
+        {
+            "@language": "de",
+            "@value": "trift"
+        },
+        {
+            "@language": "nl",
+            "@value": "weiden"
+        },
+        {
+            "@language": "en",
+            "@value": "passing right"
+        },
+        {
+            "@language": "de",
+            "@value": "trift"
+        },
+        {
+            "@language": "nl",
+            "@value": "drift"
+        },
+        {
+            "@language": "en",
+            "@value": "open pasture land"
+        },
+        {
+            "@language": "de",
+            "@value": "trift"
+        },
+        {
+            "@language": "nl",
+            "@value": "wilde gronden"
+        },
+        {
+            "@language": "es",
+            "@value": "migración"
+        },
+        {
+            "@language": "en",
+            "@value": "drift"
+        },
+        {
+            "@language": "de",
+            "@value": "trift"
+        },
+        {
+            "@language": "en",
+            "@value": "cattle path"
+        },
+        {
+            "@language": "de",
+            "@value": "trift"
+        },
+        {
+            "@language": "nl",
+            "@value": "drift"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "pasturing"
+        },
+        {
+            "@language": "de",
+            "@value": "Trift"
+        },
+        {
+            "@language": "de",
+            "@value": "Beweidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "begrazing"
+        },
+        {
+            "@language": "en",
+            "@value": "right to pass"
+        },
+        {
+            "@language": "en",
+            "@value": "driftway"
+        },
+        {
+            "@language": "de",
+            "@value": "Viehtrift"
+        },
+        {
+            "@language": "nl",
+            "@value": "driftrecht"
+        },
+        {
+            "@language": "de",
+            "@value": "Flur"
+        },
+        {
+            "@language": "en",
+            "@value": "trailing"
+        },
+        {
+            "@language": "nl",
+            "@value": "veepad"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Treiben des Viehs auf die Weide"
+        },
+        {
+            "@language": "nl",
+            "@value": "beheermaatregel om gronden zoals weilanden en natuurgebieden door zoogdieren of soms door vogels te laten begrazen"
+        },
+        {
+            "@language": "de",
+            "@value": "Recht zum Treiben des Viehs durch fremde Grundstuecke"
+        },
+        {
+            "@language": "en",
+            "@value": "the natural movement of livestock over a rangei.e.uninfluenced by direct human action"
+        }
+    ]
+}

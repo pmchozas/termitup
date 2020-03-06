@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5828551",
+    "@type": "skos:Concept",
+    "skos:inScheme": "rechtspersönlichkeit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/773953",
+    "skos:topConceptOf": "LT5828551",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "personalidad jurídica"
+        },
+        {
+            "@language": "en",
+            "@value": "legal personality"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtspersönlichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtspersoonlijkheid"
+        },
+        {
+            "@language": "es",
+            "@value": "personalidad jurídica de la Unión"
+        },
+        {
+            "@language": "en",
+            "@value": "legal personality of the Union"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtspersönlichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtspersoonlijkheid van de Unie"
+        },
+        {
+            "@language": "es",
+            "@value": "no constituido(s)/a(s) en sociedad"
+        },
+        {
+            "@language": "en",
+            "@value": "unincorporated"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtspersönlichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "zonder rechtspersoonlijkheid"
+        },
+        {
+            "@language": "es",
+            "@value": "personalidad jurídica única"
+        },
+        {
+            "@language": "en",
+            "@value": "single legal personality"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtspersönlichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "enkelvoudige rechtspersoonlijkheid"
+        },
+        {
+            "@language": "es",
+            "@value": "prueba de existencia jurídica"
+        },
+        {
+            "@language": "en",
+            "@value": "proof of the existence in law"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtspersönlichkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "bewijs van zijn bestaan rechtens"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "personería jurídica"
+        },
+        {
+            "@language": "de",
+            "@value": "einzige Rechtspersönlichkeit"
+        },
+        {
+            "@language": "de",
+            "@value": "eigenständige Rechtspersönlichkeit"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "La aptitud para ser sujeto activo o pasivo de relaciones jurídicas."
+        },
+        {
+            "@language": "en",
+            "@value": "Article 47 of the Treaty on European Union (TEU) explicitly recognises the legal personality of the European Union making it an independent entity in its own right.The conferral of legal personality on the EU means that it has the ability to:- conclude and negotiate international agreements in accordance with its external commitments;- become a member of international organisations;- join international conventions such as the European Convention on Human Rights stipulated in Article 6(2) of the TEU"
+        },
+        {
+            "@language": "es",
+            "@value": "Personalidad jurídica única en el ámbito interno y en el internacional para las tres Comunidades y para la UE."
+        }
+    ]
+}

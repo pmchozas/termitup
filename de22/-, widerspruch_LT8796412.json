@@ -1,0 +1,211 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8796412",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, widerspruch",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3584499",
+    "skos:topConceptOf": "LT8796412",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "oposición"
+        },
+        {
+            "@language": "en",
+            "@value": "application to set aside"
+        },
+        {
+            "@language": "de",
+            "@value": "-, widerspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzet"
+        },
+        {
+            "@language": "es",
+            "@value": "impugnación"
+        },
+        {
+            "@language": "en",
+            "@value": "bid challenge"
+        },
+        {
+            "@language": "de",
+            "@value": "-, widerspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": "protest"
+        },
+        {
+            "@language": "es",
+            "@value": "recurso de alzada"
+        },
+        {
+            "@language": "de",
+            "@value": "-, widerspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": "administratie beroep"
+        },
+        {
+            "@language": "en",
+            "@value": "appeal"
+        },
+        {
+            "@language": "de",
+            "@value": "-, widerspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": "verweer"
+        },
+        {
+            "@language": "de",
+            "@value": "-, widerspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": "niet-tegenwerpbaarheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": " Einspruch gegen ein Versäumnisurteil"
+        },
+        {
+            "@language": "de",
+            "@value": " Einspruch"
+        },
+        {
+            "@language": "es",
+            "@value": " reclamación"
+        },
+        {
+            "@language": "en",
+            "@value": " challenge"
+        },
+        {
+            "@language": "en",
+            "@value": " bid protest"
+        },
+        {
+            "@language": "en",
+            "@value": " protest"
+        },
+        {
+            "@language": "de",
+            "@value": " Widerspruch"
+        },
+        {
+            "@language": "nl",
+            "@value": " beroep"
+        },
+        {
+            "@language": "de",
+            "@value": " Dienstaufsichtsbeschwerde"
+        },
+        {
+            "@language": "de",
+            "@value": " Widerspruch"
+        },
+        {
+            "@language": "de",
+            "@value": " Beschwerde"
+        },
+        {
+            "@language": "en",
+            "@value": " objection to a default judgement"
+        },
+        {
+            "@language": "de",
+            "@value": " Widerspruch"
+        },
+        {
+            "@language": "de",
+            "@value": " Einspruch gegen ein Versäumisurteil"
+        },
+        {
+            "@language": "nl",
+            "@value": " verzet"
+        },
+        {
+            "@language": "nl",
+            "@value": " verzet tegen een bij verstek gewezen vonnis"
+        },
+        {
+            "@language": "de",
+            "@value": " Ausschluss"
+        },
+        {
+            "@language": "de",
+            "@value": " Nichtanwendbarkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": " niet-tegenwerpelijkheid"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Recurso contra el resultado de un procedimiento de contratación pública IATE:766878 en el que se alega infracción en la adjudicación del contrato IATE:754470 ."
+        },
+        {
+            "@language": "en",
+            "@value": "claim by a bidder (tenderer) that a public authority has not acted in accordance with a specific procurement regime"
+        },
+        {
+            "@language": "de",
+            "@value": "Dienstaufsichtsbeschwerde: Beschwerde formloser Rechtsbehelf gegen das persönliche Verhalten eines Amtswalters bei dessen Dienstvorgesetzten"
+        },
+        {
+            "@language": "en",
+            "@value": "a method of obtaining reconsideration of a court decision"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtsmittel gegen gerichtliche Entscheidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "opkomen tegen een rechterlijke uitspraak;verzet"
+        },
+        {
+            "@language": "de",
+            "@value": "Im Glossar \"Konkurs- und Vergleichsrecht\" unseres früheren Kollegen Herbert Michel (\"Glossar HM\") findet sich neben dem Begriff \"procédure en i.\" = \"Widerspruchsverfahren\" auch der Eintrag\"i. à la masse des créanciers des actes accomplis par le débiteur\" = \"Unwirksamkeit von Rechtshandlungen gegenüber den Konkursgläubigern die der Schuldner vorgenommen hat\". Das Widerspruchsverfahren hat also zum Ziel Handlungen des Schuldners für rechtsunwirksam erklären zu lassen."
+        }
+    ]
+}

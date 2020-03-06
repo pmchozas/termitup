@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8495176",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ehescheidung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583742",
+    "skos:topConceptOf": "LT8495176",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "divorcio"
+        },
+        {
+            "@language": "en",
+            "@value": "divorce"
+        },
+        {
+            "@language": "de",
+            "@value": "ehescheidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtscheiding"
+        },
+        {
+            "@language": "en",
+            "@value": "petition for divorce"
+        },
+        {
+            "@language": "de",
+            "@value": "ehescheidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "vordering tot echtscheiding"
+        },
+        {
+            "@language": "es",
+            "@value": "divorcio internacional"
+        },
+        {
+            "@language": "en",
+            "@value": "international divorce"
+        },
+        {
+            "@language": "de",
+            "@value": "ehescheidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtscheiding met internationale aspecten"
+        },
+        {
+            "@language": "de",
+            "@value": "ehescheidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtscheiding op grond van feitelijke scheiding"
+        },
+        {
+            "@language": "en",
+            "@value": "divorce pronounced against both parties"
+        },
+        {
+            "@language": "de",
+            "@value": "ehescheidung"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtscheiding uitgesproken tegen beide partijen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Scheidung"
+        },
+        {
+            "@language": "de",
+            "@value": "Ehescheidung"
+        },
+        {
+            "@language": "en",
+            "@value": "divorce petition"
+        },
+        {
+            "@language": "en",
+            "@value": "application for divorce"
+        },
+        {
+            "@language": "en",
+            "@value": "overseas divorce"
+        },
+        {
+            "@language": "de",
+            "@value": "internationale Ehescheidung"
+        },
+        {
+            "@language": "de",
+            "@value": "Scheidung einer Ehe mit Auslandsberührung"
+        },
+        {
+            "@language": "nl",
+            "@value": "internationale echtscheiding"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Institución que permite la disolución del vínculo matrimonial cualquiera que sea su forma y tiempo en vida de ambos cónyuges en atención a la libertad de los mismos para ello a través de un proceso adecuado y plasmado en una sentencia que así lo declare -o sea constituyendo una decisión del Estado- y que sea firme."
+        },
+        {
+            "@language": "en",
+            "@value": "The legal dissolution of a marriage by a court of law [UK]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Echtscheiding is de ontbinding van een geldig gesloten huwelijk tijdens het leven van de echtgenoten en op gronden die zich na de huwelijkssluiting hebben voorgedaan. [BE]"
+        },
+        {
+            "@language": "en",
+            "@value": "formal application for the legal termination of a marriage"
+        },
+        {
+            "@language": "es",
+            "@value": "Divorcio que afecta a un matrimonio cuyos cónyuges son de nacionalidades distintas o viven en Estados miembros diferentes o viven en un Estado miembro del que no son nacionales. [UE]"
+        },
+        {
+            "@language": "en",
+            "@value": "Divorce in which spouses are of different nationalities or live in different Member States or live in a Member State of which they are not nationals [UE]"
+        },
+        {
+            "@language": "de",
+            "@value": "Scheidung einer Ehe bei der die Ehegatten unterschiedliche Staatsangehörigkeiten besitzen oder in verschiedenen Staaten oder einem Staat leben dessen Staatsangehörige sie nicht sind"
+        },
+        {
+            "@language": "nl",
+            "@value": "Ontbinding van het huwelijk van nationaliteitsgemengde echtparen of van echtgenoten die leven in lidstaat zonder de nationaliteit van deze lidstaat te bezitten. [UE]"
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3282326",
+    "@type": "skos:Concept",
+    "skos:inScheme": "motiv",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/869166",
+    "skos:topConceptOf": "LT3282326",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "design"
+        },
+        {
+            "@language": "de",
+            "@value": "motiv"
+        },
+        {
+            "@language": "nl",
+            "@value": "motief"
+        },
+        {
+            "@language": "en",
+            "@value": "epitope"
+        },
+        {
+            "@language": "de",
+            "@value": "motiv"
+        },
+        {
+            "@language": "nl",
+            "@value": "epitoop"
+        },
+        {
+            "@language": "en",
+            "@value": "advertising picture"
+        },
+        {
+            "@language": "de",
+            "@value": "motiv"
+        },
+        {
+            "@language": "nl",
+            "@value": "reclamemotief"
+        },
+        {
+            "@language": "es",
+            "@value": "motivo geométrico"
+        },
+        {
+            "@language": "en",
+            "@value": "geometric motif"
+        },
+        {
+            "@language": "de",
+            "@value": "motiv"
+        },
+        {
+            "@language": "en",
+            "@value": "metameric motif"
+        },
+        {
+            "@language": "de",
+            "@value": "motiv"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "pattern"
+        },
+        {
+            "@language": "en",
+            "@value": "antigenic determinant"
+        },
+        {
+            "@language": "en",
+            "@value": "antigenic site"
+        },
+        {
+            "@language": "de",
+            "@value": "antigene Determinante"
+        },
+        {
+            "@language": "de",
+            "@value": "determinante Gruppe"
+        },
+        {
+            "@language": "de",
+            "@value": "Epitop"
+        },
+        {
+            "@language": "de",
+            "@value": "determinierende Gruppe"
+        },
+        {
+            "@language": "de",
+            "@value": "Determinante"
+        },
+        {
+            "@language": "de",
+            "@value": "antigenes Motiv"
+        },
+        {
+            "@language": "de",
+            "@value": "Rezeptor"
+        },
+        {
+            "@language": "nl",
+            "@value": "antigeendeterminant"
+        },
+        {
+            "@language": "nl",
+            "@value": "antigene determinant"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "site on an antigen [ IATE:1503455 ] against which an antibody will be produced and to which it will bind (i.e. the part of the antigen to which the T-cell receptor [ IATE:1221832 ] responds)"
+        },
+        {
+            "@language": "de",
+            "@value": "umschriebener Bezirk eines Antigenmolekuels der dessen Spezifitaet bestimmt"
+        },
+        {
+            "@language": "nl",
+            "@value": "Plaats van een antigeenmolecule die als lichaamsvreemd wordt herkend en lymfocyten aanzet tot de produktie van één specifiek gerichte antistof."
+        },
+        {
+            "@language": "en",
+            "@value": "A geometric pattern printed over the whole page."
+        }
+    ],
+    "skos:broader": [
+        "LT6578075"
+    ],
+    "skos:related": [
+        "LT5907207",
+        "LT9968710"
+    ]
+}

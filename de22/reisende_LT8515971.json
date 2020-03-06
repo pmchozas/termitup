@@ -1,0 +1,234 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8515971",
+    "@type": "skos:Concept",
+    "skos:inScheme": "reisende",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1145286",
+    "skos:topConceptOf": "LT8515971",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "frequent traveller"
+        },
+        {
+            "@language": "de",
+            "@value": "reisende"
+        },
+        {
+            "@language": "es",
+            "@value": "franquicia de viajeros"
+        },
+        {
+            "@language": "en",
+            "@value": "traveller's allowance"
+        },
+        {
+            "@language": "de",
+            "@value": "reisende"
+        },
+        {
+            "@language": "nl",
+            "@value": "reizigersvrijstelling"
+        },
+        {
+            "@language": "en",
+            "@value": "customs facilities applicable to travellers"
+        },
+        {
+            "@language": "de",
+            "@value": "reisende"
+        },
+        {
+            "@language": "nl",
+            "@value": "douanefaciliteiten voor reizigers"
+        },
+        {
+            "@language": "es",
+            "@value": "Programa de Registro de Viajeros"
+        },
+        {
+            "@language": "en",
+            "@value": "registered traveller programme"
+        },
+        {
+            "@language": "de",
+            "@value": "reisende"
+        },
+        {
+            "@language": "nl",
+            "@value": "programma voor geregistreerde reizigers"
+        },
+        {
+            "@language": "en",
+            "@value": "general allowances for travellers"
+        },
+        {
+            "@language": "de",
+            "@value": "reisende"
+        },
+        {
+            "@language": "nl",
+            "@value": "algemene vrijstellingen voor reizigers"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "franquicia para los viajeros"
+        },
+        {
+            "@language": "es",
+            "@value": "franquicia para viajeros"
+        },
+        {
+            "@language": "en",
+            "@value": "tax-free allowance for travellers"
+        },
+        {
+            "@language": "en",
+            "@value": "traveller's allowance"
+        },
+        {
+            "@language": "de",
+            "@value": "Freimenge für Reisende"
+        },
+        {
+            "@language": "de",
+            "@value": "Steuerbefreiung im Reiseverkehr"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijstelling voor reizigers"
+        },
+        {
+            "@language": "es",
+            "@value": "Programa de Registro de Pasajeros"
+        },
+        {
+            "@language": "es",
+            "@value": "Programa de Viajeros Registrados"
+        },
+        {
+            "@language": "es",
+            "@value": "PRV"
+        },
+        {
+            "@language": "es",
+            "@value": "PRP"
+        },
+        {
+            "@language": "es",
+            "@value": "PVR"
+        },
+        {
+            "@language": "es",
+            "@value": "programa de vía rápida para viajeros registrados"
+        },
+        {
+            "@language": "en",
+            "@value": "RTP"
+        },
+        {
+            "@language": "en",
+            "@value": "fast track registered traveller programme"
+        },
+        {
+            "@language": "en",
+            "@value": "registered traveller system"
+        },
+        {
+            "@language": "en",
+            "@value": "RTS"
+        },
+        {
+            "@language": "en",
+            "@value": "registered travellers scheme"
+        },
+        {
+            "@language": "de",
+            "@value": "Fluggast-Registrierungsprogramm"
+        },
+        {
+            "@language": "de",
+            "@value": "Programm für registrierte Reisende"
+        },
+        {
+            "@language": "de",
+            "@value": "RTP"
+        },
+        {
+            "@language": "de",
+            "@value": "Fluggast-Registrierungsprogramm"
+        },
+        {
+            "@language": "de",
+            "@value": "Programm für die Schnellabfertigung registrierter Reisender"
+        },
+        {
+            "@language": "nl",
+            "@value": "RTP"
+        },
+        {
+            "@language": "nl",
+            "@value": "fast-trackprogramma voor geregistreerde reizigers"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Personen die aus beruflichen Gründen oft die Grenze überschreiten müssen z.B.Berufskraftfahrer [VE1]"
+        },
+        {
+            "@language": "es",
+            "@value": "Programa que permite conceder a los viajeros de bajo riesgo IATE:2246749 originarios de terceros países un estatuto de «viajeros registrados» que les permita beneficiarse de un control simplificado y automatizado a su llegada a las fronteras de la UE."
+        },
+        {
+            "@language": "en",
+            "@value": "scheme granting low-risk travellers \"registered traveller\" status enabling them to go through border crossings without the usual cumbersome security checks and controls"
+        },
+        {
+            "@language": "de",
+            "@value": "Programm das Drittstaatsangehörigen die nach einer Hintergrundüberprüfung in das RTP [Registrierungsprogramm für Reisende] aufgenommen wurden Erleichterungen bei den Kontrollen an den Außengrenzen der Union bietet"
+        },
+        {
+            "@language": "nl",
+            "@value": "programma dat het voor onderdanen van derde landen die daar na een voorafgaand veiligheidsonderzoek tot zijn toegelaten gemakkelijker maakt om de buitengrens van de Unie te overschrijden"
+        }
+    ],
+    "skos:broader": [
+        "LT7918701"
+    ],
+    "skos:related": [
+        "LT4746677"
+    ]
+}

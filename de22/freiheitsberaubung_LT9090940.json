@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9090940",
+    "@type": "skos:Concept",
+    "skos:inScheme": "freiheitsberaubung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/887578",
+    "skos:topConceptOf": "LT9090940",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "detención ilegal"
+        },
+        {
+            "@language": "en",
+            "@value": "illegal restraint"
+        },
+        {
+            "@language": "de",
+            "@value": "freiheitsberaubung"
+        },
+        {
+            "@language": "nl",
+            "@value": "wederrechtelijke vrijheidsberoving"
+        },
+        {
+            "@language": "de",
+            "@value": "freiheitsberaubung"
+        },
+        {
+            "@language": "es",
+            "@value": "privación arbitraria de la libertad"
+        },
+        {
+            "@language": "en",
+            "@value": "arbitrary deprivation of liberty"
+        },
+        {
+            "@language": "de",
+            "@value": "freiheitsberaubung"
+        },
+        {
+            "@language": "es",
+            "@value": "secuestro, retención ilegal y toma de rehenes"
+        },
+        {
+            "@language": "en",
+            "@value": "kidnapping, illegal restraint and hostage-taking"
+        },
+        {
+            "@language": "de",
+            "@value": "freiheitsberaubung"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontvoering, wederrechtelijke vrijheidsberoving en gijzeling"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "unlawful restraint"
+        },
+        {
+            "@language": "en",
+            "@value": "unlawful imprisonment"
+        },
+        {
+            "@language": "en",
+            "@value": "illegal detention"
+        },
+        {
+            "@language": "en",
+            "@value": "false imprisonment"
+        },
+        {
+            "@language": "en",
+            "@value": "unlawful detention"
+        },
+        {
+            "@language": "de",
+            "@value": "Freiheitsentziehung"
+        },
+        {
+            "@language": "nl",
+            "@value": "onwettelijke"
+        },
+        {
+            "@language": "de",
+            "@value": "Freiheitsberaubung"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Delito consistente en encerrar o detener a otro ilegalmente privándole de su libertad."
+        },
+        {
+            "@language": "en",
+            "@value": "the illegal confinement of one individual against his or her will by another individual in such a manner as to violate the confined individual's right to be free from restraint of movement"
+        },
+        {
+            "@language": "de",
+            "@value": "widerrechtliches Einsperren/ Gefangennehmen e. Person"
+        },
+        {
+            "@language": "nl",
+            "@value": "het iemand anders wederrechtelijk van de vrijheid beroven of beroofd houden"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Straftat die jemand begeht indem er einen anderen widerrechtlich gefangen hält oder ihm auf andere Weise die persönliche Freiheit entzieht."
+        }
+    ]
+}

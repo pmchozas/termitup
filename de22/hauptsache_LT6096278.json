@@ -1,0 +1,116 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6096278",
+    "@type": "skos:Concept",
+    "skos:inScheme": "hauptsache",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1391256",
+    "skos:topConceptOf": "LT6096278",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "fondo de la acción"
+        },
+        {
+            "@language": "de",
+            "@value": "hauptsache"
+        },
+        {
+            "@language": "en",
+            "@value": "principal case"
+        },
+        {
+            "@language": "de",
+            "@value": "hauptsache"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoofdzaak"
+        },
+        {
+            "@language": "es",
+            "@value": "fondo de pleito"
+        },
+        {
+            "@language": "de",
+            "@value": "hauptsache"
+        },
+        {
+            "@language": "en",
+            "@value": "principal case"
+        },
+        {
+            "@language": "de",
+            "@value": "hauptsache"
+        },
+        {
+            "@language": "nl",
+            "@value": "hoofdzaak"
+        },
+        {
+            "@language": "es",
+            "@value": "sentencia sobre el fondo"
+        },
+        {
+            "@language": "de",
+            "@value": "hauptsache"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "fondo del proceso"
+        },
+        {
+            "@language": "es",
+            "@value": "sentencia sobre el contenido"
+        },
+        {
+            "@language": "de",
+            "@value": "Sachurteil"
+        },
+        {
+            "@language": "de",
+            "@value": "Urteil zur Hauptsache"
+        },
+        {
+            "@language": "de",
+            "@value": "Urteil in der Sache selbst"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "der Streitgegenstand des Prozesses.Manchmal werden auch Nebenforderungen als zur Hauptsache gehoerend verstanden"
+        }
+    ]
+}

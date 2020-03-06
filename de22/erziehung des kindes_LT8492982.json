@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8492982",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erziehung des kindes",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583430",
+    "skos:topConceptOf": "LT8492982",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "educación del hijo"
+        },
+        {
+            "@language": "en",
+            "@value": "upbringing and development of the child"
+        },
+        {
+            "@language": "de",
+            "@value": "erziehung des kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "opvoeding van het kind"
+        },
+        {
+            "@language": "es",
+            "@value": "deber de cuidar a los hijos"
+        },
+        {
+            "@language": "en",
+            "@value": "responsibilty to safeguard and promote child's health development and welfare"
+        },
+        {
+            "@language": "de",
+            "@value": "erziehung des kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting kinderen levensonderhoud te verschaffen"
+        },
+        {
+            "@language": "en",
+            "@value": "education of the deaf"
+        },
+        {
+            "@language": "de",
+            "@value": "erziehung des kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "onderwijs aan doven"
+        },
+        {
+            "@language": "en",
+            "@value": "Interservice Group on the Education of the Children of Migrant Workers"
+        },
+        {
+            "@language": "de",
+            "@value": "erziehung des kindes"
+        },
+        {
+            "@language": "nl",
+            "@value": "Gemeenschappelijke groep \" Onderwijs aan kinderen van migrerende werknemers \""
+        },
+        {
+            "@language": "es",
+            "@value": "desarrollo educacional de la primera infancia"
+        },
+        {
+            "@language": "en",
+            "@value": "early childhood educational development"
+        },
+        {
+            "@language": "de",
+            "@value": "erziehung des kindes"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Erziehung des Kindes"
+        },
+        {
+            "@language": "en",
+            "@value": "responsibilty to maintain and protect a child"
+        },
+        {
+            "@language": "de",
+            "@value": "Pflicht, das Kind zu erziehen und zu beaufsichtigen"
+        },
+        {
+            "@language": "nl",
+            "@value": "verplichting in de kosten van levensonderhoud van kinderen te voorzien"
+        },
+        {
+            "@language": "es",
+            "@value": "primer ciclo de la educación infantil"
+        },
+        {
+            "@language": "de",
+            "@value": "FBBEu3"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Sorge für die sittliche geistige und körperliche Entwicklung des Kindes [DE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Programas educativos impartidos normalmente en instituciones educativas o entornos institucionalizados (escuelas centros comunitarios hogares) preparados para acoger grupos de niños desde su nacimiento hasta los dos años de edad inclusive que promueven la expresión del niño con énfasis en la adquisición del lenguaje y su uso para la comunicación donde los niños tienen la oportunidad de participar en actividades lúdicas que les permiten desarrollar sus destrezas motoras y de coordinación a través de la interacción con el personal docente y bajo su supervisión."
+        },
+        {
+            "@language": "en",
+            "@value": "category of ISCED level 0 programme with intentional educational content designed for younger children (typically in the age range of 0 to 2 years)"
+        },
+        {
+            "@language": "de",
+            "@value": "Kategorie der ISCED-Stufe 0 (Frühkindliche Bildung) die sich auf Angebote im Elementarbereich bezieht die eine explizite Bildungskomponente enthalten und auf Kinder unterhalb des Eintrittsalters in den Primarbereich (ISCED-Stufe 1) ausgerichtet sind"
+        }
+    ]
+}

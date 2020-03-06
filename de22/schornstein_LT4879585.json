@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4879585",
+    "@type": "skos:Concept",
+    "skos:inScheme": "schornstein",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1350593",
+    "skos:topConceptOf": "LT4879585",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "chimenea"
+        },
+        {
+            "@language": "en",
+            "@value": "stack"
+        },
+        {
+            "@language": "de",
+            "@value": "schornstein"
+        },
+        {
+            "@language": "nl",
+            "@value": "schoorsteen"
+        },
+        {
+            "@language": "en",
+            "@value": "ventilation stack"
+        },
+        {
+            "@language": "de",
+            "@value": "schornstein"
+        },
+        {
+            "@language": "nl",
+            "@value": "ventilatieschoorsteen"
+        },
+        {
+            "@language": "es",
+            "@value": "conducto de humos"
+        },
+        {
+            "@language": "en",
+            "@value": "secondary flue"
+        },
+        {
+            "@language": "de",
+            "@value": "schornstein"
+        },
+        {
+            "@language": "nl",
+            "@value": "afvoerleiding"
+        },
+        {
+            "@language": "es",
+            "@value": "chimenea"
+        },
+        {
+            "@language": "en",
+            "@value": "smoke stack"
+        },
+        {
+            "@language": "de",
+            "@value": "schornstein"
+        },
+        {
+            "@language": "nl",
+            "@value": "schoorsteen"
+        },
+        {
+            "@language": "es",
+            "@value": "conducto individual"
+        },
+        {
+            "@language": "en",
+            "@value": "individual flue system"
+        },
+        {
+            "@language": "de",
+            "@value": "schornstein"
+        },
+        {
+            "@language": "nl",
+            "@value": "afzonderlijk afvoerkanaal"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "cañón de chimenea"
+        },
+        {
+            "@language": "en",
+            "@value": "chimney"
+        },
+        {
+            "@language": "de",
+            "@value": "Schornstein"
+        },
+        {
+            "@language": "es",
+            "@value": "conducto de evacuación de humos"
+        },
+        {
+            "@language": "en",
+            "@value": "chimney"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Estructura que contenga una o más salidas de humos que actúen de conductos para los gases residuales con el fin de expulsarlos a la atmósfera."
+        },
+        {
+            "@language": "en",
+            "@value": "structure containing one or more flues providing a passage for waste gases in order to discharge them into the air"
+        },
+        {
+            "@language": "de",
+            "@value": "Konstruktion die einen oder mehrere Kanäle aufweist über die Abgase in die Luft abgeleitet werden"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"structuur met een of meer afgaskanalen voor de afvoer van afgassen met het oog op de uitstoot ervan in de lucht\""
+        }
+    ]
+}

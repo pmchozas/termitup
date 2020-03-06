@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8661109",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gesetzlicher güterstand",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583615",
+    "skos:topConceptOf": "LT8661109",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "régimen de participación en las ganancias"
+        },
+        {
+            "@language": "en",
+            "@value": "regime of participation in matrimonial assets"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzlicher güterstand"
+        },
+        {
+            "@language": "nl",
+            "@value": "gemeenschap van vruchten en inkomsten"
+        },
+        {
+            "@language": "es",
+            "@value": "régimen matrimonial legal"
+        },
+        {
+            "@language": "en",
+            "@value": "rules governing matrimonial property laid down by law"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzlicher güterstand"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijk huwelijksgoederenstelsel"
+        },
+        {
+            "@language": "es",
+            "@value": "régimen legal"
+        },
+        {
+            "@language": "en",
+            "@value": "statutory matrimonial regime"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzlicher güterstand"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijk huwelijksgoederenstatuut"
+        },
+        {
+            "@language": "es",
+            "@value": "régimen de separación de bienes"
+        },
+        {
+            "@language": "en",
+            "@value": "separation of goods regime"
+        },
+        {
+            "@language": "de",
+            "@value": "gesetzlicher güterstand"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitsluiting van iedere gemeenschap van goederen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Zugewinngemeinschaft"
+        },
+        {
+            "@language": "en",
+            "@value": "principle of separate property during marriage"
+        },
+        {
+            "@language": "de",
+            "@value": "Gütertrennung"
+        },
+        {
+            "@language": "nl",
+            "@value": "koude uitsluiting"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitsluiting van gemeenschap van goederen"
+        },
+        {
+            "@language": "nl",
+            "@value": "stelsel van scheiding van goederen"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Régimen matrimonial en el que mientras dura el matrimonio cada esposo gobierna su capital y sus ingresos como propios y contribuye a las cargas familiares como en el sistema de separación; sólo al extinguirse el régimen se produce un ajuste de cuentas entre los esposos o entre el sobreviviente y los herederos del otro en virtud del cual se reparten por igual salvo pacto en contrario las ganancias de ambos. [ES]"
+        },
+        {
+            "@language": "de",
+            "@value": "Güterstand bei dem Vermögen des Mannes und das Vermögen der Frau - einschließlich des Vermögens das ein Ehegatte nach der Eheschließung erwirbt - nicht gemeinschaftliches Vermögen der Ehegatten werden und der Zugewinn den die Ehegatten in der Ehe erzielen ausgeglichen wird wenn die Zugewinngemeinschaft endet.[DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Huwelijkse voorwaarden waarbij de echtgenoten delen in de baten en lasten van de gemeenschap. De baten zijn de tijdens het huwelijk verkregen goederen met uitsluiting van de bij wet bepaalde goeren. De lasten zijn alle schulden die tijdens het huwelijk zijn ontstaan met uitzondering van de wet bepaalde schulden."
+        },
+        {
+            "@language": "es",
+            "@value": "Régimen económico matrimonial en el que los patrimonios de los cónyuges se escinden jurídicamente en cuanto a la pertenencia la administración y el disfrute; la posición de cada uno de los cónyuges es en el orden patrimonial la misma que si no estuviera casado. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Huwelijskvermogensstelsel door de echtgenoten bij huwelijkscontract aangenomen (conventionele scheiding van goederen of op vordering van een echtgenoot gerechtelijk opgelegde scheiding van goederen) waarbij elke echtgenoot de eigendom en de bevoegdheid van genot en bestuur over zijn goederen behoudt onverminderd toepassing van het primaire stelsel [BE] ; Stelsel van huwelijkse voorwaarden waarbij zowel de goederen als de schulden van elk der echtgenoten privé blijven. Er vindt geen boedelvermenging plaats. De vermogensrechtelijke positie van elk der echtgenoten blijft dus gelijk aan die voor het huwelijk."
+        }
+    ]
+}

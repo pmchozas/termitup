@@ -1,0 +1,248 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9701951",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-klage",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3584461",
+    "skos:topConceptOf": "LT9701951",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "recurso directo"
+        },
+        {
+            "@language": "en",
+            "@value": "direct action"
+        },
+        {
+            "@language": "de",
+            "@value": "-klage"
+        },
+        {
+            "@language": "nl",
+            "@value": "rechtstreeks beroep"
+        },
+        {
+            "@language": "es",
+            "@value": "denuncia"
+        },
+        {
+            "@language": "en",
+            "@value": "complaint"
+        },
+        {
+            "@language": "de",
+            "@value": "-klage"
+        },
+        {
+            "@language": "nl",
+            "@value": "klacht"
+        },
+        {
+            "@language": "es",
+            "@value": "sometimiento o presentación del asunto, de la cuestión"
+        },
+        {
+            "@language": "en",
+            "@value": "reference"
+        },
+        {
+            "@language": "de",
+            "@value": "-klage"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanhangigmaking"
+        },
+        {
+            "@language": "es",
+            "@value": "demanda"
+        },
+        {
+            "@language": "en",
+            "@value": "application application"
+        },
+        {
+            "@language": "de",
+            "@value": "-klage"
+        },
+        {
+            "@language": "nl",
+            "@value": "verzoekschrift"
+        },
+        {
+            "@language": "es",
+            "@value": "acción judicial"
+        },
+        {
+            "@language": "de",
+            "@value": "-klage"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Klageverfahren"
+        },
+        {
+            "@language": "es",
+            "@value": "denuncia de parte"
+        },
+        {
+            "@language": "de",
+            "@value": "Klage"
+        },
+        {
+            "@language": "de",
+            "@value": "Beschwerde"
+        },
+        {
+            "@language": "de",
+            "@value": "Antrag"
+        },
+        {
+            "@language": "es",
+            "@value": "remisión del litigio"
+        },
+        {
+            "@language": "es",
+            "@value": "petición de pronunciamiento"
+        },
+        {
+            "@language": "en",
+            "@value": "referral"
+        },
+        {
+            "@language": "de",
+            "@value": "Anrufung"
+        },
+        {
+            "@language": "de",
+            "@value": "Klage"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanhangig maken"
+        },
+        {
+            "@language": "es",
+            "@value": "escrito"
+        },
+        {
+            "@language": "de",
+            "@value": "Gebrauch"
+        },
+        {
+            "@language": "de",
+            "@value": "Behandlung"
+        },
+        {
+            "@language": "de",
+            "@value": "Antrag"
+        },
+        {
+            "@language": "de",
+            "@value": "Klage"
+        },
+        {
+            "@language": "de",
+            "@value": "Klageschrift"
+        },
+        {
+            "@language": "de",
+            "@value": "Schriftsatz"
+        },
+        {
+            "@language": "es",
+            "@value": "acción ante los tribunales"
+        },
+        {
+            "@language": "es",
+            "@value": "demanda"
+        },
+        {
+            "@language": "de",
+            "@value": "Gerichtsverfahren"
+        },
+        {
+            "@language": "de",
+            "@value": "K"
+        },
+        {
+            "@language": "de",
+            "@value": "gerichtliche Klage"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "1) En derecho penal \"comunicación por la que se pone en conocimiento de la Autoridad Gubernativa o Judicial la comisión de un hecho delictivo. (...) La Ley de Enjuiciamiento Criminal establece la obligación de denunciar a quien presencie la perpretación de cualquier delito público (art. 259). 2) En derecho comunitario: Petición a la Comisión para que investigue una posible vulneración de las normas de la competencia con arreglo a lo dispuesto principalmente en los artículos 81 y 82 del TCE."
+        },
+        {
+            "@language": "en",
+            "@value": "1. In criminal law a complaint is a formal charge accusing a person of an offence. 2. In civil law it is the initial pleading that starts a civil action and states the basis for the court's jurisdiction the basis for the plaintiff's claim and the demand for relief."
+        },
+        {
+            "@language": "de",
+            "@value": "Der frz. Begriff \"plainte\" ist kontextabhängig sehr unterschiedlich im Deutschen wiederzugeben: 1) (Straf-)Anzeige: Mitteilung eines Sachverhalts (einer Handlung z.B.) bei der Polizei oder Staatsanwaltschaft die nach Meinung der anzeigenden Person eine Straftat ist und deshalb Grund oder Anlass zu einer Strafverfolgung gibt. Anzeige kann nicht nur das Opfer erstatten sondern auch ein Dritter (letztgenannter Fall heißt dann auf FR \"dénonciation\"). 2) Klage: Gesuch um Gewährung von Rechtsschutz durch Urteil. In einem Strafverfahren erhebt der Staatsanwalt \"öffentliche Klage\" und legt eine Anklageschrift vor. DE 'Klage' entsprechen in FR allerdings häufger die Begriffe \"action\" und \"recours\". 3) Beschwerde: Rechtsmittel das in verschiedenen Verfahrensordnungen vorgesehen ist; sie richtet sich grundsätzlich gegen Beschlüsse und Verfügungen und ist nur ausnahmsweise gegen Urteile zugelassen (s. z.B. Art. 195 EGV = Beschwerde beim Bürgerbeauftragten). 4) Antrag: Anzeigen bei der Kommission wegen Verstößen gegen Wettbewerbsregeln werden im Gemeinschaftskontext Anträge genannt (etwa \"Antisubventionsanträge\")."
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Een klacht is een aangifte met verzoek tot vervolging (artikel 164 Sv). Een aantal misdrijven is alleen op klacht vervolgbaar. Dat wil zeggen dat indien het slachtoffer geen klacht indient het OM geen vervolgingsrecht heeft. Overigens wordt het OM door klacht niet tot vervolging verplicht. Het zogeheten opportuniteitsbeginsel geeft de officier van justitie de ruimte om een aan hem voorgelegd strafbaar feit niet te vervolgen.\""
+        },
+        {
+            "@language": "es",
+            "@value": "presentar una cuestión respecto de la que el órgano debe pronunciarse."
+        },
+        {
+            "@language": "en",
+            "@value": "Reference: the act or expedient of referring or submitting a matter especially a dispute or controversy to some person or authority for consideration decision or settlement."
+        },
+        {
+            "@language": "de",
+            "@value": "Unterbreitung einer Rechtssache an ein Gericht in der Absicht ein Gerichtsverfahren anzustrengen"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"Het ter behandeling bij de rechter indienen van een zaak. Het rechtsgeding vangt daarmee aan. In het strafproces wordt de zaak aanhangig gemaakt door het uitbrengen van de dagvaarding door de officier van justitie aan de verdachte. In het burgerlijk proces wordt een geschil aanhangig gemaakt als de eisende partij de gedaagde partij dagvaardt voor de rechter. In een aantal procedures wordt de zaak aanhangig gemaakt door indiening van een verzoekschrift bij de rechter. Een zaak is aanhangig zolang zij bij de rechterlijke instantie in behandeling is.\""
+        },
+        {
+            "@language": "en",
+            "@value": "1. asking for something usually in writing; application for shares; shares payable on application; application for a job or job application. 2. act of asking the Court to make an order; his application for an injunction was refused; solicitors acting for the wife made an application for a maintenance order"
+        },
+        {
+            "@language": "de",
+            "@value": "Prozesshandlung durch die der Klaeger bei Gericht um Rechtsschutz sucht"
+        }
+    ]
+}

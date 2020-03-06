@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9774884",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vertrauensmann",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/903943",
+    "skos:topConceptOf": "LT9774884",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "trusted collaborator"
+        },
+        {
+            "@language": "de",
+            "@value": "vertrauensmann"
+        },
+        {
+            "@language": "nl",
+            "@value": "informant"
+        },
+        {
+            "@language": "de",
+            "@value": "vertrauensmann"
+        },
+        {
+            "@language": "es",
+            "@value": "delegado sindical"
+        },
+        {
+            "@language": "en",
+            "@value": "shop steward"
+        },
+        {
+            "@language": "de",
+            "@value": "vertrauensmann"
+        },
+        {
+            "@language": "nl",
+            "@value": "lid van het bestuur van de bedrijfsledengroep"
+        },
+        {
+            "@language": "en",
+            "@value": "candidate's election agent"
+        },
+        {
+            "@language": "de",
+            "@value": "vertrauensmann"
+        },
+        {
+            "@language": "nl",
+            "@value": "de gemachtigde van de kandidaat"
+        },
+        {
+            "@language": "es",
+            "@value": "delegado sindical"
+        },
+        {
+            "@language": "de",
+            "@value": "vertrauensmann"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "V-Mann"
+        },
+        {
+            "@language": "de",
+            "@value": "V-Personen"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertrauenspersonen"
+        },
+        {
+            "@language": "en",
+            "@value": "trade union representative"
+        },
+        {
+            "@language": "nl",
+            "@value": "vakbondsafgevaardigde"
+        },
+        {
+            "@language": "nl",
+            "@value": "syndicale afgevaardigde"
+        },
+        {
+            "@language": "de",
+            "@value": "Gewerkschaftsvertreter"
+        },
+        {
+            "@language": "de",
+            "@value": "gewerkschaftlicher Vertrauensmann"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "representante de un sindicato en el comité de empresa"
+        },
+        {
+            "@language": "en",
+            "@value": "a union official who represents a specific group of members and the union in union duties grievance matters and other employment conditions"
+        }
+    ]
+}

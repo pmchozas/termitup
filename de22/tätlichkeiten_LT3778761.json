@@ -1,0 +1,120 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3778761",
+    "@type": "skos:Concept",
+    "skos:inScheme": "tätlichkeiten",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1130469",
+    "skos:topConceptOf": "LT3778761",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "action for assault and battery"
+        },
+        {
+            "@language": "de",
+            "@value": "tätlichkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "vordering wegens mishandeling"
+        },
+        {
+            "@language": "en",
+            "@value": "to commit acts of violence,assault and battery"
+        },
+        {
+            "@language": "de",
+            "@value": "tätlichkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "tot handtastelijkheden jegens iemand overgaan"
+        },
+        {
+            "@language": "en",
+            "@value": "acts of violence"
+        },
+        {
+            "@language": "de",
+            "@value": "tätlichkeiten"
+        },
+        {
+            "@language": "nl",
+            "@value": "feitelijkheden"
+        },
+        {
+            "@language": "en",
+            "@value": "flagrantly illegal action"
+        },
+        {
+            "@language": "de",
+            "@value": "tätlichkeiten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "vordering wegens feitelijkheden"
+        },
+        {
+            "@language": "nl",
+            "@value": "vordering wegens geweldpleging"
+        },
+        {
+            "@language": "nl",
+            "@value": "vordering wegens het opzettelijk toebrengen van slagen en verwondingen"
+        },
+        {
+            "@language": "nl",
+            "@value": "tot feitelijkheden komen"
+        },
+        {
+            "@language": "en",
+            "@value": "assault and battery"
+        },
+        {
+            "@language": "de",
+            "@value": "Tätlichkeit"
+        },
+        {
+            "@language": "en",
+            "@value": "blatantly unlawful conduct"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "uitwendige lichamelijke gewelddadige handelingen"
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4789143",
+    "@type": "skos:Concept",
+    "skos:inScheme": "gebäude",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1667830",
+    "skos:topConceptOf": "LT4789143",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "building"
+        },
+        {
+            "@language": "de",
+            "@value": "gebäude"
+        },
+        {
+            "@language": "nl",
+            "@value": "bouw"
+        },
+        {
+            "@language": "en",
+            "@value": "building"
+        },
+        {
+            "@language": "de",
+            "@value": "gebäude"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebouw"
+        },
+        {
+            "@language": "es",
+            "@value": "edificios"
+        },
+        {
+            "@language": "en",
+            "@value": "building"
+        },
+        {
+            "@language": "de",
+            "@value": "gebäude"
+        },
+        {
+            "@language": "nl",
+            "@value": "gebouw"
+        },
+        {
+            "@language": "es",
+            "@value": "edificio inteligente"
+        },
+        {
+            "@language": "en",
+            "@value": "intelligent building"
+        },
+        {
+            "@language": "de",
+            "@value": "gebäude"
+        },
+        {
+            "@language": "nl",
+            "@value": "intelligent gebouw"
+        },
+        {
+            "@language": "de",
+            "@value": "gebäude"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "construction"
+        },
+        {
+            "@language": "de",
+            "@value": "Bauwerk"
+        },
+        {
+            "@language": "de",
+            "@value": "Gebäude"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbauung"
+        },
+        {
+            "@language": "nl",
+            "@value": "constructie"
+        },
+        {
+            "@language": "nl",
+            "@value": "bouwwerk"
+        },
+        {
+            "@language": "de",
+            "@value": "Hochbauten"
+        },
+        {
+            "@language": "en",
+            "@value": "smart building"
+        },
+        {
+            "@language": "en",
+            "@value": "smart home"
+        },
+        {
+            "@language": "de",
+            "@value": "intelligente häusliche Umgebung"
+        },
+        {
+            "@language": "de",
+            "@value": "intelligente Haussteuerung"
+        },
+        {
+            "@language": "de",
+            "@value": "intelligente Wohnung"
+        },
+        {
+            "@language": "de",
+            "@value": "intelligentes Gebäude"
+        },
+        {
+            "@language": "de",
+            "@value": "smartes Gebäude"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "a relatively permanentessentially boxlike construction having a roof and often windows and enclosing within its wall spaceusually more than 1 levelmany activitiesas livingentertaining etc."
+        },
+        {
+            "@language": "de",
+            "@value": "Bauwerk mit Nutzräumen im Inneren in der Regel allseitig geschlossen"
+        },
+        {
+            "@language": "nl",
+            "@value": "bouwwerk dat een voor mensen toegankelijke overdekte geheel of gedeeltelijk met wanden omsloten ruimte vormt"
+        },
+        {
+            "@language": "en",
+            "@value": "1.Something built with a roof and walls such as a house or factory."
+        },
+        {
+            "@language": "es",
+            "@value": "Edificio que cuenta con equipos de TI sofisticados capaces de mejorar la seguridad del personal y del edificio la atención sanitaria la gestión de la energía y de las emergencias y el confort del edificio."
+        },
+        {
+            "@language": "en",
+            "@value": "building that provides a productive and cost-effective environment based on three basic elements: 1) people 2) products and 3) processes and the interrelationships between them"
+        },
+        {
+            "@language": "de",
+            "@value": "Gebäude das ein produktives und kosteneffizientes Umfeld schafft und auf drei wesentlichen Elementen beruht: 1) Menschen 2) Produkten und 3) den Wechselbeziehungen zwischen diesen beiden."
+        },
+        {
+            "@language": "nl",
+            "@value": "gebouw dat in een geïntegreerd combineert geheel wat traditioneel twee afzonderlijke eenheden zijn:energiebeheer en kantoorautomatiseringssystemen.De diverse data/telecommunicatievoorzieningen die op huurbasis in een multitenantomgeving worden aangeboden"
+        }
+    ],
+    "skos:narrower": [
+        "LT4379031",
+        "LT9176253",
+        "LT1479895"
+    ],
+    "skos:related": [
+        "LT8704974",
+        "LT9481028",
+        "LT4529934",
+        "LT4701236"
+    ]
+}

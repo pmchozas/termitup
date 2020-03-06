@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3946526",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-freistehende",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3547165",
+    "skos:topConceptOf": "LT3946526",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-freistehende"
+        },
+        {
+            "@language": "es",
+            "@value": "escalera sin apoyo"
+        },
+        {
+            "@language": "en",
+            "@value": "free-standing ladder"
+        },
+        {
+            "@language": "de",
+            "@value": "-freistehende"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijstaande ladder"
+        },
+        {
+            "@language": "es",
+            "@value": "aislado"
+        },
+        {
+            "@language": "en",
+            "@value": "free standing"
+        },
+        {
+            "@language": "de",
+            "@value": "-freistehende"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijstaand"
+        },
+        {
+            "@language": "en",
+            "@value": "detached"
+        },
+        {
+            "@language": "de",
+            "@value": "-freistehende"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijstaand"
+        },
+        {
+            "@language": "en",
+            "@value": "detached house"
+        },
+        {
+            "@language": "de",
+            "@value": "-freistehende"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijstaand huis"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "herrenlose Sache"
+        },
+        {
+            "@language": "en",
+            "@value": "isolated"
+        },
+        {
+            "@language": "en",
+            "@value": "isolated house"
+        },
+        {
+            "@language": "en",
+            "@value": "isolated dwelling"
+        },
+        {
+            "@language": "de",
+            "@value": "freistehendes Haus"
+        },
+        {
+            "@language": "nl",
+            "@value": "alleenstaand huis"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijstaande woning"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Bei freistehenden Sachen besteht der Titel in der angeborenen Freiheit sie in Besitz zu nehmen. Die Erwerbungsart ist die Zueignung wodurch man sich einer freistehenden Sache bemächtigt in der Absicht sie als die seinige zu behandeln."
+        }
+    ]
+}

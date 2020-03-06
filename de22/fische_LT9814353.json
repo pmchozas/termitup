@@ -1,0 +1,194 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9814353",
+    "@type": "skos:Concept",
+    "skos:inScheme": "fische",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/53800",
+    "skos:topConceptOf": "LT9814353",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "pesca"
+        },
+        {
+            "@language": "en",
+            "@value": "fishing and fish farming"
+        },
+        {
+            "@language": "de",
+            "@value": "fische"
+        },
+        {
+            "@language": "nl",
+            "@value": "vis"
+        },
+        {
+            "@language": "en",
+            "@value": "fish"
+        },
+        {
+            "@language": "de",
+            "@value": "fische"
+        },
+        {
+            "@language": "nl",
+            "@value": "vissen"
+        },
+        {
+            "@language": "es",
+            "@value": "Piscis"
+        },
+        {
+            "@language": "en",
+            "@value": "Pisces"
+        },
+        {
+            "@language": "de",
+            "@value": "fische"
+        },
+        {
+            "@language": "nl",
+            "@value": "Vissen"
+        },
+        {
+            "@language": "en",
+            "@value": "finnfish"
+        },
+        {
+            "@language": "de",
+            "@value": "fische"
+        },
+        {
+            "@language": "es",
+            "@value": "peces voladores"
+        },
+        {
+            "@language": "en",
+            "@value": "flying fishes"
+        },
+        {
+            "@language": "de",
+            "@value": "fische"
+        },
+        {
+            "@language": "nl",
+            "@value": "vliegende vissen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "Fishes/the"
+        },
+        {
+            "@language": "de",
+            "@value": "Flugfische"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "any of numerous cold-blooded strictly aquatic waterbreathing craniate vertebrates"
+        },
+        {
+            "@language": "de",
+            "@value": "ueberklasse aus dem Unterstamm der Wirbeltiere"
+        },
+        {
+            "@language": "nl",
+            "@value": "superklasse uit de (onder) stam der gewervelde dieren"
+        },
+        {
+            "@language": "es",
+            "@value": "20 de Febrero-20 de Marzo (Astrología); ca. 20 de Enero-ca. 20 de Febrero (Astronomía)"
+        },
+        {
+            "@language": "en",
+            "@value": "February 20-March 20 (astrology); ca. January 20-ca. February 20 (astronomy)"
+        },
+        {
+            "@language": "de",
+            "@value": "20.Februar-20.März(Astrologie);ca.20.Januar-ca.20.Februar(Astronomie)"
+        },
+        {
+            "@language": "nl",
+            "@value": "20 februari t/m 20 maart(sterrenwichelarij);ca.20 januari-ca.20 februari(sterrenkunde)"
+        }
+    ],
+    "skos:broader": [
+        "LT1825858",
+        "LT8685677",
+        "LT5481272",
+        "LT5215135",
+        "LT5349723",
+        "LT2877803",
+        "LT3117919",
+        "LT6093483",
+        "LT6459830",
+        "LT3326401",
+        "LT9592293",
+        "LT4906495",
+        "LT9936380",
+        "LT9263648",
+        "LT6959879",
+        "LT1821497",
+        "LT9999260",
+        "LT4497673",
+        "LT3004951",
+        "LT8258337",
+        "LT3150870"
+    ],
+    "skos:related": [
+        "LT8277917",
+        "LT4306996",
+        "LT3584433",
+        "LT2576215",
+        "LT9388745",
+        "LT5720369",
+        "LT9783341",
+        "LT7515984",
+        "LT7642355",
+        "LT8457444",
+        "LT9336216",
+        "LT9006227",
+        "LT3520886",
+        "LT4816433",
+        "LT5685293",
+        "LT9809146",
+        "LT9275711",
+        "LT7688801",
+        "LT2836232",
+        "LT1606655",
+        "LT3596214"
+    ]
+}

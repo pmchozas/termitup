@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6116743",
+    "@type": "skos:Concept",
+    "skos:inScheme": "ehewohnung",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583712",
+    "skos:topConceptOf": "LT6116743",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "domicilio conyugal"
+        },
+        {
+            "@language": "en",
+            "@value": "matrimonial home"
+        },
+        {
+            "@language": "de",
+            "@value": "ehewohnung"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtelijke woning"
+        },
+        {
+            "@language": "de",
+            "@value": "ehewohnung"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "family home"
+        },
+        {
+            "@language": "nl",
+            "@value": "echtelijke verblijfplaats"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Sede física donde normalmente se desarrolla la vida en común que el matrimonio implica. [ES]"
+        },
+        {
+            "@language": "en",
+            "@value": "Any house caravan houseboat or other structure which has been provided or has been made available by one or both of the spouses or partners as or has become a family residence and includes any garden or other ground or building attached to and usually occupied with or otherwise required for the amenity or convenience of the house caravan houseboat or other structure [UK]"
+        },
+        {
+            "@language": "de",
+            "@value": "Als Ehewohnung ist jede Räumlichkeit anzusehen die während der Ehe beiden Ehegatten gemeinsam als Unterkunft dient bzw. gedient hat oder die dafür nach den Umständen bestimmt war. Nicht erforderlich ist dass die Wohnung den Mittelpunkt des ehelichen Zusammenlebens spielt bzw. gespielt hat. [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "De samenwoningsverplichting wordt uitgeoefend in de echtelijke verblijfplaats door de echtgenoten vastgesteld in onderlinge overeenstemming of door de vrederechter opgelegd in het belang van het gezin. De echtelijke verblijfplaats moet worden onderscheiden van de woonplaats van de echtgenoten. Elke echtgenoot kan een eigen woonplaats hebben. De echtelijke verblijfplaats kan gevestigd zijn in de gezamenlijke woonplaats van de echtgenoten in de woonplaats van één van de echtgenoten of elders. [BE]"
+        }
+    ]
+}

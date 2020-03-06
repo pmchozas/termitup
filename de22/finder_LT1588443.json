@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1588443",
+    "@type": "skos:Concept",
+    "skos:inScheme": "finder",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1414427",
+    "skos:topConceptOf": "LT1588443",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "discoverer"
+        },
+        {
+            "@language": "de",
+            "@value": "finder"
+        },
+        {
+            "@language": "nl",
+            "@value": "vinder"
+        },
+        {
+            "@language": "en",
+            "@value": "finder of treasure"
+        },
+        {
+            "@language": "de",
+            "@value": "finder"
+        },
+        {
+            "@language": "nl",
+            "@value": "vinder van een schat"
+        },
+        {
+            "@language": "es",
+            "@value": "lupa de pesca"
+        },
+        {
+            "@language": "en",
+            "@value": "fish-finder"
+        },
+        {
+            "@language": "de",
+            "@value": "finder"
+        },
+        {
+            "@language": "nl",
+            "@value": "visloep"
+        },
+        {
+            "@language": "es",
+            "@value": "encontrar salida"
+        },
+        {
+            "@language": "en",
+            "@value": "to sell"
+        },
+        {
+            "@language": "de",
+            "@value": "finder"
+        },
+        {
+            "@language": "nl",
+            "@value": "aftrek vinden"
+        },
+        {
+            "@language": "de",
+            "@value": "finder"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "erster finder"
+        },
+        {
+            "@language": "nl",
+            "@value": "ontdekker"
+        },
+        {
+            "@language": "en",
+            "@value": "fish loop"
+        },
+        {
+            "@language": "de",
+            "@value": "Fischlupe"
+        },
+        {
+            "@language": "es",
+            "@value": "venderse"
+        },
+        {
+            "@language": "en",
+            "@value": "to find a market"
+        },
+        {
+            "@language": "nl",
+            "@value": "flink verkocht worden"
+        },
+        {
+            "@language": "de",
+            "@value": "einen Arbeitsplatz finden"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Beschäftigung finden"
+        },
+        {
+            "@language": "de",
+            "@value": "eine Stelle finden"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "cathode raytube which shows an echo of the fish shoal and of the bottom as horizontal deflections from a vertical stripe of light"
+        },
+        {
+            "@language": "de",
+            "@value": "elektro-akustisches Gerät das speziell für Vertikal-und Horizontalortung eingesetzt wird. Das über den Bodenschwinger ausgesendete und zum Empfänger zurückkommende elektro-akustische Signal wird auf der Fischlupe (Braunsches Rohr) als vertikaler Strich dargestellt. Die Echodarstellung über Grund oder im Pelagial stehender Fische werden durch horizontale Auslenkungen des Kathodenstrahls sichtbar. Die Echodarstellung ist je nach Fischart verschieden"
+        },
+        {
+            "@language": "nl",
+            "@value": "een op het echolood aangesloten kathodestraalbuis waarop een gedeelte van de waterkolom tussen oscillator en zeebodem vergroot wordt weergegeven; op vissersvaartuigen gebruikt om meer informatie te verkrijgen over eventuele visconcentraties"
+        }
+    ]
+}

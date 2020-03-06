@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1186962",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erträgnisse",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1364608",
+    "skos:topConceptOf": "LT1186962",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "income"
+        },
+        {
+            "@language": "de",
+            "@value": "erträgnisse"
+        },
+        {
+            "@language": "nl",
+            "@value": "inkomen"
+        },
+        {
+            "@language": "es",
+            "@value": "derechos de autor"
+        },
+        {
+            "@language": "en",
+            "@value": "authors' royalties"
+        },
+        {
+            "@language": "de",
+            "@value": "erträgnisse"
+        },
+        {
+            "@language": "nl",
+            "@value": "schrijverseigendomsrecht"
+        },
+        {
+            "@language": "en",
+            "@value": "interest and amortisation payments are covered out of operating profits"
+        },
+        {
+            "@language": "de",
+            "@value": "erträgnisse"
+        },
+        {
+            "@language": "nl",
+            "@value": "rente en aflossing zijn gewaarborgd door de exploitatie-opbrengsten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Erträge"
+        },
+        {
+            "@language": "de",
+            "@value": "Erträgnisse"
+        },
+        {
+            "@language": "en",
+            "@value": "author's royalty"
+        },
+        {
+            "@language": "en",
+            "@value": "author's royalties"
+        },
+        {
+            "@language": "en",
+            "@value": "author royalty"
+        },
+        {
+            "@language": "en",
+            "@value": "royalties"
+        },
+        {
+            "@language": "en",
+            "@value": "royalty"
+        },
+        {
+            "@language": "en",
+            "@value": "creators' royalties"
+        },
+        {
+            "@language": "en",
+            "@value": "creator's royalty"
+        },
+        {
+            "@language": "en",
+            "@value": "creator's royalties"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "money or value received from any source"
+        },
+        {
+            "@language": "nl",
+            "@value": "periodiek uit arbeid of vermogen ontvangen bedrag"
+        },
+        {
+            "@language": "es",
+            "@value": "\"Artículo 1. Hecho generador. La propiedad intelectual de una obra literaria artística o científica corresponde al autor por el solo hecho de su creación. Artículo 2. Contenido. La propiedad intelectual está integrada por derechos de carácter personal y patrimonial que atribuyen al autor la plena disposición y el derecho exclusivo a la explotación de la obra sin más limitaciones que las establecidas en la Ley. Artículo 3. Características. Los derechos de autor son independientes compatibles y acumulables con: 1.º La propiedad y otros derechos que tengan por objeto la cosa material a la que está incorporada la creación intelectual. 2.º Los derechos de propiedad industrial que puedan existir sobre la obra. 3.º Los otros derechos de propiedad intelectual reconocidos en el Libro II de la presente Ley.\" (RCL 1996\\1382)"
+        },
+        {
+            "@language": "en",
+            "@value": "fees paid to authors or creators representing a share in the returns from the use of their work"
+        },
+        {
+            "@language": "nl",
+            "@value": "2)vergoeding aan de schrijver voor de afstand van zijn recht"
+        }
+    ]
+}

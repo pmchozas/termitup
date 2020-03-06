@@ -1,0 +1,132 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT9641309",
+    "@type": "skos:Concept",
+    "skos:inScheme": "rechtswohltat des inventars",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/786294",
+    "skos:topConceptOf": "LT9641309",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "beneficio de inventario"
+        },
+        {
+            "@language": "en",
+            "@value": "benefit of inventory"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtswohltat des inventars"
+        },
+        {
+            "@language": "nl",
+            "@value": "voorrecht van boedelbeschrijving"
+        },
+        {
+            "@language": "es",
+            "@value": "aceptación a beneficio de inventario"
+        },
+        {
+            "@language": "en",
+            "@value": "acceptance under benefit of inventory"
+        },
+        {
+            "@language": "de",
+            "@value": "rechtswohltat des inventars"
+        },
+        {
+            "@language": "nl",
+            "@value": "aanvaarding onder voorrecht van boedelbeschrijving"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "acceptance <i>sub beneficio inventarii</i>"
+        },
+        {
+            "@language": "en",
+            "@value": "as sub cum beneficio beneficium inventarii"
+        },
+        {
+            "@language": "de",
+            "@value": "Annahme unter dem Vorbehalt der Rechtswohltat des Inventars"
+        },
+        {
+            "@language": "de",
+            "@value": "Rechtswohltat des Inventariums"
+        },
+        {
+            "@language": "de",
+            "@value": "Inventarerrichtung"
+        },
+        {
+            "@language": "de",
+            "@value": "Annahme unter Vorbehalt eines Inventars"
+        },
+        {
+            "@language": "nl",
+            "@value": "beneficiaire aanvaarding"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "El derecho que tiene el heredero de no quedar obligado a pagar a los acreedores del difunto más de lo que importe la herencia IATE:848094  con tal de que haga inventario formal de los bienes en que consiste."
+        },
+        {
+            "@language": "en",
+            "@value": "principle that an heir's liability for estate debts is limited to the value of what is inherited if the heir so elects and files an inventory of the estate's assets"
+        },
+        {
+            "@language": "de",
+            "@value": "die Möglichkeit des Erben durch Errichtung eines Nachlassverzeichnisses (Inventarerrichtung) eine Beschränkung seiner Haftung für die Verbindlichkeiten des Erblassers zu erwirken"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"recht toegekend aan de erfgenaam krachtens hetwelk hij mits hij zorgt voor het in de vereiste vorm opmaken van een staat van de baten en lasten van de boedel niet aansprakelijk is voor de lasten voor zover deze de baten te boven gaan.\""
+        },
+        {
+            "@language": "es",
+            "@value": "En general se acoge al beneficio de inventario el llamado que acepta la herencia sin querer comprometer su patrimonio particular (...). Con este beneficio el heredero consigue que el patrimonio del causante o la parte de este patrimonio relicto que hereda permanezca separado del patrimonio particular del heredero hasta que se haya pagado a todos los acreedores conocidos del causante IATE:2217762  a los legitimarios y a los legatarios. Hecho esto y suponiendo que quede un remanente activo en la herencia ingresará éste y se confundirá con el patrimonio del heredero (...)."
+        },
+        {
+            "@language": "en",
+            "@value": "acceptance of an inheritance or legacy limiting liability for debts to the value of what is inherited if the heir so elects and files an inventory of the estate's assets"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"het slechts in aanmerking willen komen voor het eventueel batig saldo van een nalatenschap zonder aansprakelijk te zijn voor de schulden uit die nalatenschap\""
+        }
+    ]
+}

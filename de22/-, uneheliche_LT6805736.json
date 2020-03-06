@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT6805736",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-, uneheliche",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583456",
+    "skos:topConceptOf": "LT6805736",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "hijo natural"
+        },
+        {
+            "@language": "en",
+            "@value": "natural child"
+        },
+        {
+            "@language": "de",
+            "@value": "-, uneheliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "kind dat niet in familierechtelijke betrekking tot zijn verwekker staat"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo no matrimonial"
+        },
+        {
+            "@language": "en",
+            "@value": "child born out of wedlock"
+        },
+        {
+            "@language": "de",
+            "@value": "-, uneheliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "buiten huwelijk geboren kind"
+        },
+        {
+            "@language": "de",
+            "@value": "-, uneheliche"
+        },
+        {
+            "@language": "en",
+            "@value": "illegitimate birth"
+        },
+        {
+            "@language": "de",
+            "@value": "-, uneheliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitenechtelijke geboorte"
+        },
+        {
+            "@language": "en",
+            "@value": "half-sister born out of parental wedlock"
+        },
+        {
+            "@language": "de",
+            "@value": "-, uneheliche"
+        },
+        {
+            "@language": "nl",
+            "@value": "natuurlijke zuster"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "hijo extramatrimonial"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo ilegítimo"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo no matrimonial"
+        },
+        {
+            "@language": "en",
+            "@value": "illegitimate child"
+        },
+        {
+            "@language": "en",
+            "@value": "child born out of wedlock"
+        },
+        {
+            "@language": "de",
+            "@value": "Kind, dessen Eltern nicht miteinander verheiratet sind"
+        },
+        {
+            "@language": "de",
+            "@value": "uneheliches Kind"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitenhuwelijks kind"
+        },
+        {
+            "@language": "nl",
+            "@value": "natuurlijk kind"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo natural"
+        },
+        {
+            "@language": "es",
+            "@value": "hijo ilegítimo"
+        },
+        {
+            "@language": "en",
+            "@value": "illegitimate child"
+        },
+        {
+            "@language": "en",
+            "@value": "natural child"
+        },
+        {
+            "@language": "de",
+            "@value": "nichteheliches Kind"
+        },
+        {
+            "@language": "de",
+            "@value": "außereheliches Kind"
+        },
+        {
+            "@language": "nl",
+            "@value": "onwettig kind"
+        },
+        {
+            "@language": "nl",
+            "@value": "natuurlijk kind"
+        },
+        {
+            "@language": "de",
+            "@value": "nichteheliches Kind"
+        },
+        {
+            "@language": "en",
+            "@value": "birth out of wedlock"
+        },
+        {
+            "@language": "nl",
+            "@value": "onechte zuster"
+        },
+        {
+            "@language": "nl",
+            "@value": "onechtelijke zuster"
+        },
+        {
+            "@language": "nl",
+            "@value": "buitenechtelijke zus"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Hijo de padre y madre no unidos entre sí por matrimonio. [ES]"
+        },
+        {
+            "@language": "nl",
+            "@value": "Een buitenhuwelijks kind is een kind wiens ouders niet gehuwd zijn op het ogenblik van verwekking of geboorte. [BE]"
+        },
+        {
+            "@language": "es",
+            "@value": "Hijo cuyos progenitores no están casados."
+        },
+        {
+            "@language": "de",
+            "@value": "Kinder die von einer Frau geboren werden die noch nie verheiratet war und solche die nach Scheidung Aufhebung oder Nichtigerklärung der Ehe ihrer Mutter oder nach Ablauf des 300. Tages nach dem Tod des Ehemanns geboren werden."
+        }
+    ]
+}

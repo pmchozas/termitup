@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3777021",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-liquidation",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/793085",
+    "skos:topConceptOf": "LT3777021",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "liquidación"
+        },
+        {
+            "@language": "en",
+            "@value": "winding up"
+        },
+        {
+            "@language": "de",
+            "@value": "-liquidation"
+        },
+        {
+            "@language": "nl",
+            "@value": "liquidatie"
+        },
+        {
+            "@language": "es",
+            "@value": "liquidación judicial"
+        },
+        {
+            "@language": "en",
+            "@value": "judicial liquidation"
+        },
+        {
+            "@language": "de",
+            "@value": "-liquidation"
+        },
+        {
+            "@language": "nl",
+            "@value": "gerechtelijke vereffening"
+        },
+        {
+            "@language": "es",
+            "@value": "liquidación del IME"
+        },
+        {
+            "@language": "en",
+            "@value": "liquidation of the EMI"
+        },
+        {
+            "@language": "de",
+            "@value": "-liquidation"
+        },
+        {
+            "@language": "nl",
+            "@value": "liquidatie van het EMI"
+        },
+        {
+            "@language": "en",
+            "@value": "to enter into liquidation"
+        },
+        {
+            "@language": "de",
+            "@value": "-liquidation"
+        },
+        {
+            "@language": "es",
+            "@value": "liquidación voluntaria"
+        },
+        {
+            "@language": "en",
+            "@value": "voluntary liquidation"
+        },
+        {
+            "@language": "de",
+            "@value": "-liquidation"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijwillige liquidatie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "winding-up"
+        },
+        {
+            "@language": "en",
+            "@value": "liquidation"
+        },
+        {
+            "@language": "en",
+            "@value": "voluntary winding up"
+        },
+        {
+            "@language": "nl",
+            "@value": "vrijwillige vereffening"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "En el contexto de la disolución de una sociedad ajuste final de su activo y su pasivo pagando a los acreedores y repartiendo el capital remanente si lo hubiere entre los accionistas."
+        },
+        {
+            "@language": "en",
+            "@value": "\"The process by which a joint-stock company's existence as a legal entity ceases by the winding-up of the company. Such a process can be initiated at the behest of the creditors where the company is insolvent (a compulsory winding-up) or by the company directors or shareholders in which case it is known as a voluntary winding-up IATE:1070728 .\""
+        },
+        {
+            "@language": "de",
+            "@value": "Vereinigtes Königreich. Es handelt sich nicht um ein speziell konkursrechtliches Verfahren sondern um ein Rechtsinstitut das verschiedene Varianten kennt und verschiedenen Zwecken dient. Gemeinsames Merkmal aller Varianten ist dass die Aktiva veräussert und die Veräusserungserlöse unter die Berechtigten (Gesellschafter und Gläubiger) mit dem Ziel verteilt werden die Gesellschaft zum Erlöschen zu bringen (s. Quelle S.55)."
+        },
+        {
+            "@language": "nl",
+            "@value": "\"vereffening verevening afwikkeling van het vermogen van een ontbonden rechtspersoon\""
+        },
+        {
+            "@language": "en",
+            "@value": "to start the act or process of ending the existence of a company"
+        },
+        {
+            "@language": "en",
+            "@value": "the situation in which a company itself decides that it must close and sell its assets"
+        },
+        {
+            "@language": "de",
+            "@value": "Verfahren zur Geschäftsauflösung das angewandt wird wenn die Auflösung nicht aufgrund des Widerrufs der Geschäftserlaubnis durch die Aufsichtsbehörde erfolgt"
+        },
+        {
+            "@language": "nl",
+            "@value": "situatie waarbij de leiding en aandeelhouders van een onderneming zelf beslissen de onderneming stop te zetten"
+        }
+    ]
+}

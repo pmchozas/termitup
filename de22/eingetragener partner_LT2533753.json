@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT2533753",
+    "@type": "skos:Concept",
+    "skos:inScheme": "eingetragener partner",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583594",
+    "skos:topConceptOf": "LT2533753",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "pareja registrada"
+        },
+        {
+            "@language": "en",
+            "@value": "partner in a registered partnership"
+        },
+        {
+            "@language": "de",
+            "@value": "eingetragener partner"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijk samenwonende"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "pareja de hecho registrada"
+        },
+        {
+            "@language": "en",
+            "@value": "civil partner"
+        },
+        {
+            "@language": "de",
+            "@value": "eingetragener Lebenspartner"
+        },
+        {
+            "@language": "de",
+            "@value": "eingetragener Partner"
+        },
+        {
+            "@language": "nl",
+            "@value": "geregistreerde partner"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Persona que forma parte de una unión no matrimonial registrada."
+        },
+        {
+            "@language": "de",
+            "@value": "Person die mit einer anderen Person in einer Lebensgemeinschaft als Paar zusammenlebt und diese Lebensgemeinschaft bei einer gesetzlich hierzu bestimmten Behörde hat eintragen lassen"
+        },
+        {
+            "@language": "nl",
+            "@value": "Persoon die als koppel samenleeft en die dit samenleven heeft geregistreerd bij een bij wet ingestelde openbare instantie van de lidstaat waar zij wonen. [UE]"
+        }
+    ]
+}

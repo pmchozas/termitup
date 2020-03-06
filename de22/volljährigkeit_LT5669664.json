@@ -1,0 +1,144 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT5669664",
+    "@type": "skos:Concept",
+    "skos:inScheme": "volljährigkeit",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/3583678",
+    "skos:topConceptOf": "LT5669664",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "mayor edad"
+        },
+        {
+            "@language": "en",
+            "@value": "full age"
+        },
+        {
+            "@language": "de",
+            "@value": "volljährigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "meerderjarigheid"
+        },
+        {
+            "@language": "es",
+            "@value": "mayoría de edad"
+        },
+        {
+            "@language": "en",
+            "@value": "age of legal majority"
+        },
+        {
+            "@language": "de",
+            "@value": "volljährigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "meerderjarigheid"
+        },
+        {
+            "@language": "es",
+            "@value": "mayoría de edad"
+        },
+        {
+            "@language": "en",
+            "@value": "majority"
+        },
+        {
+            "@language": "de",
+            "@value": "volljährigkeit"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijke meerderjarigheid"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "mayoría de edad"
+        },
+        {
+            "@language": "en",
+            "@value": "age of majority"
+        },
+        {
+            "@language": "en",
+            "@value": "majority"
+        },
+        {
+            "@language": "de",
+            "@value": "Volljährigkeit"
+        },
+        {
+            "@language": "es",
+            "@value": "mayor edad"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "de",
+            "@value": "Lebensalter mit dem der Mensch die unbeschränkte Geschäftsfähigkeit erlangt = Vollendung des 18. Lebensjahres (§ 2 BGB) [DE]"
+        },
+        {
+            "@language": "nl",
+            "@value": "het bereikt hebben van de voor handelingsbekwaamheid vereiste leeftijd van 18 jaar"
+        },
+        {
+            "@language": "en",
+            "@value": "age at which a person is legally a full adult"
+        },
+        {
+            "@language": "de",
+            "@value": "sie tritt regelmaessig mit der Vollendung des 18.Lebensjahrs ein"
+        },
+        {
+            "@language": "es",
+            "@value": "1.- \"Mayoría de edad: Adquisición de la plena capacidad jurídica por el hecho de cumplir los años que la legislación de cada país requiera y en las diversas ramas del Derecho; si bien la establecida en el Derecho Civil es la genérica...\". 2.- \"Mayor edad: Como institución uno de los sinónimos de mayoría de edad\"."
+        },
+        {
+            "@language": "en",
+            "@value": "full legal age"
+        },
+        {
+            "@language": "de",
+            "@value": "Die Volljährigkeit tritt gemäß § 2 BGB (DE) mit Vollendung des 18. Lebensjahres ein; sie ist z.B. Voraussetzung für die volle Geschäftsfähigkeit und die Ehefähigkeit."
+        },
+        {
+            "@language": "nl",
+            "@value": "\"(gezinsrecht) [de bij wet vastgelegde] voor handelingsbekwaamheid vereiste leeftijd (...); bovendien wordt een minderjarige die huwt daardoor meerderjarig (art. 1:233 BW)\"."
+        }
+    ]
+}

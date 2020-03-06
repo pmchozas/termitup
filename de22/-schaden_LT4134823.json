@@ -1,0 +1,224 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4134823",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-schaden",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/761143",
+    "skos:topConceptOf": "LT4134823",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "perjuicio"
+        },
+        {
+            "@language": "en",
+            "@value": "damage"
+        },
+        {
+            "@language": "de",
+            "@value": "-schaden"
+        },
+        {
+            "@language": "nl",
+            "@value": "schadelijk gevolg"
+        },
+        {
+            "@language": "es",
+            "@value": "perjudicar"
+        },
+        {
+            "@language": "en",
+            "@value": "prejudice"
+        },
+        {
+            "@language": "de",
+            "@value": "-schaden"
+        },
+        {
+            "@language": "nl",
+            "@value": "schade berokkenen"
+        },
+        {
+            "@language": "en",
+            "@value": "burst"
+        },
+        {
+            "@language": "de",
+            "@value": "-schaden"
+        },
+        {
+            "@language": "nl",
+            "@value": "scheur"
+        },
+        {
+            "@language": "es",
+            "@value": "avería"
+        },
+        {
+            "@language": "en",
+            "@value": "breakdown"
+        },
+        {
+            "@language": "de",
+            "@value": "-schaden"
+        },
+        {
+            "@language": "nl",
+            "@value": "uitvallen"
+        },
+        {
+            "@language": "de",
+            "@value": "-schaden"
+        },
+        {
+            "@language": "nl",
+            "@value": "schadegeval,schade"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "harm"
+        },
+        {
+            "@language": "de",
+            "@value": "Schädigung"
+        },
+        {
+            "@language": "de",
+            "@value": "Nachteil"
+        },
+        {
+            "@language": "nl",
+            "@value": "schade"
+        },
+        {
+            "@language": "es",
+            "@value": "menoscabar"
+        },
+        {
+            "@language": "de",
+            "@value": "schädigen"
+        },
+        {
+            "@language": "de",
+            "@value": "Schaden zufügen"
+        },
+        {
+            "@language": "de",
+            "@value": "nachteilig sein"
+        },
+        {
+            "@language": "de",
+            "@value": "von Nachteil sein"
+        },
+        {
+            "@language": "de",
+            "@value": "beeinträchtigen"
+        },
+        {
+            "@language": "de",
+            "@value": "Huelsenschaden"
+        },
+        {
+            "@language": "de",
+            "@value": "Brennelement Huellenschaden"
+        },
+        {
+            "@language": "de",
+            "@value": "BE Huellenschaden"
+        },
+        {
+            "@language": "de",
+            "@value": "Riss"
+        },
+        {
+            "@language": "de",
+            "@value": "Schaden"
+        },
+        {
+            "@language": "en",
+            "@value": "failure"
+        },
+        {
+            "@language": "en",
+            "@value": "trouble"
+        },
+        {
+            "@language": "de",
+            "@value": "Panne"
+        },
+        {
+            "@language": "de",
+            "@value": "Stoerung"
+        },
+        {
+            "@language": "de",
+            "@value": "Schaden"
+        },
+        {
+            "@language": "de",
+            "@value": "Schadensereignis"
+        },
+        {
+            "@language": "de",
+            "@value": "Schadensfall"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Se considera daño el menoscabo material o moral causado a una persona y del que por ser responsable otra habrá de responder del mismo esta segunda ante la primera.Aunque suele hablarse de daños y perjuicios de manera conjunta cabe distinguirlos: los daños son los menoscabos directos mientras que los perjuicios son los menoscabos derivados de los daños."
+        },
+        {
+            "@language": "en",
+            "@value": "loss or detriment caused by hurt or injury affecting estate condition or circumstances."
+        },
+        {
+            "@language": "de",
+            "@value": "jeder Nachteil welcher jemanden an Vermögen Rechten oder seiner Person zugefügt worden ist"
+        },
+        {
+            "@language": "nl",
+            "@value": "Nadeel waardoor iemand in zijn vermogen of in andere belangen (zogenoemde onstoffelijke schade) kan worden getroffen. Vermogensschade omvat zowel geleden verlies als gederfde winst; de benadeelde heeft ook recht op vergoeding van gemaakte kosten voorzover die redelijk zijn."
+        },
+        {
+            "@language": "es",
+            "@value": "daño que impide el funcionamiento de un aparato instalación etc."
+        },
+        {
+            "@language": "en",
+            "@value": "accidental failure of a machine or installation"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7738728",
+    "@type": "skos:Concept",
+    "skos:inScheme": "privilegien",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/160050",
+    "skos:topConceptOf": "LT7738728",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "privilegio aeroportuario"
+        },
+        {
+            "@language": "en",
+            "@value": "airport privilege"
+        },
+        {
+            "@language": "de",
+            "@value": "privilegien"
+        },
+        {
+            "@language": "nl",
+            "@value": "luchthavenvoorrecht"
+        },
+        {
+            "@language": "en",
+            "@value": "privileges and immunities"
+        },
+        {
+            "@language": "de",
+            "@value": "privilegien"
+        },
+        {
+            "@language": "es",
+            "@value": "principio del mínimo privilegio"
+        },
+        {
+            "@language": "en",
+            "@value": "principle of least privilege"
+        },
+        {
+            "@language": "de",
+            "@value": "privilegien"
+        },
+        {
+            "@language": "es",
+            "@value": "Convenio internacional para la unificación de ciertas reglas relativas a privilegios e hipotecas marítimas"
+        },
+        {
+            "@language": "en",
+            "@value": "International Convention for the Unification of Certain Rules relating to Maritime Liens and Mortgages"
+        },
+        {
+            "@language": "de",
+            "@value": "privilegien"
+        },
+        {
+            "@language": "nl",
+            "@value": "Internationaal Verdrag tot eenmaking van enige regelen inzake scheepsvoorrechten en scheepshypotheken"
+        },
+        {
+            "@language": "es",
+            "@value": "Quinto Protocolo Adicional al Acuerdo General sobre Privilegios e Inmunidades del Consejo de Europa"
+        },
+        {
+            "@language": "en",
+            "@value": "Fifth Protocol to the General Agreement on Privileges and Immunities of the Council of Europe"
+        },
+        {
+            "@language": "de",
+            "@value": "privilegien"
+        },
+        {
+            "@language": "nl",
+            "@value": "Vijfde Aanvullend Protocol bij het Algemeen Verdrag nopens de voorrechten en immuniteiten van de Raad van Europa"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Privilegien und Immunitäten"
+        },
+        {
+            "@language": "en",
+            "@value": "principle of least authority"
+        },
+        {
+            "@language": "en",
+            "@value": "POLP"
+        },
+        {
+            "@language": "en",
+            "@value": "principle of minimal privilege"
+        },
+        {
+            "@language": "en",
+            "@value": "least privilege"
+        },
+        {
+            "@language": "de",
+            "@value": "Prinzip der geringsten Zugriffsrechte"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "rule that in a computing environment every module (a user a system component or a process) should have the minimal privileges or authority necessary to perform its function"
+        },
+        {
+            "@language": "de",
+            "@value": "besagt daß nur diejenigen Zugriffsrechte gewährt werden die zur Durchführung einer bestimmten Tätigkeit erforderlich sind"
+        },
+        {
+            "@language": "es",
+            "@value": "Acuerdo entre Estados miembros del Consejo de Europa IATE:857218 que lleva el n.° 137 de la Serie de Tratados Europeos IATE:874111 de dicha organización. \nContiene disposiciones de modificación del Acuerdo General sobre Privilegios e Inmunidades del Consejo de Europa IATE:769202 específicas para los miembros de la Comisión Europea de Derechos Humanos IATE:783370 y del Tribunal Europeo de Derechos Humanos IATE:783376 a tenor de la reglamentación anterior a la entrada en vigor del Protocolo n.° 11 IATE:883266 del Convenio Europeo de Derechos Humanos IATE:805084  por lo que ya no se efectúan nuevas firmas ni ratificaciones de este Protocolo."
+        },
+        {
+            "@language": "en",
+            "@value": "The Fifth Protocol provides that the members of the European Commission of Human Rights and of the European Court of Human Rights are exempted from taxation on salaries emoluments and allowances paid to them by the Council of Europe."
+        }
+    ]
+}

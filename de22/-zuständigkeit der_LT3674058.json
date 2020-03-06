@@ -1,0 +1,120 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3674058",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-zuständigkeit der",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1048035",
+    "skos:topConceptOf": "LT3674058",
+    "skos:prefLabel": [
+        {
+            "@language": "de",
+            "@value": "-zuständigkeit der"
+        },
+        {
+            "@language": "en",
+            "@value": "executive competence"
+        },
+        {
+            "@language": "de",
+            "@value": "-zuständigkeit der"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevoegdheid van de uitvoerende macht"
+        },
+        {
+            "@language": "es",
+            "@value": "competencia comunitaria"
+        },
+        {
+            "@language": "en",
+            "@value": "Community competence"
+        },
+        {
+            "@language": "de",
+            "@value": "-zuständigkeit der"
+        },
+        {
+            "@language": "nl",
+            "@value": "communautaire bevoegdheid"
+        },
+        {
+            "@language": "es",
+            "@value": "competencias comunitarias"
+        },
+        {
+            "@language": "en",
+            "@value": "Community powers"
+        },
+        {
+            "@language": "de",
+            "@value": "-zuständigkeit der"
+        },
+        {
+            "@language": "es",
+            "@value": "competencias de los Estados miembros"
+        },
+        {
+            "@language": "en",
+            "@value": "competence of the Member States"
+        },
+        {
+            "@language": "de",
+            "@value": "-zuständigkeit der"
+        },
+        {
+            "@language": "nl",
+            "@value": "bevoegdheid van de lidstaten"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Gesetz über die Zustandigkeit der Polizeibehörden"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Competencias que los Estados miembros atribuyen a la Unión Europea (UE) en determinados ámbitos."
+        },
+        {
+            "@language": "en",
+            "@value": "Community powers are those that are conferred on the European Union (EU) in specific areas by the Member States. There are three types of powers which depend on how they are conferred : Explicit powers: these are clearly defined in the relevant articles of the Treaties. Implicit powers: according to the implicit powers theory competence in external matters derives from explicit internal competence. Where the Treaties assign explicit powers to the Community in a particular area (e.g. transport) it must also have similar powers to conclude agreements with non-Community countries in the same field (the principle of parallelism between internal and external powers)"
+        },
+        {
+            "@language": "de",
+            "@value": "Unter Gemeinschaftszuständigkeit sind die Befugnisse zu verstehen welche die Mitgliedstaaten der Europäischen Union (EU) in bestimmten Bereichen zuweisen. Es gibt drei Arten der Zuständigkeit : Explizite Zuständigkeit: Die entsprechenden Befugnisse werden ausdrücklich in bestimmten Vertragsartikeln genannt. Implizite Zuständigkeit: Nach der Theorie der impliziten Zuständigkeit leitet sich die externe Zuständigkeit aus einer expliziten internen Zuständigkeit ab. Besitzt also die Gemeinschaft aufgrund der Verträge die ausdrückliche Zuständigkeit für einen bestimmten Bereich (z. B. das Verkehrswesen) dann muss sie in diesem Bereich auch über entsprechende Befugnisse zum Abschluss von Verträgen mit Drittländern verfügen (Grundsatz der Parallelität zwischen interner und externer Zuständigkeit). Subsidiäre Zuständigkeit: Für den Fall dass die Gemeinschaft weder die explizite noch die implizite Zuständigkeit besitzt um eines der Vertragsziele im Zusammenhang mit dem Binnenmarkt zu erreichen räumt Artikel 308 des Vertrags zur Gründung der Europäischen Gemeinschaft dem Rat die Möglichkeit ein einstimmig die seiner Auffassung nach geeigneten Vorschriften zu erlassen"
+        }
+    ]
+}

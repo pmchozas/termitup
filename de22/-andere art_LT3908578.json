@@ -1,0 +1,260 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3908578",
+    "@type": "skos:Concept",
+    "skos:inScheme": "-andere art",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1624114",
+    "skos:topConceptOf": "LT3908578",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "especie"
+        },
+        {
+            "@language": "en",
+            "@value": "species"
+        },
+        {
+            "@language": "de",
+            "@value": "-andere art"
+        },
+        {
+            "@language": "nl",
+            "@value": "soort"
+        },
+        {
+            "@language": "es",
+            "@value": "técnicas de reproducción asistida"
+        },
+        {
+            "@language": "en",
+            "@value": "ART"
+        },
+        {
+            "@language": "de",
+            "@value": "-andere art"
+        },
+        {
+            "@language": "nl",
+            "@value": "geassisteerde voortplantingstechnologie"
+        },
+        {
+            "@language": "es",
+            "@value": "raza"
+        },
+        {
+            "@language": "en",
+            "@value": "strain"
+        },
+        {
+            "@language": "de",
+            "@value": "-andere art"
+        },
+        {
+            "@language": "nl",
+            "@value": "cultivar"
+        },
+        {
+            "@language": "es",
+            "@value": "ART"
+        },
+        {
+            "@language": "en",
+            "@value": "ART"
+        },
+        {
+            "@language": "de",
+            "@value": "-andere art"
+        },
+        {
+            "@language": "nl",
+            "@value": "Advanced Reasoning Tool"
+        },
+        {
+            "@language": "es",
+            "@value": "multiterapia"
+        },
+        {
+            "@language": "en",
+            "@value": "ART"
+        },
+        {
+            "@language": "de",
+            "@value": "-andere art"
+        },
+        {
+            "@language": "nl",
+            "@value": "multitherapie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "sp."
+        },
+        {
+            "@language": "es",
+            "@value": "spp."
+        },
+        {
+            "@language": "de",
+            "@value": "Spezies"
+        },
+        {
+            "@language": "de",
+            "@value": "Species"
+        },
+        {
+            "@language": "de",
+            "@value": "sp."
+        },
+        {
+            "@language": "de",
+            "@value": "spec."
+        },
+        {
+            "@language": "nl",
+            "@value": "species"
+        },
+        {
+            "@language": "en",
+            "@value": "assisted reproduction technology"
+        },
+        {
+            "@language": "en",
+            "@value": "assisted reproductive technology"
+        },
+        {
+            "@language": "en",
+            "@value": "assisted reproductive techniques"
+        },
+        {
+            "@language": "de",
+            "@value": "ART"
+        },
+        {
+            "@language": "nl",
+            "@value": "ART"
+        },
+        {
+            "@language": "nl",
+            "@value": "GVT"
+        },
+        {
+            "@language": "es",
+            "@value": "estirpe"
+        },
+        {
+            "@language": "es",
+            "@value": "cepa"
+        },
+        {
+            "@language": "de",
+            "@value": "Zuechtungsstamm"
+        },
+        {
+            "@language": "en",
+            "@value": "Advanced Reasoning Tool"
+        },
+        {
+            "@language": "en",
+            "@value": "antiretroviral therapy"
+        },
+        {
+            "@language": "en",
+            "@value": "highly active antiretroviral therapy"
+        },
+        {
+            "@language": "en",
+            "@value": "antiretroviral treatment"
+        },
+        {
+            "@language": "en",
+            "@value": "anti-retroviral treatment"
+        },
+        {
+            "@language": "en",
+            "@value": "combination therapy"
+        },
+        {
+            "@language": "en",
+            "@value": "combined antiretroviral therapy"
+        },
+        {
+            "@language": "de",
+            "@value": "Antiretrovirale Therapie"
+        },
+        {
+            "@language": "de",
+            "@value": "Multitherapie"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Categoría taxonómica IATE:3546819 básica que se encuentra por debajo del género IATE:812865 y que agrupa a la población o serie de poblaciones de organismos que pueden aparearse entre sí pero no con miembros de otras especies."
+        },
+        {
+            "@language": "en",
+            "@value": "basic unit of taxonomic classification on which the binomial (Linnaean) classification system has been established immediately beneath the taxonomic rank [ IATE:3546819 ] of subgenus [ IATE:1225011 ] but immediately above the taxonomic rank of subspecies [ IATE:1624378 ] in the extended binomial (Linnaean) classification system and comprising a group of similar interbreeding individuals sharing a common morphology physiology and reproductive process and which produce fertile offspring"
+        },
+        {
+            "@language": "de",
+            "@value": "Grundeinheit der biologischen Systematik."
+        },
+        {
+            "@language": "nl",
+            "@value": "in biologische zin \"ge­heel van in­di­vi­du­en die in al­le enigs­zins be­lang­rijk ge­ach­te ken­mer­ken met el­kaar en met hun na­ko­me­lin­gen over­een­ko­men\""
+        },
+        {
+            "@language": "en",
+            "@value": "all treatments that include in vitro handling of human gametes (eggs and sperm) and embryos to establish a pregnancy"
+        },
+        {
+            "@language": "nl",
+            "@value": "alle medische technieken die het voor onvruchtbare paren mogelijk maken zich voort te planten"
+        },
+        {
+            "@language": "en",
+            "@value": "an integrated tool-kit for building knowledge based systems"
+        },
+        {
+            "@language": "de",
+            "@value": "marktgängige Expertensystem-Shell die auf LISP-Rechnern implementiert ist"
+        },
+        {
+            "@language": "en",
+            "@value": "recommended treatment for HIV1 infection using a combination of three or more antiretroviral (ARV) drugs2 from at least two different HIV drug classes to prevent HIV from replicating1 human immunodeficiency virus (HIV) [ IATE:1073859 ]2 antiretroviral (ARV) drug [ IATE:1687061 ]"
+        }
+    ]
+}

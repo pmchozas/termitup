@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3234600",
+    "@type": "skos:Concept",
+    "skos:inScheme": "lotterie",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1574977",
+    "skos:topConceptOf": "LT3234600",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "sorteo"
+        },
+        {
+            "@language": "en",
+            "@value": "lottery"
+        },
+        {
+            "@language": "de",
+            "@value": "lotterie"
+        },
+        {
+            "@language": "nl",
+            "@value": "loterij"
+        },
+        {
+            "@language": "es",
+            "@value": "lotería del tipo cadena de dinero"
+        },
+        {
+            "@language": "en",
+            "@value": "money-chain lottery"
+        },
+        {
+            "@language": "de",
+            "@value": "lotterie"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"chaîne d'argent\"-loterij"
+        },
+        {
+            "@language": "en",
+            "@value": "Netherlands General Lottery"
+        },
+        {
+            "@language": "de",
+            "@value": "lotterie"
+        },
+        {
+            "@language": "nl",
+            "@value": "Stichting Algemene Loterij Nederland"
+        },
+        {
+            "@language": "es",
+            "@value": "muestreo por extracciones aleatorias"
+        },
+        {
+            "@language": "en",
+            "@value": "ticket sampling"
+        },
+        {
+            "@language": "de",
+            "@value": "lotterie"
+        },
+        {
+            "@language": "nl",
+            "@value": "willekeurige steekproefname"
+        },
+        {
+            "@language": "es",
+            "@value": "loterías y juegos de azar"
+        },
+        {
+            "@language": "en",
+            "@value": "lotteries and gambling"
+        },
+        {
+            "@language": "de",
+            "@value": "lotterie"
+        },
+        {
+            "@language": "nl",
+            "@value": "loterijen en kansspelen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": "rifa"
+        },
+        {
+            "@language": "en",
+            "@value": "lottery sampling"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "procedimiento de concesión de licencias basado en la realización de un sorteo que se ha utilizado sobre todo en Estados Unidos"
+        },
+        {
+            "@language": "en",
+            "@value": "game often organised by the state or a charity in order to make money in which tickets with numbers are sold to people who then have a chance of winning a prize if their number is chosen"
+        },
+        {
+            "@language": "de",
+            "@value": "ein Glücksspiel bei dem der Spieler gegen einen finanziellen Einsatz auf das Ziehen vorher getippter Zahlen aus einer begrenzten Zahlenmenge setzt"
+        },
+        {
+            "@language": "nl",
+            "@value": "spel waarbij men na aankoop van een bewijs van deelneming geld of goed kan winnen en waarbij de winnaars worden aangewezen door het lot of enige andere kansbepaling waarop ze geen overwegende invloed kunnen uitoefenen"
+        },
+        {
+            "@language": "en",
+            "@value": "a method of selecting a random sample in which the characteristics of each member of the population are noted on a separate card and the required number of cards are drawn from the resulting pack"
+        }
+    ]
+}

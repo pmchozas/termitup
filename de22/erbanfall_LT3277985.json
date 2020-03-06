@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT3277985",
+    "@type": "skos:Concept",
+    "skos:inScheme": "erbanfall",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1443667",
+    "skos:topConceptOf": "LT3277985",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "apertura de la sucesión"
+        },
+        {
+            "@language": "en",
+            "@value": "opening of the succession"
+        },
+        {
+            "@language": "de",
+            "@value": "erbanfall"
+        },
+        {
+            "@language": "nl",
+            "@value": "openvallen van de nalatenschap"
+        },
+        {
+            "@language": "es",
+            "@value": "sucesión"
+        },
+        {
+            "@language": "en",
+            "@value": "succession"
+        },
+        {
+            "@language": "de",
+            "@value": "erbanfall"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfenis"
+        },
+        {
+            "@language": "es",
+            "@value": "reversión"
+        },
+        {
+            "@language": "en",
+            "@value": "escheat"
+        },
+        {
+            "@language": "de",
+            "@value": "erbanfall"
+        },
+        {
+            "@language": "nl",
+            "@value": "vervallen van goederen aan de Staat"
+        },
+        {
+            "@language": "es",
+            "@value": "sucesión en línea directa"
+        },
+        {
+            "@language": "en",
+            "@value": "inheritance in direct line"
+        },
+        {
+            "@language": "de",
+            "@value": "erbanfall"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkrijging in de rechte linie"
+        },
+        {
+            "@language": "es",
+            "@value": "sucesión en línea colateral"
+        },
+        {
+            "@language": "en",
+            "@value": "collateral inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "erbanfall"
+        },
+        {
+            "@language": "nl",
+            "@value": "verkrijging in de zijlinie"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Erbanfall"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbschaftseröffnung"
+        },
+        {
+            "@language": "de",
+            "@value": "Anfall der Erbschaft"
+        },
+        {
+            "@language": "de",
+            "@value": "Eintritt des Erbfalls"
+        },
+        {
+            "@language": "de",
+            "@value": "Eintreten der Erbfolge"
+        },
+        {
+            "@language": "nl",
+            "@value": "openvallen van de erfenis"
+        },
+        {
+            "@language": "en",
+            "@value": "inheritance"
+        },
+        {
+            "@language": "de",
+            "@value": "Erbfolge"
+        },
+        {
+            "@language": "nl",
+            "@value": "erfopvolging"
+        },
+        {
+            "@language": "nl",
+            "@value": "nalatenschap"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Momento a partir del cual se inicia el proceso de la transmisión del patrimonio de un difunto IATE:1550122  que jurídicamente coincide con el instante de la muerte IATE:3537590 o de la declaración del fallecimiento presunto IATE:1131438 del causante IATE:2217762 . Desde entonces con la irreversibilidad de la muerte se procede de la forma testamentaria o intestada que corresponda; pero siempre con retroactividad al término mismo de la vida del de cujus IATE:2217762 ."
+        },
+        {
+            "@language": "en",
+            "@value": "with regard to succession to the estate of a deceased person the point at which the succession process commences usually upon death"
+        },
+        {
+            "@language": "nl",
+            "@value": "het feit waardoor erfgerechtigden tot het vermogen van een persoon geroepen worden"
+        },
+        {
+            "@language": "en",
+            "@value": "the reversion of property to the state in event the owner thereof dies leaving no will and having no legally qualified heir to whom the property may pass by lawful descent"
+        }
+    ]
+}

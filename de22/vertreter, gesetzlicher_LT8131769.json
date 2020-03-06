@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT8131769",
+    "@type": "skos:Concept",
+    "skos:inScheme": "vertreter, gesetzlicher",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1239882",
+    "skos:topConceptOf": "LT8131769",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "legal representative"
+        },
+        {
+            "@language": "de",
+            "@value": "vertreter, gesetzlicher"
+        },
+        {
+            "@language": "nl",
+            "@value": "wettelijke vertegenwoordiger"
+        },
+        {
+            "@language": "de",
+            "@value": "vertreter, gesetzlicher"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "en",
+            "@value": "holder of power"
+        },
+        {
+            "@language": "en",
+            "@value": "attorney"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "the person who is by law authorisedor obligedto act as representative of a physical or a legal person with all the consequences which such action may have for the lattersuch as representing him or it in and out of court"
+        },
+        {
+            "@language": "de",
+            "@value": "Vertreter einer natürlichen oder juristischen Person der kraft Gesetzes berechtigt und verpflichtet ist mit Wirkung für und gegen diese Person zu handeln und sie gerichtlich und außergerichtlich zu vertreten"
+        },
+        {
+            "@language": "nl",
+            "@value": "vertegenwoordiger van een natuurlijke persoon of een rechtspersoon die bij de wet gerechtigd en verplicht is voor hem te handelen en hem zowel in als buiten rechte te vertegenwoordigen"
+        }
+    ]
+}

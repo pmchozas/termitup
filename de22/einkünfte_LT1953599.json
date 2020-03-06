@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT1953599",
+    "@type": "skos:Concept",
+    "skos:inScheme": "einkünfte",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/1131692",
+    "skos:topConceptOf": "LT1953599",
+    "skos:prefLabel": [
+        {
+            "@language": "en",
+            "@value": "income derived from capital"
+        },
+        {
+            "@language": "de",
+            "@value": "einkünfte"
+        },
+        {
+            "@language": "nl",
+            "@value": "burgerlijke vruchten"
+        },
+        {
+            "@language": "es",
+            "@value": "ingresos de explotación"
+        },
+        {
+            "@language": "en",
+            "@value": "operating revenues"
+        },
+        {
+            "@language": "de",
+            "@value": "einkünfte"
+        },
+        {
+            "@language": "nl",
+            "@value": "inkomsten uit exploitatie"
+        },
+        {
+            "@language": "es",
+            "@value": "ingresos monetarios"
+        },
+        {
+            "@language": "en",
+            "@value": "monetary income"
+        },
+        {
+            "@language": "de",
+            "@value": "einkünfte"
+        },
+        {
+            "@language": "nl",
+            "@value": "monetaire inkomsten"
+        },
+        {
+            "@language": "es",
+            "@value": "ubicación de los ingresos"
+        },
+        {
+            "@language": "en",
+            "@value": "place of the income"
+        },
+        {
+            "@language": "de",
+            "@value": "einkünfte"
+        },
+        {
+            "@language": "nl",
+            "@value": "locatie van de inkomsten"
+        },
+        {
+            "@language": "es",
+            "@value": "rentabilidad de activos no gestionados"
+        },
+        {
+            "@language": "en",
+            "@value": "passive income"
+        },
+        {
+            "@language": "de",
+            "@value": "einkünfte"
+        },
+        {
+            "@language": "nl",
+            "@value": "passief inkomen"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "de",
+            "@value": "Zinsen"
+        },
+        {
+            "@language": "de",
+            "@value": "zivile Früchte"
+        },
+        {
+            "@language": "nl",
+            "@value": "monetair inkomen"
+        },
+        {
+            "@language": "en",
+            "@value": "location of the income"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "nl",
+            "@value": "huur-en pachtgeld dividenden interesten enz"
+        },
+        {
+            "@language": "nl",
+            "@value": "\"monetair inkomen: het inkomen dat de NCB's bij de uitoefening van de monetaire beleidstaken van het Eurosysteem verkrijgen uit activa die conform de richtlijnen van de Raad van Bestuur worden geoormerkt en aangehouden als tegenpost voor de in omloop zijnde bankbiljetten en de depositoverplichtingen aan kredietinstellingen.\""
+        },
+        {
+            "@language": "es",
+            "@value": "Estado miembro o tercer país de ubicación de los activos que generan los ingresos que constituyen la primera fuente de reembolso de la obligación en relación con una exposición de financiación especializada."
+        },
+        {
+            "@language": "en",
+            "@value": "the country of the location of the assets which generate the income that is the primary source of repayment of the obligation in relation to a specialised lending exposure"
+        },
+        {
+            "@language": "de",
+            "@value": "Mitgliedstaat oder das Drittland in dem die Vermögenswerte belegen sind die die Einkünfte generieren die die primäre Quelle für die Rückzahlung der Verpflichtung aus einer Spezialfinanzierungsposition sind"
+        },
+        {
+            "@language": "nl",
+            "@value": "lidstaat of derde land van de locatie van de activa die de inkomsten genereren die de voornaamste bron vormen van de afbetaling van de verplichting die met de blootstelling uit hoofde van gespecialiseerde kredietverlening verband houdt"
+        },
+        {
+            "@language": "en",
+            "@value": "earnings derived from a rental propertylimited partnership or other enterprise in which the individual is not actively involved"
+        }
+    ],
+    "skos:broader": [
+        "LT9886683",
+        "LT1295938"
+    ],
+    "skos:related": [
+        "LT5865772",
+        "LT5285934"
+    ]
+}

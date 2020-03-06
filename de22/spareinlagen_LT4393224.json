@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "@base": "http://lynx-project.eu/kos/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT4393224",
+    "@type": "skos:Concept",
+    "skos:inScheme": "spareinlagen",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/792999",
+    "skos:topConceptOf": "LT4393224",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "depósitos de ahorro"
+        },
+        {
+            "@language": "en",
+            "@value": "savings deposit"
+        },
+        {
+            "@language": "de",
+            "@value": "spareinlagen"
+        },
+        {
+            "@language": "nl",
+            "@value": "spaargeld"
+        },
+        {
+            "@language": "es",
+            "@value": "depósitos de ahorro"
+        },
+        {
+            "@language": "en",
+            "@value": "savings deposits"
+        },
+        {
+            "@language": "de",
+            "@value": "spareinlagen"
+        },
+        {
+            "@language": "nl",
+            "@value": "spaardeposito's"
+        },
+        {
+            "@language": "es",
+            "@value": "depósitos de ahorro"
+        },
+        {
+            "@language": "en",
+            "@value": "savings deposits"
+        },
+        {
+            "@language": "de",
+            "@value": "spareinlagen"
+        },
+        {
+            "@language": "nl",
+            "@value": "spaartegoeden"
+        },
+        {
+            "@language": "es",
+            "@value": "depósito minorista"
+        },
+        {
+            "@language": "en",
+            "@value": "retail deposit"
+        },
+        {
+            "@language": "de",
+            "@value": "spareinlagen"
+        },
+        {
+            "@language": "es",
+            "@value": "dinero y cuasidinero"
+        },
+        {
+            "@language": "en",
+            "@value": "M2"
+        },
+        {
+            "@language": "de",
+            "@value": "spareinlagen"
+        },
+        {
+            "@language": "nl",
+            "@value": "geld en quasi-geld"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "nl",
+            "@value": "spaardeposito"
+        },
+        {
+            "@language": "es",
+            "@value": "depósito de particulares"
+        },
+        {
+            "@language": "es",
+            "@value": "dinero y casi-dinero"
+        },
+        {
+            "@language": "es",
+            "@value": "dinero más cuasidinero"
+        },
+        {
+            "@language": "en",
+            "@value": "money and quasi money"
+        },
+        {
+            "@language": "de",
+            "@value": "Geldvolumen und Quasigeldbestände"
+        },
+        {
+            "@language": "de",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "en",
+            "@value": "accounts that pay interest typically at below-market interest rates that do not have a specific maturity; and that usually can be withdrawn upon demand"
+        },
+        {
+            "@language": "es",
+            "@value": "Un pasivo frente a una persona física o a una pequeña y mediana empresa cuando los pasivos agregados con respecto a dichos clientes o grupo de clientes vinculados entre sí sean inferiores a 1.000.000 EUR."
+        },
+        {
+            "@language": "en",
+            "@value": "money and quasi money comprise the sum of currency outside banksdemand deposits other than those of the central governmentand the timesavingsand foreign currency deposits of resident sectors other than the central government"
+        }
+    ]
+}
