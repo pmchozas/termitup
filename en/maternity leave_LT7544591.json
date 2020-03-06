@@ -1,0 +1,153 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos:broader": {
+            "@type": "@id"
+        },
+        "skos:inScheme": {
+            "@type": "@id"
+        },
+        "skos:related": {
+            "@type": "@id"
+        },
+        "skos:narrower": {
+            "@type": "@id"
+        },
+        "skos:hasTopConcept": {
+            "@type": "@id"
+        },
+        "skos:topConceptOf": {
+            "@type": "@id"
+        }
+    },
+    "@id": "LT7544591",
+    "@type": "skos:Concept",
+    "skos:inScheme": "maternity leave",
+    "owl:sameAs": "https://iate.europa.eu/entry/result/777519",
+    "skos:topConceptOf": "LT7544591",
+    "skos:prefLabel": [
+        {
+            "@language": "es",
+            "@value": "permiso de maternidad"
+        },
+        {
+            "@language": "en",
+            "@value": "maternity leave"
+        },
+        {
+            "@language": "de",
+            "@value": "Mutterschaftsurlaub"
+        },
+        {
+            "@language": "nl",
+            "@value": "moederschapsverlof"
+        },
+        {
+            "@language": "es",
+            "@value": "Directiva 92/85/CEE del Consejo relativa a la aplicación de medidas para promover la mejora de la seguridad y de la salud en el trabajo de la trabajadora embarazada, que haya dado a luz o en período de lactancia"
+        },
+        {
+            "@language": "en",
+            "@value": "maternity leave"
+        },
+        {
+            "@language": "de",
+            "@value": "Richtlinie 92/85/EWG über die Durchführung von Maßnahmen zur Verbesserung der Sicherheit und des Gesundheitsschutzes von schwangeren Arbeitnehmerinnen, Wöchnerinnen und stillenden Arbeitnehmerinnen am Arbeitsplatz"
+        },
+        {
+            "@language": "nl",
+            "@value": "Richtlijn 92/85/EEG inzake de tenuitvoerlegging van maatregelen ter bevordering van de verbetering van de veiligheid en de gezondheid op het werk van werkneemsters tijdens de zwangerschap, na de bevalling en tijdens de lactatie"
+        },
+        {
+            "@language": "en",
+            "@value": "maternity leave"
+        }
+    ],
+    "skos:altLabel": [
+        {
+            "@language": "es",
+            "@value": " permiso por maternidad"
+        },
+        {
+            "@language": "nl",
+            "@value": " zwangerschaps- en bevallingsverlof"
+        },
+        {
+            "@language": "nl",
+            "@value": " zwangerschapsverlof"
+        },
+        {
+            "@language": "nl",
+            "@value": " moederschapsrust"
+        },
+        {
+            "@language": "es",
+            "@value": " Directiva de maternidad"
+        },
+        {
+            "@language": "es",
+            "@value": " Directiva sobre el permiso de maternidad"
+        },
+        {
+            "@language": "en",
+            "@value": " maternity leave directive"
+        },
+        {
+            "@language": "en",
+            "@value": " Maternity Directive"
+        },
+        {
+            "@language": "en",
+            "@value": " Maternity Leave Directive"
+        },
+        {
+            "@language": "de",
+            "@value": " Mutterschaftsrichtlinie"
+        },
+        {
+            "@language": "de",
+            "@value": " Mutterschutzrichtlinie"
+        },
+        {
+            "@language": "nl",
+            "@value": " moederschapsrichtlijn"
+        },
+        {
+            "@language": "nl",
+            "@value": " richtlijn moederschapsverlof"
+        },
+        {
+            "@language": "en",
+            "@value": ""
+        }
+    ],
+    "skos:definition": [
+        {
+            "@language": "es",
+            "@value": "Licencia a la que tiene derecho una mujer trabajadora antes y/o después del parto con el mantenimiento de los derechos relacionados con el contrato de trabajo y de una remuneración y/o del beneficio de una prestación adecuada por un tiempo ininterrumpido determinado por la legislación y las prácticas nacionales."
+        },
+        {
+            "@language": "en",
+            "@value": "leave from work for mothers in the period immediately preceding and following birth"
+        },
+        {
+            "@language": "de",
+            "@value": "Arbeitsbefreiung ohne Unterbrechung die Arbeitnehmerinnen entsprechend den einzelstaatlichen Rechtsvorschriften und Gepflogenheiten vor und/oder nach der Entbindung gewährt wird (Richtlinie des Rates 92/85/EWG vom 19.10.92ABl. Nr.L 348/1)"
+        },
+        {
+            "@language": "nl",
+            "@value": "verlof vóór en na de bevalling"
+        }
+    ],
+    "skos:broader": [
+        "LT7707506"
+    ],
+    "skos:related": [
+        "LT1704493"
+    ]
+}

@@ -539,19 +539,19 @@ def getUriTerm(termino,lenguaje, idioma):
     idioma2='"'+idioma+'"'
     resultado=[]
     resultadouri=''
-    url = ("http://publications.europa.eu/webapi/rdf/sparql")
+    url = ("http://sparql.lynx-project.eu/")
     query = """
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    select ?c ?label
-    from <http://eurovoc.europa.eu/100141>
-    where
-    {
+    SELECT ?c ?label
+    WHERE {
+    GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
     VALUES ?searchTerm { """+termino2+""" }
     VALUES ?searchLang { """+idioma2+""" }
     VALUES ?relation {skos:prefLabel skos:altLabel}
     ?c a skos:Concept .
     ?c ?relation ?label .
-    filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )
+    filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )       
+    }  
     }
     """
     #filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )
@@ -575,20 +575,18 @@ def getRelation(uri_termino, relacion):
     resultadoRel=''
 
     for i in uri_termino:
-        url=("http://publications.europa.eu/webapi/rdf/sparql")
+        url=("http://sparql.lynx-project.eu/")
         query="""
-            PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
-            select ?c ?label         
-            from <http://eurovoc.europa.eu/100141>        
-            where       
-            {      
-            VALUES ?c {<"""+i+"""> }
-            VALUES ?relation { skos:"""+relacion+""" } # skos:broader
-            ?c a skos:Concept .
-            ?c ?relation ?label .
-            }
-     
-     
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        SELECT ?c ?label
+        WHERE {
+        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+        VALUES ?c {<"""+i+"""> }
+        VALUES ?relation { skos:"""+relacion+""" } # skos:broader
+        ?c a skos:Concept .
+        ?c ?relation ?label .    
+        }  
+        }
         """
         r=requests.get(url, params={'format': 'json', 'query': query})
         results=json.loads(r.text)
@@ -611,21 +609,21 @@ def getName(uri,lenguaje):
     valor=''
     for i in uri:
         lenguaje2='"'+lenguaje+'"'
-        url=("http://publications.europa.eu/webapi/rdf/sparql")
+        url=("http://sparql.lynx-project.eu/")
         query="""
-            PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
-            select ?c ?label 
-            from <http://eurovoc.europa.eu/100141> 
-            where 
-            {
-            VALUES ?c { <"""+i+"""> }
-            VALUES ?searchLang { """+lenguaje2+""" undef } 
-            VALUES ?relation { skos:prefLabel  } 
-            ?c a skos:Concept . 
-            ?c ?relation ?label . 
-            filter ( lang(?label)=?searchLang )
-            }
-            """
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        SELECT ?c ?label
+        WHERE {
+        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+        VALUES ?c { <"""+i+"""> }
+        VALUES ?searchLang { """+lenguaje2+""" undef } 
+        VALUES ?relation { skos:prefLabel  } 
+        ?c a skos:Concept . 
+        ?c ?relation ?label . 
+        filter ( lang(?label)=?searchLang )
+        }
+        }
+        """
         r=requests.get(url, params={'format': 'json', 'query': query})
         results=json.loads(r.text)
         if (len(results["results"]["bindings"])==0):
@@ -648,21 +646,21 @@ def getDef( nameUri,uriRelation,lenguaje):
     resultado=[]
     #for i in range(len(uriRelation)):
     lenguaje2='"'+lenguaje+'"'
-    url=("http://publications.europa.eu/webapi/rdf/sparql")
+    url=("http://sparql.lynx-project.eu/")
     query="""
-            PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
-            select ?c ?label 
-            from <http://eurovoc.europa.eu/100141> 
-            where 
-            {
-            VALUES ?c { <"""+uriRelation+"""> }
-            VALUES ?searchLang { """+lenguaje2+""" undef } 
-            VALUES ?relation { skos:definition  } 
-            ?c a skos:Concept . 
-            ?c ?relation ?label . 
-            filter ( lang(?label)=?searchLang )
-            }
-            """
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        SELECT ?c ?label
+        WHERE {
+        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+        VALUES ?c { <"""+uriRelation+"""> }
+        VALUES ?searchLang { """+lenguaje2+""" undef } 
+        VALUES ?relation { skos:definition  } 
+        ?c a skos:Concept . 
+        ?c ?relation ?label . 
+        filter ( lang(?label)=?searchLang )
+        }
+        }
+        """
     r=requests.get(url, params={'format': 'json', 'query': query})
     results=json.loads(r.text)
     if (len(results["results"]["bindings"])==0):
@@ -1008,7 +1006,7 @@ if(termino):
         contextFile=csv.reader(file)
     else:
         contextFile=leerContextos(idioma)
-    resultsIate( jsonlist, idioma, targets,context, contextFile, lista)
+    resultsIate( jsonlist, idioma, targets,context, contextFile, lista, wsid)
     
 else:
     if(context):
