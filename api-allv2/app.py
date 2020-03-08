@@ -1,5 +1,5 @@
 """A Python Flask REST API BoilerPlate (CRUD) Style"""
-'''prueba'''
+
 import argparse
 import os
 from flask import Flask, jsonify, make_response
@@ -48,6 +48,11 @@ def handle_404_error(_error):
 def handle_500_error(_error):
     """Return a http 500 error to client"""
     return make_response(jsonify({'error': 'Server error'}), 500)
+
+@APP.errorhandler(504)
+def handle_504_error(_error):
+    """Return a http 500 error to client"""
+    return make_response(jsonify({'error': 'Term not found'}), 504)
 
 
 if __name__ == '__main__':

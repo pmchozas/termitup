@@ -16,7 +16,7 @@
     }
   ],
   "paths": {
-    "/term/{termino},{idioma},{targets},{context}": {
+    "/term/{termino},{idioma},{targets},{context},{wsid},{dataRetriever},{schema}": {
       "get": {
         "tags": [
           "Search Terms"
@@ -59,7 +59,35 @@
             "schema": {
               "$ref": ""
             }
+          },
+          {
+            "in": "path",
+            "name": "wsid",
+            "required": true,
+            "description": "context optional",
+            "schema": {
+              "$ref": ""
+            }
+          },
+          {
+            "in": "path",
+            "name": "dataRetiever",
+            "required": true,
+            "description": "context optional",
+            "schema": {
+              "$ref": ""
+            }
+          },
+          {
+            "in": "path",
+            "name": "schema",
+            "required": true,
+            "description": "context optional",
+            "schema": {
+              "$ref": ""
+            }
           }
+
         ],
         "responses": {
           "200": {
