@@ -2,7 +2,7 @@
 
 import argparse
 import os
-from flask import Flask, jsonify, make_response
+from flask import Flask, jsonify, make_response, render_template
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 from routes import request_api
@@ -53,6 +53,10 @@ def handle_500_error(_error):
 def handle_504_error(_error):
     """Return a http 500 error to client"""
     return make_response(jsonify({'error': 'Term not found'}), 504)
+	
+@APP.route('/')
+def home():
+    return render_template('home.html')
 
 
 if __name__ == '__main__':
