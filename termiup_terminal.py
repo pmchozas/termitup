@@ -712,6 +712,7 @@ def fileScheme(scheme, idioma,creator, date, description, keywords):
     dataScheme={}
     dataScheme={"@context": "http://lynx-project.eu/doc/jsonld/skosterm.json", "@id": scheme.replace(' ',''), "conceptScheme":"http://lynx-project.eu/kos/"+scheme.replace(" ","")+"/", "hasTopConcept": "", "label":scheme, "creator": creator, "date":date, "description": description}
     dataScheme['hasTopConcept']=[]
+    keywords=keywords.split(',')
     for i in keywords:
         dataScheme['hasTopConcept'].append({'@value':i.strip(' ')})
     
@@ -721,7 +722,7 @@ def fileScheme(scheme, idioma,creator, date, description, keywords):
         pass
     else:
         os.mkdir(idioma+'/schemeFiles/')
-    with open(idioma+'/schemeFiles/'+scheme+'.json', 'w') as file:
+    with open(idioma+'/schemeFiles/'+scheme.replace(' ','')+'_schema'+'.json', 'w') as file:
         json.dump(dataScheme, file, indent=4,ensure_ascii=False)
 
 def verificar(idioma,  termSearch, relation):
@@ -1063,6 +1064,7 @@ if(termino):
     date="March 9 20"
     description="Linked Terminology containing terminological data about Labour Law in Europe."
     keywords=["Labour law", "Work", "Company"]
+    
     fileScheme(scheme, idioma,creator, date, description , keywords)
     #print(res)
 else:
