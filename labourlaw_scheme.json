@@ -1,0 +1,10 @@
+{   
+    "@context":"http://lynx-project.eu/doc/jsonld/skosterm.json",
+    "@id": "labourlaw",
+    "conceptScheme": "http://lynx-project.eu/kos/labourlaw/",
+    "hasTopConcept": ["Labour law", "Work", "Company"],
+    "label":"Labour Law",
+    "creator":"UPM",
+    "date":"March 9 20",
+    "description":"Linked Terminology containing terminological data about Labour Law in Europe."
+}

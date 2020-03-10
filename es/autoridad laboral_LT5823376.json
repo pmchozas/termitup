@@ -1,37 +1,10 @@
 {
-    "@context": {
-        "@base": "http://lynx-project.eu/kos/labour law",
-        "dcterms": "http://purl.org/dc/terms/",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "dc": "http://purl.org/dc/elements/1.1/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "skos:broader": {
-            "@type": "@id"
-        },
-        "skos:inScheme": {
-            "@type": "@id"
-        },
-        "skos:related": {
-            "@type": "@id"
-        },
-        "skos:narrower": {
-            "@type": "@id"
-        },
-        "skos:hasTopConcept": {
-            "@type": "@id"
-        },
-        "skos:topConceptOf": {
-            "@type": "@id"
-        }
-    },
+    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
     "@id": "LT5823376",
     "@type": "skos:Concept",
-    "skos:inScheme": "autoridad laboral",
-    "owl:sameAs": "https://iate.europa.eu/entry/result/929865",
-    "skos:topConceptOf": "LT5823376",
-    "skos:prefLabel": [
+    "inScheme": "labourlaw",
+    "source": "https://iate.europa.eu/entry/result/929865",
+    "prefLabel": [
         {
             "@language": "es",
             "@value": "autoridad laboral"
@@ -49,7 +22,7 @@
             "@value": "Arbeidsmilieuautoriteit"
         }
     ],
-    "skos:altLabel": [
+    "altLabel": [
         {
             "@language": "nl",
             "@value": "Arbeidsmilieu-inspectie Arbeidsmilieu-autoriteit"
@@ -59,7 +32,7 @@
             "@value": ""
         }
     ],
-    "skos:definition": [
+    "definition": [
         {
             "@language": "es",
             "@value": "Creada en 2001 mediante la fusión de 10 distritos de la Inspección del Trabajo IATE:905412 y la Dirección Nacional de Seguridad y Sanidad Laboral IATE:905378 . Su objetivo consiste en reducir los riesgos de enfermedad o accidente en el lugar de trabajo y mejorar el entorno laboral con una perspectiva holística (desde los puntos de vista físico mental social y organizativo).Vela por el cumplimiento de la legislación relativa al entorno laboral al horario de trabajo al tabaquismo y cuestiones relacionadas con la ingeniería genética y los plaguicidas."
