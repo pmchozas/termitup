@@ -16,7 +16,7 @@
     }
   ],
   "paths": {
-    "/term/{termino},{idioma},{targets},{context},{wsid},{dataRetriever},{schema}": {
+    "/term/{term},{source language},{target languages},{context},{wsid},{dataRetriever},{schema}": {
       "get": {
         "tags": [
           "Search Terms"
@@ -26,27 +26,27 @@
         "parameters": [
           {
             "in": "path",
-            "name": "termino",
+            "name": "term",
             "required": true,
-            "description": "Term of the entry",
+            "description": "Term to be enriched",
             "schema": {
               "$ref": ""
             }
           },
           {
             "in": "path",
-            "name": "idioma",
+            "name": "source language",
             "required": true,
-            "description": "Language of term (Es,En,Nl,De Etc.) only one",
+            "description": "Language of the source term to be enriched (en, es, de, nl...)",
             "schema": {
               "$ref": ""
             }
           },
           {
             "in": "path",
-            "name": "targets",
+            "name": "target languages",
             "required": true,
-            "description": "Language of out (Es,En,Nl,De Etc.) one o more",
+            "description": "Languages in which the retrieved information is desired",
             "schema": {
               "$ref": ""
             }
@@ -55,7 +55,7 @@
             "in": "path",
             "name": "context",
             "required": false,
-            "description": "context optional",
+            "description": "Context in which the source term appears (Optional)",
             "schema": {
               "$ref": ""
             }
@@ -64,25 +64,25 @@
             "in": "path",
             "name": "wsid",
             "required": true,
-            "description": "context optional",
+            "description": "Write si if you want to call the disambiguation service and no if you don't.",
             "schema": {
               "$ref": ""
             }
           },
           {
             "in": "path",
-            "name": "dataRetiever",
+            "name": "Relation Validation",
             "required": true,
-            "description": "context optional",
+            "description": "Write si if you want to call the relation validation service and no if you don't.",
             "schema": {
               "$ref": ""
             }
           },
           {
             "in": "path",
-            "name": "schema",
+            "name": "Scheme",
             "required": true,
-            "description": "context optional",
+            "description": "Schema of your set of terms (labour law, bio, administration...).",
             "schema": {
               "$ref": ""
             }
@@ -101,7 +101,7 @@
             }
           },
           "404": {
-            "description": "Failed. No More Request.",
+            "description": "Failed. No more requests.",
             "content": {}
           }
         }
