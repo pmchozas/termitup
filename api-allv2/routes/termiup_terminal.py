@@ -26,7 +26,6 @@ def leerContextos(lang, termIn):
     nl = '%s'%configuration["nl"]
     de = '%s'%configuration["de"]
     encoding = 'utf-8'
-    archivo=''
     if(lang=='es'):
         archivo = open(es, "r")
     elif(lang=='en'):
@@ -868,7 +867,7 @@ def dataRetrieverFunction(newFile, idioma, scheme):
             retrieved_wikidata = json.load(f)
         all_inductions = list()
         induced_relationships = list()
-        for pref in retrieved_wikidata["skos:prefLabel"]:
+        for pref in retrieved_wikidata["prefLabel"]:
             altLabel_induction = dict()
             T=pref["@value"].lower().split()
             lang = pref["@language"]
@@ -877,21 +876,21 @@ def dataRetrieverFunction(newFile, idioma, scheme):
                 if t not in S:
                     S[t] = get_conceptNet_synonyms(t, lang)
             if len(S):
-                for altLabel in retrieved_wikidata["skos:altLabel"]:
+                for altLabel in retrieved_wikidata["altLabel"]:
                     A = altLabel["@value"].lower().split()
                     if len(A):
                         T_A_relationship = inducer(T, A, S)
                         altLabel_induction[" ".join(A)] = T_A_relationship
                         if(T_A_relationship=='related'):
                             crearRelaciones('related',retrieved_wikidata,A,idioma, scheme)
-                            retrieved_wikidata["skos:altLabel"].remove(altLabel)
+                            retrieved_wikidata["altLabel"].remove(altLabel)
 
                         elif(T_A_relationship=='narrower'):
                             crearRelaciones('narrower',retrieved_wikidata,A,idioma, scheme)
-                            retrieved_wikidata["skos:altLabel"].remove(altLabel)
+                            retrieved_wikidata["altLabel"].remove(altLabel)
                         elif(T_A_relationship=='broader'):
                             crearRelaciones('broader ',retrieved_wikidata,A,idioma, scheme)
-                            retrieved_wikidata["skos:altLabel"].remove(altLabel)
+                            retrieved_wikidata["altLabel"].remove(altLabel)
 
                         elif(T_A_relationship=='synonymy'):
                             print('')
