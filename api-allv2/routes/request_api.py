@@ -10,7 +10,7 @@ import os
 from os import listdir
 from os.path import isfile, isdir
 import time
-from routes import termiup
+from routes import termiup_terminal
 
 
 REQUEST_API = Blueprint('term_api', __name__)
@@ -19,10 +19,15 @@ def get_blueprint():
     """Return the blueprint for the main app module"""
     return REQUEST_API
 
-@REQUEST_API.route('/term/<string:termino>,<string:idioma>,<string:targets>,<string:context>,<string:wsid>,<string:dataRetriever>,<string:schema>', methods=['GET'])
-def get(termino,idioma,targets,context,wsid,dataRetriever,schema):
+@REQUEST_API.route('/term/<string:term>,<string:source_language>,<string:target_languages>,<string:context>,<string:wsid>,<string:relation_validation>,<string:schema>', methods=['GET'])
+def get(term,source_language,target_languages,context,wsid,relation_validation,schema):
     
-    targets=targets.split(' ')
+
+    
+    dataRetriever=relation_validation
+    termino=term
+    idioma=source_language
+    targets=target_languages.split(' ')
     contextlist='' 
     contextFile=None 
     lista=[]
@@ -40,10 +45,11 @@ def get(termino,idioma,targets,context,wsid,dataRetriever,schema):
     
     else:
         print('entro')
-        contextFile=termiup.leerContextos(idioma, termino)
+        print(idioma)
+        contextFile=termiup_terminal.leerContextos(idioma, termino)
 
-    jsonlist=termiup.haceJson(lista, idioma,targets)
-    res=termiup.all(jsonlist, idioma, targets, context, contextFile,  wsid, schema, dataRetriever)
+    jsonlist=termiup_terminal.haceJson(lista, idioma,targets)
+    res=termiup_terminal.all(jsonlist, idioma, targets, context, contextFile,  wsid, schema, dataRetriever)
     print(res)
     return jsonify(res),200
       

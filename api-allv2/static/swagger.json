@@ -16,7 +16,7 @@
     }
   ],
   "paths": {
-    "/term/{term},{source language},{target languages},{context},{wsid},{dataRetriever},{schema}": {
+    "/term/{term},{source_language},{target_languages},{context},{wsid},{relation_validation},{schema}": {
       "get": {
         "tags": [
           "Search Terms"
@@ -35,7 +35,7 @@
           },
           {
             "in": "path",
-            "name": "source language",
+            "name": "source_language",
             "required": true,
             "description": "Language of the source term to be enriched (en, es, de, nl...)",
             "schema": {
@@ -44,7 +44,7 @@
           },
           {
             "in": "path",
-            "name": "target languages",
+            "name": "target_languages",
             "required": true,
             "description": "Languages in which the retrieved information is desired",
             "schema": {
@@ -71,7 +71,7 @@
           },
           {
             "in": "path",
-            "name": "Relation Validation",
+            "name": "relation_validation",
             "required": true,
             "description": "Write si if you want to call the relation validation service and no if you don't.",
             "schema": {
@@ -80,7 +80,7 @@
           },
           {
             "in": "path",
-            "name": "Scheme",
+            "name": "scheme",
             "required": true,
             "description": "Schema of your set of terms (labour law, bio, administration...).",
             "schema": {
