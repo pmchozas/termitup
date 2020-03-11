@@ -62,6 +62,7 @@ height: inherit;
 
 .menu {
 text-align: center;
+background-color: #FFFFFF;
 }
 
 ul {
@@ -74,12 +75,41 @@ ul {
     display: table;*/ /* ul will behave like a table now */
     
     text-align: center;
+    background-color: #FFFFFF;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+#navbar a:hover {
+color: #00D2B5; 
+
+}
+
+#navbar a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #FFFFFF;
+ text-align: center;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 ul li {
     /* float: left; */
     display: inline-block;
-        padding: 1rem; 
+    padding: 1rem; 
 
 
     font-family: 'Montserrat', sans-serif;
@@ -96,6 +126,8 @@ ul li a {
     line-height: 3em;
     /* adjusting height */
     display: block; /* or inline-block */
+      float: left;
+
 
 }
 
@@ -107,18 +139,6 @@ ul li a:hover {
 
 
 
-.menu__list {
-    /*background-color: #b3ffe6;
-    background-color: rgba(179, 255, 230, 0.3);
-    border-radius: 20px 20px 20px 20px;
-    -moz-border-radius: 20px 20px 20px 20px;
-    -webkit-border-radius: 20px 20px 20px 20px;
-    margin-top: 1rem;
-    */
-    list-style: none;
-    display: inline-block;
-
-}
 
 
 
