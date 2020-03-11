@@ -48,11 +48,27 @@ body {
 
 }
 
+
+
 .logo a {
     display: block;
 height: inherit;
 }
 
+.logo2 {
+    width: 15.25rem;
+    height: 7rem;
+    background: url('images/logopal.png') no-repeat center;
+    background-size: contain;
+    text-indent: -9000px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+
+}
 /*menu header
   margin: 0;
   padding: 0;
@@ -588,6 +604,8 @@ font-family:'Montserrat';
 .intro__text {
     display: block;
     line-height: 1.5;
+    font-family: 'Montserrat';
+    padding-top: 2rem;
 
 }
 
