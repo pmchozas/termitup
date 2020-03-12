@@ -34,9 +34,7 @@ body {
 
 
 .logo {
-    width: 15.25rem;
-    height: 7rem;
-    background: url('../images/termite.png') no-repeat center;
+    max-width: 6rem;
     background-size: contain;
     text-indent: -9000px;
     text-align: center;
@@ -56,10 +54,8 @@ height: inherit;
 }
 
 .logo2 {
-    width: 15.25rem;
-    height: 7rem;
-    background: url('../images/logopal.png') no-repeat center;
-    background-size: contain;
+
+    max-width: 6rem;
     text-indent: -9000px;
     text-align: center;
     display: block;
@@ -561,17 +557,14 @@ ul li a:hover {
     padding-top: 0; 
 }
 
-.intro img {
-    width: 40%;
+
 
   /*  
     border-radius: 12px 12px 12px 12px;
     -moz-border-radius: 12px 12px 12px 12px;
     -webkit-border-radius: 12px 12px 12px 12px;
     */
-    float: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 
 .intro__title, .intro-contact__title, .intro__post {
 font-family:'Montserrat';
@@ -606,6 +599,7 @@ font-family:'Montserrat';
     line-height: 1.5;
     font-family: 'Montserrat';
     padding-top: 2rem;
+    text-align: left;
 
 }
 
@@ -737,7 +731,7 @@ font-family:'Montserrat';
     width: 100%;
     max-width: 1150px;
     margin: 0 auto; 
-    text-align: center;
+    text-align: left;
 
 }
 

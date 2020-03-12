@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">  <!-- para dispositivos móviles !-->
+    <title>TermitUp</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     
+        <link rel= "stylesheet" type= "text/css" href= "css/reset.css">
+        <link rel= "stylesheet" type= "text/css" href= "css/style.css">
+        <link rel= "stylesheet" type= "text/css" href= "css/fontello.css">
+
+</head>
+<body>
+<header class="page-header">
+    <div class="header__wrapper clearfix">
+        <h1 class="title">TermitUp</h1>
+        <img src="../static/images/termite.png" class="logo"><a href="index.html"></a>                 <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
+            <h3 class="subtitle">A wonderful service for terminology</h3>
+
+            <div id="navbar" class="menu">
+            <ul class="menu__list">
+                <li><a href="javascript:void(0)" class="header-menu__item active">Home</a></li>
+                <li><a href="javascript:void(0)" class="header-menu__item">Demo</a></li>
+                <li><a href="javascript:void(0)" class="header-menu__item">API</a></li>
+                <li><a href="javascript:void(0)" class="header-menu__item">About</a></li>
+                <!--<li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>!-->
+                <!--<li><a href="#blog-section" class="nav-link">Blog</a></li>!-->
+                <li><a href="#contact-section" class="header-menu__item">Contact</a></li>
+            </ul>
+            </div>
+        
+    </div>
+</header>
+
+<main class="intro">
+
+	<!-- INTRO !-->
+	
+    <section class="intro__content clearfix">
+    <div class="intro__post">
+		<div class="intro__text"><p>This service generates Enriched Linked Terminologies from corpus: given a term in a corpus, it retrieves disambiguated multilingual data from the Linguistic Linked Open Data cloud (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled as per the SKOS vocabulary.</p></div>		
+        
+    </div>
+	</section>
+    
+    <!--DEMO!-->
+    <section class="intro-services clearfix">
+
+        <h3 class="intro__title">Try it out!</a></h3>
+        <div class="intro__text"><p>This service is being developed within Prêt-a-Llod H2020 project.</p></div>
+         <img src="../static/images/logopal.png" class="logo2"> 
+
+    
+    <div class="intro-services__wrapper ">
+        <article class="service-item"> 
+        
+
+   </div> 
+    
+    </section>
+
+<!--CONTACTO!
+
+    <section class="intro-contact">
+        <h3 class="intro-contact__title"><a href="" target="_blank">Acknowledgements</a></h3>
+
+
+    </section>-->
+
+</main>
+<!-- Menú footer!-->
+<footer class="page-footer clearfix">
+        
+        <div class="footer-wrapper"> <!-- este div yo creo que no lo necesito !-->
+            <nav class="footer-menu clearfix">
+            </nav>
+            <!--<a href="#" class="icon-search">Buscador</a> !-->
+        </div>
+        
+</footer>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
+
