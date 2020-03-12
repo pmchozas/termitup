@@ -204,8 +204,14 @@ def wsidFunction(termIn, context, contextFile,  definitions):
             pesos=response.json()
             max_item = max(pesos, key=int)
             posMax=pesos.index(max_item)
-            defiMax=listdef[posMax]
-            idMax=listIde[posMax]
+            if(len(listdef)>0):
+                defiMax=listdef[posMax]
+            else:
+                defiMax=''
+            if(len(listIde)>0):
+                idMax=listIde[posMax]
+            else:
+                idMax=''
         except json.decoder.JSONDecodeError:
             pesos=[]
             defiMax=''
@@ -236,7 +242,10 @@ def wsidFunction(termIn, context, contextFile,  definitions):
                     pesos=response.json()
                     max_item = max(pesos, key=int)
                     posMax=pesos.index(max_item)
-                    defiMax=listdef[posMax]
+                    if(len(listdef)>0):
+                        defiMax=listdef[posMax]
+                    else:
+                        defiMax=''
                     if(len(listIde)>0):
                         idMax=listIde[posMax]
                     else:
@@ -1012,7 +1021,7 @@ def barra(var):
         bar2.next()
     bar2.finish()
 #---------------------------------MAIN---------------------------------------------------------------
-'''
+
 parser=argparse.ArgumentParser()
 parser.add_argument("--sourceFile", help="Name of the source csv file (term list)") #nombre de archivo a leer
 parser.add_argument("--sourceTerm", help="Source term to search")
@@ -1060,10 +1069,7 @@ if(termino):
     jsonlist=haceJson(lista, idioma,targets)
     res=all( jsonlist, idioma, targets,context, contextFile,  wsid,scheme, dataRetriever)
     
-    creator='UPM'
-    date="March 9 20"
-    description="Linked Terminology containing terminological data about Labour Law in Europe."
-    keywords=["Labour law", "Work", "Company"]
+    
     
     fileScheme(scheme, idioma,creator, date, description , keywords)
     #print(res)
@@ -1104,4 +1110,4 @@ else:
             
 #TERM
 #python3 all.py --sourceTerm término --lang es --targets "es en de nl"
-'''
+
