@@ -7,16 +7,16 @@
     <title>TermitUp</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
      
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/fontello.css" rel="stylesheet" type="text/css">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='reset.css') }}">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='style.css') }}">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='fontello.css') }}">
 
 </head>
 <body>
 <header class="page-header">
     <div class="header__wrapper clearfix">
         <h1 class="title">TermitUp</h1>
-        <h2 class="logo" ><a href="index.html">Termitup Logo</a></h2>                    <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
+        <h2 ><img src="/static/images/termite.png" class="logo"><a href="index.html"></a></h2>                    <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
             <h3 class="subtitle">A wonderful service for terminology</h3>
 
             <div id="navbar" class="menu">
@@ -50,7 +50,7 @@
 
         <h3 class="intro__title">Try it out!</a></h3>
         <div class="intro__text"><p>This service is being developed within Prêt-a-Llod H2020 project.</p></div>
-        <h4 class="logo2" >Pal Logo</h4> 
+         <h4  ><img src="/static/images/logopal.png" class="logo2"></h4> 
 
     
     <div class="intro-services__wrapper ">

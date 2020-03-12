@@ -1,6 +1,6 @@
 
 from flask import jsonify, abort, request, Blueprint
-from flask import Flask
+from flask import Flask,render_template
 import requests
 from flask_restplus import Resource, Api, fields, reqparse
 import json
@@ -18,6 +18,12 @@ REQUEST_API = Blueprint('term_api', __name__)
 def get_blueprint():
     """Return the blueprint for the main app module"""
     return REQUEST_API
+
+
+@REQUEST_API.route("/")
+def index():
+    pagetitle = "HomePage"
+    return render_template("index.html")
 
 @REQUEST_API.route('/term/<string:term>,<string:source_language>,<string:target_languages>,<string:context>,<string:wsid>,<string:relation_validation>,<string:schema>', methods=['GET'])
 def get(term,source_language,target_languages,context,wsid,relation_validation,schema):
