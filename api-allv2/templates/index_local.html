@@ -15,22 +15,20 @@
 <body>
 <header class="page-header">
     <div class="header__wrapper clearfix">
-        <h1 class="title">TermitUp</h1>
-        <img src="../static/images/termite.png" class="logo"><a href="index.html"></a>                 <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
+        <h1 class="title">Termit<span>Up</span></h1>
+        <img src="../static/images/termita.png" class="logo"><a href="index.html"></a>                 <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
             <h3 class="subtitle">A wonderful service for terminology</h3>
 
-            <div id="navbar" class="menu">
-            <ul class="menu__list">
-                <li><a href="javascript:void(0)" class="header-menu__item active">Home</a></li>
-                <li><a href="javascript:void(0)" class="header-menu__item">Demo</a></li>
-                <li><a href="javascript:void(0)" class="header-menu__item">API</a></li>
-                <li><a href="javascript:void(0)" class="header-menu__item">About</a></li>
+            <ul id="navbar" class="menu__list">
+                <li><a href="#about" class="header-menu__item">About TermitUp</a></li>
+                <li><a href="#api" class="header-menu__item">API</a></li>
+                <li><a href="#thanks" class="header-menu__item">Contact</a></li>
+                
+                
                 <!--<li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>!-->
                 <!--<li><a href="#blog-section" class="nav-link">Blog</a></li>!-->
-                <li><a href="#contact-section" class="header-menu__item">Contact</a></li>
+                <!--<li><a href="javascript:void(0)" class="header-menu__item">Contact</a></li>!-->
             </ul>
-            </div>
-        
     </div>
 </header>
 
@@ -38,28 +36,36 @@
 
 	<!-- INTRO !-->
 	
-    <section class="intro__content clearfix">
-    <div class="intro__post">
-		<div class="intro__text"><p>This service generates Enriched Linked Terminologies from corpus: given a term in a corpus, it retrieves disambiguated multilingual data from the Linguistic Linked Open Data cloud (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled as per the SKOS vocabulary.</p></div>		
-        
-    </div>
-	</section>
+
     
     <!--DEMO!-->
-    <section class="intro-services clearfix">
+    <section id="about" class="intro-services clearfix">
+        <div class="intro-services__wrapper ">
 
-        <h3 class="intro__title">Try it out!</a></h3>
-        <div class="intro__text"><p>This service is being developed within Prêt-a-Llod H2020 project.</p></div>
-         <img src="../static/images/logopal.png" class="logo2"> 
+        <h3 class="intro__title">About TermitUp</h3>
+        <div class="intro__text">
+                <p>This service generates Enriched Linked Terminologies from corpus: given a term in a corpus, it retrieves disambiguated multilingual data from the <a href="https://linguistic-lod.org/" class="llod">Linguistic Linked Open Data cloud</a> (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled as per the SKOS vocabulary.</p>
+        <img src="../static/images/termitup.png" class="termitup"> 
 
-    
-    <div class="intro-services__wrapper ">
-        <article class="service-item"> 
-        
-
-   </div> 
+        </div>
+        </div> 
     
     </section>
+    <section id="api" class="api">
+        <h3 class="about__title">API</h3>
+        <div class="about__text">
+        <p>Test this service through <a href="http://termitup.oeg-upm.net/swagger/" class="apilink" target="_blank">TermitUp Swagger API</a>.</p>
+        </div>
+    </section>
+    <section id="thanks" class="thanks">
+        <h3 class="contact__title">Contact</h3>
+        <div class="contact__text">
+        <p>This work has been developed by <a href="http://www.oeg-upm.net/" class="oegweb" target="_blank">Ontology Engineering Group</a> (Universidad Politécnica de Madrid) as part of the PhD. thesis of Patricia Martín-Chozas. For more information, send an email to pmchozas@fi.upm.es</p>
+        <p>This service is being developed within Prêt-a-Llod H2020 project (grant agreement No. 825182)</p>
+        <img src="../static/images/logopal.png" class="logo2">
+        </div>
+    </section>
+
 
 <!--CONTACTO!
 
