@@ -292,51 +292,53 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
     resultado=''
     relation=''
     uri=getUriTerm(termino, target, idioma)
-    print('URI', uri)
+    print('1 URI:-------', uri)
     if(len(uri)>0 and uri[0]!=''):
-        nameDef=getName(uri, idioma)
+        nameDef=getName(uri, idioma,termino)
         nombres=nameDef[0]
         definiciones=nameDef[1]
         definicionesOnly=nameDef[2]
         d=(definicionesOnly, [])
         if(wsid=='si'):
-            print(d)
             maximo=wsidFunction(termino, context, contextFile, d)
-            print(maximo)
+            print('---',maximo,'---',maximo[0])
             if(maximo[2]!=200 or maximo[0]==''):
                 uri=getUriTerm(termino, target, idioma)
-                answer=listEurovoc(relations, uri, idioma)
+                answer=listEurovoc(relations, uri, idioma,termino)
                
             else:
                 m=definicionesOnly.index(maximo[0])
                 alta=nombres[m]
                 uri=getUriTerm(alta, target, idioma) 
-                answer=listEurovoc(relations, uri, idioma)
+                print('URI', uri)
+                answer=listEurovoc(relations, uri, idioma,termino)
                 
         else:
             uri=getUriTerm(termino, target, idioma) 
-            answer=listEurovoc(relations, uri, idioma)
+            answer=listEurovoc(relations, uri, idioma,termino)
             
           
 
     else:
         for relation in relations: 
             answer=results.append([[''], [''], relation])
-    
+  
     if(answer==None):
         answer=results
     barra('Get Eurovoc')
     return(answer)
 
-def listEurovoc(relations, uri, idioma):
+def listEurovoc(relations, uri, idioma, termino):
     results=[]
+    si=[]
     for relation in relations: 
         uriRelation=getRelation(uri, relation)
-        nameDef=getName(uriRelation, idioma)
+        nameDef=getName(uriRelation, idioma, termino)
         nombres=nameDef[0]
         definiciones=nameDef[1]
         definicionesOnly=nameDef[2]
         results.append([nombres, uriRelation, relation])
+           
     
     return(results)
 
@@ -377,7 +379,20 @@ def getUriTerm(termino,lenguaje, idioma):
             for result in results["results"]["bindings"]:
                 resultadouri=result["c"]["value"]
                 resultadol=result["label"]["value"]
-                resultado.append(resultadouri)
+                print(resultadol)
+                if(resultadol == termino):
+                    print('SI')
+                    resultado.append(resultadouri)
+                else:
+                    tok=resultadol.split(' ')
+                    for i in tok:
+                        if('(' in i):
+                            tok.remove(i)
+                            tokt=termino.split(' ')
+                            if(len(tok)==len(tokt)):
+                                print('TOK', tok)
+                    
+                                resultado.append(resultadouri)
     
     except json.decoder.JSONDecodeError:
         resultado.append('')
@@ -416,7 +431,7 @@ def getRelation(uri_termino, relacion):
 
 
 #3. funcion que recibe la uri del broader y consulta cual es el termino correspondiente
-def getName(uri,lenguaje):
+def getName(uri,lenguaje, termino):
     defs=[]
     defsOnly=[]
     names=[]
@@ -652,7 +667,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
             if(definition[i]!=''):
                 data['definition'].append({'@language':lang[i], '@value':definition[i].strip(' ')})
 
-        print(eurovoc)
+        
         br=eurovoc[0][0][0]
         na=eurovoc[1][0][0]
         re=eurovoc[2][0][0]
@@ -662,6 +677,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
             data['narrower']=[]
         if(re!=''):
             data['related']=[]
+
         for i in eurovoc:
             re=relationsEurovoc(i[0], i[1], idioma,data, i[2], scheme )
             
@@ -700,22 +716,53 @@ def relationsEurovoc(relationList, uriList, idioma,data, relationEuro, scheme):
             if(ide!='' and termSearch!=''):
                 if(relationEuro in data.keys()):
                     data[relationEuro].append(ide)
-                    dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma, scheme)
+                   
+                    dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma, scheme, relationEuro)
+                    if( 'broader' in relationEuro):
+                        print('ESTA', relationEuro)
+                        editFileSchema(scheme, data, ide)
+               
+                        
+                        #dataEurovoc['@context']={"topConceptOf":"http://lynx-project.eu/kos/"+scheme.replace(' ','')}
+
                     n=termSearch.replace(' ','')
                     with open(idioma+'/'+relationEuro+'/'+n+'_'+ide+'.jsonld', 'w') as file:
                         json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
     return(ide)   
         
-def fileEurovoc(termSearch, ide, relation, iduri, idioma, scheme):
+def fileEurovoc(termSearch, ide, relation, iduri, idioma, scheme, relationEuro):
     data={}
-    data={'@context':'','@id': ide, '@type':'skos:Concept', '@id': ide,'inScheme': scheme.replace(' ',''), "sameAs":iduri, '@type':'skos:Concept','prefLabel':'' }
-    data['@context']={"@base":"http://lynx-project.eu/kos/"+scheme.replace(' ',''),"dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-            "dc":"http://purl.org/dc/elements/1.1/","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","skos:broader":{ '@type':'@id'},"skos:inScheme":{ '@type':'@id'},'skos:related':{ '@type':'@id'},'skos:narrower':{ '@type':'@id'},'skos:hasTopConcept':{ '@type':'@id'},'skos:topConceptOf':{ '@type':'@id'}}
+    if('broader' in relationEuro):
+        data={'@context':'http://lynx-project.eu/doc/jsonld/skosterm.json','@type':'skos:Concept', '@id': ide,'inScheme': scheme.replace(' ',''), "sameAs":iduri, '@type':'skos:Concept','prefLabel':'',"topConceptOf":"http://lynx-project.eu/kos/"+scheme.replace(' ','') }
+    else:
+        data={'@context':'http://lynx-project.eu/doc/jsonld/skosterm.json','@type':'skos:Concept', '@id': ide,'inScheme': scheme.replace(' ',''), "sameAs":iduri, '@type':'skos:Concept','prefLabel':'' }
+    
+
+    #data['@context']={"@base":"http://lynx-project.eu/kos/"+scheme.replace(' ',''),"dcterms": "http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#",  "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    #        "dc":"http://purl.org/dc/elements/1.1/","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","skos:broader":{ '@type':'@id'},"skos:inScheme":{ '@type':'@id'},'skos:related':{ '@type':'@id'},'skos:narrower':{ '@type':'@id'},'skos:hasTopConcept':{ '@type':'@id'},'skos:topConceptOf':{ '@type':'@id'}}
     data['prefLabel']=[]
     if(relation!=''):
         data['prefLabel'].append({'@language':idioma, '@value':relation})
+        #data['@context']={'topConceptOf': 'http://lynx-project.eu/kos/'+scheme}
+               
     return(data)
 
+def editFileSchema(scheme, data, ide):
+    name=scheme.replace(' ','')+'_schema.json'
+    print('EDITFILE SCHEMA', name)
+    
+    with open('schemas/'+name) as f:
+        file = json.load(f)
+    file["hasTopConcept"].append(ide)
+    f.close()
+    with open('schemas/'+name, 'w') as new:
+        json.dump(file, new, indent=4,ensure_ascii=False)
+    
+    with open('schemas/'+scheme.replace(' ','')+'_schema.jsonld', 'w') as new:
+        json.dump(file, new, indent=4,ensure_ascii=False)
+    
+
+   
 def fileContext(scheme, termSearch, ide, carpeta, idioma):
     dataContext={}
     dataContext={'@context':'', 'prefLabel':'skos:prefLabel', 'altLabel':'skos:altLabel','notation':'skos:notation','definition':'skos:definition','source':'dc:source','creator':'dc:source', "description":"dc:description",'date':'dc:date' }
