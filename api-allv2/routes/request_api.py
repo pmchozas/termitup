@@ -25,11 +25,11 @@ def index():
     pagetitle = "HomePage"
     return render_template("index.html")
 
-@REQUEST_API.route('/term/<string:term>,<string:source_language>,<string:target_languages>,<string:context>,<string:wsid>,<string:relation_validation>,<string:schema>', methods=['GET'])
+@REQUEST_API.route('/term/<string:term>/<string:source_language>/<string:target_languages>/<string:context>/<string:wsid>/<string:relation_validation>/<string:schema>', methods=['GET'])
 def get(term,source_language,target_languages,context,wsid,relation_validation,schema):
     
 
-    
+    scheme=schema
     dataRetriever=relation_validation
     termino=term
     idioma=source_language
@@ -55,7 +55,7 @@ def get(term,source_language,target_languages,context,wsid,relation_validation,s
         contextFile=termiup_terminal.leerContextos(idioma, termino)
 
     jsonlist=termiup_terminal.haceJson(lista, idioma,targets)
-    res=termiup_terminal.all(jsonlist, idioma, targets, context, contextFile,  wsid, schema, dataRetriever)
+    res=termiup_terminal.all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetriever)
     print(res)
     return jsonify(res),200
       

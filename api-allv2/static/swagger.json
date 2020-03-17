@@ -16,7 +16,7 @@
     }
   ],
   "paths": {
-    "/term/{term},{source_language},{target_languages},{context},{wsid},{relation_validation},{schema}": {
+    "/term/{term}/{source_language}/{target_languages}/{context}/{wsid}/{relation_validation}/{schema}": {
       "get": {
         "tags": [
           "Search Terms"
@@ -80,7 +80,7 @@
           },
           {
             "in": "path",
-            "name": "scheme",
+            "name": "schema",
             "required": true,
             "description": "Schema of your set of terms (labour law, bio, administration...).",
             "schema": {

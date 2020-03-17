@@ -1103,7 +1103,7 @@ def barra(var):
         bar2.next()
     bar2.finish()
 #---------------------------------MAIN---------------------------------------------------------------
-
+'''
 parser=argparse.ArgumentParser()
 parser.add_argument("--sourceFile", help="Name of the source csv file (term list)") #nombre de archivo a leer
 parser.add_argument("--sourceTerm", help="Source term to search")
@@ -1196,4 +1196,4 @@ else:
             
 #TERM
 #python3 all.py --sourceTerm término --lang es --targets "es en de nl"
-
+'''
