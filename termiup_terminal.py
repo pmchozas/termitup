@@ -286,7 +286,7 @@ def wsidFunction(termIn, context, contextFile,  definitions):
                 defiMax=''
                 idMax=''
 
-        barra('Desambiguando context file')
+        
     return(defiMax, idMax,code)
 
 
@@ -296,7 +296,7 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
     resultado=''
     relation=''
     uri=getUriTerm(termino, target, idioma)
-    print('1 URI:-------', uri)
+    
     if(len(uri)>0 and uri[0]!=''):
         nameDef=getName(uri, idioma,termino)
         nombres=nameDef[0]
@@ -305,7 +305,6 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
         d=(definicionesOnly, [])
         if(wsid=='si'):
             maximo=wsidFunction(termino, context, contextFile, d)
-            print('---',maximo,'---',maximo[0])
             if(maximo[2]!=200 or maximo[0]==''):
                 uri=getUriTerm(termino, target, idioma)
                 answer=listEurovoc(relations, uri, idioma,termino)
@@ -324,6 +323,7 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
           
 
     else:
+        print('NO ESTA EN EUROVOC')
         for relation in relations: 
             answer=results.append([[''], [''], relation])
   
@@ -546,6 +546,7 @@ def resultsSyns(idioma,termino,targets,context, contextFile,wsid):
                     getsyn=synonymsGet(maximo)
 
                 #print(termino, maximo[0], maximo[1], getsyn, tradMax, synsTrad)
+
     barra('Get Lexicala')
     return(getsyn, tradMax)
 
@@ -625,11 +626,12 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
     raiz=os.getcwd()
     carpeta=os.listdir(raiz)
     if(idioma in carpeta):
-        print('')
+        pass
     else:
         os.mkdir(idioma)
     
     verify=verificar(idioma,termSearchIn, '')
+    
     ide=verify[0]
     termSearch=verify[1]
     data={}
@@ -656,19 +658,17 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
             data['narrower']=[]
         if(rel!=''):
             data['related']=[]
-        print(data.keys())
+
         data['prefLabel']=[]
         data['altLabel']=[]
         data['definition']=[]
 
-        
-        
         for i in range(len(prefLabel)):
             if(lang[i]==idioma ):
                 if(prefLabel[i]!='' and lang[i] not in si ):
-                    si.append(lang[i])
+                    si.append(idioma)
                     sipref.append(prefLabel[i].strip(' '))
-                    data['prefLabel'].append({'@language':lang[i], '@value':termSearch.strip(' ')})
+                    data['prefLabel'].append({'@language':idioma, '@value':termSearch.strip(' ')})
             else:
                 if(prefLabel[i]!='' and lang[i] not in si):
                     si.append(lang[i])
@@ -721,7 +721,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
         else:
             data=data
     else:
-        n=termSearchIn.replace(' ', '_')
+        n=termSearchIn.replace(' ', '_').replace('\ufeff','')
         n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
         normalize( "NFD", n), 0, re.I
             )
@@ -836,7 +836,9 @@ def verificar(idioma,  termSearch, relation):
         path=idioma+'/'
     lista_arq = [obj for obj in listdir(path) if isfile(path + obj)]
     ide=sctmid_creator()
-    
+    print('archivos en carpeta:', lista_arq)
+    termSearch=termSearch.replace('\ufeff', '')
+    print('termino buscado', termSearch)
     for i in lista_arq:
         slp=i.split('_')
         
@@ -850,8 +852,9 @@ def verificar(idioma,  termSearch, relation):
             slp2=slp[1].split('.')
             idefile=slp2[0]
 
-        
+        print('termino buscar: ', termSearch,'termino en carpeta: ', termfile)
         if(termSearch == termfile):
+            print('entra')
             termSearch='1'
             ide=idefile
         else:
@@ -1098,7 +1101,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
             
             
         else:
-            print('NO ESTA')
+            print('NO ESTA EN IATE')
             for target in targets:
                 lang=[]
                 definicion=[]
@@ -1118,7 +1121,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
                 pref.append(termSearch[cont])
                 defi.append('')
                 alt.append('|')
-                tar.append(target)
+                tar.append(idioma)
                 iate.append('')
 
                 relations=['broader', 'narrower', 'related']
@@ -1132,11 +1135,12 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
     return(fin)
 
 def barra(var):
-    bar2 = ChargingBar('Procesando: '+var, max=100)
+    print('')
+    '''bar2 = ChargingBar('Procesando: '+var, max=100)
     for num in range(100):
         time.sleep(random.uniform(0, 0.02))
         bar2.next()
-    bar2.finish()
+    bar2.finish()'''
 #---------------------------------MAIN---------------------------------------------------------------
 
 parser=argparse.ArgumentParser()
