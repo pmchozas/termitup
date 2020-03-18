@@ -668,7 +668,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
                 if(prefLabel[i]!='' and lang[i] not in si ):
                     si.append(lang[i])
                     sipref.append(prefLabel[i].strip(' '))
-                    data['prefLabel'].append({'@language':lang[i], '@value':termSearch.strip(' ')})
+                    data['prefLabel'].append({'@language':idioma, '@value':termSearch.strip(' ')})
             else:
                 if(prefLabel[i]!='' and lang[i] not in si):
                     si.append(lang[i])
