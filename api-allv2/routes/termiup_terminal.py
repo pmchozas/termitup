@@ -4,6 +4,7 @@ import requests #libreria para querys en api
 import json #libreria para utulizar json en python
 from random import randint #libreria para random
 import re
+from unicodedata import normalize
 import os
 from os import remove
 import collections
@@ -190,6 +191,7 @@ def getIate(target, item,leng,termSearch):
 
 
 def iateLists(pref, alt, defi, tar, iate,j, lbloq,prefLabel, synonyms, definicion2, lang, iateIde):
+
     pref.append(prefLabel[j][:-2])
     alt.append(synonyms[j][:-2])
     defi.append(definicion2[j][:-2])
@@ -242,6 +244,7 @@ def wsidFunction(termIn, context, contextFile,  definitions):
         
         barra('Desambiguando context')
     elif(contextFile):
+        print('wsid context file')
         for i in contextFile:
             contextTerm=i[0]
             if(termIn in contextTerm):
@@ -261,6 +264,7 @@ def wsidFunction(termIn, context, contextFile,  definitions):
                                 )
                
                 code=response.status_code
+                print(code)
                 try:
                     pesos=response.json()
                     max_item = max(pesos, key=int)
@@ -616,6 +620,7 @@ def traductionGet(maximo, targets):
 
 
 def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,iate, lexicala, scheme, dataRetriever):  
+    print('-----------', termSearchIn, '---------')
     newFile=''
     raiz=os.getcwd()
     carpeta=os.listdir(raiz)
@@ -630,28 +635,52 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
     data={}
     dataContext={}
     if(termSearch!='1'):
-        data={'@context':'http://lynx-project.eu/doc/jsonld/skosterm.json','@id': ide, '@type':'skos:Concept', 'inScheme': scheme.replace(' ',''), "source":"https://iate.europa.eu/entry/result/"+iate[0], 'prefLabel':'' }
+        si=[]
+        sipref=[]
+        sialt=[]
         
-        if(len(prefLabel)>0 and prefLabel[0]!=''):
-            data['prefLabel']=[]
-        if(len(altLabel)>0 or lexicala[0]!=''):
-            data['altLabel']=[]
-        if(len(definition)>0):
-            data['definition']=[]
+
+        br=eurovoc[0][0][0]
+        na=eurovoc[1][0][0]
+        rel=eurovoc[2][0][0]
+        if(br=='' ):
+            data={'@context':'http://lynx-project.eu/doc/jsonld/skosterm.json','@id': ide, '@type':'skos:Concept', 'inScheme': scheme.replace(' ',''), "source":"https://iate.europa.eu/entry/result/"+iate[0], 'prefLabel':'' ,'altLabel':'' ,'definition':'' ,'topConceptOf': 'http://lynx-project.eu/kos/'+scheme.replace(' ','')}
+        else:
+            data={'@context':'http://lynx-project.eu/doc/jsonld/skosterm.json','@id': ide, '@type':'skos:Concept', 'inScheme': scheme.replace(' ',''), "source":"https://iate.europa.eu/entry/result/"+iate[0], 'prefLabel':'' ,'altLabel':'' ,'definition':'' }
+        
+
+        
+        if(br!=''):
+            data['broader']=[]
+        if(na!=''):
+            data['narrower']=[]
+        if(rel!=''):
+            data['related']=[]
+        print(data.keys())
+        data['prefLabel']=[]
+        data['altLabel']=[]
+        data['definition']=[]
+
+        
         
         for i in range(len(prefLabel)):
-            if(lang[i]==idioma):
-                if(prefLabel[i]!=''):
+            if(lang[i]==idioma ):
+                if(prefLabel[i]!='' and lang[i] not in si ):
+                    si.append(lang[i])
+                    sipref.append(prefLabel[i].strip(' '))
                     data['prefLabel'].append({'@language':lang[i], '@value':termSearch.strip(' ')})
             else:
-                if(prefLabel[i]!=''):
+                if(prefLabel[i]!='' and lang[i] not in si):
+                    si.append(lang[i])
+                    sipref.append(prefLabel[i].strip(' '))
                     data['prefLabel'].append({'@language':lang[i], '@value':prefLabel[i].strip(' ')})
         
         for i in range(len(altLabel)):
             if(altLabel[i]!=''):
                 s_alt=altLabel[i].split('|')
                 for j in s_alt:
-                    if(j != prefLabel[i] and j!=''):
+                    if( j!='' and j.strip(' ') not in sipref and j.strip(' ') not in sialt ):
+                        sialt.append(j.strip(' '))
                         data['altLabel'].append({'@language':lang[i], '@value':j.strip(' ')})
         
         
@@ -667,21 +696,22 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
             if(definition[i]!=''):
                 data['definition'].append({'@language':lang[i], '@value':definition[i].strip(' ')})
 
+        if(len(data['altLabel'])==0):
+            del data['altLabel']
         
-        br=eurovoc[0][0][0]
-        na=eurovoc[1][0][0]
-        re=eurovoc[2][0][0]
-        if(br!=''):
-            data['broader']=[]
-        if(na!=''):
-            data['narrower']=[]
-        if(re!=''):
-            data['related']=[]
-
+       
+        if(len(data['definition'])==0):
+            del data['definition']
+        
         for i in eurovoc:
-            re=relationsEurovoc(i[0], i[1], idioma,data, i[2], scheme )
+            relationsEurovoc(i[0], i[1], idioma,data, i[2], scheme )
             
         n=termSearch.replace(' ', '_')
+        n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+        normalize( "NFD", n), 0, re.I
+            )
+        n = normalize( 'NFC', n)
+
         newFile=idioma+'/'+n+'_'+ide+'.jsonld'
         with open(newFile, 'w') as file:
             json.dump(data, file, indent=4,ensure_ascii=False)
@@ -692,6 +722,11 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
             data=data
     else:
         n=termSearchIn.replace(' ', '_')
+        n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+        normalize( "NFD", n), 0, re.I
+            )
+        n = normalize( 'NFC', n)
+
         with open(idioma+'/'+n+'_'+ide+'.jsonld', 'r') as file:
             data = json.load(file)
     return(data)
@@ -719,13 +754,14 @@ def relationsEurovoc(relationList, uriList, idioma,data, relationEuro, scheme):
                    
                     dataEurovoc=fileEurovoc(termSearch, ide, relation, uri, idioma, scheme, relationEuro)
                     if( 'broader' in relationEuro):
-                        print('ESTA', relationEuro)
                         editFileSchema(scheme, data, ide)
                
-                        
-                        #dataEurovoc['@context']={"topConceptOf":"http://lynx-project.eu/kos/"+scheme.replace(' ','')}
-
                     n=termSearch.replace(' ','')
+                    n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+                    normalize( "NFD", n), 0, re.I
+                        )
+                    n = normalize( 'NFC', n)
+
                     with open(idioma+'/'+relationEuro+'/'+n+'_'+ide+'.jsonld', 'w') as file:
                         json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
     return(ide)   
@@ -749,7 +785,6 @@ def fileEurovoc(termSearch, ide, relation, iduri, idioma, scheme, relationEuro):
 
 def editFileSchema(scheme, data, ide):
     name=scheme.replace(' ','')+'_schema.json'
-    print('EDITFILE SCHEMA', name)
     
     with open('schemas/'+name) as f:
         file = json.load(f)
@@ -1103,7 +1138,7 @@ def barra(var):
         bar2.next()
     bar2.finish()
 #---------------------------------MAIN---------------------------------------------------------------
-'''
+
 parser=argparse.ArgumentParser()
 parser.add_argument("--sourceFile", help="Name of the source csv file (term list)") #nombre de archivo a leer
 parser.add_argument("--sourceTerm", help="Source term to search")
@@ -1186,14 +1221,15 @@ else:
             lista1=lista[ini:fin]
             print(ini, fin)
             jsonlist=haceJson(lista1, idioma,targets)
-            all( jsonlist, idioma, targets,context, contextFile,  wsid,scheme, dataRetriever)
+            all( jsonlist, idioma, targets,context, contextFile,  wsid,scheme, DR)
+
             time.sleep(10)
             ini=ini+200
             fin=fin+200
     else:
         jsonlist=haceJson(lista, idioma,targets)
-        all( jsonlist, idioma, targets,context, contextFile, wsid, scheme, dataRetriever)
+        all( jsonlist, idioma, targets,context, contextFile,  wsid,scheme, DR)
             
 #TERM
 #python3 all.py --sourceTerm término --lang es --targets "es en de nl"
-'''
+
