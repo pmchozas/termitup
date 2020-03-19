@@ -357,12 +357,12 @@ def getUriTerm(termino,lenguaje, idioma):
         SELECT ?c ?label
         WHERE {
         GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
-        VALUES ?searchTerm { """+termino2+""" }
-        VALUES ?searchLang { """+idioma2+""" }
-        VALUES ?relation {skos:prefLabel skos:altLabel}
         ?c a skos:Concept .
-        ?c ?relation ?label .
-        filter ( contains(?label,?searchTerm) && lang(?label)=?searchLang )       
+        ?c ?p ?label. 
+          FILTER regex(?label, """+termino2+""", "i" )
+          FILTER (lang(?label) = """+idioma2+""")
+          FILTER (?p IN (skos:prefLabel, skos:altLabel ) )
+
         }  
         }
         """
