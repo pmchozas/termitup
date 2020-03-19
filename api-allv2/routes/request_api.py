@@ -36,10 +36,8 @@ def get(term,source_language,target_languages,context,wsid,relation_validation,s
     targets=target_languages.split(' ')
     contextlist='' 
     contextFile=None 
-    lista=[]
-    lista.append(termino)
     context=None
-    print(termino,'--',context)
+    ide=termiup_terminal.sctmid_creator()
     if(context):
         context=context
     elif(contextFile):
@@ -50,12 +48,10 @@ def get(term,source_language,target_languages,context,wsid,relation_validation,s
             contextFile.append([i[0], i[1],i[2],i[3]])
     
     else:
-        print('entro')
-        print(idioma)
         contextFile=termiup_terminal.leerContextos(idioma, termino)
 
-    jsonlist=termiup_terminal.haceJson(lista, idioma,targets)
-    res=termiup_terminal.all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetriever)
+    jsonlist=termiup_terminal.haceJson(termino, idioma,targets)
+    res=termiup_terminal.all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetriever,ide)
     print(res)
     return jsonify(res),200
       
