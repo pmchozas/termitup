@@ -3,17 +3,6 @@
     "@id": "labourlaw",
     "conceptScheme": "http://lynx-project.eu/kos/labourlaw/",
     "hasTopConcept": [
-        "LT7049589",
-        "LT5763903",
-        "LT9820098",
-        "LT2503268",
-        "LT9584158",
-        "LT5664088",
-        "LT3003502",
-        "LT7731101",
-        "LT7941538",
-        "LT2636081",
-        "LT3353302"
     ],
     "label": "labour law",
     "creator": "UPM",
