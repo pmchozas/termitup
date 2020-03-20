@@ -370,7 +370,6 @@ def getUriTerm(termino,lenguaje, idioma):
         #filter (regex(?label, "(^)"""+termino+"""($)"))
         r=requests.get(url, params={'format': 'json', 'query': query})
         results=json.loads(r.text)
-        print(results)
         if (len(results["results"]["bindings"])==0):
             resultadouri=''
         else:
@@ -670,6 +669,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
     data['altLabel']=[]
     data['definition']=[]
 
+
     for i in range(len(prefLabel)):
         if(lang[i]==idioma ):
             if(prefLabel[i]!='' and lang[i] not in si ):
@@ -711,7 +711,9 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
         del data['definition']
         
     for i in eurovoc:
-        relationsEurovoc(i[0], i[1], idioma,data, i[2], scheme, ide)
+        t=list(set(i[0]))
+        u=list(set(i[1]))
+        relationsEurovoc(t, u, idioma,data, i[2], scheme, ide)
             
     
     n=termSearchIn.replace(' ', '_').replace('\ufeff','')
@@ -743,7 +745,6 @@ def relationsEurovoc(relationList, uriList, idioma,data, relationEuro, scheme, i
             except RecursionError:
                 ide=sctmid_creator()
                 termSearch=relation
-
             if(ide!='' and termSearch!=''):
                 if(relationEuro in data.keys()):
                     data[relationEuro].append(ide)
@@ -955,7 +956,7 @@ def crearRelaciones(relacion, retrieved_wikidata,  A,idioma, scheme, ide):
                     json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
 
 def dataRetrieverFunction(newFile, idioma, scheme, ide):
-    print("============ Reading the configuration file")
+    #print("============ Reading the configuration file")
     configuration={
         "source_file_dir": "backup/July16/scterm_dict.csv",
         "gold_concepts_dir": "backup/July16/goldstandard.json",
@@ -969,7 +970,7 @@ def dataRetrieverFunction(newFile, idioma, scheme, ide):
     terms = [t for t in source_file.split("\n")]
     
     if configuration["retrieve_ConceptNet"]:
-        print("====== Retrieving data from ConceptNet:")
+        #print("====== Retrieving data from ConceptNet:")
         with open(wikidata_output_file_name, 'r') as f:
             retrieved_wikidata = json.load(f)
         all_inductions = list()
