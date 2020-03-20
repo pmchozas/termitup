@@ -386,8 +386,6 @@ def getUriTerm(termino,lenguaje, idioma):
                             tok.remove(i)
                             tokt=termino.split(' ')
                             if(len(tok)==len(tokt)):
-                                print('TOK', tok)
-                    
                                 resultado.append(resultadouri)
     
     except json.decoder.JSONDecodeError:
@@ -639,7 +637,7 @@ def traductionGet(maximo, targets):
     return(textList)
 
 
-def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,iate, lexicala, scheme, dataRetriever):  
+def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,iate, lexicala, scheme, dataRetriever, targets):  
     
     newFile=''
     data={}
@@ -713,7 +711,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
     for i in eurovoc:
         t=list(set(i[0]))
         u=list(set(i[1]))
-        relationsEurovoc(t, u, idioma,data, i[2], scheme, ide)
+        relationsEurovoc(t, u, idioma,data, i[2], scheme, ide, targets)
             
     
     n=termSearchIn.replace(' ', '_').replace('\ufeff','')
@@ -726,20 +724,20 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
         json.dump(data, file, indent=4,ensure_ascii=False)
         
     if(dataRetriever=='si'):
-        data=dataRetrieverFunction(newFile, idioma, scheme, ide )
+        data=dataRetrieverFunction(newFile, idioma, scheme, ide, targets )
     else:
         data=data
     return(data)
         
         
-def relationsEurovoc(relationList, uriList, idioma,data, relationEuro, scheme, ideOriginal):
+def relationsEurovoc(relationList, uriList, idioma,data, relationEuro, scheme, ideOriginal, targets):
     ide=''
     for i in range(len(relationList)):
         relation=relationList[i]
         uri=uriList[i]
         if(relation!=''):
             try:
-                verify=verificar(idioma,  relation, relationEuro)
+                verify=verificar(idioma,  relation, relationEuro, targets)
                 ide=verify[0]
                 termSearch=verify[1]
             except RecursionError:
@@ -824,37 +822,46 @@ def fileScheme(scheme, idioma,creator, date, description, keywords):
     with open(idioma+'/schemeFiles/'+scheme.replace(' ','')+'_schema'+'.jsonld', 'w') as file:
         json.dump(dataScheme, file, indent=4,ensure_ascii=False)
 
-def verificar(idioma,  termSearch, relation):
-    if(relation!=''):
-        path=idioma+'/'+relation+'/'
-    else:
-        path=idioma+'/'
-    lista_arq = [obj for obj in listdir(path) if isfile(path + obj)]
+def path(idioma, targets, relation):
+    lista_arq=[]
+    for i in targets:
+        if(relation!=''):
+            path=i+'/'+relation+'/'
+        else:
+            path=i+'/'
+        lista = [obj for obj in listdir(path) if isfile(path + obj)]
+        lista_arq.append(lista)
+    return(lista_arq)
+
+
+def verificar(idioma,  termSearch, relation, targets):
+    lista_arq=path(idioma, targets, relation)
     ide=sctmid_creator()
     termSearch=termSearch.replace('\ufeff', '')
     termSearch=termSearch.replace('_', ' ')
-    for i in lista_arq:
-        slp=i.split('_')
-        
-        if(len(slp)>2):
-            termfile=slp[:len(slp)-1]
-            termfile=' '.join(termfile)
-            slp2=slp[len(slp)-1].split('.')
-            idefile=slp2[0]
-        else:
-            termfile=slp[0]
-            slp2=slp[1].split('.')
-            idefile=slp2[0]
-        if(termSearch == termfile):
-            termSearch='1'
-            ide=idefile
-        else:
-            termSearch=termSearch
-            if(ide in idefile):
-                ide=sctmid_creator()
-                verificar(idioma, termSearch, relation)
+    for carps in lista_arq:
+        for j in carps:
+            slp=j.split('_')
+            
+            if(len(slp)>2):
+                termfile=slp[:len(slp)-1]
+                termfile=' '.join(termfile)
+                slp2=slp[len(slp)-1].split('.')
+                idefile=slp2[0]
             else:
-                ide=ide
+                termfile=slp[0]
+                slp2=slp[1].split('.')
+                idefile=slp2[0]
+            if(termSearch == termfile):
+                termSearch='1'
+                ide=idefile
+            else:
+                termSearch=termSearch
+                if(ide in idefile):
+                    ide=sctmid_creator()
+                    verificar(idioma, termSearch, relation, targets)
+                else:
+                    ide=ide
     return(ide, termSearch)
 
 
@@ -935,12 +942,12 @@ def inducer(T, A, S):
 
     return semantic_relationship
 
-def crearRelaciones(relacion, retrieved_wikidata,  A,idioma, scheme, ide):
+def crearRelaciones(relacion, retrieved_wikidata,  A,idioma, scheme, ide, targets):
     skos="skos:"+relacion
     if(skos in retrieved_wikidata.keys()):
         relat=retrieved_wikidata[skos]
         cambio=''.join(A)
-        verify=verificar(idioma,  cambio, relacion)
+        verify=verificar(idioma,  cambio, relacion, targets)
         ideB=verify[0]
         termSearchB=verify[1]
         if(termSearchB!='1'):
@@ -955,7 +962,7 @@ def crearRelaciones(relacion, retrieved_wikidata,  A,idioma, scheme, ide):
                 with open(idioma+'/'+relacion+'/'+termSearchB+'_'+ideB+'.jsonld', 'w') as file:
                     json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
 
-def dataRetrieverFunction(newFile, idioma, scheme, ide):
+def dataRetrieverFunction(newFile, idioma, scheme, ide, targets):
     #print("============ Reading the configuration file")
     configuration={
         "source_file_dir": "backup/July16/scterm_dict.csv",
@@ -990,18 +997,18 @@ def dataRetrieverFunction(newFile, idioma, scheme, ide):
                         T_A_relationship = inducer(T, A, S)
                         altLabel_induction[" ".join(A)] = T_A_relationship
                         if(T_A_relationship=='related'):
-                            crearRelaciones('related',retrieved_wikidata,A,idioma, scheme,ide)
+                            crearRelaciones('related',retrieved_wikidata,A,idioma, scheme,ide, targets)
                             retrieved_wikidata["altLabel"].remove(altLabel)
 
                         elif(T_A_relationship=='narrower'):
-                            crearRelaciones('narrower',retrieved_wikidata,A,idioma, scheme,ide)
+                            crearRelaciones('narrower',retrieved_wikidata,A,idioma, scheme,ide, targets)
                             retrieved_wikidata["altLabel"].remove(altLabel)
                         elif(T_A_relationship=='broader'):
-                            crearRelaciones('broader ',retrieved_wikidata,A,idioma, scheme,ide)
+                            crearRelaciones('broader ',retrieved_wikidata,A,idioma, scheme,ide, targets)
                             retrieved_wikidata["altLabel"].remove(altLabel)
 
                         elif(T_A_relationship=='synonymy'):
-                            print('')
+                            pass
                         
             else:
                 # No synonyms found on ConceptNet"
@@ -1088,7 +1095,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
             relations=['broader', 'narrower', 'related']
             euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile, wsid)
             lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile,wsid)
-            fin=fileJson(termSearch[cont], iateList[0], iateList[1], iateList[2],idioma, iateList[3], euro,iateList[4], lexicala, scheme, dataRetriever)
+            fin=fileJson(termSearch[cont], iateList[0], iateList[1], iateList[2],idioma, iateList[3], euro,iateList[4], lexicala, scheme, dataRetriever, targets)
             
             
         else:
@@ -1118,7 +1125,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
             relations=['broader', 'narrower', 'related']
             euro=resultsEurovoc(termSearch[cont], idioma, relations, target,  context, contextFile, wsid)
             lexicala=resultsSyns(idioma,termSearch[cont],targets,context, contextFile,wsid)
-            fin=fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala, scheme, dataRetriever)
+            fin=fileJson(termSearch[cont], pref, alt, defi,idioma, tar, euro,iate, lexicala, scheme, dataRetriever, targets)
             #print(fin)
 
         cont=cont+1;
@@ -1166,16 +1173,17 @@ keywords=args.keywords
 
 raiz=os.getcwd()
 carpeta=os.listdir(raiz)
-if(idioma in carpeta):
-    pass
-else:
-    os.mkdir(idioma)
+for tar in targets:
+    if(tar in carpeta):
+        pass
+    else:
+        os.mkdir(tar)
 
-carpetas=os.listdir(idioma)
-relationes=['broader', 'narrower', 'related']
-for i in relationes:
-    if(i not in carpetas):
-        os.makedirs(idioma+"/"+i)
+    carpetas=os.listdir(tar)
+    relationes=['broader', 'narrower', 'related']
+    for i in relationes:
+        if(i not in carpetas):
+            os.makedirs(tar+"/"+i)
 
 
 if(termino):
@@ -1193,7 +1201,7 @@ if(termino):
     else:
         contextFile=leerContextos(idioma, termino)
     
-    verify=verificar(idioma,termino, '')
+    verify=verificar(idioma,termino, '', targets)
     ide=verify[0]
     termSearch=verify[1]
     if(termSearch!='1'):
@@ -1234,10 +1242,10 @@ else:
     read=csv.reader(file)
     for i in read:
         termino=i[0].replace(' ', '_').replace('\ufeff','')
-        verify=verificar(idioma,termino, '')
+        verify=verificar(idioma,termino, '', targets)
         ide=verify[0]
         termSearch=verify[1]
-        print('entrada', termSearch)
+        print('TERMINO A BUSCAR: ', termSearch)
         if(termSearch!='1'):
             #lista.append(termino)
             jsonlist=haceJson(termSearch, idioma,targets)
