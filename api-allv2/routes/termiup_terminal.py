@@ -304,7 +304,7 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
         definiciones=nameDef[1]
         definicionesOnly=nameDef[2]
         d=(definicionesOnly, [])
-        if(wsid=='si'):
+        if(wsid=='yes'):
             maximo=wsidFunction(termino, context, contextFile, d)
             if(maximo[2]!=200 or maximo[0]==''):
                 print('---',uri)
@@ -539,12 +539,12 @@ def getDef( nameUri,uriRelation,lenguaje):
 
 
 def lexicalaSearch(languageIn, term):
-    search = requests.get("https://dictapi.lexicala.com/search?source=global&language="+languageIn+"&text="+term+"", auth=('987123456', '987123456'))
+    search = requests.get("https://dictapi.lexicala.com/search?source=global&language="+languageIn+"&text="+term+"", auth=('upm2', 'XvrPwS4y'))
     answerSearch=search.json()
     return(answerSearch)
 
 def lexicalaSense(maximo):
-    sense = requests.get("https://dictapi.lexicala.com/senses/"+maximo+"", auth=('987123456', '987123456'))
+    sense = requests.get("https://dictapi.lexicala.com/senses/"+maximo+"", auth=('upm2', 'XvrPwS4y'))
     answerSense=sense.json()
     return(answerSense)
 
@@ -557,7 +557,7 @@ def resultsSyns(idioma,termino,targets,context, contextFile,wsid):
             results=answer['n_results']
             if(results>0):
                 definitions=definitionGet(answer)
-                if(wsid=='si'):
+                if(wsid=='yes'):
                     maximo=wsidFunction(termino,context, contextFile, definitions)
                     if(maximo[2]!=200):
                         maximo=(termino, '')
@@ -748,7 +748,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
     with open(newFile, 'w') as file:
         json.dump(data, file, indent=4,ensure_ascii=False)
     '''    
-    if(dataRetriever=='si'):
+    if(dataRetriever=='yes'):
         data=dataRetrieverFunction(newFile, idioma, scheme, ide )
     else:
         data=data
@@ -1118,7 +1118,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
             defi=[]
             tar=[]
             iate=[]
-            if(wsid=='si'):
+            if(wsid=='yes'):
                 maximo=wsidFunction(termSearch[cont],  context, contextFile,  d)
                 #print(maximo[0], maximo[1], maximo[2])
                 
