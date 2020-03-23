@@ -37,7 +37,7 @@
             "in": "path",
             "name": "source_language",
             "required": true,
-            "description": "Language of the source term to be enriched (en, es, de, nl...)",
+            "description": "Language of the source term to be enriched, separated by blank spaces (en es de nl...)",
             "schema": {
               "$ref": ""
             }
@@ -64,7 +64,7 @@
             "in": "path",
             "name": "wsid",
             "required": true,
-            "description": "Write si if you want to call the disambiguation service and no if you don't.",
+            "description": "Write yes if you want to call the disambiguation service and no if you don't.",
             "schema": {
               "$ref": ""
             }
@@ -73,7 +73,7 @@
             "in": "path",
             "name": "relation_validation",
             "required": true,
-            "description": "Write si if you want to call the relation validation service and no if you don't.",
+            "description": "Write si yes you want to call the relation validation service and no if you don't.",
             "schema": {
               "$ref": ""
             }
