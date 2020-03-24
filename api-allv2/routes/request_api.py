@@ -25,17 +25,30 @@ def index():
     pagetitle = "HomePage"
     return render_template("index.html")
 
-@REQUEST_API.route('/term/<string:term>/<string:source_language>/<string:target_languages>/<string:context>/<string:wsid>/<string:relation_validation>/<string:schema>', methods=['GET'])
-def get(term,source_language,target_languages,context,wsid,relation_validation,schema):
+@REQUEST_API.route('/term', methods=['GET'])
+def term():
     
 
-    scheme=schema
-    dataRetriever=relation_validation
-    termino=term
-    idioma=source_language
-    targets=target_languages.split(' ')
+    termino = request.args.get('term')
+    idioma = request.args.get('source_language')
+    targets1 = request.args.get('target_languages')
+    context1 = request.args.get('context')
+    wsid = request.args.get('wsid')
+    dataRetriever = request.args.get('relation_validation')
+    scheme = request.args.get('schema')
+
+
+
+
+
+   
+    
+    
+    
+    targets=targets1.split(' ')
     contextlist='' 
     contextFile=None 
+    context=context1
     context=None
     ide=termiup_terminal.sctmid_creator()
     if(context):
