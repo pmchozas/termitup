@@ -107,33 +107,34 @@ def obtenerToken():
 
 def haceJson(termino, idioma,targets):
     answer=[]
-    auth_token=obtenerToken() 
-    #for i in lista:
-    #    termino=i
-    hed = {'Authorization': 'Bearer ' +auth_token}
-    jsonList=[]
-    data = {"query": termino,
-    "source": idioma,
-    "targets": targets,
-    "search_in_fields": [
-            0
-    ],
-    "search_in_term_types": [
-                0,
-                1,
-                2,
-                3,
-                4
-    ],
-         
-        "query_operator": 1
-    }
-    url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
-    response = requests.get(url, json=data, headers=hed)
-    reponse2=response.json()
-    js=json.dumps(reponse2)
-    answer.append(reponse2)
-    jsondump=json.dumps(answer)
+    try:
+        auth_token=obtenerToken() 
+        hed = {'Authorization': 'Bearer ' +auth_token}
+        jsonList=[]
+        data = {"query": termino,
+        "source": idioma,
+        "targets": targets,
+        "search_in_fields": [
+                0
+        ],
+        "search_in_term_types": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+        ],
+             
+            "query_operator": 1
+        }
+        url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
+        response = requests.get(url, json=data, headers=hed)
+        reponse2=response.json()
+        js=json.dumps(reponse2)
+        answer.append(reponse2)
+        jsondump=json.dumps(answer)
+    except json.decoder.JSONDecodeError:
+        jsondump='{ }'
     #barra('Query Iate')
     return(jsondump)
 
@@ -656,20 +657,8 @@ def traductionGet(maximo, targets):
 def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,iate, lexicala, scheme, dataRetriever,ide):  
     
     newFile=''
-    '''raiz=os.getcwd()
-    carpeta=os.listdir(raiz)
-    if(idioma in carpeta):
-        pass
-    else:
-        os.mkdir(idioma)
-    
-    verify=verificar(idioma,termSearchIn, '')
-    
-    ide=verify[0]
-    termSearch=verify[1]'''
     data={}
     dataContext={}
-    #if(termSearch!='1'):
     si=[]
     sipref=[]
     sialt=[]
@@ -699,7 +688,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
         if(lang[i]==idioma ):
             if(prefLabel[i]!='' and lang[i] not in si ):
                 si.append(idioma)
-                sipref.append(prefLabel[i].strip(' '))
+                sipref.append(termSearchIn.strip(' '))
                 data['prefLabel'].append({'@language':idioma, '@value':termSearchIn.strip(' ')})
         else:
             if(prefLabel[i]!='' and lang[i] not in si):
@@ -711,7 +700,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
         if(altLabel[i]!=''):
             s_alt=altLabel[i].split('|')
             for j in s_alt:
-                if( j!='' and j.strip(' ') not in sipref and j.strip(' ') not in sialt ):
+                if( j!='' and j.strip(' ') not in sipref and j.strip(' ') not in sialt and j not in sipref):
                     sialt.append(j.strip(' '))
                     data['altLabel'].append({'@language':lang[i], '@value':j.strip(' ')})
         
