@@ -10,7 +10,7 @@ import os
 from os import listdir
 from os.path import isfile, isdir
 import time
-from routes import termiup_terminal
+import termiup_terminal
 
 
 REQUEST_API = Blueprint('term_api', __name__)
