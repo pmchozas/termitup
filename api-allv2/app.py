@@ -5,7 +5,7 @@ import os
 from flask import Flask, jsonify, make_response, render_template
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
-from routes import request_api
+import request_api
 
 APP = Flask(__name__)
 
