@@ -87,7 +87,6 @@
               "$ref": ""
             }
           }
-
         ],
         "responses": {
           "200": {
@@ -95,7 +94,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "#/components/schemas/Term"
                 }
               }
             }
@@ -108,5 +107,85 @@
       }
     }
   },
-
+  "components": {
+    "schemas": {
+      "Term": {
+        "type": "object",
+        "properties": {
+          "context": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "inScheme": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "prefLabel": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/prefLabel"
+            }
+          },
+          "altLabel": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/altLabel"
+            }
+          },
+          "definition": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/definition"
+            }
+          },
+          "broader": {
+            "type": "string"
+          },
+          "related": {
+            "type": "string"
+          }
+        }
+      },
+      "prefLabel": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      },
+      "altLabel": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      },
+      "definition": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
 }
