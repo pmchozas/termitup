@@ -107,32 +107,36 @@ def obtenerToken():
 
 def haceJson(termino, idioma,targets):
     answer=[]
-    auth_token=obtenerToken()
-    hed = {'Authorization': 'Bearer ' +auth_token}
-    jsonList=[]
-    data = {"query": termino,
-    "source": idioma,
-    "targets": targets,
-    "search_in_fields": [
-            0
-    ],
-    "search_in_term_types": [
-                0,
-                1,
-                2,
-                3,
-                4
-    ],
-         
-        "query_operator": 1
-    }
-    url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
-    response = requests.get(url, json=data, headers=hed)
-    reponse2=response.json()
-    js=json.dumps(reponse2)
-    answer.append(reponse2)
-    jsondump=json.dumps(answer)
-    #barra('Query Iate')
+    try:
+        auth_token=obtenerToken()
+        hed = {'Authorization': 'Bearer ' +auth_token}
+        jsonList=[]
+        data = {"query": termino,
+        "source": idioma,
+        "targets": targets,
+        "search_in_fields": [
+                0
+        ],
+        "search_in_term_types": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+        ],
+             
+            "query_operator": 1
+        }
+        url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
+        response = requests.get(url, json=data, headers=hed)
+        reponse2=response.json()
+        js=json.dumps(reponse2)
+        answer.append(reponse2)
+        jsondump=json.dumps(answer)
+
+    except json.decoder.JSONDecodeError:
+        jsondump='{ }'
+        
     return(jsondump)
 
 def getContextIate(item, leng, idioma, termSearch):
@@ -290,6 +294,9 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
     answer=[]
     resultado=''
     relation=''
+    new=open('eurovocNO.csv', 'a')
+    euronot = csv.writer(new)
+
     uri=getUriTerm(termino, target, idioma)
     if(len(uri)>0 and uri[0]!=''):
         nameDef=getName(uri, idioma,termino)
@@ -297,7 +304,7 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
         definiciones=nameDef[1]
         definicionesOnly=nameDef[2]
         d=(definicionesOnly, [])
-        if(wsid=='si'):
+        if(wsid=='yes'):
             maximo=wsidFunction(termino, context, contextFile, d)
             if(maximo[2]!=200 or maximo[0]==''):
                 answer=listEurovoc(relations, uri, idioma,termino)
@@ -316,7 +323,8 @@ def resultsEurovoc(termino, idioma, relations, target, context, contextFile, wsi
           
 
     else:
-        print('NO ESTA EN EUROVOC', termino)
+        #print('NO ESTA EN EUROVOC', termino)
+        euronot.writerow([termino, idioma])
         for relation in relations: 
             answer=results.append([[''], [''], relation])
   
@@ -525,12 +533,12 @@ def getDef( nameUri,uriRelation,lenguaje):
 
 
 def lexicalaSearch(languageIn, term):
-    search = requests.get("https://dictapi.lexicala.com/search?source=global&language="+languageIn+"&text="+term+"", auth=('987123456', '987123456'))
+    search = requests.get("https://dictapi.lexicala.com/search?source=global&language="+languageIn+"&text="+term+"", auth=('upm2', 'XvrPwS4y'))
     answerSearch=search.json()
     return(answerSearch)
 
 def lexicalaSense(maximo):
-    sense = requests.get("https://dictapi.lexicala.com/senses/"+maximo+"", auth=('987123456', '987123456'))
+    sense = requests.get("https://dictapi.lexicala.com/senses/"+maximo+"", auth=('upm2', 'XvrPwS4y'))
     answerSense=sense.json()
     return(answerSense)
 
@@ -543,7 +551,7 @@ def resultsSyns(idioma,termino,targets,context, contextFile,wsid):
             results=answer['n_results']
             if(results>0):
                 definitions=definitionGet(answer)
-                if(wsid=='si'):
+                if(wsid=='yes'):
                     maximo=wsidFunction(termino,context, contextFile, definitions)
                     if(maximo[2]!=200):
                         maximo=(termino, '')
@@ -672,7 +680,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
         if(lang[i]==idioma ):
             if(prefLabel[i]!='' and lang[i] not in si ):
                 si.append(idioma)
-                sipref.append(prefLabel[i].strip(' '))
+                sipref.append(termSearch.strip(' '))
                 data['prefLabel'].append({'@language':idioma, '@value':termSearch.strip(' ')})
         else:
             if(prefLabel[i]!='' and lang[i] not in si):
@@ -680,11 +688,12 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
                 sipref.append(prefLabel[i].strip(' '))
                 data['prefLabel'].append({'@language':lang[i], '@value':prefLabel[i].strip(' ')})
         
+   
     for i in range(len(altLabel)):
         if(altLabel[i]!=''):
             s_alt=altLabel[i].split('|')
             for j in s_alt:
-                if( j!='' and j.strip(' ') not in sipref and j.strip(' ') not in sialt ):
+                if( j!='' and j.strip(' ') not in sipref and j.strip(' ') not in sialt and j not in sipref):
                     sialt.append(j.strip(' '))
                     data['altLabel'].append({'@language':lang[i], '@value':j.strip(' ')})
         
@@ -694,7 +703,7 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
 
     for i in lexicala[1]:
         s_lex=i.split(',')
-        if(s_lex[1]!=''):
+        if(s_lex[1]!='' and s_lex[0] not in si):
             data['altLabel'].append({'@language':s_lex[1], '@value':s_lex[0].strip(' ')})
         
     for i in range(len(definition)):
@@ -723,10 +732,11 @@ def fileJson(termSearchIn, prefLabel, altLabel,definition,idioma,lang, eurovoc,i
     with open(newFile, 'w') as file:
         json.dump(data, file, indent=4,ensure_ascii=False)
         
-    if(dataRetriever=='si'):
+    if(dataRetriever=='yes'):
         data=dataRetrieverFunction(newFile, idioma, scheme, ide, targets )
     else:
         data=data
+    #print(data)
     return(data)
         
         
@@ -839,29 +849,41 @@ def verificar(idioma,  termSearch, relation, targets):
     ide=sctmid_creator()
     termSearch=termSearch.replace('\ufeff', '')
     termSearch=termSearch.replace('_', ' ')
+    termSearch=termSearch.lower()
+    n=termSearch
+    n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+        normalize( "NFD", n), 0, re.I
+            )
+    n = normalize( 'NFC', n)
     for carps in lista_arq:
         for j in carps:
-            slp=j.split('_')
-            
-            if(len(slp)>2):
-                termfile=slp[:len(slp)-1]
-                termfile=' '.join(termfile)
-                slp2=slp[len(slp)-1].split('.')
-                idefile=slp2[0]
-            else:
-                termfile=slp[0]
-                slp2=slp[1].split('.')
-                idefile=slp2[0]
-            if(termSearch == termfile):
-                termSearch='1'
-                ide=idefile
-            else:
-                termSearch=termSearch
-                if(ide in idefile):
-                    ide=sctmid_creator()
-                    verificar(idioma, termSearch, relation, targets)
+            if('.DS_Store' not in j):
+                slp=j.split('_')
+                
+                if(len(slp)>2):
+                    termfile=slp[:len(slp)-1]
+                    termfile=' '.join(termfile)
+                    slp2=slp[len(slp)-1].split('.')
+                    idefile=slp2[0]
                 else:
-                    ide=ide
+
+                    termfile=slp[0]
+                    if(len(slp)>1):
+                        slp2=slp[1].split('.')
+                    idefile=slp2[0]
+
+                
+
+                if(n == termfile):
+                    termSearch='1'
+                    ide=idefile
+                else:
+                    termSearch=termSearch
+                    if(ide in idefile):
+                        ide=sctmid_creator()
+                        verificar(idioma, termSearch, relation, targets)
+                    else:
+                        ide=ide
     return(ide, termSearch)
 
 
@@ -943,25 +965,28 @@ def inducer(T, A, S):
     return semantic_relationship
 
 def crearRelaciones(relacion, retrieved_wikidata,  A,idioma, scheme, ide, targets):
-    skos="skos:"+relacion
+    skos=relacion
     if(skos in retrieved_wikidata.keys()):
         relat=retrieved_wikidata[skos]
-        cambio=''.join(A)
-        verify=verificar(idioma,  cambio, relacion, targets)
-        ideB=verify[0]
-        termSearchB=verify[1]
-        if(termSearchB!='1'):
-            retrieved_wikidata[skos].append(ideB)
-            dataEurovoc=fileEurovoc(termSearchB, ideB, A, '-', idioma, scheme, ide)
-            carpetas=os.listdir(idioma)
-            if(relacion in carpetas):
-                with open(idioma+'/'+relacion+'/'+termSearchB+'_'+ideB+'.jsonld', 'w') as file:
-                    json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-            else:
-                os.makedirs(idioma+"/"+relacion)
-                with open(idioma+'/'+relacion+'/'+termSearchB+'_'+ideB+'.jsonld', 'w') as file:
-                    json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
-
+    else:
+        retrieved_wikidata[skos]=[]
+    cambio=' '.join(A)
+    verify=verificar(idioma,  cambio, relacion, targets)
+    ideB=verify[0]
+    termSearchB=verify[1]
+    if(termSearchB!='1'):
+        retrieved_wikidata[skos].append(ideB)
+        dataEurovoc=fileEurovoc(termSearchB, ideB, cambio, '-', idioma, scheme,skos, ide)
+        n=termSearchB.replace(' ', '_').replace('\ufeff','')
+        n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+            normalize( "NFD", n), 0, re.I
+                )
+        n = normalize( 'NFC', n)
+        newFile=idioma+'/'+relacion+'/'+n+'_'+ideB+'.jsonld'
+        with open(newFile, 'w') as file:
+            json.dump(dataEurovoc, file, indent=4,ensure_ascii=False)
+        
+    return(retrieved_wikidata)
 def dataRetrieverFunction(newFile, idioma, scheme, ide, targets):
     #print("============ Reading the configuration file")
     configuration={
@@ -993,18 +1018,23 @@ def dataRetrieverFunction(newFile, idioma, scheme, ide, targets):
             if len(S):
                 for altLabel in retrieved_wikidata["altLabel"]:
                     A = altLabel["@value"].lower().split()
+                    
                     if len(A):
                         T_A_relationship = inducer(T, A, S)
                         altLabel_induction[" ".join(A)] = T_A_relationship
+                        
                         if(T_A_relationship=='related'):
-                            crearRelaciones('related',retrieved_wikidata,A,idioma, scheme,ide, targets)
+                            #print('RELATED', T_A_relationship, A)
+                            retrieved_wikidata=crearRelaciones('related',retrieved_wikidata,A,idioma, scheme,ide, targets)
                             retrieved_wikidata["altLabel"].remove(altLabel)
 
                         elif(T_A_relationship=='narrower'):
-                            crearRelaciones('narrower',retrieved_wikidata,A,idioma, scheme,ide, targets)
+                            #print('NARROWE', T_A_relationship, A)
+                            retrieved_wikidata=crearRelaciones('narrower',retrieved_wikidata,A,idioma, scheme,ide, targets)
                             retrieved_wikidata["altLabel"].remove(altLabel)
                         elif(T_A_relationship=='broader'):
-                            crearRelaciones('broader ',retrieved_wikidata,A,idioma, scheme,ide, targets)
+                            #print('BROADER', T_A_relationship, A)
+                            retrieved_wikidata=crearRelaciones('broader ',retrieved_wikidata,A,idioma, scheme,ide, targets)
                             retrieved_wikidata["altLabel"].remove(altLabel)
 
                         elif(T_A_relationship=='synonymy'):
@@ -1032,6 +1062,9 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
     results=[]
     termSearch=[]
     cont=0
+    new=open('iateNO.csv', 'a')
+    iatenot = csv.writer(new)
+
     for i in data:
         results.insert(cont, [])
         termSearch.append(i['request']['query'])
@@ -1076,7 +1109,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
             defi=[]
             tar=[]
             iate=[]
-            if(wsid=='si'):
+            if(wsid=='yes'):
                 maximo=wsidFunction(termSearch[cont],  context, contextFile,  d)
                 #print(maximo[0], maximo[1], maximo[2])
                 
@@ -1090,6 +1123,7 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
                         if(str(b) in prefLabel[j][-1:]):
                             iateList=iateLists(pref, alt, defi, tar, iate,j, lbloq,prefLabel, synonyms, definicion2, lang, iateIde)      
             else:
+                j=0
                 iateList=iateLists(pref, alt, defi, tar, iate,j,lbloq,prefLabel, synonyms, definicion2, lang, iateIde)
             
             relations=['broader', 'narrower', 'related']
@@ -1099,7 +1133,8 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
             
             
         else:
-            print('NO ESTA EN IATE',termSearch[cont])
+            #print('NO ESTA EN IATE',termSearch[cont])
+            iatenot.writerow([termSearch[cont], idioma])
             for target in targets:
                 lang=[]
                 definicion=[]
@@ -1131,6 +1166,9 @@ def all(jsonlist, idioma, targets, context, contextFile,  wsid, scheme, dataRetr
         cont=cont+1;
     
     return(fin)
+def preProcessTerm(term):
+    termino=term.strip('‐').strip('—').strip('–').strip(' ').rstrip('\n').rstrip(' ').replace(' – ', ' ').replace('\t', '').replace('    ', ' ').replace('   ', ' ').replace('  ', ' ').replace(' ', '_').replace('\ufeff','')
+    return(termino)
 
 def barra(var):
     bar2 = ChargingBar('Procesando: '+var, max=100)
@@ -1204,6 +1242,7 @@ if(termino):
     verify=verificar(idioma,termino, '', targets)
     ide=verify[0]
     termSearch=verify[1]
+    print('TERMINO A BUSCAR: ', termSearch)
     if(termSearch!='1'):
         jsonlist=haceJson(termSearch, idioma,targets)
         all(jsonlist, idioma, targets,context, contextFile,  wsid,scheme, DR)
@@ -1238,14 +1277,17 @@ else:
     
     lista=[]
     listaread=[]
-    file=open(listTerm+'.csv', 'r')
+    file=open(listTerm+'.csv', 'r', encoding='utf-8')
     read=csv.reader(file)
+    cont=0
+
     for i in read:
-        termino=i[0].replace(' ', '_').replace('\ufeff','')
+        termino=preProcessTerm(i[0])
         verify=verificar(idioma,termino, '', targets)
         ide=verify[0]
         termSearch=verify[1]
-        print('TERMINO A BUSCAR: ', termSearch)
+        cont=cont+1
+        print('TERMINO A BUSCAR: ',i[0],'|',termino,'|', termSearch, '|',cont)
         if(termSearch!='1'):
             #lista.append(termino)
             jsonlist=haceJson(termSearch, idioma,targets)
