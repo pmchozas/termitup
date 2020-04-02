@@ -19,6 +19,10 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleW
 prefLabel_full=[]
 altLabel_full=[]
 definition_full=[]
+targets_pref=[]
+broader_full=[]
+narrower_full=[]
+related_full=[]
 # clean term
 def preProcessingTerm(term):
     termcheck=term.strip('‐').strip('—').strip('–').strip(' ').rstrip('\n').rstrip(' ').replace(' – ', ' ').replace('\t', '').replace('    ', ' ').replace('   ', ' ').replace('  ', ' ').replace(' ', '_').replace('\ufeff','')
@@ -256,23 +260,27 @@ def iate(term, lang,targets,outFile, context,  contextFile, wsid):
             d=(definicion_wsid,[])
             
             if(wsid=='yes'):
+                print('IATE WSID YES')
                 maximo=wsidFunction(termSearch[cont],  context, contextFile,  d)
                 if(maximo[2]!=200):
-                    outFile=fillPrefIate(outFile, results, 'prefLabel',[], 2, None)
+                    print('Se puede wsid')
+                    outFile=fillPrefIate(outFile, results, 'prefLabel', 2, None)
                     outFile=fillAltIate(outFile, results, 'altLabel', 3, None)
                     outFile=fillDefinitionIate(outFile, results,  'definition', 1,None)
                 else:
+                    print('No se puede wsid')
                     item=0
                     wsidmax=0
                     for item in range(len(results)):
                         if(maximo[0] in results[item]):
                             wsidmax=item
                         item=item+1
-                    outFile=fillPrefIate(outFile, results, 'prefLabel',[], 2, wsidmax)
+                    outFile=fillPrefIate(outFile, results, 'prefLabel', 2, wsidmax)
                     outFile=fillAltIate(outFile, results,  'altLabel', 3, wsidmax)
                     outFile=fillDefinitionIate(outFile, results,  'definition', 1, wsidmax)
             else:
-                outFile=fillPrefIate(outFile, results, 'prefLabel',[], 2, None)
+                print('IATE WSID NO')
+                outFile=fillPrefIate(outFile, results, 'prefLabel', 2, None)
                 outFile=fillAltIate(outFile, results, 'altLabel', 3, None)
                 outFile=fillDefinitionIate(outFile, results,  'definition', 1,None)
 
@@ -337,27 +345,27 @@ def getInformationIate(target, item, leng,termSearch):
     return(defi, pref, joinSyn)
 
 
-def fillPrefIate(outFile, results, label, langs, col, wsidmax):
+def fillPrefIate(outFile, results, label, col, wsidmax):
     if(wsidmax==None):
         for i in range(len(results)):
             colm=col
             colTarget=4
-            while(colm<=len(results[i]) and results[i][colTarget].strip(' ') not in langs ):
+            while(colm<=len(results[i]) and results[i][colTarget].strip(' ') not in targets_pref):
                 if(results[i][colm]!=""):
                     outFile[label].append({'@language':results[i][colTarget], '@value':results[i][colm].strip(' ')})
                     prefLabel_full.append(results[i][colm].strip(' ')+'-'+results[i][colTarget])
-                    langs.append(results[i][colTarget].strip(' '))
+                    targets_pref.append(results[i][colTarget].strip(' '))
                 colm=colm+5
                 colTarget=colTarget+5
     else:
         colm=col
         colTarget=4
 
-        while(colm<=len(results[wsidmax]) and results[wsidmax][colTarget].strip(' ') not in langs ):
+        while(colm<=len(results[wsidmax]) and results[wsidmax][colTarget].strip(' ') not in targets_pref ):
             if(results[wsidmax][colm]!=""):
                 outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' ')})
                 prefLabel_full.append(results[wsidmax][colm].strip(' ')+'-'+results[wsidmax][colTarget].strip(' '))
-                langs.append(results[wsidmax][colTarget].strip(' '))
+                targets_pref.append(results[wsidmax][colTarget].strip(' '))
             colm=colm+5
             colTarget=colTarget+5
 
@@ -368,23 +376,21 @@ def fillAltIate(outFile, results,  label, col, wsidmax):
         for i in range(len(results)):
             colm=col
             colTarget=4
-            while(colm<len(results[i]) and results[i][colm].strip(' ') not in prefLabel_full ):
-                if(results[i][colm]!=""):
+            while(colm<len(results[i])): 
+                alb=results[i][colm].strip(' ')+'-'+results[i][colTarget]
+                if(results[i][colm]!="" and alb not in prefLabel_full and alb not in altLabel_full):
                     outFile[label].append({'@language':results[i][colTarget], '@value':results[i][colm].strip(' ')})
                     altLabel_full.append(results[i][colm].strip(' ')+'-'+results[i][colTarget])
-                #langs.append(results[i][colmTarget].strip(' '))
                 colm=colm+5
                 colTarget=colTarget+5
     else:
         colm=col
         colTarget=4
-        while(colm<len(results[wsidmax])):# and results[wsidmax][colm].strip(' ') not in prefLabel_full and results[wsidmax][colTarget].strip(' ') not in prefLabel_full ):
+        while(colm<len(results[wsidmax])):
             alb=results[wsidmax][colm].strip(' ')+'-'+results[wsidmax][colTarget]
-            print(prefLabel_full)
-            if(results[wsidmax][colm]!="" and alb not in prefLabel_full):
+            if(results[wsidmax][colm]!="" and alb not in prefLabel_full and alb not in altLabel_full):
                 outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' ')})
                 altLabel_full.append(results[wsidmax][colm].strip(' ')+'-'+results[wsidmax][colTarget])
-                #langs.append(results[i][colmTarget].strip(' '))
             colm=colm+5
             colTarget=colTarget+5
     return outFile
@@ -423,24 +429,56 @@ def eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, sche
     defsnull=[]
     uri=uri_term_eurovoc(termSearch, lang)
     if(len(uri)>1):
-        for i in uri:
-            urilist.append(i[0])
-            name.append(i[1])
-            defsnull.append(i[2])
-            if(i[2]!=''):
-                defs.append(i[2])
-        d=(defs, [])
-        maximo=wsidFunction(termSearch, context, contextFile, d)
-        if(maximo[2]!=200):
-            pass
+        print('EUROVOC no encontro termino identico (si lista)')
+        if(wsid=='yes'):
+            print('EUROVOC WSID SI')
+            for i in uri:
+                urilist.append(i[0])
+                name.append(i[1])
+                defsnull.append(i[2])
+                if(i[2]!=''):
+                    defs.append(i[2])
+            d=(defs, [])
+            maximo=wsidFunction(termSearch, context, contextFile, d)
+            if(maximo[2]!=200):
+                pass
+            else:
+                maxx=defsnull.index(maximo[0])
+                namewsid=name[maxx]
+                uriwsid=urilist[maxx]
+                outFile=relations_eurovoc(uriwsid, lang, namewsid,outFile, scheme)
         else:
-            maxx=defsnull.index(maximo[0])
-            namewsid=name[maxx]
-            uriwsid=urilist[maxx]
-            outFile=relations_eurovoc(uriwsid, lang, namewsid,outFile, scheme)
+            print('EUROVOC WSID NO')
+
+            for i in uri:
+                tars=check_prefLabel(outFile, targets)
+                if(len(tars)>0):
+                    for lang in targets:
+                        pref_ev=name_term_eurovoc(i[0],lang,'prefLabel')
+                        if(pref_ev!=''):
+                            outFile=property_add(pref_ev, lang, outFile, 'prefLabel')
+                            prefLabel_full.append(pref_ev+'-'+lang)
+                            targets_pref.append(lang)
+                
+                for lang in targets:
+                    alt_ev=name_term_eurovoc(i[0],lang, 'altLabel')
+                    def_ev=def_term_eurovoc( i[0],'"'+lang+'"')
+                    if(alt_ev!=''):
+                        outFile=property_add(alt_ev, lang, outFile, 'altLabel')
+                    if(def_ev!=''):
+                        outFile=property_add(def_ev, lang, outFile, 'definition')
+                outFile=relations_eurovoc(i[0], lang, i[1],outFile, scheme)
+
     else:
+        print('EUROVOC encontro termino identico')
         tars=check_prefLabel(outFile, targets)
         uri=uri[0]
+        if(len(tars)>0):
+            for lang in targets:
+                pref_ev=name_term_eurovoc(uri[0],lang,'prefLabel')
+                if(pref_ev!=''):
+                    outFile=property_add(pref_ev, lang, outFile, 'prefLabel')
+        
         for lang in targets:
             alt_ev=name_term_eurovoc(uri[0],lang, 'altLabel')
             def_ev=def_term_eurovoc( uri[0],'"'+lang+'"')
@@ -483,7 +521,7 @@ def uri_term_eurovoc(termSearch, lang):
             for result in results["results"]["bindings"]:
                 answeruri=result["c"]["value"]
                 answerl=result["label"]["value"]
-                if(termSearch.lower() == answerl.lower()):
+                if(termSearch.lower() == answerl.lower()):#ATENCION
                     defs=def_term_eurovoc(answeruri, lang)
                     answer.append([answeruri, answerl, defs])
                 else:
@@ -590,10 +628,9 @@ def name_term_eurovoc(uri,lang,label):
 
 def relations_eurovoc(uri, lang, term, outFile, scheme):
     results=[]
-    si=[]
     relations=['broader', 'narrower', 'related']
     for relation in relations: 
-        uriRelation=getRelation(uri, relation)
+        uriRelation=getRelation([uri], relation)
         if(len(uriRelation)>0):
             if('topConceptOf' in outFile.keys()):
                 del outFile['topConceptOf']
@@ -602,6 +639,13 @@ def relations_eurovoc(uri, lang, term, outFile, scheme):
                 ide=verify[0]
                 termSearch=verify[1]
                 outFile[relation].append(ide)
+                if(relation=='broader'):
+                    broader_full.append(termSearch+'-'+lang)
+                elif(relation=='narrower'):
+                    narrower_full.append(termSearch+'-'+lang)
+                elif(relation=='related'):
+                    related_full.append(termSearch+'-'+lang)
+                #print(relation, termSearch, ide)
                 originalIde=outFile['@id']
                 dataEurovoc=eurovoc_file(termSearch, ide, relation, i[0], lang, scheme,  originalIde)
 
@@ -718,7 +762,7 @@ def altLabel_lexicala(maximo, targets):
     return(traductions)
 
 
-def wikidata_retriever(term, lang, context, contextFile, targets):
+def wikidata_retriever(term, lang, context, contextFile, targets, outFile):
     url = 'https://query.wikidata.org/sparql'
     retrieve_query = """
         SELECT * {
@@ -779,7 +823,7 @@ def wikidata_retriever(term, lang, context, contextFile, targets):
     definition=[]
     iduri=[]
     altLabel=[]
-    #print(term)
+    print(term, lang)
     query = retrieve_query.replace("TERM", term).replace("LANG", lang)
     SRCTERM = "\"" + term + "\"" + "@" + lang
     #print(SRCTERM) We have to save this in the skos as well
@@ -791,36 +835,43 @@ def wikidata_retriever(term, lang, context, contextFile, targets):
         for i in range(len(bindings)):
             iduri.append(bindings[i]['item']['value'].split("/")[-1])
             definition.append(bindings[i]['desc']['value'].replace(',', ''))
-
-        d=(definition,[])
-
-        maximo=wsidFunction(term,  context, contextFile,  d)
         
+        d=(definition,iduri)
+        maximo=wsidFunction(term,  context, contextFile,  d)
+        print(maximo)
         relations_retrieved = dict()
-        if( maximo[2]==200):
-            posMax=definition.index(maximo[0])
-            item_id=iduri[posMax]
-            target="', '".join(targets)
-            target="'"+target+"'"
-            query = original_query.replace("WDTMID", item_id).replace("TARGETS", target)
-            r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
-            data = r.json()
+        if( maximo[2]!=200):
+            pass
+        else:
             
+            tars=check_prefLabel(outFile, targets)
+            if(len(tars)>0):
+                target="', '".join(tars)
+                target="'"+target+"'"
+                query = original_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
+                r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+                data = r.json()
+                bindings=data['results']['bindings']
+                if(len(bindings)>0):
+                    for i in range(len(bindings)):
+                        prefLabel_wiki=bindings[i]['name']['value']
+                        definition_wiki=bindings[i]['desc']['value']
+                        lang_pr_wiki=bindings[i]['name']['xml:lang']
+                        outFile=property_add( prefLabel_wiki, lang_pr_wiki, outFile, 'prefLabel' )
+                        outFile=property_add( definition_wiki, lang_pr_wiki, outFile, 'definition' )
             
-            
-            query = altLabel_query.replace("WDTMID", item_id).replace("TARGETS", target)
+            query = altLabel_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
             r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
             altLabel_response = r.json()
+            bindings=altLabel_response['results']['bindings']
             
-            bindings2=altLabel_response['results']['bindings']
+            for i in range(len(bindings)):
+                if('altLabel' in bindings[i]):
+                    altLabel_wiki=bindings[i]['altLabel']['value']
+                    lang_al_wiki=bindings[i]['altLabel']['xml:lang']
+                    outFile=property_add( altLabel_wiki, lang_al_wiki, outFile, 'altLabel' )
             
-            for i in range(len(bindings2)):
-                if('altLabel' in bindings2[i]):
-                    AL=bindings2[i]['altLabel']['value']
-                    langAL=bindings2[i]['altLabel']['xml:lang']
-                    altLabel.append([AL, langAL])
-            #print(altLabel)
-
+            
             # Retrieve narrower and broader concepts
             relation_type = ["narrower", "broader"]
             
@@ -832,9 +883,11 @@ def wikidata_retriever(term, lang, context, contextFile, targets):
                     concept_query = broader_concept_query
                     relation_id = "brTerm"
 
-                query = concept_query.replace("WDTMID", item_id)
+                query = concept_query.replace("WDTMID", maximo[1])
                 r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
                 concept_response = r.json()
+                print(concept_response)
+                '''
                 # extract concepts and get its id (the URL is returned by default)
                 concepts_list = [item[relation_id]["value"].split("/")[-1] if len(item[relation_id]["value"]) else None for item in concept_response["results"]["bindings"]]
                  
@@ -852,10 +905,12 @@ def wikidata_retriever(term, lang, context, contextFile, targets):
                     concepts_dict = {}
 
                 relations_retrieved[relation] = concepts_dict
+                
         else:
             pass
             #print(relations_retrieved)
-    return(altLabel, relations_retrieved)
+            '''
+    return(outFile)
 
 
 def wsidFunction(termIn, context, contextFile,  definitions):
@@ -946,11 +1001,9 @@ def wsidFunction(termIn, context, contextFile,  definitions):
 def check_prefLabel(outFile, targets):
     targetsNull=[]
     prefLabel=outFile['prefLabel']
-    altLabel=outFile['altLabel']
-    definition=outFile['definition']
     
     for i in range(len(targets)):
-        if(targets[i] in prefLabel[i]['@language']):
+        if(targets[i] not in targets_pref):
             targetsNull.append(targets[i])
     
     return(targetsNull)
@@ -958,7 +1011,12 @@ def check_prefLabel(outFile, targets):
 def property_add( value, lang, outFile, label ):
     label_file=outFile[label] 
     if(len(label_file)==0):
-        if(label=='altLabel'):
+        if(label=='prefLabel'):
+            plb=value.strip(' ')+'-'+lang
+            if(plb not in prefLabel_full and lang not in targets_pref):
+                label_file.append({'@language':lang, '@value':value.strip(' ')})
+                prefLabel_full.append(plb)
+        elif(label=='altLabel'):
             alb=value.strip(' ')+'-'+lang
             if(alb not in prefLabel_full and alb not in altLabel_full):
                 label_file.append({'@language':lang, '@value':value.strip(' ')})
@@ -970,7 +1028,12 @@ def property_add( value, lang, outFile, label ):
                 definition_full.append(dlb)
     else:
         for i in range(len(label_file)):
-            if(label=='altLabel'):
+            if(label=='prefLabel'):
+                plb=value.strip(' ')+'-'+lang
+                if(plb not in prefLabel_full and lang not in targets_pref ):
+                    label_file.append({'@language':lang, '@value':value.strip(' ')})
+                    prefLabel_full.append(plb)
+            elif(label=='altLabel'):
                 alb=value.strip(' ')+'-'+lang
                 if(alb not in prefLabel_full and alb not in altLabel_full):
                     label_file.append({'@language':lang, '@value':value.strip(' ')})
@@ -1111,10 +1174,11 @@ if(term):
     print('TERM A BUSCAR: ', termSearch)
     if(termSearch!='1'):
         outFile=jsonFile(ide, scheme)
-        outFile=iate(termSearch, lang,targets, outFile, context,contextFile, wsid)
+        #outFile=iate(termSearch, lang,targets, outFile, context,contextFile, wsid)
         outFile=eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, scheme, prefLabel_full, altLabel_full, definition_full)
-        outFile=lexicala(lang, term, targets, context, contextFile, outFile, wsid, prefLabel_full, altLabel_full, definition_lexicala)
-        outFile=wikidata_retriever(termSearch, lang, context, contextFile, targets)
+        #outFile=lexicala(lang, term, targets, context, contextFile, outFile, wsid, prefLabel_full, altLabel_full, definition_lexicala)
+        #outFile=wikidata_retriever(termSearch, lang, context, contextFile, targets, outFile)
+    
     print(outFile)
 else:
     if(context):
