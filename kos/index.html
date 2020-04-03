@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminology</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+
+    <style id="compiled-css" type="text/css">
+        .hideContent {
+            overflow: hidden;
+            line-height: 1em;
+            height: 2em;
+            width: 95%;
+            margin-left: 1px;
+            text-align: justify;
+        }
+        
+        .showContent {
+            line-height: 1em;
+            height: auto;
+            width: 95%;
+            margin-left: 1px;
+            text-align: justify;
+        }
+        
+        .show-more {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 80%;
+        }
+        
+        .title .ti {
+            width: 50%;
+        }
+        
+        .content .title .se {
+            width: 20%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            float: right;
+            margin-top: -4%;
+        }
+        
+        .title .ti h1 {
+            font-family: Helvetica;
+            font-size: 40px;
+            padding-top: 3%;
+            padding-left: 13%;
+            color: #2F94C9;
+            text-shadow: 1px 1px #000000;
+            text-transform: none;
+            border-top-left-radius: 51px;
+        }
+        
+        .content .title .color {
+            background-color: #F8F9FA;
+            height: 0%;
+            padding-left: 0px;
+            color: undefined;
+        }
+        
+        .card .card-body .card-text.font-weight-light {
+            margin-top: -15px;
+        }
+        
+        .custom-scrollbar-js,
+        .custom-scrollbar-css {
+            height: 100px;
+        }
+        /* Custom Scrollbar using CSS */
+        
+        .custom-scrollbar-css {
+            overflow-y: scroll;
+        }
+        /* scrollbar width */
+        
+        .custom-scrollbar-css::-webkit-scrollbar {
+            width: 5px;
+        }
+        /* scrollbar track */
+        
+        .custom-scrollbar-css::-webkit-scrollbar-track {
+            background: #eee;
+        }
+        /* scrollbar handle background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);*/
+        
+        .custom-scrollbar-css::-webkit-scrollbar-thumb {
+            border-radius: 1rem;
+            background-color: #9E9E9E;
+            background-image: #9E9E9E;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1" href="#">
+            <img src="images/lynx__logo--bluesn.svg" width="50" height="50" class="d-inline-block align-top" alt=""> <FONT SIZE=6>Terminology</FONT>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="content">
+        <header class="title">
+            <div class="container">
+                <br>
+                <hr>
+                <br>
+                <div class="row">
+                    <div class="col-md-4 col-lg-5">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne" style="background-color: #3177B6;">
+                                    <h2 class="mb-0" >
+        <button class="btn font-weight-bold collapsed"  style="color:#FFFFFF" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			<FONT SIZE=4>Contracts schema</FONT>
+        </button>
+      </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="custom-scrollbar-css p-2">
+                                            <nav class="col-sm-3 font-weight-light" >
+                                                <ul class="nav nav-pills nav-stacked " >
+                                                    <li class="active"><a href="#section1" style="color:black">Term 1</a></li>
+                                                    <li><a href="#section2" style="color:black">Term 2</a></li>
+                                                    <li><a href="#section3" style="color:black">Term 3</a></li>
+                                                    <li class="dropdown">
+                                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#section4" style="color:black" >Term 4 <span class="caret"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#section41" style="color:blue">Term 4-1</a></li>
+                                                            <li><a href="#section42" style="color:blue">Term 4-2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#section3" style="color:black">Term 5</a></li>
+                                                    <li><a href="#section3" style="color:black">Term 6</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" id="headingTwo" style="background-color: #3177B6;">
+                                    <h5 class="mb-0">
+        <button class="btn font-weight-bold collapsed" style="color:#FFFFFF"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         <FONT SIZE=4> labour law schema </FONT>
+        </button>
+      </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="custom-scrollbar-css p-2">
+                                            <nav class="col-sm-3 font-weight-light" >
+                                                <ul class="nav nav-pills nav-stacked">
+                                                    <li class="active"><a href="#section1" style="color:black">Term 1</a></li>
+                                                    <li><a href="#section2" style="color:black">Term 2</a></li>
+                                                    <li><a href="#section3" style="color:black">Term 3</a></li>
+                                                    <li class="dropdown">
+                                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#section4" style="color:black">Term 4 <span class="caret"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#section41" style="color:blue">Term 4-1</a></li>
+                                                            <li><a href="#section42" style="color:blue">Term 4-2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#section3" style="color:black">Term 5</a></li>
+                                                    <li><a href="#section3" style="color:black">Term 6</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 offset-lg-0 col-lg-7" id="section1">
+                        <div class="card ">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 col-lg-12">
+                                    <div class="form-group" style="background-color: #3177B6;">
+                                        <div class="input-group ">
+                                            <h5 class="card-header col-10" style="color:#FFFFFF" style="background-color: #3177B6;">bank </h5>
+                                            <h5 class="card-header text-right"  style="color:#FFFFFF" style="background-color: #3177B6;">es </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text font-weight-light">ID</p>
+                                <p class="card-text font-weight-light">Altlabel</p>
+                                <div class="text-container">
+                                    <div class="content hideContent font-weight-light ">
+                                        Definition: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                        <p>Sourse</p>
+                                        <p>sameAs</p>
+                                    </div>
+                                    <div class="btn btn-outline-dark show-more">
+                                        <a>See more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <BR>
+                        <div class="card">
+                            <div class="card-body">
+
+                                <h6 class="card-subtitle mb-2 text-muted">BT</h6>
+                                <BR>
+                                <h6 class="card-subtitle mb-2 text-muted">NT</h6>
+                                <BR>
+                                <h6 class="card-subtitle mb-2 text-muted">RT</h6>
+
+                            </div>
+
+                        </div>
+                        <br>
+                        <br/>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <footer class="footer">
+        <div class="text-center offset-lg-0 col-lg-12">
+            <h4>&nbsp;</h4>
+            <p>This website has been made by researchers of the <a href="http://lynx-project.eu/">Lynx</a> project with the sole purpose of demonstrating Lynx capabilities. This website shows legislation scrapped, transformed and enriched from open legislation sources. We decline any responsibility on the information published on this web, which is incomplete and might be subject to errors...</p>
+        </div>
+    </footer>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(".show-more a").on("click", function() {
+            var $this = $(this);
+            var $content = $this.parent().prev("div.content");
+            var linkText = $this.text().toUpperCase();
+
+            if (linkText === "SEE MORE") {
+                linkText = "See less";
+                $content.switchClass("hideContent", "showContent", 400);
+            } else {
+                linkText = "See more";
+                $content.switchClass("showContent", "hideContent", 400);
+            };
+
+            $this.text(linkText);
+        });
+
+        //]]>
+    </script>
+
+</body>
+
+</html>
