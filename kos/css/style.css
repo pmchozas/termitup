@@ -1,0 +1,161 @@
+@charset "UTF-8";
+body {
+}
+.content {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0%;
+}
+.title .main .nav {
+	width: 35%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
+}
+.title .main .form-inline {
+	padding-left: 80%;
+	padding-top: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+}
+.nav .type h3 {
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #2F94C9;
+	text-shadow: 0px 0px;
+	padding-left: 5%;
+	font-family: Arial;
+	font-size: 20px;
+	height: 35px;
+	padding-top: 10px;
+}
+.conten .ttitle p {
+	text-align: left;
+}
+.conten .languaje p {
+	text-align: left;
+}
+.footer {
+	width: 100%;
+	clear: both;
+	border-top: 1px solid #EDEDED;
+}
+.content .title .main {
+}
+.main .conten .languaje {
+	width: 10%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+	background-color: #295D99;
+	color: #FFFFFF;
+	font-family: Arial;
+	text-align: center;
+	padding-left: 0px;
+	height: 30px;
+}
+.main .conten .ttitle {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	width: 88.22%;
+	text-align: left;
+	background-color: #295D99;
+	font-family: Arial;
+	color: #FFFFFF;
+	padding-left: 10px;
+	height: 30px;
+	text-decoration: none;
+	float: left;
+	clear: right;
+}
+.conten .ttitle h4 {
+	margin-top: 5px;
+}
+.conten .languaje h4 {
+	margin-top: 5px;
+}
+.main .contenadd .add {
+	border: 1px solid #295D99;
+	margin-top: 10px;
+	background-color: #D2E2F1;
+}
+.conten .contentterm #myBtn {
+	text-align: left;
+	padding-left: 87%;
+	font-family: Arial;
+	color: #818181;
+	font-size: medium;
+	width: 100%;
+}
+.title .main .supercontet .conten {
+	clear: right;
+	float: right;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	border: 1px solid #295D99;
+	margin-top: 20px;
+	width: 99.8%;
+}
+.title .main .contenadd {
+	width: 60%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.title .main .supercontet {
+	width: 60%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+	display: inline;
+}
+.main .conten .contentterm {
+	float: none;
+	clear: none;
+	width: 100%;
+	color: #4B4B4B;
+	font-family: Arial;
+	font-size: small;
+	padding-top: 25px;
+}
+.conten .contentterm p {
+	padding-left: 10px;
+	text-align: justify;
+	padding-right: 10px;
+}
+.contenadd .add p {
+	padding-left: 10px;
+	color: #4C4C4C;
+	font-family: Arial;
+	font-weight: bold;
+}
+.content .title img {
+	width: 7%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
+	margin-top: 11px;
+	margin-left: 10px;
+}
+.text-container .content.hideContent p {
+	color: #858585;
+	font-style: normal;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: normal;
+	font-variant: normal;
+	text-align: justify;
+	margin-left: -9px;
+}
+.conten .contentterm p {
+	padding-left: 10px;
+}
+.title .main .search {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+	clear: none;
+}
