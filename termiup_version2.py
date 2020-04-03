@@ -15,6 +15,7 @@ from progress.bar import Bar, ChargingBar
 import os, time, random
 
 # header for Wikidata queries
+url = 'https://query.wikidata.org/sparql'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 prefLabel_full=[]
 altLabel_full=[]
@@ -206,7 +207,7 @@ def bearenToken():
 def iate(term, lang,targets,outFile, context,  contextFile, wsid):
     answer=[]
     try:
-        print('Entra iate')
+        print('IATE')
         auth_token=bearenToken()
         hed = {'Authorization': 'Bearer ' +auth_token}
         jsonList=[]
@@ -260,15 +261,15 @@ def iate(term, lang,targets,outFile, context,  contextFile, wsid):
             d=(definicion_wsid,[])
             
             if(wsid=='yes'):
-                print('IATE WSID YES')
+                print('WSID YES')
                 maximo=wsidFunction(termSearch[cont],  context, contextFile,  d)
                 if(maximo[2]!=200):
-                    print('Se puede wsid')
+                    print('WSID NO 200')
                     outFile=fillPrefIate(outFile, results, 'prefLabel', 2, None)
                     outFile=fillAltIate(outFile, results, 'altLabel', 3, None)
                     outFile=fillDefinitionIate(outFile, results,  'definition', 1,None)
                 else:
-                    print('No se puede wsid')
+                    print('WSID 200')
                     item=0
                     wsidmax=0
                     for item in range(len(results)):
@@ -279,7 +280,7 @@ def iate(term, lang,targets,outFile, context,  contextFile, wsid):
                     outFile=fillAltIate(outFile, results,  'altLabel', 3, wsidmax)
                     outFile=fillDefinitionIate(outFile, results,  'definition', 1, wsidmax)
             else:
-                print('IATE WSID NO')
+                print('WSID NO')
                 outFile=fillPrefIate(outFile, results, 'prefLabel', 2, None)
                 outFile=fillAltIate(outFile, results, 'altLabel', 3, None)
                 outFile=fillDefinitionIate(outFile, results,  'definition', 1,None)
@@ -423,6 +424,7 @@ def fillDefinitionIate(outFile, results,   label,col, wsidmax):
 
 def eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, scheme, prefLabel_full, altLabel_full, definition_full):
     #print(outFile)
+    print('EUROVOC')
     defs=[]
     name=[]
     urilist=[]
@@ -431,7 +433,7 @@ def eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, sche
     if(len(uri)>1):
         print('EUROVOC no encontro termino identico (si lista)')
         if(wsid=='yes'):
-            print('EUROVOC WSID SI')
+            print('WSID YES')
             for i in uri:
                 urilist.append(i[0])
                 name.append(i[1])
@@ -441,14 +443,33 @@ def eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, sche
             d=(defs, [])
             maximo=wsidFunction(termSearch, context, contextFile, d)
             if(maximo[2]!=200):
-                pass
+                print('WSID NO 200')
+                for i in uri:
+                    tars=check_prefLabel(outFile, targets)
+                    if(len(tars)>0):
+                        for lang in targets:
+                            pref_ev=name_term_eurovoc(i[0],lang,'prefLabel')
+                            if(pref_ev!=''):
+                                outFile=property_add(pref_ev, lang, outFile, 'prefLabel')
+                                prefLabel_full.append(pref_ev+'-'+lang)
+                                targets_pref.append(lang)
+                    
+                    for lang in targets:
+                        alt_ev=name_term_eurovoc(i[0],lang, 'altLabel')
+                        def_ev=def_term_eurovoc( i[0],'"'+lang+'"')
+                        if(alt_ev!=''):
+                            outFile=property_add(alt_ev, lang, outFile, 'altLabel')
+                        if(def_ev!=''):
+                            outFile=property_add(def_ev, lang, outFile, 'definition')
+                    outFile=relations_eurovoc(i[0], lang, i[1],outFile, scheme)
             else:
+                print('WSID 200')
                 maxx=defsnull.index(maximo[0])
                 namewsid=name[maxx]
                 uriwsid=urilist[maxx]
                 outFile=relations_eurovoc(uriwsid, lang, namewsid,outFile, scheme)
         else:
-            print('EUROVOC WSID NO')
+            print('WSID NO')
 
             for i in uri:
                 tars=check_prefLabel(outFile, targets)
@@ -472,21 +493,22 @@ def eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, sche
     else:
         print('EUROVOC encontro termino identico')
         tars=check_prefLabel(outFile, targets)
-        uri=uri[0]
-        if(len(tars)>0):
+        if(len(uri)):
+            uri=uri[0]
+            if(len(tars)>0):
+                for lang in targets:
+                    pref_ev=name_term_eurovoc(uri[0],lang,'prefLabel')
+                    if(pref_ev!=''):
+                        outFile=property_add(pref_ev, lang, outFile, 'prefLabel')
+            
             for lang in targets:
-                pref_ev=name_term_eurovoc(uri[0],lang,'prefLabel')
-                if(pref_ev!=''):
-                    outFile=property_add(pref_ev, lang, outFile, 'prefLabel')
-        
-        for lang in targets:
-            alt_ev=name_term_eurovoc(uri[0],lang, 'altLabel')
-            def_ev=def_term_eurovoc( uri[0],'"'+lang+'"')
-            if(alt_ev!=''):
-                outFile=property_add(alt_ev, lang, outFile, 'altLabel')
-            if(def_ev!=''):
-                outFile=property_add(def_ev, lang, outFile, 'definition')
-        outFile=relations_eurovoc(uri[0], lang, termSearch,outFile, scheme)
+                alt_ev=name_term_eurovoc(uri[0],lang, 'altLabel')
+                def_ev=def_term_eurovoc( uri[0],'"'+lang+'"')
+                if(alt_ev!=''):
+                    outFile=property_add(alt_ev, lang, outFile, 'altLabel')
+                if(def_ev!=''):
+                    outFile=property_add(def_ev, lang, outFile, 'definition')
+            outFile=relations_eurovoc(uri[0], lang, termSearch,outFile, scheme)
 
 
     return(outFile)
@@ -638,16 +660,17 @@ def relations_eurovoc(uri, lang, term, outFile, scheme):
                 verify=checkTerm(lang, i[1], relation, targets)
                 ide=verify[0]
                 termSearch=verify[1]
-                outFile[relation].append(ide)
-                if(relation=='broader'):
-                    broader_full.append(termSearch+'-'+lang)
-                elif(relation=='narrower'):
-                    narrower_full.append(termSearch+'-'+lang)
-                elif(relation=='related'):
-                    related_full.append(termSearch+'-'+lang)
-                #print(relation, termSearch, ide)
-                originalIde=outFile['@id']
-                dataEurovoc=eurovoc_file(termSearch, ide, relation, i[0], lang, scheme,  originalIde)
+                if(termSearch!='1'):
+                    outFile[relation].append(ide)
+                    if(relation=='broader'):
+                        broader_full.append(termSearch+'-'+lang)
+                    elif(relation=='narrower'):
+                        narrower_full.append(termSearch+'-'+lang)
+                    elif(relation=='related'):
+                        related_full.append(termSearch+'-'+lang)
+                    #print(relation, termSearch, ide)
+                    originalIde=outFile['@id']
+                    dataEurovoc=eurovoc_file(termSearch, ide, relation, i[0], lang, scheme,  originalIde)
 
     #print(outFile)
     return(outFile)
@@ -691,28 +714,72 @@ def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde):
                 )
     n = normalize( 'NFC', n)
     newFile=lang+'/'+relation+'/'+n+'_'+ide+'.jsonld'
-    #with open(newFile, 'w') as file:
-    #    json.dump(data, file, indent=4,ensure_ascii=False)
+    with open(newFile, 'w') as file:
+        json.dump(data, file, indent=4,ensure_ascii=False)
               
     return(data)
 
 
 def lexicala(lang, term, targets, context, contextFile, outFile, wsid, prefLabel_full, altLabel_full, definition_lexicala):
+    print('Lexicala')
     answer=lexicala_term(lang, term)
     if('n_results' in answer):
         results=answer['n_results']
         if(results>0):
+            definitions=definition_lexicala(answer)
             if(wsid=='yes'):
-                definitions=definition_lexicala(answer)
+                print('WSID YES')
                 maximo=wsidFunction(term,context, contextFile, definitions)
                 if(maximo[2]!=200):
-                    pass
+                    print('WSID NO 200')
+                    tars=check_prefLabel(outFile, targets)
+                    if(len(tars)>0):
+                        for i in definitions[1]:
+                            pref_lex=altLabel_lexicala(i, targets)
+                            if(len(pref_lex)>0):
+                                for j in pref_lex:
+                                    outFile=property_add(j[0], j[1], outFile, 'prefLabel')
+                    for i in definitions[1]:        
+                        alt_lex=altLabel_lexicala(i, targets)
+                        if(len(alt_lex)>0):
+                            for j in alt_lex:
+                                outFile=property_add(j[0], j[1], outFile, 'altLabel')
+                    for i in definitions[0]:    
+                        def_lex=i
+                        if(def_lex!=''):
+                            outFile=property_add(def_lex, lang, outFile, 'definition')
                 else:
-                    alt_lex=altLabel_lexicala(maximo, targets)
+                    print('WSID 200')
+                    tars=check_prefLabel(outFile, targets)
+                    if(len(tars)>0):
+                        pref_lex=altLabel_lexicala(maximo[1], targets)
+                        if(len(pref_lex)>0):
+                            for i in pref_lex:
+                                outFile=property_add(i[0], i[1], outFile, 'prefLabel')
+                        
+                    alt_lex=altLabel_lexicala(maximo[1], targets)
                     def_lex=maximo[0]
                     if(len(alt_lex)>0):
                         for i in alt_lex:
                             outFile=property_add(i[0], i[1], outFile, 'altLabel')
+                    if(def_lex!=''):
+                        outFile=property_add(def_lex, lang, outFile, 'definition')
+            else:
+                print('WSID NO')
+                tars=check_prefLabel(outFile, targets)
+                if(len(tars)>0):
+                    for i in definitions[1]:
+                        pref_lex=altLabel_lexicala(i, targets)
+                        if(len(pref_lex)>0):
+                            for j in pref_lex:
+                                outFile=property_add(j[0], j[1], outFile, 'prefLabel')
+                for i in definitions[1]:        
+                    alt_lex=altLabel_lexicala(i, targets)
+                    if(len(alt_lex)>0):
+                        for j in alt_lex:
+                            outFile=property_add(j[0], j[1], outFile, 'altLabel')
+                for i in definitions[0]:    
+                    def_lex=i
                     if(def_lex!=''):
                         outFile=property_add(def_lex, lang, outFile, 'definition')
     return(outFile)
@@ -744,7 +811,7 @@ def definition_lexicala(answer):
 
 def altLabel_lexicala(maximo, targets):
     traductions=[]
-    jsonTrad=lexicala_sense(maximo[1])
+    jsonTrad=lexicala_sense(maximo)
     if('translations' in jsonTrad.keys()):
         translations=jsonTrad['translations']
         for j in targets:
@@ -763,7 +830,7 @@ def altLabel_lexicala(maximo, targets):
 
 
 def wikidata_retriever(term, lang, context, contextFile, targets, outFile):
-    url = 'https://query.wikidata.org/sparql'
+    print('Wikidata')
     retrieve_query = """
         SELECT * {
        ?item rdfs:label "TERM"@LANG.
@@ -823,7 +890,6 @@ def wikidata_retriever(term, lang, context, contextFile, targets, outFile):
     definition=[]
     iduri=[]
     altLabel=[]
-    print(term, lang)
     query = retrieve_query.replace("TERM", term).replace("LANG", lang)
     SRCTERM = "\"" + term + "\"" + "@" + lang
     #print(SRCTERM) We have to save this in the skos as well
@@ -836,82 +902,158 @@ def wikidata_retriever(term, lang, context, contextFile, targets, outFile):
             iduri.append(bindings[i]['item']['value'].split("/")[-1])
             definition.append(bindings[i]['desc']['value'].replace(',', ''))
         
-        d=(definition,iduri)
-        maximo=wsidFunction(term,  context, contextFile,  d)
-        print(maximo)
-        relations_retrieved = dict()
-        if( maximo[2]!=200):
-            pass
-        else:
+        if(wsid=='yes'):
+            print('WSID YES')
+            d=(definition,iduri)
+            maximo=wsidFunction(term,  context, contextFile,  d)
+            relations_retrieved = dict()
             
-            tars=check_prefLabel(outFile, targets)
-            if(len(tars)>0):
-                target="', '".join(tars)
-                target="'"+target+"'"
-                query = original_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
-                r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
-                data = r.json()
-                bindings=data['results']['bindings']
-                if(len(bindings)>0):
-                    for i in range(len(bindings)):
-                        prefLabel_wiki=bindings[i]['name']['value']
-                        definition_wiki=bindings[i]['desc']['value']
-                        lang_pr_wiki=bindings[i]['name']['xml:lang']
-                        outFile=property_add( prefLabel_wiki, lang_pr_wiki, outFile, 'prefLabel' )
-                        outFile=property_add( definition_wiki, lang_pr_wiki, outFile, 'definition' )
+            if( maximo[2]!=200):
+                print('WSID NO 200')
+                outFile=wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query)
             
-            query = altLabel_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
-            r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
-            altLabel_response = r.json()
-            bindings=altLabel_response['results']['bindings']
-            
-            for i in range(len(bindings)):
-                if('altLabel' in bindings[i]):
-                    altLabel_wiki=bindings[i]['altLabel']['value']
-                    lang_al_wiki=bindings[i]['altLabel']['xml:lang']
-                    outFile=property_add( altLabel_wiki, lang_al_wiki, outFile, 'altLabel' )
-            
-            
-            # Retrieve narrower and broader concepts
-            relation_type = ["narrower", "broader"]
-            
-            for relation in relation_type:
-                if relation == "narrower":
-                    concept_query = narrower_concept_query
-                    relation_id = "naTerm"
-                else:
-                    concept_query = broader_concept_query
-                    relation_id = "brTerm"
-
-                query = concept_query.replace("WDTMID", maximo[1])
-                r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
-                concept_response = r.json()
-                print(concept_response)
-                '''
-                # extract concepts and get its id (the URL is returned by default)
-                concepts_list = [item[relation_id]["value"].split("/")[-1] if len(item[relation_id]["value"]) else None for item in concept_response["results"]["bindings"]]
-                 
-                # Retrieve terms of the concepts
-                concepts_dict = dict()
-                if len(concepts_list):
-                    for concept in concepts_list:
-                        concept_terms = dict()
-                        query = term_query.replace("WDTMID", concept).replace("TARGETS", target)
-                        r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
-                        for item in r.json()["results"]["bindings"]:
-                            concept_terms[item["lang"]["value"]] = item["name"]["value"]
-                        concepts_dict[concept] = concept_terms
-                else:
-                    concepts_dict = {}
-
-                relations_retrieved[relation] = concepts_dict
+            else:
+                print('WSID 200')
+                tars=check_prefLabel(outFile, targets)
+                if(len(tars)>0):
+                    target="', '".join(tars)
+                    target="'"+target+"'"
+                    query = original_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
+                    r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+                    data = r.json()
+                    bindings=data['results']['bindings']
+                    if(len(bindings)>0):
+                        for i in range(len(bindings)):
+                            prefLabel_wiki=bindings[i]['name']['value']
+                            definition_wiki=bindings[i]['desc']['value']
+                            lang_pr_wiki=bindings[i]['name']['xml:lang']
+                            outFile=property_add( prefLabel_wiki, lang_pr_wiki, outFile, 'prefLabel' )
+                            outFile=property_add( definition_wiki, lang_pr_wiki, outFile, 'definition' )
                 
+                target="', '".join(targets)
+                target="'"+target+"'"
+                query = altLabel_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
+                r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+                altLabel_response = r.json()
+                bindings=altLabel_response['results']['bindings']
+                
+                for i in range(len(bindings)):
+                    if('altLabel' in bindings[i]):
+                        altLabel_wiki=bindings[i]['altLabel']['value']
+                        lang_al_wiki=bindings[i]['altLabel']['xml:lang']
+                        outFile=property_add( altLabel_wiki, lang_al_wiki, outFile, 'altLabel' )
+                
+                
+                # Retrieve narrower and broader concepts
+                relation_type = ["narrower", "broader"]
+                
+                for relation in relation_type:
+                    if relation == "narrower":
+                        concept_query = narrower_concept_query
+                        relation_id = "naTerm"
+                    else:
+                        concept_query = broader_concept_query
+                        relation_id = "brTerm"
+
+                    query = concept_query.replace("WDTMID", maximo[1])
+                    r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+                    concept_response = r.json()
+                    
+                    concepts_list = [item[relation_id]["value"].split("/")[-1] if len(item[relation_id]["value"]) else None for item in concept_response["results"]["bindings"]]
+                   
+                   
+                    if len(concepts_list):
+                        for concept in concepts_list:
+                            query = term_query.replace("WDTMID", concept).replace("TARGETS", target)
+                            r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+                            for item in r.json()["results"]["bindings"]:
+                                concept_terms = item["name"]["value"]
+                                verify=checkTerm(lang, concept_terms, relation, targets)
+                                ide=verify[0]
+                                termSearch=verify[1]
+                                if(termSearch!='1'):
+                                    outFile[relation].append(ide)
+                                    if(relation=='narrower'):
+                                        narrower_full.append(termSearch+'-'+lang)
+                                    elif(relation=='broader'):
+                                        broader_full.append(termSearch+'-'+lang)
+                                    originalIde=outFile['@id']
+                                    dataEurovoc=eurovoc_file(termSearch, ide, relation, 'iduri', lang, scheme,  originalIde)
+                    
+
         else:
-            pass
-            #print(relations_retrieved)
-            '''
+            print('WSID NO')
+            outFile=wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query)
+            
+
+            
     return(outFile)
 
+def wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query):
+    tars=check_prefLabel(outFile, targets)
+    target="', '".join(tars)
+    target="'"+target+"'"
+    if(len(tars)>0):
+        for idterm in iduri:
+            query = original_query.replace("WDTMID", idterm).replace("TARGETS", target)
+            r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+            data = r.json()
+            bindings=data['results']['bindings']
+            if(len(bindings)>0):
+                for i in range(len(bindings)):
+                    prefLabel_wiki=bindings[i]['name']['value']
+                    definition_wiki=bindings[i]['desc']['value']
+                    lang_pr_wiki=bindings[i]['name']['xml:lang']
+                    outFile=property_add( prefLabel_wiki, lang_pr_wiki, outFile, 'prefLabel' )
+                    outFile=property_add( definition_wiki, lang_pr_wiki, outFile, 'definition')     
+    target="', '".join(targets)
+    target="'"+target+"'"
+    for idterm in iduri:    
+        query = altLabel_query.replace("WDTMID", idterm).replace("TARGETS", target)
+        r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+        altLabel_response = r.json()
+        bindings=altLabel_response['results']['bindings']
+
+        for i in range(len(bindings)):
+            if('altLabel' in bindings[i]):
+                altLabel_wiki=bindings[i]['altLabel']['value']
+                lang_al_wiki=bindings[i]['altLabel']['xml:lang']
+                outFile=property_add( altLabel_wiki, lang_al_wiki, outFile, 'altLabel' )
+                    
+                    
+    # Retrieve narrower and broader concepts
+    relation_type = ["narrower", "broader"]
+    for relation in relation_type:
+        if relation == "narrower":
+            concept_query = narrower_concept_query
+            relation_id = "naTerm"
+        else:
+            concept_query = broader_concept_query
+            relation_id = "brTerm"
+
+        for idterm in iduri:
+            query = concept_query.replace("WDTMID", idterm)
+            r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+            concept_response = r.json()
+            concepts_list = [item[relation_id]["value"].split("/")[-1] if len(item[relation_id]["value"]) else None for item in concept_response["results"]["bindings"]]
+            if len(concepts_list):
+                for concept in concepts_list:
+                    query = term_query.replace("WDTMID", concept).replace("TARGETS", target)
+                    r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+                    for item in r.json()["results"]["bindings"]:
+                        concept_terms = item["name"]["value"]
+                        verify=checkTerm(lang, concept_terms, relation, targets)
+                        ide=verify[0]
+                        termSearch=verify[1]
+                        if(termSearch!='1'):
+                            outFile[relation].append(ide)
+                            if(relation=='narrower'):
+                                narrower_full.append(termSearch+'-'+lang)
+                            elif(relation=='broader'):
+                                broader_full.append(termSearch+'-'+lang)
+                            originalIde=outFile['@id']
+                            dataEurovoc=eurovoc_file(termSearch, ide, relation, 'iduri', lang, scheme,  originalIde)
+    return(outFile)
 
 def wsidFunction(termIn, context, contextFile,  definitions):
     defiMax=''
@@ -1016,6 +1158,7 @@ def property_add( value, lang, outFile, label ):
             if(plb not in prefLabel_full and lang not in targets_pref):
                 label_file.append({'@language':lang, '@value':value.strip(' ')})
                 prefLabel_full.append(plb)
+                targets_pref.append(lang)
         elif(label=='altLabel'):
             alb=value.strip(' ')+'-'+lang
             if(alb not in prefLabel_full and alb not in altLabel_full):
@@ -1033,6 +1176,7 @@ def property_add( value, lang, outFile, label ):
                 if(plb not in prefLabel_full and lang not in targets_pref ):
                     label_file.append({'@language':lang, '@value':value.strip(' ')})
                     prefLabel_full.append(plb)
+                    targets_pref.append(lang)
             elif(label=='altLabel'):
                 alb=value.strip(' ')+'-'+lang
                 if(alb not in prefLabel_full and alb not in altLabel_full):
@@ -1174,23 +1318,21 @@ if(term):
     print('TERM A BUSCAR: ', termSearch)
     if(termSearch!='1'):
         outFile=jsonFile(ide, scheme)
-        #outFile=iate(termSearch, lang,targets, outFile, context,contextFile, wsid)
+        outFile=iate(termSearch, lang,targets, outFile, context,contextFile, wsid)
         outFile=eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, scheme, prefLabel_full, altLabel_full, definition_full)
-        #outFile=lexicala(lang, term, targets, context, contextFile, outFile, wsid, prefLabel_full, altLabel_full, definition_lexicala)
-        #outFile=wikidata_retriever(termSearch, lang, context, contextFile, targets, outFile)
+        outFile=lexicala(lang, termSearch, targets, context, contextFile, outFile, wsid, prefLabel_full, altLabel_full, definition_lexicala)
+        outFile=wikidata_retriever(termSearch, lang, context, contextFile, targets, outFile)
     
-    print(outFile)
+        #print(outFile)
+        n=termSearch.replace(' ', '_').replace('\ufeff','')
+        n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+            normalize( "NFD", n), 0, re.I)
+        n = normalize( 'NFC', n)
+        newFile=lang+'/'+n+'_'+ide+'.jsonld'
+        with open(newFile, 'w') as file:
+            json.dump(outFile, file, indent=4,ensure_ascii=False)
 else:
-    if(context):
-        context=context
-    elif(contextFile):
-        file=open(contextFile+'.csv', 'r')
-        contextF=csv.reader(file)
-        contextFile=[]
-        for i in contextF:
-            contextFile.append([i[0], i[1], i[2],i[3]])
-    else:
-        contextFile=leerContextos(lang)
+    
     
     listread=[]
     file=open(listTerm+'.csv', 'r', encoding='utf-8')
@@ -1198,15 +1340,33 @@ else:
     cont=0
 
     for i in read:
-        term=preProcessingTerm(i[0])
-        check=checkTerm(lang,term, '', targets)
+        if(context):
+            context=context
+        elif(contextFile):
+            file=open(contextFile+'.csv', 'r')
+            contextF=csv.reader(file)
+            contextFile=[]
+            for i in contextF:
+                contextFile.append([i[0], i[1], i[2],i[3]])
+        else:
+            contextFile=leerContextos(lang, i[0])
+
+        check=checkTerm(lang,i[0], '', targets)
         ide=check[0]
         termSearch=check[1]
-        cont=cont+1
-        print('TERM A BUSCAR: ',i[0],'|',term,'|', termSearch, '|',cont)
+        print('TERM A BUSCAR: ', termSearch)
         if(termSearch!='1'):
-            jsonlist=iate(termSearch, lang,targets)
-            all(jsonlist, lang, targets,context, contextFile,  wsid,scheme, DR)
-        else:
-            listread.append(term)
+            outFile=jsonFile(ide, scheme)
+            outFile=iate(termSearch, lang,targets, outFile, context,contextFile, wsid)
+            outFile=eurovoc(termSearch, lang, targets, context, contextFile, wsid, outFile, scheme, prefLabel_full, altLabel_full, definition_full)
+            outFile=lexicala(lang, termSearch, targets, context, contextFile, outFile, wsid, prefLabel_full, altLabel_full, definition_lexicala)
+            outFile=wikidata_retriever(termSearch, lang, context, contextFile, targets, outFile)
+            n=termSearch.replace(' ', '_').replace('\ufeff','')
+            n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+                    normalize( "NFD", n), 0, re.I
+                        )
+            n = normalize( 'NFC', n)
+            newFile=lang+'/'+n+'_'+ide+'.jsonld'
+            with open(newFile, 'w') as file:
+                json.dump(outFile, file, indent=4,ensure_ascii=False)
     
