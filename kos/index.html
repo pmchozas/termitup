@@ -11,29 +11,36 @@
     <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="../webapp/css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css" />
+    <!-- TREEVIEW START -->
+    <script type="text/javascript" src="js/treeview-min.js"></script>
+
+    <!-- TREEVIEW END -->
 
     <style id="compiled-css" type="text/css">
         .hideContent {
             overflow: hidden;
             line-height: 1em;
             height: 2em;
-            width: 95%;
+            width: 99%;
             margin-left: 1px;
             text-align: justify;
+            margin-top: -10px;
         }
         
         .showContent {
             line-height: 1em;
             height: auto;
-            width: 95%;
+            width: 99%;
             margin-left: 1px;
             text-align: justify;
         }
         
         .show-more {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            margin-left: 80%;
+            margin-top: 15px;
+            margin-bottom: 2px;
+            margin-left: 90%;
         }
         
         .title .ti {
@@ -72,7 +79,7 @@
         
         .custom-scrollbar-js,
         .custom-scrollbar-css {
-            height: 100px;
+            height: 200px;
         }
         /* Custom Scrollbar using CSS */
         
@@ -96,17 +103,36 @@
             background-color: #9E9E9E;
             background-image: #9E9E9E;
         }
+        
+        .positionlanguaje {
+            margin-left: 88%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+        .footer {
+            width: 90%;
+            clear: both;
+            border-top: 1px solid #EDEDED;
+            margin-left: 5%;
+        }
     </style>
 </head>
 
-<body>
+<body onload="inicio()">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand mb-0 h1" href="#">
-            <img src="images/lynx__logo--bluesn.svg" width="50" height="50" class="d-inline-block align-top" alt=""> <FONT SIZE=6>Terminology</FONT>
+            <img src="images/lynx__logo--bluesn.svg" width="50" height="50" class="d-inline-block align-top" alt="">
+            <FONT SIZE=6>Terminology</FONT>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+		
+		
+		
+		
+		
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto"></ul>
             <form class="form-inline my-2 my-lg-0">
@@ -121,69 +147,109 @@
                 <br>
                 <hr>
                 <br>
+				
+				
+				
+				
+				
                 <div class="row">
-                    <div class="col-md-4 col-lg-5">
+                    <div class="col-md-4 col-lg-3">
                         <div class="accordion" id="accordionExample">
+							
+							<!--
                             <div class="card">
-                                <div class="card-header" id="headingOne" style="background-color: #3177B6;">
-                                    <h2 class="mb-0" >
+                                <div class="form-group" style="background-color: #3177B6;">
+                                    <div class="card-header1" id="headingOne" style="background-color: #3177B6;">
+                                        <h5 class="mb-0">
         <button class="btn font-weight-bold collapsed"  style="color:#FFFFFF" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 			<FONT SIZE=4>Contracts schema</FONT>
         </button>
-      </h2>
+      </h5>
+                                    </div>
                                 </div>
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="custom-scrollbar-css p-2">
-                                            <nav class="col-sm-3 font-weight-light" >
-                                                <ul class="nav nav-pills nav-stacked " >
-                                                    <li class="active"><a href="#section1" style="color:black">Term 1</a></li>
-                                                    <li><a href="#section2" style="color:black">Term 2</a></li>
-                                                    <li><a href="#section3" style="color:black">Term 3</a></li>
-                                                    <li class="dropdown">
-                                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#section4" style="color:black" >Term 4 <span class="caret"></span></a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="#section41" style="color:blue">Term 4-1</a></li>
-                                                            <li><a href="#section42" style="color:blue">Term 4-2</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#section3" style="color:black">Term 5</a></li>
-                                                    <li><a href="#section3" style="color:black">Term 6</a></li>
-                                                </ul>
-                                            </nav>
+
+                                           
+
+                                            <ul id="tree3">
+                                                <li><a href="#">primernivel </a>
+
+                                                    <ul>
+                                                        <li>Company Maintenance</li>
+                                                        <li>Employees
+                                                            <ul>
+                                                                <li>Reports
+                                                                    <ul>
+                                                                        <li>Report1</li>
+                                                                        <li>Report2</li>
+                                                                        <li>Report3</li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>Employee Maint.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>Human Resources</li>
+                                                    </ul>
+                                                </li>
+                                                <li>primernivel
+                                                    <ul>
+                                                        <li>Company Maintenance</li>
+                                                        <li>Employees
+                                                            <ul>
+                                                                <li>Reports
+                                                                    <ul>
+                                                                        <li>Report1</li>
+                                                                        <li>Report2</li>
+                                                                        <li>Report3</li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>Employee Maint.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>Human Resources</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                          
+
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="card">
-                                <div class="card-header" id="headingTwo" style="background-color: #3177B6;">
+                                <div class="card-header1" id="headingTwo" style="background-color: #3177B6;">
                                     <h5 class="mb-0">
         <button class="btn font-weight-bold collapsed" style="color:#FFFFFF"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         <FONT SIZE=4> labour law schema </FONT>
+         <font size = 4> labour law schema </font>
         </button>
       </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="custom-scrollbar-css p-2">
-                                            <nav class="col-sm-3 font-weight-light" >
-                                                <ul class="nav nav-pills nav-stacked">
-                                                    <li class="active"><a href="#section1" style="color:black">Term 1</a></li>
-                                                    <li><a href="#section2" style="color:black">Term 2</a></li>
-                                                    <li><a href="#section3" style="color:black">Term 3</a></li>
-                                                    <li class="dropdown">
-                                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#section4" style="color:black">Term 4 <span class="caret"></span></a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="#section41" style="color:blue">Term 4-1</a></li>
-                                                            <li><a href="#section42" style="color:blue">Term 4-2</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#section3" style="color:black">Term 5</a></li>
-                                                    <li><a href="#section3" style="color:black">Term 6</a></li>
-                                                </ul>
-                                            </nav>
+											
+											
+											
+											<ul class="tree3">
+                                                <li><a href="#">primernivel 1 </a>
+
+                                                    <ul>
+                                                        <li>Segundo nivel 1</li>
+                                                        <li>Segundo nivel 1</li>
+                                                    </ul>
+                                                </li>
+                                                <li>primer nivel 2
+                                                    <ul>
+                                                        <li>Segundo nivel 2</li>
+                                                        <li>Segundo nivel 2</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+
                                         </div>
                                     </div>
                                 </div>
@@ -192,14 +258,14 @@
                         </div>
                     </div>
 
-                    <div class="col-md-1 offset-lg-0 col-lg-7" id="section1">
-                        <div class="card ">
+                    <div class="col-md-1 offset-lg-0 col-lg-9" id="section1">
+                        <div class="card">
                             <div class="row">
                                 <div class="col-xs-12 col-md-3 col-lg-12">
-                                    <div class="form-group" style="background-color: #3177B6;">
-                                        <div class="input-group ">
-                                            <h5 class="card-header col-10" style="color:#FFFFFF" style="background-color: #3177B6;">bank </h5>
-                                            <h5 class="card-header text-right"  style="color:#FFFFFF" style="background-color: #3177B6;">es </h5>
+                                    <div class="form-group">
+                                        <div class="input-group " style="background-color: #3177B6;">
+                                            <h5 class="card-header " style="color:#FFFFFF">bank </h5>
+                                            <h5 class="card-header positionlanguaje" style="color:#FFFFFF;" style="background-color: #3177B6;">es </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -209,8 +275,10 @@
                                 <p class="card-text font-weight-light">Altlabel</p>
                                 <div class="text-container">
                                     <div class="content hideContent font-weight-light ">
-                                        Definition: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                        <p>Definition: aftmost transverse watertight bulkhead installed to isolate possible leakage in the stern.</p>
+                                        <br>
                                         <p>Sourse</p>
+                                        <br>
                                         <p>sameAs</p>
                                     </div>
                                     <div class="btn btn-outline-dark show-more">
@@ -220,15 +288,15 @@
                             </div>
                         </div>
 
-                        <BR>
-                        <div class="card">
-                            <div class="card-body">
+                        <br>
+                        <div class="card" style="background-color: #D2E2F1;">
+                            <div class="card-body" style="color:#000000">
 
-                                <h6 class="card-subtitle mb-2 text-muted">BT</h6>
-                                <BR>
-                                <h6 class="card-subtitle mb-2 text-muted">NT</h6>
-                                <BR>
-                                <h6 class="card-subtitle mb-2 text-muted">RT</h6>
+                                <h6 class="card-subtitle mb-2 ">BT</h6>
+                                <br>
+                                <h6 class="card-subtitle mb-2">NT</h6>
+                                <br>
+                                <h6 class="card-subtitle mb-2 ">RT</h6>
 
                             </div>
 
@@ -273,6 +341,186 @@
         //]]>
     </script>
 
+    <script type="text/javascript">
+        jQuery.fn.extend({
+			
+            treed: function(o) {
+                //initialize each of the top levels
+                var tree = $(this);
+                tree.addClass("tree");
+                tree.find('li').has("ul").each(function() {
+                    var branch = $(this); //li with children ul
+                    branch.prepend("<i class='indicator fas fa-chevron-right'></i>");
+                    branch.addClass('branch');
+                    branch.on('click', function(e) {
+                        if (this == e.target) {
+                            var icon = $(this).children('i:first');
+                            icon.toggleClass("fa-chevron-down" + " " + "fa-chevron-right");
+                            $(this).children().children().toggle();
+                        }
+                    })
+                    branch.children().children().toggle();
+                });
+                //fire event from the dynamically added icon
+                tree.find('.branch .indicator').each(function() {
+                    $(this).on('click', function() {
+                        $(this).closest('li').click();
+                    });
+                });
+                //fire event to open branch if the li contains an anchor instead of text
+                tree.find('.branch>a').each(function() {
+                    $(this).on('click', function(e) {
+                        $(this).closest('li').click();
+                        e.preventDefault();
+                    });
+                });
+                //fire event to open branch if the li contains a button instead of text
+                tree.find('.branch>button').each(function() {
+                    $(this).on('click', function(e) {
+                        $(this).closest('li').click();
+                        e.preventDefault();
+                    });
+                });
+                return tree;
+            }
+        });
+
+        //Initialization of treeviews
+		
+		
+		$('.tree3').treed();
+
+
+       
+    </script>
+
+    <script>
+        var term = "TEMPLATE_TERM";
+
+        function inicio() {
+
+            //WE LOAD THE LIST OF TERMS. This is not sustainable if there are many terms, because the response will be too long.
+            console.log("The following term is to be loaded " + term);
+            var http = new XMLHttpRequest();
+            http.open("POST", "/cmd?action=listterms", true); //true
+            http.send();
+            console.log("enviado");
+            http.onload = function() {
+                if (http.readyState === http.DONE) {
+                    console.log(http.status);
+                    if (http.status === 200) {
+                        var json = http.responseText;
+                        console.log("Restpuesta:" + json);
+                        var servidor = "http://lkg.lynx-project.eu/kos/";
+                        var obj = JSON.parse(json);
+                        var str = '';
+                        for (var i = 0; i < obj.length; i++) {
+                            var iterm = obj[i];
+                            var req = new XMLHttpRequest();
+                            req.open('GET', "/kos/" + iterm + ".json", false);
+                            req.setRequestHeader("Content-type", "charset=UTF-8");
+                            req.send(null);
+                            if (req.status == 200)
+                                var json = req.responseText;
+                            var jterm = JSON.parse(json);
+                            var sheme = jterm["inScheme"]
+                            str += '<a href="' + "/kos/" + iterm + '">' + sheme + '</a> ';
+                        }
+
+                        document.getElementById("idterms").innerHTML = str;
+                        //WE LOAD THE INFORMATION ON A TERM
+                        var index = obj.indexOf(term);
+                        console.log(index);
+                        console.log("I have found the term " + term);
+                        var http2 = new XMLHttpRequest();
+                        http2.open("GET", "/kos/" + term + ".json", true); //true
+                        http2.setRequestHeader("Content-type", "charset=UTF-8");
+                        http2.send();
+                        http2.onload = function() {
+                            var json = http2.responseText;
+                            if (json == null || json.length == 0)
+                                return;
+                            console.log("I have retrieved : " + json);
+                            var jterm = JSON.parse(json);
+
+                            //Preferred terms. We use a single row.
+                            console.log(jterm["prefLabel"]);
+                            var fila = "<td><b>Preferred</b></td><td>";
+                            jterm["prefLabel"].forEach(function(iterm) {
+                                var lan1 = iterm["@language"];
+                                var val1 = iterm["@value"];
+                                var cadena = val1 + ' (' + lan1 + ')';
+                                document.getElementById("idterm").innerHTML = cadena;
+                                fila += val1 + ' (' + lan1 + ') * ';
+                            });
+                            var tableRef = document.getElementById('maintable').getElementsByTagName('tbody')[0];
+                            var newRow = tableRef.insertRow(tableRef.rows.length);
+                            newRow.innerHTML = fila + "</td>";
+                            //we choose Spanish as preferred, if possible (otherwise, it will be random...
+                            const espanol = jterm["prefLabel"].find(iiterm => iiterm["@language"] === 'es');
+                            console.log(espanol);
+                            if (espanol != null)
+                                document.getElementById("idterm").innerHTML = espanol["@value"];
+
+                            //Alternative terms. We use a single row.
+                            console.log(jterm["altLabel"]);
+                            var fila = "<td><b>Alternative</b></td><td>";
+                            jterm["altLabel"].forEach(function(iterm) {
+                                var lan1 = iterm["@language"];
+                                var val1 = iterm["@value"];
+                                var cadena = val1 + ' (' + lan1 + ')';
+                                document.getElementById("idterm").innerHTML = cadena;
+                                fila += val1 + ' (' + lan1 + ') * ';
+                            });
+                            document.getElementById('maintable').getElementsByTagName('tbody')[0].insertRow(tableRef.rows.length).innerHTML = fila + "</td>";
+
+                            //Definitions
+                            console.log(jterm["definition"]);
+                            jterm["definition"].forEach(function(defi) {
+                                var lan1 = defi["@language"];
+                                var val1 = defi["@value"];
+                                var cadena = val1 + ' (' + lan1 + ')';
+                                var fila = "<td><b>Definition</b></td><td>" + cadena + "</td>"
+                                var tableRef = document.getElementById('maintable').getElementsByTagName('tbody')[0];
+                                var newRow = tableRef.insertRow(tableRef.rows.length);
+                                newRow.innerHTML = fila;
+                            });
+
+                            //We parse the skos:broader
+                            if (jterm["skos:broader"] != null && jterm["skos:broader"].length > 0) {
+                                var patron = '<td>Broader</td><td>' + jterm["skos:broader"][0] + '</td>';
+                                document.getElementById('maintable').getElementsByTagName('tbody')[0].insertRow(tableRef.rows.length).innerHTML = patron;
+                            }
+                            //We parse the skos:narrower
+                            if (jterm["skos:narrower"] != null && jterm["skos:narrower"].length > 0) {
+                                var patron = '<td>Narrower</td><td>' + jterm["skos:narrower"][0] + '</td>';
+                                document.getElementById('maintable').getElementsByTagName('tbody')[0].insertRow(tableRef.rows.length).innerHTML = patron;
+                            }
+                            //We parse the skos:narrower                                    
+                            if (jterm["skos:related"] != null && jterm["skos:related"].length > 0) {
+                                var patron = '<td>Related</td><td>' + jterm["skos:related"][0] + '</td>';
+                                document.getElementById('maintable').getElementsByTagName('tbody')[0].insertRow(tableRef.rows.length).innerHTML = patron;
+                            }
+
+                            //List of terms. This is not sustainable. Perhaps it should only be related tersm.
+                            document.getElementById("idterms").innerHTML = str;
+
+                            document.getElementById("linkjson").href = "/kos/" + jterm["@id"] + ".json";
+
+                            //         const nquads = jsonld.toRDF(jterm, {format: 'application/n-quads'});
+                            //         console.log(nquads);
+                        }
+
+                    }
+                }
+
+            }
+            console.log("fin de la función inicio");
+
+        }
+    </script>
+
 </body>
 
 </html>
+
