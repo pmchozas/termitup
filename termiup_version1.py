@@ -63,7 +63,7 @@ def preProcessingTerm(term, context, contextFile):
         listt=[]
         for j in contextFile:
             if(term.lower() in j.lower() ):
-                #print(term.lower(),' | ', j.lower())
+                print(term.lower(),' | ', j.lower())
                 context=j.lower()
                 pass
             elif(termcheck.lower() in j.lower()):
@@ -79,7 +79,6 @@ def preProcessingTerm(term, context, contextFile):
 
 
     #print(term, '|',termcheck,'|',termcheck2)
-
     return(termcheck, termcheck2,  context)
 
 # id creation
@@ -390,7 +389,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                         wsidmax=maximo[1]
                         it=ides_item.index(wsidmax)
                         maxx=ides_wsid[it]
-                        find_iate.append(wsidmax)
+                        find_iate.append(maxx)
                         
                         outFile=fillPrefIate(outFile, results, 'prefLabel', 2, wsidmax, rels, maxx)
                         outFile=fillAltIate(outFile, results,  'altLabel', 3, wsidmax, rels, maxx)
@@ -529,7 +528,7 @@ def fillPrefIate(outFile, results, label, col, wsidmax, rels, maxx):
         if(rels==1):
             while(colm<=len(results[wsidmax]) and results[wsidmax][colTarget].strip(' ') not in targets_pref ):
                 if(results[wsidmax][colm]!=""):
-                    outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' '), 'source': "https://iate.europa.eu/entry/result/"+str(maxx)})
+                    outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' ')})
                     prefLabel_full.append(results[wsidmax][colm].strip(' ')+'-'+results[wsidmax][colTarget].strip(' '))
                     targets_pref.append(results[wsidmax][colTarget].strip(' '))
                     file_html(scheme, results[wsidmax][colm].strip(' '), ide_file, results[wsidmax][colTarget])
@@ -538,7 +537,7 @@ def fillPrefIate(outFile, results, label, col, wsidmax, rels, maxx):
         else:
             while(colm<=len(results[wsidmax]) and results[wsidmax][colTarget].strip(' ') not in targets_relation ):
                 if(results[wsidmax][colm]!=""):
-                    outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' '), 'source': "https://iate.europa.eu/entry/result/"+str(maxx)})
+                    outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' ')})
                     pref_relation.append(results[wsidmax][colm].strip(' ')+'-'+results[wsidmax][colTarget].strip(' '))
                     targets_relation.append(results[wsidmax][colTarget].strip(' '))
                     file_html(scheme, results[wsidmax][colm].strip(' '), ide_file, results[wsidmax][colTarget])
@@ -582,7 +581,7 @@ def fillAltIate(outFile, results,  label, col, wsidmax, rels, maxx):
                 for j in results[wsidmax][colm]:
                     alb=j.strip(' ')+'-'+results[wsidmax][colTarget]
                     if(j!="" and alb not in prefLabel_full and alb not in altLabel_full):
-                        outFile[label].append({'@language':results[wsidmax][colTarget], '@value':j.strip(' '), 'source': "https://iate.europa.eu/entry/result/"+str(maxx)})
+                        outFile[label].append({'@language':results[wsidmax][colTarget], '@value':j.strip(' ')})
                         altLabel_full.append(j.strip(' ')+'-'+results[wsidmax][colTarget])
                 colm=colm+5
                 colTarget=colTarget+5
@@ -591,7 +590,7 @@ def fillAltIate(outFile, results,  label, col, wsidmax, rels, maxx):
                 for j in results[wsidmax][colm]:
                     alb=j.strip(' ')+'-'+results[wsidmax][colTarget]
                     if(j!="" and alb not in pref_relation and alb not in alt_relation):
-                        outFile[label].append({'@language':results[wsidmax][colTarget], '@value':j.strip(' '), 'source': "https://iate.europa.eu/entry/result/"+str(maxx)})
+                        outFile[label].append({'@language':results[wsidmax][colTarget], '@value':j.strip(' ')})
                         alt_relation.append(j.strip(' ')+'-'+results[wsidmax][colTarget])
                 colm=colm+5
                 colTarget=colTarget+5
@@ -614,7 +613,7 @@ def fillDefinitionIate(outFile, results,   label,col, wsidmax, maxx):
         colTarget=4
         while(colm<len(results[wsidmax]) ):
             if(results[wsidmax][colm]!=""):
-                outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' '), 'source': "https://iate.europa.eu/entry/result/"+str(maxx)})
+                outFile[label].append({'@language':results[wsidmax][colTarget], '@value':results[wsidmax][colm].strip(' ')})
                 definition_full.append(results[wsidmax][colm].strip(' ')+'-'+results[wsidmax][colTarget])
                 #langs.append(results[wsidmax][colTarget].strip(' '))
             colm=colm+5
@@ -806,30 +805,33 @@ def getRelation(uri_termino, relation, lang):
     return(answer)
 
 def name_term_eurovoc(uri,lang,label):
-    nameUri=''
-    lang='"'+lang+'"'
-    url=("http://sparql.lynx-project.eu/")
-    query="""
-    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    SELECT ?c ?label
-    WHERE {
-    GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
-    VALUES ?c { <"""+uri+"""> }
-    VALUES ?searchLang { """+lang+""" undef } 
-    VALUES ?relation { skos:"""+label+"""  } 
-    ?c a skos:Concept . 
-    ?c ?relation ?label . 
-    filter ( lang(?label)=?searchLang )
-    }
-    }
-    """
-    r=requests.get(url, params={'format': 'json', 'query': query})
-    results=json.loads(r.text)
-    if (len(results["results"]["bindings"])==0):
-            nameUri=''
-    else:
-        for result in results["results"]["bindings"]:
-            nameUri=result["label"]["value"]
+    try:
+        nameUri=''
+        lang='"'+lang+'"'
+        url=("http://sparql.lynx-project.eu/")
+        query="""
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        SELECT ?c ?label
+        WHERE {
+        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+        VALUES ?c { <"""+uri+"""> }
+        VALUES ?searchLang { """+lang+""" undef } 
+        VALUES ?relation { skos:"""+label+"""  } 
+        ?c a skos:Concept . 
+        ?c ?relation ?label . 
+        filter ( lang(?label)=?searchLang )
+        }
+        }
+        """
+        r=requests.get(url, params={'format': 'json', 'query': query})
+        results=json.loads(r.text)
+        if (len(results["results"]["bindings"])==0):
+                nameUri=''
+        else:
+            for result in results["results"]["bindings"]:
+                nameUri=result["label"]["value"]
+    except json.decoder.JSONDecodeError:
+        print('json.decoder.JSONDecodeError')
         
       
     return(nameUri)
@@ -1273,11 +1275,12 @@ def wsidFunction(termIn, context,   definitions):
             pesos=response.json()
             max_item = max(pesos, key=int)
             posMax=pesos.index(max_item)
-            if(len(listdef)>0):
+            if(len(listdef)>0 and (posMax)<len(listdef)):
+                print(len(listdef), posMax)
                 defiMax=listdef[posMax-1]
             else:
                 defiMax=''
-            if(len(listIde)>0):
+            if(len(listIde)>0 and (posMax)<len(listIde)):
                 idMax=listIde[posMax-1]
             else:
                 idMax=''
@@ -1312,7 +1315,7 @@ def property_add( value, lang, outFile, label,rels, uri ):
             if(label=='prefLabel'):
                 plb=value.strip(' ')+'-'+lang
                 if(plb not in prefLabel_full and lang not in targets_pref):
-                    label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                    label_file.append({'@language':lang, '@value':value.strip(' ')})
                     prefLabel_full.append(plb)
                     targets_pref.append(lang)
                     file_html(scheme, value.strip(' '), ide_file, lang)
@@ -1320,49 +1323,49 @@ def property_add( value, lang, outFile, label,rels, uri ):
             elif(label=='altLabel'):
                 alb=value.strip(' ')+'-'+lang
                 if(alb not in prefLabel_full and alb not in altLabel_full):
-                    label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                    label_file.append({'@language':lang, '@value':value.strip(' ')})
                     altLabel_full.append(alb)
             elif(label=='definition'):
                 dlb=value.strip(' ')+'-'+lang
                 if(dlb not in definition_full):
-                    label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                    label_file.append({'@language':lang, '@value':value.strip(' ')})
                     definition_full.append(dlb)
         else:
             for i in range(len(label_file)):
                 if(label=='prefLabel'):
                     plb=value.strip(' ')+'-'+lang
                     if(plb not in prefLabel_full and lang not in targets_pref ):
-                        label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                        label_file.append({'@language':lang, '@value':value.strip(' ')})
                         prefLabel_full.append(plb)
                         targets_pref.append(lang)
                         file_html(scheme, value.strip(' '), ide_file, lang)
                 elif(label=='altLabel'):
                     alb=value.strip(' ')+'-'+lang
                     if(alb not in prefLabel_full and alb not in altLabel_full):
-                        label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                        label_file.append({'@language':lang, '@value':value.strip(' ')})
                         altLabel_full.append(alb)
                 elif(label=='definition'):
                     dlb=value.strip(' ')+'-'+lang
                     if(dlb not in definition_full):
-                        label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                        label_file.append({'@language':lang, '@value':value.strip(' ')})
                         definition_full.append(dlb)
     else:
         if(len(label_file)==0):
             if(label=='prefLabel'):
                 plb=value.strip(' ')+'-'+lang
                 if(plb not in pref_relation and lang not in targets_relation):
-                    label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                    label_file.append({'@language':lang, '@value':value.strip(' ')})
                     pref_relation.append(plb)
                     targets_relation.append(lang)
                     file_html(scheme, value.strip(' '), ide_file, lang)
             elif(label=='altLabel'):
                 alb=value.strip(' ')+'-'+lang
                 if(alb not in pref_relation and lang not in targets_relation):
-                    outFile['prefLabel'].append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                    outFile['prefLabel'].append({'@language':lang, '@value':value.strip(' ')})
                     pref_relation.append(alb)
                     targets_relation.append(lang)
                 elif(alb not in pref_relation and alb not in alt_relation):
-                    label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                    label_file.append({'@language':lang, '@value':value.strip(' ')})
                     alt_relation.append(alb)
             
         else:
@@ -1370,18 +1373,18 @@ def property_add( value, lang, outFile, label,rels, uri ):
                 if(label=='prefLabel'):
                     plb=value.strip(' ')+'-'+lang
                     if(plb not in pref_relation and lang not in targets_relation ):
-                        label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                        label_file.append({'@language':lang, '@value':value.strip(' ')})
                         pref_relation.append(plb)
                         targets_relation.append(lang)
                         file_html(scheme, value.strip(' '), ide_file, lang)
                 elif(label=='altLabel'):
                     alb=value.strip(' ')+'-'+lang
                     if(alb not in pref_relation and lang not in targets_relation):
-                        outFile['prefLabel'].append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                        outFile['prefLabel'].append({'@language':lang, '@value':value.strip(' ')})
                         pref_relation.append(alb)
                         targets_relation.append(lang)
                     elif(alb not in pref_relation and alb not in alt_relation):
-                        label_file.append({'@language':lang, '@value':value.strip(' '), 'source':uri})
+                        label_file.append({'@language':lang, '@value':value.strip(' ')})
                         alt_relation.append(alb)
     return(outFile)
 
@@ -1395,6 +1398,8 @@ def jsonFile(ide, scheme, rels, note, context, term, lang_in):
         '@type':'skos:Concept',
         '@id': ide,
         'inScheme': scheme.replace(' ',''),
+        'source':'',
+        'source':'',
         'closeMatch':'',
         'exactMatch':'',
         'exactMatch':'',
@@ -1409,9 +1414,10 @@ def jsonFile(ide, scheme, rels, note, context, term, lang_in):
     data['prefLabel']=[]
     data['altLabel']=[]
     data['definition']=[]
-    #data['prefLabel'].append({'@language':lang_in, '@value':term.strip(' ')})
-    #prefLabel_full.append(term.strip(' ')+'-'+lang_in)
-    #targets_pref.append(lang_in.strip(' '))
+    data['prefLabel'].append({'@language':lang_in, '@value':term.strip(' ')})
+    prefLabel_full.append(term.strip(' ')+'-'+lang_in)
+    targets_pref.append(lang_in.strip(' '))
+
     if(rels==1):
         data['broader']=[]
         data['narrower']=[]
@@ -1421,9 +1427,10 @@ def jsonFile(ide, scheme, rels, note, context, term, lang_in):
 
 def fix(outFile, find_iate, find_euro, find_lexi, find_wiki, note, context, termin):
     if(len(find_lexi)==0 and len(find_euro)==0 and len(find_iate)==0 and len(find_wiki)==0):
-        outFile['prefLabel'].append({'@language':lang_in, '@value':termin.strip(' ')})
-        prefLabel_full.append(termin.strip(' ')+'-'+lang_in)
-        targets_pref.append(lang_in.strip(' '))
+        #outFile['prefLabel'].append({'@language':lang_in, '@value':termin.strip(' ')})
+        #prefLabel_full.append(termin.strip(' ')+'-'+lang_in)
+        #targets_pref.append(lang_in.strip(' '))
+        
         if(len(closeMatch)>0):
             outFile['closeMatch']=closeMatch[0]
         if(context):
@@ -1434,6 +1441,7 @@ def fix(outFile, find_iate, find_euro, find_lexi, find_wiki, note, context, term
 
     if(len(note)):
         outFile['note']=note
+
     if(context):
         outFile['example']=context
     if(len(outFile['prefLabel'])==0):
@@ -1461,6 +1469,19 @@ def fix(outFile, find_iate, find_euro, find_lexi, find_wiki, note, context, term
         pass
     elif(len(find_wiki)==0 and len(find_euro)==0):
         del outFile['exactMatch']
+
+    if(len(find_iate) and len(find_lexi)):
+        outFile['source']="https://iate.europa.eu/entry/result/"+str(find_iate[0])
+        outFile['source']="https://dictapi.lexicala.com/senses/"+find_lexi[0]
+        pass
+    elif(len(find_iate) and len(find_lexi)==0):
+        outFile['source']="https://iate.europa.eu/entry/result/"+str(find_iate[0])
+        pass
+    elif(len(find_lexi) and len(find_iate)==0):
+        outFile['source']="https://dictapi.lexicala.com/senses/"+find_lexi[0]
+        pass
+    elif(len(find_lexi)==0 and len(find_iate)==0):
+        del outFile['source']
     
     if(len(note)==0):
         del(outFile['note'])
@@ -1557,7 +1578,7 @@ else:
     cont=0
     for i in read: 
         if(i):
-            print(i)
+            #print(i)
             term=preProcessingTerm(i[0], None, contextFile)
             #print(term)
             context=term[2]
