@@ -63,7 +63,6 @@ def preProcessingTerm(term, context, contextFile):
         listt=[]
         for j in contextFile:
             if(term.lower() in j.lower() ):
-                print(term.lower(),' | ', j.lower())
                 context=j.lower()
                 pass
             elif(termcheck.lower() in j.lower()):
@@ -493,7 +492,7 @@ def getInformationIate(target, item, leng,termSearch):
 
     
     defi=re.sub(r'<[^>]*?>', '', defi)
-    defi=defi.replace(',', '').replace('"', '').replace("'", '')
+    defi=defi.replace(',', '').replace('"', '').replace("'", '').replace(':', '').replace('.','').replace('(','').replace(')','')
     return(defi,pref, syn)
 
 
@@ -1095,8 +1094,8 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
             relations_retrieved = dict()
             
             if( maximo[2]!=200):
-                print('WSID NO 200')
-                closeMatch.append('https://www.wikidata.org/wiki/'+iduri)
+                print('WSID NO 200', iduri)
+                closeMatch.append('https://www.wikidata.org/wiki/'+iduri[0])
                 #outFile=wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query, rels)
             
             elif(maximo[0]!='' and maximo[2]==200):
@@ -1247,8 +1246,7 @@ def wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrow
     return(outFile)
 
 def wsidFunction(termIn, context,   definitions):
-    #print(termIn,'|',context, '|', '|', definitions)
-    #print('wsidFunction ',context)
+    print('----Entrando WSDI----')
     defiMax=''
     idMax=''
     posMax=0
@@ -1263,20 +1261,21 @@ def wsidFunction(termIn, context,   definitions):
         listdef=definitions[0]
         listIde=definitions[1]
         definitionsJoin=', '.join(listdef)
-        response = requests.post(
-                'http://wsid-88-staging.cloud.itandtel.at/wsd/api/lm/disambiguate_demo/',
+        response = requests.post('http://el-flask-88-staging.cloud.itandtel.at/api/disambiguate_demo',
                 params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitionsJoin}, 
                 headers ={'accept': 'application/json',
                     'X-CSRFToken': 'WCrrUzvdvbA4uahbunqIJGxTpyAwFuIGgIm9O91EfeiQwH3TnUUsnF2cdXkHXi94'
             }
         )
         code=response.status_code
+        print('CODE WSID',code)
         try:
             pesos=response.json()
+            #print(pesos)
             max_item = max(pesos, key=int)
             posMax=pesos.index(max_item)
             if(len(listdef)>0 and (posMax)<len(listdef)):
-                print(len(listdef), posMax)
+                #print(len(listdef), posMax)
                 defiMax=listdef[posMax-1]
             else:
                 defiMax=''
@@ -1290,7 +1289,7 @@ def wsidFunction(termIn, context,   definitions):
             defiMax=''
             idMax=''
             
-
+    print('----Saliendo WSDI----')
         
     return(defiMax, idMax,code)
 
