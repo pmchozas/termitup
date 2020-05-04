@@ -336,7 +336,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                 if(lang in leng):
                     if(termSearch[cont] == leng[lang]['term_entries'][0]['term_value']  ):
                         print('-se encontro iate-')
-                        bloq=1
+                        bloq=1 # bandera de encontrado se enciende en 1
                         if(context==None):
                             context=getContextIate(item, leng, lang,termSearch[cont] )
                             if(context!=''):
@@ -399,7 +399,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                     
         cont=cont+1
     except json.decoder.JSONDecodeError:
-        print('JSONDecodeError')
+        #print('JSONDecodeError')
         response2='{ }'
     
         
@@ -637,8 +637,6 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
         if(len(uri)):
             print('-se encontro eurovoc-')
             find=1
-
-
             for i in uri:
                 urilist.append(i[0])
                 name.append(i[1])
@@ -685,7 +683,7 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
                         if(def_ev!=''):
                             outFile=property_add(def_ev, lang, outFile, 'definition', rels, uriwsid)
 
-                if(rels==1):
+                if(rels==1): #rels define si hara busqueda de relaciones o no 
                     outFile=relations_eurovoc(uriwsid, lang, namewsid,outFile, scheme)
                 
     else:
@@ -694,7 +692,7 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
         
     return(outFile)
 
-def uri_term_eurovoc(termSearch, lang):
+def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
     term='"'+termSearch+'"'
     lang='"'+lang+'"'
     answer=[]
@@ -724,11 +722,12 @@ def uri_term_eurovoc(termSearch, lang):
             for result in results["results"]["bindings"]:
                 answeruri=result["c"]["value"]
                 answerl=result["label"]["value"]
-                #print(answeruri, answerl)
+                
                 if(termSearch.lower() == answerl.lower()):#ATENCION
+                    #print(termSearch, answerl)
                     defs=def_term_eurovoc(answeruri, lang)
                     answer.append([answeruri, answerl, defs])
-                '''else:
+                else:
                     tok=answerl.split(' ')
                     for i in tok:
                         if('(' in i):
@@ -741,13 +740,13 @@ def uri_term_eurovoc(termSearch, lang):
                             defs=def_term_eurovoc(answeruri, lang)
                             #print(answeruri, answerl, '|',defs)
                             answer.append([answeruri, answerl, defs])
-                '''
+                
     except json.decoder.JSONDecodeError:
         answer=[]
             
     return(answer)
 
-def def_term_eurovoc( uri,lang):
+def def_term_eurovoc( uri,lang): #recoge la definicion de la uri de entrada
     definicion=''
     resultado=[]
     url=("http://sparql.lynx-project.eu/")
@@ -774,7 +773,7 @@ def def_term_eurovoc( uri,lang):
             definicion=result["label"]["value"]
     return(definicion)
 
-def getRelation(uri_termino, relation, lang):
+def getRelation(uri_termino, relation, lang): #recoge la uri de la relacion a buscar 
     answer=[]
     answerRel=''
     for i in uri_termino:
@@ -803,7 +802,7 @@ def getRelation(uri_termino, relation, lang):
     
     return(answer)
 
-def name_term_eurovoc(uri,lang,label):
+def name_term_eurovoc(uri,lang,label): #recoge el nombre equivalente a la uri de entrada
     try:
         nameUri=''
         lang='"'+lang+'"'
