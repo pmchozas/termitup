@@ -18,6 +18,7 @@ from nltk.stem import PorterStemmer
 from nltk.stem import LancasterStemmer
 
 # header for Wikidata queries
+#variables globales
 url = 'https://query.wikidata.org/sparql'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 prefLabel_full=[]
@@ -31,6 +32,7 @@ pref_relation=[]
 alt_relation=[]
 targets_relation=[]
 lang_in=''
+#IDs del source
 find_iate=[]
 find_euro=[]
 find_lexi=[]
@@ -44,7 +46,7 @@ new_no_find=open('no_find.csv', 'w')
 no_find = csv.writer(new_no_find)
 name_file=''
 
-# clean term
+# clean term y el archivo de contextos
 def preProcessingTerm(term, context, contextFile):
     porter = PorterStemmer()
     lancaster=LancasterStemmer()
@@ -112,7 +114,7 @@ def createRelationFolders(targets):
         for i in relations:
             if(i not in folders):
                 os.makedirs(name_file+tar+"/"+i)
-# files
+# devuelve los archivos de cada carpeta de salida (en/br, en/nr, es/br, es/nr)
 def path(targets, relation):
     listt_arq=[]
     #targets=['terminosjson']
@@ -125,7 +127,7 @@ def path(targets, relation):
         listt_arq.append(listt)
     return(listt_arq)
 
-# check
+# checks if the ID or the term exist
 def checkTerm(lang,  termSearch, relation, targets):
     listt_arq=path(targets, relation)
     ide=sctmid_creator()
@@ -168,7 +170,7 @@ def checkTerm(lang,  termSearch, relation, targets):
                         ide=ide
     return(ide, termSearch)
 
-
+#reads the context files and returns contexts if exist
 def leerContextos(lang, termIn):
     configuration= {
         "es": "contexts/Spain-judgements-ES.ttl",
@@ -261,6 +263,7 @@ def leerContextos(lang, termIn):
             find.append([termIn,i[1], start, end])
     return(find)
 
+#creates schema file
 def editFileSchema(scheme):
     file_schema={
     "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
@@ -278,7 +281,7 @@ def editFileSchema(scheme):
     
     return(file_schema)
 
-  
+#this is for the web - not functional for termitup
 def file_html(schema, pref, ide, lang):
     try:
         with open('schemas/file_html.json') as f:
@@ -1488,7 +1491,7 @@ def property_add( value, lang, outFile, label,rels, uri ):
                         alt_relation.append(alb)
     return(outFile)
 
-
+#generates jsonfile structure
 def jsonFile(ide, scheme, rels, note, context, term, lang_in):  
     newFile=''
     data={}
