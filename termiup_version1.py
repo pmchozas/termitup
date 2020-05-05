@@ -57,6 +57,7 @@ def preProcessingTerm(term, context, contextFile):
     
     if(context):
         context=context
+        context=reduction_wsid(context)
     elif(contextFile):
         file=open(contextFile, 'r', encoding='utf-8')
         contextFile=file.readlines()
@@ -64,9 +65,11 @@ def preProcessingTerm(term, context, contextFile):
         for j in contextFile:
             if(term.lower() in j.lower() ):
                 context=j.lower()
+                context=reduction_wsid(context)
                 pass
             elif(termcheck.lower() in j.lower()):
                 context=j.lower()
+                context=reduction_wsid(context)
                 pass
 
     else:
@@ -75,10 +78,20 @@ def preProcessingTerm(term, context, contextFile):
             #print(termSearch.lower(),' | ', j[0].lower())
             if(termcheck.lower() == j[0].lower()):
                 context=j[1].lower()
+                context=reduction_wsid(context)
 
-
+    #print(context)
     #print(term, '|',termcheck,'|',termcheck2)
     return(termcheck, termcheck2,  context)
+
+def reduction_wsid(text_in):
+    out=''
+    spl=text_in.split(' ')
+    if(len(spl)>250):
+        out=''.join(spl[:250])
+    else:
+        out=text_in
+    return(out)
 
 # id creation
 def sctmid_creator():
@@ -278,7 +291,8 @@ def file_html(schema, pref, ide, lang):
         with open('schemas/file_html.json', 'w') as new:
             json.dump(file, new, indent=4,ensure_ascii=False)
     except json.decoder.JSONDecodeError:
-        print('JSONDecodeError')
+       error=''
+        #print('JSONDecodeError')
     
 
 
@@ -356,18 +370,23 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                             if(target==lang ):
                                 if(get[0]==''):
                                     dom_iat=domain_iate(dom, data, hed)
-                                    
-                                    if(len(dom_iat)):
-                                        for i in dom_iat:
+                                    if(len(get[2])):
+                                        for i in get[2]:
                                             definicion_wsid.append(i)
                                             ides_item.append(item)
                                             ides_wsid.append(ide_iate)
                                     else:
+                                        if(len(dom_iat)):
+                                            #for i in dom_iat:
+                                            definicion_wsid.append(dom_iat[0])
+                                            ides_item.append(item)
+                                            ides_wsid.append(ide_iate)
+                                    '''else:
                                         if(len(get[2])):
                                             for i in get[2]:
                                                 definicion_wsid.append(i)
                                                 ides_item.append(item)
-                                                ides_wsid.append(ide_iate)
+                                                ides_wsid.append(ide_iate)'''
                                 else:
                                     definicion_wsid.append(get[0])
                                     ides_item.append(item)
@@ -418,6 +437,7 @@ def domain_iate(item, data, hed):
     response = requests.get(url,  headers=hed)
     response2=response.json()
     its=response2['items']
+
     for i in range(len(its)):
         code=its[i]['code']
         name=its[i]['name']
@@ -492,7 +512,8 @@ def getInformationIate(target, item, leng,termSearch):
 
     
     defi=re.sub(r'<[^>]*?>', '', defi)
-    defi=defi.replace(',', '').replace('"', '').replace("'", '').replace(':', '').replace('.','').replace('(','').replace(')','')
+    defi=defi.replace(',', '').replace('"', '').replace("'", '').replace(':', '').replace('.','').replace('(','').replace(')','').replace('IATE','')
+    defi=re.sub(r'[0-9]', '', defi)
     return(defi,pref, syn)
 
 
@@ -685,7 +706,8 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
 
                 if(rels==1): #rels define si hara busqueda de relaciones o no 
                     outFile=relations_eurovoc(uriwsid, lang, namewsid,outFile, scheme)
-                
+    
+
     else:
         print('WSID NO')
 
@@ -693,7 +715,7 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
     return(outFile)
 
 def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
-    term='"'+termSearch+'"'
+    term='"'+termSearch+'$"'
     lang='"'+lang+'"'
     answer=[]
     answeruri=''
@@ -710,6 +732,7 @@ def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
           FILTER regex(?label, """+term+""", "i" )
           FILTER (lang(?label) = """+lang+""")
           FILTER (?p IN (skos:prefLabel, skos:altLabel ) )
+      
 
         }  
         }
@@ -722,9 +745,9 @@ def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
             for result in results["results"]["bindings"]:
                 answeruri=result["c"]["value"]
                 answerl=result["label"]["value"]
-                
+                print(termSearch, answerl)
                 if(termSearch.lower() == answerl.lower()):#ATENCION
-                    #print(termSearch, answerl)
+                    
                     defs=def_term_eurovoc(answeruri, lang)
                     answer.append([answeruri, answerl, defs])
                 else:
@@ -743,7 +766,70 @@ def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
                 
     except json.decoder.JSONDecodeError:
         answer=[]
-            
+    print('answer', answer, len(answer))   
+    #if(len(answer)<1):
+    #    answer=uri_term_eurovoc2(termSearch, lang)
+
+
+    return(answer)
+
+
+def uri_term_eurovoc2(termSearch, lang): #recoge la uri del termino a buscar
+    term='"'+termSearch+' (UE)"'
+    print(term)
+    lang='"'+lang+'"'
+    answer=[]
+    answeruri=''
+    val=''
+    try:
+        url = ("http://sparql.lynx-project.eu/")
+        query = """
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        SELECT ?c ?label
+        WHERE {
+        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+        ?c a skos:Concept .
+        ?c ?p ?label. 
+          FILTER regex(?label, """+term+""" )
+          FILTER (lang(?label) = """+lang+""")
+          FILTER (?p IN (skos:prefLabel, skos:altLabel ) )
+      
+
+        }  
+        }
+        """
+        r=requests.get(url, params={'format': 'json', 'query': query})
+        results=json.loads(r.text)
+        if (len(results["results"]["bindings"])==0):
+            answeruri=''
+        else:
+            for result in results["results"]["bindings"]:
+                answeruri=result["c"]["value"]
+                answerl=result["label"]["value"]
+                print(termSearch, answerl)
+                if(termSearch.lower() == answerl.lower()):#ATENCION
+                    
+                    defs=def_term_eurovoc(answeruri, lang)
+                    answer.append([answeruri, answerl, defs])
+                else:
+                    tok=answerl.split(' ')
+                    for i in tok:
+                        if('(' in i):
+                            tok.remove(i)
+                            tokt=term.split(' ')
+                            if(len(tok)==len(tokt)):
+                                defs=def_term_eurovoc(answeruri, lang)
+                                answer.append([answeruri, answerl, defs])
+                        elif(termSearch == i):
+                            defs=def_term_eurovoc(answeruri, lang)
+                            #print(answeruri, answerl, '|',defs)
+                            answer.append([answeruri, answerl, defs])
+                
+    except json.decoder.JSONDecodeError:
+        answer=[]
+    print('answer2', answer, len(answer))  
+  
+        
     return(answer)
 
 def def_term_eurovoc( uri,lang): #recoge la definicion de la uri de entrada
@@ -951,7 +1037,8 @@ def lexicala(lang, term, targets, context,  outFile, wsid, rels):
                 else:
                     print('WSID NO')
     except json.decoder.JSONDecodeError:
-        print('JSONDecodeError')
+        error=''
+        #print('JSONDecodeError')
     return(outFile)
 
 
@@ -1122,7 +1209,8 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
                                     lang_pr_wiki=bindings[i]['name']['xml:lang']
                                     outFile=property_add( definition_wiki, lang_pr_wiki, outFile, 'definition' , rels, "https://www.wikidata.org/wiki/"+maximo[1])
                     except json.decoder.JSONDecodeError:
-                        print('JSONDecodeError')
+                        error=''
+                        #print('JSONDecodeError')
                 target="', '".join(targets)
                 target="'"+target+"'"
                 query = altLabel_query.replace("WDTMID", maximo[1]).replace("TARGETS", target)
@@ -1136,7 +1224,7 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
                         lang_al_wiki=bindings[i]['altLabel']['xml:lang']
                         outFile=property_add( altLabel_wiki, lang_al_wiki, outFile, 'altLabel', rels, "https://www.wikidata.org/wiki/"+maximo[1])
                 
-                if(rels==1):
+                if(rels==5):
                     # Retrieve narrower and broader concepts
                     relation_type = ["narrower", "broader"]
                     
@@ -1171,7 +1259,8 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
                                             originalIde=outFile['@id']
                                             dataEurovoc=eurovoc_file(termSearch, ide, relation, 'https://www.wikidata.org/wiki/'+concept, lang, scheme,  originalIde)
                                 except json.decoder.JSONDecodeError:
-                                    print('JSONDecodeError')
+                                    error=''
+                                    #print('JSONDecodeError')
 
         else:
             print('WSID NO')
@@ -1244,22 +1333,35 @@ def wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrow
                                 dataEurovoc=eurovoc_file(termSearch, ide, relation, 'iduri', lang, scheme,  originalIde)
     return(outFile)
 
+def reduction_defs(list_in):
+    list_out=[]
+    for i in list_in:
+        spl=i.split(' ')
+        if(len(spl)>250):
+            list_out.append(''.join(spl[:250]))
+        else:
+            list_out.append(i)
+        #print(out)
+    return(list_out)
+
 def wsidFunction(termIn, context,   definitions):
-    print('----Entrando WSDI----')
+    
     defiMax=''
     idMax=''
     posMax=0
     code=0
 
     if(context):
-        context=context.lower()
+        context=context.lower().replace('\n', '')
         pesos=[]
         start=context.index(termIn)
         longTerm=len(termIn)
         end=context.index(termIn)+longTerm
-        listdef=definitions[0]
+        listdef=reduction_defs(definitions[0])
         listIde=definitions[1]
         definitionsJoin=', '.join(listdef)
+        print('---',definitionsJoin)
+        print('----Entrando WSDI----')
         response = requests.post('http://el-flask-88-staging.cloud.itandtel.at/api/disambiguate_demo',
                 params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitionsJoin}, 
                 headers ={'accept': 'application/json',
@@ -1270,7 +1372,7 @@ def wsidFunction(termIn, context,   definitions):
         print('CODE WSID',code)
         try:
             pesos=response.json()
-            #print(pesos)
+            print(pesos)
             max_item = max(pesos, key=int)
             posMax=pesos.index(max_item)
             if(len(listdef)>0 and (posMax)<len(listdef)):
