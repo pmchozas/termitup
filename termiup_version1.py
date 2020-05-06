@@ -349,7 +349,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                 leng=term[item]['language']
                 if(lang in leng):
                     if(termSearch[cont] == leng[lang]['term_entries'][0]['term_value']  ):
-                        #print('-se encontro iate-')
+                        print('-se encontro iate-')
                         bloq=1 # bandera de encontrado se enciende en 1
                         if(context==None):
                             context=getContextIate(item, leng, lang,termSearch[cont] )
@@ -399,11 +399,11 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                     maximo=wsidFunction(termSearch[cont],  context,   d)
                     #print(maximo)
                     if(maximo[2]!=200):
-                        #print('WSID NO 200')
+                        print('WSID NO 200')
                         closeMatch.append("https://iate.europa.eu/entry/result/"+str(ide_iate))
                     
                     elif(maximo[0]!='' and maximo[2]==200):
-                        #print('WSID 200')
+                        print('WSID 200')
                         wsidmax=maximo[1]
                         it=ides_item.index(wsidmax)
                         maxx=ides_wsid[it]
@@ -413,7 +413,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                         outFile=fillAltIate(outFile, results,  'altLabel', 3, wsidmax, rels, maxx)
                         outFile=fillDefinitionIate(outFile, results,  'definition', 1, wsidmax, maxx)
                 else:
-                    #print('WSID NO')
+                    print('WSID NO')
                     closeMatch.append("https://iate.europa.eu/entry/result/"+str(ide_iate))
                     
         cont=cont+1
@@ -656,7 +656,7 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
     if(wsid=='yes'):
         uri=uri_term_eurovoc(termSearch, lang)
         if(len(uri)):
-            #print('-se encontro eurovoc-')
+            print('-se encontro eurovoc-')
             find=1
             for i in uri:
                 urilist.append(i[0])
@@ -676,14 +676,14 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
             maximo=wsidFunction(termSearch, context,  d)
             #print(maximo)
             if(maximo[2]!=200):
-                #print('WSID NO 200')
+                print('WSID NO 200')
                 for i in uri:
                     closeMatch.append(i[0])
                     
 
                 
             elif(maximo[0]!='' and maximo[2]==200):
-                #print('WSID 200')
+                print('WSID 200')
                 maxx=defsnull.index(maximo[0])
                 namewsid=name[maxx]
                 uriwsid=maximo[1]
@@ -709,9 +709,7 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
     
 
     else:
-        wsid=no
-        #print('')
-        #print('WSID NO')
+        print('WSID NO')
 
         
     return(outFile)
@@ -1037,8 +1035,7 @@ def lexicala(lang, term, targets, context,  outFile, wsid, rels):
                         if(def_lex!=''):
                             outFile=property_add(def_lex, lang, outFile, 'definition', rels, "https://dictapi.lexicala.com/senses/"+maximo[1])
                 else:
-                    wsid='no'
-                    #print('WSID NO')
+                    print('WSID NO')
     except json.decoder.JSONDecodeError:
         error=''
         #print('JSONDecodeError')
@@ -1167,7 +1164,7 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
     data = r.json()
     
     if len(data['results']['bindings']) != 0:
-        #print('-se encontro wiki-')
+        print('-se encontro wiki-')
         bindings=data['results']['bindings']
         for i in range(len(bindings)):
             iduri.append(bindings[i]['item']['value'].split("/")[-1])
@@ -1183,12 +1180,12 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
             relations_retrieved = dict()
             
             if( maximo[2]!=200):
-                #print('WSID NO 200', iduri)
+                print('WSID NO 200', iduri)
                 closeMatch.append('https://www.wikidata.org/wiki/'+iduri[0])
                 #outFile=wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query, rels)
             
             elif(maximo[0]!='' and maximo[2]==200):
-                #print('WSID 200')
+                print('WSID 200')
                 tars=check_prefLabel(outFile, targets, rels)
                 if(len(tars)>0):
                     target="', '".join(tars)
@@ -1266,8 +1263,7 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
                                     #print('JSONDecodeError')
 
         else:
-            wsid='no'
-            #print('WSID NO')
+            print('WSID NO')
             #outFile=wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query, rels)
 
     return(outFile)
