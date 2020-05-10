@@ -329,7 +329,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
         response = requests.get(url, json=data, headers=hed)
         response2=response.json()
         js=json.dumps(response2)
-        #print(js)
+        print(js)
         results=[]
         termSearch=[]
         cont=0
@@ -1360,7 +1360,10 @@ def wsidFunction(termIn, context,   definitions):
         listdef=reduction_defs(definitions[0])
         listIde=definitions[1]
         definitionsJoin=', '.join(listdef)
-        #print('---',definitionsJoin)
+        print('CONTEXT---',context)
+        print('START---', start)
+        print('END---', end)
+        print('DEINITIONS---',definitionsJoin)
         print('----Entrando WSDI----')
         response = requests.post('http://el-flask-88-staging.cloud.itandtel.at/api/disambiguate_demo',
                 params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitionsJoin}, 
@@ -1370,6 +1373,17 @@ def wsidFunction(termIn, context,   definitions):
         )
         code=response.status_code
         print('CODE WSID',code)
+        print('response', response)
+        req = response.request
+
+        command = "curl -X {method} -H {headers} -d '{data}' '{uri}'"
+        method = req.method
+        uri = req.url
+        data = req.body
+        headers = ['"{0}: {1}"'.format(k, v) for k, v in req.headers.items()]
+        headers = " -H ".join(headers)
+        print(command.format(method=method, headers=headers, data=data, uri=uri))
+        
         try:
             pesos=response.json()
             print(pesos)
