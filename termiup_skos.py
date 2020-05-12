@@ -329,7 +329,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
         response = requests.get(url, json=data, headers=hed)
         response2=response.json()
         js=json.dumps(response2)
-        print(js)
+        #print(js)
         results=[]
         termSearch=[]
         cont=0
