@@ -959,10 +959,10 @@ def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde):
 
     #print(data) 
 
-    data=iate(termSearch, lang,targets, data, None, 'yes',0)
+    #data=iate(termSearch, lang,targets, data, None, 'yes',0)
     data=eurovoc(termSearch, lang, targets, None,  'yes', data, scheme, 0)
-    data=lexicala(lang, termSearch, targets, None,  data, 'yes', 0)
-    data=wikidata_retriever(termSearch, lang, None,  targets, data, 0, 'yes')
+    #data=lexicala(lang, termSearch, targets, None,  data, 'yes', 0)
+    #data=wikidata_retriever(termSearch, lang, None,  targets, data, 0, 'yes')
     del data['definition']
     if(len(data['prefLabel'])==0):
         data['prefLabel'].append({'@language':lang, '@value':termSearch})
