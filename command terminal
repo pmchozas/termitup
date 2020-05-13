@@ -1,0 +1,1 @@
+python3 termiup_skos.py --sourceFile hoja4c --lang es --targets "en de nl es" --contextFile 1stset.csv --wsid yes --schema "labour law"
