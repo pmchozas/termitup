@@ -2,9 +2,11 @@ import requests
 import globales
 import wsidCode 
 import extrafunctions
+import json
 
 url=globales.url
 headers=globales.headers
+find_wiki=globales.find_wiki
 
 def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
     if(context==None):

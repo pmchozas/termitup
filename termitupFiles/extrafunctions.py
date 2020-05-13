@@ -7,6 +7,9 @@ altLabel_full=globales.altLabel_full
 definition_full=globales.definition_full
 scheme=globales.scheme
 ide_file=globales.ide_file
+targets_relation=globales.targets_relation
+pref_relation=globales.pref_relation
+alt_relation=globales.alt_relation
 def check_prefLabel(outFile, targets, rels):
     targetsNull=[]
     prefLabel=outFile['prefLabel']
