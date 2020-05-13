@@ -12,7 +12,7 @@ related_full=[]
 pref_relation=[]
 alt_relation=[]
 targets_relation=[]
-lang_in=''
+
 find_iate=[]
 find_euro=[]
 find_lexi=[]
@@ -24,6 +24,6 @@ ide_file=''
 file_schema={}
 new_no_find=open('no_find.csv', 'w')
 no_find = csv.writer(new_no_find)
-name_file=''
-targets=[]
+
+targets=''
 lang=''

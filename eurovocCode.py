@@ -6,8 +6,6 @@ import re
 from unicodedata import normalize
 import wsidCode
 import extrafunctions
-
-
 #dict_domains=globales.dict_domains
 #find_iate=globales.find_iate
 find_euro=globales.find_euro
@@ -19,10 +17,12 @@ targets=globales.targets
 pref_relation=globales.pref_relation
 alt_relation=globales.alt_relation
 targets_relation=globales.targets_relation
-
+lang_in=''
 def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels):
     #print(outFile)
-
+    print(lang)
+    lang_in=lang
+    print('--', lang_in)
     defs=[]
     name=[]
     urilist=[]
@@ -317,14 +317,14 @@ def relations_eurovoc(uri, lang, term, outFile, scheme):
                     outFile[relation].append(ide)
                     originalIde=outFile['@id']
                     print(termSearch, uriRelation)
-                    dataEurovoc=eurovoc_file(termSearch, ide, relation, i[0], lang, scheme,  originalIde, uriRelation[0][0])
+                    dataEurovoc=eurovoc_file(termSearch, ide, relation, i[0], lang, scheme,  originalIde)
 
     #print(outFile)
     return(outFile)
 
 
 
-def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, uri):
+def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde):
     termSearch=termSearch.replace('/', ' ')
     print('-----', termSearch,'------')
     data={}
@@ -340,14 +340,11 @@ def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, u
     #print(data) 
 
     #data=iate(termSearch, lang,targets, data, None, 'yes',0)
-    #data=eurovoc(termSearch, lang, targets, None,  'yes', data, scheme, 0)
+    data=eurovoc(termSearch, lang, targets, None,  'yes', data, scheme, 0)
     #data=lexicala(lang, termSearch, targets, None,  data, 'yes', 0)
     #data=wikidata_retriever(termSearch, lang, None,  targets, data, 0, 'yes')
     #alt_ev=name_term_eurovoc(i[0],lang, 'altLabel')
     #defsnull.append(alt_ev)
-    print('targets', targets)
-    pref=name_term_eurovoc(uri,lang,'prefLabel')
-    
     
 
 

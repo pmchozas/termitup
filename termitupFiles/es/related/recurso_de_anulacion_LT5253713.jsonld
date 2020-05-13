@@ -1,0 +1,17 @@
+{
+    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+    "@type": "skos:Concept",
+    "@id": "LT5253713",
+    "inScheme": "labourlaw",
+    "exactMatch": "http://eurovoc.europa.eu/2940",
+    "prefLabel": [
+        {
+            "@language": "es",
+            "@value": "recurso de anulación"
+        }
+    ],
+    "topConceptOf": "http://lynx-project.eu/kos/labourlaw",
+    "related": [
+        "LT6281147"
+    ]
+}

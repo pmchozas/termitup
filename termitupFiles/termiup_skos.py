@@ -19,6 +19,9 @@ find_iate=globales.find_iate
 find_lexi=globales.find_lexi
 find_wiki=globales.find_wiki
 find_euro=globales.find_euro
+targets=globales.targets
+print(targets)
+
 
 #---------------------------------MAIN---------------------------------------------------------------
 
@@ -42,7 +45,7 @@ args=parser.parse_args()
 term=args.sourceTerm
 listTerm=args.sourceFile
 lang=args.lang
-targets=args.targets.split(' ')
+targetsargs=args.targets.split(' ')
 context=args.context
 contextFile=args.contextFile
 wsid=args.wsid
@@ -55,10 +58,13 @@ keywords=args.keywords
 
 raiz=os.getcwd()
 folder=os.listdir(raiz)
-
+for i in targetsargs:
+    targets.append(i)
 jsonFile.createRelationFolders(targets,folder,name_file)
 
 lang_in=lang
+
+print(targets)
 if(term):
     print('solo termino')
     name_file=''
@@ -78,10 +84,10 @@ if(term):
         #print(out)
         print('------IATE')
         outFile=iateCode.iate(termSearch, lang,targets, outFile, context, wsid,1)
-        print(outFile)
+        #print(outFile)
         print('------EUROVOC')
         outFile=eurovocCode.eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, 1)
-        print(outFile)
+        #print(outFile)
         print('------LEXICALA')
         outFile=lexicalaCode.lexicala(lang, termSearch, targets, context,  outFile, wsid, 1)
         print('------WIKI DATA')
@@ -96,7 +102,7 @@ if(term):
         newFile=lang+'/'+n+'_'+ide+'.jsonld'
         with open(newFile, 'w') as file:
             json.dump(outFile, file, indent=4,ensure_ascii=False)
-'''        
+        
 else:
     print('---------LISTA')
     name_file=''
@@ -160,5 +166,5 @@ else:
 
     with open(name, 'w') as new:
         json.dump(file_schema, new, indent=4,ensure_ascii=False)
-    '''
+ 
 
