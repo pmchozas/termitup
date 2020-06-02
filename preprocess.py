@@ -22,6 +22,22 @@ tagger='/Users/karenvazquez/Downloads/stanford-postagger-full-2018-10-16/spanish
 jar1='/Users/karenvazquez/Downloads/stanford-postagger-full-2018-10-16/models/standford-postagger.jar'
 es_stemmer = SnowballStemmer('spanish')
 
+# 0 clean punctuation and stopwords
+def clean_terms(termlist):
+    stop=stopwords.words('spanish')
+    file=open('stop-esp.txt', 'r', encoding='utf-8')
+    mystop=file.readlines()
+    clean_list = []
+    for i in mystop:
+        stop.append(i.strip())
+    
+    for i in termlist:
+        k=i.strip(',.:')
+        if k not in stop:
+            clean_list.append(k)
+    return(clean_list)
+
+
 # 1 añotador
 def annotate_timex(text, date, lang):
     url = 'http://annotador.oeg-upm.net/annotate'  
@@ -289,12 +305,16 @@ def readFile(read):
 
 #-------MAIN-------#
 
-file=open('estatutotermscoling.txt', 'r', encoding='utf-8')
+file=open('estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
 read=file.readlines()
 text=readFile(read)
 date='2020-05-26'
 lang='ES'
 #print(text)
+termlist=text.split('| ')
+clean_text=clean_terms(termlist)
+#la función clean_terms devuelve una lista limpia de términos
+#qué se le pasa a la función anotador?
 textanotador=annotate_timex(text, date, lang)
 list_anotador=textanotador.split('|')
 for i in list_anotador:
