@@ -12,8 +12,8 @@ from nltk.tag import StanfordPOSTagger
 import re
 import requests
 import spacy
-
-nlp = spacy.load('es_core_news_sm')
+from nltk.corpus import stopwords
+#nlp = spacy.load('es_core_news_sm')
 
 
 java_path = "../Java/jdk1.8.0_131/bin/java.exe"
@@ -313,9 +313,11 @@ lang='ES'
 #print(text)
 termlist=text.split('| ')
 clean_text=clean_terms(termlist)
+join_clean_text='| '.join(clean_text)
+#print(join_clean_text)
 #la función clean_terms devuelve una lista limpia de términos
 #qué se le pasa a la función anotador?
-textanotador=annotate_timex(text, date, lang)
+textanotador=annotate_timex(join_clean_text, date, lang)
 list_anotador=textanotador.split('|')
 for i in list_anotador:
 	if('<' in i ):
