@@ -1,0 +1,2023 @@
+293	trabajadores
+255	artículo
+222	empresa
+165	trabajador
+153	contrato
+147	periodo
+138	derecho
+121	empresario
+117	duración
+109	contratos
+104	caso,
+99	convenio
+96	convenios
+95	representantes
+93	ámbito
+90	ley
+84	caso
+83	laboral
+83	jornada
+76	aplicación
+75	plazo
+73	trabajo,
+72	comisión
+72	colectivo
+70	autoridad
+69	disposición
+69	establecido
+67	condiciones
+67	trabajadores,
+67	apartado
+67	procedimiento
+67	número
+66	efectos
+66	colectivos
+62	formación
+62	legales
+61	perjuicio
+61	dispuesto
+58	seguridad
+58	centro
+57	refiere
+56	convenios colectivos
+56	convenio colectivo
+56	decisión
+55	empresas
+55	suspensión
+54	empresa,
+54	máximo
+54	representación
+52	despido
+52	fecha
+51	conforme
+51	año
+50	salario
+50	empresa.
+49	profesional
+49	actividad
+48	autoridad laboral
+47	trabajo.
+47	causas
+47	términos
+46	representantes legales
+46	medidas
+46	siguientes
+46	comité
+45	consultas
+45	superior
+43	extinción
+43	carácter
+43	supuestos
+43	previsto
+43	centros
+43	derechos
+42	puesto
+42	meses
+41	ciento
+41	negociación
+40	deberán
+40	social
+40	miembros
+40	adopción
+39	legal
+39	trabajadores.
+38	persona
+38	diez
+37	dicha
+37	periodo de consultas
+37	párrafo
+36	partes
+36	personas
+36	que,
+36	fines
+36	inferior
+34	forma
+34	ejercicio
+34	periodos
+34	semanas
+34	dirección
+34	adopción,
+34	servicios
+33	personal
+33	guarda
+33	relación
+32	previstos
+32	comunicación
+32	realización
+31	parcial
+31	dichos
+31	servicio
+31	disposiciones
+31	y,
+31	delegados
+31	quince
+31	disposición adicional
+30	trabajador,
+30	oficina
+30	empresariales
+29	mínimo
+29	prestación
+29	comité de empresa
+28	social.
+28	fines de adopción
+28	objeto
+28	treinta
+27	normas
+27	correspondiente
+27	doce
+27	afectados
+27	pública
+27	constitución
+27	materia
+27	laboral,
+27	social,
+26	entenderá
+26	acuerdos
+26	situación
+26	procedimientos
+26	obligaciones
+26	jurisdicción
+26	años
+25	casos
+25	resolución
+25	texto
+25	cincuenta
+24	disfrute
+24	desarrollo
+24	sindicales
+24	consulta
+24	información
+24	colectiva
+24	inicio
+24	oficina pública
+24	escrito
+24	nacimiento,
+24	tales
+24	organizaciones
+24	organizativas
+24	Fondo
+24	funciones
+24	garantía
+24	indemnización
+23	anterior,
+23	representativa
+23	empresarial
+23	reducción
+22	conformidad
+22	defecto,
+22	electoral
+22	Sección
+22	grupo
+22	previstas
+22	cumplimiento
+22	copia
+22	mesa
+22	artículos
+22	trabajadora
+22	razones
+22	personal,
+22	establecer
+21	transcurrido
+21	dichas
+21	igualdad
+21	establecidos
+21	puestos
+21	promoción
+21	texto refundido
+21	sindicatos
+21	trabajadoras
+21	salarios
+21	traslado
+21	condición
+20	régimen
+20	negociar
+20	cómputo
+20	acciones
+20	mayoría
+20	previo
+20	máxima
+20	real
+20	protección
+20	riesgo
+20	adopción, guarda
+20	proceso
+20	elecciones
+20	apartados
+20	complementarias
+20	oficina pública dependiente
+20	sistema
+20	orden
+19	asociaciones empresariales
+19	público
+19	disposición transitoria
+19	plazo máximo
+19	pacto
+19	Seguridad Social
+19	edad
+19	comisión representativa
+19	temporales
+19	persona trabajadora
+18	acogimiento,
+18	estatal
+18	Asimismo,
+18	negociación colectiva
+18	comunicar
+18	razón
+18	falta
+18	cargo
+18	empresario,
+18	determinada
+18	título
+18	registro
+18	excedencia
+18	judicial
+17	empresarios
+17	Fondo de Garantía
+17	nivel
+17	número de trabajadores
+17	salarial
+17	económica
+17	movilidad
+17	cuenten
+17	periodo de suspensión
+17	descanso
+17	colectivo,
+17	incapacidad
+16	créditos
+16	puedan
+16	modificación
+16	días,
+16	tramitación
+16	comunidad
+16	celebrados
+16	consideración
+16	nacional
+16	Seguridad Social,
+16	exceder
+16	correspondientes
+16	centro de trabajo,
+16	progenitor
+16	nacimiento, adopción,
+16	prevista
+16	efectos,
+16	jubilación
+15	considerará
+15	veinte
+15	produzcan
+15	suspensión del contrato
+15	personas trabajadoras
+15	requisitos
+15	establecidas
+15	modificaciones
+15	igualmente
+15	organizaciones sindicales
+15	cualquiera
+15	criterios
+15	entiende
+15	pago
+15	meses,
+15	contratos temporales
+15	acta
+15	contrato,
+15	Administraciones
+15	colectivo.
+15	existencia
+15	laborales
+14	preaviso
+14	formación profesional
+14	comités
+14	compensación
+14	consultas,
+14	reducción de jornada
+14	capacidad
+14	ley.
+14	mujeres
+14	empresario.
+14	duración determinada
+14	antigüedad
+14	actividades
+14	causa
+14	comisión negociadora
+14	directa
+14	intervención
+14	empleo.
+14	cuantía
+14	legalmente
+14	anteriores
+14	prestaciones
+14	ley,
+14	señalados
+14	madre
+14	individual
+14	Seguridad Social.
+14	extraordinarias
+14	días.
+14	dieciocho
+14	contrato.
+14	discrepancias
+13	permiso
+13	periodo de consultas,
+13	trabajadores afectados
+13	salud
+13	retribución
+13	base
+13	autónoma
+13	normativa
+13	órgano
+13	medios
+13	miembros del comité
+13	asistencia
+13	vigor
+13	mismo.
+13	trabajos
+13	previa
+13	modalidad
+13	nacimiento, adopción, guarda
+13	menores
+13	obstante,
+13	abono
+13	quedará
+13	económicas, técnicas, organizativas
+13	laboral.
+13	lactancia
+13	octubre,
+13	contenido
+13	función
+13	sector
+12	antelación
+12	efectivo
+12	organización
+12	ausencia
+12	vigencia
+12	modalidades
+12	refieren
+12	efectiva
+12	organismos
+12	procedimiento.
+12	discapacidad
+12	ordinaria
+12	acción
+12	mínima
+12	prevención
+12	prueba
+12	cedente
+12	aprendizaje
+12	reglamentariamente
+12	temporal
+12	Gobierno
+12	arbitral
+12	trabajador.
+12	regulación
+12	reconocidos
+12	disminución
+12	concurren
+12	ejecución
+12	finalización
+12	convenio colectivo,
+12	normal
+12	obligado
+12	delegados de personal
+11	escrito.
+11	favorecer
+11	produzcan cambios,
+11	virtud
+11	colectivos.
+11	reglas
+11	prácticas
+11	inmediatamente
+11	celebrado
+11	adaptación
+11	integrada
+11	públicas
+11	sistemas
+11	otros,
+11	decisiones
+11	requerirá
+11	trate
+11	establezcan
+11	representante
+11	obligación
+11	límites
+11	establezca
+11	lista
+11	reclamar
+11	menos,
+11	cabo
+11	madre biológica
+11	indemnizaciones
+11	comunidad autónoma
+11	mínimo,
+11	establecerse
+11	cuidado
+11	deber
+11	relevo
+11	Ley Orgánica
+11	duración máxima
+11	funcional
+11	efecto
+11	órganos
+11	ámbito estatal
+11	corresponderá
+11	apartado anterior,
+11	año,
+11	apertura
+11	jurisdicción social.
+11	incluidos
+10	considerarán
+10	proporcional
+10	dará
+10	salario mínimo
+10	disposiciones legales
+10	conflicto
+10	completo
+10	riesgos
+10	meses.
+10	obra
+10	contratación
+10	realizadas
+10	presente
+10	autoridad laboral,
+10	jurisdicción social
+10	empleo,
+10	partes.
+10	sanciones
+10	jurídica
+10	violencia
+10	profesionales
+10	reglamentarias
+10	dieciséis
+10	embarazo
+10	votación
+10	motivos
+10	posterioridad
+10	puesto de trabajo,
+10	anterioridad
+10	profesional,
+10	consecuencia
+10	Real Decreto-ley
+10	casos,
+10	años,
+10	afecten
+10	convenio colectivo.
+10	afectado
+10	decisión extintiva
+10	marzo,
+10	laborales,
+10	distribución
+10	ordinarias
+10	fuerza
+10	producción
+10	naturaleza
+10	proporción
+10	facilitar
+10	informe
+10	solución
+10	afectados.
+10	límite
+10	anterior.
+10	informado
+10	corresponda
+10	entidades
+10	ocupen
+10	pudiendo
+10	grupo profesional
+10	importe
+9	quince días.
+9	productivas
+9	procederá
+9	personal.
+9	parcial,
+9	semanas,
+9	doce meses
+9	reunión
+9	delegados de personal,
+9	entrada
+9	permisos
+9	conciliación
+9	víctimas
+9	hora
+9	legislación
+9	suficiente
+9	vinculados
+9	resultado
+9	totalidad
+9	partes,
+9	consultas.
+9	siguientes reglas:
+9	copia básica
+9	faltas
+9	clasificación
+9	cambio
+9	libertad
+9	párrafo anterior,
+9	públicos
+9	informar
+9	derivadas
+9	términos previstos
+9	letra
+9	restantes
+9	parto
+9	resultados
+9	menor
+9	afecte
+9	equivalente
+9	CAPÍTULO
+9	incumplimiento
+9	sentencia
+9	apartado,
+9	conocimiento
+9	comunidades
+9	incluido
+9	debidamente
+9	correspondiente.
+9	comités de empresa
+9	veinticuatro
+9	fiestas
+9	aplicable
+9	celebrar
+9	ejerzan
+9	escrito,
+9	prevención de riesgos
+9	cien
+9	causas económicas, técnicas,
+9	disfrutar
+9	enero
+9	años.
+9	mesa electoral
+9	nocturno
+9	convenios colectivos.
+9	señalado
+9	parto,
+9	permanencia
+9	entidad
+9	grado
+9	despido colectivo
+8	género
+8	candidatos
+8	embarazo,
+8	año de servicio
+8	mismo,
+8	resolución judicial
+8	sectorial
+8	persistente
+8	colectivos,
+8	pudiera
+8	ingresos
+8	artículo.
+8	acordar
+8	solicitud
+8	funcionamiento
+8	finalice
+8	noventa
+8	expresamente
+8	alta
+8	distancia
+8	garantías
+8	contrato de relevo
+8	sustanciales
+8	Comisión Consultiva Nacional
+8	constar
+8	hombres
+8	legitimados
+8	constituida
+8	extinción del contrato
+8	conjunto
+8	acogimiento
+8	octubre, reguladora
+8	determinará
+8	desempleo
+8	laudo
+8	contratados
+8	fijará
+8	Ministerio
+8	trabajen
+8	distinta
+8	laborales.
+8	reclamación
+8	cuya
+8	denuncia
+8	reserva
+8	representación legal
+8	respectivos
+8	Administraciones Públicas
+8	defecto
+8	presidente
+8	pactado
+8	cesionario
+8	Garantía Salarial
+8	determinar
+8	distintos
+8	puesto de trabajo.
+8	administrativa
+8	materias
+8	regulados
+8	preferencia
+8	decisión empresarial
+8	Nacional de Convenios
+8	referidas
+8	concurren causas
+8	voto
+8	realice
+8	arbitraje
+8	solicitado
+8	negativa
+7	comunicación,
+7	resto
+7	sexo
+7	principio
+7	previsiones
+7	despidos
+7	unidad
+7	cláusulas
+7	económicas
+7	trato
+7	violencia de género
+7	representante legal
+7	finalizar
+7	mejora
+7	plazos
+7	control
+7	acredite
+7	contrato de trabajo,
+7	proceso electoral
+7	términos establecidos
+7	cumpla
+7	autoridad laboral.
+7	horas.
+7	natural
+7	contratos de duración
+7	disponer
+7	situaciones
+7	limitar
+7	presumirá
+7	II
+7	simultáneo
+7	instancia
+7	indefinido
+7	circunstancias
+7	periodos de suspensión
+7	contratos temporales celebrados
+7	julio,
+7	distinto
+7	antelación mínima
+7	relaciones
+7	oportunidades
+7	hijo
+7	distintas
+7	periodo de consultas.
+7	electoral.
+7	reducir
+7	intimidad
+7	doscientos
+7	cincuenta trabajadores,
+7	contar
+7	presten
+7	contratista
+7	deberes
+7	certificado
+7	10 de octubre,
+7	familia
+7	prestación de servicios
+7	cantidad
+7	Real Decreto
+7	celebración
+7	contratado
+7	interés
+7	determinados
+7	ininterrumpida
+7	36/2011, de 10
+7	iniciar
+7	aplicación,
+7	proceda
+7	datos
+7	continuada
+7	convenio.
+7	árbitro
+7	concurran
+7	constituirá
+7	aquella.
+7	letras
+7	transmisión
+7	mediación
+7	partes deberán
+7	única
+7	interlocutores
+7	oportunas
+7	electorales
+7	electores
+7	exista
+7	representativos
+7	quedar
+7	salarial.
+7	acceso
+7	propuesta
+7	registro,
+7	tipo
+7	amparo
+7	menores de dieciocho
+7	arreglo
+7	solicitar
+7	actas
+7	transcurso
+7	notificación
+7	nueve
+7	eficacia
+7	vacaciones
+7	discriminación
+7	trece
+7	periodo de prueba
+7	familiar
+7	medidas urgentes
+7	diciembre,
+7	modificaciones sustanciales
+7	vacante
+7	prioridad
+7	actos
+7	competente
+6	voluntaria
+6	modelo
+6	acogimiento.
+6	periodo de prueba,
+6	fijos-discontinuos
+6	marco
+6	componentes
+6	consanguinidad
+6	relativas
+6	cuarenta
+6	impugnación
+6	disfrutarse
+6	directo
+6	legitimación
+6	nocturnos
+6	rango
+6	planes
+6	incluyendo
+6	discapacidad.
+6	incluir
+6	temporal,
+6	sectoriales
+6	hábiles
+6	disponga
+6	conversión
+6	quince días,
+6	inferiores
+6	hará
+6	mandato
+6	orientación
+6	máximo de trece
+6	trescientos trabajadores.
+6	decisión administrativa
+6	profesional.
+6	existir
+6	ingresos ordinarios
+6	posteriores
+6	generales
+6	sujetos
+6	delegado
+6	extraordinarias.
+6	efecto.
+6	independencia
+6	presentado
+6	12 de febrero
+6	servicio,
+6	válidamente
+6	párrafos
+6	insolvencia
+6	individuales
+6	progenitor,
+6	artículo,
+6	comunicará
+6	técnicas
+6	administrativa de guarda
+6	percepciones
+6	nivel de ingresos
+6	año de servicio,
+6	transmisión.
+6	mayores
+6	electoral,
+6	desempeñe
+6	acto
+6	regirá
+6	recibo
+6	llevará
+6	domicilio
+6	mesa,
+6	origen
+6	vinculadas
+6	contrario,
+6	cualificación
+6	fines de adopción,
+6	salariales
+6	acuerdos interprofesionales
+6	tratamiento
+6	conflictos
+6	obligada
+6	febrero
+6	Estatuto
+6	anual
+6	público,
+6	igualdad de trato
+6	previa consulta
+6	ampliación
+6	acordado
+6	categoría
+6	obligatoria
+6	noviembre,
+6	especial
+6	realizarse
+6	comienzo
+6	relación laboral
+6	afectar
+6	fijado
+6	setenta
+6	territorial
+6	jornada completa
+6	especiales
+6	Código
+6	expediente
+6	progenitores
+6	cantidades
+6	general,
+6	Real Decreto Legislativo
+6	elección
+6	inferior,
+6	necesarios
+6	efecto,
+6	garantizar
+6	prueba,
+6	duración del contrato
+6	específicas
+6	expresa
+6	servicios.
+6	recibir
+6	incluidas
+6	territorio
+6	referida
+6	asamblea
+6	respeto
+6	notificada
+6	mínima de quince
+6	entidad gestora
+6	inaplicación
+6	cambios
+6	producirá
+6	anteriormente
+6	plan
+6	abuso
+6	contrario
+6	contratistas
+6	posibilidad
+6	debiendo
+6	relacionados
+6	junio
+6	pactadas
+6	carácter previo
+6	sectores
+6	centros de trabajo,
+6	ajustará
+6	desempleo.
+6	contratos,
+6	necesaria
+6	negociación colectiva,
+6	necesidades
+6	prorrateándose
+6	obtención
+6	modificación sustancial
+6	duración superior
+6	indicados
+6	trimestre
+6	cuestiones
+6	constituye
+6	adopción, acogimiento, riesgo
+6	medida
+6	vigente
+6	Real Decreto-ley 6/2019,
+6	interpretación
+6	trate.
+6	convenios colectivos,
+6	posterior
+6	doscientos cincuenta
+6	atención
+5	semanales
+5	remuneración
+5	extinciones
+5	ejerza
+5	estabilidad
+5	situación de excedencia
+5	tramitación.
+5	presencia
+5	surtirá efectos
+5	fijos
+5	siguientes:
+5	jornada diaria
+5	contingencias
+5	aspectos
+5	indirecta,
+5	concurrencia
+5	deban
+5	indicación
+5	improcedente
+5	alcanzar
+5	legales,
+5	discriminación,
+5	vistas
+5	exigir
+5	establecida,
+5	enfermedad
+5	comité de empresa,
+5	comunicación empresarial
+5	competencia
+5	impedirá
+5	pudieran
+5	sociales
+5	sexo.
+5	noviembre, de Prevención
+5	tablones
+5	cobertura
+5	colocación
+5	regular
+5	apertura del periodo
+5	desempeño
+5	declare
+5	colectivo de ámbito
+5	productiva
+5	árbitros
+5	posesión
+5	situación económica
+5	directamente
+5	alcanzado
+5	sucesión
+5	sustituir
+5	agosto,
+5	efectuar
+5	laudo arbitral
+5	simultáneamente
+5	deber de negociar
+5	vida
+5	consultas, las partes
+5	producción.
+5	negociación.
+5	aprobado
+5	veinticinco
+5	objetivas,
+5	pactarse
+5	obtenido
+5	primera.
+5	discrepancias surgidas
+5	someter
+5	fijo
+5	establece
+5	informes
+5	actuación
+5	sustancial de condiciones
+5	celebrarse
+5	técnicos
+5	jornada completa,
+5	afectados,
+5	setecientos
+5	falta de constitución
+5	Asimismo
+5	fe,
+5	ininterrumpida inmediatamente
+5	delegados de personal.
+5	reunirse
+5	censo
+5	acuerdo.
+5	regulado
+5	actuaciones
+5	establezcan.
+5	sometimiento
+5	procedimiento de consultas
+5	respectivamente,
+5	ámbito inferior,
+5	representen
+5	cotización
+5	formalizará
+5	usos
+5	partes deberán negociar
+5	acoso
+5	representativas,
+5	documento
+5	documentación
+5	víctimas de violencia
+5	intención
+5	libre,
+5	adoptado
+5	resulte
+5	comunicándolo
+5	febrero de 2012
+5	aplicarán
+5	establecida
+5	clasificación profesional
+5	computará
+5	fijada
+5	colaboración
+5	Garantía Salarial,
+5	efectuarse
+5	colectivos de ámbito
+5	declaración
+5	acuerdo,
+5	cumplido
+5	comunicado
+5	sigilo
+5	anual.
+5	fehaciente
+5	plazo de quince
+5	procedimiento arbitral
+5	desarrollo.
+5	resultase
+5	graves
+5	salario,
+5	cuente
+5	abuso de derecho
+5	dieciséis semanas
+5	semanal
+5	producción,
+5	transitorias
+5	voluntario
+5	concreción
+5	turnos
+5	común
+5	concierte
+5	participación
+5	institución
+5	mesa.
+5	específica
+5	favor
+5	aplicación.
+5	empresarios,
+5	comisión paritaria
+5	estudios
+5	grupos
+5	correspondan
+5	incremento
+5	cuando,
+5	umbrales
+5	sustitución
+5	Ley del Estatuto
+5	solidariamente
+5	establecimiento
+5	despido.
+5	abonar
+5	aplicables
+5	optar
+5	relacionadas
+5	opción
+5	diez semanas
+5	ausencia de discriminación,
+5	profesionales.
+5	ámbito territorial
+5	contrato de trabajo.
+5	votos
+5	insuficiencia
+5	intención de iniciar
+5	discapacidad,
+5	actividad,
+5	efectuará
+5	miembro
+5	computarán
+5	crédito
+5	Riesgos Laborales,
+5	dará traslado
+5	trabajadores del centro
+5	facultades
+5	ejercitar
+5	meses siguientes
+5	concertarse
+5	nulo
+5	discriminación, tanto directa
+5	ellos,
+5	consecución
+5	establecerá
+5	ámbito sectorial
+5	volumen
+5	incapacidad temporal,
+5	inherentes
+5	cumplan
+5	jornada ordinaria
+5	plantilla
+5	listas
+5	temporal.
+5	personales
+5	económica,
+5	anteriores,
+5	principios
+5	consultas corresponderá
+5	terminación
+5	término
+5	determine
+5	elegidos
+5	salario mínimo interprofesional
+4	adecuado
+4	plazo de preaviso
+4	declarado
+4	redacción
+4	disposiciones transitorias
+4	anuncios.
+4	doble
+4	sujetos indicados
+4	mismos.
+4	plazo,
+4	acreditación
+4	turnos.
+4	siguiente,
+4	justifiquen
+4	pertenecientes
+4	legitimadas
+4	a),
+4	convencionalmente
+4	registros
+4	frente
+4	paternidad
+4	trabajadores siempre que,
+4	trabajadores nocturnos
+4	interprofesionales de ámbito
+4	España
+4	contrataciones
+4	calendario
+4	resolver
+4	graves,
+4	número máximo
+4	presupuestaria
+4	consecuencias
+4	extraordinarias,
+4	promover
+4	hombres.
+4	mercado.
+4	comunicarse
+4	celebren
+4	especialmente
+4	declarará
+4	apartados anteriores
+4	sanción
+4	estime
+4	procedente
+4	mantendrá
+4	denegación
+4	caso de nacimiento,
+4	periodo.
+4	designación
+4	inicio del periodo
+4	personalidad jurídica
+4	acta,
+4	evolución
+4	sometido
+4	grave
+4	trabajador afectado
+4	sustitución del periodo
+4	satisfecha
+4	sustituido
+4	comportará,
+4	ámbito sectorial estatal
+4	religión
+4	especialidades
+4	quinientos
+4	proceso electoral,
+4	actividad laboral
+4	siguiente:
+4	atenuar
+4	razones fundadas
+4	traslados
+4	salario mínimo interprofesional,
+4	institución de garantía
+4	suspensión,
+4	reincorporación
+4	ascensos
+4	contractual
+4	improcedente.
+4	estructura
+4	compensación económica
+4	contratación,
+4	máxima del contrato
+4	casos, representen
+4	efectivo,
+4	jubilación ordinaria
+4	este,
+4	trabajadores afectados,
+4	bien,
+4	plantilla.
+4	convocatoria
+4	inicial
+4	fecha de inicio
+4	peculiaridades
+4	dirigido
+4	laborables
+4	cubrir.
+4	representativas
+4	ejercicio simultáneo
+4	cálculo
+4	cabrá
+4	condiciones señalados
+4	doce semanas
+4	ellos.
+4	revisión
+4	étnico,
+4	objetivas, debidamente motivadas
+4	instrumentos
+4	realizados
+4	métodos
+4	automáticamente
+4	relación laboral,
+4	iniciará
+4	periodo de referencia
+4	arbitraje,
+4	evitar
+4	extensión
+4	unidad productiva
+4	determinen.
+4	presidente,
+4	inmediatamente posteriores
+4	comisión representativa,
+4	duración.
+4	vigilancia
+4	horario
+4	párrafo del artículo
+4	identidad
+4	mensualidades.
+4	gastos
+4	dignidad
+4	reducciones
+4	adoptar
+4	impugnado
+4	relativa
+4	paralización
+4	supuestos previstos
+4	figurar
+4	leyes
+4	nueve meses.
+4	negociadora estará integrada
+4	inserción
+4	racial
+4	máximo,
+4	procedimiento de despido
+4	procedimiento de mediación
+4	voluntad
+4	obligatorio
+4	candidato
+4	diario,
+4	presentación
+4	permita
+4	cualesquiera
+4	empresas,
+4	iniciación
+4	convenios colectivos sectoriales
+4	requerida
+4	procedimiento establecido
+4	continuidad
+4	plazo máximo señalado
+4	lunes
+4	puesta
+4	contenidas
+4	encadenamiento
+4	aquel.
+4	administrativas
+4	dispondrá
+4	seno
+4	readmisión,
+4	transcurso del periodo
+4	curso
+4	encuentre
+4	organizaciones empresariales
+4	adecuada
+4	imposibilidad
+4	trabajadores menores
+4	compartan
+4	permanente
+4	den
+4	comunidades autónomas
+4	representen.
+4	pondrá
+4	hechos
+4	reconocidas
+4	prioridad de permanencia
+4	perjuicio del derecho
+4	dirigidas
+4	desplazamientos
+4	certificaciones
+4	lactante
+4	citado
+4	referida comunicación,
+4	sindicato
+4	Garantía Salarial.
+4	parto.
+4	negociadora, si bien,
+4	indefinida
+4	computándose
+4	incluida
+4	paralizará
+4	setecientos cincuenta
+4	doble del salario
+4	bien, de existir
+4	acceder
+4	expiración
+4	año.
+4	servicio público
+4	personal laboral
+4	responsabilidad
+4	pendientes
+4	cuotas
+4	trabajo, quedará circunscrita
+4	previstas,
+4	plena
+4	readmisión
+4	superior,
+4	ostenten
+4	despidos colectivos
+4	responsabilidades
+4	relaciones laborales
+4	adoptante, guardador
+4	familiares,
+4	pluralidad de empresas
+4	edad de jubilación
+4	exceda
+4	producido
+4	designar
+4	lactancia natural
+4	reúnan
+4	suscritos
+4	horas,
+4	estos,
+4	secciones sindicales
+4	disfrutando
+4	convicciones,
+4	elección,
+4	obras
+4	prestación laboral
+4	aprendizaje.
+4	Inspección
+4	haberse
+4	exigencias
+4	cómputo del número
+4	caducidad
+4	derecho trabajen
+4	concurran causas
+4	cincuenta trabajadores
+4	proporcional del salario
+4	empresario está obligado
+4	asistencia social
+4	acciones individuales
+4	subcontratista
+4	trabajadores afectados.
+4	dieciocho años
+4	trabajadores podrán acordar
+4	promotores
+4	excepción
+4	proclamación
+4	afinidad,
+4	sufragio
+4	gozarán
+4	hospitalización
+4	párrafos anteriores
+4	fijados
+4	relativos
+4	Cualificaciones
+4	jornada,
+4	situaciones de incapacidad
+4	trimestres
+4	forma ininterrumpida
+4	efectividad
+4	autonómico,
+4	misma,
+4	quedar constituida
+4	concurren causas económicas
+4	trece miembros
+4	retribuciones
+4	demanda
+4	características
+4	bienes
+4	única comisión negociadora,
+4	forma continuada
+4	utilización
+4	sociedad
+4	determinado
+4	referencia
+4	accidente
+4	existan
+4	petición
+4	realicen
+4	finalización del periodo
+4	capacidad representativa
+4	improcedencia
+4	movilidad funcional
+4	vigentes
+4	duración mínima
+4	sexta
+4	convenios colectivos regulados
+4	informaciones
+4	cómputo anual,
+4	desarrollarse
+4	derechos reconocidos
+4	sesenta
+4	pluralidad
+4	formativas
+4	producirse
+4	prescribirán
+4	reconocida
+4	salario.
+4	absoluta
+4	disminución proporcional
+4	horaria
+4	Gobierno,
+4	derecho,
+4	expedientes
+4	proceder
+4	número inferior
+4	fraude, dolo, coacción
+4	acumulación
+4	centros afectados
+4	como,
+4	jornada máxima
+4	complementos
+4	preceptos
+4	voluntarias
+4	entes, organismos
+4	contratos celebrados
+4	cuyos
+4	III
+4	judiciales
+4	deba
+4	consultado
+4	interposición
+4	edad,
+4	presten servicios
+4	semanas de disfrute
+4	empresa principal
+4	consultas finalice
+3	partes negociadoras
+3	contrata.
+3	periodo de descanso
+3	parcial.
+3	temporal, nacimiento, adopción,
+3	podrá,
+3	año anterior.
+3	ineptitud
+3	período
+3	subcontratistas
+3	realizará
+3	atribuir
+3	ámbito nacional
+3	marzo, de medidas
+3	año de excedencia
+3	compartan de forma
+3	conclusión.
+3	sistema de clasificación
+3	adscrito
+3	e),
+3	tendrán,
+3	sentencia declarará
+3	vigencia,
+3	cumplir
+3	obtener
+3	siguientes supuestos:
+3	sucesivos de noventa
+3	mercado
+3	individual,
+3	materia de protección
+3	resolución.
+3	regirán
+3	compromisos
+3	anuncios
+3	concertados
+3	laborales de carácter
+3	embarazo, riesgo
+3	tercio
+3	habitualmente
+3	imposibilite
+3	parcialmente
+3	trimestres consecutivos
+3	ocupación
+3	julio, de medidas
+3	individual.
+3	pendientes de pago
+3	disciplinario.
+3	ejercer
+3	situación económica negativa,
+3	temporales,
+3	semanas voluntarias
+3	colectiva.
+3	extinción afecte
+3	alta dirección
+3	fomento
+3	interventores
+3	fecha,
+3	objeto del contrato.
+3	dada
+3	periodos sucesivos
+3	plazo de diez
+3	interposición del conflicto
+3	efectos de registro,
+3	procedan.
+3	mitad
+3	representación.
+3	retribuciones,
+3	condiciones de trabajo,
+3	exceso
+3	superar
+3	periodo de vacaciones
+3	excedencia del trabajador
+3	parientes
+3	resultante
+3	sustituye.
+3	presente apartado
+3	diaria,
+3	modalidad contractual
+3	terrorismo
+3	nulos
+3	interrumpirán
+3	contempladas
+3	prestar sus servicios
+3	formas
+3	semanal,
+3	sujeto causante,
+3	formalizarse
+3	régimen de jornada
+3	instrumentos de producción;
+3	previas
+3	complementarias,
+3	efectos del cómputo
+3	suspenderá
+3	extinciones de contratos
+3	trabajadoras tienen derecho
+3	necesariamente
+3	razón de sexo.
+3	despidos.
+3	concurso,
+3	disminución persistente
+3	inmediato
+3	comprenderá
+3	mayores de dieciséis
+3	autoridad laboral dará
+3	jubilación.
+3	interesado,
+3	estatal,
+3	expedición
+3	conjunto,
+3	públicos,
+3	votación,
+3	obtenido representación
+3	mandato.
+3	causas productivas
+3	progenitor.
+3	certificado de profesionalidad
+3	despido colectivo.
+3	pérdidas actuales
+3	realizada
+3	ambas
+3	Ley Orgánica 11/1985,
+3	compromiso
+3	publicación
+3	mes,
+3	contados
+3	establecerán
+3	tanto,
+3	económicos
+3	cuya duración
+3	recolocación
+3	disfrutar de forma
+3	aplicará
+3	simultánea
+3	documentos
+3	representativas.
+3	empresas.
+3	aprueba
+3	comunidades autónomas,
+3	precepto
+3	diez días siguientes
+3	salarios de tramitación
+3	conservará
+3	casos tales
+3	pago,
+3	Administraciones Públicas.
+3	apartado siguiente,
+3	tareas
+3	representación colectiva
+3	acciones derivadas
+3	concertar
+3	compensadas
+3	mencionada
+3	autoridad laboral competente
+3	relación laboral.
+3	jurisdicción social,
+3	CAPÍTULO II
+3	sexo,
+3	indemnización,
+3	(Derogado).
+3	idoneidad,
+3	validez
+3	recepción
+3	laboral dará traslado
+3	proceso electoral.
+3	integrado
+3	propósito de celebrar
+3	ciento del número
+3	existencia de pérdidas
+3	desplazamiento
+3	previsiones contenidas
+3	materia de duración
+3	principio de igualdad
+3	concreción horaria
+3	conocimiento.
+3	acogedor.
+3	estatales
+3	candidaturas
+3	organizar
+3	dirigida
+3	prestar
+3	parcial, previo
+3	previo informe
+3	procedencia
+3	derecho individual
+3	crédito,
+3	salarios dejados
+3	supuesto,
+3	reconozca
+3	permiso de paternidad
+3	establecen
+3	Fondo,
+3	atendiendo
+3	convencionalmente establecida,
+3	renuncia
+3	supuestos,
+3	español.
+3	empresas contratistas
+3	impugnarla
+3	formativos.
+3	solución de conflictos
+3	conclusión
+3	continuación
+3	continuase
+3	carácter especial
+3	materia de seguridad
+3	designado
+3	cosa
+3	empresa pretende colocar
+3	preferencias
+3	elegirán
+3	voz
+3	alude
+3	trabajadores tendrán prioridad
+3	fomentar
+3	concertado
+3	límite máximo
+3	colectivo de aplicación
+3	solicitudes
+3	asegurar
+3	hombres,
+3	empresarial,
+3	trabajadores fijos
+3	efectiva las discrepancias
+3	concepto
+3	anuales
+3	víctimas del terrorismo
+3	periodo de noventa
+3	convenio,
+3	contará
+3	complementarias pactadas
+3	Diez trabajadores,
+3	Consejo
+3	cesión
+3	derivados
+3	operaciones
+3	agosto, de Libertad
+3	eficacia jurídica
+3	notificará
+3	seguir
+3	quedando
+3	favorable
+3	efectuarlo
+3	notificar
+3	traslado,
+3	encadenamiento de contratos
+3	causas justificativas
+3	aprendizaje,
+3	19 de junio,
+3	salarios,
+3	totales
+3	dictará
+3	comunidad autónoma,
+3	planes de igualdad
+3	parciales
+3	aplicación e interpretación
+3	segundo,
+3	intervengan
+3	esta,
+3	empresa realice
+3	persona trabajadora,
+3	vigente,
+3	específico
+3	mínimos
+3	sexual,
+3	eludir las previsiones
+3	octubre
+3	acceso efectivo
+3	pactado.
+3	número de miembros
+3	vacantes
+3	razones económicas, técnicas,
+3	solventar
+3	obligatorio,
+3	propósito
+3	equipos
+3	representados
+3	fuerza mayor.
+3	justificación
+3	escrutinio
+3	doce meses,
+3	cargas
+3	constituya
+3	iguales
+3	desprenda una situación
+3	Ley sobre Infracciones
+3	fechas
+3	completa, salvo prueba
+3	ordenación
+3	máximo de dieciocho
+3	representativo
+3	liquidación
+3	reserva del puesto
+3	duración del contrato.
+3	requisitos establecidos
+3	justifiquen tal actuación,
+3	posesión de título
+3	adicionales
+3	efectuadas
+3	efectivamente
+3	reforma
+3	permanente,
+3	financiación
+3	mandato,
+3	acordada
+3	reforma del mercado
+3	constituyan
+3	equivalentes,
+3	candidaturas.
+3	día,
+3	ocasión
+3	duración inferior
+3	celebrada
+3	nominativamente identificadas
+3	establecidos,
+3	respetar
+3	necesidad
+3	salarios de tramitación.
+3	concurren las causas
+3	mayoritaria
+3	Prescripción
+3	limitaciones
+3	atender
+3	dichos contratos
+3	mismas.
+3	cien trabajadores.
+3	primeras
+3	entenderán
+3	objetivo
+3	derecho preferente
+3	localidad
+3	doce meses.
+3	Igualmente,
+3	plazo mínimo
+3	refiera
+3	institucional
+3	lactancia natural,
+3	procedimiento,
+3	principal,
+3	mantenimiento
+3	obstante
+3	bases
+3	administrativo
+3	abandonar
+3	individualmente
+3	párrafo anterior.
+3	prestando
+3	tomada
+3	antelación,
+3	hubiere
+3	constituyen
+3	servicio, prorrateándose
+3	derecho del trabajador
+3	pacto,
+3	España,
+3	obligados
+3	junio,
+3	5/2002, de 19
+3	semana,
+3	negativa del trabajador
+3	nulas
+3	productos
+3	nula
+3	prórroga
+3	Infracciones
+3	desacuerdo
+3	directo,
+3	tutela judicial
+3	fuerza mayor,
+3	citado artículo
+3	duración del permiso
+3	ventas
+3	entregando copia
+3	locales
+3	resolverán
+3	registrado
+3	estatal.
+3	específicamente
+3	competencias
+3	operadas
+3	opiniones
+3	remitirá
+3	requerimiento
+3	transferirse
+3	doce meses siguientes
+3	percibir
+3	empleabilidad.
+3	extranjero,
+3	origen racial
+3	concursal
+3	electores.
+3	libro
+3	condición de trabajadores
+3	elementos
+3	sentencia,
+3	sistema de formación
+3	votación.
+3	necesarias
+3	sujeción
+3	hábil,
+3	sexual
+3	acciones individuales iniciadas,
+3	contratos formativos,
+3	responderán solidariamente
+3	cualificación profesional
+3	Formación Profesional,
+3	pagas
+3	forma obligatoria
+3	laudos
+3	sustituido.
+3	indefinido.
+3	trabajador sustituido
+3	razones organizativas
+3	contrato de duración
+3	siguientes materias:
+3	servicio determinados
+3	siguientes circunstancias:
+3	prioridad aplicativa
+3	conflicto colectivo,
+3	figuren
+3	promoción de elecciones
+3	colectivo conforme
+3	prematuro
+3	actividad normal
+3	modalidades contractuales
+3	funcional.
+3	acciones formativas
+3	defecto de pacto,
+3	Orden Social,
+3	irregular
+3	ámbito de aplicación
+3	doce mensualidades.
+3	ámbitos
+3	empresa contratista
+3	señaladas
+3	concurren causas técnicas
+3	15 de junio
+3	contratos conforme
+3	convenio colectivo aplicable,
+3	íntegra
+3	despedido
+3	alcance
+3	media
+3	prorrogarse
+3	perjuicios
+3	hábiles,
+3	identificación
+3	colectivos podrán establecer
+3	extinguirá
+3	nacimiento
+3	sobrevenida
+3	razones justificadas
+3	acogimiento, de conformidad
+3	existencia de fraude,
+3	disfrute simultáneo
+3	constituir
+3	expresando
+3	motivos establecidos
+3	ellas,
+3	civil,
+3	cuestión
+3	grupo de trabajadores
+3	trimestre del año
+3	disciplinario,
+3	económica.
+3	familiares
+3	trabajadoras víctimas
+3	atenuar sus consecuencias
+3	diciembre
+3	firma
+3	índice
+3	quinta
+3	previamente
+3	determinado,
+3	superiores
+3	desprenda
+3	adopte
+3	controversias
+3	hija
+3	existencia de puestos
+3	tablón
+3	títulos
+3	extinción de contratos
+3	lista definitiva
+3	jornada de trabajo.
+3	condiciones de trabajo.
+3	disposiciones legales,
+3	actividades,
+3	causa motivadora
+3	grado de consanguinidad
+3	actuación,
+3	conceptos
+3	contratos suscritos
+3	competente,
+3	corresponda conforme
+3	recurrible conforme
+3	incapacidad permanente
+3	jornada.
+3	a:
+3	funciones sindicales
+3	suspender
+3	título II
+3	calculará
+3	oficina pública,
+3	enfermedades
+3	Ley Orgánica 5/2002,
+3	letra a),
+3	suspensiones
+3	obligatoria e ininterrumpida
+3	productividad
+3	sometidos
+3	cinco.
+3	ventas.
+3	tiempo.
+3	inmediata
+3	catorce
+3	autonómico
+3	dicha duración
+3	casos de nacimiento,
+3	empresa cedente
+3	presumirá celebrado
+3	lugar.
+3	cargo público
+3	Administración
+3	naturaleza,
+3	audiencia
+3	contraídas
+3	contemplados
+3	competente.
+3	justificadas de funcionamiento
+3	finalizado
+3	expedientes de regulación
+3	formalizar
+3	igualdad,
+3	personal, libre,
+3	empresas vinculadas
+3	válidamente constituida
+3	ofrecer
+3	representatividad,
+3	órdenes
+3	apartados anteriores,
+3	programas públicos
+3	abonará
+3	trabajos fijos-discontinuos
+3	elegibles
+3	secreto,
+3	recurrir
+3	normal desarrollo
+3	objeto de eludir
+3	daños
+3	concurra
+3	representación,
+3	segunda.
+3	profesionalidad
+3	legalmente.
+3	acuerden
+3	designados
+3	mayo,
+3	incapacidad temporal, nacimiento,
+3	mutuo
+3	inicio del embarazo
+3	presentadas
+3	condiciones de ejecución
+3	público.
+3	disposición adicional sexta
+3	reconocimiento
+3	siguientes extremos:
+3	mil
+3	profesionales,
+3	iniciación del proceso
+3	contemplada
+3	ciento,
+3	reembolso
+3	convenido
+3	producción; causas organizativas
+3	muerte,
+3	eludir
+3	indemnización de veinte
+3	intercentros
