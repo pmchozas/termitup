@@ -18,8 +18,8 @@ from nltk.corpus import stopwords
 
 java_path = "../Java/jdk1.8.0_131/bin/java.exe"
 os.environ['JAVAHOME'] = java_path
-tagger='/Users/karenvazquez/Downloads/stanford-postagger-full-2018-10-16/spanish.tagger'
-jar1='/Users/karenvazquez/Downloads/stanford-postagger-full-2018-10-16/models/standford-postagger.jar'
+tagger='stanford/spanish.tagger'
+jar1='stanford/standford-postagger.jar'
 es_stemmer = SnowballStemmer('spanish')
 
 # 0 clean punctuation and stopwords
