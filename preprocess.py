@@ -336,7 +336,7 @@ for i in list_anotador:
 pattern=delate_pattern(anotador)
 plural=quit_plural(pattern)
 numbers=delete_numbers(plural)
-new=open('salida_preproceso.txt', 'w')
+new=open('salida_preproceso.txt', 'w')#se imprime lo que se queda
 for i in numbers:
 	new.write(i+'\n')
 
