@@ -13,7 +13,7 @@ import re
 import requests
 import spacy
 from nltk.corpus import stopwords
-#nlp = spacy.load('es_core_news_sm')
+nlp = spacy.load('es_core_news_sm')
 
 
 java_path = "../Java/jdk1.8.0_131/bin/java.exe"
@@ -49,11 +49,11 @@ def annotate_timex(text, date, lang):
 # 2 patrones
 def delate_pattern(anotador):
 	#string_anotador='| '.join(anotador)
-	print(len(anotador))
+	#print(len(anotador))
 	total=0
 	for i in anotador:
 		total=total+1
-		joini=''.join(i.strip().replace('-', ''))
+		joini=''.join(i.strip().replace('-', '').replace(',', ''))
 
 		if(joini[-1:]==' '):
 			joini=joini[:-1]
@@ -61,6 +61,7 @@ def delate_pattern(anotador):
 		if(joini!=''):
 			pos_tagger = CoreNLPParser('http://localhost:9003', tagtype='pos')
 			tag=pos_tagger.tag(joini.split(' '))
+			#print(joini)
 			about_doc=nlp(joini)
 			#for token in about_doc:
 			#	print (token, token.tag_)
