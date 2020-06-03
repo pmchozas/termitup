@@ -53,13 +53,13 @@ def delate_pattern(anotador):
 				join_tag+=' '+str(t)
 				join_tag=join_tag.strip()
 				spl=joini.split(' ')
-				print(spl)
+				#print(spl)
 				if(t.pos_ == 'AUX' ):
 					ind=spl.index(str(t))
 					list_pos.append('aux--'+str(t))
 					#print(t,'-',i,'-',ind)
 				if(t.pos_ ==  'NOUN'):
-					print(str(t))
+					#print(str(t))
 					ind=spl.index(str(t))
 					list_pos.append('noun-'+str(t))
 					#print(t,'-',i,'-',ind)
@@ -282,8 +282,55 @@ def readFile(read):
 
 	return text
 
+def normalize(s):
+    replacements = (
+        ("á", "a"),
+        ("é", "e"),
+        ("í", "i"),
+        ("ó", "o"),
+        ("ú", "u"),
+    )
+    for a, b in replacements:
+        s = s.replace(a, b)
+    return s
+
+def acentos(last):
+	til=[]
+	list_acentos=[]
+	for i in last:
+		acento=re.search("[áéíóúÁÉÍÓÚ]+", i)
+		if(acento!=None):
+			sin=normalize(i)
+			list_acentos.append(i)
+			til.append(sin)
+		else:
+			til.append(i)
+
+	til2 = []
+	delete=[]
+	for i in til:
+		if i not in til2:
+			til2.append(i)
+		else:
+			delete.append(i)
 
 
+	#print(list_acentos)
+
+	print(delete)
+	indices=[]
+	delete2=[]
+	for i in last:
+		if(i in delete and i not in indices):
+			indices.append(i)
+			delete2.append(i)
+	for i in delete2:
+		ind=last.index(i)
+		last.pop(ind)
+
+	#print(last)
+
+	return(last)
 
 
 #-------MAIN-------#
@@ -319,9 +366,12 @@ for i in list_anotador:
 pattern=delate_pattern(anotador)
 plural=quit_plural(pattern)
 numbers=delete_numbers(plural)
-new=open('../data/clean_terms.txt', 'w')#se imprime lo que se queda
 numbers.sort()
-for i in numbers:
+tildes=acentos(numbers)
+tildes.sort()
+new=open('../data/clean_terms.txt', 'w')#se imprime lo que se queda
+
+for i in tildes:
     new.write(i+'\n')
 new.close()
 
