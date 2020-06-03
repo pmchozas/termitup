@@ -1,26 +1,12 @@
 import os
 import json
 import csv
-import nltk 
-from nltk import pos_tag
-from nltk.parse import CoreNLPParser
-from nltk.stem import PorterStemmer
-from nltk.stem import LancasterStemmer
-from nltk.stem import WordNetLemmatizer 
-from nltk.stem import SnowballStemmer
-from nltk.tag import StanfordPOSTagger
 import re
 import requests
 import spacy
 from nltk.corpus import stopwords
 nlp = spacy.load('es_core_news_sm')
 
-
-java_path = "../Java/jdk1.8.0_131/bin/java.exe"
-os.environ['JAVAHOME'] = java_path
-tagger='stanford/spanish.tagger'
-jar1='stanford/standford-postagger.jar'
-es_stemmer = SnowballStemmer('spanish')
 
 # 0 clean punctuation and stopwords
 def clean_terms(termlist):
@@ -59,12 +45,7 @@ def delate_pattern(anotador):
 			joini=joini[:-1]
 		list_pos=[]
 		if(joini!=''):
-			pos_tagger = CoreNLPParser('http://localhost:9003', tagtype='pos')
-			tag=pos_tagger.tag(joini.split(' '))
-			#print(joini)
 			about_doc=nlp(joini)
-			#for token in about_doc:
-			#	print (token, token.tag_)
 		
 			join_tag=''
 			for t in about_doc:
