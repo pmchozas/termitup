@@ -11,6 +11,9 @@ JAVA 1.8 and environment variable JAVA_HOME
 Before executing preprocess.py, you must install and execute Stanford CoreNLP in NLTK
 
 - pip3 install -U nltk
+- wget http://nlp.stanford.edu/software/stanford-corenlp-full-2018-02-27.zip
+- unzip stanford-corenlp-full-2018-02-27.zip
+- cd stanford-corenlp-full-2018-02-27
 - wget http://nlp.stanford.edu/software/stanford-spanish-corenlp-2018-02-27-models.jar
 - wget https://raw.githubusercontent.com/stanfordnlp/CoreNLP/master/src/edu/stanford/nlp/pipeline/StanfordCoreNLP-spanish.properties 
 - cd stanford-corenlp-full-2018-02-27
