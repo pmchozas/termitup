@@ -39,8 +39,8 @@ def delate_pattern(anotador):
 	total=0
 	for i in anotador:
 		total=total+1
-		joini=''.join(i.strip().replace('-', '').replace(',', ''))
-
+		joini=''.join(i.strip().replace('-', '').replace(',', '').replace(';', ''))
+		
 		if(joini[-1:]==' '):
 			joini=joini[:-1]
 		list_pos=[]
@@ -53,12 +53,13 @@ def delate_pattern(anotador):
 				join_tag+=' '+str(t)
 				join_tag=join_tag.strip()
 				spl=joini.split(' ')
-				
+				print(spl)
 				if(t.pos_ == 'AUX' ):
 					ind=spl.index(str(t))
 					list_pos.append('aux--'+str(t))
 					#print(t,'-',i,'-',ind)
 				if(t.pos_ ==  'NOUN'):
+					print(str(t))
 					ind=spl.index(str(t))
 					list_pos.append('noun-'+str(t))
 					#print(t,'-',i,'-',ind)
@@ -287,7 +288,7 @@ def readFile(read):
 
 #-------MAIN-------#
 
-file=open('estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
+file=open('estatutoterms_minfreq3.txt', 'r', encoding='utf-8')
 read=file.readlines()
 text=readFile(read)
 date='2020-05-26'
@@ -312,7 +313,7 @@ for i in list_anotador:
 
 anotador=[]
 for i in list_anotador:
-	anotador.append(i.strip())
+	anotador.append(i.strip().replace(',', ''))
 
 pattern=delate_pattern(anotador)
 plural=quit_plural(pattern)
