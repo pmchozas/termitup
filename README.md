@@ -3,6 +3,23 @@
 This service converts a plain monolingual term list into a multilingual linked terminology by querying external resources that are part of the Linguistic Linked Open Data cloud (such as IATE and EuroVoc). 
 
 ## Execution from bash
+
+### preprocess.py
+Requirements
+JAVA 1.8 and environment variable JAVA_HOME
+
+Before executing preprocess.py, you must install and execute Stanford CoreNLP in NLTK
+
+- pip3 install -U nltk
+- wget http://nlp.stanford.edu/software/stanford-spanish-corenlp-2018-02-27-models.jar
+- wget https://raw.githubusercontent.com/stanfordnlp/CoreNLP/master/src/edu/stanford/nlp/pipeline/StanfordCoreNLP-spanish.properties 
+- cd stanford-corenlp-full-2018-02-27
+
+- java -Xmx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer \
+-serverProperties StanfordCoreNLP-spanish.properties \
+-preload tokenize,ssplit,pos,ner,parse \
+-status_port 9003  -port 9003 -timeout 15000
+
 ### searchTerm_all.py
 ### Querying terms to expand with definitions, synonyms and synonyms disambiguation according to a context
 This code requires:
