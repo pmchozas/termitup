@@ -5,11 +5,13 @@ import re
 import requests
 import spacy
 from nltk.corpus import stopwords
+from time import time
 nlp = spacy.load('es_core_news_sm')
 
 
 # 0 clean punctuation and stopwords
 def clean_terms(termlist):
+    start_time=time()
     stop=stopwords.words('spanish')
     file=open('data/stop-esp.txt', 'r', encoding='utf-8')
     mystop=file.readlines()
@@ -17,24 +19,58 @@ def clean_terms(termlist):
     cont=0
     for i in mystop:
         stop.append(i.strip())
-    print(len(termlist))
+    #print(len(termlist))
     for i in termlist:
         k=i.strip(',.:')
         if k not in stop:
-            clean_list.append(k)
-    print(len(clean_list))
+            clean_list.append(k.replace(',', '').replace('-', ''))
+    #print(len(clean_list))
     cont=len(termlist)-len(clean_list)
-    print('CLEAN_TERMS DELETE', cont, len(clean_list) )
+    elapsed_time=time()-start_time
+    print('CLEAN_TERMS DELETE', cont, len(clean_list), elapsed_time )
+    
+    
     return(clean_list)
 
 
 # 1 añotador
 def annotate_timex(text, date, lang):
+    start_time=time()
     url = 'http://annotador.oeg-upm.net/annotate'  
     params = {'inputText':text, 'inputDate':date, 'lan': lang}
     #headers = {'content-type': 'application/json'}
     response=requests.post(url, data=params)
+    elapsed_time=time()-start_time
     return(response.text)
+
+def annotate_timex2(text):
+	start_time=time()
+	file=open('anotador.txt', 'r', encoding='utf-8')
+	read=file.readlines()
+	#print(text)
+	annotador=[]
+	#print(len(text))
+	cont=0
+	for i in read:
+		ann=i[:-1]
+		ind=ann.index('>')
+		ind1=ann.index('</')
+		term=ann[ind+1:ind1]
+		annotador.append(text)
+		for j in text:
+			if(term==j):
+				indt=text.index(term)
+				cont=cont+1
+				text.pop(indt)
+
+	#print(len(text))
+	elapsed_time=time()-start_time
+	print('ANOTADOR DELETE', cont, len(text), elapsed_time )
+	return text
+
+		
+
+
 
 
 def infinitive(verb):
@@ -55,23 +91,16 @@ def infinitive(verb):
 			verb=verb[:-1]
 	return (verb)
 
-def annotate_infinitive(verb):
-    url = 'https://gramatica.usc.es/~gamallo/php/ProlnatTagger/index.php'  
-    params = {'texto':verb, 'lingua':'es'}
-    #headers = {'content-type': 'application/json'}
-    response=requests.post(url, data=params)
-    print(response.text)
-    return(response.text)
-
 
 
 # 2 patrones
 def delate_pattern(anotador):
+
 	#string_anotador='| '.join(anotador)
 	#print(len(anotador))
 	total=0
 
-
+	start_time=time()
 	lemmas_list=[]
 	cont=0
 	for i in anotador:
@@ -101,7 +130,7 @@ def delate_pattern(anotador):
 					list_pos.append('aux--'+str(t.lemma_))
 					#print(t,'-',i,'-',ind)
 				if(t.pos_ ==  'NOUN'):
-					#print(str(t))
+					#print(spl,str(t))
 					ind=spl.index(str(t))
 					list_pos.append('noun-'+str(t))
 					#print(t,'-',i,'-',ind)
@@ -358,7 +387,8 @@ def delate_pattern(anotador):
 					ind=anotador.index(joini)
 					anotador.pop(ind)
 					cont=cont+1
-	print('PATRONES DELETE', cont, len(anotador))
+	elapsed_time=time()-start_time
+	print('PATRONES DELETE', cont, len(anotador), elapsed_time)
 	#print(len(anotador))
 	#delete_numbers(anotador)
 	#quit_plural(anotador)
@@ -366,43 +396,84 @@ def delate_pattern(anotador):
 
 # 3 plurales
 def quit_plural(valuelist):
+	start_time=time()
+	file=open('data/numberlist_es', 'r', encoding='utf-8')
+	read=file.readlines()
 	plural=[]
 	cont=0
 	for i in valuelist:
-		term=i
+		ind=valuelist.index(i)
+		term=i.replace(',', '').replace('-', ' ')
+		valuelist[ind]=term
 		plu=''
 		if('es' in term[-2:] or 's'  in term[-1:]):
 			slp=term.split(' ')
-			for j in slp:
-				if( ('es' in j[-2:] ) and 't' not in j[-3:-2] and 'l' not in j[-3:-2]  ):
-					
-					plu+=' '+j[:-2]
-					
-					if('on' in plu[-2:]):
-						plu=' '+plu[:-2]+'ón'
-						#print(plu)
-				elif(('s' in j[-1:]) ):
-					plu+=' '+j[:-1]
-				else:
-					plu+=' '+j
-			#print(plu)
+			#print(term)
+
+			for n in read:
+				if(n[:-1] in slp):
+					plu=i
+					#print(i, '-', n[:-1], '-', plu)
+
+			if not len(plu):
+				for j in slp:
+					if( ('es' in j[-2:] ) and 't' not in j[-3:-2] and 'l' not in j[-3:-2] or  ('les' in j[-3:] )   ):
+						#print(j[-4:-2])
+						plu+=' '+j[:-2]
+						
+						if('on' in plu[-2:]):
+							plu=' '+plu[:-2]+'ón'
+						if('v' in plu[-1:]):
+							plu=' '+plu+'e'
+						if('bl' in plu[-2:]):
+							plu=' '+plu+'e'
+						if('br' in plu[-2:]):
+							plu=' '+plu+'e'
+
+							#print(plu)
+					elif(('s' in j[-1:]) ):
+						plu+=' '+j[:-1]
+						pos=slp.index(j)
+						
+						if(pos>0):
+							bef=slp[0]
+							#print(bef)
+							if('n' in bef[-1:] and 'ón' not in bef[-2:]):
+								
+								splb=plu.split(' ')
+								
+								firts=splb[1]
+								
+								if('n' not in firts[-1:]):
+									pass
+								else:
+									plu0=firts[:-1]
+									join1=' '.join(splb[2:])
+									
+									plu=plu0+' '+join1
+								
+							
+
+					else:
+						plu+=' '+j
+
+
+
+			#print(term, '|',plu.strip())
 			ind=valuelist.index(term)
-			valuelist[ind]=plu.strip()
-			
+			valuelist[ind]=plu.strip()			
 			cont=cont+1
-					
-	
 	quit_plu=[]
 	nuevalista=set(valuelist)
 	for i in nuevalista:
 		quit_plu.append(i)	
-	
-	print('PLURALES DELETE', len(valuelist)-len(quit_plu), len(quit_plu))
-	
+	elapsed_time=time()-start_time
+	print('PLURALES DELETE', len(valuelist)-len(quit_plu), len(quit_plu), elapsed_time)
 	return(quit_plu)
 
 # 4 numeros
 def delete_numbers(list_):
+	start_time=time()
 	file=open('data/numberlist_es', 'r', encoding='utf-8')
 	read=file.readlines()
 	cont=0
@@ -416,22 +487,25 @@ def delete_numbers(list_):
 					ind=list_.index(j)
 					cont=cont+1
 					list_.pop(ind)
-	print('NUMEROS DELETE', cont, len(list_))
+	list_.sort()
+	elapsed_time=time()-start_time
+	print('NUMEROS DELETE', cont, len(list_), elapsed_time)
 	return(list_)
 
 
 # 5 leer archivo 
 def readFile(read):
+	start_time=time()
 	text=''
 	for i in read:
 		if(i[-1:]=='\n'):
 			spl=i[:-1].split('\t')
 		else:
 			spl=i.split('\t')
-		term=spl[1]
+		term=spl[1].replace('-', '').replace(',', '').replace(';', '')
 		spl2=term.split(' ')
 		text+='| '+spl[1]
-
+	elapsed_time=time()-start_time
 	return text
 
 #elimina tildes
@@ -448,6 +522,7 @@ def quit_tilds(s):
     return s
 
 def acentos(last):
+	start_time=time()
 	til=[]
 	list_acentos=[]
 	for i in last:
@@ -482,7 +557,10 @@ def acentos(last):
 		last.pop(ind)
 
 	#print(last)
-
+	last.sort()
+	elapsed_time=time()-start_time
+	print('ACENTOS',len(last), elapsed_time)
+	
 	return(last)
 
 
@@ -491,13 +569,16 @@ def main(read):
 	#file=open('../data/estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
 	#read=file.readlines()
 	#file.close()
+	start_time=time()
 	text=readFile(read)
 	date='2020-06-03'
 	lang='ES'
 	#print(text)
 	termlist=text.split('| ')
 	clean_text=clean_terms(termlist)
+	
 	join_clean_text='| '.join(clean_text).replace('-', '').replace(',', '').replace(';', '')
+	#anotador=annotate_timex2(clean_text)
 	textanotador=annotate_timex(join_clean_text, date, lang)
 	list_anotador=textanotador.split('|')
 	#print('ANOTADOR---')
@@ -519,22 +600,26 @@ def main(read):
 	anotador=[]
 	for i in list_anotador:
 		anotador.append(i.strip().replace(',', ''))
-	print('AÑOTADOR DELETE', cont, len(anotador) )
+	print('AÑOTADOR DELETE', len(anotador) )
+	#for i in anotador:
+	#	print(i)
+	anotador.sort()
 	pattern=delate_pattern(anotador)
 	plural=quit_plural(pattern)
 	numbers=delete_numbers(plural)
-	numbers.sort()
 	tildes=acentos(numbers)
-	tildes.sort()
+	#tildes.sort()
 	new=open('data/clean_terms_freq4.txt', 'w')#se imprime lo que se queda
 
 	for i in tildes:
 	    new.write(i+'\n')
 	new.close()
+	elapsed_time=time()-start_time
+	print('Main', elapsed_time)
 	return(tildes)
 
 
-file=open('data/estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
-read=file.readlines()
-main(read)
+#file=open('data/estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
+#read=file.readlines()
+#main(read)
 
