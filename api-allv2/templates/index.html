@@ -15,9 +15,9 @@
 <body>
 <header class="page-header">
     <div class="header__wrapper clearfix">
-        <h1 class="title">Termit<span>Up</span></h1>
-        <img src="../static/images/termita.png" class="logo"><a href="index.html"></a>                 <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
-            <h3 class="subtitle">A wonderful service for terminology</h3>
+        <h1 class="logo" >Termitup <a href="index.html"></a> <img src="../static/images/termitup_logo.svg" class="logo"></h1>
+                         <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
+            <h2 class="subtitle">A wonderful service for terminology enrichment</h2>
 
             <ul id="navbar" class="menu__list">
                 <li><a href="#about" class="header-menu__item">About TermitUp</a></li>
@@ -44,25 +44,32 @@
 
         <h3 class="intro__title">About TermitUp</h3>
         <div class="intro__text">
-                <p>This service generates Enriched Linked Terminologies from corpus: given a term in a corpus, it retrieves disambiguated multilingual data from the <a href="https://linguistic-lod.org/" class="llod">Linguistic Linked Open Data cloud</a> (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled as per the SKOS vocabulary.</p>
-        <img src="../static/images/termitup.png" class="termitup"> 
+                <p>TermitUp is a tool for terminology enrichment: given a domain specific corpus, TermitUp performs statistical terminology extraction (with TBXTools) and cleans the resulting term list with a series of liguistic processes. Then, it queries several language resources (some part of the <a href="https://linguistic-lod.org/" class="llod">Linguistic Linked Open Data cloud</a>) for candidate terms matching those in the term list.</p>
 
+                <p>TermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD.</p>
+
+                <p>Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources. Finally, the results are published in separate json-ld files, modeled in SKOS-XL, that permits keeping the provenance of specific pieces of the data retrieved.</p>
+
+                <img src="../static/images/termitupw.png" class="termitup">
         </div>
         </div> 
     
     </section>
     <section id="api" class="api">
+        <div class="intro-services__wrapper ">
         <h3 class="about__title">API</h3>
         <div class="about__text">
-        <p>Test this service through <a href="https://termitup.oeg.fi.upm.es/swagger" class="apilink" target="_blank">TermitUp Swagger API</a>.</p>
+        <p>Test this service through <a href="http://termitup.oeg.fi.upm.net/swagger/" class="apilink" target="_blank">TermitUp Swagger API</a>.</p>
+        </div>
         </div>
     </section>
     <section id="thanks" class="thanks">
+        <div class="intro-services__wrapper ">
         <h3 class="contact__title">Contact</h3>
         <div class="contact__text">
-        <p>This work has been developed by <a href="http://www.oeg-upm.net/" class="oegweb" target="_blank">Ontology Engineering Group</a> (Universidad Politécnica de Madrid) as part of the PhD. thesis of Patricia Martín-Chozas. For more information, send an email to pmchozas@fi.upm.es</p>
-        <p>This work has been supported by Prêt-à-Llod, which has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 825182</p>
-        <img src="../static/images/logopal.png" class="logo2">
+        <p>This work has been developed by <a href="https://oeg.fi.upm.es/" class="oegweb" target="_blank">Ontology Engineering Group</a> (Universidad Politécnica de Madrid) as part of the PhD. thesis of Patricia Martín-Chozas. For more information, send an email to pmchozas@fi.upm.es</p>
+        <p>This service is being developed within Prêt-a-Llod H2020 project (grant agreement No. 825182)</p>
+        </div>
         </div>
     </section>
 
@@ -81,6 +88,10 @@
         
         <div class="footer-wrapper"> <!-- este div yo creo que no lo necesito !-->
             <nav class="footer-menu clearfix">
+            <img src="../static/images/logopal.png" class="logo2">
+            <img src="../static/images/Logo_OEG.gif" class="logo3">
+            <img src="../static/images/fi.jpg" class="logo4">
+            <img src="../static/images/upm.jpg" class="logo5">
             </nav>
             <!--<a href="#" class="icon-search">Buscador</a> !-->
         </div>
@@ -102,4 +113,3 @@ function myFunction() {
 </script>
 </body>
 </html>
-

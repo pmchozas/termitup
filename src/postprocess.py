@@ -566,9 +566,9 @@ def acentos(last):
 
 #-------MAIN-------#
 def main(read):
-	#file=open('../data/estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
-	#read=file.readlines()
-	#file.close()
+	file=open('../data/estatutoterms_minfreq4.txt', 'r', encoding='utf-8')
+	read=file.readlines()
+	file.close()
 	start_time=time()
 	text=readFile(read)
 	date='2020-06-03'

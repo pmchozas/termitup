@@ -34,14 +34,12 @@ body {
 
 
 .logo {
-    max-width: 6rem;
     background-size: contain;
     text-indent: -9000px;
-    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 25rem;
     
 
 }
@@ -53,7 +51,7 @@ body {
 height: inherit;
 }
 
-.logo2 {
+.logo2, .logo3, .logo4, .logo5 {
     max-width: 6rem;
     text-indent: -9000px;
     margin-left: auto;
@@ -93,7 +91,7 @@ height: inherit;
   background-color: #FFFFFF;
   text-align: center;
   width: 100%;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -169,7 +167,7 @@ color: #2F4F4F;
     line-height: 1.5;
     color:#446161;
     text-align: center; 
-    padding-top: 2rem;
+    
     padding-bottom: 0.5rem;
 }
 
@@ -254,7 +252,6 @@ color: #2F4F4F;
 
 /*footer menu nav*/
 .page-footer {
-    margin-top: 3rem;
     padding: 1rem 7rem;
     top: 0;
     left: 0;
@@ -339,12 +336,10 @@ color: #2F4F4F;
 /*index.php*/
 .intro {
     width: 100%;
-    max-width: 1100px;
     margin: 0 auto;
     color: #446161;
 
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 2rem;
     padding-top: 0; 
 }
 
@@ -380,8 +375,11 @@ color: #2F4F4F;
     line-height: 1.5;
     font-family: 'Montserrat';
     padding-top: 0.5rem;
-    text-align: left;
+    text-align: justify;
 
+}
+p {
+    padding-bottom: 0.5rem;
 }
 
 .termitup {
@@ -482,8 +480,8 @@ color: #2F4F4F;
     padding:2rem;
     -moz-box-shadow: inset 0 0 2px #c0c0c0;
     -webkit-box-shadow: inset 0 0 2px#C0C0C0;
-    box-shadow: inner 0 0 2px #c0c0c0;
-    margin-bottom: 1rem;
+box-shadow: 0px 2px 2px 4px rgba(0,0,0,0.1);
+
 }
 
 
@@ -577,7 +575,7 @@ transform:scale(1.2);
     background-color: rgba(255,255,255, 0.6);
     padding: 2rem;
 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .form__wrapper img {
     max-width: 15rem;
