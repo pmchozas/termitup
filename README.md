@@ -1,10 +1,15 @@
-# Termitup
+# TermitUp
 
-This service converts a plain monolingual term list into a multilingual linked terminology by querying external resources that are part of the Linguistic Linked Open Data cloud (such as IATE and EuroVoc). 
+
+TermitUp is a tool for terminology enrichment: given a domain specific corpus, TermitUp performs statistical terminology extraction (with TBXTools) and cleans the resulting term list with a series of liguistic processes. Then, it queries several language resources (some part of the Linguistic Linked Open Data cloud) for candidate terms matching those in the term list. 
+
+TermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD. 
+
+Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources. Finally, the results are published in separate json-ld files, modeled in SKOS-XL, that permits keeping the provenance of specific pieces of the data retrieved. 
 
 ## Execution from bash
 
-### preprocess.py
+### postprocess.py
 Requirements
 JAVA 1.8 and environment variable JAVA_HOME
 
@@ -110,25 +115,6 @@ Example: `python3 eurovoc.py --sourceFile contract2_eurosource_br.csv --type w -
 
 INPUT: Eurovoc sources generated from iate.py (CSV files)
 OUTPUT: Eurovoc output (CSV files)
-
-### Creating IDs for new concepts: eurovoc_id_creation.py
-This script creates new IDs for the terms retrieved from EuroVoc. This step is necessary to model them as skos:Concept and create the final RDF.
-
-INPUT: EuroVoc target files (CSV)
-OUTPUT: EuroVoc target files with ID assigned (CSV)
-
-Example: `python3 eurovoc_id_creation.py contract2_eurosource_br_out.csv termino_id.csv contract2_eurosource_br_out_ID.csv` 
-
-
-### Conversion into RDF
-- Java version 1.8+
-- Rmlmapper https://github.com/RMLio/rmlmapper-java/releases
-
-To convert yaml file into ttl from bash: `yarrrml-parser -i mapping.yaml -o mapping.rml.ttl`
-
-To run rmlmapper from bash: `java -jar rmlmapper.jar -m mapping.rml.ttl -o outputfileName.nt -d`
-
-To remove empty strings from bash: `sed -i '' -e 's/<.*>.*<.*>.*""@.*//g' output.nt`
 
 ### api-all
 
