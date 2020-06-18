@@ -5,6 +5,7 @@ import check_term
 import jsonFile
 import iateCode
 import eurovocCode
+import lexicalaCode
 import wikidataCode
 import re
 from unicodedata import normalize
@@ -17,6 +18,7 @@ import postprocess
 import unesco
 import logging
 import conts_log
+import relval_lexi
 
 
 
@@ -47,6 +49,9 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
         print('------IATE')
         outFile=iateCode.iate(termSearch, lang,targets, outFile, context, wsid, 1)
         
+        if(coling==None):
+            print('------LEXICALA')
+            outFile=lexicalaCode.lexicala(lang, termSearch, targets, context,  outFile, wsid, 1)
         
         print('------WIKI DATA')
         outFile=wikidataCode.wikidata_retriever(termSearch, lang, context,  targets, outFile, 1, wsid)
@@ -55,8 +60,8 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
 
         outFile=jsonFile.outFile_full(outFile)
         outFile=jsonFile.fix(outFile, note, context, termSearch)
-
-        outFile=relval.main(outFile, file_schema, targets, clean, lang_in, context)
+        #print(outFile)
+        outFile=relval_lexi.main(outFile, file_schema, targets, clean, lang_in, context)
         outFile=jsonFile.topConcept(outFile,  file_schema)
         idenuew=ide.split('/')
         n=idenuew[-1].replace(' ', '_').replace('\ufeff','')

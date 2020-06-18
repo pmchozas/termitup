@@ -71,11 +71,13 @@ def clean_terms(termlist):
 # 1 añotador
 def annotate_timex(text, date, lang):
     start_time=time()
-    url = 'http://annotador.oeg-upm.net/annotate'  
+    #print(text)
+    url = 'https://annotador.oeg.fi.upm.es/annotate'  
     params = {'inputText':text, 'inputDate':date, 'lan': lang}
     #headers = {'content-type': 'application/json'}
     response=requests.post(url, data=params)
     textanotador=response.text
+    code=response.status_code
     list_anotador=textanotador.split('|')
     deletes=[]
     cont=0
@@ -106,13 +108,17 @@ def annotate_timex(text, date, lang):
         ind2=deletes.index(i)
         deletes[ind2]=term
 
-
-    elapsed_time=time()-start_time
-    txt='AÑOTADOR, DELETE ('+str(cont)+') NEW LIST SIZE: ('+str(len(anotador))+') TIME: ('+str(elapsed_time)+')'
-    logging.info(txt)
-    joind=', '.join(deletes)
-    logging.info('TERMS REMOVED: '+joind)
-    print('AÑOTADOR DELETE', cont, len(anotador), elapsed_time )
+    if(code!=200):
+	    print('WARNING: Annotador is down. Temporal expressions could not be removed.' )
+	    logging.info('WARNING: Annotador is down. Temporal expressions could not be removed.')
+	    anotador=text.split('| ')
+    else:
+	    elapsed_time=time()-start_time
+	    txt='AÑOTADOR, DELETE ('+str(cont)+') NEW LIST SIZE: ('+str(len(anotador))+') TIME: ('+str(elapsed_time)+')'
+	    logging.info(txt)
+	    joind=', '.join(deletes)
+	    logging.info('TERMS REMOVED: '+joind)
+	    print('AÑOTADOR DELETE', cont, len(anotador), elapsed_time )
     
     return(anotador)
 
@@ -928,7 +934,6 @@ def quit_plural(valuelist):
 
 # 4 numeros
 def delete_numbers(list_):
-	print(list_)
 	start_time=time()
 	file=open('data/numberlist_es', 'r', encoding='utf-8')
 	read=file.readlines()
@@ -940,7 +945,7 @@ def delete_numbers(list_):
 			for j in list_:
 				#print(i,'|', j)
 				if(' '+i+' ' in ' '+j+' ' ):
-					print(i, '|', j)
+					#print(i, '|', j)
 					deletes.append(j)
 					ind=list_.index(j)
 					cont=cont+1
@@ -1043,6 +1048,7 @@ def main(read):
 	
 	join_clean_text='| '.join(clean_text).replace('-', '').replace(',', '').replace(';', '')
 	#anotador=annotate_timex2(clean_text)
+	#print(join_clean_text)
 	anotador=annotate_timex(join_clean_text, date, lang)
 	anotador.sort()
 	pattern=delate_pattern_2(anotador)

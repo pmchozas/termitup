@@ -235,17 +235,6 @@ def main(outFile, file_schema, targets, clean, lang_in, context):
                                         #print('--------------------------')
                                         
                                         
-                                        #ide=trans_id.trans_ID(value2, lang)
-                                        ind=alt.index(item1)
-                                        #print(item1, ind)
-                                        del outFile["skos-xl:altLabel"][ind]
-                                        check=check_term.checkTerm(lang,value2, '', [language], '')
-                                        ide=check[0]
-                                        ide_file=ide
-                                        termSearch=check[1]
-                                        #print('TERM A BUSCAR:----------- ', termSearch)
-                                        if(termSearch!='1'):
-                                            eurovocCode.eurovoc_file(termSearch, ide, T_A_relationship, None, language, 'labourlaw',  outFile["@id"], file_schema, outFile,targets)
                                         full=jsonFile.full_rels(outFile, T_A_relationship)
                                         
                                         cadena = re.sub('[/,+.;:/)([]]*', '',  value2)
