@@ -1,4 +1,3 @@
-
 import json #libreria para utulizar json en python
 from random import randint #libreria para random
 import re
@@ -22,7 +21,6 @@ def checkTerm(lang,  termSearch, relation, targets, ide1):
     n = normalize( 'NFC', n)
     for carps in listt_arq:
         for j in carps:
-            #print(j)
             if('.DS_Store' not in j):
                 slp=j.split('-')
                 termfile=''
@@ -30,29 +28,21 @@ def checkTerm(lang,  termSearch, relation, targets, ide1):
                     termfile=slp[:len(slp)-1]
                     termfile=' '.join(termfile)
                     slp2=slp[len(slp)-1].split('.')
-                    #idefile=slp2[0]
                     
                 elif(len(slp)>1):
                     termfile=slp[0]
                     if(len(slp)>1):
                         slp2=slp[1].split('.')
-                        #idefile=slp2[0]
                 
-                
-                #print(termfile, n)
                 if(n == termfile):
                     termSearch='1'
-                    #ide=idefile
+                
                 else:
                     termSearch=termSearch
-                    '''if(ide in idefile):
-                        ide=sctmid_creator()
-                        checkTerm(lang, termSearch, relation, targets, ide)
-                    else:
-                        ide=ide'''
-    #print('FOLDER: ', ide, termSearch)
-    check2=check_term_in_Terminology(ide, termSearch)
-    return(check2[0], check2[1])
+                    
+    #check2=check_term_in_Terminology(ide, termSearch)
+    #return(check2[0], check2[1])
+    return(ide, termSearch)
 
 def check_term_in_Terminology(ide, termSearch):
     file=open('terms_terminology.csv', 'r', encoding='utf-8')
@@ -62,7 +52,6 @@ def check_term_in_Terminology(ide, termSearch):
             termSearch='1'
             if(ide in i ):
                 ide=sctmid_creator()
-                #checkTerm(lang, termSearch, relation, targets, ide)
             else:
                 ide=ide
         else:
@@ -73,14 +62,6 @@ def check_term_in_Terminology(ide, termSearch):
 # files
 def path(targets, relation):
     listt_arq=[]
-    '''for i in targets:
-        if(relation!=''):
-            path=i+'/'+relation+'/'
-        else:
-            path=i+'/'
-        listt = [obj for obj in listdir(path) if isfile(path + obj)]
-        listt_arq.append(listt)'''
-
     path='data/output/'
     listt = [obj for obj in listdir(path) if isfile(path + obj)]
     listt_arq.append(listt)
@@ -91,3 +72,4 @@ def sctmid_creator():
     numb = randint(1000000, 9999999)
     SCTMID = "LT" + str(numb)
     return SCTMID
+

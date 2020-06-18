@@ -17,18 +17,12 @@ import postprocess
 import unesco
 import logging
 import conts_log
-#format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-'''logging.basicConfig(filename='myapp.log',
-    filemode='w+',
-    format='%(asctime)s, %(levelname)s %(message)s',
-    datefmt='%H:%M:%S',
-    level=logging.INFO)'''
+
 
 
 def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, file_schema, clean, coling):
 
     term=preprocess_term.preProcessingTerm(interm, context, contextFile, lang)
-    #print(term)
     context=term[2]
     check=check_term.checkTerm(lang,term[0], '', targets, '')
     ide=check[0]
@@ -38,13 +32,12 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
     if(termSearch!='1'):
         rels=1
         note=''
-        
         n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
                         normalize( "NFD", termSearch), 0, re.I
         )
         n = normalize( 'NFC', n)
         outFile=jsonFile.jsonFile(ide, scheme, rels, note, context, termSearch, lang_in, file_schema, n)
-        #
+        
         print('------EUROVOC')
         outFile=eurovocCode.eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, 1, file_schema)
         
@@ -53,6 +46,7 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
 
         print('------IATE')
         outFile=iateCode.iate(termSearch, lang,targets, outFile, context, wsid, 1)
+        
         
         print('------WIKI DATA')
         outFile=wikidataCode.wikidata_retriever(termSearch, lang, context,  targets, outFile, 1, wsid)
@@ -63,6 +57,7 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
         outFile=jsonFile.fix(outFile, note, context, termSearch)
 
         outFile=relval.main(outFile, file_schema, targets, clean, lang_in, context)
+        outFile=jsonFile.topConcept(outFile,  file_schema)
         idenuew=ide.split('/')
         n=idenuew[-1].replace(' ', '_').replace('\ufeff','')
         n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
@@ -72,7 +67,7 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
         newFile='data/output/'+n+'.jsonld'
         with open(newFile, 'w') as file:
             json.dump(outFile, file, indent=4,ensure_ascii=False)
-             
+               
     name='data/output/'+scheme.replace(' ', '_')+'.json'
     with open(name, 'w') as new:
         json.dump(file_schema, new, indent=4,ensure_ascii=False)
@@ -116,54 +111,58 @@ corpus=args.corpus
 coling=args.coling
 raiz=os.getcwd()
 folder=os.listdir(raiz)
-#jsonFile.createRelationFolders(targets, folder)
 lang_in=lang
 
 
 if(corpus):
     print('---------CORPUS')
-    
-    out=statistical_patri.main(corpus)
-    clean=postprocess.main(out)
-    file_schema=jsonFile.editFileSchema(scheme)
-    #print(clean)
-    for i in clean: 
-        if(i):
-            interm=i
-            all_process(interm, context, contextFile, lang, targets, scheme, lang_in, file_schema, clean, coling)
-    conts_log.main()
+    if(lang_in!='de'):
+        corpus=corpus.lower()
+        out=statistical_patri.main(corpus)
+        clean=postprocess.main(out)
+        file_schema=jsonFile.editFileSchema(scheme)
+        
+        for i in clean: 
+            if(i):
+                interm=i
+                all_process(interm, context, contextFile, lang, targets, scheme, lang_in, file_schema, clean, coling)
+    #conts_log.main()
 
 if(term):
     print('---------SOLO TERMINO')
-    name_file=''
-    file_schema=jsonFile.editFileSchema(scheme)
-    all_process(term, context, contextFile, lang, targets, scheme, lang_in, file_schema, [], coling)
-    conts_log.main()
+    if(lang_in!='de'):
+        term=term.lower()
+        file_schema=jsonFile.editFileSchema(scheme)
+        all_process(term, context, contextFile, lang, targets, scheme, lang_in, file_schema, [], coling)
+    #conts_log.main()
     
         
 if(listTerm):
     print('---------LISTA')
-    name_file=''
-    file_schema=jsonFile.editFileSchema(scheme)
+    if(lang_in!='de'):
+        listTerm=listTerm.lower()
+        name_file=''
+        file_schema=jsonFile.editFileSchema(scheme)
 
-    listread=[]
-    txt=0
-    if(listTerm[-4:]=='.txt'):
-        file=open(listTerm, 'r', encoding='utf-8')
-        read=file.readlines()
-        txt=1
-    else:
-        file=open(listTerm+'.csv', 'r', encoding='utf-8')
-        read=csv.reader(file)
-    cont=0
-    for i in read: 
-        if(i):
-            if(txt==1):
-                interm=i[:-1]
-            else:
-                interm=i[0]
-            all_process(interm, context, contextFile, lang, targets, scheme, lang_in, file_schema, [], coling)
-    conts_log.main()
+        listread=[]
+        txt=0
+        if(listTerm[-4:]=='.txt'):
+            file=open(listTerm, 'r', encoding='utf-8')
+            read=file.readlines()
+            txt=1
+        else:
+            file=open(listTerm+'.csv', 'r', encoding='utf-8')
+            read=csv.reader(file)
+        cont=0
+        for i in read: 
+            if(i):
+                if(txt==1):
+                    interm=i[:-1]
+                else:
+                    interm=i[0]
+                all_process(interm, context, contextFile, lang, targets, scheme, lang_in, file_schema, [], coling)
+    #conts_log.main()
 
 
 
+conts_log.main()

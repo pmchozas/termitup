@@ -16,7 +16,6 @@ logging.basicConfig(filename='myapp.log',
     level=logging.INFO)
 
 def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels, file_schema):
-    #print(outFile)
     fp=jsonFile.full_pref(outFile)
     prefLabel_full=fp[1]
     targets_pref=fp[0]
@@ -35,8 +34,7 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels, fi
         if(len(uri)):
             if(rels!=2):
                 if(len(outFile['skos-xl:prefLabel'][0]['source'])==0 ):
-                    outFile['skos-xl:prefLabel'][0]['source']=uri[0][0]
-                    
+                    outFile['skos-xl:prefLabel'][0]['source']=uri[0][0]    
             find=1
             for i in uri:
                 urilist.append(i[0])
@@ -53,18 +51,14 @@ def eurovoc(termSearch, lang, targets, context,  wsid, outFile, scheme, rels, fi
                 
             d=(defsnull, urilist)
             maximo=wsidCode.wsidFunction(termSearch, context,  d)
-            #print(maximo)
+            
             if(maximo[2]!=200):
-                for i in uri:
-                    outFile['closeMatch']=i[0]
-                    
-
-                
+                pass
             elif(maximo[0]!='' and maximo[2]==200):
                 maxx=defsnull.index(maximo[0])
                 namewsid=name[maxx]
                 uriwsid=maximo[1]
-                outFile['exactMatch']=uriwsid
+                outFile['closeMatch'].append(uriwsid)
                 tars= extrafunctions.check_prefLabel(outFile, targets, rels)
                 if(len(tars)>0):
                     for lang in targets:
@@ -122,7 +116,6 @@ def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
             for result in results["results"]["bindings"]:
                 answeruri=result["c"]["value"]
                 answerl=result["label"]["value"]
-                #print(termSearch, answerl)
                 if(termSearch.lower() == answerl.lower()):#ATENCION
                     
                     defs=def_term_eurovoc(answeruri, lang)
@@ -139,11 +132,10 @@ def uri_term_eurovoc(termSearch, lang): #recoge la uri del termino a buscar
                                 answer.append([answeruri, answerl, defs])
                         elif(termSearch == i):
                             defs=def_term_eurovoc(answeruri, lang)
-                            #print(answeruri, answerl, '|',defs)
                             answer.append([answeruri, answerl, defs])
                 
     except json.decoder.JSONDecodeError:
-        answer=[]
+        pass
 
 
     return(answer)
@@ -204,7 +196,6 @@ def getRelation(uri_termino, relation, lang): #recoge la uri de la relacion a bu
                     name=name_term_eurovoc(answerRel,lang,'prefLabel')
                     answer.append([answerRel, name, relation])
     except json.decoder.JSONDecodeError:
-        #print('json.decoder.JSONDecodeError')
         pass
     
     return(answer)
@@ -269,34 +260,37 @@ def relations_eurovoc(uri, lang, term, outFile, scheme, file_schema, targets):
     return(outFile)
 
 def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, file_schema, outFile,targets):
+    print('eurovoc_file', relation)
     termSearch2=termSearch
     if(termSearch[-6:]=='unesco'):
         termSearch=termSearch[:-6]
-
-
     termSearch=termSearch.replace('/', ' ')
-    if('topConceptOf' in outFile.keys() and relation=='broader'):
-        del outFile['topConceptOf']
-        ide_split=ide.split('/')
-        file_schema['hasTopConcept'].append(ide_split[-1])
+    
+ 
     data={}
-    data={'@contextfile':'http://lynx-project.eu/doc/jsonld/skosterm.json','@type':'skos:Concept', '@id': termSearch.replace(' ', '-')+'-'+lang,'inScheme': scheme.replace(' ',''), "exactMatch":iduri, '@type':'skos:Concept','skos-xl:prefLabel':'','skos-xl:altLabel':'',"topConceptOf":"http://lynx-project.eu/kos/"+scheme.replace(' ','') }
+    data={'@contextfile':'http://lynx-project.eu/doc/jsonld/skosterm.json','@type':'skos:Concept', '@id': termSearch.replace(' ', '-')+'-'+lang,'inScheme': scheme.replace(' ',''), "closeMatch":[iduri], '@type':'skos:Concept','skos-xl:prefLabel':'','skos-xl:altLabel':'',"topConceptOf":"http://lynx-project.eu/kos/"+scheme.replace(' ','') }
 
     data['skos-xl:prefLabel']=[]
     data['skos-xl:altLabel']=[]
     data['definition']=[]
     
     if(termSearch2[-6:]!='unesco'):
-        data=eurovoc(termSearch, lang, targets, None,  'yes', data, scheme, 2, file_schema)
+        if(lang!='de'):
+            termSearch=termSearch.lower()
+            print('RELACION: ',termSearch)
+            data=eurovoc(termSearch, lang, targets, None,  'yes', data, scheme, 2, file_schema)
         del data['definition']
     else:
-        data=unesco.prefLabel_unesco(termSearch2[:-6], lang, targets, data, scheme, file_schema, 2)
+        if(lang!='de'):
+            termSearch2=termSearch2.lower()
+            print('RELACION: ',termSearch2[:-6])
+            data=unesco.prefLabel_unesco(termSearch2[:-6], lang, targets, data, scheme, file_schema, 2)
         if('definition' in data.keys()):
             del data['definition']
         
     if(len(data['skos-xl:prefLabel'])==0):
-        data['skos-xl:prefLabel'].append({'@type':'skos-xl:Label', '@id':termSearch.strip(' ').replace(' ', '-')+'-'+lang+'-pref', 'source': '', 'literalForm':{'@language':lang, '@value': termSearch.strip(' ')}})
-    
+        data['skos-xl:prefLabel'].append({'@type':'skos-xl:Label', '@id':termSearch.strip(' ').replace(' ', '-')+'-'+lang+'-pref',  'literalForm':{'@language':lang, '@value': termSearch.strip(' ')}})
+        del data['closeMatch']
     
     if(len(data['skos-xl:altLabel'])==0):
         del data['skos-xl:altLabel']
@@ -313,10 +307,14 @@ def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, f
         data['related']=[]
         data['related'].append(originalIde_split[-1])
         
-
+    if('broader' in data.keys()):
+        del data['topConceptOf']
 
     data=jsonFile.outFile_full(data)
-    n=termSearch.replace(' ', '-').replace('\ufeff','')
+    if(lang!='de'):
+        n=termSearch.replace(' ', '-').replace('\ufeff','').lower()
+    else:
+        n=termSearch.replace(' ', '-').replace('\ufeff','')
     n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
             normalize( "NFD", n), 0, re.I
                 )

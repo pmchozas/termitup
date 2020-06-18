@@ -1,7 +1,7 @@
 import requests
 import json
 def wsidFunction(termIn, context,   definitions):
-    print(termIn,'|', context.lower(),'|',   definitions)
+    #print(termIn,'|', context.lower(),'|',   definitions)
     defiMax=''
     idMax=''
     posMax=0

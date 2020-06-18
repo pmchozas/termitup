@@ -15,10 +15,8 @@ def preProcessingTerm(term, context, contextFile, lang):
         termcheck=porter.stem(termcheck)
 
     termcheck2=termcheck.replace(' ', '_')
-    #print(context)
     if(context):
         context=context
-        #context=reduction_wsid(context)
     elif(contextFile):
         file=open(contextFile, 'r', encoding='utf-8')
         contextFile=file.readlines()
@@ -52,7 +50,6 @@ def preProcessingTerm(term, context, contextFile, lang):
             context=context[:-1]
 
         ind=context.index(term.lower())
-        #ind2=context.index('.')
         l=len(context)
         i=0
         ban=0

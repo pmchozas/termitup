@@ -16,7 +16,6 @@ logging.basicConfig(filename='myapp.log',
     level=logging.INFO)
 
 def prefLabel_unesco(termSearch, lang, targets, outFile, scheme, file_schema, rels): #recoge la uri del termino a buscar
-    #print(termSearch, lang)
     term='"^'+termSearch+'$"'
     lang='"'+lang+'"'
     file={}
@@ -40,8 +39,7 @@ def prefLabel_unesco(termSearch, lang, targets, outFile, scheme, file_schema, re
     
     r=requests.get(url, params={'format': 'json', 'query': query})
     rjson=json.loads(r.text)
-    #print(rjson)
- 
+
     uri=''  
     if('results' in rjson.keys()):
         results=rjson['results']
@@ -52,6 +50,7 @@ def prefLabel_unesco(termSearch, lang, targets, outFile, scheme, file_schema, re
             if(rels!=2):
                 if(len(outFile['skos-xl:prefLabel'][0]['source'])==0):
                     outFile['skos-xl:prefLabel'][0]['source']=uri
+                    outFile['closeMatch'].append(uri)
             #print(termSearch)            
             outFile=extrafunctions.property_add( termSearch, lang[1:3], outFile, 'prefLabel',rels,uri) 
             outFile=altLabel_unesco(termSearch, lang[1:3], targets, outFile, scheme, file_schema, rels)   
@@ -75,7 +74,6 @@ def altLabel_unesco(termSearch, lang, targets, outFile, scheme, file_schema, rel
       FILTER regex(?label, """+term+""", "i" )
       FILTER (lang(?label) = """+lang+""") 
       FILTER (?p IN (skos:altLabel ) )
-      
 
     }  
     }
@@ -84,7 +82,6 @@ def altLabel_unesco(termSearch, lang, targets, outFile, scheme, file_schema, rel
     
     r=requests.get(url, params={'format': 'json', 'query': query})
     rjson=json.loads(r.text)
-    #print(rjson)
 
     uri=''  
     if('results' in rjson.keys()):
@@ -103,7 +100,6 @@ def relation_unesco(uri, lang, outFile, targets, scheme, file_schema):
     for relation in relations:
         if(relation not in outFile.keys()):
             outFile[relation]=[]
-        #print(relation,'------')
         query2="""
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         SELECT ?c ?label
@@ -127,7 +123,7 @@ def relation_unesco(uri, lang, outFile, targets, scheme, file_schema):
             for b in range(len(bindings)):
                 uri_re=bindings[b]['label']['value']
                 outFile=termRel_unesco(uri_re, lang, outFile, relation, targets, scheme, file_schema) 
-    #print(file)       
+     
     return(outFile)
 
 def termRel_unesco(uri_re, lang, outFile, relation, targets, scheme, file_schema):
@@ -185,138 +181,4 @@ def termRel_unesco(uri_re, lang, outFile, relation, targets, scheme, file_schema
     return(outFile)
 			    		
 			    		
-				    		
-			    		
-
-		    		
-
-	    			
-'''
-outFile={
-    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
-    "@type": "skos:Concept",
-    "@id": "http://lynx-project.eu/kos/accidente-es",
-    "inScheme": "labourlaw",
-    "source": "https://dictapi.lexicala.com/senses/ES_SE00000884",
-    "closeMatch": 1084327,
-    "exactMatch": "https://www.wikidata.org/wiki/Q171558",
-    "skos-xl:prefLabel": [
-        {
-            "@type": "skos-xl:Label",
-            "@id": "accidente-es-pref",
-            "source": "https://dictapi.lexicala.com/senses/ES_SE00000884",
-            "literalForm": {
-                "@language": "es",
-                "@value": "accidente"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "ongeval-nl-pref",
-            "source": "https://dictapi.lexicala.com/senses/ES_SE00000884",
-            "literalForm": {
-                "@language": "nl",
-                "@value": "ongeval"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "Unfall-de-pref",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "de",
-                "@value": "Unfall"
-            }
-        }
-    ],
-    "skos-xl:altLabel": [
-        {
-            "@type": "skos-xl:Label",
-            "@id": "Unfallart-de-alt",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "de",
-                "@value": "Unfallart"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "Unfallgeschehen-de-alt",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "de",
-                "@value": "Unfallgeschehen"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "misadventure-en-alt",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "en",
-                "@value": "misadventure"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "misfortune-en-alt",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "en",
-                "@value": "misfortune"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "mishap-en-alt",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "en",
-                "@value": "mishap"
-            }
-        },
-        {
-            "@type": "skos-xl:Label",
-            "@id": "ongeluk-nl-alt",
-            "source": "https://www.wikidata.org/wiki/Q171558",
-            "literalForm": {
-                "@language": "nl",
-                "@value": "ongeluk"
-            }
-        }
-    ],
-    "definition": [
-        {
-            "@language": "es",
-            "@value": "suceso inesperado"
-        },
-        {
-            "@language": "de",
-            "@value": "unvorhergesehenes, einer Person oder Sache Schaden zufügendes Ereignis"
-        }
-    ],
-    "broader":[],
-    "narrower":[],
-    "related":['Daño-es',
-    'Lesion-es',],
-    "example": "5. los delegados de prevención y, en su defecto, los representantes legales de los trabajadores en el centro de trabajo, que aprecien una probabilidad seria y grave de accidente por la inobservancia de la legislación aplicable en la materia, requerirán al empresario por escrito para que adopte las medidas oportunas que hagan desaparecer el estado de riesgo; si la petición no fuese atendida en un plazo de cuatro días, se dirigirán a la autoridad competente; esta, si apreciase las circunstancias a",
-    "topConceptOf": "http://lynx-project.eu/kos/labourlaw"
-}
-        
-file_schema={
-    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
-    "@id": "labourlaw",
-    "conceptScheme": "http://lynx-project.eu/kos/labourlaw/",
-    "hasTopConcept": [
-
-    ],
-    "label": "labour law",
-    "creator": "UPM",
-    "date": "March 10",
-    "description": "Terminological data about Labour Law in Europe."
-    } 
-
-file=prefLabel_unesco('accidente', 'es', ['es', 'en', 'de', 'nl'], outFile, 'labour law', file_schema)
-
-print(file)'''
 

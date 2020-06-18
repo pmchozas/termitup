@@ -928,6 +928,7 @@ def quit_plural(valuelist):
 
 # 4 numeros
 def delete_numbers(list_):
+	print(list_)
 	start_time=time()
 	file=open('data/numberlist_es', 'r', encoding='utf-8')
 	read=file.readlines()
@@ -938,8 +939,8 @@ def delete_numbers(list_):
 			i=i[:-1]
 			for j in list_:
 				#print(i,'|', j)
-				if(' '+i+' ' == ' '+j+' ' ):
-					#print(i, '|', j)
+				if(' '+i+' ' in ' '+j+' ' ):
+					print(i, '|', j)
 					deletes.append(j)
 					ind=list_.index(j)
 					cont=cont+1
