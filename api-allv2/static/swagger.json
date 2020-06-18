@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "description": "This service generates Enriched Linked Terminologies from scratch: given a term, it retrieves multilingual data from the Linguistic Linked Open Data cloud (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled as per the SKOS vocabulary.",
+    "description": "[WORK IN PROGRESS] This service generates Enriched Linked Terminologies from scratch: given a term, it retrieves multilingual data from the Linguistic Linked Open Data cloud (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled in SKOS-XL.",
     "version": "1.0.0",
     "title": "TermitUp",
     "license": {
@@ -19,10 +19,10 @@
     "/term": {
       "get": {
         "tags": [
-          "Search Terms"
+          "Term Enriching"
         ],
         "description": "With a unique term as an input, the service retrieves non disambiguated data from IATE, EuroVoc and Lexicala. If a context for the term is provided, the user can activate the \"wsid\" option to get disambiguated information. Links from the provenance of the data are included in the resulting JSON-LD files.",
-        "summary": "Enriching Demmo with manual input",
+        "summary": "Enriching Demo with manual input",
         "parameters": [
           {
             "in": "query",
@@ -146,10 +146,13 @@
             }
           },
           "broader": {
-            "type": "string"
+            "type": "ID"
+          },
+          "narrower": {
+            "type": "ID"
           },
           "related": {
-            "type": "string"
+            "type": "ID"
           }
         }
       },
