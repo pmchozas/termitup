@@ -32,43 +32,6 @@ Before executing preprocess.py, you must install and execute Stanford CoreNLP in
 ### Statistical Terminology Extraction from corpus. Linguistic Postprocessing of the extracted terms. Terminology Enrichment from Language Resources (part of them in the LLOD) with definitions, translations, synonyms and terminological relations. 
 
 This code requires:
-python3 with the following libraries: argparse, csv, requests, json, random, re, os, collections
-
-Arguments:
-- "--sourceTerm", help="Source term to search"
-- "lang", help="Source language"
-- "--targets", help="Source language out"
-- "--context", help="Context to disambiguate"
-
-For example: python3 searchTerm_all.py "maternity leave" en --targets "en es de nl" iate
-input: term, language in, language out, api name
-output: Definition and synonyms in languague out
-
-For example: python3 searchTerm_all.py "maternity leave" en eurovoc
-input: term, language in, api name
-output: Broader term, Narrower term, Related term
-
-For example: python3 searchTerm_all.py "maternity leave" en --targets "en es de nl" --context "period in which a woman is legally allowed to be absent from work in the weeks before and after she gives birth" syns
-For example: python3 searchTerm_all.py "descanso" es --targets "en de nl es" --context "Dicha distribución deberá respetar en todo caso los periodos mínimos de descanso diario y semanal previstos en la ley y el trabajador deberá conocer con un preaviso mínimo de cinco días el día y la hora de la prestación de trabajo resultante de aquella." syns
-input: term, language in, language out, context, api name
-output: Definition disambiaguate with synonym, and synonyms in language out
-
-
-For example: python3 searchTerm_all.py descanso es --targets "en de nl es" all
-input: term, language in, language out, all
-out put:
--Definition and synonyms in languague out
--Broader term, Narrower term, Related term
--Definition disambiaguate with synonym, and synonyms in language out
-
-
-### Querying IATE: iate.py
-From IATE, we retrieve:
-- Translations 
-- Synonyms
-- Definitions
-
-This code requires:
 
 python3 with the following libraries: argparse, csv, requests, json, random, re, os, collections
 
