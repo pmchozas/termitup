@@ -146,13 +146,13 @@
             }
           },
           "broader": {
-            "type": "ID"
+            "type": "string"
           },
           "narrower": {
-            "type": "ID"
+            "type": "string"
           },
           "related": {
-            "type": "ID"
+            "type": "string"
           }
         }
       },
