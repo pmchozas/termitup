@@ -277,13 +277,13 @@ def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, f
     if(termSearch2[-6:]!='unesco'):
         if(lang!='de'):
             termSearch=termSearch.lower()
-            print('RELACION: ',termSearch)
+            #print('RELACION: ',termSearch)
             data=eurovoc(termSearch, lang, targets, None,  'yes', data, scheme, 2, file_schema)
         del data['definition']
     else:
         if(lang!='de'):
             termSearch2=termSearch2.lower()
-            print('RELACION: ',termSearch2[:-6])
+            #print('RELACION: ',termSearch2[:-6])
             data=unesco.prefLabel_unesco(termSearch2[:-6], lang, targets, data, scheme, file_schema, 2)
         if('definition' in data.keys()):
             del data['definition']
