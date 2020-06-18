@@ -1,0 +1,14 @@
+{
+    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+    "@id": "labourlaw",
+    "conceptScheme": "http://lynx-project.eu/kos/labourlaw/",
+    "hasTopConcept": [
+        "http://lynx-project.eu/kos/agreed-that-the-en",
+        "http://lynx-project.eu/kos/that-the-en",
+        "http://lynx-project.eu/kos/agreement-for-en"
+    ],
+    "label": "labour law",
+    "creator": "UPM",
+    "date": "March 10",
+    "description": "Terminological data about Labour Law in Europe."
+}

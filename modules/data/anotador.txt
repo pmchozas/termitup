@@ -1,0 +1,53 @@
+ <TIMEX3 tid="t1" type="DURATION" value="P1D">jornada</TIMEX3>
+ <TIMEX3 tid="t2" type="DURATION" value="P1Y">año</TIMEX3>
+ <TIMEX3 tid="t3" type="DURATION" value="PXM">meses</TIMEX3>
+ <TIMEX3 tid="t4" type="DURATION" value="PXW">semanas</TIMEX3>
+ <TIMEX3 tid="t5" type="DURATION" value="PXY">años</TIMEX3>
+ <TIMEX3 tid="t6" type="DURATION" value="PXM">meses</TIMEX3>
+ reducción de <TIMEX3 tid="t7" type="DURATION" value="P1D">jornada</TIMEX3>
+ <TIMEX3 tid="t8" type="DATE" value="2020-10">octubre</TIMEX3>
+ <TIMEX3 tid="t9" type="DURATION" value="P1Y">año</TIMEX3>
+ <TIMEX3 tid="t10" type="DURATION" value="PXY">años</TIMEX3>
+ <TIMEX3 tid="t11" type="DURATION" value="PXM">meses</TIMEX3>
+ <TIMEX3 tid="t12" type="DATE" value="2020-03">marzo</TIMEX3>
+ <TIMEX3 tid="t13" type="DURATION" value="PXW">semanas</TIMEX3>
+ <TIMEX3 tid="t14" type="DURATION" value="PT1H">hora</TIMEX3>
+ <TIMEX3 tid="t15" type="DATE" value="2020-01">enero</TIMEX3>
+ <TIMEX3 tid="t16" type="DURATION" value="P12M">doce meses</TIMEX3>
+ <TIMEX3 tid="t17" type="DURATION" value="PXY">años</TIMEX3>
+ <TIMEX3 tid="t18" type="DURATION" value="P15D">quince días</TIMEX3>
+ <TIMEX3 tid="t19" type="DURATION" value="P1Y">año</TIMEX3> de servicio
+ <TIMEX3 tid="t20" type="DATE" value="2020-07">julio</TIMEX3>
+ <TIMEX3 tid="t21" type="DATE" value="2020-12">diciembre</TIMEX3>
+ <TIMEX3 tid="t22" type="DATE" value="2020-10-10">10 de octubre</TIMEX3>
+ <TIMEX3 tid="t23" type="DATE" value="2020-02-12">12 de febrero</TIMEX3>
+ <TIMEX3 tid="t24" type="DURATION" value="P1Y">año</TIMEX3> de servicio
+ <TIMEX3 tid="t25" type="DURATION" value="P1D">jornada completa</TIMEX3>
+ <TIMEX3 tid="t26" type="DATE" value="2020-02">febrero</TIMEX3>
+ <TIMEX3 tid="t27" type="DURATION" value="P15D">quince días</TIMEX3>
+ <TIMEX3 tid="t28" type="DURATION" value="P1Q">trimestre</TIMEX3>
+ <TIMEX3 tid="t29" type="DATE" value="2020-11">noviembre</TIMEX3>
+ <TIMEX3 tid="t30" type="SET" value="P1Y">anual</TIMEX3>
+ <TIMEX3 tid="t31" type="DATE" value="2020-06">junio</TIMEX3>
+ <TIMEX3 tid="t32" type="DURATION" value="PXM">meses siguientes</TIMEX3>
+ <TIMEX3 tid="t33" type="DATE" value="2020-10">octubre</TIMEX3> Reguladora
+ <TIMEX3 tid="t34" type="DURATION" value="PXW">dieciséis semanas</TIMEX3>
+ <TIMEX3 tid="t35" type="SET" value="P1W">semanal</TIMEX3>
+ <TIMEX3 tid="t36" type="DURATION" value="P1D">jornada completa</TIMEX3>
+ <TIMEX3 tid="t37" type="DURATION" value="P1D">jornada diaria</TIMEX3>
+ <TIMEX3 tid="t38" type="DURATION" value="P10W">diez semanas</TIMEX3>
+ <TIMEX3 tid="t39" type="SET" value="P1W">semanales</TIMEX3>
+ <TIMEX3 tid="t40" type="SET" value="P1Y">anual</TIMEX3>
+ <TIMEX3 tid="t42" type="DATE" value="2020-11">noviembre</TIMEX3> de Prevención
+ <TIMEX3 tid="t43" type="DATE" value="2020-08">agosto</TIMEX3>
+ <TIMEX3 tid="t44" type="DATE" value="2012-02">febrero de 2012</TIMEX3>
+ <TIMEX3 tid="t45" type="DATE" value="2020-WXX-01">lunes</TIMEX3>
+ <TIMEX3 tid="t46" type="DURATION" value="P1D">jornada</TIMEX3>
+ <TIMEX3 tid="t48" type="DURATION" value="PXQ">trimestres</TIMEX3>
+ <TIMEX3 tid="t49" type="DURATION" value="P18Y">dieciocho años</TIMEX3>
+ <TIMEX3 tid="t50" type="DURATION" value="P9M">nueve meses</TIMEX3>
+ cómputo <TIMEX3 tid="t51" type="SET" value="P1Y">anual</TIMEX3>
+ <TIMEX3 tid="t52" type="DURATION" value="P12W">doce semanas</TIMEX3>
+ <TIMEX3 tid="t53" type="DURATION" value="P1D">jornada máxima</TIMEX3>
+ <TIMEX3 tid="t41" type="DURATION" value="P1D">jornada ordinaria</TIMEX3>
+ <TIMEX3 tid="t47" type="SET" value="P1D">diario</TIMEX3>

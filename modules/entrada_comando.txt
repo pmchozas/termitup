@@ -1,0 +1,6 @@
+python3 main.py --lang es --targets "es de nl en" --contextFile estatuto_es.txt --wsid yes --schema "labour law" --corpus estatuto_es.txt 
+
+
+
+Si se ejecuta para colina poner al final
+--coling yes
