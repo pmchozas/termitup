@@ -87,17 +87,13 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
             if(wsid=='yes'):
                 d=(definition,iduri)
                 maximo=wsidCode.wsidFunction(term,  context,   d)
-                print(maximo)
+                #print(maximo)
                 relations_retrieved = dict()
                
                 if( maximo[2]!=200):
-                    outFile['closeMatch']='https://www.wikidata.org/wiki/'+iduri[0]
-                    #print('WSID NO 200', iduri)
-                    #closeMatch.append('https://www.wikidata.org/wiki/'+iduri[0])
-                    #outFile=wsid_wiki_no(outFile, targets, iduri, original_query, altLabel_query, narrower_concept_query, broader_concept_query, term_query, rels)
+                    #outFile['closeMatch']='https://www.wikidata.org/wiki/'+iduri[0]
                     pass
                 elif(maximo[0]!='' and maximo[2]==200):
-                    #print('WSID 200')
                     if(len(outFile['skos-xl:prefLabel'][0]['source'])==0):
                         outFile['skos-xl:prefLabel'][0]['source']='https://www.wikidata.org/wiki/'+maximo[1]
 
@@ -113,7 +109,7 @@ def wikidata_retriever(term, lang, context,  targets, outFile, rels, wsid):
                             bindings=data['results']['bindings']
                             if(len(bindings)>0):
                                 #find_wiki.append(maximo[1])
-                                outFile['exactMatch']='https://www.wikidata.org/wiki/'+maximo[1]
+                                outFile['closeMatch'].append('https://www.wikidata.org/wiki/'+maximo[1])
                                 for i in range(len(bindings)):
                                     if('name' in bindings[i]):
                                         prefLabel_wiki=bindings[i]['name']['value']

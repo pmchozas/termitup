@@ -12,30 +12,25 @@ def jsonFile(ide, scheme, rels, note, context, term, lang_in, file_schema, n):
         '@type':'skos:Concept',
         '@id': ide,
         'inScheme': scheme.replace(' ',''),
-        'source':'',
-        'source':'',
-        'closeMatch':'',
-        'exactMatch':'',
-        'exactMatch':'',
+        'source':[],
+        'closeMatch':[],
+        'exactMatch':[],
+        'jurisdiction': 'http://dbpedia.org/page/Spain',
         'skos-xl:prefLabel':'' ,
         'skos-xl:altLabel':'' ,
         'definition':'' ,
         'note':'' ,
         'example': '',
         'topConceptOf': 'http://lynx-project.eu/kos/'+scheme.replace(' ','')}
-    #print('----------------------------------', ide)
+    
     ide_split=ide.split('/')
     file_schema['hasTopConcept'].append(ide_split[-1])
-    #file_schema['hasTopConcept'].append(ide)
-
 
     data['skos-xl:prefLabel']=[]
     data['skos-xl:altLabel']=[]
     data['definition']=[]
-    
-    data['skos-xl:prefLabel'].append({'@type':'skos-xl:Label', '@id':n.strip(' ').replace(' ', '-')+'-'+lang_in+'-pref', 'source': '', 'literalForm':{'@language':lang_in, '@value': term.strip(' ')}})
-    #prefLabel_full.append(term.strip(' ').replace('\ufeff','')+'-'+lang_in)
-    #targets_pref.append(lang_in.strip(' '))
+
+    data['skos-xl:prefLabel'].append({'@type':'skos-xl:Label', '@id':n.lower().strip(' ').replace(' ', '-')+'-'+lang_in+'-pref', 'source': '', 'literalForm':{'@language':lang_in, '@value': term.strip(' ')}})
 
     if(rels==1):
         data['broader']=[]
@@ -76,12 +71,7 @@ def editFileSchema(scheme):
     
     return(file_schema)
 
-
-
-
 def fix(outFile, note, context, termin):
-
-    
     if(len(note)):
         outFile['note']=note
 
@@ -105,20 +95,17 @@ def fix(outFile, note, context, termin):
     if(context==None):
         del(outFile['example'])
 
-    if(outFile['closeMatch']==''):
+    if(len(outFile['closeMatch'])==0):
         del(outFile['closeMatch'])
-    if(outFile['source']==''):
+    if(len(outFile['source'])==0):
         del(outFile['source'])
-    if(outFile['exactMatch']==''):
+    if(len(outFile['exactMatch'])==0):
         del(outFile['exactMatch'])
 
     if(outFile['skos-xl:prefLabel'][0]['source']==''):
         del outFile['skos-xl:prefLabel'][0]['source']
 
-
     return(outFile)
-
-
 
 def full_alt(outFile):
     altLabel_full=[]
@@ -189,7 +176,6 @@ def outFile_full(outFile):
     alts=[]
     list_acentos=[]
     for a in altLabel_full:
-        #alts.append(a.lower())
         acento=re.search("[áéíóúÁÉÍÓÚ]+", a.lower())
         if(acento!=None):
             sin=normalize(a)
@@ -238,3 +224,16 @@ def outFile_full(outFile):
             outFile_full(outFile)
 
     return(outFile)
+
+
+
+
+def topConcept(outFile,  file_schema):
+    if('broader' in outFile.keys()):
+        del outFile['topConceptOf']
+
+    elif('broader' not in outFile.keys() ):
+        file_schema['hasTopConcept'].append(outFile['@id'])
+    return(outFile)
+    
+

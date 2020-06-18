@@ -10,6 +10,7 @@ import trans_id
 import re
 from unicodedata import normalize
 import jsonFile
+import wsidCode
 nlp = spacy.load('es_core_news_sm')
 # =========================================
 # 
@@ -30,7 +31,12 @@ def get_conceptNet_synonyms(term, lang):
             syn_lang = obj['edges'][edge_index][edge_directions[direction]]["language"]
             if syn_lang == lang:
                 synonyms.append(obj['edges'][edge_index][edge_directions[direction]]["label"])
-    return list(set(synonyms))
+    #print('concept net',set(synonyms))
+                 
+    return (list(set(synonyms)))
+
+
+
 
 def inducer(T, A, S):
     # Gets T, the list of preferred labels and A, the list of alternative labels
@@ -137,7 +143,8 @@ def inducer(T, A, S):
 # main
 # =========================================
 # Read the configuration file
-def main(outFile, file_schema, targets, clean, lang_in):
+def main(outFile, file_schema, targets, clean, lang_in, context):
+    #print(context)
     print("============ Relval")
 
     # ================
@@ -150,13 +157,15 @@ def main(outFile, file_schema, targets, clean, lang_in):
             value1=pref[i]['literalForm']['@value']
             T=pref[i]['literalForm']['@value'].lower().split()
             #print('T: ', T, lang)
-            S = dict()
-            for t in T:
-                if t not in S:
-                    S[t] = get_conceptNet_synonyms(t, lang)
-            # S = get_conceptNet_synonyms(T.replace(" ", "_"), lang)
-            #print("T:", T, "lang:", lang, "S:", S)
-            #print(S)
+            if(lang=='es'):
+                S = dict()
+                for t in T:
+                    if t not in S:
+                        S[t] = get_conceptNet_synonyms(t, lang)
+                        #print(S[t])
+                # S = get_conceptNet_synonyms(T.replace(" ", "_"), lang)
+                #print("T:", T, "lang:", lang, "S:", S)
+            
             if len(S):
                 if ('skos-xl:altLabel' in outFile.keys()):
                     alt=outFile['skos-xl:altLabel']
@@ -178,9 +187,9 @@ def main(outFile, file_schema, targets, clean, lang_in):
                                 #print('--------------------------')
                                 if(T_A_relationship!=None):
                                     if(T_A_relationship!='synonymy'):
-                                        print('T: ', T, 'A: ',A, 'S: ', S)
-                                        print("A:", A, "SR:", T_A_relationship)
-                                        print('--------------------------')
+                                        ##print('T: ', T, 'A: ',A, 'S: ', S)
+                                        ##print("A:", A, "SR:", T_A_relationship)
+                                        ##print('--------------------------')
                                         ind=alt.index(item1)
                                         #print(item1, ind)
                                         del outFile["skos-xl:altLabel"][ind]
@@ -190,7 +199,7 @@ def main(outFile, file_schema, targets, clean, lang_in):
                                         termSearch=check[1]
                                         #print('TERM A BUSCAR:----------- ', termSearch)
                                         if(termSearch!='1'):
-                                            eurovocCode.eurovoc_file(termSearch, ide, T_A_relationship, 'uri', language, 'labourlaw',  outFile["@id"], file_schema, outFile,targets)
+                                            eurovocCode.eurovoc_file(termSearch, ide, T_A_relationship, None, language, 'labourlaw',  outFile["@id"], file_schema, outFile,targets)
                                         full=jsonFile.full_rels(outFile, T_A_relationship)
                                         cadena = re.sub('[/,+.;:/)([]]*', '',  value2)
                                         n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
@@ -198,7 +207,6 @@ def main(outFile, file_schema, targets, clean, lang_in):
                                             )
                                         n = normalize( 'NFC', n)
                                         uri=n.replace(' ','-')+'-'+lang
-
                                         if(uri not in full):
                                             if(T_A_relationship not in outFile.keys()):
                                                 outFile[T_A_relationship]=[]
@@ -214,21 +222,32 @@ def main(outFile, file_schema, targets, clean, lang_in):
                         value2=j
                         A=j.lower().split()
                         language=lang_in
-                        #print('A: ', A, language)
-                        if(language=='es'):
+                        #print(T, 'A: ', A, language)
+                        if(language=='es' and lang=='es'):
                             if len(A):
                                 # Go for axiom induction    
                                 T_A_relationship = inducer(T, A, S)
                                 altLabel_induction[" ".join(A)] = T_A_relationship
                                 if(T_A_relationship!=None):
                                     if(T_A_relationship!='synonymy'):
-                                        print('T: ', T, 'A: ',A, 'S: ', S)
-                                        print("A:", A, "SR:", T_A_relationship)
-                                        print('--------------------------')
+                                        #print('T: ', T, 'A: ',A, 'S: ', S)
+                                        #print("A:", A, "SR:", T_A_relationship)
+                                        #print('--------------------------')
                                         
                                         
                                         #ide=trans_id.trans_ID(value2, lang)
+                                        ind=alt.index(item1)
+                                        #print(item1, ind)
+                                        del outFile["skos-xl:altLabel"][ind]
+                                        check=check_term.checkTerm(lang,value2, '', [language], '')
+                                        ide=check[0]
+                                        ide_file=ide
+                                        termSearch=check[1]
+                                        #print('TERM A BUSCAR:----------- ', termSearch)
+                                        if(termSearch!='1'):
+                                            eurovocCode.eurovoc_file(termSearch, ide, T_A_relationship, None, language, 'labourlaw',  outFile["@id"], file_schema, outFile,targets)
                                         full=jsonFile.full_rels(outFile, T_A_relationship)
+                                        
                                         cadena = re.sub('[/,+.;:/)([]]*', '',  value2)
                                         n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
                                                             normalize( "NFD", cadena), 0, re.I

@@ -2,7 +2,6 @@ import os
 import codecs
 import sqlite3
 import xml.etree.cElementTree as etree
-
 import nltk
 from nltk.util import ngrams
 from nltk.probability import FreqDist

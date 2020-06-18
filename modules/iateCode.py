@@ -109,7 +109,6 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                 if(wsid=='yes'):
                     maximo=wsidCode.wsidFunction(termSearch[cont],  context.lower(),   d)
                     if(maximo[2]!=200):
-                        outFile['closeMatch']="https://iate.europa.eu/entry/result/"+str(ides_wsid[0])
                         pass
                     elif(maximo[0]!='' and maximo[2]==200):
                         if(len(outFile['skos-xl:prefLabel'][0]['source'])==0):
@@ -117,7 +116,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                         wsidmax=maximo[1]
                         it=ides_item.index(wsidmax)
                         maxx=ides_wsid[it]
-                        outFile['source']="https://iate.europa.eu/entry/result/"+str(ide_iate)
+                        outFile['source'].append("https://iate.europa.eu/entry/result/"+str(ide_iate))
                         outFile=fillPrefIate(outFile, results, 'prefLabel', 2, wsidmax, rels, ide_iate)
                         outFile=fillAltIate(outFile, results,  'altLabel', 3, wsidmax, rels, ide_iate)
                         outFile=fillDefinitionIate(outFile, results,  'definition', 1, wsidmax, ide_iate)

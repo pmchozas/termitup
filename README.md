@@ -28,8 +28,9 @@ Before executing preprocess.py, you must install and execute Stanford CoreNLP in
 -preload tokenize,ssplit,pos,ner,parse \
 -status_port 9003  -port 9003 -timeout 15000
 
-### searchTerm_all.py
-### Querying terms to expand with definitions, synonyms and synonyms disambiguation according to a context
+### main.py
+### Statistical Terminology Extraction from corpus. Linguistic Postprocessing of the extracted terms. Terminology Enrichment from Language Resources (part of them in the LLOD) with definitions, translations, synonyms and terminological relations. 
+
 This code requires:
 python3 with the following libraries: argparse, csv, requests, json, random, re, os, collections
 
@@ -61,7 +62,6 @@ out put:
 -Definition disambiaguate with synonym, and synonyms in language out
 
 
-
 ### Querying IATE: iate.py
 From IATE, we retrieve:
 - Translations 
@@ -75,53 +75,25 @@ python3 with the following libraries: argparse, csv, requests, json, random, re,
 Arguments:
 
 - "--sourceFile", help="Name of the source csv file (term list)"
-- "--sourceTerm", help="Source term to search"
-- "--type", help="Type of file read of termino_id.csv: 'w' to create file or 'a' to read and add new terms"
-- "--termId", help="Name of the termino_id file, to save terms and ids"
-- "--targetFile", help="Name of the target file"
-- "--euroSource", help="Name of the eurovoc source file without extension"
-- "lang", help="Source language"
-- "apiName", help="Name of the api: 'iate' or 'eurovoc'"
+- "lang", help="Source language of the corpus"
+- "targets", help="Target languages for the info retrieved"
+- "--contextFile", help="Path to the file to extract the context"
+- "--wsid", help="Type yes or no for word sense disambiguation"
+- "--type", help="Type the name of the schema (domain) without blank spaces"
+- "--corpus", help="Path to the file to extract the terms"
 
-Example: `python3 iate.py --sourceFile sources/contracts_v2.csv --type a  --termId termino_id.csv --targetFile contracts_v2_out.csv --euroSource contracts2_eurosource en iate`  
+Example: python3 main.py --lang es --targets "es de nl en" --contextFile data/corpus/estatuto_es.txt --wsid yes --schema "labourlaw" --corpus data/corpus/estatuto_es.txt   
 
-INPUT: plain list of terms in CSV format
-OUTPUT:
-- CSV file with the info retrieved from IATE. The code generates a repetitive csv file, ugly for human eye, but necessary to convert the files into RDF with RMLmapper.
-- Eurovoc source files: one CSV file per each terminological relation: broader, narrower, related. These are necessary to execute eurovoc queries. 
+INPUT: corpus.txt  
+OUTPUT: enriched and linked jsonld files (one file per term)
 
-Note: iate.py results are filtered by domain, specifically, the legal domain. To query the whole iate, please delete the filters by domain in "haceJson" function. To generate human readable results, please use iage_comas.py
-
-### Querying EuroVoc: eurovoc.py
-From EuroVoc, we retrieve:
-- Broader terms 
-- Narrower terms
-- Related terms
-
-This code requires:
-
-python3 with the following libraries: argparse, csv, SPARQLWrapper, multiprocessing, time
-
-Arguments:
-
-- "--sourceFile", help="Name of the source csv file (term list)"
-- "--sourceTerm", help="Source term to search"
-- "--type", help="Type of file read of termino_id.csv: 'w' to create file or 'a' to read and add new terms"
-- "--targetFile", help="Name of the target file"
-- "query", help="Broader, narrower or related" 
-- "lang", help="Source language"  (Write `todos` to retrieve results in en, es, de and nl.)
-
-Example: `python3 eurovoc.py --sourceFile contract2_eurosource_br.csv --type w --targetFile contract2_eurosource_br_out.csv broader todos` 
-
-INPUT: Eurovoc sources generated from iate.py (CSV files)
-OUTPUT: Eurovoc output (CSV files)
 
 ### api-all
 
 Api Flask-Swagger
 
 execute
--python app.py
+-python3 app.py
 
 
 
