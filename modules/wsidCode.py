@@ -16,14 +16,11 @@ def wsidFunction(termIn, context,   definitions):
         
         listdef=definitions[0]
         listIde=definitions[1]
-        definitionsJoin=', '.join(listdef)
-        if(len(definitionsJoin)>300):
-            definitionsJoin=definitionsJoin[0:299]
-        #print('CONTEXT---',context)
-        #print('START---', start)
-        #print('END---', end)
-        #print('DEINITIONS---',definitions[0])
-        #print('----Entrando WSDI----')
+        print('CONTEXT---',context)
+        print('START---', start)
+        print('END---', end)
+        print('DEINITIONS---',definitions[0])
+        print('----Entrando WSDI----')
         response = requests.post('http://el-flask-88-staging.cloud.itandtel.at/api/disambiguate_demo',
                 params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitions[0]}, 
                 headers ={'accept': 'application/json',
@@ -31,7 +28,7 @@ def wsidFunction(termIn, context,   definitions):
             }
         )
         code=response.status_code
-        #print('CODE WSID',code)
+        print('CODE WSID',code)
         #print('response', response)
         req = response.request
 
@@ -45,7 +42,7 @@ def wsidFunction(termIn, context,   definitions):
         
         try:
             pesos=response.json()
-            #print(pesos)
+            print(pesos)
             if(code==200):
                 max_item = max(pesos)
                 #print(max_item)
@@ -61,12 +58,7 @@ def wsidFunction(termIn, context,   definitions):
                 else:
                     idMax=''
         except json.decoder.JSONDecodeError:
-            #print('JSONDecodeError WSID')
-            pesos=[]
-            defiMax=''
-            idMax=''
-    #print(defiMax, idMax,code)        
-    #print('----Saliendo WSDI----')
+            pass
     
     return(defiMax, idMax,code)
         

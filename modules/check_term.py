@@ -62,7 +62,7 @@ def check_term_in_Terminology(ide, termSearch):
 # files
 def path(targets, relation):
     listt_arq=[]
-    path='data/output/'
+    path='../data/output/'
     listt = [obj for obj in listdir(path) if isfile(path + obj)]
     listt_arq.append(listt)
     return(listt_arq)

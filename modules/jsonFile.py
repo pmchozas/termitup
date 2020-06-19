@@ -2,6 +2,13 @@ import json #libreria para utulizar json en python
 import os 
 import re
 from unicodedata import normalize
+import logging
+#format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
+logging.basicConfig(filename='myapp.log',
+    filemode='a',
+    format='%(asctime)s, %(levelname)s %(message)s',
+    datefmt='%H:%M:%S',
+    level=logging.INFO)
 
 def jsonFile(ide, scheme, rels, note, context, term, lang_in, file_schema, n):  
     newFile=''
@@ -74,7 +81,6 @@ def editFileSchema(scheme):
 def fix(outFile, note, context, termin):
     if(len(note)):
         outFile['note']=note
-
     if(context):
         outFile['example']=context
     if(len(outFile['skos-xl:prefLabel'])==0):
@@ -95,12 +101,28 @@ def fix(outFile, note, context, termin):
     if(context==None):
         del(outFile['example'])
 
+    uri_source=len(outFile['source'])
+    uri_close=len(outFile['closeMatch'])
+    logging.info('FOUND source: '+str(uri_source))
+    logging.info('FOUND closeMatch: '+str(uri_close))
+
+    if(len(outFile['source'])==1):
+        sour=outFile['source'][0]
+        outFile['source']=sour
+    if(len(outFile['closeMatch'])==1):
+        sour=outFile['closeMatch'][0]
+        outFile['closeMatch']=sour
+
+
+
     if(len(outFile['closeMatch'])==0):
         del(outFile['closeMatch'])
     if(len(outFile['source'])==0):
         del(outFile['source'])
     if(len(outFile['exactMatch'])==0):
         del(outFile['exactMatch'])
+
+
 
     if(outFile['skos-xl:prefLabel'][0]['source']==''):
         del outFile['skos-xl:prefLabel'][0]['source']

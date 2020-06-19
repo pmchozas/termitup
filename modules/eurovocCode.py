@@ -251,7 +251,7 @@ def relations_eurovoc(uri, lang, term, outFile, scheme, file_schema, targets):
                     normalize( "NFD", cadena), 0, re.I
                 )
                 n = normalize( 'NFC', n)
-                uri=n.replace(' ','-')+'-'+lang[1:3]
+                uri=n.replace(' ','-')+'-'+lang
 
                 if(uri not in full):
                     logging.info('FOUND (Eurovoc-relation-'+relation+'): '+cadena+' lang: '+lang[1:3])
@@ -260,7 +260,7 @@ def relations_eurovoc(uri, lang, term, outFile, scheme, file_schema, targets):
     return(outFile)
 
 def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, file_schema, outFile,targets):
-    print('eurovoc_file', relation)
+    #print('eurovoc_file', relation)
     termSearch2=termSearch
     if(termSearch[-6:]=='unesco'):
         termSearch=termSearch[:-6]
@@ -319,7 +319,7 @@ def eurovoc_file(termSearch, ide, relation, iduri, lang, scheme,  originalIde, f
             normalize( "NFD", n), 0, re.I
                 )
     n = normalize( 'NFC', n)
-    newFile='data/output/'+n+'-'+lang+'.jsonld'
+    newFile='../data/output/'+n+'-'+lang+'.jsonld'
 
     with open(newFile, 'w') as file:
         json.dump(data, file, indent=4,ensure_ascii=False)

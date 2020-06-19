@@ -46,8 +46,7 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
 
         print('------IATE')
         outFile=iateCode.iate(termSearch, lang,targets, outFile, context, wsid, 1)
-        
-        
+
         print('------WIKI DATA')
         outFile=wikidataCode.wikidata_retriever(termSearch, lang, context,  targets, outFile, 1, wsid)
 
@@ -64,11 +63,11 @@ def all_process(interm, context, contextFile, lang, targets, scheme, lang_in, fi
                         normalize( "NFD", n), 0, re.I
         )
         n = normalize( 'NFC', n)
-        newFile='data/output/'+n+'.jsonld'
+        newFile='../data/output/'+n+'.jsonld'
         with open(newFile, 'w') as file:
             json.dump(outFile, file, indent=4,ensure_ascii=False)
                
-    name='data/output/'+scheme.replace(' ', '_')+'.json'
+    name='../data/output/'+scheme.replace(' ', '_')+'.json'
     with open(name, 'w') as new:
         json.dump(file_schema, new, indent=4,ensure_ascii=False)
 
