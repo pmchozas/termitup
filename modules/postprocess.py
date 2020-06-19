@@ -24,10 +24,10 @@ def clean_terms(termlist):
     #print(termlist)
     start_time=time()
     stop=stopwords.words('spanish')
-    file=open('data/stop-esp.txt', 'r', encoding='utf-8')
+    file=open('../data/stop-esp.txt', 'r', encoding='utf-8')
     mystop=file.readlines()
 
-    filew=open('data/stop-esp_all.txt', 'w', encoding='utf-8')
+    filew=open('../data/stop-esp_all.txt', 'w', encoding='utf-8')
     
     clean_list = []
     cont=0
@@ -845,7 +845,7 @@ def delate_pattern_2(anotador):
 # 3 plurales
 def quit_plural(valuelist):
 	start_time=time()
-	file=open('data/numberlist_es', 'r', encoding='utf-8')
+	file=open('../data/numberlist_es', 'r', encoding='utf-8')
 	read=file.readlines()
 	plural=[]
 	cont=0
@@ -935,7 +935,7 @@ def quit_plural(valuelist):
 # 4 numeros
 def delete_numbers(list_):
 	start_time=time()
-	file=open('data/numberlist_es', 'r', encoding='utf-8')
+	file=open('../data/numberlist_es', 'r', encoding='utf-8')
 	read=file.readlines()
 	cont=0
 	deletes=[]
@@ -1057,7 +1057,7 @@ def main(read):
 	tildes=acentos(numbers)
 	#tildes.sort()
 	stop2=clean_terms(tildes)
-	new=open('data/clean_terms_freq4.txt', 'w')#se imprime lo que se queda
+	new=open('../data/clean_terms_freq4.txt', 'w')#se imprime lo que se queda
 
 	for i in stop2:
 	    new.write(i+'\n')
@@ -1067,7 +1067,7 @@ def main(read):
 	return(stop2)
 
 
-#file=open('data/estatuto_es.txt', 'r', encoding='utf-8')
+#file=open('../data/estatuto_es.txt', 'r', encoding='utf-8')
 #read=file.readlines()
 #main(read)
 
