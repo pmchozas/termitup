@@ -11,7 +11,6 @@ Text Domain: pesto
       }
 body {
     background-color: #FFFFFF;
-    font-family: 'Montserrat';
 
 }
 /*wrapper*/
@@ -101,7 +100,7 @@ ul li {
     /* float: left; */
     display: inline-block;
     padding: 0.5rem; 
-
+    color:#2774AE;
 
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -123,7 +122,8 @@ ul li a {
 }
 
 ul li a:hover{
-   color: #00D2B5; 
+   /*  color: #2774AE; */
+   color:#ee3831;
 }
 
 
@@ -149,7 +149,7 @@ ul li a:hover{
     clear:both;
 }
 
-
+/*
 .title {
     text-align: center;
     font-size: 3rem;
@@ -157,6 +157,7 @@ ul li a:hover{
     color:#00D2B5 ;
     padding: 2rem;
 }
+*/
 
 .title span {
 color: #2F4F4F;
@@ -165,9 +166,9 @@ color: #2F4F4F;
 .subtitle {
     display: block;
     line-height: 1.5;
-    color:#446161;
+    color:black;
     text-align: center; 
-    
+    font-family: "Raleway";
     padding-bottom: 0.5rem;
 }
 
@@ -348,8 +349,7 @@ color: #2F4F4F;
 .intro__title, .contact__title, .about__title {
     font-family:'Montserrat';
     font-size: 2rem;
-    font-weight: 600;
-    color:#00D2B5 ;
+    color:#2774AE ;
     padding-bottom: 1rem;
 
 
@@ -373,7 +373,8 @@ color: #2F4F4F;
 .intro__text, .about__text, .contact__text {
     display: block;
     line-height: 1.5;
-    font-family: 'Montserrat';
+    font-family: 'Raleway';
+    color:black;
     padding-top: 0.5rem;
     text-align: justify;
 
