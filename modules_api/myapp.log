@@ -1,0 +1,33 @@
+12:59:41, INFO CLEAN_TERMS, DELETE (3) NEW LIST SIZE: (95) TIME: (0.015522956848144531)
+12:59:41, INFO TERMS REMOVED: , empleo, trabajo
+12:59:41, INFO AÑOTADOR, DELETE (1) NEW LIST SIZE: (94) TIME: (0.7358849048614502)
+12:59:41, INFO TERMS REMOVED:  <TIMEX3 tid="t1" type="DURATION" value="PXM">meses</TIMEX3>
+12:59:42, INFO PATRONES, DELETE (6) NEW LIST SIZE: (88) TIME: (0.4053800106048584)
+12:59:42, INFO TERMS REMOVED: conforme, convenios colectivos, legal, parcial, parcial, siguientes reglas
+12:59:42, INFO PLURAL, DELETE (13) NEW LIST SIZE: (75) TIME: (0.004394054412841797)
+12:59:42, INFO TERMS REMOVED: caso, contrato, contrato, contrato, convenio colectivo, cualificación, derecho, empresa, escribir, laboral, profesional, servicio, trabajador
+12:59:42, INFO NUMBERS, DELETE (0) NEW LIST SIZE: (75) TIME: (0.020685911178588867)
+12:59:42, INFO TERMS REMOVED: 
+12:59:42, INFO CLEAN_TERMS, DELETE (3) NEW LIST SIZE: (72) TIME: (0.005925178527832031)
+12:59:42, INFO TERMS REMOVED: poner, siguiente, tal
+12:59:42, INFO ----------------------------------------------------------
+12:59:42, INFO Total terms Eurovoc: (0) Total prefLabel: (0) Total altLabel: (0) Total definition: (0)
+12:59:42, INFO prefLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO altLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO definition es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO Total terms Iate: (0) Total prefLabel: (0) Total altLabel: (0) Total definition: (0)
+12:59:42, INFO prefLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO altLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO definition es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO Total terms Unesco: (0) Total prefLabel: (0) Total altLabel: (0) Total definition: (0)
+12:59:42, INFO prefLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO altLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO definition es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO Total terms Wikidata: (0) Total prefLabel: (0) Total altLabel: (0) Total definition: (0)
+12:59:42, INFO prefLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO altLabel es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO definition es: (0) en: (0) de: (0) nl: (0)
+12:59:42, INFO Total terms Relations-Eurovoc: (0) Total Broader: (0) Total Narrower: (0) Total Related: (0)
+12:59:42, INFO Total terms Relations-Unesco: (0) Total Broader: (0) Total Narrower: (0) Total Related: (0)
+12:59:42, INFO Total relations altLabel: 0
+12:59:42, INFO Total relations termlist: 0

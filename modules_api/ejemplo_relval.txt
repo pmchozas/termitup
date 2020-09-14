@@ -1,0 +1,65 @@
+T:  ['disposición', 'adicional'] 
+A:  ['disposición', 'transitoria'] 
+S:  {'disposición': ['capacidad', 'predisposición', 'preparativos'], 'adicional': []}
+
+RESULTADO: SR: None
+
+semantic_relationship = None
+invalid=False
+
+
+len(T)==len(A)? SI
+	case_check=[]
+	Para cada token de T:
+	-dispocición
+		esta en A? SI, --> case_check[True]
+	-adicional
+		esta en A? NO
+			S[adicional] tiene algo? NO, --> invalid= True
+
+	-------
+	-Total de True en case_check es menor a T y ademas invalid = False? (1<2? SI, invalid=False? NO)
+	-Total de True en case_check es menor a T ? (1<2? SI)
+		semantic_relationship = RELATED
+
+	------
+
+	-invalid=False y False no esta en case_check? (no y no)
+
+	-total de False's en case_check es mayor al total de True's? (no)
+
+
+
+T:  ['ley', 'del', 'estatuto'] 
+A:  ['reforma', 'del', 'mercado'] 
+S:  {'ley': [], 'del': [], 'estatuto': []}
+RESULTADO: SR: related
+
+semantic_relationship = None
+invalid=False
+
+
+len(T)==len(A)? SI
+	case_check=[]
+	Para cada token de T:
+	-ley
+		esta en A? NO
+			S[ley] tiene algo? NO, -->invalid=True
+	-del
+		esta en A? SI --> case_check[True]
+
+	-estuto
+		esta en A? NO
+			S[estuto] tiene algo? NO, -->invalid=True
+
+
+	-------
+	-Total de True en case_check es menor a T y ademas invalid = False? (1<2? SI, invalid=False? NO)
+	-Total de True en case_check es menor a T ? (1<2? SI)
+		semantic_relationship = RELATED
+
+	------
+
+	-invalid=False y False no esta en case_check? (no y no)
+
+	-total de False's en case_check es mayor al total de True's? (no)
