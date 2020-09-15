@@ -1,0 +1,505 @@
+12:50:47, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:51:53, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:00:21, INFO 127.0.0.1 - - [07/Sep/2020 13:00:21] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:00:27, INFO 127.0.0.1 - - [07/Sep/2020 13:00:27] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:00:27, INFO 127.0.0.1 - - [07/Sep/2020 13:00:27] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:00:27, INFO 127.0.0.1 - - [07/Sep/2020 13:00:27] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+13:00:27, INFO 127.0.0.1 - - [07/Sep/2020 13:00:27] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+13:00:28, INFO 127.0.0.1 - - [07/Sep/2020 13:00:28] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+13:41:59, INFO 127.0.0.1 - - [07/Sep/2020 13:41:59] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:41:59, INFO 127.0.0.1 - - [07/Sep/2020 13:41:59] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:41:59, INFO 127.0.0.1 - - [07/Sep/2020 13:41:59] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+13:41:59, INFO 127.0.0.1 - - [07/Sep/2020 13:41:59] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+13:42:00, INFO 127.0.0.1 - - [07/Sep/2020 13:42:00] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+13:42:00, INFO 127.0.0.1 - - [07/Sep/2020 13:42:00] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:42:00, INFO 127.0.0.1 - - [07/Sep/2020 13:42:00] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:42:00, INFO 127.0.0.1 - - [07/Sep/2020 13:42:00] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:42:00, INFO 127.0.0.1 - - [07/Sep/2020 13:42:00] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+13:42:01, INFO 127.0.0.1 - - [07/Sep/2020 13:42:01] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:42:01, INFO 127.0.0.1 - - [07/Sep/2020 13:42:01] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:42:01, INFO 127.0.0.1 - - [07/Sep/2020 13:42:01] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:42:01, INFO 127.0.0.1 - - [07/Sep/2020 13:42:01] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+13:42:01, INFO 127.0.0.1 - - [07/Sep/2020 13:42:01] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+13:42:01, INFO 127.0.0.1 - - [07/Sep/2020 13:42:01] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+13:42:09, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 65, in extract_terminology
+    terminology,ids = modules.main.terminology_extraction(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules\main.py", line 28, in terminology_extraction
+    terminology= statistical_patri.main(Corpus) # corpus,Language
+  File "C:\Users\Pablo\Desktop\termitup\modules\statistical_patri.py", line 4, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+13:42:09, INFO 127.0.0.1 - - [07/Sep/2020 13:42:09] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+13:43:33, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:52:59, INFO 188.161.29.170 - - [07/Sep/2020 13:52:59] "[33mGET /vicidial/admin.php?ADD=140000000000 HTTP/1.1[0m" 404 -
+13:55:51, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:56:10, INFO 127.0.0.1 - - [07/Sep/2020 13:56:10] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:56:10, INFO 127.0.0.1 - - [07/Sep/2020 13:56:10] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:56:11, INFO 127.0.0.1 - - [07/Sep/2020 13:56:11] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+13:56:11, INFO 127.0.0.1 - - [07/Sep/2020 13:56:11] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+13:56:11, INFO 127.0.0.1 - - [07/Sep/2020 13:56:11] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+13:56:18, INFO 127.0.0.1 - - [07/Sep/2020 13:56:18] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:03:04, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:03:22, INFO 127.0.0.1 - - [07/Sep/2020 14:03:22] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:03:23, INFO 127.0.0.1 - - [07/Sep/2020 14:03:23] "[37mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 200 -
+14:03:25, INFO 127.0.0.1 - - [07/Sep/2020 14:03:25] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:03:25, INFO 127.0.0.1 - - [07/Sep/2020 14:03:25] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:03:25, INFO 127.0.0.1 - - [07/Sep/2020 14:03:25] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+14:03:25, INFO 127.0.0.1 - - [07/Sep/2020 14:03:25] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+14:03:26, INFO 127.0.0.1 - - [07/Sep/2020 14:03:26] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+14:03:26, INFO 127.0.0.1 - - [07/Sep/2020 14:03:26] "[37mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 200 -
+14:03:30, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 69, in extract_terminology
+    terminology = statistical_patri.main(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules_api\statistical_patri.py", line 12, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+14:03:30, INFO 127.0.0.1 - - [07/Sep/2020 14:03:30] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:04:48, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:04:54, INFO 127.0.0.1 - - [07/Sep/2020 14:04:54] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:05:01, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 69, in extract_terminology
+    terminology = statistical_patri.main(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules_api\statistical_patri.py", line 12, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+14:05:01, INFO 127.0.0.1 - - [07/Sep/2020 14:05:01] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:07:00, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:07:12, INFO 127.0.0.1 - - [07/Sep/2020 14:07:12] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:07:18, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 71, in extract_terminology
+    terminology = statistical_patri.main(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules_api\statistical_patri.py", line 12, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+14:07:18, INFO 127.0.0.1 - - [07/Sep/2020 14:07:18] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:14:20, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:14:51, INFO 127.0.0.1 - - [07/Sep/2020 14:14:51] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:51, INFO 127.0.0.1 - - [07/Sep/2020 14:14:51] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:14:52, INFO 127.0.0.1 - - [07/Sep/2020 14:14:52] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+14:14:52, INFO 127.0.0.1 - - [07/Sep/2020 14:14:52] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+14:14:52, INFO 127.0.0.1 - - [07/Sep/2020 14:14:52] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+14:14:54, INFO 127.0.0.1 - - [07/Sep/2020 14:14:54] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:54, INFO 127.0.0.1 - - [07/Sep/2020 14:14:54] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:14:54, INFO 127.0.0.1 - - [07/Sep/2020 14:14:54] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:54, INFO 127.0.0.1 - - [07/Sep/2020 14:14:54] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+14:14:54, INFO 127.0.0.1 - - [07/Sep/2020 14:14:54] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:14:54, INFO 127.0.0.1 - - [07/Sep/2020 14:14:54] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+14:14:55, INFO 127.0.0.1 - - [07/Sep/2020 14:14:55] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+14:14:56, INFO 127.0.0.1 - - [07/Sep/2020 14:14:56] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+14:15:02, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 71, in extract_terminology
+    terminology = statistical_patri.main(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules_api\statistical_patri.py", line 13, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+14:15:02, INFO 127.0.0.1 - - [07/Sep/2020 14:15:02] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:17:41, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:18:09, INFO 127.0.0.1 - - [07/Sep/2020 14:18:09] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:18:21, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 269, in extract_terminology
+    terminology = statistical_patri.main(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules_api\statistical_patri.py", line 13, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+14:18:21, INFO 127.0.0.1 - - [07/Sep/2020 14:18:21] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:23:01, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:23:07, INFO 127.0.0.1 - - [07/Sep/2020 14:23:07] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:23:13, ERROR Exception on /extract_terminology [POST]
+Traceback (most recent call last):
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Pablo\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Pablo\Desktop\termitup\request_api.py", line 269, in extract_terminology
+    terminology = statistical_patri.main(Corpus,Lang)
+  File "C:\Users\Pablo\Desktop\termitup\modules_api\statistical_patri.py", line 12, in main
+    extractor=TBXTools()
+TypeError: 'module' object is not callable
+14:23:13, INFO 127.0.0.1 - - [07/Sep/2020 14:23:13] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:25:48, INFO  * Restarting with windowsapi reloader
+14:25:57, WARNING  * Debugger is active!
+14:25:57, INFO  * Debugger PIN: 301-414-681
+14:25:57, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:26:05, INFO 127.0.0.1 - - [07/Sep/2020 14:26:05] "[37mGET / HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/reset.css HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/fontello.css HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/images/termitup_logo_oeg.svg HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/images/termitupw.png HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/images/logopal.png HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/images/Logo_OEG.gif HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/images/fi.jpg HTTP/1.1[0m" 200 -
+14:26:06, INFO 127.0.0.1 - - [07/Sep/2020 14:26:06] "[37mGET /static/images/upm.jpg HTTP/1.1[0m" 200 -
+14:26:07, INFO 127.0.0.1 - - [07/Sep/2020 14:26:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14:26:12, INFO 127.0.0.1 - - [07/Sep/2020 14:26:12] "[32mGET /swagger HTTP/1.1[0m" 308 -
+14:26:13, INFO 127.0.0.1 - - [07/Sep/2020 14:26:13] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:26:19, INFO 127.0.0.1 - - [07/Sep/2020 14:26:19] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:28:19, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:28:19, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:28:19, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:28:21, INFO  * Restarting with windowsapi reloader
+14:32:59, INFO  * Restarting with windowsapi reloader
+14:33:07, WARNING  * Debugger is active!
+14:33:07, INFO  * Debugger PIN: 301-414-681
+14:33:07, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:33:18, INFO 127.0.0.1 - - [07/Sep/2020 14:33:18] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:33:24, INFO 127.0.0.1 - - [07/Sep/2020 14:33:24] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:35:02, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:35:02, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:35:04, INFO  * Restarting with windowsapi reloader
+14:35:14, INFO  * Restarting with windowsapi reloader
+14:35:23, WARNING  * Debugger is active!
+14:35:23, INFO  * Debugger PIN: 301-414-681
+14:35:23, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:35:23, INFO 127.0.0.1 - - [07/Sep/2020 14:35:23] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:35:28, INFO 127.0.0.1 - - [07/Sep/2020 14:35:28] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:37:35, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:37:35, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:37:35, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+14:37:37, INFO  * Restarting with windowsapi reloader
+14:38:49, INFO  * Restarting with windowsapi reloader
+14:38:58, WARNING  * Debugger is active!
+14:38:58, INFO  * Debugger PIN: 301-414-681
+14:38:58, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:39:00, INFO 127.0.0.1 - - [07/Sep/2020 14:39:00] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:39:06, INFO 127.0.0.1 - - [07/Sep/2020 14:39:06] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:40:19, INFO  * Restarting with windowsapi reloader
+14:40:27, WARNING  * Debugger is active!
+14:40:27, INFO  * Debugger PIN: 301-414-681
+14:40:27, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:40:44, INFO 127.0.0.1 - - [07/Sep/2020 14:40:44] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:54:40, INFO  * Restarting with windowsapi reloader
+14:54:48, WARNING  * Debugger is active!
+14:54:48, INFO  * Debugger PIN: 301-414-681
+14:54:48, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:54:48, INFO 127.0.0.1 - - [07/Sep/2020 14:54:48] "[37mGET / HTTP/1.1[0m" 200 -
+14:57:07, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\main.py', reloading
+14:57:07, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\main.py', reloading
+14:57:09, INFO  * Restarting with windowsapi reloader
+14:57:18, WARNING  * Debugger is active!
+14:57:18, INFO  * Debugger PIN: 301-414-681
+14:57:18, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:57:52, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+14:57:52, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+14:57:52, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+14:57:54, INFO  * Restarting with windowsapi reloader
+14:58:04, WARNING  * Debugger is active!
+14:58:04, INFO  * Debugger PIN: 301-414-681
+14:58:04, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:58:39, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+14:58:39, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+14:58:39, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+14:58:41, INFO  * Restarting with windowsapi reloader
+14:58:49, WARNING  * Debugger is active!
+14:58:49, INFO  * Debugger PIN: 301-414-681
+14:58:49, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:59:53, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\main.py', reloading
+14:59:53, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\main.py', reloading
+14:59:53, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\main.py', reloading
+14:59:55, INFO  * Restarting with windowsapi reloader
+15:00:04, WARNING  * Debugger is active!
+15:00:04, INFO  * Debugger PIN: 301-414-681
+15:00:05, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:03:12, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+15:03:12, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+15:03:12, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\modules_api\\statistical_patri.py', reloading
+15:03:14, INFO  * Restarting with windowsapi reloader
+15:03:23, WARNING  * Debugger is active!
+15:03:23, INFO  * Debugger PIN: 301-414-681
+15:03:23, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:38:21, INFO 192.144.148.220 - - [07/Sep/2020 15:38:21] "[33mGET /TP/public/index.php HTTP/1.1[0m" 404 -
+15:38:26, INFO 192.144.148.220 - - [07/Sep/2020 15:38:26] "[37mGET / HTTP/1.1[0m" 200 -
+09:53:05, INFO  * Restarting with windowsapi reloader
+09:53:13, WARNING  * Debugger is active!
+09:53:13, INFO  * Debugger PIN: 301-414-681
+09:53:14, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+09:53:28, INFO 127.0.0.1 - - [08/Sep/2020 09:53:28] "[37mGET / HTTP/1.1[0m" 200 -
+09:53:28, INFO 127.0.0.1 - - [08/Sep/2020 09:53:28] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+09:53:28, INFO 127.0.0.1 - - [08/Sep/2020 09:53:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/fontello.css HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/images/termitup_logo_oeg.svg HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/images/termitupw.png HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/images/logopal.png HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/images/Logo_OEG.gif HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/images/fi.jpg HTTP/1.1[0m" 304 -
+09:53:29, INFO 127.0.0.1 - - [08/Sep/2020 09:53:29] "[36mGET /static/images/upm.jpg HTTP/1.1[0m" 304 -
+09:53:40, INFO 127.0.0.1 - - [08/Sep/2020 09:53:40] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+09:53:40, INFO 127.0.0.1 - - [08/Sep/2020 09:53:40] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+09:53:40, INFO 127.0.0.1 - - [08/Sep/2020 09:53:40] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+09:53:40, INFO 127.0.0.1 - - [08/Sep/2020 09:53:40] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+09:53:41, INFO 127.0.0.1 - - [08/Sep/2020 09:53:41] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+09:53:41, INFO 127.0.0.1 - - [08/Sep/2020 09:53:41] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+09:53:49, INFO 127.0.0.1 - - [08/Sep/2020 09:53:49] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+09:55:16, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:55:16, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:55:16, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:55:17, INFO  * Restarting with windowsapi reloader
+09:55:27, WARNING  * Debugger is active!
+09:55:27, INFO  * Debugger PIN: 301-414-681
+09:55:28, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+09:55:28, INFO 127.0.0.1 - - [08/Sep/2020 09:55:28] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+09:55:48, INFO  * Restarting with windowsapi reloader
+09:55:57, WARNING  * Debugger is active!
+09:55:57, INFO  * Debugger PIN: 301-414-681
+09:55:58, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+09:55:58, INFO 127.0.0.1 - - [08/Sep/2020 09:55:58] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+09:56:13, INFO 127.0.0.1 - - [08/Sep/2020 09:56:13] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+09:56:42, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:56:42, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:56:42, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:56:44, INFO  * Restarting with windowsapi reloader
+09:56:54, WARNING  * Debugger is active!
+09:56:54, INFO  * Debugger PIN: 301-414-681
+09:56:55, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+09:58:58, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:58:58, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:58:58, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:00, INFO  * Restarting with windowsapi reloader
+09:59:09, WARNING  * Debugger is active!
+09:59:09, INFO  * Debugger PIN: 301-414-681
+09:59:10, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+09:59:29, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:29, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:29, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:31, INFO  * Restarting with windowsapi reloader
+09:59:40, WARNING  * Debugger is active!
+09:59:40, INFO  * Debugger PIN: 301-414-681
+09:59:41, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+09:59:45, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:45, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:45, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+09:59:47, INFO  * Restarting with windowsapi reloader
+09:59:56, WARNING  * Debugger is active!
+09:59:56, INFO  * Debugger PIN: 301-414-681
+09:59:57, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:04:05, INFO  * Restarting with windowsapi reloader
+10:04:13, WARNING  * Debugger is active!
+10:04:13, INFO  * Debugger PIN: 301-414-681
+10:04:14, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:04:18, INFO 127.0.0.1 - - [08/Sep/2020 10:04:18] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:04:18, INFO 127.0.0.1 - - [08/Sep/2020 10:04:18] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+10:04:18, INFO 127.0.0.1 - - [08/Sep/2020 10:04:18] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+10:04:19, INFO 127.0.0.1 - - [08/Sep/2020 10:04:19] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:04:19, INFO 127.0.0.1 - - [08/Sep/2020 10:04:19] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+10:04:19, INFO 127.0.0.1 - - [08/Sep/2020 10:04:19] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+10:04:19, INFO 127.0.0.1 - - [08/Sep/2020 10:04:19] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+10:04:19, INFO 127.0.0.1 - - [08/Sep/2020 10:04:19] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+10:05:14, INFO 127.0.0.1 - - [08/Sep/2020 10:05:14] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:06:26, INFO 127.0.0.1 - - [08/Sep/2020 10:06:26] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:06:38, INFO  * Restarting with windowsapi reloader
+10:06:46, WARNING  * Debugger is active!
+10:06:46, INFO  * Debugger PIN: 301-414-681
+10:06:47, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:06:48, INFO 127.0.0.1 - - [08/Sep/2020 10:06:48] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:06:51, INFO 127.0.0.1 - - [08/Sep/2020 10:06:51] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:08:37, INFO 127.0.0.1 - - [08/Sep/2020 10:08:37] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:08:53, INFO  * Restarting with windowsapi reloader
+10:09:01, WARNING  * Debugger is active!
+10:09:01, INFO  * Debugger PIN: 301-414-681
+10:09:02, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:09:02, INFO 127.0.0.1 - - [08/Sep/2020 10:09:02] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:09:04, INFO 127.0.0.1 - - [08/Sep/2020 10:09:04] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:09:05, INFO 127.0.0.1 - - [08/Sep/2020 10:09:05] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:09:05, INFO 127.0.0.1 - - [08/Sep/2020 10:09:05] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+10:09:05, INFO 127.0.0.1 - - [08/Sep/2020 10:09:05] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+10:09:05, INFO 127.0.0.1 - - [08/Sep/2020 10:09:05] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+10:09:06, INFO 127.0.0.1 - - [08/Sep/2020 10:09:06] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+10:09:16, INFO 127.0.0.1 - - [08/Sep/2020 10:09:16] "[37mGET /term HTTP/1.1[0m" 200 -
+10:10:53, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+10:10:53, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+10:10:53, INFO  * Detected change in 'C:\\Users\\Pablo\\Desktop\\termitup\\request_api.py', reloading
+10:10:55, INFO  * Restarting with windowsapi reloader
+10:11:04, WARNING  * Debugger is active!
+10:11:04, INFO  * Debugger PIN: 301-414-681
+10:11:05, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:42:19, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:42:19, INFO  * Restarting with fsevents reloader
+12:42:23, WARNING  * Debugger is active!
+12:42:23, INFO  * Debugger PIN: 236-695-635
+12:42:34, INFO 127.0.0.1 - - [08/Sep/2020 12:42:34] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+12:42:44, INFO 127.0.0.1 - - [08/Sep/2020 12:42:44] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+12:43:41, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:43:41, INFO  * Restarting with fsevents reloader
+12:43:45, WARNING  * Debugger is active!
+12:43:45, INFO  * Debugger PIN: 236-695-635
+12:43:56, INFO 127.0.0.1 - - [08/Sep/2020 12:43:56] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+12:44:03, INFO 127.0.0.1 - - [08/Sep/2020 12:44:03] "[1m[31mPOST /extract_terminology HTTP/1.1[0m" 400 -
+12:44:16, INFO 127.0.0.1 - - [08/Sep/2020 12:44:16] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+13:18:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri_backup.py', reloading
+13:18:04, INFO  * Restarting with fsevents reloader
+13:18:10, WARNING  * Debugger is active!
+13:18:10, INFO  * Debugger PIN: 236-695-635
+13:52:24, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri_test.py', reloading
+13:52:27, INFO  * Restarting with fsevents reloader
+13:52:35, WARNING  * Debugger is active!
+13:52:35, INFO  * Debugger PIN: 236-695-635
+13:57:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+13:57:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+13:57:32, INFO  * Restarting with fsevents reloader
+13:57:40, WARNING  * Debugger is active!
+13:57:40, INFO  * Debugger PIN: 236-695-635
+13:57:57, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:57:57, INFO  * Restarting with fsevents reloader
+13:58:05, WARNING  * Debugger is active!
+13:58:05, INFO  * Debugger PIN: 236-695-635
+13:58:10, INFO 127.0.0.1 - - [08/Sep/2020 13:58:10] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+13:58:24, INFO 127.0.0.1 - - [08/Sep/2020 13:58:24] "[1m[31mPOST /extract_terminology HTTP/1.1[0m" 400 -
+13:58:33, INFO 127.0.0.1 - - [08/Sep/2020 13:58:33] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:00:40, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+14:00:42, INFO  * Restarting with fsevents reloader
+14:00:47, WARNING  * Debugger is active!
+14:00:47, INFO  * Debugger PIN: 236-695-635
+14:01:35, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+14:01:35, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+14:01:37, INFO  * Restarting with fsevents reloader
+14:01:50, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:01:51, INFO  * Restarting with fsevents reloader
+14:01:57, WARNING  * Debugger is active!
+14:01:57, INFO  * Debugger PIN: 236-695-635
+14:02:02, INFO 127.0.0.1 - - [08/Sep/2020 14:02:02] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:02:24, INFO 127.0.0.1 - - [08/Sep/2020 14:02:24] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:08:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:08:15, INFO  * Restarting with fsevents reloader
+14:08:21, WARNING  * Debugger is active!
+14:08:21, INFO  * Debugger PIN: 236-695-635
+14:09:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:09:09, INFO  * Restarting with fsevents reloader
+14:09:23, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:09:23, INFO  * Restarting with fsevents reloader
+14:09:29, WARNING  * Debugger is active!
+14:09:29, INFO  * Debugger PIN: 236-695-635
+14:09:40, INFO 127.0.0.1 - - [08/Sep/2020 14:09:40] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:10:29, INFO 127.0.0.1 - - [08/Sep/2020 14:10:29] "[1m[35mPOST /extract_terminology HTTP/1.1[0m" 500 -
+14:11:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:11:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:11:17, INFO  * Restarting with fsevents reloader
+14:11:23, WARNING  * Debugger is active!
+14:11:23, INFO  * Debugger PIN: 236-695-635
+14:11:46, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:11:46, INFO  * Restarting with fsevents reloader
+14:11:52, WARNING  * Debugger is active!
+14:11:52, INFO  * Debugger PIN: 236-695-635
+14:11:58, INFO 127.0.0.1 - - [08/Sep/2020 14:11:58] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:12:06, INFO 127.0.0.1 - - [08/Sep/2020 14:12:06] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:17:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:17:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:17:03, INFO  * Restarting with fsevents reloader
+14:17:09, WARNING  * Debugger is active!
+14:17:09, INFO  * Debugger PIN: 236-695-635
+14:17:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:17:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:18:01, INFO  * Restarting with fsevents reloader
+14:18:13, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:18:13, INFO  * Restarting with fsevents reloader
+14:18:16, WARNING  * Debugger is active!
+14:18:16, INFO  * Debugger PIN: 236-695-635
+14:19:23, INFO 127.0.0.1 - - [08/Sep/2020 14:19:23] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+14:19:39, INFO 127.0.0.1 - - [08/Sep/2020 14:19:39] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+14:21:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/modules_api/statistical_patri.py', reloading
+14:21:28, INFO  * Restarting with fsevents reloader
+14:21:33, WARNING  * Debugger is active!
+14:21:33, INFO  * Debugger PIN: 236-695-635
+14:21:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+14:21:43, INFO  * Restarting with fsevents reloader
+14:21:48, WARNING  * Debugger is active!
+14:21:48, INFO  * Debugger PIN: 236-695-635
+14:21:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
+14:21:56, INFO  * Restarting with fsevents reloader

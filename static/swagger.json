@@ -1,0 +1,401 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"description": "[WORK IN PROGRESS] This service generates Enriched Linked Terminologies from scratch: given a term, it retrieves multilingual data from the Linguistic Linked Open Data cloud (translations, definitions, synonyms and other terminological data). The result is published as a set of JSON-LD files modeled in SKOS-XL.",
+		"version": "1.0.0",
+		"title": "TermitUp",
+		"license": {
+			"name": "Prêt à Llod",
+			"url": "https://www.pret-a-llod.eu/"
+		}
+	},
+	"tags": [
+		{
+			"name": "Terminology",
+			"description": "Set of methods to work with terminologies and corpus"
+		}
+	],
+	"paths": {
+		"/extract_terminology": {
+			"post": {
+				"tags": [
+					"Terminology"
+				],
+				
+				"summary": "Extract terminology from corpus",
+				"requestBody": {
+					  "description": "Description",
+					  "required": true,
+					  "content": {
+						"application/json": {
+						  "schema": {
+							"$ref": "#/components/schemas/corpus"
+						  }
+						}
+					  }
+					}
+				,
+				"responses": {
+					"200": {
+						"description": "successful operation",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/term"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Failed. No more requests.",
+						"content": {}
+					}
+				}
+			}	
+		},
+		"/postproc_terminology": {
+			"post": {
+				"tags": [
+					"Terminology"
+				],
+				
+				"summary": "Postprocess automatically extracted terminology",
+				"parameters": [
+					{
+						"in": "timeEx",
+						"name": "timeEx",
+						"required": true,
+						"description": "Removes temporal expressions (dates, periods, durations, etc.)",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "patternBasedClean",
+						"name": "patternBasedClean",
+						"required": true,
+						"description": "Removes non-terminological and wrong structures",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "pluralClean",
+						"name": "pluralClean",
+						"required": true,
+						"description": "Unifies plural forms",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "numbersClean",
+						"name": "numbersClean",
+						"required": true,
+						"description": "Removes numberic forms",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "accentClean",
+						"name": "accentClean",
+						"required": true,
+						"description": "Corrects accents (Spanish)",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					}
+
+				]
+				,
+				"requestBody": {
+					  "description": "Description",
+					  "required": true,
+					  "content": {
+						"application/json": {
+						  "schema": {
+							"$ref": "#/components/schemas/cleanterm"
+						  }
+						}
+					  }
+					}
+				,
+				"responses": {
+					"200": {
+						"description": "successful operation",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/term"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Failed. No more requests.",
+						"content": {}
+					}
+				}
+			}	
+		},
+		"/enriching_terminology": {
+			"post": {
+				"tags": [
+					"Terminology"
+				],
+				
+				"summary": "Enriches the extracted terms with disambiguated info.",
+				"parameters": [
+					{
+						"in": "iate",
+						"name": "iate",
+						"required": true,
+						"description": "Retrieves data from IATE",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "euroVoc",
+						"name": "euroVoc",
+						"required": true,
+						"description": "Retrieves data from EuroVoc",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "UNESCO",
+						"name": "UNESCO",
+						"required": true,
+						"description": "Retrieves data from UNESCO",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "wikidata",
+						"name": "wikidata",
+						"required": true,
+						"description": "Retrieves data from wikidata",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					}
+				]
+				,
+				"requestBody": {
+					  "description": "Description",
+					  "required": true,
+					  "content": {
+						"application/json": {
+						  "schema": {
+							"$ref": "#/components/schemas/enriching"
+						  }
+						}
+					  }
+					}
+				,
+				"responses": {
+					"200": {
+						"description": "successful operation",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/term"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Failed. No more requests.",
+						"content": {}
+					}
+				}
+			}	
+		},
+		"/term": {
+			"get": {
+				"tags": [
+					"Terms"
+				],
+				
+				"summary": "Term example method",
+				"parameters": [
+					{
+						"in": "term",
+						"name": "term",
+						"required": true,
+						"description": "term",
+						"schema": {
+							"$ref": ""
+						}
+					}
+				]
+				,
+				"responses": {
+					"200": {
+						"description": "successful operation",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/term"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Failed. No more requests.",
+						"content": {}
+					}
+				}
+			}
+		}
+	},
+	"components": {
+		"schemas": {
+			"corpus": {
+	        	"type": "object",
+	        	"properties": {
+	          "corpus": {
+	            "type": "string",
+	            "format": "string"
+	          },
+	          "language": {
+	            "type": "string",
+	            "format": "string"
+	          }
+	        	}
+	      	},
+	        "cleanterm": {
+	        	"type": "object",
+	        	"properties": {
+	           "terms": {
+	            "type": "string",
+	            "format": "string"
+	          },
+	          "language": {
+	            "type": "string",
+	            "format": "string"
+	        	}
+	        }
+	    	},
+	    	"enriching": {
+	        	"type": "object",
+	        	"properties": {
+	        		
+	        		"terms": {
+	        			"type": "string",
+	        			"format": "string"
+	        		},
+	        		"source_language": {
+	            		"type": "string",
+	            		"format": "string"
+	        		},
+	        		"target_language": {
+	            		"type": "string",
+	            		"format": "string"
+	    			},
+	    			"schema_name": {
+	            		"type": "string",
+	           			 "format": "string"
+	          		},
+	    			"corpus": {
+	            		"type": "string",
+	           			 "format": "string"
+	          		}
+	          	}
+	      },
+	        "options": {
+	        	"type": "boolean",
+	        	"properties": {
+	           "activate_option": {
+	            "type": "boolean",
+	            "format": "boolean"
+	          }
+	    	}
+	      },
+			"term": {
+				"type": "object",
+				"properties": {
+					"context": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					},
+					"type": {
+						"type": "string"
+					},
+					"inScheme": {
+						"type": "string"
+					},
+					"source": {
+						"type": "string"
+					},
+					"prefLabel": {
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/prefLabel"
+						}
+					},
+					"altLabel": {
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/altLabel"
+						}
+					},
+					"definition": {
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/definition"
+						}
+					},
+					"broader": {
+						"type": "string"
+					},
+					"narrower": {
+						"type": "string"
+					},
+					"related": {
+						"type": "string"
+					}
+				}
+			},
+			"prefLabel": {
+				"type": "object",
+				"properties": {
+					"language": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					}
+				}
+			},
+			"altLabel": {
+				"type": "object",
+				"properties": {
+					"language": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					}
+				}
+			},
+			"definition": {
+				"type": "object",
+				"properties": {
+					"language": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}
