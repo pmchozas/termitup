@@ -8,7 +8,7 @@ from os import listdir
 from os.path import isfile, isdir
 from unicodedata import normalize
 import csv
-import trans_id
+from modules_api import trans_id
 
 # check if the term already exists
 def checkTerm(lang,  termSearch, relation, targets, ide1):

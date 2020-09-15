@@ -503,3 +503,9 @@ TypeError: 'module' object is not callable
 14:21:48, INFO  * Debugger PIN: 236-695-635
 14:21:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/termitup/request_api.py', reloading
 14:21:56, INFO  * Restarting with fsevents reloader
+12:15:23, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:15:23, INFO  * Restarting with fsevents reloader
+12:15:26, WARNING  * Debugger is active!
+12:15:26, INFO  * Debugger PIN: 236-695-635
+12:15:42, INFO 127.0.0.1 - - [15/Sep/2020 12:15:42] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+12:15:43, INFO 127.0.0.1 - - [15/Sep/2020 12:15:43] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -

@@ -16,6 +16,7 @@ from modules_api import st_extraction
 from modules_api import TBXTools
 from modules_api import postprocess
 from modules_api import conts_log
+from modules_api import enriching_main
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -90,11 +91,19 @@ def postproc_terminology():
     
 
     #Pablo proposal -------------------------------------
+    '''
     timeEx=True
     patternBasedClean=True
     pluralClean=True
     numbersClean=True
     accentClean=True
+    '''
+
+    timeEx = request.args.get('timeEx')
+    patternBasedClean = request.args.get('patternBasedClean')
+    pluralClean = request.args.get('pluralClean')
+    numbersClean = request.args.get('numbersClean')
+    accentClean = request.args.get('accentClean')
     
     # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
     '''
@@ -126,11 +135,11 @@ def enrinching_terminology():
     to read body of a POST OR PUT
     '''
     json_data = request.json
-    Terms = json_data['terms']
-    Inlang = json_data['source_language']
-    Outlang = json_data['target_language']
-    Corpus = json_data['corpus']
-    Schema = json_data['schema_name']  
+    terms = json_data['terms']
+    inlang = json_data['source_language']
+    outlang = json_data['target_language']
+    corpus = json_data['corpus']
+    schema = json_data['schema_name']  
 
     print('Received:')
     #print(Terms)
@@ -147,6 +156,11 @@ def enrinching_terminology():
     unesco=True
     wikidata=True
     
+
+    iate = request.args.get('iate')
+    eurovoc = request.args.get('eurovoc')
+    unesco = request.args.get('unesco')
+    wikidata = request.args.get('wikidata')
     # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
     '''
     configurar el swagger json para meterle parametros y leerlos aquí: fijarse en el método /term
@@ -159,9 +173,9 @@ def enrinching_terminology():
     
     '''
     
-    enriching_terms= main.enriching_terms(termlist, Inlang, Outlang, iate, eurovoc, unesco, wikidata, schema)
+    enriching_terms= enriching_main.enriching_terms(termlist, Inlang, Outlang, iate, eurovoc, unesco, wikidata, schema)
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
    
-    return Response(json.dumps(clean_terms),  mimetype='application/json')
+    return Response(json.dumps(enriching_terms),  mimetype='application/json')

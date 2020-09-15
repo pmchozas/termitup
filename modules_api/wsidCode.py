@@ -1,6 +1,6 @@
 import requests
 import json
-import conts_log
+from modules_api import conts_log
 from time import time
 
 def wsidFunction(termIn, listcontext,   definitions):

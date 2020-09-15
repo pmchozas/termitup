@@ -1,13 +1,12 @@
 import requests
 import json
-import check_term
+from modules_api import check_term
 import re
-import wsidCode
-import extrafunctions
-import jsonFile
+from modules_api import wsidCode
+from modules_api import extrafunctions
+from modules_api import jsonFile
 from unicodedata import normalize
 import logging
-import postprocess
 #format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
 logging.basicConfig(filename='myapp.log',
     filemode='a',

@@ -1,8 +1,8 @@
 import requests
-import wsidCode 
-import extrafunctions
+from modules_api import wsidCode 
+from modules_api import extrafunctions
 import json
-import eurovocCode
+from modules_api import eurovocCode
 url = 'https://query.wikidata.org/sparql'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 

@@ -1,5 +1,5 @@
 import json
-import jsonFile
+from modules_api import jsonFile
 import re
 from unicodedata import normalize
 import logging
