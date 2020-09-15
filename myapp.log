@@ -509,3 +509,43 @@ TypeError: 'module' object is not callable
 12:15:26, INFO  * Debugger PIN: 236-695-635
 12:15:42, INFO 127.0.0.1 - - [15/Sep/2020 12:15:42] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
 12:15:43, INFO 127.0.0.1 - - [15/Sep/2020 12:15:43] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+12:31:00, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:31:00, INFO  * Restarting with fsevents reloader
+12:31:05, WARNING  * Debugger is active!
+12:31:05, INFO  * Debugger PIN: 236-695-635
+12:32:52, INFO 127.0.0.1 - - [15/Sep/2020 12:32:52] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+12:32:52, INFO 127.0.0.1 - - [15/Sep/2020 12:32:52] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+12:32:52, INFO 127.0.0.1 - - [15/Sep/2020 12:32:52] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+12:32:52, INFO 127.0.0.1 - - [15/Sep/2020 12:32:52] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+12:32:52, INFO 127.0.0.1 - - [15/Sep/2020 12:32:52] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+12:32:52, INFO 127.0.0.1 - - [15/Sep/2020 12:32:52] "[37mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 200 -
+12:33:35, INFO 127.0.0.1 - - [15/Sep/2020 12:33:35] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+12:34:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:34:40, INFO  * Restarting with fsevents reloader
+12:34:55, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:34:55, INFO  * Restarting with fsevents reloader
+12:34:59, WARNING  * Debugger is active!
+12:34:59, INFO  * Debugger PIN: 236-695-635
+12:35:07, INFO 127.0.0.1 - - [15/Sep/2020 12:35:07] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+12:35:07, INFO 127.0.0.1 - - [15/Sep/2020 12:35:07] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+12:35:07, INFO 127.0.0.1 - - [15/Sep/2020 12:35:07] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+12:35:07, INFO 127.0.0.1 - - [15/Sep/2020 12:35:07] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+12:35:07, INFO 127.0.0.1 - - [15/Sep/2020 12:35:07] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+12:35:48, INFO 127.0.0.1 - - [15/Sep/2020 12:35:48] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+12:36:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:36:31, INFO  * Restarting with fsevents reloader
+12:36:35, WARNING  * Debugger is active!
+12:36:35, INFO  * Debugger PIN: 236-695-635
+12:36:56, INFO 127.0.0.1 - - [15/Sep/2020 12:36:56] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+12:39:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/enriching_main.py', reloading
+12:39:15, INFO  * Restarting with fsevents reloader
+12:39:19, WARNING  * Debugger is active!
+12:39:19, INFO  * Debugger PIN: 236-695-635
+12:39:28, INFO 127.0.0.1 - - [15/Sep/2020 12:39:28] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+12:41:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/enriching_main.py', reloading
+12:41:40, INFO  * Restarting with fsevents reloader
+12:43:21, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:43:21, INFO  * Restarting with fsevents reloader
+12:43:24, WARNING  * Debugger is active!
+12:43:24, INFO  * Debugger PIN: 236-695-635
+12:44:08, INFO 127.0.0.1 - - [15/Sep/2020 12:44:08] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -

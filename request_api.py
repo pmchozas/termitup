@@ -143,11 +143,11 @@ def enrinching_terminology():
 
     print('Received:')
     #print(Terms)
-    print(Inlang)
-    print(Outlang)
-    print(Corpus)
-    print(Schema)
-    termlist=Terms.split(', ')
+    print(inlang)
+    print(outlang)
+    print(corpus)
+    print(schema)
+    termlist=terms.split(', ')
     
 
     #Pablo proposal -------------------------------------
@@ -173,7 +173,7 @@ def enrinching_terminology():
     
     '''
     
-    enriching_terms= enriching_main.enriching_terms(termlist, Inlang, Outlang, iate, eurovoc, unesco, wikidata, schema)
+    enriching_terms= enriching_main.enriching_terms(termlist, inlang, corpus, outlang, iate, eurovoc, unesco, wikidata, schema)
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)

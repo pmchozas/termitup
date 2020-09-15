@@ -12,7 +12,6 @@ from unicodedata import normalize
 import json
 import csv
 #import trans_id
-from modules_api import unesco
 import logging
 from modules_api import conts_log
 from modules_api import frecuency
@@ -21,7 +20,6 @@ import time
 
 def enriching_terms(termlist, inlang, outlang, corpus, schema, iate, eurovoc, wikidata, unesco):
     wsid='yes'
-    outFile=jsonFile.jsonFile(ide, schema, rels, note, context, termSearch, lang_in, file_schema, n, freq)
 
     if(iate):
         outFile=iateCode.iate(termlist, inlang, outlang, corpus, schema, wsid)
@@ -34,6 +32,7 @@ def enriching_terms(termlist, inlang, outlang, corpus, schema, iate, eurovoc, wi
     
     if(unesco):
         outFile=unesco.prefLabel_unesco(termlist, inlang, outlang, corpus, schema, wsid)
+        
     if(wikidata):
         outFile=wikidataCode.wikidata_retriever(termlist, inlang, outlang, corpus, schema, wsid)
 
