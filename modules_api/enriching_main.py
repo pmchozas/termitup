@@ -17,12 +17,23 @@ from modules_api import conts_log
 from modules_api import frecuency
 import time
 
-
-def enriching_terms(termlist, inlang, outlang, corpus, schema, iate, eurovoc, wikidata, unesco):
+'''
+def enriching_terms(termlist, inlang, outlang, corpus, schema, iate, freq):
     wsid='yes'
+
+    #en qué archivo se genera la ID (ide)? en check_term? esa es la ID aleatoria, y la ID term-lang dónde se genera?
+   #preguntamos al user si quiere mantener la frecuencia. si mete una lista con frequencia o no  
+    if(freq):
+        for i in termlist:
+            freqlist=i
+            freq=frecuency.frequencyTerm(freqlist, termSearch)
+            outFile=jsonFile.jsonFile(ide, schema, rels, note, context, termSearch, lang_in, file_schema, n, freq)
 
     if(iate):
         outFile=iateCode.iate(termlist, inlang, outlang, corpus, schema, wsid)
+    return(outFile)
+'''
+'''
 
     if(eurovoc):
         outFile=eurovocCode.eurovoc(termlist, inlang, outlang, corpus, schema, wsid)
@@ -32,7 +43,7 @@ def enriching_terms(termlist, inlang, outlang, corpus, schema, iate, eurovoc, wi
     
     if(unesco):
         outFile=unesco.prefLabel_unesco(termlist, inlang, outlang, corpus, schema, wsid)
-        
+
     if(wikidata):
         outFile=wikidataCode.wikidata_retriever(termlist, inlang, outlang, corpus, schema, wsid)
 
@@ -43,27 +54,28 @@ def enriching_terms(termlist, inlang, outlang, corpus, schema, iate, eurovoc, wi
 
     outFile=jsonFile.topConcept(outFile,  file_schema)
     idenuew=ide.split('/')
-    n=idenuew[-1].replace(' ', '_').replace('\ufeff','')
-    n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
-                        normalize( "NFD", n), 0, re.I)
-    n = normalize( 'NFC', n)
-    newFile='../data/output/'+n+'.jsonld'
+
+    '''
+   # n=idenuew[-1].replace(' ', '_').replace('\ufeff','')
+   # n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+    #                    normalize( "NFD", n), 0, re.I)
+   # n = normalize( 'NFC', n)
+   # newFile='../data/output/'+n+'.jsonld'
         #with open(newFile, 'w') as file:
         #    json.dump(outFile, file, indent=4,ensure_ascii=False)
                
-    name='../data/output/'+schema.replace(' ', '_')+'.json'
-    with open(name, 'w') as new:
-        json.dump(file_schema, new, indent=4,ensure_ascii=False)
+    #name='../data/output/'+schema.replace(' ', '_')+'.json'
+    #with open(name, 'w') as new:
+    #    json.dump(file_schema, new, indent=4,ensure_ascii=False)
 
-'''       
-    if(termSearch!='1'):
-        print('TERM A BUSCAR:----------- ', termSearch)
-        conts_log.information('\n','----- Source Term: '+ termSearch+' -----')
-        rels=1
-        note=''
-        n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
-                        normalize( "NFD", termSearch), 0, re.I
-        )
+    #if(termSearch!='1'):
+    #    print('TERM A BUSCAR:----------- ', termSearch)
+    #    conts_log.information('\n','----- Source Term: '+ termSearch+' -----')
+    #    rels=1
+   #     note=''
+    #    n = re.sub(r"([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+", r"\1", 
+     #                   normalize( "NFD", termSearch), 0, re.I  )
+'''        
         n = normalize( 'NFC', n)
         f1=open('../data/estatutoterms_mx.txt', 'r')
         freqlist=f1.readlines()

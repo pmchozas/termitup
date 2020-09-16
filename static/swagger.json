@@ -182,6 +182,15 @@
 						"schema": {
 							"$ref": "#/components/schemas/options"
 						}
+					},
+					{
+						"in": "frequency",
+						"name": "frequency",
+						"required": true,
+						"description": "Choose TRUE if the termlist contains the frequency of each term and FALSE if it is a plain termlist.",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
 					}
 				]
 				,

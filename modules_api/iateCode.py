@@ -22,15 +22,15 @@ def bearenToken():
     return(access)
 
 # iate
-def iate(term, lang,targets,outFile, context,   wsid, rels):
+def iate(term, inlang, outlang, outFile, context, wsid, rels):
     answer=[]
     try:
         auth_token=bearenToken()
         hed = {'Authorization': 'Bearer ' +auth_token}
         jsonList=[]
         data = {"query": term,
-        "source": lang,
-        "targets": targets,
+        "source": inlang,
+        "targets": outlang,
         "search_in_fields": [
             0
         ],
@@ -67,21 +67,21 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                 dom=term[item]
                 ide_iate=term[item]['id']
                 leng=term[item]['language']
-                if(lang in leng):
-                    for item2 in range(len(leng[lang]['term_entries'])):
-                        termiate=leng[lang]['term_entries'][item2]['term_value']
+                if(inlang in leng):
+                    for item2 in range(len(leng[inlang]['term_entries'])):
+                        termiate=leng[inlang]['term_entries'][item2]['term_value']
                         if(  termiate == termSearch[cont] ):
                             #print('-se encontro iate exacto-')
                             bloq=1 # bandera de encontrado se enciende en 1
                             if(context==None):
-                                context=getContextIate(item, leng, lang,termSearch[cont] )
+                                context=getContextIate(item, leng, inlang,termSearch[cont] )
 
                                 if(context!=''):
                                     wsid='yes'
                                 else:
                                     context=termSearch[cont]
                                     wsid='yes'
-                            for target in targets:
+                            for target in outlang:
                                 get=getInformationIate(target,item, item2,leng, termSearch[cont])
                                 results[item].insert(0, item)#item
                                 results[item].insert(1, get[0])#def
@@ -89,7 +89,7 @@ def iate(term, lang,targets,outFile, context,   wsid, rels):
                                 results[item].insert(3, get[2])#alt
                                 results[item].insert(4, target)#target
                                 
-                                if(target==lang ):
+                                if(target==inlang ):
                                     if(get[0].isalpha()==False ): #get[0]=='' or get[0]=='---'
                                         dom_iat=domain_iate(dom, data, hed)
                                         if(len(get[2])):
@@ -166,10 +166,10 @@ def subdomain_iate(its, dict_domains):
                 subdomain_iate(sub[j], dict_domains)
     return(dict_domains)
 
-def getContextIate(item, leng, lang, termSearch):
+def getContextIate(item, leng, inlang, termSearch):
     context=''
-    if(lang in leng):
-        language=leng[lang]
+    if(inlang in leng):
+        language=leng[inlang]
         for l in language:
             if('term_entries' in language.keys()):
                 term_entries=language['term_entries']

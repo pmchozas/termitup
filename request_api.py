@@ -127,13 +127,13 @@ def postproc_terminology():
 
 #Karen Patricia Enriching
 
-
+'''
 @REQUEST_API.route('/enriching_terminology', methods=['POST'])
 def enrinching_terminology():
     
-    '''
-    to read body of a POST OR PUT
-    '''
+    
+   # to read body of a POST OR PUT
+
     json_data = request.json
     terms = json_data['terms']
     inlang = json_data['source_language']
@@ -150,19 +150,23 @@ def enrinching_terminology():
     termlist=terms.split(', ')
     
 
-    #Pablo proposal -------------------------------------
     iate=True
     eurovoc=True
     unesco=True
     wikidata=True
-    
 
+
+    freq = request.args.get('frequency')
     iate = request.args.get('iate')
+
+
     eurovoc = request.args.get('eurovoc')
     unesco = request.args.get('unesco')
     wikidata = request.args.get('wikidata')
-    # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
+
     '''
+    # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
+'''
     configurar el swagger json para meterle parametros y leerlos aquí: fijarse en el método /term
     por ejemplo, en el servicio poner el parametro de timex y que reciba 0/1 o true/false
     ejem:     timeEx=true
@@ -171,11 +175,15 @@ def enrinching_terminology():
         timeEx = request.args.get('timeEx')
         print(timeEx)
     
-    '''
+
     
-    enriching_terms= enriching_main.enriching_terms(termlist, inlang, corpus, outlang, iate, eurovoc, unesco, wikidata, schema)
+    enriching_terms=enriching_main.enriching_terms(termlist, inlang, outlang, corpus, schema, iate, freq)
+    print(enriching_terms)
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
    
     return Response(json.dumps(enriching_terms),  mimetype='application/json')
+
+
+'''
