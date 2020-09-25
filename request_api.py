@@ -126,8 +126,6 @@ def postproc_terminology():
 
 
 #Karen Patricia Enriching
-
-'''
 @REQUEST_API.route('/enriching_terminology', methods=['POST'])
 def enrinching_terminology():
     
@@ -164,16 +162,9 @@ def enrinching_terminology():
     unesco = request.args.get('unesco')
     wikidata = request.args.get('wikidata')
 
-    '''
-    # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
-'''
-    configurar el swagger json para meterle parametros y leerlos aquí: fijarse en el método /term
-    por ejemplo, en el servicio poner el parametro de timex y que reciba 0/1 o true/false
-    ejem:     timeEx=true
-    
-    el parámetro se lee aquí con:
-        timeEx = request.args.get('timeEx')
-        print(timeEx)
+
+
+
     
 
     
@@ -185,5 +176,3 @@ def enrinching_terminology():
    
     return Response(json.dumps(enriching_terms),  mimetype='application/json')
 
-
-'''

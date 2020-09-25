@@ -1,10 +1,8 @@
 import requests
 import json
-from modules_api import check_term
+import wsidCode
 import re
-from modules_api import wsidCode
-from modules_api import extrafunctions
-from modules_api import jsonFile
+
 from unicodedata import normalize
 import logging
 #format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
@@ -21,7 +19,103 @@ def bearenToken():
     access=reponse2['tokens'][0]['access_token']
     return(access)
 
+
+
+
+
+
+def enrich_terms(terms, inlang, outlang, outFile, context, wsid, rels):
+    for term in terms:
+        enrich_term(term, inlang, outlang, outFile, context, wsid, rels)
+    
+    
+
+def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
+    
+    # 1 consultas items # 2 creas los vectores
+    items, vectors= request_term_to_iate(term, inlang, outlang)
+    
+    
+    # 3 hace el wsd con los vectores
+    get_best_vector(vectors,  term, context)
+    
+    
+    # 4 con el mejor, te traes más datos
+    
+    
+    return
+
+
+
+def get_best_vector(vectors, term, corpus):
+    
+   
+    print(wsidCode.wsidFunction(term, corpus,   vectors))
+
+
+def request_term_to_iate(term, inlang, outlang):
+
+    auth_token=bearenToken()
+    hed = {'Authorization': 'Bearer ' +auth_token}
+    jsonList=[]
+    data = {"query": term,
+    "source": inlang,
+    "targets": outlang,
+    "search_in_fields": [    0     ],
+    "search_in_term_types": [   0,     1,     2,     3,     4
+    ],
+    "query_operator": 1
+    }
+    url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
+    response = requests.get(url, json=data, headers=hed)
+    response2=response.json()
+    #js=json.dumps(response2)
+    doc= json.dumps(response2, ensure_ascii=False,indent=1)
+    #print(doc)
+    
+    ## no results
+    items=[]
+    vectors=[]
+    
+    if response2['items'] is None:
+        return items, vectors
+    
+    for item in response2['items']:
+        
+        items.append(item)
+        vectors.append(create_langIn_vector(item, inlang,hed))
+        
+        
+    return items, vectors  
+        
+
+    
+
+
+def create_langIn_vector(item, inlang, hed):
+    vector=[]
+    domain_names = get_domain_names(item, hed)
+    vector.extend(domain_names)
+    
+    if  'definition' in item['language'][inlang]:
+         vector.append(item['language'][inlang]['definition'])
+    
+   
+    for entry in item['language'][inlang]['term_entries']: 
+        term_value = entry['term_value']
+        vector.append(term_value)
+        '''    
+        if  'note' in entry:
+            note= entry['note']['value']
+            vector.append(note)
+            
+            '''
+    print(vector)
+    
+
+
 # iate
+
 def iate(term, inlang, outlang, outFile, context, wsid, rels):
     answer=[]
     try:
@@ -120,12 +214,44 @@ def iate(term, inlang, outlang, outFile, context, wsid, rels):
                         outFile=fillAltIate(outFile, results,  'altLabel', 3, wsidmax, rels, ide_iate)
                         outFile=fillDefinitionIate(outFile, results,  'definition', 1, wsidmax, ide_iate)
                 else:
-                    closeMatch.append("https://iate.europa.eu/entry/result/"+str(ide_iate))
+                    outFile.append("https://iate.europa.eu/entry/result/"+str(ide_iate))
                     
         cont=cont+1
     except json.decoder.JSONDecodeError:
         response2='{ }'   
     return(outFile)
+
+
+
+
+def get_domain_names(item, hed):
+    dict_domains=[]
+    code_domain=item['domains']
+    list_code=[]
+    for i in range(len(code_domain)):
+        code=code_domain[i]['code']
+        list_code.append(code)
+    
+    domain=[]
+    url= 'https://iate.europa.eu/em-api/domains/_tree'
+    response = requests.get(url,  headers=hed)
+    response2=response.json()
+    its=response2['items']
+
+    for i in range(len(its)):
+        code=its[i]['code']
+        name=its[i]['name']
+        dict_domains.append([name,code])
+        subdomain_iate(its[i], dict_domains)
+
+    for i in list_code:
+        for j in range(len(dict_domains)):
+            code=dict_domains[j]
+            if(i == code[1]):
+                domain.append(code[0])
+    return(domain)  
+
+
 
 def domain_iate(item, data, hed):
     dict_domains=[]
