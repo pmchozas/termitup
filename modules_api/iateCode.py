@@ -50,7 +50,7 @@ def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
 def get_best_vector(vectors, term, corpus):
     
    
-    print(wsidCode.wsidFunction(term, corpus,   vectors))
+    print(wsidCode.wsidFunction(term, corpus, vectors))
 
 
 def request_term_to_iate(term, inlang, outlang):
@@ -110,7 +110,7 @@ def create_langIn_vector(item, inlang, hed):
             vector.append(note)
             
             '''
-    print(vector)
+    return vector
     
 
 

@@ -1,7 +1,87 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Sep 25 17:57:46 2020
+
+@author: pmchozas
+"""
+
+
 import requests
 import json
 import conts_log
 from time import time
+
+
+'''
+la función get_term_position devuelve la posición del término en el corpus, que es requerida por invoke_wsid
+'''
+def get_term_position(term, corpus):
+    start=corpus.index(term)
+    length=len(term)
+    end=start+length
+    return(start, end)
+    
+
+'''
+invoke_wsid es una versión simplificada de wsid_function creada por Patri para la Api
+'''
+def invoke_wsid(term, corpus, vectors):
+    term_pos=get_term_position(term, corpus)
+    
+    
+    auth_token = getToken()
+    term_pos=get_term_position(term, corpus)
+    start=term_pos[0]
+    end=term_pos[1]
+    hed = {
+                #   'Authorization': 'Bearer ' + auth_token, 
+                   'accept': 'application/json'
+                #   'Content-Type': 'application/json'
+    }    
+    
+    for vector in vectors:
+        url_lkgp_status='http://el-fastapi-88-staging.cloud.itandtel.at/disambiguate_demo?'
+        params={'context': corpus, 'start_ind': start, 'end_ind': end,  'senses': vector}
+        print(params)
+        response = requests.post(url_lkgp_status,params=params,headers =hed)
+        #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
+        code=response.status_code
+        print(response)
+        print(code)
+        req = response.request
+        command = "curl -X {method} -H {headers} -d '{data}' '{uri}'"
+        method = req.method
+        uri = req.url
+        data = req.body
+        headers = ['"{0}: {1}"'.format(k, v) for k, v in req.headers.items()]
+        headers = " -H ".join(headers)
+        print(command.format(method=method, headers=headers, data=data, uri=uri))
+        value=response.json()
+        print(value)
+           
+
+
+def getToken():
+    f = open("client_id.txt",encoding="utf8")
+    client_id=f.read().strip()
+    f = open("client_secret.txt",encoding="utf8")
+    client_secret=f.read().strip()
+    url_authen='https://keycloak-secure-88-staging.cloud.itandtel.at/auth/realms/Lynx/protocol/openid-connect/token'
+    grant_type = "client_credentials"
+    data = {
+        "grant_type": grant_type,
+        "client_id": client_id,
+        "client_secret": client_secret
+        #"scope": scope
+    }
+    auth_response = requests.post(url_authen, data=data)
+    # Read token from auth response
+    auth_response_json = auth_response.json()
+    auth_token = auth_response_json["access_token"]
+    return auth_token
+
+
 
 def wsidFunction(termIn, listcontext,   definitions):
     #print(termIn,'|', context.lower(),'|',   definitions)
@@ -25,6 +105,7 @@ def wsidFunction(termIn, listcontext,   definitions):
             pesos=[]
             context=context.lower()
             conts_log.information('Context: '+context,'')
+            termIn=termIn.lower()
             start=context.index(termIn)
             longTerm=len(termIn)
             end=context.index(termIn.lower())+longTerm
@@ -37,13 +118,20 @@ def wsidFunction(termIn, listcontext,   definitions):
             #print('END---', end)
             #print('SENSES---',definitions[0])
             #print('----Entrando WSDI----')
-            response = requests.post('http://el-fastapi-88-staging.cloud.itandtel.at/docs#/WSD/disambiguate_demo_disambiguate_demo_post',
-                    params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitions[0]}, 
-                    headers ={'accept': 'application/json',
-                        'X-CSRFToken': 'WCrrUzvdvbA4uahbunqIJGxTpyAwFuIGgIm9O91EfeiQwH3TnUUsnF2cdXkHXi94'
-                }
-            )
+            auth_token = getToken()
+            #print(auth_token)
+            hed = {
+                   'Authorization': 'Bearer ' + auth_token, 
+                   'accept': 'application/json',
+                   'Content-Type': 'application/json'
+                  }
+                
+            url_lkgp_status='https://apim-88-staging.cloud.itandtel.at/api/entity-linking/disambiguate_demo?'
+            params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitions[0]}
+            response = requests.post(url_lkgp_status,params=params,headers =hed)
+            #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
             code=response.status_code
+            #code=200
             #print('CODE WSID',code)
             #print('response', response)
             if(code!=200):
