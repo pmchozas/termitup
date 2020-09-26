@@ -24,11 +24,15 @@ langOut=['en']
 
 #iate_enriching_terms(terms,corpus, langIn, langOut )
 
-result = iateCode.request_term_to_iate(terms[0], langIn, langOut)
-vectors=result[1]
+#result = iateCode.request_term_to_iate(terms[0], langIn, langOut)
+#vectors=result[1]
 
-#vectors=['trabajo empresa puesto trabajador', 'otro vector cualquiera']
+vectors=['trabajo empresa puesto trabajador', 'otro vector cualquiera']
 
 
-test = wsidCode.invoke_wsid(terms[0], corpus, vectors)
-print(test)
+test = wsidCode.get_vector_weights(terms[0], corpus, vectors)
+
+
+maxw= iateCode.get_best_vector(vectors, terms[0], corpus)
+
+print(maxw)

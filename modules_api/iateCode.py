@@ -37,7 +37,8 @@ def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
     
     
     # 3 hace el wsd con los vectores
-    get_best_vector(vectors,  term, context)
+   
+    get_best_vector(vectors,  term, context) #que llama a  wsidCode.get_vector_weights()
     
     
     # 4 con el mejor, te traes más datos
@@ -48,9 +49,11 @@ def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
 
 
 def get_best_vector(vectors, term, corpus):
-    
-   
-    print(wsidCode.wsidFunction(term, corpus, vectors))
+    vector_weights=wsidCode.get_vector_weights(term, corpus, vectors)
+    max_weight=max(vector_weights)
+    index_max=vector_weights.index(max_weight)
+    best_vector=vectors[index_max]
+    return best_vector
 
 
 def request_term_to_iate(term, inlang, outlang):

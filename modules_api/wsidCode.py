@@ -24,13 +24,11 @@ def get_term_position(term, corpus):
     
 
 '''
-invoke_wsid es una versión simplificada de wsid_function creada por Patri para la Api
+get_vector_weights es una versión simplificada de wsid_function creada por Patri para la Api
 '''
-def invoke_wsid(term, corpus, vectors):
+def get_vector_weights(term, corpus, vectors):
     term_pos=get_term_position(term, corpus)
-    
-    
-    auth_token = getToken()
+    #auth_token = getToken()
     term_pos=get_term_position(term, corpus)
     start=term_pos[0]
     end=term_pos[1]
@@ -39,27 +37,28 @@ def invoke_wsid(term, corpus, vectors):
                    'accept': 'application/json'
                 #   'Content-Type': 'application/json'
     }    
-    
+    valuelist=list()
     for vector in vectors:
         url_lkgp_status='http://el-fastapi-88-staging.cloud.itandtel.at/disambiguate_demo?'
         params={'context': corpus, 'start_ind': start, 'end_ind': end,  'senses': vector}
-        print(params)
+        #print(params)
         response = requests.post(url_lkgp_status,params=params,headers =hed)
         #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
-        code=response.status_code
-        print(response)
-        print(code)
-        req = response.request
-        command = "curl -X {method} -H {headers} -d '{data}' '{uri}'"
-        method = req.method
-        uri = req.url
-        data = req.body
-        headers = ['"{0}: {1}"'.format(k, v) for k, v in req.headers.items()]
-        headers = " -H ".join(headers)
-        print(command.format(method=method, headers=headers, data=data, uri=uri))
+        #code=response.status_code
+        #print(response)
+        #print(code)
+        #req = response.request
+        #command = "curl -X {method} -H {headers} -d '{data}' '{uri}'"
+        #method = req.method
+        #uri = req.url
+        #data = req.body
+        #headers = ['"{0}: {1}"'.format(k, v) for k, v in req.headers.items()]
+        #headers = " -H ".join(headers)
+        #print(command.format(method=method, headers=headers, data=data, uri=uri))
         value=response.json()
-        print(value)
-           
+        
+        valuelist.append(value[0])
+    return valuelist   
 
 
 def getToken():
