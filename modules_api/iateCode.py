@@ -22,7 +22,10 @@ def bearenToken():
 
 
 
+''' 
+Intento de modularizar de Patri y Pablo
 
+'''
 
 def enrich_terms(terms, inlang, outlang, outFile, context, wsid, rels):
     for term in terms:
@@ -32,28 +35,26 @@ def enrich_terms(terms, inlang, outlang, outFile, context, wsid, rels):
 
 def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
     
-    # 1 consultas items # 2 creas los vectores
-    items, vectors= request_term_to_iate(term, inlang, outlang)
+    # 1 consultas items # 2 creas los vectores con reate_langIn_vector
+    items, vectors, response2=request_term_to_iate(term, inlang, outlang)
     
     
     # 3 hace el wsd con los vectores
    
-    get_best_vector(vectors,  term, context) #que llama a  wsidCode.get_vector_weights()
+    best_vector, index_max=get_best_vector(vectors,  term, context) #que llama a  wsidCode.get_vector_weights()
     
     
     # 4 con el mejor, te traes más datos
+        #la id
+    best_vector_id=retrieve_best_vector_id(response2, index_max)
+        #traducciones, sinónimos y defis
     
     
     return
 
 
 
-def get_best_vector(vectors, term, corpus):
-    vector_weights=wsidCode.get_vector_weights(term, corpus, vectors)
-    max_weight=max(vector_weights)
-    index_max=vector_weights.index(max_weight)
-    best_vector=vectors[index_max]
-    return best_vector
+
 
 
 def request_term_to_iate(term, inlang, outlang):
@@ -89,7 +90,7 @@ def request_term_to_iate(term, inlang, outlang):
         vectors.append(create_langIn_vector(item, inlang,hed))
         
         
-    return items, vectors  
+    return items, vectors, response2  
         
 
     
@@ -115,7 +116,103 @@ def create_langIn_vector(item, inlang, hed):
             '''
     return vector
     
+def get_best_vector(vectors, term, corpus):
+    vector_weights=wsidCode.get_vector_weights(term, corpus, vectors)
+    max_weight=max(vector_weights)
+    index_max=vector_weights.index(max_weight)
+    best_vector=vectors[index_max]
+    return best_vector, index_max
 
+def retrieve_best_vector_id(response2, index_max):
+    best_item= response2['items'][index_max]
+    best_item_id=best_item['id']
+    return best_item_id
+
+def retrieve_data_from_best_vector(response2, index_max, langOut, langIn):
+#en algún momento hay que decir que si el sinónimo en langIN es igual al term original, no se recoja
+    best_item= response2['items'][index_max]
+    translations=[]
+    synonyms=[]
+    definitions=[]
+    for lang in best_item['language']:
+        
+        for l in langOut:
+            if lang == l:
+                language=best_item['language'][lang]
+                if 'definition' in language.keys():
+                    definition=best_item['language'][lang]['definition']+" @"+lang
+                    definitions.append(definition)
+                else:
+                    continue
+                for entry in best_item['language'][lang]['term_entries']:
+                    trans=entry['term_value']
+                    translations.append(trans+" @"+lang)
+            else:
+                continue
+
+        if lang == langIn:
+            language=best_item['language'][lang]
+            if 'definition' in language.keys():
+                definition=best_item['language'][lang]['definition']+" @"+lang
+                definitions.append(definition)
+            else:
+                continue
+            for e in best_item['language'][lang]['term_entries']:
+                    syn=e['term_value']
+                    synonyms.append(syn)
+            else:
+                continue
+
+            # if best_item['language'][lang]['definition']:
+            #         definition=best_item['language'][lang]['definition']
+            #         definitions.append(definition)
+            # else:
+            #     continue
+    
+                
+    return translations, synonyms, definitions
+
+
+
+
+'''
+Esta función es de Karen, me la voy a copiar para modularizar
+'''
+
+
+def getInformationIate(target, item,item2, leng,termSearch):
+    defi=''
+    pref=''
+    term_val=''
+    syn=[]
+    joinSyn=''
+    if(target in leng):
+        language=leng[target]
+        for l in language:
+            if('term_entries' in language.keys()):
+                term_entries=language['term_entries']
+                if(len(term_entries)>0):
+                    pref=language['term_entries'][0]['term_value']
+                    for t in range(len(term_entries)):
+                        term_val=language['term_entries'][t]['term_value']
+                        
+                        if(termSearch is not term_val):
+                            syn.append(term_val)
+                    syn=syn[0:len(term_entries)]
+                    joinSyn='| '.join(syn)
+            if('definition' in language.keys()):
+                defi=language['definition']
+
+
+    
+    defi=re.sub(r'<[^>]*?>', '', defi)
+    defi=defi.replace(',', '').replace('"', '').replace("'", '').replace(':', '').replace('.','').replace('(','').replace(')','').replace('IATE','')
+    defi=re.sub(r'[0-9]', '', defi)
+    return(defi,pref, syn)
+
+'''
+Karen
+'''
 
 # iate
 
