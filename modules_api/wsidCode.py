@@ -11,6 +11,7 @@ import requests
 import json
 import conts_log
 from time import time
+import Term
 
 
 '''

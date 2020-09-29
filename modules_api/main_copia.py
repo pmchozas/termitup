@@ -1,7 +1,7 @@
 
 import iateCode
 import wsidCode
-
+import Term
 
 
 def iate_enriching_terms(terms,corpus,  inlang, outlang ):

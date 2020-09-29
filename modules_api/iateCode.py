@@ -2,6 +2,7 @@ import requests
 import json
 import wsidCode
 import re
+import Term
 
 from unicodedata import normalize
 import logging
