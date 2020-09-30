@@ -12,7 +12,8 @@ no son todos obligatorios, no?
 
 class Term:
     term=""
-    inLang=""
+    langIn=""
+    langOut=""
     source=""
     term_id=""
     context=""
@@ -22,8 +23,8 @@ class Term:
     synonyms=[]
     
     def __init__(self):
-        self.term='término'
-        self.inLang='language'
+        self.term='term'
+        self.lang='lang'
         self.translations={
             "lang1":"term1",
             "lang2":"term2"
@@ -33,3 +34,7 @@ class Term:
             "lang2":"defi2"
             }
         self.synonyms=["synonym1", "synonym2"]
+
+
+
+
