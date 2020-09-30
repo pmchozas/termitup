@@ -22,6 +22,12 @@ class Term:
     definitions={}
     synonyms=[]
     
+    
+    ### test
+    responseIate=''
+    vectors=[]
+    items=[]
+    
     def __init__(self):
         self.term='term'
         self.lang='lang'

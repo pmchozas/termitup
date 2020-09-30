@@ -93,7 +93,44 @@ def request_term_to_iate(term, inlang, outlang):
         
     return items, vectors, response2  
         
+def request_term_to_iate_withTERM(term):
 
+    print(term.langIn)
+    auth_token=bearenToken()
+    hed = {'Authorization': 'Bearer ' +auth_token}
+    jsonList=[]
+    data = {"query": term.term,
+    "source": term.langIn,
+    "targets": term.langOut,
+    "search_in_fields": [    0     ],
+    "search_in_term_types": [   0,     1,     2,     3,     4
+    ],
+    "query_operator": 1
+    }
+    url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
+    response = requests.get(url, json=data, headers=hed)
+    response2=response.json()
+    #js=json.dumps(response2)
+    doc= json.dumps(response2, ensure_ascii=False,indent=1)
+    #print(doc)
+    
+    ## no results
+    items=[]
+    vectors=[]
+    
+    if response2['items'] is None:
+        return items, vectors
+    
+    for item in response2['items']:
+        
+        items.append(item)
+        vectors.append(create_langIn_vector(item, term.langIn,hed))
+        
+    
+    term.vectors= vectors
+    term.items=items
+    term.responseIate=response2
+    return term  
     
 
 
