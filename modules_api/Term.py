@@ -21,6 +21,10 @@ class Term:
     translations={}
     definitions={}
     synonyms=[]
+    start=0
+    end=0
+    index_max=0
+    best_item_id=0
     
     
     ### test
@@ -31,15 +35,7 @@ class Term:
     def __init__(self):
         self.term='term'
         self.lang='lang'
-        self.translations={
-            "lang1":"term1",
-            "lang2":"term2"
-            }
-        self.definitions={
-            "lang1":"defi1",
-            "lang2":"defi2"
-            }
-        self.synonyms=["synonym1", "synonym2"]
+
 
 
 

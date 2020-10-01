@@ -93,15 +93,15 @@ def request_term_to_iate(term, inlang, outlang):
         
     return items, vectors, response2  
         
-def request_term_to_iate_withTERM(term):
+def request_term_to_iate_withTERM(myterm):
 
-    print(term.langIn)
+    print(myterm.langIn)
     auth_token=bearenToken()
     hed = {'Authorization': 'Bearer ' +auth_token}
     jsonList=[]
-    data = {"query": term.term,
-    "source": term.langIn,
-    "targets": term.langOut,
+    data = {"query": myterm.term,
+    "source": myterm.langIn,
+    "targets": myterm.langOut,
     "search_in_fields": [    0     ],
     "search_in_term_types": [   0,     1,     2,     3,     4
     ],
@@ -124,13 +124,13 @@ def request_term_to_iate_withTERM(term):
     for item in response2['items']:
         
         items.append(item)
-        vectors.append(create_langIn_vector(item, term.langIn,hed))
+        vectors.append(create_langIn_vector(item, myterm.langIn,hed))
         
     
-    term.vectors= vectors
-    term.items=items
-    term.responseIate=response2
-    return term  
+    myterm.vectors= vectors
+    myterm.items=items
+    myterm.responseIate=response2
+    return myterm  
     
 
 
@@ -154,61 +154,54 @@ def create_langIn_vector(item, inlang, hed):
             '''
     return vector
     
-def get_best_vector(vectors, term, corpus):
-    vector_weights=wsidCode.get_vector_weights(term, corpus, vectors)
+def get_best_vector(myterm, corpus):
+    vector_weights=wsidCode.get_vector_weights(myterm, corpus)
     max_weight=max(vector_weights)
-    index_max=vector_weights.index(max_weight)
-    best_vector=vectors[index_max]
-    return best_vector, index_max
+    myterm.index_max=vector_weights.index(max_weight)
+    best_vector=myterm.vectors[myterm.index_max]
+    return best_vector, myterm
 
-def retrieve_best_vector_id(response2, index_max):
-    best_item= response2['items'][index_max]
-    best_item_id=best_item['id']
-    return best_item_id
+def retrieve_best_vector_id(myterm):
+    best_item= myterm.responseIate['items'][myterm.index_max]
+    myterm.best_item_id=best_item['id']
+    return myterm
 
-def retrieve_data_from_best_vector(response2, index_max, langOut, langIn):
+def retrieve_data_from_best_vector(myterm):
 #en algún momento hay que decir que si el sinónimo en langIN es igual al term original, no se recoja
-    best_item= response2['items'][index_max]
-    translations=[]
-    synonyms=[]
-    definitions=[]
+    best_item= myterm.responseIate['items'][myterm.index_max]
+
     for lang in best_item['language']:
         
-        for l in langOut:
+        for l in myterm.langOut:
             if lang == l:
                 language=best_item['language'][lang]
+   
                 if 'definition' in language.keys():
-                    definition=best_item['language'][lang]['definition']+" @"+lang
-                    definitions.append(definition)
+                    definition=best_item['language'][lang]['definition']
+                    myterm.definitions[lang]=definition
                 else:
                     continue
                 for entry in best_item['language'][lang]['term_entries']:
                     trans=entry['term_value']
-                    translations.append(trans+" @"+lang)
+                    myterm.translations[lang]=trans
             else:
                 continue
 
-        if lang == langIn:
+        if lang == myterm.langIn:
             language=best_item['language'][lang]
             if 'definition' in language.keys():
-                definition=best_item['language'][lang]['definition']+" @"+lang
-                definitions.append(definition)
+                definition=best_item['language'][lang]['definition']
+                myterm.definitions[lang]=definition
             else:
                 continue
             for e in best_item['language'][lang]['term_entries']:
                     syn=e['term_value']
-                    synonyms.append(syn)
+                    myterm.synonyms.append(syn)
             else:
                 continue
 
-            # if best_item['language'][lang]['definition']:
-            #         definition=best_item['language'][lang]['definition']
-            #         definitions.append(definition)
-            # else:
-            #     continue
-    
-                
-    return translations, synonyms, definitions
+                    
+    return myterm
 
 
 
