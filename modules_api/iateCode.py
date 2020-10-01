@@ -1,8 +1,8 @@
 import requests
 import json
-import wsidCode
+from modules_api import wsidCode
 import re
-import Term
+from modules_api import Term
 
 from unicodedata import normalize
 import logging
@@ -34,20 +34,19 @@ def enrich_terms(terms, inlang, outlang, outFile, context, wsid, rels):
     
     
 
-def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
+def enrich_term(myterm, corpus):
     
     # 1 consultas items # 2 creas los vectores con reate_langIn_vector
-    items, vectors, response2=request_term_to_iate(term, inlang, outlang)
-    
-    
+    request_term_to_iate_withTERM(myterm)
     # 3 hace el wsd con los vectores
-   
-    best_vector, index_max=get_best_vector(vectors,  term, context) #que llama a  wsidCode.get_vector_weights()
     
-    
+    get_best_vector(myterm, corpus) #que llama a  wsidCode.get_vector_weights()
     # 4 con el mejor, te traes más datos
-        #la id
-    best_vector_id=retrieve_best_vector_id(response2, index_max)
+    #la id
+    
+    retrieve_best_vector_id(myterm)
+    
+    retrieve_data_from_best_vector(myterm)
         #traducciones, sinónimos y defis
     
     
@@ -58,44 +57,44 @@ def enrich_term(term, inlang, outlang, outFile, context, wsid, rels):
 
 
 
-def request_term_to_iate(term, inlang, outlang):
+# def request_term_to_iate(term, inlang, outlang):
 
-    auth_token=bearenToken()
-    hed = {'Authorization': 'Bearer ' +auth_token}
-    jsonList=[]
-    data = {"query": term,
-    "source": inlang,
-    "targets": outlang,
-    "search_in_fields": [    0     ],
-    "search_in_term_types": [   0,     1,     2,     3,     4
-    ],
-    "query_operator": 1
-    }
-    url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
-    response = requests.get(url, json=data, headers=hed)
-    response2=response.json()
-    #js=json.dumps(response2)
-    doc= json.dumps(response2, ensure_ascii=False,indent=1)
-    #print(doc)
+#     auth_token=bearenToken()
+#     hed = {'Authorization': 'Bearer ' +auth_token}
+#     jsonList=[]
+#     data = {"query": term,
+#     "source": inlang,
+#     "targets": outlang,
+#     "search_in_fields": [    0     ],
+#     "search_in_term_types": [   0,     1,     2,     3,     4
+#     ],
+#     "query_operator": 1
+#     }
+#     url= 'https://iate.europa.eu/em-api/entries/_search?expand=true&limit=5&offset=0'
+#     response = requests.get(url, json=data, headers=hed)
+#     response2=response.json()
+#     #js=json.dumps(response2)
+#     doc= json.dumps(response2, ensure_ascii=False,indent=1)
+#     #print(doc)
     
-    ## no results
-    items=[]
-    vectors=[]
+#     ## no results
+#     items=[]
+#     vectors=[]
     
-    if response2['items'] is None:
-        return items, vectors
+#     if response2['items'] is None:
+#         return items, vectors
     
-    for item in response2['items']:
+#     for item in response2['items']:
         
-        items.append(item)
-        vectors.append(create_langIn_vector(item, inlang,hed))
+#         items.append(item)
+#         vectors.append(create_langIn_vector(item, inlang,hed))
         
         
-    return items, vectors, response2  
+#     return items, vectors, response2  
         
 def request_term_to_iate_withTERM(myterm):
 
-    print(myterm.langIn)
+    print( 'request '+ myterm.langIn)
     auth_token=bearenToken()
     hed = {'Authorization': 'Bearer ' +auth_token}
     jsonList=[]
@@ -124,7 +123,7 @@ def request_term_to_iate_withTERM(myterm):
     for item in response2['items']:
         
         items.append(item)
-        vectors.append(create_langIn_vector(item, myterm.langIn,hed))
+        vectors.append(create_langIn_vector(item, myterm,hed))
         
     
     myterm.vectors= vectors
@@ -134,16 +133,16 @@ def request_term_to_iate_withTERM(myterm):
     
 
 
-def create_langIn_vector(item, inlang, hed):
+def create_langIn_vector(item, myterm, hed):
     vector=[]
     domain_names = get_domain_names(item, hed)
     vector.extend(domain_names)
     
-    if  'definition' in item['language'][inlang]:
-         vector.append(item['language'][inlang]['definition'])
+    if  'definition' in item['language'][myterm.langIn]:
+         vector.append(item['language'][myterm.langIn]['definition'])
     
    
-    for entry in item['language'][inlang]['term_entries']: 
+    for entry in item['language'][myterm.langIn]['term_entries']: 
         term_value = entry['term_value']
         vector.append(term_value)
         '''    

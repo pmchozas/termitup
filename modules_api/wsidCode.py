@@ -9,9 +9,9 @@ Created on Fri Sep 25 17:57:46 2020
 
 import requests
 import json
-import conts_log
+from modules_api import conts_log
 from time import time
-import Term
+from modules_api import Term
 
 
 '''

@@ -673,3 +673,138 @@ TypeError: 'module' object is not callable
 12:25:24, INFO 127.0.0.1 - - [25/Sep/2020 12:25:24] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
 12:25:25, INFO 127.0.0.1 - - [25/Sep/2020 12:25:25] "GET /static/swagger.json HTTP/1.1" 200 -
 12:25:25, INFO 127.0.0.1 - - [25/Sep/2020 12:25:25] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+17:16:11, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:16:11, INFO  * Restarting with fsevents reloader
+17:16:15, WARNING  * Debugger is active!
+17:16:15, INFO  * Debugger PIN: 236-695-635
+17:16:41, INFO 127.0.0.1 - - [01/Oct/2020 17:16:41] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+17:16:41, INFO 127.0.0.1 - - [01/Oct/2020 17:16:41] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+17:16:41, INFO 127.0.0.1 - - [01/Oct/2020 17:16:41] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+17:16:41, INFO 127.0.0.1 - - [01/Oct/2020 17:16:41] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+17:16:43, INFO 127.0.0.1 - - [01/Oct/2020 17:16:43] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+17:16:43, INFO 127.0.0.1 - - [01/Oct/2020 17:16:43] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+17:19:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+17:19:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+17:19:36, INFO  * Restarting with fsevents reloader
+17:19:40, WARNING  * Debugger is active!
+17:19:40, INFO  * Debugger PIN: 236-695-635
+17:29:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:29:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:29:16, INFO  * Restarting with fsevents reloader
+17:29:20, WARNING  * Debugger is active!
+17:29:20, INFO  * Debugger PIN: 236-695-635
+17:30:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:30:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:30:54, INFO  * Restarting with fsevents reloader
+17:30:57, WARNING  * Debugger is active!
+17:30:57, INFO  * Debugger PIN: 236-695-635
+17:31:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+17:31:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+17:31:12, INFO  * Restarting with fsevents reloader
+17:31:15, WARNING  * Debugger is active!
+17:31:15, INFO  * Debugger PIN: 236-695-635
+17:43:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+17:43:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+17:43:24, INFO  * Restarting with fsevents reloader
+17:43:28, WARNING  * Debugger is active!
+17:43:28, INFO  * Debugger PIN: 236-695-635
+17:44:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:44:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:44:43, INFO  * Restarting with fsevents reloader
+17:44:46, WARNING  * Debugger is active!
+17:44:46, INFO  * Debugger PIN: 236-695-635
+17:47:54, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:47:54, INFO  * Restarting with fsevents reloader
+17:48:00, WARNING  * Debugger is active!
+17:48:00, INFO  * Debugger PIN: 236-695-635
+17:48:05, INFO 127.0.0.1 - - [01/Oct/2020 17:48:05] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+17:48:41, INFO 127.0.0.1 - - [01/Oct/2020 17:48:41] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+17:51:22, INFO 127.0.0.1 - - [01/Oct/2020 17:51:22] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+17:51:32, INFO 127.0.0.1 - - [01/Oct/2020 17:51:32] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+17:51:33, INFO 127.0.0.1 - - [01/Oct/2020 17:51:33] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+17:53:43, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:53:43, INFO  * Restarting with fsevents reloader
+17:53:47, WARNING  * Debugger is active!
+17:53:47, INFO  * Debugger PIN: 236-695-635
+17:54:07, INFO 127.0.0.1 - - [01/Oct/2020 17:54:07] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+17:54:07, INFO 127.0.0.1 - - [01/Oct/2020 17:54:07] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+17:54:07, INFO 127.0.0.1 - - [01/Oct/2020 17:54:07] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+17:54:07, INFO 127.0.0.1 - - [01/Oct/2020 17:54:07] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+17:54:07, INFO 127.0.0.1 - - [01/Oct/2020 17:54:07] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+17:54:35, INFO 127.0.0.1 - - [01/Oct/2020 17:54:35] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:02:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:02:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:02:13, INFO  * Restarting with fsevents reloader
+18:02:18, WARNING  * Debugger is active!
+18:02:18, INFO  * Debugger PIN: 236-695-635
+18:02:23, INFO 127.0.0.1 - - [01/Oct/2020 18:02:23] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:03:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:03:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:03:39, INFO  * Restarting with fsevents reloader
+18:03:43, WARNING  * Debugger is active!
+18:03:43, INFO  * Debugger PIN: 236-695-635
+18:03:48, INFO 127.0.0.1 - - [01/Oct/2020 18:03:48] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:04:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:04:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:04:23, INFO  * Restarting with fsevents reloader
+18:04:27, WARNING  * Debugger is active!
+18:04:27, INFO  * Debugger PIN: 236-695-635
+18:04:36, INFO 127.0.0.1 - - [01/Oct/2020 18:04:36] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:10:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:10:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:10:05, INFO  * Restarting with fsevents reloader
+18:10:09, WARNING  * Debugger is active!
+18:10:09, INFO  * Debugger PIN: 236-695-635
+18:10:27, INFO 127.0.0.1 - - [01/Oct/2020 18:10:27] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:11:27, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:11:27, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:11:29, INFO  * Restarting with fsevents reloader
+18:11:33, WARNING  * Debugger is active!
+18:11:33, INFO  * Debugger PIN: 236-695-635
+18:11:54, INFO 127.0.0.1 - - [01/Oct/2020 18:11:54] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:14:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:14:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:14:50, INFO  * Restarting with fsevents reloader
+18:14:54, WARNING  * Debugger is active!
+18:14:54, INFO  * Debugger PIN: 236-695-635
+18:14:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:14:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:14:57, INFO  * Restarting with fsevents reloader
+18:15:00, WARNING  * Debugger is active!
+18:15:00, INFO  * Debugger PIN: 236-695-635
+18:15:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:15:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:15:33, INFO  * Restarting with fsevents reloader
+18:15:36, WARNING  * Debugger is active!
+18:15:36, INFO  * Debugger PIN: 236-695-635
+18:16:03, INFO 127.0.0.1 - - [01/Oct/2020 18:16:03] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+18:22:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:22:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:22:13, INFO  * Restarting with fsevents reloader
+18:22:17, WARNING  * Debugger is active!
+18:22:17, INFO  * Debugger PIN: 236-695-635
+18:22:39, INFO 127.0.0.1 - - [01/Oct/2020 18:22:39] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:23:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:23:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:23:11, INFO  * Restarting with fsevents reloader
+18:23:15, WARNING  * Debugger is active!
+18:23:15, INFO  * Debugger PIN: 236-695-635
+18:23:49, INFO 127.0.0.1 - - [01/Oct/2020 18:23:49] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:25:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:25:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:25:30, INFO  * Restarting with fsevents reloader
+18:25:34, WARNING  * Debugger is active!
+18:25:34, INFO  * Debugger PIN: 236-695-635
+18:25:55, INFO 127.0.0.1 - - [01/Oct/2020 18:25:55] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:26:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:26:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:26:26, INFO  * Restarting with fsevents reloader
+18:26:30, WARNING  * Debugger is active!
+18:26:30, INFO  * Debugger PIN: 236-695-635
+18:27:01, INFO 127.0.0.1 - - [01/Oct/2020 18:27:01] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:27:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:27:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:27:51, INFO  * Restarting with fsevents reloader
+18:27:54, WARNING  * Debugger is active!
+18:27:54, INFO  * Debugger PIN: 236-695-635
+18:28:21, INFO 127.0.0.1 - - [01/Oct/2020 18:28:21] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -

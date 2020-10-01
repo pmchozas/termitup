@@ -17,6 +17,8 @@ class Term:
     source=""
     term_id=""
     context=""
+    schema=""
+    frequency=""
     jurisdiction=""
     translations={}
     definitions={}

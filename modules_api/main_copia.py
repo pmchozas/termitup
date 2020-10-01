@@ -41,7 +41,7 @@ test = wsidCode.get_vector_weights(myterm, corpus)
 
 maxw= iateCode.get_best_vector(myterm, corpus)
 
-index_max = maxw[1]
+
 
 iateCode.retrieve_data_from_best_vector(myterm)
 

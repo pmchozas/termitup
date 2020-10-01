@@ -16,7 +16,9 @@ from modules_api import st_extraction
 from modules_api import TBXTools
 from modules_api import postprocess
 from modules_api import conts_log
-from modules_api import enriching_main
+
+from modules_api import Term
+from modules_api import iateCode
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -131,48 +133,56 @@ def enrinching_terminology():
     
     
    # to read body of a POST OR PUT
-
+    myterm=Term.Term()
     json_data = request.json
-    terms = json_data['terms']
-    inlang = json_data['source_language']
-    outlang = json_data['target_language']
+    myterm.term = json_data['terms']
+    myterm.langIn = json_data['source_language']
+    myterm.langOut = json_data['target_language']
     corpus = json_data['corpus']
-    schema = json_data['schema_name']  
+    myterm.schema = json_data['schema_name']  
 
     print('Received:')
     #print(Terms)
-    print(inlang)
-    print(outlang)
+    print(myterm.langIn)
+    print(myterm.langOut)
     print(corpus)
-    print(schema)
-    termlist=terms.split(', ')
+    print(myterm.schema)
+    #termlist=terms.split(', ')
     
 
+    #iate=True
+    # eurovoc=True
+    # unesco=True
+    # wikidata=True
+
+
+    #myterm.freq = request.args.get('frequency')
+    #iate = request.args.get('iate')
     iate=True
-    eurovoc=True
-    unesco=True
-    wikidata=True
+    print(iate)
 
-
-    freq = request.args.get('frequency')
-    iate = request.args.get('iate')
-
-
-    eurovoc = request.args.get('eurovoc')
-    unesco = request.args.get('unesco')
-    wikidata = request.args.get('wikidata')
+    # eurovoc = request.args.get('eurovoc')
+    # unesco = request.args.get('unesco')
+    # wikidata = request.args.get('wikidata')
 
 
 
 
     
 
-    
-    enriching_terms=enriching_main.enriching_terms(termlist, inlang, outlang, corpus, schema, iate, freq)
-    print(enriching_terms)
+    if iate == True:
+        iateCode.enrich_term(myterm, corpus)
+        print(myterm.term)
+        print(myterm.synonyms)
+        print(myterm.translations)
+        print(myterm.definitions)
+        
+        result= "esto funciona"
+        
+        
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
    
-    return Response(json.dumps(enriching_terms),  mimetype='application/json')
+    return Response(json.dumps(result),  mimetype='application/json')
 
