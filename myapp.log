@@ -808,3 +808,127 @@ TypeError: 'module' object is not callable
 18:27:54, WARNING  * Debugger is active!
 18:27:54, INFO  * Debugger PIN: 236-695-635
 18:28:21, INFO 127.0.0.1 - - [01/Oct/2020 18:28:21] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+12:28:24, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:28:24, INFO  * Restarting with fsevents reloader
+12:28:28, WARNING  * Debugger is active!
+12:28:28, INFO  * Debugger PIN: 236-695-635
+12:28:38, INFO 127.0.0.1 - - [03/Oct/2020 12:28:38] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+12:28:38, INFO 127.0.0.1 - - [03/Oct/2020 12:28:38] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+12:28:38, INFO 127.0.0.1 - - [03/Oct/2020 12:28:38] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+12:28:38, INFO 127.0.0.1 - - [03/Oct/2020 12:28:38] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+12:28:39, INFO 127.0.0.1 - - [03/Oct/2020 12:28:39] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+12:28:39, INFO 127.0.0.1 - - [03/Oct/2020 12:28:39] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+12:31:56, INFO 127.0.0.1 - - [03/Oct/2020 12:31:56] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+12:35:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+12:35:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+12:35:09, INFO  * Restarting with fsevents reloader
+12:35:13, WARNING  * Debugger is active!
+12:35:13, INFO  * Debugger PIN: 236-695-635
+12:36:33, INFO 127.0.0.1 - - [03/Oct/2020 12:36:33] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+17:43:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/__init__.py', reloading
+17:43:44, INFO  * Restarting with fsevents reloader
+17:44:17, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:44:17, INFO  * Restarting with fsevents reloader
+17:44:21, WARNING  * Debugger is active!
+17:44:21, INFO  * Debugger PIN: 236-695-635
+17:44:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+17:44:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+17:44:51, INFO  * Restarting with fsevents reloader
+17:46:46, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:46:46, INFO  * Restarting with fsevents reloader
+17:46:49, WARNING  * Debugger is active!
+17:46:49, INFO  * Debugger PIN: 236-695-635
+17:47:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+17:47:36, INFO  * Restarting with fsevents reloader
+17:47:40, WARNING  * Debugger is active!
+17:47:40, INFO  * Debugger PIN: 236-695-635
+17:49:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+17:49:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+17:49:40, INFO  * Restarting with fsevents reloader
+17:49:45, WARNING  * Debugger is active!
+17:49:45, INFO  * Debugger PIN: 236-695-635
+17:49:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+17:49:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+17:49:58, INFO  * Restarting with fsevents reloader
+17:50:01, WARNING  * Debugger is active!
+17:50:01, INFO  * Debugger PIN: 236-695-635
+17:52:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:52:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:52:42, INFO  * Restarting with fsevents reloader
+17:52:46, WARNING  * Debugger is active!
+17:52:46, INFO  * Debugger PIN: 236-695-635
+17:53:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+17:53:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+17:53:46, INFO  * Restarting with fsevents reloader
+17:53:50, WARNING  * Debugger is active!
+17:53:50, INFO  * Debugger PIN: 236-695-635
+17:54:18, INFO 127.0.0.1 - - [03/Oct/2020 17:54:18] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+17:54:56, INFO 127.0.0.1 - - [03/Oct/2020 17:54:56] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+17:54:56, INFO 127.0.0.1 - - [03/Oct/2020 17:54:56] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+17:54:56, INFO 127.0.0.1 - - [03/Oct/2020 17:54:56] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+17:54:56, INFO 127.0.0.1 - - [03/Oct/2020 17:54:56] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+17:54:56, INFO 127.0.0.1 - - [03/Oct/2020 17:54:56] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+17:55:48, INFO 127.0.0.1 - - [03/Oct/2020 17:55:48] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+17:57:42, INFO 127.0.0.1 - - [03/Oct/2020 17:57:42] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:01:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:01:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:01:19, INFO  * Restarting with fsevents reloader
+18:01:23, WARNING  * Debugger is active!
+18:01:23, INFO  * Debugger PIN: 236-695-635
+18:02:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:02:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:02:09, INFO  * Restarting with fsevents reloader
+18:02:13, WARNING  * Debugger is active!
+18:02:13, INFO  * Debugger PIN: 236-695-635
+18:02:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+18:02:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+18:02:28, INFO  * Restarting with fsevents reloader
+18:02:31, WARNING  * Debugger is active!
+18:02:31, INFO  * Debugger PIN: 236-695-635
+18:06:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:06:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:06:50, INFO  * Restarting with fsevents reloader
+18:06:55, WARNING  * Debugger is active!
+18:06:55, INFO  * Debugger PIN: 236-695-635
+18:07:18, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:07:18, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:07:20, INFO  * Restarting with fsevents reloader
+18:07:24, WARNING  * Debugger is active!
+18:07:24, INFO  * Debugger PIN: 236-695-635
+18:08:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:08:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:08:45, INFO  * Restarting with fsevents reloader
+18:08:50, WARNING  * Debugger is active!
+18:08:50, INFO  * Debugger PIN: 236-695-635
+18:11:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:11:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:11:18, INFO  * Restarting with fsevents reloader
+18:11:22, WARNING  * Debugger is active!
+18:11:22, INFO  * Debugger PIN: 236-695-635
+18:12:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:12:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:12:12, INFO  * Restarting with fsevents reloader
+18:12:14, WARNING  * Debugger is active!
+18:12:14, INFO  * Debugger PIN: 236-695-635
+18:12:50, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:12:50, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:12:51, INFO  * Restarting with fsevents reloader
+18:12:54, WARNING  * Debugger is active!
+18:12:54, INFO  * Debugger PIN: 236-695-635
+18:14:11, INFO 127.0.0.1 - - [03/Oct/2020 18:14:11] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+18:14:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:14:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:14:51, INFO  * Restarting with fsevents reloader
+18:14:55, WARNING  * Debugger is active!
+18:14:55, INFO  * Debugger PIN: 236-695-635
+18:20:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:20:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:20:48, INFO  * Restarting with fsevents reloader
+18:20:53, WARNING  * Debugger is active!
+18:20:53, INFO  * Debugger PIN: 236-695-635
+18:21:30, INFO 127.0.0.1 - - [03/Oct/2020 18:21:30] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+18:23:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:23:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:23:19, INFO  * Restarting with fsevents reloader
+18:23:24, WARNING  * Debugger is active!
+18:23:24, INFO  * Debugger PIN: 236-695-635

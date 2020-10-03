@@ -94,7 +94,7 @@ def enrich_term(myterm, corpus):
         
 def request_term_to_iate_withTERM(myterm):
 
-    print( 'request '+ myterm.langIn)
+    
     auth_token=bearenToken()
     hed = {'Authorization': 'Bearer ' +auth_token}
     jsonList=[]
@@ -172,6 +172,7 @@ def retrieve_data_from_best_vector(myterm):
     for lang in best_item['language']:
         
         for l in myterm.langOut:
+           
             if lang == l:
                 language=best_item['language'][lang]
    

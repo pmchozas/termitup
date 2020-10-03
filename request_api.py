@@ -137,9 +137,14 @@ def enrinching_terminology():
     json_data = request.json
     myterm.term = json_data['terms']
     myterm.langIn = json_data['source_language']
-    myterm.langOut = json_data['target_language']
+    
     corpus = json_data['corpus']
     myterm.schema = json_data['schema_name']  
+    
+    
+    lang=json_data['target_language']
+    myterm.langOut=lang.split(', ')
+    
 
     print('Received:')
     #print(Terms)
@@ -177,12 +182,20 @@ def enrinching_terminology():
         print(myterm.translations)
         print(myterm.definitions)
         
-        result= "esto funciona"
+
+        #result= "esto funciona"
+        
+        data={
+            'Source Term' : myterm.term,
+            'Synonyms': myterm.synonyms,
+            'Translations': myterm.translations,
+            'Definitions': myterm.definitions
+            }
         
         
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
    
-    return Response(json.dumps(result),  mimetype='application/json')
+    return Response(json.dumps(data),  mimetype='application/json')
 

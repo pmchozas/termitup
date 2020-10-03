@@ -13,7 +13,7 @@ no son todos obligatorios, no?
 class Term:
     term=""
     langIn=""
-    langOut=""
+    langOut=[]
     source=""
     term_id=""
     context=""
