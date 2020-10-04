@@ -16,7 +16,7 @@ from modules_api import st_extraction
 from modules_api import TBXTools
 from modules_api import postprocess
 from modules_api import conts_log
-
+from modules_api import eurovocCode
 from modules_api import Term
 from modules_api import iateCode
 
@@ -164,8 +164,7 @@ def enrinching_terminology():
     #myterm.freq = request.args.get('frequency')
     #iate = request.args.get('iate')
     iate=True
-    print(iate)
-
+    eurovoc=True
     # eurovoc = request.args.get('eurovoc')
     # unesco = request.args.get('unesco')
     # wikidata = request.args.get('wikidata')
@@ -176,22 +175,26 @@ def enrinching_terminology():
     
 
     if iate == True:
-        iateCode.enrich_term(myterm, corpus)
+        iateCode.enrich_term_iate(myterm, corpus)
         print(myterm.term)
-        print(myterm.synonyms)
-        print(myterm.translations)
-        print(myterm.definitions)
+        print(myterm.synonyms_iate)
+        print(myterm.translations_iate)
+        print(myterm.definitions_iate)
         
-
-        #result= "esto funciona"
+    if eurovoc == True:
+        eurovocCode.enrich_term_eurovoc(myterm)
+        #la api no funciona porque eurovocCode.get_definition no funciona, lo demás sí.
         
         data={
             'Source Term' : myterm.term,
-            'Synonyms': myterm.synonyms,
-            'Translations': myterm.translations,
-            'Definitions': myterm.definitions
+            'Synonyms IATE': myterm.synonyms_iate,
+            'Translations IATE': myterm.translations_iate,
+            'Definitions IATE': myterm.definitions_iate,
+            'IATE ID': myterm.iate_id,
+            'EUROVOC ID': myterm.eurovoc_id
             }
         
+
         
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method

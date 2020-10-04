@@ -1,5 +1,6 @@
 from modules_api import iateCode
 from modules_api import wsidCode
+from modules_api import eurovocCode
 from modules_api.Term import Term
 
 
@@ -27,12 +28,9 @@ myterm.langIn='es'
 
 lang="en, de"
 
-langlist=[]
-langlist.append(lang.split(', '))
-
-print(langlist)
 myterm.langOut=lang.split(', ')
-print(myterm.langOut)
+
+
 
 #iate_enriching_terms_withTERM(myterm,corpus)
 
@@ -51,10 +49,19 @@ maxw= iateCode.get_best_vector(myterm, corpus)
 
 iateCode.retrieve_data_from_best_vector(myterm)
 
-print(myterm.term)
-print(myterm.synonyms)
-print(myterm.translations)
-print(myterm.definitions)
+# print(myterm.term)
+# print(myterm.synonyms_iate)
+# print(myterm.translations_iate)
+# print(myterm.definitions_iate)
+
+
+eurovocCode.get_uri(myterm)
+eurovocCode.get_definition(myterm)
+print(myterm.eurovoc_id)
+print(myterm.definitions_eurovoc)
+
+
+
 '''
 
 # corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'

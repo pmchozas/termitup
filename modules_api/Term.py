@@ -15,18 +15,23 @@ class Term:
     langIn=""
     langOut=[]
     source=""
-    term_id=""
+    iate_id=""
+    eurovoc_id=""
     context=""
     schema=""
     frequency=""
     jurisdiction=""
-    translations={}
-    definitions={}
-    synonyms=[]
+    translations_iate={}
+    definitions_iate={}
+    synonyms_iate=[]
+    translations_eurovoc={}
+    definitions_eurovoc={}
+    synonyms_eurovoc=[]
     start=0
     end=0
     index_max=0
     best_item_id=0
+    
     
     
     ### test

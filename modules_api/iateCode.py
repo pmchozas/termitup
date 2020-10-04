@@ -2,7 +2,7 @@ import requests
 import json
 from modules_api import wsidCode
 import re
-from modules_api import Term
+#from modules_api import Term
 
 from unicodedata import normalize
 import logging
@@ -28,13 +28,9 @@ Intento de modularizar de Patri y Pablo
 
 '''
 
-def enrich_terms(terms, inlang, outlang, outFile, context, wsid, rels):
-    for term in terms:
-        enrich_term(term, inlang, outlang, outFile, context, wsid, rels)
-    
     
 
-def enrich_term(myterm, corpus):
+def enrich_term_iate(myterm, corpus):
     
     # 1 consultas items # 2 creas los vectores con reate_langIn_vector
     request_term_to_iate_withTERM(myterm)
@@ -162,7 +158,7 @@ def get_best_vector(myterm, corpus):
 
 def retrieve_best_vector_id(myterm):
     best_item= myterm.responseIate['items'][myterm.index_max]
-    myterm.best_item_id=best_item['id']
+    myterm.iate_id="https://iate.europa.eu/entry/result/"+str(best_item['id'])
     return myterm
 
 def retrieve_data_from_best_vector(myterm):
@@ -178,12 +174,12 @@ def retrieve_data_from_best_vector(myterm):
    
                 if 'definition' in language.keys():
                     definition=best_item['language'][lang]['definition']
-                    myterm.definitions[lang]=definition
+                    myterm.definitions_iate[lang]=definition
                 else:
                     continue
                 for entry in best_item['language'][lang]['term_entries']:
                     trans=entry['term_value']
-                    myterm.translations[lang]=trans
+                    myterm.translations_iate[lang]=trans
             else:
                 continue
 
@@ -191,14 +187,15 @@ def retrieve_data_from_best_vector(myterm):
             language=best_item['language'][lang]
             if 'definition' in language.keys():
                 definition=best_item['language'][lang]['definition']
-                myterm.definitions[lang]=definition
+                myterm.definitions_iate[lang]=definition
             else:
                 continue
             for e in best_item['language'][lang]['term_entries']:
                     syn=e['term_value']
-                    myterm.synonyms.append(syn)
-            else:
-                continue
+                    if syn != myterm.term:
+                        myterm.synonyms_iate.append(syn)
+                    else:
+                        continue
 
                     
     return myterm
