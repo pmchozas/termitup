@@ -187,11 +187,15 @@ def enrinching_terminology():
         
         data={
             'Source Term' : myterm.term,
-            'Synonyms IATE': myterm.synonyms_iate,
-            'Translations IATE': myterm.translations_iate,
-            'Definitions IATE': myterm.definitions_iate,
             'IATE ID': myterm.iate_id,
-            'EUROVOC ID': myterm.eurovoc_id
+            'IATE Synonyms': myterm.synonyms_iate,
+            'IATE Translations': myterm.translations_iate,
+            'IATE Definitions': myterm.definitions_iate, #tengo que revisar si este código está sobreescribiendo , problemas con diccionarios
+            'EUROVOC ID': myterm.eurovoc_id,
+            'EUROVOC Broader ID': myterm.euro_br,
+            'EUROVOC Narrower ID': myterm.euro_na,
+            'EUROVOC Related ID': myterm.euro_re
+            
             }
         
 

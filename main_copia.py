@@ -56,9 +56,14 @@ iateCode.retrieve_data_from_best_vector(myterm)
 
 
 eurovocCode.get_uri(myterm)
-eurovocCode.get_definition(myterm)
-print(myterm.eurovoc_id)
-print(myterm.definitions_eurovoc)
+eurovocCode.get_relations(myterm)
+
+print(myterm.euro_br)
+print(myterm.euro_na)
+print(myterm.euro_re)
+
+
+
 
 
 

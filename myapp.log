@@ -1117,3 +1117,166 @@ TypeError: 'module' object is not callable
 13:40:03, INFO  * Restarting with fsevents reloader
 13:40:08, WARNING  * Debugger is active!
 13:40:08, INFO  * Debugger PIN: 236-695-635
+18:44:21, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+18:44:21, INFO  * Restarting with fsevents reloader
+18:44:23, WARNING  * Debugger is active!
+18:44:23, INFO  * Debugger PIN: 236-695-635
+18:45:28, INFO 127.0.0.1 - - [06/Oct/2020 18:45:28] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+18:50:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+18:50:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+18:50:11, INFO  * Restarting with fsevents reloader
+18:50:14, WARNING  * Debugger is active!
+18:50:14, INFO  * Debugger PIN: 236-695-635
+18:52:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+18:52:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+18:52:02, INFO  * Restarting with fsevents reloader
+18:52:05, WARNING  * Debugger is active!
+18:52:05, INFO  * Debugger PIN: 236-695-635
+18:52:24, INFO 127.0.0.1 - - [06/Oct/2020 18:52:24] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+18:52:24, INFO 127.0.0.1 - - [06/Oct/2020 18:52:24] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+18:52:24, INFO 127.0.0.1 - - [06/Oct/2020 18:52:24] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+18:52:24, INFO 127.0.0.1 - - [06/Oct/2020 18:52:24] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+18:52:25, INFO 127.0.0.1 - - [06/Oct/2020 18:52:25] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+18:52:26, INFO 127.0.0.1 - - [06/Oct/2020 18:52:26] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+18:53:17, INFO 127.0.0.1 - - [06/Oct/2020 18:53:17] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+19:04:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:04:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:04:51, INFO  * Restarting with fsevents reloader
+19:04:56, WARNING  * Debugger is active!
+19:04:56, INFO  * Debugger PIN: 236-695-635
+19:17:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:17:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:17:46, INFO  * Restarting with fsevents reloader
+19:17:50, WARNING  * Debugger is active!
+19:17:50, INFO  * Debugger PIN: 236-695-635
+19:18:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:18:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:18:17, INFO  * Restarting with fsevents reloader
+19:18:20, WARNING  * Debugger is active!
+19:18:20, INFO  * Debugger PIN: 236-695-635
+19:18:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:18:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:18:47, INFO  * Restarting with fsevents reloader
+19:18:49, WARNING  * Debugger is active!
+19:18:49, INFO  * Debugger PIN: 236-695-635
+19:21:03, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:21:03, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:21:05, INFO  * Restarting with fsevents reloader
+19:21:08, WARNING  * Debugger is active!
+19:21:08, INFO  * Debugger PIN: 236-695-635
+19:21:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:21:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:21:20, INFO  * Restarting with fsevents reloader
+19:21:23, WARNING  * Debugger is active!
+19:21:23, INFO  * Debugger PIN: 236-695-635
+19:22:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:22:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:22:38, INFO  * Restarting with fsevents reloader
+19:22:41, WARNING  * Debugger is active!
+19:22:41, INFO  * Debugger PIN: 236-695-635
+19:25:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:25:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:25:47, INFO  * Restarting with fsevents reloader
+19:25:51, WARNING  * Debugger is active!
+19:25:51, INFO  * Debugger PIN: 236-695-635
+19:26:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:26:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:26:39, INFO  * Restarting with fsevents reloader
+19:26:42, WARNING  * Debugger is active!
+19:26:42, INFO  * Debugger PIN: 236-695-635
+19:26:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:26:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:26:45, INFO  * Restarting with fsevents reloader
+19:26:47, WARNING  * Debugger is active!
+19:26:47, INFO  * Debugger PIN: 236-695-635
+19:27:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:27:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:27:17, INFO  * Restarting with fsevents reloader
+19:27:20, WARNING  * Debugger is active!
+19:27:20, INFO  * Debugger PIN: 236-695-635
+19:27:36, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:27:36, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:27:38, INFO  * Restarting with fsevents reloader
+19:27:41, WARNING  * Debugger is active!
+19:27:41, INFO  * Debugger PIN: 236-695-635
+19:32:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:32:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:32:03, INFO  * Restarting with fsevents reloader
+19:32:07, WARNING  * Debugger is active!
+19:32:07, INFO  * Debugger PIN: 236-695-635
+19:32:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:32:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:32:54, INFO  * Restarting with fsevents reloader
+19:32:57, WARNING  * Debugger is active!
+19:32:57, INFO  * Debugger PIN: 236-695-635
+19:34:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:34:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:34:06, INFO  * Restarting with fsevents reloader
+19:34:09, WARNING  * Debugger is active!
+19:34:09, INFO  * Debugger PIN: 236-695-635
+19:34:40, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:34:40, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:34:42, INFO  * Restarting with fsevents reloader
+19:34:45, WARNING  * Debugger is active!
+19:34:45, INFO  * Debugger PIN: 236-695-635
+19:38:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:38:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:38:11, INFO  * Restarting with fsevents reloader
+19:38:14, WARNING  * Debugger is active!
+19:38:14, INFO  * Debugger PIN: 236-695-635
+19:44:18, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:44:18, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:44:19, INFO  * Restarting with fsevents reloader
+19:44:22, WARNING  * Debugger is active!
+19:44:22, INFO  * Debugger PIN: 236-695-635
+19:48:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:48:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:48:14, INFO  * Restarting with fsevents reloader
+19:48:17, WARNING  * Debugger is active!
+19:48:17, INFO  * Debugger PIN: 236-695-635
+19:49:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:49:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:49:11, INFO  * Restarting with fsevents reloader
+19:49:14, WARNING  * Debugger is active!
+19:49:14, INFO  * Debugger PIN: 236-695-635
+19:50:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:50:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:50:39, INFO  * Restarting with fsevents reloader
+19:50:43, WARNING  * Debugger is active!
+19:50:43, INFO  * Debugger PIN: 236-695-635
+19:54:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:54:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:54:50, INFO  * Restarting with fsevents reloader
+19:54:54, WARNING  * Debugger is active!
+19:54:54, INFO  * Debugger PIN: 236-695-635
+19:57:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:57:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:57:36, INFO  * Restarting with fsevents reloader
+19:57:39, WARNING  * Debugger is active!
+19:57:39, INFO  * Debugger PIN: 236-695-635
+19:58:03, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:58:03, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+19:58:04, INFO  * Restarting with fsevents reloader
+19:58:07, WARNING  * Debugger is active!
+19:58:07, INFO  * Debugger PIN: 236-695-635
+19:59:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:59:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+19:59:28, INFO  * Restarting with fsevents reloader
+19:59:32, WARNING  * Debugger is active!
+19:59:32, INFO  * Debugger PIN: 236-695-635
+20:00:46, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:00:46, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:00:48, INFO  * Restarting with fsevents reloader
+20:00:51, WARNING  * Debugger is active!
+20:00:51, INFO  * Debugger PIN: 236-695-635
+20:01:39, INFO 127.0.0.1 - - [06/Oct/2020 20:01:39] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+20:03:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:03:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:03:14, INFO  * Restarting with fsevents reloader
+20:03:17, WARNING  * Debugger is active!
+20:03:17, INFO  * Debugger PIN: 236-695-635
+20:03:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:03:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:03:43, INFO  * Restarting with fsevents reloader
+20:03:46, WARNING  * Debugger is active!
+20:03:46, INFO  * Debugger PIN: 236-695-635

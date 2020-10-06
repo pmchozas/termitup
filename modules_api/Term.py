@@ -31,7 +31,9 @@ class Term:
     end=0
     index_max=0
     best_item_id=0
-    
+    euro_br=[]
+    euro_na=[]
+    euro_re=[]
     
     
     ### test
