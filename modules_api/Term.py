@@ -34,6 +34,7 @@ class Term:
     euro_br=[]
     euro_na=[]
     euro_re=[]
+    eurovoc_relations={}
     
     
     ### test

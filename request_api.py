@@ -192,9 +192,11 @@ def enrinching_terminology():
             'IATE Translations': myterm.translations_iate,
             'IATE Definitions': myterm.definitions_iate, #tengo que revisar si este código está sobreescribiendo , problemas con diccionarios
             'EUROVOC ID': myterm.eurovoc_id,
-            'EUROVOC Broader ID': myterm.euro_br,
-            'EUROVOC Narrower ID': myterm.euro_na,
-            'EUROVOC Related ID': myterm.euro_re
+            'EUROVOC Synonyms': myterm.synonyms_eurovoc,
+            'EUROVOC Relations': myterm.eurovoc_relations,
+            'EUROVOC Definitions': myterm.definitions_eurovoc,
+            'EUROVOC Translations': myterm.translations_eurovoc
+            
             
             }
         

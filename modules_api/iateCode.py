@@ -166,36 +166,42 @@ def retrieve_data_from_best_vector(myterm):
     best_item= myterm.responseIate['items'][myterm.index_max]
 
     for lang in best_item['language']:
-        
+
         for l in myterm.langOut:
-           
+            if l not in myterm.translations_iate:
+
+                myterm.translations_iate[l]=[]
+                myterm.definitions_iate[l]=[]
+
             if lang == l:
                 language=best_item['language'][lang]
    
                 if 'definition' in language.keys():
                     definition=best_item['language'][lang]['definition']
-                    myterm.definitions_iate[lang]=definition
+                    myterm.definitions_iate[lang].append(definition)
                 else:
                     continue
                 for entry in best_item['language'][lang]['term_entries']:
                     trans=entry['term_value']
-                    myterm.translations_iate[lang]=trans
+                    myterm.translations_iate[lang].append(trans)
             else:
                 continue
 
         if lang == myterm.langIn:
-            language=best_item['language'][lang]
-            if 'definition' in language.keys():
-                definition=best_item['language'][lang]['definition']
-                myterm.definitions_iate[lang]=definition
-            else:
-                continue
-            for e in best_item['language'][lang]['term_entries']:
-                    syn=e['term_value']
-                    if syn != myterm.term:
-                        myterm.synonyms_iate.append(syn)
-                    else:
-                        continue
+            if lang not in myterm.translations_iate:
+                myterm.definitions_iate[lang]=[]
+                language=best_item['language'][lang]
+                if 'definition' in language.keys():
+                    definition=best_item['language'][lang]['definition']
+                    myterm.definitions_iate[lang].append(definition)
+                else:
+                    continue
+                for e in best_item['language'][lang]['term_entries']:
+                        syn=e['term_value']
+                        if syn != myterm.term:
+                            myterm.synonyms_iate.append(syn)
+                        else:
+                            continue
 
                     
     return myterm
