@@ -1,6 +1,7 @@
 from modules_api import iateCode
 from modules_api import wsidCode
 from modules_api import eurovocCode
+from modules_api import unescoCode
 from modules_api.Term import Term
 
 
@@ -35,41 +36,48 @@ myterm.langOut=lang.split(', ')
 #iate_enriching_terms_withTERM(myterm,corpus)
 
 #result = iateCode.request_term_to_iat(myterm, langIn, langOut)
-iateCode.request_term_to_iate_withTERM(myterm)
+# iateCode.request_term_to_iate_withTERM(myterm)
 
 
 #vectors=['trabajo empresa puesto trabajador', 'otro vector cualquiera']
 
 
-test = wsidCode.get_vector_weights(myterm, corpus)
+# test = wsidCode.get_vector_weights(myterm, corpus)
 
-maxw= iateCode.get_best_vector(myterm, corpus)
-
-
-
-iateCode.retrieve_data_from_best_vector(myterm)
-
-print(myterm.term)
-print(myterm.synonyms_iate)
-print(myterm.translations_iate)
-print(myterm.definitions_iate)
-
-
-eurovocCode.get_uri(myterm)
-eurovocCode.get_relations(myterm)
-eurovocCode.get_synonyms(myterm)
-eurovocCode.get_translations(myterm)
+# maxw= iateCode.get_best_vector(myterm, corpus)
 
 
 
+# iateCode.retrieve_data_from_best_vector(myterm)
+
+# print(myterm.term)
+# print(myterm.synonyms_iate)
+# print(myterm.translations_iate)
+# print(myterm.definitions_iate)
 
 
-print(myterm.translations_eurovoc)
-print(myterm.definitions_eurovoc)
-print(myterm.eurovoc_relations)
+# eurovocCode.get_uri(myterm)
+# eurovocCode.get_relations(myterm)
+# eurovocCode.get_synonyms(myterm)
+# eurovocCode.get_translations(myterm)
 
 
 
+
+
+# print(myterm.translations_eurovoc)
+# print(myterm.definitions_eurovoc)
+# print(myterm.eurovoc_relations)
+
+unescoCode.get_uri(myterm)
+unescoCode.get_synonyms(myterm)
+unescoCode.get_translations(myterm)
+unescoCode.get_relations(myterm)
+
+print(myterm.unesco_relations)
+
+print(myterm.unesco_id)
+print(myterm.translations_unesco)
 
 
 

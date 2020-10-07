@@ -127,18 +127,12 @@ def get_relations(myterm): #recoge la uri de la relacion a buscar
                 else:
                     for result in results["results"]["bindings"]:
                         answerRel=result["label"]["value"]
-                        if rel == 'broader':
-                            
+                        if rel == 'broader':                         
                             myterm.eurovoc_relations[rel].append(answerRel)
-                            myterm.euro_br.append(answerRel)
-                        elif rel == 'narrower':
-                            
+                        elif rel == 'narrower':                         
                             myterm.eurovoc_relations[rel].append(answerRel)
-                            myterm.euro_na.append(answerRel)
-                        elif rel == 'related':
-                            
+                        elif rel == 'related':                          
                             myterm.eurovoc_relations[rel].append(answerRel)
-                            myterm.euro_re.append(answerRel)
                         else: 
                             continue
     

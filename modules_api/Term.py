@@ -17,6 +17,7 @@ class Term:
     source=""
     iate_id=""
     eurovoc_id=""
+    unesco_id=""
     context=""
     schema=""
     frequency=""
@@ -27,6 +28,9 @@ class Term:
     translations_eurovoc={}
     definitions_eurovoc={}
     synonyms_eurovoc=[]
+    translations_unesco={}
+    definitions_unesco={}
+    synonyms_unesco=[]
     start=0
     end=0
     index_max=0
@@ -35,6 +39,7 @@ class Term:
     euro_na=[]
     euro_re=[]
     eurovoc_relations={}
+    unesco_relations={}
     
     
     ### test
