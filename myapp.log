@@ -1734,3 +1734,42 @@ TypeError: 'module' object is not callable
 22:19:25, WARNING  * Debugger is active!
 22:19:25, INFO  * Debugger PIN: 236-695-635
 22:20:29, INFO 127.0.0.1 - - [07/Oct/2020 22:20:29] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:06:51, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode_old.py', reloading
+10:06:53, INFO  * Restarting with fsevents reloader
+10:06:59, WARNING  * Debugger is active!
+10:06:59, INFO  * Debugger PIN: 236-695-635
+10:07:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode_old.py', reloading
+10:07:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode_old.py', reloading
+10:07:07, INFO  * Restarting with fsevents reloader
+10:07:13, WARNING  * Debugger is active!
+10:07:13, INFO  * Debugger PIN: 236-695-635
+10:09:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+10:09:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+10:09:27, INFO  * Restarting with fsevents reloader
+10:09:35, WARNING  * Debugger is active!
+10:09:35, INFO  * Debugger PIN: 236-695-635
+10:19:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+10:19:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+10:19:04, INFO  * Restarting with fsevents reloader
+10:19:14, WARNING  * Debugger is active!
+10:19:14, INFO  * Debugger PIN: 236-695-635
+11:07:33, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+11:07:33, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+11:07:35, INFO  * Restarting with fsevents reloader
+11:07:39, WARNING  * Debugger is active!
+11:07:39, INFO  * Debugger PIN: 236-695-635
+12:40:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+12:40:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+12:40:39, INFO  * Restarting with fsevents reloader
+12:40:44, WARNING  * Debugger is active!
+12:40:44, INFO  * Debugger PIN: 236-695-635
+12:40:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+12:40:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+12:40:50, INFO  * Restarting with fsevents reloader
+12:40:54, WARNING  * Debugger is active!
+12:40:54, INFO  * Debugger PIN: 236-695-635
+12:41:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+12:41:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+12:41:10, INFO  * Restarting with fsevents reloader
+12:41:15, WARNING  * Debugger is active!
+12:41:15, INFO  * Debugger PIN: 236-695-635

@@ -18,6 +18,7 @@ class Term:
     iate_id=""
     eurovoc_id=""
     unesco_id=""
+    wikidata_id=""
     context=""
     schema=""
     frequency=""
@@ -46,6 +47,8 @@ class Term:
     responseIate=''
     vectors=[]
     items=[]
+    
+    wikidata_vectors={}
     
     def __init__(self):
         self.term='term'

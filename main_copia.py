@@ -2,6 +2,7 @@ from modules_api import iateCode
 from modules_api import wsidCode
 from modules_api import eurovocCode
 from modules_api import unescoCode
+from modules_api import wikidataCode
 from modules_api.Term import Term
 
 
@@ -69,17 +70,28 @@ myterm.langOut=lang.split(', ')
 # print(myterm.definitions_eurovoc)
 # print(myterm.eurovoc_relations)
 
-unescoCode.get_uri(myterm)
-unescoCode.get_synonyms(myterm)
-unescoCode.get_translations(myterm)
-unescoCode.get_relations(myterm)
+# unescoCode.get_uri(myterm)
+# unescoCode.get_synonyms(myterm)
+# unescoCode.get_translations(myterm)
+# unescoCode.get_relations(myterm)
 
-print(myterm.unesco_relations)
+# print(myterm.unesco_relations)
 
-print(myterm.unesco_id)
-print(myterm.translations_unesco)
+# print(myterm.unesco_id)
+# print(myterm.translations_unesco)
 
 
+wikidataCode.create_wikidata_vectors(myterm)
+# wikidataCode.get_vector_weights(myterm, corpus)
+# test=wikidataCode.get_best_vector(myterm, corpus)
+
+# print(test)
+
+# print(myterm.wikidata_vectors)
+
+for key, value in myterm.wikidata_vectors.items() :
+    print(myterm.wikidata_vectors.index(key))
+    
 
 
 '''
