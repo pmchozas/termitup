@@ -20,6 +20,7 @@ from modules_api import eurovocCode
 from modules_api import Term
 from modules_api import iateCode
 from modules_api import unescoCode
+from modules_api import wikidataCode
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -167,6 +168,7 @@ def enrinching_terminology():
     iate=True
     eurovoc=True
     unesco=True
+    wikidata=True
     # eurovoc = request.args.get('eurovoc')
     # unesco = request.args.get('unesco')
     # wikidata = request.args.get('wikidata')
@@ -188,6 +190,9 @@ def enrinching_terminology():
         #la api no funciona porque eurovocCode.get_definition no funciona, lo demás sí.
     if unesco == True:
         unescoCode.enrich_term_unesco(myterm)
+    if wikidata==True:
+        wikidataCode.enrich_term_wikidata(myterm, corpus)
+        
         data={
             'Source Term' : myterm.term,
             'IATE ID': myterm.iate_id,
@@ -202,8 +207,11 @@ def enrinching_terminology():
             'UNESCO ID': myterm.unesco_id,
             'UNESCO Synonyms': myterm.synonyms_unesco,
             'UNESCO Translations': myterm.translations_unesco,
-            'UNESCO Relations': myterm.unesco_relations
-            
+            'UNESCO Relations': myterm.unesco_relations,
+            'WIKIDATA ID': myterm.wikidata_id,
+            'WIKIDATA Synonyms': myterm.synonyms_wikidata,
+            'WIKIDATA Translations': myterm.translations_wikidata,
+            'WIKIDATA Definitions': myterm.definitions_wikidata
             
             }
         

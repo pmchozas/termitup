@@ -83,17 +83,26 @@ myterm.langOut=lang.split(', ')
 
 wikidataCode.create_wikidata_vectors(myterm)
 # wikidataCode.get_vector_weights(myterm, corpus)
-# test=wikidataCode.get_best_vector(myterm, corpus)
+# wikidataCode.get_best_vector_id(myterm, corpus)
+# wikidataCode.get_langIn_data_from_best_vector(myterm, corpus)
 
-# print(test)
+# print(myterm.synonyms_wikidata)
+# print(myterm.definitions_wikidata)
 
-# print(myterm.wikidata_vectors)
-
-for key, value in myterm.wikidata_vectors.items() :
-    print(myterm.wikidata_vectors.index(key))
-    
+print(myterm.langOut)
 
 
+
+wikidataCode.get_langOut_data_from_best_vector(myterm, corpus)
+
+
+
+print('DEFINITIONS')
+print(myterm.definitions_wikidata)
+
+print('TRANSLATIONS')
+
+print(myterm.translations_wikidata)
 '''
 
 # corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'

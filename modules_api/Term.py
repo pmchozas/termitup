@@ -32,6 +32,9 @@ class Term:
     translations_unesco={}
     definitions_unesco={}
     synonyms_unesco=[]
+    translations_wikidata={}
+    definitions_wikidata={}
+    synonyms_wikidata=[]
     start=0
     end=0
     index_max=0

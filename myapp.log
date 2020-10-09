@@ -1773,3 +1773,20 @@ TypeError: 'module' object is not callable
 12:41:10, INFO  * Restarting with fsevents reloader
 12:41:15, WARNING  * Debugger is active!
 12:41:15, INFO  * Debugger PIN: 236-695-635
+17:16:25, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:16:25, INFO  * Restarting with fsevents reloader
+17:16:27, WARNING  * Debugger is active!
+17:16:27, INFO  * Debugger PIN: 236-695-635
+17:16:57, INFO 127.0.0.1 - - [09/Oct/2020 17:16:57] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+17:17:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:17:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:17:09, INFO  * Restarting with fsevents reloader
+17:17:13, WARNING  * Debugger is active!
+17:17:13, INFO  * Debugger PIN: 236-695-635
+17:17:43, INFO 127.0.0.1 - - [09/Oct/2020 17:17:43] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+17:22:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+17:22:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+17:22:44, INFO  * Restarting with fsevents reloader
+17:22:48, WARNING  * Debugger is active!
+17:22:48, INFO  * Debugger PIN: 236-695-635
+17:23:19, INFO 127.0.0.1 - - [09/Oct/2020 17:23:19] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -

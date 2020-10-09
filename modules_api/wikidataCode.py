@@ -5,9 +5,12 @@ import json
 from modules_api import eurovocCode
 
 
-
-
+def enrich_term_wikidata(myterm, corpus):
+    create_wikidata_vectors(myterm)
     
+    get_langIn_data_from_best_vector(myterm, corpus)
+
+    get_langOut_data_from_best_vector(myterm, corpus)
 
 def create_wikidata_vectors(myterm):
     url = 'https://query.wikidata.org/sparql'
@@ -36,7 +39,7 @@ def create_wikidata_vectors(myterm):
             #print('-se encontro wiki-')
             bindings=data['results']['bindings']
             for i in range(len(bindings)):
-                term_uri=bindings[i]['item']['value']
+                term_uri=bindings[i]['item']['value'].split("/")[-1]
                 urilist.append(term_uri)
                 for uri in urilist:
                     if uri not in myterm.wikidata_vectors:
@@ -100,21 +103,121 @@ def get_vector_weights(myterm, corpus):
 def get_best_vector_id(myterm, corpus):
     vector_weights=get_vector_weights(myterm, corpus)
     max_weight=max(vector_weights)
-    print(max_weight)
-    myterm.index_max=vector_weights.index(max_weight)
-    print(myterm.index_max)
-    best_vector=myterm.wikidata_vectors[myterm.index_max]
+
+    index_max=vector_weights.index(max_weight)
+    best_vector=list(myterm.wikidata_vectors)[index_max]
+    myterm.wikidata_id="https://www.wikidata.org/wiki/"+best_vector
+    
+    return best_vector, myterm
+   #
     # return best_vector, myterm
                     
     
+def get_langIn_data_from_best_vector(myterm, corpus):
+    results=get_best_vector_id(myterm, corpus)
+    best_vector=results[0]
+    url = 'https://query.wikidata.org/sparql'
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
+
+    retrieve_query = """
+    SELECT DISTINCT * WHERE {
+     wd:WDTMID rdfs:label ?label.
+      FILTER (lang(?label) = "LANG")
+      OPTIONAL {
+        wd:WDTMID schema:description ?desc.
+        FILTER (lang(?label) = lang(?desc))
+      }
+       OPTIONAL {
+        wd:WDTMID skos:altLabel ?alt.
+        FILTER (lang(?label) = lang(?alt))
+      }
+    }ORDER BY ?lang
+    """
+    query = retrieve_query.replace("WDTMID", best_vector).replace("LANG", myterm.langIn)
+
+              
+    r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+    data = r.json()     
+    if len(data['results']['bindings']) != 0:
+        bindings=data['results']['bindings']
+        for i in range(len(bindings)):
+
+                if 'alt' in bindings[i]:
+                    alt=bindings[i]['alt']['value']
+                    myterm.synonyms_wikidata.append(alt)
+                
+                if 'desc' in bindings[i]:
+                    defi=bindings[i]['desc']['value']
+                    if myterm.langIn not in myterm.definitions_wikidata:
+                        myterm.definitions_wikidata[myterm.langIn]=[]
+                        myterm.definitions_wikidata[myterm.langIn].append(defi)
+                    if myterm.langIn in myterm.definitions_wikidata:
+                        if defi not in myterm.definitions_wikidata[myterm.langIn]:
+                            myterm.definitions_wikidata[myterm.langIn].append(defi)
+                else:
+                    continue      
+    return myterm
+                
     
     
+def get_langOut_data_from_best_vector(myterm, corpus):
+    results=get_best_vector_id(myterm, corpus)
+    best_vector=results[0]
+    url = 'https://query.wikidata.org/sparql'
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
+    for lang in myterm.langOut:
+        retrieve_query = """
+        SELECT DISTINCT * WHERE {
+         wd:WDTMID rdfs:label ?label.
+          FILTER (lang(?label) = "LANG")
+          OPTIONAL {
+            wd:WDTMID schema:description ?desc.
+            FILTER (lang(?label) = lang(?desc))
+          }
+           OPTIONAL {
+            wd:WDTMID skos:altLabel ?alt.
+            FILTER (lang(?label) = lang(?alt))
+          }
+        }ORDER BY ?lang
+        """
+        query = retrieve_query.replace("WDTMID", best_vector).replace("LANG", lang)
+        r = requests.get(url, params={'format': 'json', 'query': query}, headers=headers)
+        data = r.json()     
+        
+        if len(data['results']['bindings']) != 0:
+            bindings=data['results']['bindings']
+            
+            for i in range(len(bindings)):
+                
+                if 'label' in bindings[i]:
+                    label=bindings[i]['label']['value']
+                    if lang not in myterm.translations_wikidata:
+                        myterm.translations_wikidata[lang]=[]
+                        myterm.translations_wikidata[lang].append(label)
+                    if lang in myterm.translations_wikidata:
+                        if label not in myterm.translations_wikidata[lang]:
+                            myterm.translations_wikidata[lang].append(label)
+                if 'alt' in bindings[i]:
+                    alt=bindings[i]['alt']['value']
+                    if lang not in myterm.translations_wikidata:
+                        myterm.translations_wikidata[myterm.langIn]=[]
+                        myterm.translations_wikidata[lang].append(alt)
+                    if lang in myterm.translations_wikidata:
+                        if alt not in myterm.translations_wikidata[lang]:
+                            myterm.translations_wikidata[lang].append(alt)
+                        
+                if 'desc' in bindings[i]:
+                    defi=bindings[i]['desc']['value']
+                    if lang not in myterm.definitions_wikidata:
+                        myterm.definitions_wikidata[lang]=[]
+                        myterm.definitions_wikidata[lang].append(defi)
+                    if lang in myterm.definitions_wikidata:
+                       if defi not in myterm.definitions_wikidata[lang]:
+                           myterm.definitions_wikidata[lang].append(defi)
+            else:
+                continue   
     
-    
-    
-    
-    
-    
+    return myterm
     
     
     
