@@ -19,6 +19,8 @@ class Term:
     eurovoc_id=""
     unesco_id=""
     wikidata_id=""
+    thesoz_id=""
+    stw_id=""
     context=""
     schema=""
     frequency=""
@@ -35,15 +37,21 @@ class Term:
     translations_wikidata={}
     definitions_wikidata={}
     synonyms_wikidata=[]
+    definitions_thesoz={}
+    translations_thesoz={}
+    synonyms_thesoz=[]
+    definitions_stw={}
+    translations_stw={}
+    synonyms_stw=[]
     start=0
     end=0
     index_max=0
     best_item_id=0
-    euro_br=[]
-    euro_na=[]
-    euro_re=[]
     eurovoc_relations={}
     unesco_relations={}
+    wikidata_relations={}
+    thesoz_relations={}
+    stw_relations={}
     
     
     ### test

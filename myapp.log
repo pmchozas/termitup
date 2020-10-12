@@ -1790,3 +1790,13 @@ TypeError: 'module' object is not callable
 17:22:48, WARNING  * Debugger is active!
 17:22:48, INFO  * Debugger PIN: 236-695-635
 17:23:19, INFO 127.0.0.1 - - [09/Oct/2020 17:23:19] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+18:27:06, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+18:27:06, INFO  * Restarting with fsevents reloader
+18:27:09, WARNING  * Debugger is active!
+18:27:09, INFO  * Debugger PIN: 236-695-635
+18:27:42, INFO 127.0.0.1 - - [12/Oct/2020 18:27:42] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+18:28:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+18:28:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+18:28:16, INFO  * Restarting with fsevents reloader
+18:28:19, WARNING  * Debugger is active!
+18:28:19, INFO  * Debugger PIN: 236-695-635

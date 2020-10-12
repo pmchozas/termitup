@@ -11,6 +11,8 @@ def enrich_term_wikidata(myterm, corpus):
     get_langIn_data_from_best_vector(myterm, corpus)
 
     get_langOut_data_from_best_vector(myterm, corpus)
+    
+    get_relations_from_best_vector(myterm, corpus)
 
 def create_wikidata_vectors(myterm):
     url = 'https://query.wikidata.org/sparql'
@@ -223,11 +225,49 @@ def get_langOut_data_from_best_vector(myterm, corpus):
     
     
     
+def get_relations_from_best_vector(myterm, corpus):
+    myterm.wikidata_relations['narrower']=[]
+    myterm.wikidata_relations['broader']=[]
+    results=get_best_vector_id(myterm, corpus)
+    best_vector=results[0]
+    url = 'https://query.wikidata.org/sparql'
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
     
+    narrower_query = """
+    SELECT DISTINCT ?naTerm WHERE {
+        ?naTerm wdt:P279 wd:WDTMID .
+      }
+    """
+
+    broader_query = """
+    SELECT DISTINCT ?brTerm WHERE {
+        wd:WDTMID wdt:P279 ?brTerm .   
+    }
+    """
+    na_query = narrower_query.replace("WDTMID", best_vector)
+    br_query = broader_query.replace("WDTMID", best_vector)
+    na = requests.get(url, params={'format': 'json', 'query': na_query}, headers=headers)
+    br = requests.get(url, params={'format': 'json', 'query': br_query}, headers=headers)
     
+    na_data = na.json() 
+    br_data = br.json() 
     
+    if len(br_data['results']['bindings']) != 0:
+        br_bindings=br_data['results']['bindings']    
+        for b in br_bindings:
+            myterm.wikidata_relations['broader'].append(b['brTerm']['value'])
+        
+    if len(na_data['results']['bindings']) != 0:
+        na_bindings=na_data['results']['bindings']
+        for n in na_bindings:
+            myterm.wikidata_relations['narrower'].append(n['naTerm']['value'])
+
+            
+        #print(na_bindings)
     
-    
+
+            
+    return myterm
     
     
     

@@ -4,8 +4,8 @@ from modules_api import eurovocCode
 from modules_api import unescoCode
 from modules_api import wikidataCode
 from modules_api.Term import Term
-
-
+from modules_api import thesozCode
+from modules_api import stwCode
 # def iate_enriching_terms(terms,corpus,  inlang, outlang ):
 #     outFile=iateCode.enrich_term(terms[0], inlang, outlang, 'ficheroquenoentiendo', corpus, True, None)
 #     #processedTerms=iate(processedTerms, date, lang_in)
@@ -19,16 +19,17 @@ from modules_api.Term import Term
     
         
 
-corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'
+#corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'
 
+corpus='a worker has a workplace in a company and gets a salary'
 
 myterm= Term()
-myterm.term='trabajador'
+myterm.term='worker'
 
 #terms=['trabajador','puesto de trabajo','horas']
-myterm.langIn='es'
+myterm.langIn='en'
 
-lang="en, de"
+lang="de"
 
 myterm.langOut=lang.split(', ')
 
@@ -81,7 +82,7 @@ myterm.langOut=lang.split(', ')
 # print(myterm.translations_unesco)
 
 
-wikidataCode.create_wikidata_vectors(myterm)
+#wikidataCode.create_wikidata_vectors(myterm)
 # wikidataCode.get_vector_weights(myterm, corpus)
 # wikidataCode.get_best_vector_id(myterm, corpus)
 # wikidataCode.get_langIn_data_from_best_vector(myterm, corpus)
@@ -89,20 +90,29 @@ wikidataCode.create_wikidata_vectors(myterm)
 # print(myterm.synonyms_wikidata)
 # print(myterm.definitions_wikidata)
 
-print(myterm.langOut)
 
 
 
-wikidataCode.get_langOut_data_from_best_vector(myterm, corpus)
+
+# wikidataCode.get_langOut_data_from_best_vector(myterm, corpus)
+# wikidataCode.get_relations_from_best_vector(myterm, corpus)
+
+# print(myterm.wikidata_relations)
 
 
+# thesozCode.get_uri(myterm)
+# thesozCode.get_definition(myterm)
+# thesozCode.get_relations(myterm)
+# thesozCode.get_synonyms(myterm)
+# thesozCode.get_translations(myterm)
 
-print('DEFINITIONS')
-print(myterm.definitions_wikidata)
 
-print('TRANSLATIONS')
+stwCode.get_uri(myterm)
+stwCode.get_definition(myterm)
+stwCode.get_relations(myterm)
+print(myterm.stw_relations)
 
-print(myterm.translations_wikidata)
+
 '''
 
 # corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'

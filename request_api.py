@@ -211,7 +211,8 @@ def enrinching_terminology():
             'WIKIDATA ID': myterm.wikidata_id,
             'WIKIDATA Synonyms': myterm.synonyms_wikidata,
             'WIKIDATA Translations': myterm.translations_wikidata,
-            'WIKIDATA Definitions': myterm.definitions_wikidata
+            'WIKIDATA Definitions': myterm.definitions_wikidata,
+            'WIKIDATA Relations': myterm.wikidata_relations
             
             }
         
