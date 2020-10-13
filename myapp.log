@@ -1800,3 +1800,34 @@ TypeError: 'module' object is not callable
 18:28:16, INFO  * Restarting with fsevents reloader
 18:28:19, WARNING  * Debugger is active!
 18:28:19, INFO  * Debugger PIN: 236-695-635
+11:13:08, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+11:13:08, INFO  * Restarting with fsevents reloader
+11:13:10, WARNING  * Debugger is active!
+11:13:10, INFO  * Debugger PIN: 236-695-635
+11:20:35, INFO 127.0.0.1 - - [13/Oct/2020 11:20:35] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+11:24:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+11:24:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+11:24:10, INFO  * Restarting with fsevents reloader
+11:24:15, WARNING  * Debugger is active!
+11:24:15, INFO  * Debugger PIN: 236-695-635
+11:24:54, INFO 127.0.0.1 - - [13/Oct/2020 11:24:54] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+12:05:40, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/stwCode.py', reloading
+12:05:40, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/stwCode.py', reloading
+12:05:42, INFO  * Restarting with fsevents reloader
+12:05:47, WARNING  * Debugger is active!
+12:05:47, INFO  * Debugger PIN: 236-695-635
+12:05:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/stwCode.py', reloading
+12:05:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/stwCode.py', reloading
+12:05:54, INFO  * Restarting with fsevents reloader
+12:05:58, WARNING  * Debugger is active!
+12:05:58, INFO  * Debugger PIN: 236-695-635
+12:05:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+12:05:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+12:06:01, INFO  * Restarting with fsevents reloader
+12:06:04, WARNING  * Debugger is active!
+12:06:04, INFO  * Debugger PIN: 236-695-635
+12:06:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+12:06:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+12:06:50, INFO  * Restarting with fsevents reloader
+12:06:54, WARNING  * Debugger is active!
+12:06:54, INFO  * Debugger PIN: 236-695-635

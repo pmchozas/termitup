@@ -11,11 +11,14 @@ import re
 
 def enrich_term_stw(myterm):
     get_uri(myterm)
-
+    get_definition(myterm)
+    get_relations(myterm)
+    get_synonyms(myterm)
+    get_translations(myterm)
     return myterm
 
 def get_uri(myterm): #recoge la uri del termino a buscar
-    term='"'+myterm.term+'"'
+    term='"^'+myterm.term+'$"'
     lang='"'+myterm.langIn+'"'
     try:
         url = ("http://sparql.lynx-project.eu/")
@@ -34,6 +37,7 @@ def get_uri(myterm): #recoge la uri del termino a buscar
         
         }
         """
+        print(query)
 
         r=requests.get(url, params={'format': 'json', 'query': query})
         results=json.loads(r.text)
@@ -97,16 +101,18 @@ def get_relations(myterm): #recoge la uri de la relacion a buscar
                 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
                 SELECT ?c ?label
                 WHERE {
-                GRAPH <http://lkg.lynx-project.eu/thesoz> {
+                GRAPH <http://lkg.lynx-project.eu/stw> {
                 VALUES ?c {<"""+myterm.stw_id+"""> }
-                VALUES ?relation { skos:"""+rel+""" } # skos:broader
+                VALUES ?relation { skos:"""+rel+""" } 
                 ?c a skos:Concept .
                 ?c ?relation ?label .    
                 }  
                 }
                 """
+
                 r=requests.get(url, params={'format': 'json', 'query': query})
                 results=json.loads(r.text)
+
     
                 if (len(results["results"]["bindings"])==0):
                         answerRel=''
@@ -128,4 +134,83 @@ def get_relations(myterm): #recoge la uri de la relacion a buscar
     except json.decoder.JSONDecodeError:
         pass
     
+    return(myterm)
+
+def get_synonyms(myterm): #recoge sinónimos
+    try:
+        nameUri=''
+        label="altLabel"
+        lang='"'+myterm.langIn+'"'
+        url=("http://sparql.lynx-project.eu/")
+        query="""
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        SELECT ?c ?label
+        WHERE {
+        GRAPH <http://lkg.lynx-project.eu/stw> {
+        VALUES ?c { <"""+myterm.stw_id+"""> }
+        VALUES ?searchLang { """+lang+""" undef } 
+        VALUES ?relation { skos:"""+label+"""  } 
+        ?c a skos:Concept . 
+        ?c ?relation ?label . 
+        filter ( lang(?label)=?searchLang )
+        }
+        }
+        """
+        
+        r=requests.get(url, params={'format': 'json', 'query': query})
+        results=json.loads(r.text)
+        if (len(results["results"]["bindings"])==0):
+                nameUri=''
+        else:
+            for result in results["results"]["bindings"]:
+                nameUri=result["label"]["value"]
+                if nameUri != myterm.term:
+                    myterm.synonyms_stw.append(nameUri)
+
+    except json.decoder.JSONDecodeError:
+        pass
+        
+      
+    return(nameUri)
+
+def get_translations(myterm): #recoge traducciones
+    label=['prefLabel','altLabel'] 
+    for l in label:
+        
+        for lang in myterm.langOut:
+            if lang not in myterm.translations_stw:
+                myterm.translations_stw[lang]=[]
+                try:
+                    lang1='"'+lang+'"'
+                    url=("http://sparql.lynx-project.eu/")
+                    query="""
+                    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                    SELECT ?c ?label
+                    WHERE {
+                    GRAPH <http://lkg.lynx-project.eu/stw> {
+                    VALUES ?c { <"""+myterm.stw_id+"""> }
+                    VALUES ?searchLang { """+lang1+""" undef} 
+                    VALUES ?relation { skos:"""+l+"""  } 
+                    ?c a skos:Concept . 
+                    ?c ?relation ?label . 
+                    filter ( lang(?label)=?searchLang )
+                    }
+                    }
+                    """
+                    r=requests.get(url, params={'format': 'json', 'query': query})
+                    results=json.loads(r.text)
+                    
+    
+                    if (len(results["results"]["bindings"])==0):
+                            trans=''
+                    else:
+                        for result in results["results"]["bindings"]:
+                            trans=result["label"]["value"]
+                            myterm.translations_stw[lang].append(trans)
+                           
+            
+                except json.decoder.JSONDecodeError:
+                    pass
+        
+      
     return(myterm)

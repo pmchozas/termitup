@@ -21,7 +21,7 @@ from modules_api import stwCode
 
 #corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'
 
-corpus='a worker has a workplace in a company and gets a salary'
+corpus='a worker has a workplace in a company and gets a salary it has also a manager'
 
 myterm= Term()
 myterm.term='worker'
@@ -29,7 +29,7 @@ myterm.term='worker'
 #terms=['trabajador','puesto de trabajo','horas']
 myterm.langIn='en'
 
-lang="de"
+lang="de, es"
 
 myterm.langOut=lang.split(', ')
 
@@ -110,8 +110,10 @@ myterm.langOut=lang.split(', ')
 stwCode.get_uri(myterm)
 stwCode.get_definition(myterm)
 stwCode.get_relations(myterm)
-print(myterm.stw_relations)
+stwCode.get_synonyms(myterm)
+stwCode.get_translations(myterm)
 
+print(myterm.stw_id)
 
 '''
 

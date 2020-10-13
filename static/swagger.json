@@ -184,6 +184,24 @@
 						}
 					},
 					{
+						"in": "thesoz",
+						"name": "thesoz",
+						"required": true,
+						"description": "Retrieves data from thesoz",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "stw",
+						"name": "stw",
+						"required": true,
+						"description": "Retrieves data from stw",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
 						"in": "frequency",
 						"name": "frequency",
 						"required": true,

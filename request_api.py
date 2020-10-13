@@ -21,6 +21,8 @@ from modules_api import Term
 from modules_api import iateCode
 from modules_api import unescoCode
 from modules_api import wikidataCode
+from modules_api import thesozCode
+from modules_api import stwCode
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -169,6 +171,8 @@ def enrinching_terminology():
     eurovoc=True
     unesco=True
     wikidata=True
+    thesoz=True
+    stw=True
     # eurovoc = request.args.get('eurovoc')
     # unesco = request.args.get('unesco')
     # wikidata = request.args.get('wikidata')
@@ -192,6 +196,10 @@ def enrinching_terminology():
         unescoCode.enrich_term_unesco(myterm)
     if wikidata==True:
         wikidataCode.enrich_term_wikidata(myterm, corpus)
+    if thesoz == True:
+        thesozCode.enrich_term_thesoz(myterm)
+    if stw == True:
+        stwCode.enrich_term_stw(myterm)
         
         data={
             'Source Term' : myterm.term,
@@ -212,7 +220,17 @@ def enrinching_terminology():
             'WIKIDATA Synonyms': myterm.synonyms_wikidata,
             'WIKIDATA Translations': myterm.translations_wikidata,
             'WIKIDATA Definitions': myterm.definitions_wikidata,
-            'WIKIDATA Relations': myterm.wikidata_relations
+            'WIKIDATA Relations': myterm.wikidata_relations,
+            'THESOZ ID': myterm.thesoz_id,
+            'THESOZ Synonyms': myterm.synonyms_thesoz,
+            'THESOZ Translations': myterm.translations_thesoz,
+            'THESOZ Definitions': myterm.definitions_thesoz,
+            'THESOZ Relations': myterm.thesoz_relations,
+            'STW ID': myterm.stw_id,
+            'STW Synonyms': myterm.synonyms_stw,
+            'STW Translations': myterm.translations_stw, 
+            'STW Definitions': myterm.definitions_stw,
+            'STW Relations': myterm.stw_relations
             
             }
         
