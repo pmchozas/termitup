@@ -6,6 +6,7 @@ from modules_api import wikidataCode
 from modules_api.Term import Term
 from modules_api import thesozCode
 from modules_api import stwCode
+from modules_api import relvalCode
 # def iate_enriching_terms(terms,corpus,  inlang, outlang ):
 #     outFile=iateCode.enrich_term(terms[0], inlang, outlang, 'ficheroquenoentiendo', corpus, True, None)
 #     #processedTerms=iate(processedTerms, date, lang_in)
@@ -33,6 +34,9 @@ lang="de, es"
 
 myterm.langOut=lang.split(', ')
 
+test=relvalCode.get_conceptNet_synonyms(myterm)
+
+print(test)
 
 
 #iate_enriching_terms_withTERM(myterm,corpus)
@@ -64,9 +68,6 @@ myterm.langOut=lang.split(', ')
 # eurovocCode.get_translations(myterm)
 
 
-
-
-
 # print(myterm.translations_eurovoc)
 # print(myterm.definitions_eurovoc)
 # print(myterm.eurovoc_relations)
@@ -91,9 +92,6 @@ myterm.langOut=lang.split(', ')
 # print(myterm.definitions_wikidata)
 
 
-
-
-
 # wikidataCode.get_langOut_data_from_best_vector(myterm, corpus)
 # wikidataCode.get_relations_from_best_vector(myterm, corpus)
 
@@ -107,13 +105,12 @@ myterm.langOut=lang.split(', ')
 # thesozCode.get_translations(myterm)
 
 
-stwCode.get_uri(myterm)
-stwCode.get_definition(myterm)
-stwCode.get_relations(myterm)
-stwCode.get_synonyms(myterm)
-stwCode.get_translations(myterm)
+# stwCode.get_uri(myterm)
+# stwCode.get_definition(myterm)
+# stwCode.get_relations(myterm)
+# stwCode.get_synonyms(myterm)
+# stwCode.get_translations(myterm)
 
-print(myterm.stw_id)
 
 '''
 
