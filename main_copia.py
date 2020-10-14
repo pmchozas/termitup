@@ -20,12 +20,12 @@ from modules_api import relvalCode
     
         
 
-#corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca'
+#corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca, tiene un jefe y un salario.'
 
-corpus='a worker has a workplace in a company and gets a salary it has also a manager'
+corpus='a social worker takes care of social matters and work with people. Earns a salary.'
 
 myterm= Term()
-myterm.term='worker'
+myterm.term='social worker'
 
 #terms=['trabajador','puesto de trabajo','horas']
 myterm.langIn='en'
@@ -34,14 +34,19 @@ lang="de, es"
 
 myterm.langOut=lang.split(', ')
 
-test=relvalCode.get_conceptNet_synonyms(myterm)
+iateCode.enrich_term_iate(myterm, corpus)
 
-print(test)
+print(myterm.translations_iate)
 
 
-#iate_enriching_terms_withTERM(myterm,corpus)
+# test=relvalCode.get_conceptNet_synonyms(myterm)
 
-#result = iateCode.request_term_to_iat(myterm, langIn, langOut)
+# print(test)
+
+
+# iate_enriching_terms_withTERM(myterm,corpus)
+
+#result = iateCode.request_term_to_iate(myterm, langIn, langOut)
 # iateCode.request_term_to_iate_withTERM(myterm)
 
 

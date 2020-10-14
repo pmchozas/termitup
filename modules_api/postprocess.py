@@ -44,8 +44,14 @@ def preprocessing_terms(termList, lang_in, timeEx, patternBasedClean, pluralClea
     
     # servicio básico, creo que se debería hacer siempre
     processedTerms=clean_terms(termList, lang_in)
-    processedTerms='| '.join(processedTerms).replace('-', '').replace(',', '').replace(';', '')
     
+    # processedTerms='| '.join(processedTerms).replace('-', '').replace(',', '').replace(';', '')
+    
+    print('This is processedTerms ')
+    print(processedTerms)
+    
+    
+    #print('this is timex' + timeEx)
     # Todo siempre sobre la misma variable: processedTerms. Da igual el camino que cojas. Usas la lista de terminos y se modifica.
     
     #opcional
@@ -75,7 +81,7 @@ def preprocessing_terms(termList, lang_in, timeEx, patternBasedClean, pluralClea
 
 # 0 clean punctuation and stopwords
 def clean_terms(termlist, lang_in):
-    print(termlist)
+    
     start_time=time()
     if(lang_in=="es"):
     	stop=stopwords.words('spanish')
@@ -97,7 +103,7 @@ def clean_terms(termlist, lang_in):
     deletes=[]
     for i in termlist:
         k=i.strip(',.:')
-        print(k)
+        # print(k)
         if ((k.lower() in stop) or (k in stop)):
         	deletes.append(k)
         elif ((k.lower() not in stop) or (k not in stop)):
@@ -118,6 +124,7 @@ def clean_terms(termlist, lang_in):
 
 # 1 añotador
 def annotate_timex(text, date, lang):
+    
     f=open('texto.txt', 'w')
     f.write(text)
     textanotador2=''
@@ -131,10 +138,12 @@ def annotate_timex(text, date, lang):
     #response=requests.post(url, data=params)
     response=requests.request("POST", url, headers=headers, data = params.encode('utf8'))
     textanotador=response.text
-    
+    print('ENTRA ANOTADOR')
+    print(textanotador)
 
     code=response.status_code
     list_anotador=textanotador.split('|')
+    print(list_anotador)
     
     deletes=[]
     cont=0

@@ -242,6 +242,55 @@
 				}
 			}	
 		},
+		"/relation_validation": {
+			"post": {
+				"tags": [
+					"Terminology"
+				],
+				
+				"summary": "Validates synonymy relations.",
+				"parameters": [
+					{
+						"in": "synonyms",
+						"name": "synonyms",
+						"required": true,
+						"description": "Validate synonyms with ConceptNet.",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					}
+				]
+				,
+				"requestBody": {
+					  "description": "Description",
+					  "required": true,
+					  "content": {
+						"application/json": {
+						  "schema": {
+							"$ref": "#/components/schemas/enriching"
+						  }
+						}
+					  }
+					}
+				,
+				"responses": {
+					"200": {
+						"description": "successful operation",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/term"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Failed. No more requests.",
+						"content": {}
+					}
+				}
+			}	
+		},
 		"/term": {
 			"get": {
 				"tags": [
@@ -296,25 +345,31 @@
 	        	}
 	      	},
 	        "cleanterm": {
-	        	"type": "object",
+    	        "type": "object",
 	        	"properties": {
-	           "terms": {
-	            "type": "string",
-	            "format": "string"
-	          },
-	          "language": {
-	            "type": "string",
-	            "format": "string"
-	        	}
-	        }
+    	        	"terms": {
+	        			"type": "array",
+	        			"items": {
+    	        			"type":"string"
+	        			}
+	        			
+	        		},
+    	          "language": {
+    	            "type": "string",
+    	            "format": "string"
+        	        	}
+        	        }
 	    	},
 	    	"enriching": {
 	        	"type": "object",
 	        	"properties": {
 	        		
 	        		"terms": {
-	        			"type": "string",
-	        			"format": "string"
+	        			"type": "array",
+	        			"items": {
+    	        			"type":"string"
+	        			}
+	        			
 	        		},
 	        		"source_language": {
 	            		"type": "string",

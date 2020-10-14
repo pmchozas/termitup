@@ -1935,3 +1935,331 @@ TypeError: 'module' object is not callable
 13:16:35, INFO  * Restarting with fsevents reloader
 13:16:40, WARNING  * Debugger is active!
 13:16:40, INFO  * Debugger PIN: 236-695-635
+10:34:01, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:34:01, INFO  * Restarting with fsevents reloader
+10:34:04, WARNING  * Debugger is active!
+10:34:04, INFO  * Debugger PIN: 236-695-635
+10:34:11, INFO 127.0.0.1 - - [14/Oct/2020 10:34:11] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:34:11, INFO 127.0.0.1 - - [14/Oct/2020 10:34:11] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+10:34:11, INFO 127.0.0.1 - - [14/Oct/2020 10:34:11] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+10:34:11, INFO 127.0.0.1 - - [14/Oct/2020 10:34:11] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+10:34:12, INFO 127.0.0.1 - - [14/Oct/2020 10:34:12] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+10:34:12, INFO 127.0.0.1 - - [14/Oct/2020 10:34:12] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+10:36:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+10:36:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+10:36:27, INFO  * Restarting with fsevents reloader
+10:39:34, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:39:34, INFO  * Restarting with fsevents reloader
+10:39:38, WARNING  * Debugger is active!
+10:39:38, INFO  * Debugger PIN: 236-695-635
+10:39:43, INFO 127.0.0.1 - - [14/Oct/2020 10:39:43] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:39:43, INFO 127.0.0.1 - - [14/Oct/2020 10:39:43] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+10:39:43, INFO 127.0.0.1 - - [14/Oct/2020 10:39:43] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+10:39:43, INFO 127.0.0.1 - - [14/Oct/2020 10:39:43] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+10:39:43, INFO 127.0.0.1 - - [14/Oct/2020 10:39:43] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+10:39:43, INFO 127.0.0.1 - - [14/Oct/2020 10:39:43] "[37mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 200 -
+10:42:05, INFO 127.0.0.1 - - [14/Oct/2020 10:42:05] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:55:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+10:55:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+10:55:43, INFO  * Restarting with fsevents reloader
+10:55:48, WARNING  * Debugger is active!
+10:55:48, INFO  * Debugger PIN: 236-695-635
+10:58:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+10:58:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+10:58:11, INFO  * Restarting with fsevents reloader
+10:58:15, WARNING  * Debugger is active!
+10:58:15, INFO  * Debugger PIN: 236-695-635
+10:58:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+10:58:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+10:58:50, INFO  * Restarting with fsevents reloader
+10:58:54, WARNING  * Debugger is active!
+10:58:54, INFO  * Debugger PIN: 236-695-635
+11:03:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:03:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:03:30, INFO  * Restarting with fsevents reloader
+11:03:34, WARNING  * Debugger is active!
+11:03:34, INFO  * Debugger PIN: 236-695-635
+11:05:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+11:05:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+11:05:12, INFO  * Restarting with fsevents reloader
+11:05:17, WARNING  * Debugger is active!
+11:05:17, INFO  * Debugger PIN: 236-695-635
+11:05:33, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:05:33, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:05:35, INFO  * Restarting with fsevents reloader
+11:05:38, WARNING  * Debugger is active!
+11:05:38, INFO  * Debugger PIN: 236-695-635
+11:05:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/__pycache__/iateCode.cpython-37.pyc', reloading
+11:05:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/__pycache__/iateCode.cpython-37.pyc', reloading
+11:05:43, INFO  * Restarting with fsevents reloader
+11:05:47, WARNING  * Debugger is active!
+11:05:47, INFO  * Debugger PIN: 236-695-635
+11:07:20, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:07:20, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:07:22, INFO  * Restarting with fsevents reloader
+11:07:27, WARNING  * Debugger is active!
+11:07:27, INFO  * Debugger PIN: 236-695-635
+11:07:33, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:07:33, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:07:34, INFO  * Restarting with fsevents reloader
+11:07:39, WARNING  * Debugger is active!
+11:07:39, INFO  * Debugger PIN: 236-695-635
+11:10:47, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:10:47, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:10:49, INFO  * Restarting with fsevents reloader
+11:10:53, WARNING  * Debugger is active!
+11:10:53, INFO  * Debugger PIN: 236-695-635
+11:13:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:13:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:13:40, INFO  * Restarting with fsevents reloader
+11:13:44, WARNING  * Debugger is active!
+11:13:44, INFO  * Debugger PIN: 236-695-635
+11:15:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:15:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:15:07, INFO  * Restarting with fsevents reloader
+11:15:12, WARNING  * Debugger is active!
+11:15:12, INFO  * Debugger PIN: 236-695-635
+11:16:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:16:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:16:29, INFO  * Restarting with fsevents reloader
+11:16:33, WARNING  * Debugger is active!
+11:16:33, INFO  * Debugger PIN: 236-695-635
+11:16:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:16:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:16:57, INFO  * Restarting with fsevents reloader
+11:17:01, WARNING  * Debugger is active!
+11:17:01, INFO  * Debugger PIN: 236-695-635
+11:18:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:18:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+11:18:23, INFO  * Restarting with fsevents reloader
+11:18:27, WARNING  * Debugger is active!
+11:18:27, INFO  * Debugger PIN: 236-695-635
+11:18:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+11:18:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+11:18:30, INFO  * Restarting with fsevents reloader
+11:18:34, WARNING  * Debugger is active!
+11:18:34, INFO  * Debugger PIN: 236-695-635
+11:19:04, INFO 127.0.0.1 - - [14/Oct/2020 11:19:04] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+15:21:36, INFO 127.0.0.1 - - [14/Oct/2020 15:21:36] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+15:29:47, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:29:47, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:29:49, INFO  * Restarting with fsevents reloader
+15:29:54, WARNING  * Debugger is active!
+15:29:54, INFO  * Debugger PIN: 236-695-635
+15:34:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:34:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:34:39, INFO  * Restarting with fsevents reloader
+15:34:43, WARNING  * Debugger is active!
+15:34:43, INFO  * Debugger PIN: 236-695-635
+15:34:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:34:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:34:50, INFO  * Restarting with fsevents reloader
+15:34:53, WARNING  * Debugger is active!
+15:34:53, INFO  * Debugger PIN: 236-695-635
+15:35:20, INFO 127.0.0.1 - - [14/Oct/2020 15:35:20] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+15:35:20, INFO 127.0.0.1 - - [14/Oct/2020 15:35:20] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+15:35:20, INFO 127.0.0.1 - - [14/Oct/2020 15:35:20] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+15:35:20, INFO 127.0.0.1 - - [14/Oct/2020 15:35:20] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+15:35:21, INFO 127.0.0.1 - - [14/Oct/2020 15:35:21] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+15:37:31, INFO 127.0.0.1 - - [14/Oct/2020 15:37:31] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+15:54:36, INFO 127.0.0.1 - - [14/Oct/2020 15:54:36] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+16:12:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:12:40, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:12:42, INFO  * Restarting with fsevents reloader
+16:12:46, WARNING  * Debugger is active!
+16:12:46, INFO  * Debugger PIN: 236-695-635
+16:26:29, INFO 127.0.0.1 - - [14/Oct/2020 16:26:29] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+16:26:37, INFO 127.0.0.1 - - [14/Oct/2020 16:26:37] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+16:27:30, INFO 127.0.0.1 - - [14/Oct/2020 16:27:30] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+16:28:26, INFO 127.0.0.1 - - [14/Oct/2020 16:28:26] "[1m[31mPOST /postproc_terminology HTTP/1.1[0m" 400 -
+16:31:46, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+16:31:46, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+16:31:49, INFO  * Restarting with fsevents reloader
+16:31:53, WARNING  * Debugger is active!
+16:31:53, INFO  * Debugger PIN: 236-695-635
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+16:31:58, INFO 127.0.0.1 - - [14/Oct/2020 16:31:58] "[37mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 200 -
+16:32:25, INFO 127.0.0.1 - - [14/Oct/2020 16:32:25] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+16:39:55, INFO 127.0.0.1 - - [14/Oct/2020 16:39:55] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+19:10:28, INFO 127.0.0.1 - - [14/Oct/2020 19:10:28] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:10:28, INFO 127.0.0.1 - - [14/Oct/2020 19:10:28] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:10:28, INFO 127.0.0.1 - - [14/Oct/2020 19:10:28] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:10:28, INFO 127.0.0.1 - - [14/Oct/2020 19:10:28] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:10:28, INFO 127.0.0.1 - - [14/Oct/2020 19:10:28] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:12:53, INFO 127.0.0.1 - - [14/Oct/2020 19:12:53] "[1m[31mPOST /extract_terminology HTTP/1.1[0m" 400 -
+19:13:13, INFO 127.0.0.1 - - [14/Oct/2020 19:13:13] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:13:13, INFO 127.0.0.1 - - [14/Oct/2020 19:13:13] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:13:13, INFO 127.0.0.1 - - [14/Oct/2020 19:13:13] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:13:13, INFO 127.0.0.1 - - [14/Oct/2020 19:13:13] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:13:13, INFO 127.0.0.1 - - [14/Oct/2020 19:13:13] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:14:37, INFO 127.0.0.1 - - [14/Oct/2020 19:14:37] "[37mPOST /extract_terminology HTTP/1.1[0m" 200 -
+19:17:17, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.012543916702270508)
+19:17:17, INFO TERMS REMOVED: 
+19:17:17, INFO CLEAN_TERMS, DELETE (48) NEW LIST SIZE: (7) TIME: (0.0021479129791259766)
+19:17:17, INFO TERMS REMOVED: d, o, c, e, d, e, o, c, t, u, b, r, e, t, r, a, b, a, j, a, d, o, r, i, n, t, e, r, m, i, t, e, n, t, e, m, e, n, t, e, m, e, d, i, a, n, t, e
+19:17:17, INFO 127.0.0.1 - - [14/Oct/2020 19:17:17] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:17:48, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (1) TIME: (0.0015549659729003906)
+19:17:48, INFO TERMS REMOVED: 
+19:17:48, INFO CLEAN_TERMS, DELETE (13) NEW LIST SIZE: (2) TIME: (0.0015461444854736328)
+19:17:48, INFO TERMS REMOVED: d, o, c, e, d, e, o, c, t, u, b, r, e
+19:17:48, INFO 127.0.0.1 - - [14/Oct/2020 19:17:48] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:19:23, INFO 127.0.0.1 - - [14/Oct/2020 19:19:23] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+19:22:07, INFO 127.0.0.1 - - [14/Oct/2020 19:22:07] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+19:23:07, INFO 127.0.0.1 - - [14/Oct/2020 19:23:07] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:23:07, INFO 127.0.0.1 - - [14/Oct/2020 19:23:07] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:23:07, INFO 127.0.0.1 - - [14/Oct/2020 19:23:07] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:23:07, INFO 127.0.0.1 - - [14/Oct/2020 19:23:07] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:23:07, INFO 127.0.0.1 - - [14/Oct/2020 19:23:07] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:23:09, INFO 127.0.0.1 - - [14/Oct/2020 19:23:09] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:23:09, INFO 127.0.0.1 - - [14/Oct/2020 19:23:09] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:23:09, INFO 127.0.0.1 - - [14/Oct/2020 19:23:09] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:23:09, INFO 127.0.0.1 - - [14/Oct/2020 19:23:09] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:23:09, INFO 127.0.0.1 - - [14/Oct/2020 19:23:09] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:23:46, INFO 127.0.0.1 - - [14/Oct/2020 19:23:46] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:23:46, INFO 127.0.0.1 - - [14/Oct/2020 19:23:46] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:23:46, INFO 127.0.0.1 - - [14/Oct/2020 19:23:46] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:23:46, INFO 127.0.0.1 - - [14/Oct/2020 19:23:46] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:23:47, INFO 127.0.0.1 - - [14/Oct/2020 19:23:47] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:23:48, INFO 127.0.0.1 - - [14/Oct/2020 19:23:48] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:23:48, INFO 127.0.0.1 - - [14/Oct/2020 19:23:48] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:23:48, INFO 127.0.0.1 - - [14/Oct/2020 19:23:48] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:23:48, INFO 127.0.0.1 - - [14/Oct/2020 19:23:48] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:23:48, INFO 127.0.0.1 - - [14/Oct/2020 19:23:48] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:29:38, INFO 127.0.0.1 - - [14/Oct/2020 19:29:38] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+19:29:38, INFO 127.0.0.1 - - [14/Oct/2020 19:29:38] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+19:29:38, INFO 127.0.0.1 - - [14/Oct/2020 19:29:38] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+19:29:38, INFO 127.0.0.1 - - [14/Oct/2020 19:29:38] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+19:29:39, INFO 127.0.0.1 - - [14/Oct/2020 19:29:39] "[37mGET /static/swagger.json HTTP/1.1[0m" 200 -
+19:30:39, INFO 127.0.0.1 - - [14/Oct/2020 19:30:39] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+19:33:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:33:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:33:07, INFO  * Restarting with fsevents reloader
+19:33:12, WARNING  * Debugger is active!
+19:33:12, INFO  * Debugger PIN: 236-695-635
+19:33:18, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.006044149398803711)
+19:33:18, INFO TERMS REMOVED: durante, mediante
+19:33:18, INFO CLEAN_TERMS, DELETE (34) NEW LIST SIZE: (7) TIME: (0.001638174057006836)
+19:33:18, INFO TERMS REMOVED: t, r, a, b, a, j, a, d, o, r, d, o, c, e, d, e, o, c, t, u, b, r, e, c, o, n, s, t, i, t, u, c, i, n
+19:33:18, INFO 127.0.0.1 - - [14/Oct/2020 19:33:18] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:35:27, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:35:27, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:35:28, INFO  * Restarting with fsevents reloader
+19:35:33, WARNING  * Debugger is active!
+19:35:33, INFO  * Debugger PIN: 236-695-635
+19:38:51, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:38:51, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:38:52, INFO  * Restarting with fsevents reloader
+19:38:56, WARNING  * Debugger is active!
+19:38:56, INFO  * Debugger PIN: 236-695-635
+19:39:01, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0040509700775146484)
+19:39:01, INFO TERMS REMOVED: durante, mediante
+19:39:01, INFO CLEAN_TERMS, DELETE (34) NEW LIST SIZE: (7) TIME: (0.0014719963073730469)
+19:39:01, INFO TERMS REMOVED: t, r, a, b, a, j, a, d, o, r, d, o, c, e, d, e, o, c, t, u, b, r, e, c, o, n, s, t, i, t, u, c, i, n
+19:39:01, INFO 127.0.0.1 - - [14/Oct/2020 19:39:01] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:40:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:40:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:40:15, INFO  * Restarting with fsevents reloader
+19:40:19, WARNING  * Debugger is active!
+19:40:19, INFO  * Debugger PIN: 236-695-635
+19:40:24, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0031218528747558594)
+19:40:24, INFO TERMS REMOVED: durante, mediante
+19:40:24, INFO CLEAN_TERMS, DELETE (34) NEW LIST SIZE: (7) TIME: (0.0010538101196289062)
+19:40:24, INFO TERMS REMOVED: t, r, a, b, a, j, a, d, o, r, d, o, c, e, d, e, o, c, t, u, b, r, e, c, o, n, s, t, i, t, u, c, i, n
+19:40:24, INFO 127.0.0.1 - - [14/Oct/2020 19:40:24] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:41:25, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0030851364135742188)
+19:41:25, INFO TERMS REMOVED: durante, mediante
+19:41:25, INFO CLEAN_TERMS, DELETE (34) NEW LIST SIZE: (7) TIME: (0.0009741783142089844)
+19:41:25, INFO TERMS REMOVED: t, r, a, b, a, j, a, d, o, r, d, o, c, e, d, e, o, c, t, u, b, r, e, c, o, n, s, t, i, t, u, c, i, n
+19:41:25, INFO 127.0.0.1 - - [14/Oct/2020 19:41:25] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:43:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:43:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:43:45, INFO  * Restarting with fsevents reloader
+19:43:49, WARNING  * Debugger is active!
+19:43:49, INFO  * Debugger PIN: 236-695-635
+19:44:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:44:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:44:10, INFO  * Restarting with fsevents reloader
+19:44:14, WARNING  * Debugger is active!
+19:44:14, INFO  * Debugger PIN: 236-695-635
+19:44:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:44:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:44:29, INFO  * Restarting with fsevents reloader
+19:44:33, WARNING  * Debugger is active!
+19:44:33, INFO  * Debugger PIN: 236-695-635
+19:44:38, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.004673004150390625)
+19:44:38, INFO TERMS REMOVED: durante, mediante
+19:44:38, INFO CLEAN_TERMS, DELETE (34) NEW LIST SIZE: (7) TIME: (0.0016589164733886719)
+19:44:38, INFO TERMS REMOVED: t, r, a, b, a, j, a, d, o, r, d, o, c, e, d, e, o, c, t, u, b, r, e, c, o, n, s, t, i, t, u, c, i, n
+19:44:38, INFO 127.0.0.1 - - [14/Oct/2020 19:44:38] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:45:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:45:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:45:32, INFO  * Restarting with fsevents reloader
+19:45:36, WARNING  * Debugger is active!
+19:45:36, INFO  * Debugger PIN: 236-695-635
+19:45:41, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0037870407104492188)
+19:45:41, INFO TERMS REMOVED: durante, mediante
+19:45:41, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0009739398956298828)
+19:45:41, INFO TERMS REMOVED: 
+19:45:41, INFO 127.0.0.1 - - [14/Oct/2020 19:45:41] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:46:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:46:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:46:29, INFO  * Restarting with fsevents reloader
+19:46:34, WARNING  * Debugger is active!
+19:46:34, INFO  * Debugger PIN: 236-695-635
+19:46:39, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.003548145294189453)
+19:46:39, INFO TERMS REMOVED: durante, mediante
+19:46:39, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0008373260498046875)
+19:46:39, INFO TERMS REMOVED: 
+19:46:39, INFO 127.0.0.1 - - [14/Oct/2020 19:46:39] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:49:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:49:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:49:40, INFO  * Restarting with fsevents reloader
+19:49:44, WARNING  * Debugger is active!
+19:49:44, INFO  * Debugger PIN: 236-695-635
+19:49:52, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:49:52, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:49:54, INFO  * Restarting with fsevents reloader
+19:49:58, WARNING  * Debugger is active!
+19:49:58, INFO  * Debugger PIN: 236-695-635
+19:50:03, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.005980968475341797)
+19:50:03, INFO TERMS REMOVED: durante, mediante
+19:50:03, INFO 127.0.0.1 - - [14/Oct/2020 19:50:03] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+19:50:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:50:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:50:39, INFO  * Restarting with fsevents reloader
+19:50:43, WARNING  * Debugger is active!
+19:50:43, INFO  * Debugger PIN: 236-695-635
+19:50:57, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.004312992095947266)
+19:50:57, INFO TERMS REMOVED: durante, mediante
+19:50:57, INFO 127.0.0.1 - - [14/Oct/2020 19:50:57] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+19:50:59, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0012450218200683594)
+19:50:59, INFO TERMS REMOVED: durante, mediante
+19:50:59, INFO 127.0.0.1 - - [14/Oct/2020 19:50:59] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+19:51:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:51:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+19:51:23, INFO  * Restarting with fsevents reloader
+19:51:28, WARNING  * Debugger is active!
+19:51:28, INFO  * Debugger PIN: 236-695-635
+19:51:33, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.005984067916870117)
+19:51:33, INFO TERMS REMOVED: durante, mediante
+19:51:33, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0009059906005859375)
+19:51:33, INFO TERMS REMOVED: 
+19:51:33, INFO 127.0.0.1 - - [14/Oct/2020 19:51:33] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:51:46, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0034203529357910156)
+19:51:46, INFO TERMS REMOVED: durante, mediante
+19:51:46, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0006358623504638672)
+19:51:46, INFO TERMS REMOVED: 
+19:51:46, INFO 127.0.0.1 - - [14/Oct/2020 19:51:46] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+19:51:48, INFO CLEAN_TERMS, DELETE (2) NEW LIST SIZE: (3) TIME: (0.0009908676147460938)
+19:51:48, INFO TERMS REMOVED: durante, mediante
+19:51:48, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0008199214935302734)
+19:51:48, INFO TERMS REMOVED: 
+19:51:48, INFO 127.0.0.1 - - [14/Oct/2020 19:51:48] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -

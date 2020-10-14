@@ -1,4 +1,15 @@
-7	violencia
-5	política
-5	siglo
-3	políticos
+11	ley
+8	disposiciones
+8	disposición
+7	texto
+6	real
+6	texto refundido
+5	artículo
+5	medidas
+4	medidas urgentes
+4	ley del estatuto
+4	disposiciones transitorias
+4	estatuto
+4	disposición transitoria
+4	real decreto legislativo
+3	consejo

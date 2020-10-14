@@ -93,7 +93,7 @@ def postproc_terminology():
     #print(Terms)
     print(Language)
 
-    termlist=Terms.split(', ')
+    # termlist=Terms.split(', ')
     
 
     #Pablo proposal -------------------------------------
@@ -111,6 +111,9 @@ def postproc_terminology():
     numbersClean = request.args.get('numbersClean')
     accentClean = request.args.get('accentClean')
     
+    
+    print(timeEx)
+    
     # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
     '''
     configurar el swagger json para meterle parametros y leerlos aquí: fijarse en el método /term
@@ -123,7 +126,7 @@ def postproc_terminology():
     
     '''
     
-    clean_terms= postprocess.preprocessing_terms(termlist, Language, timeEx, patternBasedClean, pluralClean, numbersClean, accentClean)
+    clean_terms= postprocess.preprocessing_terms(Terms, Language, timeEx, patternBasedClean, pluralClean, numbersClean, accentClean)
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
@@ -131,32 +134,33 @@ def postproc_terminology():
     return Response(json.dumps(clean_terms),  mimetype='application/json')
 
 
-#Karen Patricia Enriching
+#Patricia Enriching
 @REQUEST_API.route('/enriching_terminology', methods=['POST'])
 def enrinching_terminology():
     
     
    # to read body of a POST OR PUT
-    myterm=Term.Term()
+    myterms=[]
     json_data = request.json
-    myterm.term = json_data['terms']
-    myterm.langIn = json_data['source_language']
-    
     corpus = json_data['corpus']
-    myterm.schema = json_data['schema_name']  
     
-    
-    lang=json_data['target_language']
-    myterm.langOut=lang.split(', ')
+    for t in json_data['terms']:
+        myterm=Term.Term()
+        myterm.term = t
+        myterm.langIn = json_data['source_language']
+        myterm.schema = json_data['schema_name']   
+        lang=json_data['target_language']
+        myterm.langOut=lang.split(', ')
+        myterms.append(myterm)
     
 
-    print('Received:')
-    #print(Terms)
-    print(myterm.langIn)
-    print(myterm.langOut)
-    print(corpus)
-    print(myterm.schema)
-    #termlist=terms.split(', ')
+    # print('Received:')
+    # #print(Terms)
+    # print(myterm.langIn)
+    # print(myterm.langOut)
+    # print(corpus)
+    # print(myterm.schema)
+    # #termlist=terms.split(', ')
     
 
     #iate=True
@@ -176,9 +180,20 @@ def enrinching_terminology():
     # eurovoc = request.args.get('eurovoc')
     # unesco = request.args.get('unesco')
     # wikidata = request.args.get('wikidata')
+    all_data=[]
+    for myterm in myterms:
+        data=enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw)
+        all_data.append(data)
 
+        
+    
+    #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
+    #print(clean_terms)
+   
+    return Response(json.dumps(all_data),  mimetype='application/json')
 
-
+def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw):
+    
 
     
 
@@ -233,12 +248,11 @@ def enrinching_terminology():
             'STW Relations': myterm.stw_relations
             
             }
-        
 
-        
+
+    return data
+
+@REQUEST_API.route('/relation_validation', methods=['POST'])
+def relation_validation():
     
-    #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
-    #print(clean_terms)
-   
-    return Response(json.dumps(data),  mimetype='application/json')
-
+    return

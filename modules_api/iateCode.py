@@ -164,25 +164,35 @@ def retrieve_best_vector_id(myterm):
 def retrieve_data_from_best_vector(myterm):
 #en algún momento hay que decir que si el sinónimo en langIN es igual al term original, no se recoja
     best_item= myterm.responseIate['items'][myterm.index_max]
+    #print(best_item)
 
     for lang in best_item['language']:
+        # print('lang '+lang)
 
         for l in myterm.langOut:
+            # print('l '+l)
             if l not in myterm.translations_iate:
 
                 myterm.translations_iate[l]=[]
+            if l not in myterm.definitions_iate:
                 myterm.definitions_iate[l]=[]
 
+
             if lang == l:
+                
                 language=best_item['language'][lang]
-   
-                if 'definition' in language.keys():
-                    definition=best_item['language'][lang]['definition']
-                    myterm.definitions_iate[lang].append(definition)
-                else:
-                    continue
+
+                try:
+                    if 'definition' in language.keys():
+                        definition=best_item['language'][lang]['definition']
+                        myterm.definitions_iate[lang].append(definition)
+                except:
+                    pass
+                
                 for entry in best_item['language'][lang]['term_entries']:
+                    
                     trans=entry['term_value']
+                    # print(trans)
                     myterm.translations_iate[lang].append(trans)
             else:
                 continue
