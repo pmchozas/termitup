@@ -59,7 +59,56 @@
 					"Terminology"
 				],
 				
-				"summary": "Postprocess automatically extracted terminology. Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
+				"summary": "Postprocess automatically extracted terminology",
+				"parameters": [
+					{
+						"in": "timeEx",
+						"name": "timeEx",
+						"required": true,
+						"description": "Removes temporal expressions (dates, periods, durations, etc.)",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "patternBasedClean",
+						"name": "patternBasedClean",
+						"required": true,
+						"description": "Removes non-terminological and wrong structures",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "pluralClean",
+						"name": "pluralClean",
+						"required": true,
+						"description": "Unifies plural forms",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "numbersClean",
+						"name": "numbersClean",
+						"required": true,
+						"description": "Removes numberic forms",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "accentClean",
+						"name": "accentClean",
+						"required": true,
+						"description": "Corrects accents (Spanish)",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					}
+
+				]
+				,
 				"requestBody": {
 					  "description": "Description",
 					  "required": true,
@@ -97,6 +146,72 @@
 				],
 				
 				"summary": "Enriches the extracted terms with disambiguated info.",
+				"parameters": [
+					{
+						"in": "iate",
+						"name": "iate",
+						"required": true,
+						"description": "Retrieves data from IATE",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "euroVoc",
+						"name": "euroVoc",
+						"required": true,
+						"description": "Retrieves data from EuroVoc",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "UNESCO",
+						"name": "UNESCO",
+						"required": true,
+						"description": "Retrieves data from UNESCO",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "wikidata",
+						"name": "wikidata",
+						"required": true,
+						"description": "Retrieves data from wikidata",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "thesoz",
+						"name": "thesoz",
+						"required": true,
+						"description": "Retrieves data from thesoz",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "stw",
+						"name": "stw",
+						"required": true,
+						"description": "Retrieves data from stw",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					},
+					{
+						"in": "frequency",
+						"name": "frequency",
+						"required": true,
+						"description": "Choose TRUE if the termlist contains the frequency of each term and FALSE if it is a plain termlist.",
+						"schema": {
+							"$ref": "#/components/schemas/options"
+						}
+					}
+				]
+				,
 				"requestBody": {
 					  "description": "Description",
 					  "required": true,
@@ -232,31 +347,22 @@
 	        "cleanterm": {
     	        "type": "object",
 	        	"properties": {
-    	        	
-    	        	"tasks": {
-	        			"type": "string",
-	        			"format": "string"
-	        			
-	        		},        	
     	        	"terms": {
-	        			"type": "string",
-	        			"format": "string"
+	        			"type": "array",
+	        			"items": {
+    	        			"type":"string"
+	        			}
 	        			
 	        		},
-    	           "language": {
-    	               "type": "string",
-        	           "format": "string"
+    	          "language": {
+    	            "type": "string",
+    	            "format": "string"
         	        	}
         	        }
 	    	},
 	    	"enriching": {
 	        	"type": "object",
 	        	"properties": {
-	           	       "resources": {
-	        			"type": "string",
-	        			"format": "string"
-	        			
-	        		},
 	        		
 	        		"terms": {
 	        			"type": "array",

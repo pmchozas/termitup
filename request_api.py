@@ -89,13 +89,14 @@ def postproc_terminology():
     json_data = request.json
     Terms = json_data['terms']
     Language = json_data['language']
+    tasks= json_data['tasks']
     print('Received:')
     #print(Terms)
     print(Language)
 
-    # termlist=Terms.split(', ')
-    
-
+    termlist=Terms.split(', ')
+    tasklist=tasks.split(', ')
+    print(tasklist)
     #Pablo proposal -------------------------------------
     '''
     timeEx=True
@@ -104,15 +105,47 @@ def postproc_terminology():
     numbersClean=True
     accentClean=True
     '''
-
-    timeEx = request.args.get('timeEx')
-    patternBasedClean = request.args.get('patternBasedClean')
-    pluralClean = request.args.get('pluralClean')
-    numbersClean = request.args.get('numbersClean')
-    accentClean = request.args.get('accentClean')
     
+    for t in tasklist:
+        if 'timeEx' in tasklist:
+            timeEx=True
+        else:
+            timeEx=False
+            
+        if 'patterns' in tasklist:
+            patternBasedClean=True
+        else:
+            patternBasedClean=False
+       
+        if 'plurals' in tasklist:
+            pluralClean=True
+        else:
+            pluralClean=False
     
+        if 'numbers' in tasklist:
+            numbersClean=True
+        else:
+            numbersClean=False
+        
+        if 'accents' in tasklist:
+            accentClean=True
+        else:
+            accentClean=False
+            
     print(timeEx)
+
+    # timeEx = request.args.get('timeEx', default=None, type=None)
+    
+    # print('timex')
+    # print(timeEx)
+    
+    # patternBasedClean = request.args.get('patternBasedClean')
+    # pluralClean = request.args.get('pluralClean')
+    # numbersClean = request.args.get('numbersClean')
+    # accentClean = request.args.get('accentClean')
+    
+    
+    # print(timeEx)
     
     # Aquí estoy forzando todos los parámetros a TRUE. Lo suyo sería que viniesen del servicio web:
     '''
@@ -126,7 +159,7 @@ def postproc_terminology():
     
     '''
     
-    clean_terms= postprocess.preprocessing_terms(Terms, Language, timeEx, patternBasedClean, pluralClean, numbersClean, accentClean)
+    clean_terms= postprocess.preprocessing_terms(termlist, Language, timeEx, patternBasedClean, pluralClean, numbersClean, accentClean)
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
@@ -143,6 +176,12 @@ def enrinching_terminology():
     myterms=[]
     json_data = request.json
     corpus = json_data['corpus']
+    res= json_data['resources']
+    reslist= res.split(', ')
+    
+    
+    if 'iate' in reslist:
+        print('iate YES')
     
     for t in json_data['terms']:
         myterm=Term.Term()
@@ -171,12 +210,54 @@ def enrinching_terminology():
 
     #myterm.freq = request.args.get('frequency')
     #iate = request.args.get('iate')
-    iate=True
-    eurovoc=True
-    unesco=True
-    wikidata=True
-    thesoz=True
-    stw=True
+        
+        
+    resources= json_data['resources']    
+    reslist=resources.split(', ')
+    for r in reslist:
+        if 'iate' in reslist:
+            iate=True
+        else:
+            iate=False
+            
+        if 'eurovoc' in reslist:
+            eurovoc=True
+        else:
+            eurovoc=False
+       
+        if 'unesco' in reslist:
+            unesco=True
+        else:
+            unesco=False
+    
+        if 'wikidata' in reslist:
+            wikidata=True
+        else:
+            wikidata=False
+        
+        if 'stw' in reslist:
+            stw=True
+        else:
+            stw=False     
+            
+        if 'thesoz' in reslist:
+            thesoz=True
+        else:
+            thesoz=False 
+            
+        # if 'ilo' in reslist:
+        #     ilo=True
+        # else:
+        #     ilo=False 
+        
+    
+    
+    # iate=True
+    # eurovoc=True
+    # unesco=True
+    # wikidata=True
+    # thesoz=True
+    # stw=True
     # eurovoc = request.args.get('eurovoc')
     # unesco = request.args.get('unesco')
     # wikidata = request.args.get('wikidata')

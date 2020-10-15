@@ -36,16 +36,16 @@ accentClean: booleano que activa si se aplica limpieza de acentos o no
 
 
 '''
-def preprocessing_terms(termList, lang_in, timeEx, patternBasedClean, pluralClean, numbersClean, accentClean):
+def preprocessing_terms(termlist, lang_in, timeEx, patternBasedClean, pluralClean, numbersClean, accentClean):
     
     date='2020-06-03' # esto debería ser automatico
-    print('terms:', termList)
+    print('terms:', termlist)
     print('lang:', lang_in)
     
     # servicio básico, creo que se debería hacer siempre
-    processedTerms=clean_terms(termList, lang_in)
+    processedTerms=clean_terms(termlist, lang_in)
     
-    # processedTerms='| '.join(processedTerms).replace('-', '').replace(',', '').replace(';', '')
+    processedTerms='| '.join(processedTerms).replace('-', '').replace(',', '').replace(';', '')
     
     print('This is processedTerms ')
     print(processedTerms)
@@ -55,20 +55,20 @@ def preprocessing_terms(termList, lang_in, timeEx, patternBasedClean, pluralClea
     # Todo siempre sobre la misma variable: processedTerms. Da igual el camino que cojas. Usas la lista de terminos y se modifica.
     
     #opcional
-    if(timeEx):
+    if(timeEx==True):
         processedTerms=annotate_timex(processedTerms, date, lang_in)
         processedTerms.sort()
     #opcional    
-    if((lang_in=='es') and (patternBasedClean)):
+    if((lang_in=='es') and (patternBasedClean==True)):
         processedTerms=delate_pattern(processedTerms)
     #opcional    
-    if((lang_in=='es') and (pluralClean)):
+    if((lang_in=='es') and (pluralClean==True)):
         processedTerms=quit_plural(processedTerms)
     #opcional
-    if(numbersClean):
+    if(numbersClean==True):
         processedTerms=delete_numbers(processedTerms)
     #opcional
-    if(accentClean):    
+    if(accentClean==True):    
         processedTerms=acentos(processedTerms)
     #final clean    
     processedTerms=clean_terms(processedTerms, lang_in)
@@ -213,7 +213,8 @@ def delate_pattern(anotador):
 	for i in anotador:
 		if(len(i)>1):
 			#print( i, i.split(' ') )
-			pos_tagger = CoreNLPParser('http://localhost:9003', tagtype='pos')
+			pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/', tagtype='pos')
+            #si se cae el de lynx, probar con este https://corenlp.run/
 			#print(i)
 			tag=pos_tagger.tag(i.split(' '))
 			total=total+1
