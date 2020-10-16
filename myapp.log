@@ -2621,3 +2621,26 @@ TypeError: 'module' object is not callable
 19:58:44, INFO  * Restarting with fsevents reloader
 19:58:46, WARNING  * Debugger is active!
 19:58:46, INFO  * Debugger PIN: 236-695-635
+11:52:30, INFO 127.0.0.1 - - [16/Oct/2020 11:52:30] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+11:59:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+11:59:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+11:59:13, INFO  * Restarting with fsevents reloader
+11:59:20, WARNING  * Debugger is active!
+11:59:20, INFO  * Debugger PIN: 236-695-635
+11:59:26, INFO 127.0.0.1 - - [16/Oct/2020 11:59:26] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+13:16:55, INFO 127.0.0.1 - - [16/Oct/2020 13:16:55] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+13:17:51, INFO 127.0.0.1 - - [16/Oct/2020 13:17:51] "[37mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+13:17:51, INFO 127.0.0.1 - - [16/Oct/2020 13:17:51] "[37mGET /swagger/swagger-ui.css HTTP/1.1[0m" 200 -
+13:17:51, INFO 127.0.0.1 - - [16/Oct/2020 13:17:51] "[37mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+13:18:47, INFO 127.0.0.1 - - [16/Oct/2020 13:18:47] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+13:22:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:22:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:22:11, INFO  * Restarting with fsevents reloader
+13:22:16, WARNING  * Debugger is active!
+13:22:16, INFO  * Debugger PIN: 236-695-635
+13:22:50, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+13:22:50, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+13:22:50, INFO  * Restarting with fsevents reloader
+13:22:54, WARNING  * Debugger is active!
+13:22:54, INFO  * Debugger PIN: 236-695-635
+13:23:01, INFO 127.0.0.1 - - [16/Oct/2020 13:23:01] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -

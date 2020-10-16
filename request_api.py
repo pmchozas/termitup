@@ -263,8 +263,8 @@ def enrinching_terminology():
     # wikidata = request.args.get('wikidata')
     all_data=[]
     for myterm in myterms:
-        data=enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw)
-        all_data.append(data)
+        term_data=enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw)
+        all_data.append(term_data)
 
         
     
@@ -297,7 +297,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw):
     if stw == True:
         stwCode.enrich_term_stw(myterm)
         
-        data={
+    data={
             'Source Term' : myterm.term,
             'IATE ID': myterm.iate_id,
             'IATE Synonyms': myterm.synonyms_iate,

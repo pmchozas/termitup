@@ -121,7 +121,7 @@ def get_relations(myterm): #recoge la uri de la relacion a buscar
                 """
                 r=requests.get(url, params={'format': 'json', 'query': query})
                 results=json.loads(r.text)
-    
+                print(query)
                 if (len(results["results"]["bindings"])==0):
                         answerRel=''
                 else:
