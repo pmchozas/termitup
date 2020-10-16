@@ -2644,3 +2644,36 @@ TypeError: 'module' object is not callable
 13:22:54, WARNING  * Debugger is active!
 13:22:54, INFO  * Debugger PIN: 236-695-635
 13:23:01, INFO 127.0.0.1 - - [16/Oct/2020 13:23:01] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+14:58:15, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.047410011291503906)
+14:58:15, INFO TERMS REMOVED: 
+14:58:15, INFO 127.0.0.1 - - [16/Oct/2020 14:58:15] "[1m[35mPOST /postproc_terminology HTTP/1.1[0m" 500 -
+15:08:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:08:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:08:06, INFO  * Restarting with fsevents reloader
+15:08:12, WARNING  * Debugger is active!
+15:08:12, INFO  * Debugger PIN: 236-695-635
+15:13:38, INFO 193.118.53.210 - - [16/Oct/2020 15:13:38] "[37mGET / HTTP/1.1[0m" 200 -
+15:14:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:14:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:14:34, INFO  * Restarting with fsevents reloader
+15:14:39, WARNING  * Debugger is active!
+15:14:39, INFO  * Debugger PIN: 236-695-635
+15:14:44, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.00461888313293457)
+15:14:44, INFO TERMS REMOVED: 
+15:14:44, INFO NUMBERS, DELETE (0) NEW LIST SIZE: (22) TIME: (0.007014036178588867)
+15:14:44, INFO TERMS REMOVED: 
+15:14:44, INFO CLEAN_TERMS, DELETE (20) NEW LIST SIZE: (2) TIME: (0.0008039474487304688)
+15:14:44, INFO TERMS REMOVED: t, r, a, b, a, j, a, d, o, r, d, i, e, c, i, n, u, e, v, e
+15:14:44, INFO 127.0.0.1 - - [16/Oct/2020 15:14:44] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -
+15:16:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:16:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:16:27, INFO  * Restarting with fsevents reloader
+15:16:32, WARNING  * Debugger is active!
+15:16:32, INFO  * Debugger PIN: 236-695-635
+15:16:37, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.0026590824127197266)
+15:16:37, INFO TERMS REMOVED: 
+15:16:37, INFO NUMBERS, DELETE (1) NEW LIST SIZE: (1) TIME: (0.0011882781982421875)
+15:16:37, INFO TERMS REMOVED: diecinueve
+15:16:37, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (1) TIME: (0.0005919933319091797)
+15:16:37, INFO TERMS REMOVED: 
+15:16:37, INFO 127.0.0.1 - - [16/Oct/2020 15:16:37] "[37mPOST /postproc_terminology HTTP/1.1[0m" 200 -

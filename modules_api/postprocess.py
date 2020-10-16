@@ -45,7 +45,7 @@ def preprocessing_terms(termlist, lang_in, timeEx, patternBasedClean, pluralClea
     # servicio básico, creo que se debería hacer siempre
     processedTerms=clean_terms(termlist, lang_in)
     
-    processedTerms='| '.join(processedTerms).replace('-', '').replace(',', '').replace(';', '')
+    
     
     print('This is processedTerms ')
     print(processedTerms)
@@ -56,6 +56,7 @@ def preprocessing_terms(termlist, lang_in, timeEx, patternBasedClean, pluralClea
     
     #opcional
     if(timeEx==True):
+        processedTerms='| '.join(processedTerms).replace('-', '').replace(',', '').replace(';', '')
         processedTerms=annotate_timex(processedTerms, date, lang_in)
         processedTerms.sort()
     #opcional    
@@ -629,7 +630,7 @@ def delete_numbers(list_):
 					ind=list_.index(j)
 					cont=cont+1
 					list_.pop(ind)
-	list_.sort()
+	#list_.sort()
 	elapsed_time=time()-start_time
 	txt='NUMBERS, DELETE'+' ('+str(cont)+') NEW LIST SIZE: ('+str(len(list_))+') TIME: ('+str(elapsed_time)+')'
 	joind=', '.join(deletes)
