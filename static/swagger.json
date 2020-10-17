@@ -23,17 +23,27 @@
 				],
 				
 				"summary": "Extract terminology from corpus",
-				"requestBody": {
-					  "description": "Description",
-					  "required": true,
-					  "content": {
-						"application/json": {
-						  "schema": {
-							"$ref": "#/components/schemas/corpus"
-						  }
+                "parameters": [
+					{
+						"in": "lang_in",
+						"name": "lang_in",
+						"required": true,
+						"description": "Language of the source terms: es, en...",
+						"schema": {
+							"$ref": "#/components/schemas/base"
 						}
-					  }
+					},
+					{
+						"in": "corpus",
+						"name": "corpus",
+						"required": true,
+						"description": "Corpus in which the terms appear.",
+						"schema": {
+							"$ref": "#/components/schemas/corpusonly"
+						}
 					}
+
+				]
 				,
 				"responses": {
 					"200": {
@@ -59,14 +69,54 @@
 					"Terminology"
 				],
 				
-				"summary": "Postprocess automatically extracted terminology. Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
+				"summary": "Postprocess automatically extracted terminology",
+				"parameters": [
+					{
+						"in": "terms",
+						"name": "terms",
+						"required": true,
+						"description": "Terms to postprocess, separated by commas",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "tasks",
+						"name": "tasks",
+						"required": true,
+						"description": "Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "lang_in",
+						"name": "lang_in",
+						"required": true,
+						"description": "Language of the source terms: es, en...",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "corpus",
+						"name": "corpus",
+						"required": true,
+						"description": "Corpus in which the terms appear.",
+						"schema": {
+							"$ref": "#/components/schemas/corpusonly"
+						}
+					}
+
+				]
+				,
 				"requestBody": {
 					  "description": "Description",
 					  "required": true,
 					  "content": {
 						"application/json": {
 						  "schema": {
-							"$ref": "#/components/schemas/cleanterm"
+							"$ref": "#/components/schemas/corpusonly"
 						  }
 						}
 					  }
@@ -97,18 +147,55 @@
 				],
 				
 				"summary": "Enriches the extracted terms with disambiguated info.",
-				"requestBody": {
-					  "description": "Description",
-					  "required": true,
-					  "content": {
-						"application/json": {
-						  "schema": {
-							"$ref": "#/components/schemas/enriching"
-						  }
+				"parameters": [
+					{
+						"in": "terms",
+						"name": "terms",
+						"required": true,
+						"description": "Terms to enrich, separated by commas",
+						"schema": {
+							"$ref": "#/components/schemas/base"
 						}
-					  }
+					},
+					{
+						"in": "resources",
+						"name": "resources",
+						"required": true,
+						"description": "External resources to enrich the terms, separated by commas: eurovoc, iate, unesco, thesoz, stw, ilo",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "lang_in",
+						"name": "lang_in",
+						"required": true,
+						"description": "Source language: es, en...",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "lang_out",
+						"name": "lang_out",
+						"required": true,
+						"description": "Target languages (different from the source language)",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "corpus",
+						"name": "corpus",
+						"required": true,
+						"description": "Corpus in which the terms appear.",
+						"schema": {
+							"$ref": "#/components/schemas/corpusonly"
+						}
 					}
+				]
 				,
+				
 				"responses": {
 					"200": {
 						"description": "successful operation",
@@ -216,6 +303,20 @@
 	},
 	"components": {
 		"schemas": {
+			"base": {
+	            "type": "string",
+	            "format": "string"
+
+	      	},
+			"corpusonly": {
+	        	"type": "object",
+	        	"properties": {
+	          "corpus": {
+	            "type": "string",
+	            "format": "string"
+	          }
+	        	}
+	      	},
 			"corpus": {
 	        	"type": "object",
 	        	"properties": {
@@ -232,31 +333,22 @@
 	        "cleanterm": {
     	        "type": "object",
 	        	"properties": {
-    	        	
-    	        	"tasks": {
-	        			"type": "string",
-	        			"format": "string"
-	        			
-	        		},        	
     	        	"terms": {
-	        			"type": "string",
-	        			"format": "string"
+	        			"type": "array",
+	        			"items": {
+    	        			"type":"string"
+	        			}
 	        			
 	        		},
-    	           "language": {
-    	               "type": "string",
-        	           "format": "string"
+    	          "language": {
+    	            "type": "string",
+    	            "format": "string"
         	        	}
         	        }
 	    	},
 	    	"enriching": {
 	        	"type": "object",
 	        	"properties": {
-	           	       "resources": {
-	        			"type": "string",
-	        			"format": "string"
-	        			
-	        		},
 	        		
 	        		"terms": {
 	        			"type": "array",
