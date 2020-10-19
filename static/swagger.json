@@ -25,7 +25,7 @@
 				"summary": "Extract terminology from corpus",
                 "parameters": [
 					{
-						"in": "lang_in",
+						"in": "query",
 						"name": "lang_in",
 						"required": true,
 						"description": "Language of the source terms: es, en...",
@@ -34,7 +34,7 @@
 						}
 					},
 					{
-						"in": "corpus",
+						"in": "query",
 						"name": "corpus",
 						"required": true,
 						"description": "Corpus in which the terms appear.",
@@ -51,7 +51,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/term"
+									"$ref": "#/components/schemas/base"
 								}
 							}
 						}
@@ -72,7 +72,7 @@
 				"summary": "Postprocess automatically extracted terminology",
 				"parameters": [
 					{
-						"in": "terms",
+						"in": "query",
 						"name": "terms",
 						"required": true,
 						"description": "Terms to postprocess, separated by commas",
@@ -81,7 +81,7 @@
 						}
 					},
 					{
-						"in": "tasks",
+						"in": "query",
 						"name": "tasks",
 						"required": true,
 						"description": "Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
@@ -90,37 +90,16 @@
 						}
 					},
 					{
-						"in": "lang_in",
-						"name": "lang_in",
+						"in": "query",
+						"name": "source_language",
 						"required": true,
 						"description": "Language of the source terms: es, en...",
 						"schema": {
 							"$ref": "#/components/schemas/base"
 						}
-					},
-					{
-						"in": "corpus",
-						"name": "corpus",
-						"required": true,
-						"description": "Corpus in which the terms appear.",
-						"schema": {
-							"$ref": "#/components/schemas/corpusonly"
-						}
 					}
 
 				]
-				,
-				"requestBody": {
-					  "description": "Description",
-					  "required": true,
-					  "content": {
-						"application/json": {
-						  "schema": {
-							"$ref": "#/components/schemas/corpusonly"
-						  }
-						}
-					  }
-					}
 				,
 				"responses": {
 					"200": {
@@ -128,7 +107,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/term"
+									"$ref": "#/components/schemas/base"
 								}
 							}
 						}
@@ -147,53 +126,18 @@
 				],
 				
 				"summary": "Enriches the extracted terms with disambiguated info.",
-				"parameters": [
-					{
-						"in": "terms",
-						"name": "terms",
-						"required": true,
-						"description": "Terms to enrich, separated by commas",
-						"schema": {
-							"$ref": "#/components/schemas/base"
+
+				"requestBody": {
+					  "description": "Terms: terms to enrich. Resources: External resources to enrich the terms, separated by commas: eurovoc, iate, unesco, thesoz, stw, ilo. Source_language: language of the terms to enrich. Target_languages: language or languages of the retrieved information. Schema_name: name of the domain to which the terms belong. Corpus: text from which the terms have been extracted. ",
+					  "required": true,
+					  "content": {
+						"application/json": {
+						  "schema": {
+							"$ref": "#/components/schemas/enriching"
+						  }
 						}
-					},
-					{
-						"in": "resources",
-						"name": "resources",
-						"required": true,
-						"description": "External resources to enrich the terms, separated by commas: eurovoc, iate, unesco, thesoz, stw, ilo",
-						"schema": {
-							"$ref": "#/components/schemas/base"
-						}
-					},
-					{
-						"in": "lang_in",
-						"name": "lang_in",
-						"required": true,
-						"description": "Source language: es, en...",
-						"schema": {
-							"$ref": "#/components/schemas/base"
-						}
-					},
-					{
-						"in": "lang_out",
-						"name": "lang_out",
-						"required": true,
-						"description": "Target languages (different from the source language)",
-						"schema": {
-							"$ref": "#/components/schemas/base"
-						}
-					},
-					{
-						"in": "corpus",
-						"name": "corpus",
-						"required": true,
-						"description": "Corpus in which the terms appear.",
-						"schema": {
-							"$ref": "#/components/schemas/corpusonly"
-						}
+					  }
 					}
-				]
 				,
 				
 				"responses": {
@@ -251,7 +195,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/term"
+									"$ref": "#/components/schemas/base"
 								}
 							}
 						}
@@ -288,7 +232,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/term"
+									"$ref": "#/components/schemas/base"
 								}
 							}
 						}
@@ -311,11 +255,11 @@
 			"corpusonly": {
 	        	"type": "object",
 	        	"properties": {
-	          "corpus": {
-	            "type": "string",
-	            "format": "string"
-	          }
-	        	}
+        	          "corpus": {
+            	            "type": "string",
+            	            "format": "string"
+                    	          }
+                	        	}
 	      	},
 			"corpus": {
 	        	"type": "object",
@@ -333,14 +277,17 @@
 	        "cleanterm": {
     	        "type": "object",
 	        	"properties": {
-    	        	"terms": {
-	        			"type": "array",
-	        			"items": {
-    	        			"type":"string"
-	        			}
+	        		"terms": {
+	            		"type": "string",
+	            		"format": "string"
 	        			
 	        		},
-    	          "language": {
+	       	        "tasks": {
+	            		"type": "string",
+	            		"format": "string"
+	        			
+	        		},
+    	          "source_language": {
     	            "type": "string",
     	            "format": "string"
         	        	}
@@ -351,17 +298,20 @@
 	        	"properties": {
 	        		
 	        		"terms": {
-	        			"type": "array",
-	        			"items": {
-    	        			"type":"string"
-	        			}
+	            		"type": "string",
+	            		"format": "string"
+	        			
+	        		},
+	       	        "resources": {
+	            		"type": "string",
+	            		"format": "string"
 	        			
 	        		},
 	        		"source_language": {
 	            		"type": "string",
 	            		"format": "string"
 	        		},
-	        		"target_language": {
+	        		"target_languages": {
 	            		"type": "string",
 	            		"format": "string"
 	    			},
@@ -387,48 +337,145 @@
 			"term": {
 				"type": "object",
 				"properties": {
-					"context": {
-						"type": "string"
-					},
-					"id": {
-						"type": "string"
-					},
-					"type": {
-						"type": "string"
-					},
-					"inScheme": {
-						"type": "string"
-					},
-					"source": {
-						"type": "string"
-					},
-					"prefLabel": {
-						"type": "array",
-						"items": {
-							"$ref": "#/components/schemas/prefLabel"
-						}
-					},
-					"altLabel": {
-						"type": "array",
-						"items": {
-							"$ref": "#/components/schemas/altLabel"
-						}
-					},
-					"definition": {
-						"type": "array",
-						"items": {
-							"$ref": "#/components/schemas/definition"
-						}
-					},
-					"broader": {
-						"type": "string"
-					},
-					"narrower": {
-						"type": "string"
-					},
-					"related": {
-						"type": "string"
-					}
+            "Source Term" : {"type": "string"},
+            "IATE ID": {"type": "string"},
+            "IATE Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "IATE Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "IATE Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              }, 
+            "EUROVOC ID": {"type": "string"},
+            "EUROVOC Synonyms":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "EUROVOC Relations":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "EUROVOC Definitions":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "EUROVOC Translations":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "UNESCO ID": {"type": "string"},
+            "UNESCO Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "UNESCO Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "UNESCO Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA ID": {"type": "string"},
+            "WIKIDATA Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ ID": {"type": "string"},
+            "THESOZ Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW ID": {"type": "string"},
+            "STW Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              }
 				}
 			},
 			"prefLabel": {

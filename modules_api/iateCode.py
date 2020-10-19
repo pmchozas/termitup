@@ -133,20 +133,26 @@ def create_langIn_vector(item, myterm, hed):
     vector=[]
     domain_names = get_domain_names(item, hed)
     vector.extend(domain_names)
-    
-    if  'definition' in item['language'][myterm.langIn]:
+    try:
+        if  'definition' in item['language'][myterm.langIn]:
          vector.append(item['language'][myterm.langIn]['definition'])
+    except:
+        pass
     
+    
+    try:
    
-    for entry in item['language'][myterm.langIn]['term_entries']: 
-        term_value = entry['term_value']
-        vector.append(term_value)
-        '''    
-        if  'note' in entry:
-            note= entry['note']['value']
-            vector.append(note)
-            
-            '''
+        for entry in item['language'][myterm.langIn]['term_entries']: 
+            term_value = entry['term_value']
+            vector.append(term_value)
+            '''    
+            if  'note' in entry:
+                note= entry['note']['value']
+                vector.append(note)
+                
+                '''
+    except:
+        pass
     return vector
     
 def get_best_vector(myterm, corpus):

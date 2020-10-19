@@ -62,48 +62,39 @@
 				"summary": "Postprocess automatically extracted terminology",
 				"parameters": [
 					{
-						"in": "timeEx",
-						"name": "timeEx",
+						"in": "terms",
+						"name": "terms",
 						"required": true,
-						"description": "Removes temporal expressions (dates, periods, durations, etc.)",
+						"description": "Terms to postprocess, separated by commas",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "patternBasedClean",
-						"name": "patternBasedClean",
+						"in": "tasks",
+						"name": "tasks",
 						"required": true,
-						"description": "Removes non-terminological and wrong structures",
+						"description": "Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "pluralClean",
-						"name": "pluralClean",
+						"in": "lang_in",
+						"name": "lang_in",
 						"required": true,
-						"description": "Unifies plural forms",
+						"description": "Language of the source terms: es, en...",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "numbersClean",
-						"name": "numbersClean",
+						"in": "corpus",
+						"name": "corpus",
 						"required": true,
-						"description": "Removes numberic forms",
+						"description": "Corpus in which the terms appear.",
 						"schema": {
-							"$ref": "#/components/schemas/options"
-						}
-					},
-					{
-						"in": "accentClean",
-						"name": "accentClean",
-						"required": true,
-						"description": "Corrects accents (Spanish)",
-						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/corpusonly"
 						}
 					}
 
@@ -148,66 +139,57 @@
 				"summary": "Enriches the extracted terms with disambiguated info.",
 				"parameters": [
 					{
-						"in": "iate",
-						"name": "iate",
+						"in": "terms",
+						"name": "terms",
 						"required": true,
-						"description": "Retrieves data from IATE",
+						"description": "Terms to enrich, separated by commas",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "euroVoc",
-						"name": "euroVoc",
+						"in": "resources",
+						"name": "resources",
 						"required": true,
-						"description": "Retrieves data from EuroVoc",
+						"description": "External resources to enrich the terms, separated by commas: eurovoc, iate, unesco, thesoz, stw, ilo",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "UNESCO",
-						"name": "UNESCO",
+						"in": "lang_in",
+						"name": "lang_in",
 						"required": true,
-						"description": "Retrieves data from UNESCO",
+						"description": "Source language: es, en...",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "wikidata",
-						"name": "wikidata",
+						"in": "lang_out",
+						"name": "lang_out",
 						"required": true,
-						"description": "Retrieves data from wikidata",
+						"description": "Target languages (different from the source language)",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "thesoz",
-						"name": "thesoz",
+						"in": "schema",
+						"name": "schema",
 						"required": true,
-						"description": "Retrieves data from thesoz",
+						"description": "Name of the schema (the domain to which the terms belong)",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
 						}
 					},
 					{
-						"in": "stw",
-						"name": "stw",
+						"in": "corpus",
+						"name": "corpus",
 						"required": true,
-						"description": "Retrieves data from stw",
+						"description": "Corpus in which the terms appear.",
 						"schema": {
-							"$ref": "#/components/schemas/options"
-						}
-					},
-					{
-						"in": "frequency",
-						"name": "frequency",
-						"required": true,
-						"description": "Choose TRUE if the termlist contains the frequency of each term and FALSE if it is a plain termlist.",
-						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/corpusonly"
 						}
 					}
 				]

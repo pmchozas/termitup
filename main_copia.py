@@ -7,6 +7,7 @@ from modules_api.Term import Term
 from modules_api import thesozCode
 from modules_api import stwCode
 from modules_api import relvalCode
+from modules_api import iloCode
 # def iate_enriching_terms(terms,corpus,  inlang, outlang ):
 #     outFile=iateCode.enrich_term(terms[0], inlang, outlang, 'ficheroquenoentiendo', corpus, True, None)
 #     #processedTerms=iate(processedTerms, date, lang_in)
@@ -34,10 +35,19 @@ lang="de, es"
 
 myterm.langOut=lang.split(', ')
 
-iateCode.enrich_term_iate(myterm, corpus)
 
-print(myterm.translations_iate)
 
+iloCode.get_uri(myterm)
+
+iloCode.get_synonyms(myterm)
+
+iloCode.get_translations(myterm)
+
+iloCode.get_relations(myterm)
+print(myterm.ilo_id)
+print(myterm.synonyms_ilo)
+print(myterm.translations_ilo)
+print(myterm.ilo_relations)
 
 # test=relvalCode.get_conceptNet_synonyms(myterm)
 

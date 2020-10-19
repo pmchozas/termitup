@@ -23,6 +23,7 @@ from modules_api import unescoCode
 from modules_api import wikidataCode
 from modules_api import thesozCode
 from modules_api import stwCode
+from modules_api import iloCode
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -59,9 +60,10 @@ def extract_terminology():
     '''
     to read body of a POST OR PUT
     '''
-    json_data = request.json
-    Corpus = json_data['corpus']  
-    Language = json_data['language']
+    
+
+    Corpus = request.args.get('corpus')
+    Language = request.args.get('lang_in')
     print('Received:')
     print(Corpus)
     print(Language)
@@ -86,10 +88,10 @@ def postproc_terminology():
     '''
     to read body of a POST OR PUT
     '''
-    json_data = request.json
-    Terms = json_data['terms']
-    Language = json_data['language']
-    tasks= json_data['tasks']
+
+    Terms = request.args.get('terms')
+    Language = request.args.get('source_language')
+    tasks= request.args.get('tasks')
     print('Received:')
     #print(Terms)
     print(Language)
@@ -171,26 +173,13 @@ def postproc_terminology():
 @REQUEST_API.route('/enriching_terminology', methods=['POST'])
 def enrinching_terminology():
     
-    
+
    # to read body of a POST OR PUT
-    myterms=[]
-    json_data = request.json
-    corpus = json_data['corpus']
-    res= json_data['resources']
-    reslist= res.split(', ')
+
+
     
-    
-    if 'iate' in reslist:
-        print('iate YES')
-    
-    for t in json_data['terms']:
-        myterm=Term.Term()
-        myterm.term = t
-        myterm.langIn = json_data['source_language']
-        myterm.schema = json_data['schema_name']   
-        lang=json_data['target_language']
-        myterm.langOut=lang.split(', ')
-        myterms.append(myterm)
+
+        
     
 
     # print('Received:')
@@ -211,8 +200,8 @@ def enrinching_terminology():
     #myterm.freq = request.args.get('frequency')
     #iate = request.args.get('iate')
         
-        
-    resources= json_data['resources']    
+    json_data = request.json    
+    resources= json_data['resources']  
     reslist=resources.split(', ')
     for r in reslist:
         if 'iate' in reslist:
@@ -243,7 +232,12 @@ def enrinching_terminology():
         if 'thesoz' in reslist:
             thesoz=True
         else:
-            thesoz=False 
+            thesoz=False        
+        
+        if 'ilo' in reslist:
+            ilo=True
+        else:
+            ilo=False 
             
         # if 'ilo' in reslist:
         #     ilo=True
@@ -261,10 +255,33 @@ def enrinching_terminology():
     # eurovoc = request.args.get('eurovoc')
     # unesco = request.args.get('unesco')
     # wikidata = request.args.get('wikidata')
-    all_data=[]
-    for myterm in myterms:
-        term_data=enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw)
+    myterms=[]
+    
+    
+    corpus = json_data['corpus']
+
+    terms= json_data['terms']
+    termlist=terms.split(', ')             
+    
+    all_data=[]   
+    for t in termlist:
+        print(t)
+        myterm=Term.Term()
+        myterm.term = t
+        myterm.langIn = json_data['source_language']
+        myterm.schema = json_data['schema_name']
+        lang= json_data['target_languages']
+        myterm.langOut=lang.split(', ')
+        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo)
         all_data.append(term_data)
+        del myterm 
+            
+
+    # for myterm in myterms:
+        
+    #     print(myterm.term)
+    #     term_data=enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw)
+    #     all_data.append(term_data)
 
         
     
@@ -273,7 +290,8 @@ def enrinching_terminology():
    
     return Response(json.dumps(all_data),  mimetype='application/json')
 
-def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw):
+def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo):
+    
     
 
     
@@ -296,6 +314,8 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw):
         thesozCode.enrich_term_thesoz(myterm)
     if stw == True:
         stwCode.enrich_term_stw(myterm)
+    if ilo == True:
+        iloCode.enrich_term_ilo(myterm)
         
     data={
             'Source Term' : myterm.term,
@@ -326,7 +346,11 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw):
             'STW Synonyms': myterm.synonyms_stw,
             'STW Translations': myterm.translations_stw, 
             'STW Definitions': myterm.definitions_stw,
-            'STW Relations': myterm.stw_relations
+            'STW Relations': myterm.stw_relations,
+            'ILO ID': myterm.ilo_id,
+            'ILO Synonyms': myterm.synonyms_ilo,
+            'ILO Translations': myterm.translations_ilo,
+            'ILO Relations': myterm.ilo_relations
             
             }
 

@@ -18,6 +18,7 @@ from modules_api import Term
 la función get_term_position devuelve la posición del término en el corpus, que es requerida por invoke_wsid
 '''
 def get_term_position(myterm, corpus):
+    print(corpus)
     myterm.start=corpus.index(myterm.term)
     length=len(myterm.term)
     myterm.end=myterm.start+length
@@ -40,6 +41,7 @@ def get_vector_weights(myterm, corpus):
     }    
     valuelist=list()
     for vector in myterm.vectors:
+        print(vector)
         url_lkgp_status='http://el-fastapi-88-staging.cloud.itandtel.at/disambiguate_demo?'
         params={'context': corpus, 'start_ind': start, 'end_ind': end,  'senses': vector}
         #print(params)
