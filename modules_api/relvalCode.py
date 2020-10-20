@@ -1,19 +1,20 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 13 13:09:13 2020
-
-@author: pmchozas
-"""
+import json
 import requests
-
-
-#devuelve sinónimos en el idioma de entrada
-
-
-
-
-def get_conceptNet_synonyms(myterm):
+import time
+import check_term
+import eurovocCode
+import spacy
+from nltk.corpus import stopwords
+from time import time
+import trans_id
+import re
+from unicodedata import normalize
+import jsonFile
+nlp = spacy.load('es_core_news_sm')
+# =========================================
+# 
+# =========================================
+def get_conceptNet_synonyms(term, lang):
     # Given a term, get the synonyms from ConcetpNet of the same language
     # Note that all words are in lower case on ConceptNet, unlike Wikidata
     # Start and end edges should be taken into account
@@ -22,16 +23,14 @@ def get_conceptNet_synonyms(myterm):
     
     edge_directions = {"start":"end", "end":"start"}
     for direction in edge_directions.keys():
-        query_url = query_url_pattern.replace("EDGEDIRECTION", direction).replace("LANG", myterm.langIn).replace("TERM", myterm.term)
+        query_url = query_url_pattern.replace("EDGEDIRECTION", direction).replace("LANG", lang).replace("TERM", term)
         # print(query_url)
         obj = requests.get(query_url).json()
         for edge_index in range(len(obj['edges'])):
             syn_lang = obj['edges'][edge_index][edge_directions[direction]]["language"]
-            if syn_lang == myterm.langIn:
+            if syn_lang == lang:
                 synonyms.append(obj['edges'][edge_index][edge_directions[direction]]["label"])
     return list(set(synonyms))
-
-
 
 def inducer(T, A, S):
     # Gets T, the list of preferred labels and A, the list of alternative labels
@@ -134,4 +133,70 @@ def inducer(T, A, S):
             pass
     #print(semantic_relationship)
     return semantic_relationship
+# =========================================
+# main
+# =========================================
+# Read the configuration file
+#termino
+#lenguaje
+#sinonimos
+def main(term_in, lang_in, synonyms ):
+    print("============ Relval")
+    if(term_in):
+        final_json=dict()
+        final_json={'synonymy':[], 'broader':[], 'narrower':[], 'related':[], 'non-related':[]}
+
+
+        pref=term_in
+        for i in range(len(pref)):
+            altLabel_induction = dict()
+            #print(pref[i]['literalForm'])
+            lang=lang_in
+            value1=term_in
+            T=term_in.lower().split()
+            #print('T: ', T, lang)
+            S = dict()
+            for t in T:
+                if t not in S:
+                    S[t] = get_conceptNet_synonyms(t, lang)
+            # S = get_conceptNet_synonyms(T.replace(" ", "_"), lang)
+            #print("T:", T, "lang:", lang, "S:", S)
+            #print(S)
+            if len(S):
+                if (synonyms):
+                    alt=synonyms.split(',')
+                    for j in alt:
+                        item1=j
+                        value2=j.lower().strip()
+                        A=j.lower().split()
+                        language=lang_in
+                        #print('A: ', A, language)
+                        if(lang==lang_in):
+                            if len(A):
+                                # Go for axiom induction    
+                                T_A_relationship = inducer(T, A, S)
+                                altLabel_induction[" ".join(A)] = T_A_relationship
+                                #print('T: ', T, 'A: ',A, 'S: ', S)
+                                #print("A:", A, "SR:", T_A_relationship)
+                                #print('--------------------------')
+                                if(T_A_relationship==None):
+                                    if(value2 not in final_json['non-related']):
+                                        final_json['non-related'].append(value2)
+                                if(T_A_relationship!=None):
+                                    if(value2 not in final_json[T_A_relationship]):
+                                        final_json[T_A_relationship].append(value2)
+                                        #final_json={T_A_relationship: A[0]}
+                           
+            else:
+                # No synonyms found on ConceptNet"
+                altLabel_induction = {}
+
+    #EL RESULTADO ES FINAL JSON 
+    return (final_json)
+                
+
+term_in='trabajo'
+lang_in='es'
+synonyms='ocupación, labor, obra, chamba, prueba dos'
+print(main(term_in, lang_in, synonyms ))
 
