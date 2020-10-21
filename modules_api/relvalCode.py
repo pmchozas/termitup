@@ -134,7 +134,7 @@ def inducer(T, A, S):
 #termino
 #lenguaje
 #sinonimos
-def main(term_in, lang_in, synonyms ):
+def relation_validation(term_in, lang_in, synonyms ):
     print("============ Relval")
     if(term_in):
         final_json=dict()
@@ -192,5 +192,5 @@ def main(term_in, lang_in, synonyms ):
 term_in='trabajo'
 lang_in='es'
 synonyms='ocupación, labor, obra, chamba, prueba dos'
-print(main(term_in, lang_in, synonyms ))
+
 

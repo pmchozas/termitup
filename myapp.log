@@ -3282,3 +3282,44 @@ TypeError: 'module' object is not callable
 19:47:51, INFO 127.0.0.1 - - [19/Oct/2020 19:47:51] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
 19:48:35, INFO 127.0.0.1 - - [19/Oct/2020 19:48:35] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
 19:49:09, INFO 127.0.0.1 - - [19/Oct/2020 19:49:09] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:17:29, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:17:29, INFO  * Restarting with fsevents reloader
+10:17:36, WARNING  * Debugger is active!
+10:17:36, INFO  * Debugger PIN: 236-695-635
+10:19:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/relvalCode.py', reloading
+10:19:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/relvalCode.py', reloading
+10:19:09, INFO  * Restarting with fsevents reloader
+10:19:41, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:19:41, INFO  * Restarting with fsevents reloader
+10:19:45, WARNING  * Debugger is active!
+10:19:45, INFO  * Debugger PIN: 236-695-635
+10:19:57, INFO 127.0.0.1 - - [21/Oct/2020 10:19:57] "[32mGET /swagger HTTP/1.1[0m" 308 -
+10:20:01, INFO 127.0.0.1 - - [21/Oct/2020 10:20:01] "[37mGET / HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/reset.css HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/fontello.css HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/images/termitup_logo_oeg.svg HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/images/termitupw.png HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/images/logopal.png HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/images/Logo_OEG.gif HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/images/fi.jpg HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[37mGET /static/images/upm.jpg HTTP/1.1[0m" 200 -
+10:20:02, INFO 127.0.0.1 - - [21/Oct/2020 10:20:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10:20:11, INFO 127.0.0.1 - - [21/Oct/2020 10:20:11] "[32mGET /swagger HTTP/1.1[0m" 308 -
+10:20:11, INFO 127.0.0.1 - - [21/Oct/2020 10:20:11] "[37mGET /swagger/ HTTP/1.1[0m" 200 -
+10:20:11, INFO 127.0.0.1 - - [21/Oct/2020 10:20:11] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+10:20:11, INFO 127.0.0.1 - - [21/Oct/2020 10:20:11] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+10:20:11, INFO 127.0.0.1 - - [21/Oct/2020 10:20:11] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+10:20:12, INFO 127.0.0.1 - - [21/Oct/2020 10:20:12] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+10:20:39, INFO 127.0.0.1 - - [21/Oct/2020 10:20:39] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+10:48:01, INFO 127.0.0.1 - - [21/Oct/2020 10:48:01] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:50:06, INFO 127.0.0.1 - - [21/Oct/2020 10:50:06] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:51:47, INFO 127.0.0.1 - - [21/Oct/2020 10:51:47] "[1m[35mPOST /enriching_terminology HTTP/1.1[0m" 500 -
+10:54:16, INFO 27.204.254.72 - - [21/Oct/2020 10:54:16] "[33mGET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0[0m" 404 -
+10:54:29, INFO 218.161.90.86 - - [21/Oct/2020 10:54:29] "[37mGET / HTTP/1.1[0m" 200 -
+10:57:56, INFO 127.0.0.1 - - [21/Oct/2020 10:57:56] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:59:13, INFO 127.0.0.1 - - [21/Oct/2020 10:59:13] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+10:59:58, INFO 127.0.0.1 - - [21/Oct/2020 10:59:58] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+11:00:11, INFO 127.0.0.1 - - [21/Oct/2020 11:00:11] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+11:00:20, INFO 127.0.0.1 - - [21/Oct/2020 11:00:20] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+11:00:31, INFO 127.0.0.1 - - [21/Oct/2020 11:00:31] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
