@@ -1,3 +1,9 @@
+import requests
+
+import spacy
+from nltk.corpus import stopwords
+
+
 from modules_api import iateCode
 from modules_api import wsidCode
 from modules_api import eurovocCode
@@ -26,16 +32,16 @@ from modules_api import iloCode
 corpus='a social worker takes care of social matters and work with people. Earns a salary.'
 
 myterm= Term()
-myterm.term='social worker'
-
+myterm.term='trabajador social'
+myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
 #terms=['trabajador','puesto de trabajo','horas']
-myterm.langIn='en'
+myterm.langIn='es'
 
 lang="de, es"
 
 myterm.langOut=lang.split(', ')
 
-
+'''
 
 iloCode.get_uri(myterm)
 
@@ -48,6 +54,19 @@ print(myterm.ilo_id)
 print(myterm.synonyms_ilo)
 print(myterm.translations_ilo)
 print(myterm.ilo_relations)
+
+'''
+
+term_in = myterm.term
+lang_in = myterm.langIn
+synonyms = "trabajador, asistente social, manzana"
+
+
+relvaltest=relvalCode.main(term_in, lang_in, synonyms)
+
+print(relvaltest)
+
+
 
 # test=relvalCode.get_conceptNet_synonyms(myterm)
 

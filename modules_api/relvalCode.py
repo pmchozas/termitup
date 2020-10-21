@@ -1,15 +1,9 @@
-import json
+
 import requests
-import time
-import check_term
-import eurovocCode
+
 import spacy
 from nltk.corpus import stopwords
-from time import time
-import trans_id
-import re
-from unicodedata import normalize
-import jsonFile
+
 nlp = spacy.load('es_core_news_sm')
 # =========================================
 # 

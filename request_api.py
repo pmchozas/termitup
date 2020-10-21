@@ -24,6 +24,7 @@ from modules_api import wikidataCode
 from modules_api import thesozCode
 from modules_api import stwCode
 from modules_api import iloCode
+from modules_api import relvalCode
 
 REQUEST_API = Blueprint('term_api', __name__)
 
