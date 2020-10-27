@@ -3323,3 +3323,7 @@ TypeError: 'module' object is not callable
 11:00:11, INFO 127.0.0.1 - - [21/Oct/2020 11:00:11] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
 11:00:20, INFO 127.0.0.1 - - [21/Oct/2020 11:00:20] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
 11:00:31, INFO 127.0.0.1 - - [21/Oct/2020 11:00:31] "[37mPOST /enriching_terminology HTTP/1.1[0m" 200 -
+11:05:37, INFO 58.187.195.22 - - [21/Oct/2020 11:05:37] "[37mGET / HTTP/1.1[0m" 200 -
+11:56:23, INFO 59.126.236.35 - - [21/Oct/2020 11:56:23] "[37mGET / HTTP/1.1[0m" 200 -
+11:58:05, INFO 178.219.175.105 - - [21/Oct/2020 11:58:05] "[37mGET / HTTP/1.1[0m" 200 -
+15:36:18, INFO 36.88.244.106 - - [21/Oct/2020 15:36:18] "[37mGET / HTTP/1.1[0m" 200 -
