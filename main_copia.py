@@ -1,19 +1,19 @@
 import requests
 
-import spacy
+#import spacy
 from nltk.corpus import stopwords
 
 
 from modules_api import iateCode
 from modules_api import wsidCode
-from modules_api import eurovocCode
-from modules_api import unescoCode
-from modules_api import wikidataCode
+# from modules_api import eurovocCode
+# from modules_api import unescoCode
+# from modules_api import wikidataCode
 from modules_api.Term import Term
-from modules_api import thesozCode
-from modules_api import stwCode
-from modules_api import relvalCode
-from modules_api import iloCode
+# from modules_api import thesozCode
+# from modules_api import stwCode
+# from modules_api import relvalCode
+# from modules_api import iloCode
 # def iate_enriching_terms(terms,corpus,  inlang, outlang ):
 #     outFile=iateCode.enrich_term(terms[0], inlang, outlang, 'ficheroquenoentiendo', corpus, True, None)
 #     #processedTerms=iate(processedTerms, date, lang_in)
@@ -26,20 +26,24 @@ from modules_api import iloCode
 #     #processedTerms.sort()
     
         
-
+corpus='el trabajador firmó un acuerdo laboral con la empresa. ley internacional.'
 #corpus= 'el trabajador estará en su puesto de trabajo durante 24 horas hasta que desfallezca, tiene un jefe y un salario.'
 
-corpus='a social worker takes care of social matters and work with people. Earns a salary.'
+#corpus='a social worker takes care of social matters and work with people. Earns a salary.'
 
 myterm= Term()
-myterm.term='trabajador social'
+myterm.term='acuerdo'
 myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
 #terms=['trabajador','puesto de trabajo','horas']
 myterm.langIn='es'
 
-lang="de, es"
+lang="de"
 
 myterm.langOut=lang.split(', ')
+
+
+test=iateCode.enrich_term_iate(myterm, corpus)
+
 
 '''
 
@@ -55,7 +59,7 @@ print(myterm.synonyms_ilo)
 print(myterm.translations_ilo)
 print(myterm.ilo_relations)
 
-'''
+
 
 term_in = myterm.term
 lang_in = myterm.langIn
@@ -65,7 +69,7 @@ synonyms = "trabajador, asistente social, manzana"
 relvaltest=relvalCode.main(term_in, lang_in, synonyms)
 
 print(relvaltest)
-
+'''
 
 
 # test=relvalCode.get_conceptNet_synonyms(myterm)

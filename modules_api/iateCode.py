@@ -153,7 +153,13 @@ def create_langIn_vector(item, myterm, hed):
                 '''
     except:
         pass
-    return vector
+    cleanvector=[]
+    for v in vector:
+        cleanr = re.compile('<.*?>')
+        cleanv = re.sub(cleanr, '', v)
+        # print(cleanv)
+        cleanvector.append(cleanv)
+    return cleanvector
     
 def get_best_vector(myterm, corpus):
     vector_weights=wsidCode.get_vector_weights(myterm, corpus)
@@ -168,56 +174,58 @@ def retrieve_best_vector_id(myterm):
     return myterm
 
 def retrieve_data_from_best_vector(myterm):
-#en algún momento hay que decir que si el sinónimo en langIN es igual al term original, no se recoja
+#
     best_item= myterm.responseIate['items'][myterm.index_max]
     #print(best_item)
-
+    cleanr = re.compile('<.*?>')
     for lang in best_item['language']:
-        # print('lang '+lang)
+        language=best_item['language'][lang]
+        #print('lang '+lang)
+        if lang not in myterm.definitions_iate:
+                myterm.definitions_iate[lang]=[]
+        
+        if 'definition' in language.keys():
+            definition=best_item['language'][lang]['definition']
+            clean_def = re.sub(cleanr, '', definition)
+            myterm.definitions_iate[lang].append(clean_def)
+                
+        if lang not in myterm.def_ref_iate:
+            myterm.def_ref_iate[lang]=[]
+            
+        if 'definition_references' in language.keys():
+            def_ref = best_item['language'][lang]['definition_references'][0]['text']
+            clean_def_ref = re.sub(cleanr, '', def_ref)
+            myterm.def_ref_iate[lang].append(clean_def_ref)
+        
+        if lang not in myterm.note_iate:
+            myterm.note_iate[lang]=[]
+
+        if 'note' in language.keys():
+            note = best_item['language'][lang]['note']['value']
+            clean_note = re.sub(cleanr, '', note)
+            myterm.note_iate[lang].append(clean_note)
+
+
+#aquí dependiendo de si lang es langin o langout será sinónimo o traducción. lo de arriba es común a cualquier idioma
 
         for l in myterm.langOut:
             # print('l '+l)
-            if l not in myterm.translations_iate:
-
-                myterm.translations_iate[l]=[]
-            if l not in myterm.definitions_iate:
-                myterm.definitions_iate[l]=[]
-
-
             if lang == l:
-                
-                language=best_item['language'][lang]
+                if l not in myterm.translations_iate:
+                    myterm.translations_iate[l]=[]
 
-                try:
-                    if 'definition' in language.keys():
-                        definition=best_item['language'][lang]['definition']
-                        myterm.definitions_iate[lang].append(definition)
-                except:
-                    pass
-                
-                for entry in best_item['language'][lang]['term_entries']:
-                    
-                    trans=entry['term_value']
-                    # print(trans)
+                for entry in best_item['language'][lang]['term_entries']:                    
+                    trans=entry['term_value']                    # print(trans)
                     myterm.translations_iate[lang].append(trans)
-            else:
-                continue
+
 
         if lang == myterm.langIn:
-            if lang not in myterm.translations_iate:
-                myterm.definitions_iate[lang]=[]
-                language=best_item['language'][lang]
-                if 'definition' in language.keys():
-                    definition=best_item['language'][lang]['definition']
-                    myterm.definitions_iate[lang].append(definition)
-                else:
-                    continue
-                for e in best_item['language'][lang]['term_entries']:
-                        syn=e['term_value']
-                        if syn != myterm.term:
-                            myterm.synonyms_iate.append(syn)
-                        else:
-                            continue
+            
+            for e in best_item['language'][lang]['term_entries']:
+                syn=e['term_value']
+                if syn != myterm.term:
+                    myterm.synonyms_iate.append(syn)
+
 
                     
     return myterm

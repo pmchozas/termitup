@@ -29,6 +29,9 @@ class Term:
     translations_iate={}
     definitions_iate={}
     synonyms_iate=[]
+    ref_def_iate={}
+    note_iate={}
+    term_ref_iate={}
     translations_eurovoc={}
     definitions_eurovoc={}
     synonyms_eurovoc=[]
@@ -85,6 +88,9 @@ class Term:
         self.translations_iate={}
         self.definitions_iate={}
         self.synonyms_iate=[]
+        self.def_ref_iate={}
+        self.note_iate={}
+        self.term_ref_iate={}
         self.translations_eurovoc={}
         self.definitions_eurovoc={}
         self.synonyms_eurovoc=[]

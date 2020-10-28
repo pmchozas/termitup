@@ -9,8 +9,8 @@ import re
 import os
 from os import listdir
 from os.path import isfile, isdir
-import time
-import termiup_terminal
+#import time
+#import termiup_terminal
 from flask import Response
 from modules_api import st_extraction
 from modules_api import TBXTools
