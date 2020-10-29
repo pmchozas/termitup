@@ -323,7 +323,11 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
             'IATE ID': myterm.iate_id,
             'IATE Synonyms': myterm.synonyms_iate,
             'IATE Translations': myterm.translations_iate,
-            'IATE Definitions': myterm.definitions_iate, #tengo que revisar si este código está sobreescribiendo , problemas con diccionarios
+            'IATE Definitions': myterm.definitions_iate, 
+            'IATE Definitions References': myterm.ref_def_iate,
+            'IATE Term References': myterm.term_ref_iate,
+            'IATE Language Notes': myterm.note_iate,
+            'IATE Related Terms IDs': myterm.related_ids_iate,
             'EUROVOC ID': myterm.eurovoc_id,
             'EUROVOC Synonyms': myterm.synonyms_eurovoc,
             'EUROVOC Relations': myterm.eurovoc_relations,

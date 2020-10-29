@@ -32,6 +32,7 @@ class Term:
     ref_def_iate={}
     note_iate={}
     term_ref_iate={}
+    related_ids_iate=[]
     translations_eurovoc={}
     definitions_eurovoc={}
     synonyms_eurovoc=[]
@@ -91,6 +92,7 @@ class Term:
         self.def_ref_iate={}
         self.note_iate={}
         self.term_ref_iate={}
+        self.related_ids_iate=[]
         self.translations_eurovoc={}
         self.definitions_eurovoc={}
         self.synonyms_eurovoc=[]

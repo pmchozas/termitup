@@ -44,6 +44,7 @@ def enrich_term_iate(myterm, corpus):
     
     retrieve_data_from_best_vector(myterm)
         #traducciones, sinónimos y defis
+    get_related_terms_iate(myterm)
     
     
     return
@@ -208,6 +209,9 @@ def retrieve_data_from_best_vector(myterm):
 
 #aquí dependiendo de si lang es langin o langout será sinónimo o traducción. lo de arriba es común a cualquier idioma
 
+#por cada term entry, meto su referencia
+
+
         for l in myterm.langOut:
             # print('l '+l)
             if lang == l:
@@ -215,8 +219,11 @@ def retrieve_data_from_best_vector(myterm):
                     myterm.translations_iate[l]=[]
 
                 for entry in best_item['language'][lang]['term_entries']:                    
-                    trans=entry['term_value']                    # print(trans)
+                    trans=entry['term_value']
+                    trans_ref=entry['term_references'][0]['text']
+                    clean_trans_ref = re.sub(cleanr, '', trans_ref)
                     myterm.translations_iate[lang].append(trans)
+                    myterm.term_ref_iate[trans]=clean_trans_ref
 
 
         if lang == myterm.langIn:
@@ -225,11 +232,33 @@ def retrieve_data_from_best_vector(myterm):
                 syn=e['term_value']
                 if syn != myterm.term:
                     myterm.synonyms_iate.append(syn)
+                    syn_ref=e['term_references'][0]['text']
+                    clean_syn_ref = re.sub(cleanr, '', syn_ref)
+                    myterm.term_ref_iate[syn]=clean_syn_ref
 
 
                     
     return myterm
 
+
+#sacar términos relacionados de las definiciones y notas de uso
+
+def get_related_terms_iate(myterm):
+    for value in myterm.definitions_iate.values():
+        for item in value:
+            rel_id_list= re.findall("IATE:[0-9]{2,10}", item, re.DOTALL)
+            for rel_id in rel_id_list:
+                myterm.related_ids_iate.append(rel_id)
+    
+    for value in myterm.note_iate.values():
+        for item in value:
+            rel_id_list= re.findall("IATE:[0-9]{2,10}", item, re.DOTALL)
+            for rel_id in rel_id_list:
+                myterm.related_ids_iate.append(rel_id)
+    
+    myterm.related_ids_iate = list(dict.fromkeys(myterm.related_ids_iate))
+    
+    return myterm
 
 
 

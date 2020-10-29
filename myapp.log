@@ -3349,3 +3349,21 @@ TypeError: 'module' object is not callable
 18:03:47, INFO 127.0.0.1 - - [27/Oct/2020 18:03:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
 18:03:47, INFO 127.0.0.1 - - [27/Oct/2020 18:03:47] "GET /static/swagger.json HTTP/1.1" 200 -
 18:03:47, INFO 127.0.0.1 - - [27/Oct/2020 18:03:47] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+12:58:22, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:58:22, INFO  * Restarting with fsevents reloader
+12:58:27, WARNING  * Debugger is active!
+12:58:27, INFO  * Debugger PIN: 273-160-618
+12:58:32, INFO 127.0.0.1 - - [29/Oct/2020 12:58:32] "GET /swagger/ HTTP/1.1" 200 -
+12:58:33, INFO 127.0.0.1 - - [29/Oct/2020 12:58:33] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:58:33, INFO 127.0.0.1 - - [29/Oct/2020 12:58:33] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:58:33, INFO 127.0.0.1 - - [29/Oct/2020 12:58:33] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:58:34, INFO 127.0.0.1 - - [29/Oct/2020 12:58:34] "GET /static/swagger.json HTTP/1.1" 200 -
+12:58:34, INFO 127.0.0.1 - - [29/Oct/2020 12:58:34] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+12:59:58, INFO 127.0.0.1 - - [29/Oct/2020 12:59:58] "POST /enriching_terminology HTTP/1.1" 200 -
+13:01:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:01:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:01:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:01:17, INFO  * Restarting with fsevents reloader
+13:01:23, WARNING  * Debugger is active!
+13:01:23, INFO  * Debugger PIN: 273-160-618
+13:01:45, INFO 127.0.0.1 - - [29/Oct/2020 13:01:45] "POST /enriching_terminology HTTP/1.1" 200 -
