@@ -25,6 +25,7 @@ from modules_api import thesozCode
 from modules_api import stwCode
 from modules_api import iloCode
 from modules_api import relvalCode
+from modules_api import contextCode
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -293,12 +294,10 @@ def enrinching_terminology():
 
 def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo):
     
-    
-
-    
+    contextCode.extract_context(myterm, corpus)
 
     if iate == True:
-        iateCode.enrich_term_iate(myterm, corpus)
+        iateCode.enrich_term_iate(myterm)
         # print(myterm.term)
         # print(myterm.synonyms_iate)
         # print(myterm.translations_iate)
@@ -310,7 +309,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     if unesco == True:
         unescoCode.enrich_term_unesco(myterm)
     if wikidata==True:
-        wikidataCode.enrich_term_wikidata(myterm, corpus)
+        wikidataCode.enrich_term_wikidata(myterm)
     if thesoz == True:
         thesozCode.enrich_term_thesoz(myterm)
     if stw == True:
@@ -320,6 +319,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         
     data={
             'Source Term' : myterm.term,
+            'Source Term Context': myterm.context,
             'IATE ID': myterm.iate_id,
             'IATE Synonyms': myterm.synonyms_iate,
             'IATE Translations': myterm.translations_iate,
@@ -364,5 +364,15 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
 
 @REQUEST_API.route('/relation_validation', methods=['POST'])
 def relation_validation():
+    myterm=Term.Term()
     
-    return
+    myterm.term = request.args.get('term')
+    myterm.langIn = request.args.get('source_language')
+    syns= request.args.get('candidate_terms')
+    
+    
+    
+    relvaltest=relvalCode.relation_validation(myterm.term, myterm.langIn, syns)
+
+    
+    return Response(json.dumps(relvaltest),  mimetype='application/json')

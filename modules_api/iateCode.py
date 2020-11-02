@@ -30,13 +30,13 @@ Intento de modularizar de Patri y Pablo
 
     
 
-def enrich_term_iate(myterm, corpus):
+def enrich_term_iate(myterm):
     
     # 1 consultas items # 2 creas los vectores con reate_langIn_vector
     request_term_to_iate_withTERM(myterm)
     # 3 hace el wsd con los vectores
     
-    get_best_vector(myterm, corpus) #que llama a  wsidCode.get_vector_weights()
+    get_best_vector(myterm) #que llama a  wsidCode.get_vector_weights()
     # 4 con el mejor, te traes más datos
     #la id
     
@@ -162,8 +162,8 @@ def create_langIn_vector(item, myterm, hed):
         cleanvector.append(cleanv)
     return cleanvector
     
-def get_best_vector(myterm, corpus):
-    vector_weights=wsidCode.get_vector_weights(myterm, corpus)
+def get_best_vector(myterm):
+    vector_weights=wsidCode.get_vector_weights(myterm)
     max_weight=max(vector_weights)
     myterm.index_max=vector_weights.index(max_weight)
     best_vector=myterm.vectors[myterm.index_max]

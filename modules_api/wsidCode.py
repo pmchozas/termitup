@@ -17,9 +17,9 @@ from modules_api import Term
 '''
 la función get_term_position devuelve la posición del término en el corpus, que es requerida por invoke_wsid
 '''
-def get_term_position(myterm, corpus):
-    print(corpus)
-    myterm.start=corpus.index(myterm.term)
+def get_term_position(myterm):
+    context=myterm.context
+    myterm.start=context.index(myterm.term)
     length=len(myterm.term)
     myterm.end=myterm.start+length
     return(myterm)
@@ -28,8 +28,8 @@ def get_term_position(myterm, corpus):
 '''
 get_vector_weights es una versión simplificada de wsid_function creada por Patri para la Api
 '''
-def get_vector_weights(myterm, corpus):
-    get_term_position(myterm, corpus)
+def get_vector_weights(myterm):
+    get_term_position(myterm)
     auth_token = getToken()
     
     start=myterm.start
@@ -45,7 +45,7 @@ def get_vector_weights(myterm, corpus):
     
     for vector in myterm.vectors:
         # print(vector)
-        params={'context': corpus, 'start_ind': start, 'end_ind': end,  'senses': vector}
+        params={'context': myterm.context, 'start_ind': start, 'end_ind': end,  'senses': vector}
         # print(params)
         response = requests.post(url_lkgp_status,params=params,headers =hed)
         # print(response)

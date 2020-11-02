@@ -5,14 +5,14 @@ import json
 from modules_api import eurovocCode
 
 
-def enrich_term_wikidata(myterm, corpus):
+def enrich_term_wikidata(myterm):
     create_wikidata_vectors(myterm)
     
-    get_langIn_data_from_best_vector(myterm, corpus)
+    get_langIn_data_from_best_vector(myterm)
 
-    get_langOut_data_from_best_vector(myterm, corpus)
+    get_langOut_data_from_best_vector(myterm)
     
-    get_relations_from_best_vector(myterm, corpus)
+    get_relations_from_best_vector(myterm)
 
 def create_wikidata_vectors(myterm):
     url = 'https://query.wikidata.org/sparql'
@@ -60,15 +60,16 @@ def create_wikidata_vectors(myterm):
     
     return myterm
 
-def get_term_position(myterm, corpus):
-    myterm.start=corpus.index(myterm.term)
+def get_term_position(myterm):
+    context=myterm.context
+    myterm.start=context.index(myterm.term)
     length=len(myterm.term)
     myterm.end=myterm.start+length
     return(myterm)
 
 
-def get_vector_weights(myterm, corpus):
-    get_term_position(myterm, corpus)
+def get_vector_weights(myterm):
+    get_term_position(myterm)
     #auth_token = getToken()
     
     start=myterm.start
@@ -82,7 +83,7 @@ def get_vector_weights(myterm, corpus):
     
     for key, value in myterm.wikidata_vectors.items() :
         url_lkgp_status='http://el-fastapi-88-staging.cloud.itandtel.at/disambiguate_demo?'
-        params={'context': corpus, 'start_ind': start, 'end_ind': end,  'senses': value}
+        params={'context': myterm.context, 'start_ind': start, 'end_ind': end,  'senses': value}
         #print(params)
         response = requests.post(url_lkgp_status,params=params,headers =hed)
         #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
@@ -102,8 +103,8 @@ def get_vector_weights(myterm, corpus):
         valuelist.append(data[0])
     return valuelist   
 #esto no funciona 
-def get_best_vector_id(myterm, corpus):
-    vector_weights=get_vector_weights(myterm, corpus)
+def get_best_vector_id(myterm):
+    vector_weights=get_vector_weights(myterm)
     max_weight=max(vector_weights)
 
     index_max=vector_weights.index(max_weight)
@@ -115,8 +116,8 @@ def get_best_vector_id(myterm, corpus):
     # return best_vector, myterm
                     
     
-def get_langIn_data_from_best_vector(myterm, corpus):
-    results=get_best_vector_id(myterm, corpus)
+def get_langIn_data_from_best_vector(myterm):
+    results=get_best_vector_id(myterm)
     best_vector=results[0]
     url = 'https://query.wikidata.org/sparql'
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
@@ -162,8 +163,8 @@ def get_langIn_data_from_best_vector(myterm, corpus):
                 
     
     
-def get_langOut_data_from_best_vector(myterm, corpus):
-    results=get_best_vector_id(myterm, corpus)
+def get_langOut_data_from_best_vector(myterm):
+    results=get_best_vector_id(myterm)
     best_vector=results[0]
     url = 'https://query.wikidata.org/sparql'
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
@@ -225,10 +226,10 @@ def get_langOut_data_from_best_vector(myterm, corpus):
     
     
     
-def get_relations_from_best_vector(myterm, corpus):
+def get_relations_from_best_vector(myterm):
     myterm.wikidata_relations['narrower']=[]
     myterm.wikidata_relations['broader']=[]
-    results=get_best_vector_id(myterm, corpus)
+    results=get_best_vector_id(myterm)
     best_vector=results[0]
     url = 'https://query.wikidata.org/sparql'
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}

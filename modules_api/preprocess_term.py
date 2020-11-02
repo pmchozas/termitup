@@ -16,7 +16,7 @@ def preProcessingTerm(term, corpus, lang):
         list_contx=[]
         list_len=[]
         for i in contextFile:
-            text=i.replace('\n', '')
+            text=i.replace('', '')
             if(term in text):
                 ind=text.index(term)
                 #print(ind)

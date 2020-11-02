@@ -12,6 +12,7 @@ no son todos obligatorios, no?
 
 class Term:
     term=""
+    context=""
     langIn=""
     langOut=[]
     source=""
@@ -71,6 +72,7 @@ class Term:
     
     def __init__(self):
         self.term=""
+        self.context=""
         self.langIn=""
         self.translations_iate= {}
         self.langOut=[]

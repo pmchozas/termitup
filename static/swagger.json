@@ -167,28 +167,34 @@
 				"summary": "Validates synonymy relations.",
 				"parameters": [
 					{
-						"in": "synonyms",
-						"name": "synonyms",
+						"in": "query",
+						"name": "term",
 						"required": true,
-						"description": "Validate synonyms with ConceptNet.",
+						"description": "Source term, for instance: worker",
 						"schema": {
-							"$ref": "#/components/schemas/options"
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "query",
+						"name": "source_language",
+						"required": true,
+						"description": "Language of the source term: es, en, de...",
+						"schema": {
+							"$ref": "#/components/schemas/base"
+						}
+					},
+					{
+						"in": "query",
+						"name": "candidate_terms",
+						"required": true,
+						"description": "Candidate terms to validate relations, separated by commas, in the same language as the source term: domestic worker, civil worker",
+						"schema": {
+							"$ref": "#/components/schemas/base"
 						}
 					}
-				]
-				,
-				"requestBody": {
-					  "description": "Description",
-					  "required": true,
-					  "content": {
-						"application/json": {
-						  "schema": {
-							"$ref": "#/components/schemas/enriching"
-						  }
-						}
-					  }
-					}
-				,
+				],
+				
 				"responses": {
 					"200": {
 						"description": "successful operation",
