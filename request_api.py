@@ -294,7 +294,13 @@ def enrinching_terminology():
 
 def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo):
     
-    contextCode.extract_context(myterm, corpus)
+    print(len(corpus))
+    
+    if len(corpus)>400:
+    
+        contextCode.extract_context(myterm, corpus)
+    else:
+        myterm.context=corpus
 
     if iate == True:
         iateCode.enrich_term_iate(myterm)
