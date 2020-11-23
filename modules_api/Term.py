@@ -6,11 +6,10 @@ Created on Tue Sep 29 18:26:32 2020
 @author: pmchozas
 """
 
-'''
-no son todos obligatorios, no?
-'''
+
 
 class Term:
+    term_id=""
     term=""
     context=""
     langIn=""
@@ -71,6 +70,7 @@ class Term:
     wikidata_vectors={}
     
     def __init__(self):
+        self.term_id=""
         self.term=""
         self.context=""
         self.langIn=""

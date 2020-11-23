@@ -26,6 +26,7 @@ from modules_api import stwCode
 from modules_api import iloCode
 from modules_api import relvalCode
 from modules_api import contextCode
+from modules_api import term_id
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -274,6 +275,7 @@ def enrinching_terminology():
         myterm.schema = json_data['schema_name']
         lang= json_data['target_languages']
         myterm.langOut=lang.split(', ')
+        term_id.create_id(myterm)
         term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo)
         all_data.append(term_data)
         del myterm 
@@ -324,6 +326,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         iloCode.enrich_term_ilo(myterm)
         
     data={
+            'Source Term ID': myterm.term_id,
             'Source Term' : myterm.term,
             'Source Term Context': myterm.context,
             'IATE ID': myterm.iate_id,
