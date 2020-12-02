@@ -296,7 +296,7 @@ def enrinching_terminology():
 
 def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo):
     
-    print(len(corpus))
+    #print(len(corpus))
     
     if len(corpus)>400:
     
@@ -328,7 +328,10 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     data={
             'Source Term ID': myterm.term_id,
             'Source Term' : myterm.term,
-            'Source Term Context': myterm.context,
+            'Source Term Context': myterm.context
+        
+        }
+    iate_data={
             'IATE ID': myterm.iate_id,
             'IATE Synonyms': myterm.synonyms_iate,
             'IATE Translations': myterm.translations_iate,
@@ -336,37 +339,109 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
             'IATE Definitions References': myterm.ref_def_iate,
             'IATE Term References': myterm.term_ref_iate,
             'IATE Language Notes': myterm.note_iate,
-            'IATE Related Terms IDs': myterm.related_ids_iate,
+            'IATE Related Terms IDs': myterm.related_ids_iate
+        }
+    eurovoc_data={
             'EUROVOC ID': myterm.eurovoc_id,
             'EUROVOC Synonyms': myterm.synonyms_eurovoc,
             'EUROVOC Relations': myterm.eurovoc_relations,
             'EUROVOC Definitions': myterm.definitions_eurovoc,
-            'EUROVOC Translations': myterm.translations_eurovoc,
+            'EUROVOC Translations': myterm.translations_eurovoc
+        }
+    unesco_data={
             'UNESCO ID': myterm.unesco_id,
             'UNESCO Synonyms': myterm.synonyms_unesco,
             'UNESCO Translations': myterm.translations_unesco,
-            'UNESCO Relations': myterm.unesco_relations,
+            'UNESCO Relations': myterm.unesco_relations
+        }
+    wikidata_data={
             'WIKIDATA ID': myterm.wikidata_id,
             'WIKIDATA Synonyms': myterm.synonyms_wikidata,
             'WIKIDATA Translations': myterm.translations_wikidata,
             'WIKIDATA Definitions': myterm.definitions_wikidata,
-            'WIKIDATA Relations': myterm.wikidata_relations,
+            'WIKIDATA Relations': myterm.wikidata_relations
+        }
+    thesoz_data={
             'THESOZ ID': myterm.thesoz_id,
             'THESOZ Synonyms': myterm.synonyms_thesoz,
             'THESOZ Translations': myterm.translations_thesoz,
             'THESOZ Definitions': myterm.definitions_thesoz,
-            'THESOZ Relations': myterm.thesoz_relations,
+            'THESOZ Relations': myterm.thesoz_relations
+        }
+    stw_data={
             'STW ID': myterm.stw_id,
             'STW Synonyms': myterm.synonyms_stw,
             'STW Translations': myterm.translations_stw, 
             'STW Definitions': myterm.definitions_stw,
-            'STW Relations': myterm.stw_relations,
+            'STW Relations': myterm.stw_relations
+        }
+    ilo_data={
             'ILO ID': myterm.ilo_id,
             'ILO Synonyms': myterm.synonyms_ilo,
             'ILO Translations': myterm.translations_ilo,
             'ILO Relations': myterm.ilo_relations
+        }
+    
+ 
+    
+    if iate == True:
+        data.update(iate_data)
+        print(data)
+    if eurovoc == True:
+        data.update(eurovoc_data)
+    if unesco == True:
+        data.update(unesco_data)
+    if wikidata==True:
+        data.update(wikidata_data)
+    if thesoz == True:
+        data.update(thesoz_data)
+    if stw == True:
+        data.update(stw_data)
+    if ilo == True:
+        data.update(ilo_data)
+    
+    # data={
+    #         'Source Term ID': myterm.term_id,
+    #         'Source Term' : myterm.term,
+    #         'Source Term Context': myterm.context,
+    #         'IATE ID': myterm.iate_id,
+    #         'IATE Synonyms': myterm.synonyms_iate,
+    #         'IATE Translations': myterm.translations_iate,
+    #         'IATE Definitions': myterm.definitions_iate, 
+    #         'IATE Definitions References': myterm.ref_def_iate,
+    #         'IATE Term References': myterm.term_ref_iate,
+    #         'IATE Language Notes': myterm.note_iate,
+    #         'IATE Related Terms IDs': myterm.related_ids_iate,
+    #         'EUROVOC ID': myterm.eurovoc_id,
+    #         'EUROVOC Synonyms': myterm.synonyms_eurovoc,
+    #         'EUROVOC Relations': myterm.eurovoc_relations,
+    #         'EUROVOC Definitions': myterm.definitions_eurovoc,
+    #         'EUROVOC Translations': myterm.translations_eurovoc,
+    #         'UNESCO ID': myterm.unesco_id,
+    #         'UNESCO Synonyms': myterm.synonyms_unesco,
+    #         'UNESCO Translations': myterm.translations_unesco,
+    #         'UNESCO Relations': myterm.unesco_relations,
+    #         'WIKIDATA ID': myterm.wikidata_id,
+    #         'WIKIDATA Synonyms': myterm.synonyms_wikidata,
+    #         'WIKIDATA Translations': myterm.translations_wikidata,
+    #         'WIKIDATA Definitions': myterm.definitions_wikidata,
+    #         'WIKIDATA Relations': myterm.wikidata_relations,
+    #         'THESOZ ID': myterm.thesoz_id,
+    #         'THESOZ Synonyms': myterm.synonyms_thesoz,
+    #         'THESOZ Translations': myterm.translations_thesoz,
+    #         'THESOZ Definitions': myterm.definitions_thesoz,
+    #         'THESOZ Relations': myterm.thesoz_relations,
+    #         'STW ID': myterm.stw_id,
+    #         'STW Synonyms': myterm.synonyms_stw,
+    #         'STW Translations': myterm.translations_stw, 
+    #         'STW Definitions': myterm.definitions_stw,
+    #         'STW Relations': myterm.stw_relations,
+    #         'ILO ID': myterm.ilo_id,
+    #         'ILO Synonyms': myterm.synonyms_ilo,
+    #         'ILO Translations': myterm.translations_ilo,
+    #         'ILO Relations': myterm.ilo_relations
             
-            }
+    #         }
 
 
     return data

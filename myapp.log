@@ -3532,3 +3532,45 @@ TypeError: 'module' object is not callable
 16:13:00, INFO 127.0.0.1 - - [23/Nov/2020 16:13:00] "GET /static/swagger.json HTTP/1.1" 200 -
 16:13:00, INFO 127.0.0.1 - - [23/Nov/2020 16:13:00] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
 16:14:13, INFO 127.0.0.1 - - [23/Nov/2020 16:14:13] "POST /enriching_terminology HTTP/1.1" 200 -
+17:55:30, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:55:30, INFO  * Restarting with fsevents reloader
+17:55:36, WARNING  * Debugger is active!
+17:55:36, INFO  * Debugger PIN: 273-160-618
+17:55:50, INFO 127.0.0.1 - - [02/Dec/2020 17:55:50] "GET /swagger HTTP/1.1" 308 -
+17:55:50, INFO 127.0.0.1 - - [02/Dec/2020 17:55:50] "GET /swagger/ HTTP/1.1" 200 -
+17:55:51, INFO 127.0.0.1 - - [02/Dec/2020 17:55:51] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+17:55:51, INFO 127.0.0.1 - - [02/Dec/2020 17:55:51] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+17:55:51, INFO 127.0.0.1 - - [02/Dec/2020 17:55:51] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+17:55:51, INFO 127.0.0.1 - - [02/Dec/2020 17:55:51] "GET /static/swagger.json HTTP/1.1" 200 -
+17:55:51, INFO 127.0.0.1 - - [02/Dec/2020 17:55:51] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+17:57:46, INFO 127.0.0.1 - - [02/Dec/2020 17:57:46] "POST /enriching_terminology HTTP/1.1" 500 -
+18:10:10, INFO 127.0.0.1 - - [02/Dec/2020 18:10:10] "POST /enriching_terminology HTTP/1.1" 200 -
+18:10:24, INFO 127.0.0.1 - - [02/Dec/2020 18:10:24] "POST /enriching_terminology HTTP/1.1" 200 -
+18:11:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:11:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:11:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:11:13, INFO  * Restarting with fsevents reloader
+18:11:20, WARNING  * Debugger is active!
+18:11:20, INFO  * Debugger PIN: 273-160-618
+18:11:26, INFO 127.0.0.1 - - [02/Dec/2020 18:11:26] "POST /enriching_terminology HTTP/1.1" 200 -
+18:11:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:11:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:12:00, INFO  * Restarting with fsevents reloader
+18:12:06, WARNING  * Debugger is active!
+18:12:06, INFO  * Debugger PIN: 273-160-618
+18:12:12, INFO 127.0.0.1 - - [02/Dec/2020 18:12:12] "POST /enriching_terminology HTTP/1.1" 200 -
+18:20:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:20:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:20:10, INFO  * Restarting with fsevents reloader
+18:20:17, WARNING  * Debugger is active!
+18:20:17, INFO  * Debugger PIN: 273-160-618
+18:20:23, INFO 127.0.0.1 - - [02/Dec/2020 18:20:23] "POST /enriching_terminology HTTP/1.1" 200 -
+18:20:41, INFO 127.0.0.1 - - [02/Dec/2020 18:20:41] "POST /enriching_terminology HTTP/1.1" 200 -
+18:24:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/relvalCode.py', reloading
+18:24:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/relvalCode.py', reloading
+18:24:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/relvalCode.py', reloading
+18:24:16, INFO  * Restarting with fsevents reloader
+18:25:18, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+18:25:18, INFO  * Restarting with fsevents reloader
+18:25:22, WARNING  * Debugger is active!
+18:25:22, INFO  * Debugger PIN: 273-160-618
