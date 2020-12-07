@@ -25,6 +25,7 @@ def enrich_term_eurovoc(myterm):
     get_relations(myterm) #recogemos broader, narrower, related
     get_synonyms(myterm)  #recogemos sinónimos en el langin
     get_translations(myterm)
+    create_intermediate_ids(myterm)
     return myterm
 
 
@@ -225,4 +226,47 @@ def get_translations(myterm): #recoge traducciones
       
     return(myterm)
             
+def create_intermediate_ids(myterm):
+    if len(myterm.synonyms_eurovoc)>0:
+        for term in myterm.synonyms_eurovoc:
+            syn = term
+            if ' ' in syn:
+                syn=syn.replace(' ', '-')
+            synid=syn+'-'+myterm.langIn
+            myterm.syn_eurovoc_ids[term]=synid
     
+    if len(myterm.translations_eurovoc)>0:
+        for lang in myterm.langOut:
+            if lang in myterm.translations_eurovoc.keys():
+                for term in myterm.translations_eurovoc[lang]:
+                    trans = term
+                    if ' 'in trans:
+                        trans=trans.replace(' ', '-')
+                    transid=trans+'-'+lang
+                    myterm.trans_eurovoc_ids[term]=transid
+
+    return myterm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3574,3 +3574,36 @@ TypeError: 'module' object is not callable
 18:25:18, INFO  * Restarting with fsevents reloader
 18:25:22, WARNING  * Debugger is active!
 18:25:22, INFO  * Debugger PIN: 273-160-618
+13:13:52, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:13:52, INFO  * Restarting with fsevents reloader
+13:13:58, WARNING  * Debugger is active!
+13:13:58, INFO  * Debugger PIN: 273-160-618
+13:14:03, INFO 127.0.0.1 - - [07/Dec/2020 13:14:03] "GET /swagger/ HTTP/1.1" 200 -
+13:14:03, INFO 127.0.0.1 - - [07/Dec/2020 13:14:03] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+13:14:03, INFO 127.0.0.1 - - [07/Dec/2020 13:14:03] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:14:03, INFO 127.0.0.1 - - [07/Dec/2020 13:14:03] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:14:04, INFO 127.0.0.1 - - [07/Dec/2020 13:14:04] "GET /static/swagger.json HTTP/1.1" 200 -
+13:15:07, INFO 127.0.0.1 - - [07/Dec/2020 13:15:07] "POST /enriching_terminology HTTP/1.1" 500 -
+13:15:26, INFO 127.0.0.1 - - [07/Dec/2020 13:15:26] "POST /enriching_terminology HTTP/1.1" 200 -
+13:15:47, INFO 127.0.0.1 - - [07/Dec/2020 13:15:47] "POST /enriching_terminology HTTP/1.1" 200 -
+13:52:42, INFO 127.0.0.1 - - [07/Dec/2020 13:52:42] "POST /enriching_terminology HTTP/1.1" 500 -
+13:57:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+13:57:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+13:58:01, INFO  * Restarting with fsevents reloader
+13:58:07, WARNING  * Debugger is active!
+13:58:07, INFO  * Debugger PIN: 273-160-618
+13:58:29, INFO 127.0.0.1 - - [07/Dec/2020 13:58:29] "POST /enriching_terminology HTTP/1.1" 500 -
+14:02:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+14:02:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+14:02:23, INFO  * Restarting with fsevents reloader
+14:02:28, WARNING  * Debugger is active!
+14:02:28, INFO  * Debugger PIN: 273-160-618
+14:02:33, INFO 127.0.0.1 - - [07/Dec/2020 14:02:33] "GET /swagger/ HTTP/1.1" 200 -
+14:02:35, INFO 127.0.0.1 - - [07/Dec/2020 14:02:35] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+14:05:04, INFO 127.0.0.1 - - [07/Dec/2020 14:05:04] "POST /enriching_terminology HTTP/1.1" 500 -
+16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+16:09:40, INFO  * Restarting with fsevents reloader

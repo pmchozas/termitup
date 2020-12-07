@@ -88,7 +88,9 @@ def getToken():
     auth_response = requests.post(url_authen, data=data)
     # Read token from auth response
     auth_response_json = auth_response.json()
+    print(auth_response_json)
     auth_token = auth_response_json["access_token"]
+    #print(auth_token)
     return auth_token
 
 

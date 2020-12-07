@@ -36,6 +36,8 @@ class Term:
     translations_eurovoc={}
     definitions_eurovoc={}
     synonyms_eurovoc=[]
+    syn_eurovoc_ids={}
+    trans_eurovoc_ids={}
     translations_unesco={}
     definitions_unesco={}
     synonyms_unesco=[]
@@ -62,6 +64,7 @@ class Term:
     stw_relations={}
     
     
+    
     ### test
     responseIate=''
     vectors=[]
@@ -74,7 +77,6 @@ class Term:
         self.term=""
         self.context=""
         self.langIn=""
-        self.translations_iate= {}
         self.langOut=[]
         self.source=""
         self.iate_id=""
@@ -91,6 +93,8 @@ class Term:
         self.translations_iate={}
         self.definitions_iate={}
         self.synonyms_iate=[]
+        self.syn_eurovoc_ids={}
+        self.trans_eurovoc_ids={}
         self.def_ref_iate={}
         self.note_iate={}
         self.term_ref_iate={}

@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 
 from modules_api import iateCode
 from modules_api import wsidCode
-# from modules_api import eurovocCode
+from modules_api import eurovocCode
 # from modules_api import unescoCode
 # from modules_api import wikidataCode
 from modules_api.Term import Term
@@ -35,17 +35,18 @@ corpus='1.  A estos efectos, la jornada de los trabajadores a tiempo parcial se 
 #corpus='a social worker takes care of social matters and work with people. Earns a salary.'
 
 myterm= Term()
-myterm.term='empresario'
-myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
+myterm.term='worker'
+myterm.context="the worker signed a contract and now works in a company with a salary"
+#myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
 #terms=['trabajador','puesto de trabajo','horas']
-myterm.langIn='es'
+myterm.langIn='en'
 
-lang="de"
+lang="es"
 
 myterm.langOut=lang.split(', ')
 
-
-test=contextCode.extract_context(myterm, corpus)
+test= eurovocCode.enrich_term_eurovoc(myterm)
+print(test)
 
 
 
