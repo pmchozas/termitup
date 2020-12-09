@@ -15,11 +15,13 @@ def enrich_term_unesco(myterm):
     get_synonyms(myterm)
     get_translations(myterm)
     get_relations(myterm)
-    
+    create_intermediate_ids(myterm)
+    return myterm
 
 def get_uri(myterm):
     term='"^'+myterm.term+'$"'
     lang='"'+myterm.langIn+'"'
+    plural='"^'+myterm.term+'s'+'$"'
     url = "http://sparql.lynx-project.eu/"
     query = """
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -43,6 +45,42 @@ def get_uri(myterm):
     headers = {'content-type': 'text/html; charset=UTF-8'}
     r=requests.get(url, params={'format': 'json', 'query': query})
     rjson=json.loads(r.text)
+    if (len(rjson["results"]["bindings"])==0):
+        print('CHECK PLURAL')
+        try:
+            url = "http://sparql.lynx-project.eu/"
+            query = """
+                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                SELECT ?c ?label ?prefEN
+                WHERE {
+                GRAPH <http://lkg.lynx-project.eu/unesco-thesaurus> {
+                ?c a skos:Concept .
+                ?c ?p ?label. 
+                ?c skos:prefLabel ?prefEN.
+                  FILTER regex(?label, """+plural+""", "i")
+        
+                  
+                  FILTER (lang(?prefEN) = """+lang+""")
+        
+                  FILTER (?p IN ( skos:prefLabel, skos:altLabel ) )
+                  
+        
+                }  
+                }
+                """
+            print(query)    
+            headers = {'content-type': 'text/html; charset=UTF-8'}
+            r=requests.get(url, params={'format': 'json', 'query': query})
+            rjson=json.loads(r.text)
+                
+            if('results' in rjson.keys()):
+                results=rjson['results']
+                bindings=results['bindings']
+                for b in range(len(bindings)):
+                    myterm.unesco_id=bindings[b]['c']['value']
+        except:
+            myterm.unesco_id=''
+            
     if('results' in rjson.keys()):
         results=rjson['results']
         bindings=results['bindings']
@@ -170,4 +208,34 @@ def get_relations(myterm):
                     continue
                 
     return(myterm)       
-            
+
+def create_intermediate_ids(myterm):
+    chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
+    schema=myterm.schema.lower()
+    if ' ' in schema:
+        schema=schema.replace(' ', '-')
+    for char in chars:
+        schema=schema.replace(char, '')
+    if len(myterm.synonyms_unesco)>0:
+        for term in myterm.synonyms_unesco:
+            syn = term
+            if ' ' in syn:
+                syn=syn.replace(' ', '-')
+            for char in chars:
+                syn=syn.replace(char, '')
+            synid=schema+'-'+syn+'-'+myterm.langIn
+            myterm.syn_unesco_ids[term]=synid.lower()
+    
+    if len(myterm.translations_unesco)>0:
+        for lang in myterm.langOut:
+            if lang in myterm.translations_unesco.keys():
+                for term in myterm.translations_unesco[lang]:
+                    trans = term
+                    if ' 'in trans:
+                        trans=trans.replace(' ', '-')
+                    for char in chars:
+                        trans=trans.replace(char, '')
+                    transid=schema+'-'+trans+'-'+lang
+                    myterm.trans_unesco_ids[term]=transid.lower()
+
+    return myterm

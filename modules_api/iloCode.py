@@ -16,6 +16,8 @@ def enrich_term_ilo(myterm):
     get_synonyms(myterm)
     get_translations(myterm)
     get_relations(myterm)
+    create_intermediate_ids(myterm)
+    return myterm
 
     
 
@@ -172,3 +174,35 @@ def get_relations(myterm):
                     continue
                 
     return(myterm)
+
+
+def create_intermediate_ids(myterm):
+    chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
+    schema=myterm.schema.lower()
+    if ' ' in schema:
+        schema=schema.replace(' ', '-')
+    for char in chars:
+        schema=schema.replace(char, '')
+    if len(myterm.synonyms_ilo)>0:
+        for term in myterm.synonyms_ilo:
+            syn = term
+            if ' ' in syn:
+                syn=syn.replace(' ', '-')
+            for char in chars:
+                syn=syn.replace(char, '')
+            synid=schema+'-'+syn+'-'+myterm.langIn
+            myterm.syn_ilo_ids[term]=synid.lower()
+    
+    if len(myterm.translations_ilo)>0:
+        for lang in myterm.langOut:
+            if lang in myterm.translations_ilo.keys():
+                for term in myterm.translations_ilo[lang]:
+                    trans = term
+                    if ' 'in trans:
+                        trans=trans.replace(' ', '-')
+                    for char in chars:
+                        trans=trans.replace(char, '')
+                    transid=schema+'-'+trans+'-'+lang
+                    myterm.trans_ilo_ids[term]=transid.lower()
+
+    return myterm

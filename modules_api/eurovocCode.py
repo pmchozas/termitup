@@ -31,6 +31,8 @@ def enrich_term_eurovoc(myterm):
 
 def get_uri(myterm): #recoge la uri del termino a buscar
     term='"^'+myterm.term+'$"'
+    plural='"^'+myterm.term+'s'+'$"'
+    euterm='"^'+myterm.term+' \\\(EU\\\)'+'$"'
     lang='"'+myterm.langIn+'"'
     try:
         url = ("http://sparql.lynx-project.eu/")
@@ -49,10 +51,73 @@ def get_uri(myterm): #recoge la uri del termino a buscar
         }  
         }
         """
+        print(query)
         r=requests.get(url, params={'format': 'json', 'query': query})
         results=json.loads(r.text)
         if (len(results["results"]["bindings"])==0):
-            answeruri=''
+            print('NEXT')
+            try:
+                url = ("http://sparql.lynx-project.eu/")
+                query = """
+                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                SELECT ?c ?label
+                WHERE {
+                GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+                ?c a skos:Concept .
+                ?c ?p ?label. 
+                  FILTER regex(?label, """+plural+""", "i" )
+                  FILTER (lang(?label) = """+lang+""")
+                  FILTER (?p IN (skos:prefLabel, skos:altLabel ) )
+              
+        
+                }  
+                }
+                """
+                print(query)
+                r=requests.get(url, params={'format': 'json', 'query': query})
+                results=json.loads(r.text)
+            
+                if (len(results["results"]["bindings"])==0):
+                    print('NEXT EU')
+                    try:
+                        url = ("http://sparql.lynx-project.eu/")
+                        query = """
+                        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                        SELECT ?c ?label
+                        WHERE {
+                        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+                        ?c a skos:Concept .
+                        ?c ?p ?label. 
+                          FILTER regex(?label, """+euterm+""", "i" )
+                          FILTER (lang(?label) = """+lang+""")
+                          FILTER (?p IN (skos:prefLabel, skos:altLabel ) )
+                      
+                
+                        }  
+                        }
+                        """
+                        print(query)
+                        r=requests.get(url, params={'format': 'json', 'query': query})
+                        results=json.loads(r.text)
+                    
+                        if (len(results["results"]["bindings"])==0):
+                            answeruri=''
+                            print('NO URI')
+                        else:
+                            for result in results["results"]["bindings"]:
+                                answeruri=result["c"]["value"]
+                                #answerl=result["label"]["value"]
+                                myterm.eurovoc_id=answeruri
+                    except:
+                         print('no term')     
+                else:
+                    for result in results["results"]["bindings"]:
+                        answeruri=result["c"]["value"]
+                        #answerl=result["label"]["value"]
+                        myterm.eurovoc_id=answeruri
+                
+            except:
+                print('no term')            
         else:
             for result in results["results"]["bindings"]:
                 answeruri=result["c"]["value"]
@@ -217,6 +282,8 @@ def get_translations(myterm): #recoge traducciones
                     else:
                         for result in results["results"]["bindings"]:
                             trans=result["label"]["value"]
+                            trans=trans.replace('(', '')
+                            trans=trans.replace(')', '')
                             myterm.translations_eurovoc[lang].append(trans)
                            
             
@@ -227,13 +294,21 @@ def get_translations(myterm): #recoge traducciones
     return(myterm)
             
 def create_intermediate_ids(myterm):
+    chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
+    schema=myterm.schema.lower()
+    if ' ' in schema:
+        schema=schema.replace(' ', '-')
+    for char in chars:
+        schema=schema.replace(char, '')
     if len(myterm.synonyms_eurovoc)>0:
         for term in myterm.synonyms_eurovoc:
             syn = term
             if ' ' in syn:
                 syn=syn.replace(' ', '-')
-            synid=syn+'-'+myterm.langIn
-            myterm.syn_eurovoc_ids[term]=synid
+            for char in chars:
+                syn=syn.replace(char, '')
+            synid=schema+'-'+syn+'-'+myterm.langIn
+            myterm.syn_eurovoc_ids[term]=synid.lower()
     
     if len(myterm.translations_eurovoc)>0:
         for lang in myterm.langOut:
@@ -242,11 +317,12 @@ def create_intermediate_ids(myterm):
                     trans = term
                     if ' 'in trans:
                         trans=trans.replace(' ', '-')
-                    transid=trans+'-'+lang
-                    myterm.trans_eurovoc_ids[term]=transid
+                    for char in chars:
+                        trans=trans.replace(char, '')
+                    transid=schema+'-'+trans+'-'+lang
+                    myterm.trans_eurovoc_ids[term]=transid.lower()
 
     return myterm
-
 
 
 

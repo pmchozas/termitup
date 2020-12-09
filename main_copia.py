@@ -7,14 +7,14 @@ from nltk.corpus import stopwords
 from modules_api import iateCode
 from modules_api import wsidCode
 from modules_api import eurovocCode
-# from modules_api import unescoCode
-# from modules_api import wikidataCode
+from modules_api import unescoCode
+from modules_api import wikidataCode
 from modules_api.Term import Term
 from modules_api import contextCode
-# from modules_api import thesozCode
-# from modules_api import stwCode
+from modules_api import thesozCode
+from modules_api import stwCode
 # from modules_api import relvalCode
-# from modules_api import iloCode
+from modules_api import iloCode
 # def iate_enriching_terms(terms,corpus,  inlang, outlang ):
 #     outFile=iateCode.enrich_term(terms[0], inlang, outlang, 'ficheroquenoentiendo', corpus, True, None)
 #     #processedTerms=iate(processedTerms, date, lang_in)
@@ -36,16 +36,16 @@ corpus='1.  A estos efectos, la jornada de los trabajadores a tiempo parcial se 
 
 myterm= Term()
 myterm.term='worker'
-myterm.context="the worker signed a contract and now works in a company with a salary"
+myterm.context="the worker signed an agreement and now works in a company with a salary and team work is important and labour law is more important"
 #myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
 #terms=['trabajador','puesto de trabajo','horas']
 myterm.langIn='en'
 
-lang="es"
+lang="de"
 
 myterm.langOut=lang.split(', ')
-
-test= eurovocCode.enrich_term_eurovoc(myterm)
+myterm.schema='labour law'
+test= iateCode.enrich_term_iate(myterm)
 print(test)
 
 

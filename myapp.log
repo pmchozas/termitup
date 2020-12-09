@@ -3607,3 +3607,67 @@ TypeError: 'module' object is not callable
 16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
 16:09:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
 16:09:40, INFO  * Restarting with fsevents reloader
+17:56:21, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:56:21, INFO  * Restarting with fsevents reloader
+17:56:25, WARNING  * Debugger is active!
+17:56:25, INFO  * Debugger PIN: 273-160-618
+17:56:57, INFO 127.0.0.1 - - [09/Dec/2020 17:56:57] "GET /swagger/ HTTP/1.1" 200 -
+17:56:57, INFO 127.0.0.1 - - [09/Dec/2020 17:56:57] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+17:56:57, INFO 127.0.0.1 - - [09/Dec/2020 17:56:57] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+17:56:57, INFO 127.0.0.1 - - [09/Dec/2020 17:56:57] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+17:56:57, INFO 127.0.0.1 - - [09/Dec/2020 17:56:57] "GET /static/swagger.json HTTP/1.1" 200 -
+17:57:00, INFO 127.0.0.1 - - [09/Dec/2020 17:57:00] "GET /swagger/ HTTP/1.1" 200 -
+17:57:00, INFO 127.0.0.1 - - [09/Dec/2020 17:57:00] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+17:57:32, INFO 127.0.0.1 - - [09/Dec/2020 17:57:32] "POST /enriching_terminology HTTP/1.1" 200 -
+17:57:59, INFO 127.0.0.1 - - [09/Dec/2020 17:57:59] "POST /enriching_terminology HTTP/1.1" 200 -
+17:58:18, INFO 127.0.0.1 - - [09/Dec/2020 17:58:18] "POST /enriching_terminology HTTP/1.1" 200 -
+18:02:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:02:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+18:02:02, INFO  * Restarting with fsevents reloader
+18:02:07, WARNING  * Debugger is active!
+18:02:07, INFO  * Debugger PIN: 273-160-618
+18:07:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:07:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:07:06, INFO  * Restarting with fsevents reloader
+18:07:10, WARNING  * Debugger is active!
+18:07:10, INFO  * Debugger PIN: 273-160-618
+18:07:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:07:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+18:07:43, INFO  * Restarting with fsevents reloader
+18:07:47, WARNING  * Debugger is active!
+18:07:47, INFO  * Debugger PIN: 273-160-618
+18:09:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:09:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iateCode.py', reloading
+18:09:07, INFO  * Restarting with fsevents reloader
+18:09:12, WARNING  * Debugger is active!
+18:09:12, INFO  * Debugger PIN: 273-160-618
+18:10:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+18:10:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+18:10:58, INFO  * Restarting with fsevents reloader
+18:11:03, WARNING  * Debugger is active!
+18:11:03, INFO  * Debugger PIN: 273-160-618
+18:12:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+18:12:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/eurovocCode.py', reloading
+18:12:01, INFO  * Restarting with fsevents reloader
+18:12:07, WARNING  * Debugger is active!
+18:12:07, INFO  * Debugger PIN: 273-160-618
+18:12:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/thesozCode.py', reloading
+18:12:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/thesozCode.py', reloading
+18:12:32, INFO  * Restarting with fsevents reloader
+18:12:37, WARNING  * Debugger is active!
+18:12:37, INFO  * Debugger PIN: 273-160-618
+18:13:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/unescoCode.py', reloading
+18:13:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/unescoCode.py', reloading
+18:13:14, INFO  * Restarting with fsevents reloader
+18:13:19, WARNING  * Debugger is active!
+18:13:19, INFO  * Debugger PIN: 273-160-618
+18:13:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/stwCode.py', reloading
+18:13:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/stwCode.py', reloading
+18:13:36, INFO  * Restarting with fsevents reloader
+18:13:40, WARNING  * Debugger is active!
+18:13:40, INFO  * Debugger PIN: 273-160-618
+18:14:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iloCode.py', reloading
+18:14:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/iloCode.py', reloading
+18:14:04, INFO  * Restarting with fsevents reloader
+18:14:10, WARNING  * Debugger is active!
+18:14:10, INFO  * Debugger PIN: 273-160-618

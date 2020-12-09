@@ -333,9 +333,9 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         }
     iate_data={
             'IATE ID': myterm.iate_id,
-            'IATE Synonyms': myterm.synonyms_iate,
-            'IATE Translations': myterm.translations_iate,
-            'IATE Definitions': myterm.definitions_iate, 
+            'IATE Synonyms + Synonym ID': myterm.syn_iate_ids,
+            'IATE Translations + Translation ID': myterm.trans_iate_ids,
+            'IATE Definitions + Translation ID': myterm.definitions_iate, 
             'IATE Definitions References': myterm.ref_def_iate,
             'IATE Term References': myterm.term_ref_iate,
             'IATE Language Notes': myterm.note_iate,
@@ -343,42 +343,42 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         }
     eurovoc_data={
             'EUROVOC ID': myterm.eurovoc_id,
-            'EUROVOC Synonyms': myterm.synonyms_eurovoc,
+            'EUROVOC Synonyms + Synonym ID': myterm.syn_eurovoc_ids,
             'EUROVOC Relations': myterm.eurovoc_relations,
             'EUROVOC Definitions': myterm.definitions_eurovoc,
-            'EUROVOC Translations': myterm.translations_eurovoc
+            'EUROVOC Translations + Translation ID': myterm.trans_eurovoc_ids
         }
     unesco_data={
             'UNESCO ID': myterm.unesco_id,
-            'UNESCO Synonyms': myterm.synonyms_unesco,
-            'UNESCO Translations': myterm.translations_unesco,
+            'UNESCO Synonyms + Synonym ID': myterm.syn_unesco_ids,
+            'UNESCO Translations + Translation ID': myterm.trans_unesco_ids,
             'UNESCO Relations': myterm.unesco_relations
         }
     wikidata_data={
             'WIKIDATA ID': myterm.wikidata_id,
-            'WIKIDATA Synonyms': myterm.synonyms_wikidata,
-            'WIKIDATA Translations': myterm.translations_wikidata,
+            'WIKIDATA Synonyms + Synonym ID': myterm.syn_wikidata_ids,
+            'WIKIDATA Translations + Translation ID': myterm.trans_wikidata_ids,
             'WIKIDATA Definitions': myterm.definitions_wikidata,
             'WIKIDATA Relations': myterm.wikidata_relations
         }
     thesoz_data={
             'THESOZ ID': myterm.thesoz_id,
-            'THESOZ Synonyms': myterm.synonyms_thesoz,
-            'THESOZ Translations': myterm.translations_thesoz,
+            'THESOZ Synonyms + Synonym ID': myterm.syn_thesoz_ids,
+            'THESOZ Translations + Translation ID': myterm.trans_thesoz_ids,
             'THESOZ Definitions': myterm.definitions_thesoz,
             'THESOZ Relations': myterm.thesoz_relations
         }
     stw_data={
             'STW ID': myterm.stw_id,
-            'STW Synonyms': myterm.synonyms_stw,
-            'STW Translations': myterm.translations_stw, 
+            'STW Synonyms + Synonym ID': myterm.syn_stw_ids,
+            'STW Translations + Translation ID': myterm.trans_stw_ids, 
             'STW Definitions': myterm.definitions_stw,
             'STW Relations': myterm.stw_relations
         }
     ilo_data={
             'ILO ID': myterm.ilo_id,
-            'ILO Synonyms': myterm.synonyms_ilo,
-            'ILO Translations': myterm.translations_ilo,
+            'ILO Synonyms + Synonym ID': myterm.syn_ilo_ids,
+            'ILO Translations + Translation ID': myterm.trans_ilo_ids,
             'ILO Relations': myterm.ilo_relations
         }
     

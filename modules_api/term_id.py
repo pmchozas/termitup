@@ -8,16 +8,23 @@ Created on Mon Nov 23 15:55:46 2020
 
 
 import re
+# import Term
 
 
 
 def create_id(myterm):
-    if ' ' in myterm.term:
-        term=re.sub(' ', '-',  myterm.term)
+    chars=['\'', '\"', '!', '<', '>', ',']
+    term=myterm.term.lower()
+    lang=myterm.langIn.lower()
+    schema=myterm.schema.lower()
+    for c in chars:
+        term=term.replace(c, '')
+
+    if ' ' in term:
+        term=re.sub(' ', '-', term)
     else:
-        term=myterm.term.lower()
-    lang=myterm.langIn
-    schema=myterm.schema
+        term=term
+
     uri=schema+'-'+term+'-'+lang
     myterm.term_id=uri
     
@@ -26,8 +33,8 @@ def create_id(myterm):
 
 
 # myterm=Term.Term()
-# myterm.term='pez espada'
-# myterm.langIn='es'
+# myterm.term="worker's statute"
+# myterm.langIn='en'
 # myterm.schema='test'
 
 

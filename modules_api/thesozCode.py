@@ -15,6 +15,7 @@ def enrich_term_thesoz(myterm):
     get_relations(myterm)
     get_synonyms(myterm)
     get_translations(myterm)
+    create_intermediate_ids(myterm)
     return myterm
 
 def get_uri(myterm): #recoge la uri del termino a buscar
@@ -210,4 +211,34 @@ def get_translations(myterm): #recoge traducciones
         
       
     return(myterm)
-            
+
+def create_intermediate_ids(myterm):
+    chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
+    schema=myterm.schema.lower()
+    if ' ' in schema:
+        schema=schema.replace(' ', '-')
+    for char in chars:
+        schema=schema.replace(char, '')
+    if len(myterm.synonyms_thesoz)>0:
+        for term in myterm.synonyms_thesoz:
+            syn = term
+            if ' ' in syn:
+                syn=syn.replace(' ', '-')
+            for char in chars:
+                syn=syn.replace(char, '')
+            synid=schema+'-'+syn+'-'+myterm.langIn
+            myterm.syn_thesoz_ids[term]=synid.lower()
+    
+    if len(myterm.translations_thesoz)>0:
+        for lang in myterm.langOut:
+            if lang in myterm.translations_thesoz.keys():
+                for term in myterm.translations_thesoz[lang]:
+                    trans = term
+                    if ' 'in trans:
+                        trans=trans.replace(' ', '-')
+                    for char in chars:
+                        trans=trans.replace(char, '')
+                    transid=schema+'-'+trans+'-'+lang
+                    myterm.trans_thesoz_ids[term]=transid.lower()
+
+    return myterm

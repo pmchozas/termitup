@@ -13,6 +13,9 @@ def enrich_term_wikidata(myterm):
     get_langOut_data_from_best_vector(myterm)
     
     get_relations_from_best_vector(myterm)
+    
+    create_intermediate_ids(myterm)
+    return(myterm)
 
 def create_wikidata_vectors(myterm):
     url = 'https://query.wikidata.org/sparql'
@@ -268,6 +271,37 @@ def get_relations_from_best_vector(myterm):
     
 
             
+    return myterm
+
+def create_intermediate_ids(myterm):
+    chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
+    schema=myterm.schema.lower()
+    if ' ' in schema:
+        schema=schema.replace(' ', '-')
+    for char in chars:
+        schema=schema.replace(char, '')
+    if len(myterm.synonyms_wikidata)>0:
+        for term in myterm.synonyms_wikidata:
+            syn = term
+            if ' ' in syn:
+                syn=syn.replace(' ', '-')
+            for char in chars:
+                syn=syn.replace(char, '')
+            synid=schema+'-'+syn+'-'+myterm.langIn
+            myterm.syn_wikidata_ids[term]=synid.lower()
+    
+    if len(myterm.translations_wikidata)>0:
+        for lang in myterm.langOut:
+            if lang in myterm.translations_wikidata.keys():
+                for term in myterm.translations_wikidata[lang]:
+                    trans = term
+                    if ' 'in trans:
+                        trans=trans.replace(' ', '-')
+                    for char in chars:
+                        trans=trans.replace(char, '')
+                    transid=schema+'-'+trans+'-'+lang
+                    myterm.trans_wikidata_ids[term]=transid.lower()
+
     return myterm
     
     
