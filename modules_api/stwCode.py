@@ -224,25 +224,46 @@ def create_intermediate_ids(myterm):
     for char in chars:
         schema=schema.replace(char, '')
     if len(myterm.synonyms_stw)>0:
-        for term in myterm.synonyms_stw:
+        myterm.synonyms['stw']={}
+        myterm.synonyms['stw'][myterm.langIn]=[]        
+        for term in myterm.synonyms_stw:            
+            syn_set = {}          
             syn = term
             if ' ' in syn:
                 syn=syn.replace(' ', '-')
             for char in chars:
                 syn=syn.replace(char, '')
             synid=schema+'-'+syn+'-'+myterm.langIn
-            myterm.syn_stw_ids[term]=synid.lower()
-    
+            syn_set['syn-id']=synid.lower()
+            syn_set['syn-value']=syn
+            myterm.synonyms['stw'][myterm.langIn].append(syn_set)
+            
+            
     if len(myterm.translations_stw)>0:
+        myterm.translations['stw']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_stw.keys():
+                myterm.translations['stw'][lang]=[]                
                 for term in myterm.translations_stw[lang]:
-                    trans = term
-                    if ' 'in trans:
-                        trans=trans.replace(' ', '-')
+                    trans_set = {}
+                    if ' 'in term:
+                        term=term.replace(' ', '-')
                     for char in chars:
-                        trans=trans.replace(char, '')
-                    transid=schema+'-'+trans+'-'+lang
-                    myterm.trans_stw_ids[term]=transid.lower()
+                        term=term.replace(char, '')
+                    transid=schema+'-'+term+'-'+lang
+                    trans_set['trans-id']=transid.lower()
+                    trans_set['trans-value']=term
+                    myterm.translations['stw'][lang].append(trans_set)
+    
+    if len(myterm.definitions_stw)>0:
+        myterm.definitions['stw']={}
+        for lang in myterm.definitions_stw.keys():
+            myterm.definitions['stw'][lang]=[]
+            for defi in myterm.definitions_stw[lang]:
+                def_set = {}
+                defid=myterm.term+'-'+lang+'-def'
+                def_set['def-id']=defid.lower()
+                def_set['def-value']=defi
+                myterm.definitions['stw'][lang].append(def_set)
 
     return myterm

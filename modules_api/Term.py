@@ -74,6 +74,7 @@ class Term:
     wikidata_relations={}
     thesoz_relations={}
     stw_relations={}
+    ilo_relations={}
     translations={}
     synonyms={}
     definitions={}

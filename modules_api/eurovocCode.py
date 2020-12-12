@@ -301,29 +301,49 @@ def create_intermediate_ids(myterm):
     for char in chars:
         schema=schema.replace(char, '')
     if len(myterm.synonyms_eurovoc)>0:
-        for term in myterm.synonyms_eurovoc:
+        myterm.synonyms['eurovoc']={}
+        myterm.synonyms['eurovoc'][myterm.langIn]=[]        
+        for term in myterm.synonyms_eurovoc:            
+            syn_set = {}          
             syn = term
             if ' ' in syn:
                 syn=syn.replace(' ', '-')
             for char in chars:
                 syn=syn.replace(char, '')
             synid=schema+'-'+syn+'-'+myterm.langIn
-            myterm.syn_eurovoc_ids[term]=synid.lower()
-    
+            syn_set['syn-id']=synid.lower()
+            syn_set['syn-value']=syn
+            myterm.synonyms['eurovoc'][myterm.langIn].append(syn_set)
+            
+            
     if len(myterm.translations_eurovoc)>0:
+        myterm.translations['eurovoc']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_eurovoc.keys():
+                myterm.translations['eurovoc'][lang]=[]                
                 for term in myterm.translations_eurovoc[lang]:
-                    trans = term
-                    if ' 'in trans:
-                        trans=trans.replace(' ', '-')
+                    trans_set = {}
+                    if ' 'in term:
+                        term=term.replace(' ', '-')
                     for char in chars:
-                        trans=trans.replace(char, '')
-                    transid=schema+'-'+trans+'-'+lang
-                    myterm.trans_eurovoc_ids[term]=transid.lower()
+                        term=term.replace(char, '')
+                    transid=schema+'-'+term+'-'+lang
+                    trans_set['trans-id']=transid.lower()
+                    trans_set['trans-value']=term
+                    myterm.translations['eurovoc'][lang].append(trans_set)
+    
+    if len(myterm.definitions_eurovoc)>0:
+        myterm.definitions['eurovoc']={}
+        for lang in myterm.definitions_eurovoc.keys():
+            myterm.definitions['eurovoc'][lang]=[]
+            for defi in myterm.definitions_eurovoc[lang]:
+                def_set = {}
+                defid=myterm.term+'-'+lang+'-def'
+                def_set['def-id']=defid.lower()
+                def_set['def-value']=defi
+                myterm.definitions['eurovoc'][lang].append(def_set)
 
     return myterm
-
 
 
 

@@ -184,25 +184,46 @@ def create_intermediate_ids(myterm):
     for char in chars:
         schema=schema.replace(char, '')
     if len(myterm.synonyms_ilo)>0:
-        for term in myterm.synonyms_ilo:
+        myterm.synonyms['ilo']={}
+        myterm.synonyms['ilo'][myterm.langIn]=[]        
+        for term in myterm.synonyms_ilo:            
+            syn_set = {}          
             syn = term
             if ' ' in syn:
                 syn=syn.replace(' ', '-')
             for char in chars:
                 syn=syn.replace(char, '')
             synid=schema+'-'+syn+'-'+myterm.langIn
-            myterm.syn_ilo_ids[term]=synid.lower()
-    
+            syn_set['syn-id']=synid.lower()
+            syn_set['syn-value']=syn
+            myterm.synonyms['ilo'][myterm.langIn].append(syn_set)
+            
+            
     if len(myterm.translations_ilo)>0:
+        myterm.translations['ilo']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_ilo.keys():
+                myterm.translations['ilo'][lang]=[]                
                 for term in myterm.translations_ilo[lang]:
-                    trans = term
-                    if ' 'in trans:
-                        trans=trans.replace(' ', '-')
+                    trans_set = {}
+                    if ' 'in term:
+                        term=term.replace(' ', '-')
                     for char in chars:
-                        trans=trans.replace(char, '')
-                    transid=schema+'-'+trans+'-'+lang
-                    myterm.trans_ilo_ids[term]=transid.lower()
+                        term=term.replace(char, '')
+                    transid=schema+'-'+term+'-'+lang
+                    trans_set['trans-id']=transid.lower()
+                    trans_set['trans-value']=term
+                    myterm.translations['ilo'][lang].append(trans_set)
+    
+    if len(myterm.definitions_ilo)>0:
+        myterm.definitions['ilo']={}
+        for lang in myterm.definitions_ilo.keys():
+            myterm.definitions['ilo'][lang]=[]
+            for defi in myterm.definitions_ilo[lang]:
+                def_set = {}
+                defid=myterm.term+'-'+lang+'-def'
+                def_set['def-id']=defid.lower()
+                def_set['def-value']=defi
+                myterm.definitions['ilo'][lang].append(def_set)
 
     return myterm

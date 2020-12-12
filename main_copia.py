@@ -35,26 +35,36 @@ corpus='1.  A estos efectos, la jornada de los trabajadores a tiempo parcial se 
 #corpus='a social worker takes care of social matters and work with people. Earns a salary.'
 
 myterm= Term()
-myterm.term='empresario'
-myterm.context='el empresario de la empresa le bajó el salario al trabajador, el contratista del proyecto mandó al empleador a casa'
-#myterm.context="the worker signed an agreement and now works in a company with a salary and team work is important and labour law is more important"
+myterm.term='employment'
+# myterm.context='el empresario de la empresa le bajó el salario al trabajador, el contratista del proyecto mandó al empleador a casa'
+myterm.context="the worker signed an employment agreement and now works in a company with a salary and team work is important and labour law is more important"
 #myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
 #terms=['trabajador','puesto de trabajo','horas']
-myterm.langIn='es'
+myterm.langIn='en'
 
-lang="en, de"
+lang="es"
 
 myterm.langOut=lang.split(', ')
 myterm.schema='test'
 test= iateCode.enrich_term_iate(myterm)
-test2= wikidataCode.enrich_term_wikidata(myterm)
+test2= unescoCode.enrich_term_unesco(myterm)
 
 
 myterm.ids['ids']={}
 myterm.ids['ids']['iate']=myterm.iate_id
 myterm.ids['ids']['wikidata']=myterm.wikidata_id
+myterm.ids['ids']['eurovoc']=myterm.eurovoc_id
+myterm.ids['ids']['ilo']=myterm.ilo_id
+myterm.ids['ids']['stw']=myterm.stw_id
+myterm.ids['ids']['thesoz']=myterm.thesoz_id
+myterm.ids['ids']['unesco']=myterm.unesco_id
 myterm.relations['relations']={}
 myterm.relations['relations']['wikidata']=myterm.wikidata_relations
+myterm.relations['relations']['eurovoc']=myterm.eurovoc_relations
+myterm.relations['relations']['ilo']=myterm.ilo_relations
+myterm.relations['relations']['stw']=myterm.stw_relations
+myterm.relations['relations']['thesoz']=myterm.thesoz_relations
+myterm.relations['relations']['unesco']=myterm.unesco_relations
 data_mappings={}
 data={
             'Source Term ID': myterm.term_id,

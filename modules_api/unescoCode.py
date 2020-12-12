@@ -217,25 +217,46 @@ def create_intermediate_ids(myterm):
     for char in chars:
         schema=schema.replace(char, '')
     if len(myterm.synonyms_unesco)>0:
-        for term in myterm.synonyms_unesco:
+        myterm.synonyms['unesco']={}
+        myterm.synonyms['unesco'][myterm.langIn]=[]        
+        for term in myterm.synonyms_unesco:            
+            syn_set = {}          
             syn = term
             if ' ' in syn:
                 syn=syn.replace(' ', '-')
             for char in chars:
                 syn=syn.replace(char, '')
             synid=schema+'-'+syn+'-'+myterm.langIn
-            myterm.syn_unesco_ids[term]=synid.lower()
-    
+            syn_set['syn-id']=synid.lower()
+            syn_set['syn-value']=syn
+            myterm.synonyms['unesco'][myterm.langIn].append(syn_set)
+            
+            
     if len(myterm.translations_unesco)>0:
+        myterm.translations['unesco']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_unesco.keys():
+                myterm.translations['unesco'][lang]=[]                
                 for term in myterm.translations_unesco[lang]:
-                    trans = term
-                    if ' 'in trans:
-                        trans=trans.replace(' ', '-')
+                    trans_set = {}
+                    if ' 'in term:
+                        term=term.replace(' ', '-')
                     for char in chars:
-                        trans=trans.replace(char, '')
-                    transid=schema+'-'+trans+'-'+lang
-                    myterm.trans_unesco_ids[term]=transid.lower()
+                        term=term.replace(char, '')
+                    transid=schema+'-'+term+'-'+lang
+                    trans_set['trans-id']=transid.lower()
+                    trans_set['trans-value']=term
+                    myterm.translations['unesco'][lang].append(trans_set)
+    
+    if len(myterm.definitions_unesco)>0:
+        myterm.definitions['unesco']={}
+        for lang in myterm.definitions_unesco.keys():
+            myterm.definitions['unesco'][lang]=[]
+            for defi in myterm.definitions_unesco[lang]:
+                def_set = {}
+                defid=myterm.term+'-'+lang+'-def'
+                def_set['def-id']=defid.lower()
+                def_set['def-value']=defi
+                myterm.definitions['stw'][lang].append(def_set)
 
     return myterm
