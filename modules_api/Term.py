@@ -74,6 +74,11 @@ class Term:
     wikidata_relations={}
     thesoz_relations={}
     stw_relations={}
+    translations={}
+    synonyms={}
+    definitions={}
+    relations={}
+    ids={}
     
     
     
@@ -151,7 +156,11 @@ class Term:
         self.thesoz_relations={}
         self.stw_relations={}
         self.ilo_relations={}
-
+        self.translations={}
+        self.synonyms={}
+        self.ids={}
+        self.definitions={}
+        self.relations={}
 
 
 

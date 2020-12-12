@@ -273,6 +273,60 @@ def get_relations_from_best_vector(myterm):
             
     return myterm
 
+
+def create_intermediate_ids(myterm):
+    chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
+    schema=myterm.schema.lower()
+    if ' ' in schema:
+        schema=schema.replace(' ', '-')
+    for char in chars:
+        schema=schema.replace(char, '')
+    if len(myterm.synonyms_wikidata)>0:
+        myterm.synonyms['wikidata']={}
+        myterm.synonyms['wikidata'][myterm.langIn]=[]        
+        for term in myterm.synonyms_wikidata:            
+            syn_set = {}          
+            syn = term
+            if ' ' in syn:
+                syn=syn.replace(' ', '-')
+            for char in chars:
+                syn=syn.replace(char, '')
+            synid=schema+'-'+syn+'-'+myterm.langIn
+            syn_set['syn-id']=synid.lower()
+            syn_set['syn-value']=syn
+            myterm.synonyms['wikidata'][myterm.langIn].append(syn_set)
+            
+            
+    if len(myterm.translations_wikidata)>0:
+        myterm.translations['wikidata']={}
+        for lang in myterm.langOut:
+            if lang in myterm.translations_wikidata.keys():
+                myterm.translations['wikidata'][lang]=[]                
+                for term in myterm.translations_wikidata[lang]:
+                    trans_set = {}
+                    if ' 'in term:
+                        term=term.replace(' ', '-')
+                    for char in chars:
+                        term=term.replace(char, '')
+                    transid=schema+'-'+term+'-'+lang
+                    trans_set['trans-id']=transid.lower()
+                    trans_set['trans-value']=term
+                    myterm.translations['wikidata'][lang].append(trans_set)
+    
+    if len(myterm.definitions_wikidata)>0:
+        myterm.definitions['wikidata']={}
+        for lang in myterm.definitions_wikidata.keys():
+            myterm.definitions['wikidata'][lang]=[]
+            for defi in myterm.definitions_wikidata[lang]:
+                def_set = {}
+                defid=myterm.term+'-'+lang+'-def'
+                def_set['def-id']=defid.lower()
+                def_set['def-value']=defi
+                myterm.definitions['wikidata'][lang].append(def_set)
+
+    return myterm
+
+'''
 def create_intermediate_ids(myterm):
     chars=['\'', '\"', '!', '<', '>', ',', '(', ')', '.']
     schema=myterm.schema.lower()
@@ -303,7 +357,7 @@ def create_intermediate_ids(myterm):
                     myterm.trans_wikidata_ids[term]=transid.lower()
 
     return myterm
-    
+   ''' 
     
     
     

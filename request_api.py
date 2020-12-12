@@ -298,6 +298,8 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     
     #print(len(corpus))
     
+
+    
     if len(corpus)>400:
     
         contextCode.extract_context(myterm, corpus)
@@ -328,14 +330,15 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     data={
             'Source Term ID': myterm.term_id,
             'Source Term' : myterm.term,
-            'Source Term Context': myterm.context
+            'Source Term Context': myterm.context,
+            'Source Language': myterm.langIn
         
         }
     iate_data={
             'IATE ID': myterm.iate_id,
             'IATE Synonyms + Synonym ID': myterm.syn_iate_ids,
             'IATE Translations + Translation ID': myterm.trans_iate_ids,
-            'IATE Definitions + Translation ID': myterm.definitions_iate, 
+            'IATE Definitions': myterm.definitions_iate, 
             'IATE Definitions References': myterm.ref_def_iate,
             'IATE Term References': myterm.term_ref_iate,
             'IATE Language Notes': myterm.note_iate,

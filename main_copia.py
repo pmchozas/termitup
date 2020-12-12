@@ -35,20 +35,53 @@ corpus='1.  A estos efectos, la jornada de los trabajadores a tiempo parcial se 
 #corpus='a social worker takes care of social matters and work with people. Earns a salary.'
 
 myterm= Term()
-myterm.term='worker'
-myterm.context="the worker signed an agreement and now works in a company with a salary and team work is important and labour law is more important"
+myterm.term='empresario'
+myterm.context='el empresario de la empresa le bajó el salario al trabajador, el contratista del proyecto mandó al empleador a casa'
+#myterm.context="the worker signed an agreement and now works in a company with a salary and team work is important and labour law is more important"
 #myterm.synonyms_iate=['trabajador', 'asistente social', 'manzana']
 #terms=['trabajador','puesto de trabajo','horas']
-myterm.langIn='en'
+myterm.langIn='es'
 
-lang="de"
+lang="en, de"
 
 myterm.langOut=lang.split(', ')
-myterm.schema='labour law'
+myterm.schema='test'
 test= iateCode.enrich_term_iate(myterm)
-print(test)
+test2= wikidataCode.enrich_term_wikidata(myterm)
 
 
+myterm.ids['ids']={}
+myterm.ids['ids']['iate']=myterm.iate_id
+myterm.ids['ids']['wikidata']=myterm.wikidata_id
+myterm.relations['relations']={}
+myterm.relations['relations']['wikidata']=myterm.wikidata_relations
+data_mappings={}
+data={
+            'Source Term ID': myterm.term_id,
+            'Source Term' : myterm.term,
+            'Source Term Context': myterm.context,
+            'Source Language': myterm.langIn
+        
+        }
+data_mappings.update(data)
+data_mappings.update(myterm.ids)
+data_mappings['synonyms']=myterm.synonyms
+data_mappings['translations']=myterm.translations
+data_mappings['definitions']=myterm.definitions
+data_mappings.update(myterm.relations)
+data_mappings['term_reference']=myterm.term_ref_iate
+data_mappings['language_note']=myterm.note_iate
+data_mappings['related_iate']=myterm.related_ids_iate
+    # ids={}
+    # translations={}
+    # synonyms={}
+    # definitions={}
+    # relations={}
+    # term_ref={}
+    # lang_note={}
+    # related_term={}
+    
+print(data_mappings)
 
 '''
 

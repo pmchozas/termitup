@@ -48,7 +48,7 @@ def enrich_term_iate(myterm):
     create_intermediate_ids(myterm)
     
     
-    return
+    return myterm
 
 
 
@@ -219,12 +219,17 @@ def retrieve_data_from_best_vector(myterm):
                 if l not in myterm.translations_iate:
                     myterm.translations_iate[l]=[]
 
-                for entry in best_item['language'][lang]['term_entries']:                    
-                    trans=entry['term_value']
-                    trans_ref=entry['term_references'][0]['text']
-                    clean_trans_ref = re.sub(cleanr, '', trans_ref)
-                    myterm.translations_iate[lang].append(trans)
-                    myterm.term_ref_iate[trans]=clean_trans_ref
+                for entry in best_item['language'][lang]['term_entries']:
+                    try:
+                        
+                        trans=entry['term_value']
+                        trans_ref=entry['term_references'][0]['text']
+                        clean_trans_ref = re.sub(cleanr, '', trans_ref)
+                        myterm.translations_iate[lang].append(trans)
+                        myterm.term_ref_iate[trans]=clean_trans_ref
+                    except:
+                            print('no term ref')
+                            
 
 
         if lang == myterm.langIn:
@@ -269,28 +274,50 @@ def create_intermediate_ids(myterm):
     for char in chars:
         schema=schema.replace(char, '')
     if len(myterm.synonyms_iate)>0:
-        for term in myterm.synonyms_iate:
+        myterm.synonyms['iate']={}
+        myterm.synonyms['iate'][myterm.langIn]=[]        
+        for term in myterm.synonyms_iate:            
+            syn_set = {}          
             syn = term
             if ' ' in syn:
                 syn=syn.replace(' ', '-')
             for char in chars:
                 syn=syn.replace(char, '')
             synid=schema+'-'+syn+'-'+myterm.langIn
-            myterm.syn_iate_ids[term]=synid.lower()
-    
+            syn_set['syn-id']=synid.lower()
+            syn_set['syn-value']=syn
+            myterm.synonyms['iate'][myterm.langIn].append(syn_set)
+            
+            
     if len(myterm.translations_iate)>0:
+        myterm.translations['iate']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_iate.keys():
+                myterm.translations['iate'][lang]=[]                
                 for term in myterm.translations_iate[lang]:
-                    trans = term
-                    if ' 'in trans:
-                        trans=trans.replace(' ', '-')
+                    trans_set = {}
+                    if ' 'in term:
+                        term=term.replace(' ', '-')
                     for char in chars:
-                        trans=trans.replace(char, '')
-                    transid=schema+'-'+trans+'-'+lang
-                    myterm.trans_iate_ids[term]=transid.lower()
+                        term=term.replace(char, '')
+                    transid=schema+'-'+term+'-'+lang
+                    trans_set['trans-id']=transid.lower()
+                    trans_set['trans-value']=term
+                    myterm.translations['iate'][lang].append(trans_set)
+    
+    if len(myterm.definitions_iate)>0:
+        myterm.definitions['iate']={}
+        for lang in myterm.definitions_iate.keys():
+            myterm.definitions['iate'][lang]=[]
+            for defi in myterm.definitions_iate[lang]:
+                def_set = {}
+                defid=myterm.term+'-'+lang+'-def'
+                def_set['def-id']=defid.lower()
+                def_set['def-value']=defi
+                myterm.definitions['iate'][lang].append(def_set)
 
     return myterm
+
 
 #karens
 def get_domain_names(item, hed):
@@ -358,3 +385,6 @@ def subdomain_iate(its, dict_domains):
                 dict_domains.append([name,code])
                 subdomain_iate(sub[j], dict_domains)
     return(dict_domains)
+
+
+
