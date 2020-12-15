@@ -9,7 +9,7 @@ map:map_triplesmap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmap1";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32, map:pom_33, map:pom_34, map:pom_35, map:pom_36, map:pom_37, map:pom_38, map:pom_39, map:pom_40, map:pom_41, map:pom_42, map:pom_43, map:pom_44, map:pom_45, map:pom_46, map:pom_47, map:pom_48, map:pom_49, map:pom_50, map:pom_51, map:pom_52, map:pom_53, map:pom_54, map:pom_55, map:pom_56, map:pom_57, map:pom_58, map:pom_59, map:pom_60, map:pom_61, map:pom_62, map:pom_63, map:pom_64, map:pom_65, map:pom_66, map:pom_67, map:pom_68, map:pom_69, map:pom_70, map:pom_71, map:pom_72, map:pom_73, map:pom_74, map:pom_75, map:pom_76, map:pom_77, map:pom_78, map:pom_79, map:pom_80, map:pom_81, map:pom_82, map:pom_83, map:pom_84, map:pom_85, map:pom_86, map:pom_87, map:pom_88, map:pom_89, map:pom_90, map:pom_91, map:pom_92, map:pom_93, map:pom_94, map:pom_95, map:pom_96, map:pom_97, map:pom_98, map:pom_99, map:pom_100, map:pom_101, map:pom_102, map:pom_103, map:pom_104, map:pom_105, map:pom_106, map:pom_107, map:pom_108, map:pom_109, map:pom_110, map:pom_111, map:pom_112, map:pom_113, map:pom_114, map:pom_115, map:pom_116, map:pom_117, map:pom_118, map:pom_119, map:pom_120.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32, map:pom_33, map:pom_34, map:pom_35, map:pom_36, map:pom_37, map:pom_38, map:pom_39, map:pom_40, map:pom_41, map:pom_42, map:pom_43, map:pom_44, map:pom_45, map:pom_46, map:pom_47, map:pom_48, map:pom_49, map:pom_50, map:pom_51, map:pom_52, map:pom_53, map:pom_54, map:pom_55, map:pom_56, map:pom_57, map:pom_58, map:pom_59, map:pom_60, map:pom_61, map:pom_62, map:pom_63, map:pom_64, map:pom_65, map:pom_66, map:pom_67, map:pom_68, map:pom_69, map:pom_70, map:pom_71, map:pom_72, map:pom_73, map:pom_74, map:pom_75, map:pom_76, map:pom_77, map:pom_78, map:pom_79, map:pom_80, map:pom_81, map:pom_82, map:pom_83, map:pom_84, map:pom_85, map:pom_86, map:pom_87, map:pom_88, map:pom_89, map:pom_90, map:pom_91, map:pom_92, map:pom_93, map:pom_94, map:pom_95, map:pom_96, map:pom_97, map:pom_98, map:pom_99, map:pom_100, map:pom_101, map:pom_102, map:pom_103, map:pom_104, map:pom_105, map:pom_106, map:pom_107, map:pom_108, map:pom_109, map:pom_110, map:pom_111, map:pom_112, map:pom_113, map:pom_114, map:pom_115, map:pom_116, map:pom_117, map:pom_118, map:pom_119, map:pom_120, map:pom_121.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://www.w3.org/2004/02s/core#Concept";
     rr:termType rr:IRI.
@@ -22,94 +22,98 @@ map:om_10 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:language "en".
 map:om_100 a rr:ObjectMap;
+    rml:reference "synonyms.unesco.de.*.syn-value";
+    rr:termType rr:Literal;
+    rr:language "de".
+map:om_101 a rr:ObjectMap;
     rml:reference "synonyms.unesco.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_101 a rr:ObjectMap;
+map:om_102 a rr:ObjectMap;
     rml:reference "synonyms.ilo.es.*.syn-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_102 a rr:ObjectMap;
+map:om_103 a rr:ObjectMap;
     rml:reference "synonyms.ilo.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_103 a rr:ObjectMap;
+map:om_104 a rr:ObjectMap;
     rml:reference "synonyms.ilo.de.*.syn-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_104 a rr:ObjectMap;
+map:om_105 a rr:ObjectMap;
     rml:reference "synonyms.ilo.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_105 a rr:ObjectMap;
+map:om_106 a rr:ObjectMap;
     rml:reference "synonyms.stw.es.*.syn-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_106 a rr:ObjectMap;
+map:om_107 a rr:ObjectMap;
     rml:reference "synonyms.stw.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_107 a rr:ObjectMap;
+map:om_108 a rr:ObjectMap;
     rml:reference "synonyms.stw.de.*.syn-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_108 a rr:ObjectMap;
+map:om_109 a rr:ObjectMap;
     rml:reference "synonyms.stw.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_109 a rr:ObjectMap;
-    rml:reference "synonyms.thesoz.es.*.syn-value";
-    rr:termType rr:Literal;
-    rr:language "es".
 map:om_11 a rr:ObjectMap;
     rml:reference "definitions.eurovoc.de.*.def-value";
     rr:termType rr:Literal;
     rr:language "de".
 map:om_110 a rr:ObjectMap;
+    rml:reference "synonyms.thesoz.es.*.syn-value";
+    rr:termType rr:Literal;
+    rr:language "es".
+map:om_111 a rr:ObjectMap;
     rml:reference "synonyms.thesoz.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_111 a rr:ObjectMap;
+map:om_112 a rr:ObjectMap;
     rml:reference "synonyms.thesoz.de.*.syn-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_112 a rr:ObjectMap;
+map:om_113 a rr:ObjectMap;
     rml:reference "synonyms.thesoz.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_113 a rr:ObjectMap;
+map:om_114 a rr:ObjectMap;
     rml:reference "synonyms.eurovoc.es.*.syn-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_114 a rr:ObjectMap;
+map:om_115 a rr:ObjectMap;
     rml:reference "synonyms.eurovoc.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_115 a rr:ObjectMap;
+map:om_116 a rr:ObjectMap;
     rml:reference "synonyms.eurovoc.de.*.syn-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_116 a rr:ObjectMap;
+map:om_117 a rr:ObjectMap;
     rml:reference "synonyms.eurovoc.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_117 a rr:ObjectMap;
+map:om_118 a rr:ObjectMap;
     rml:reference "term_reference.es.*";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_118 a rr:ObjectMap;
+map:om_119 a rr:ObjectMap;
     rml:reference "term_reference.en.*";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_119 a rr:ObjectMap;
-    rml:reference "term_reference.de.*";
-    rr:termType rr:Literal;
-    rr:language "de".
 map:om_12 a rr:ObjectMap;
     rml:reference "definitions.eurovoc.nl.*.def-value";
     rr:termType rr:Literal;
     rr:language "nl".
 map:om_120 a rr:ObjectMap;
+    rml:reference "term_reference.de.*";
+    rr:termType rr:Literal;
+    rr:language "de".
+map:om_121 a rr:ObjectMap;
     rml:reference "term_reference.nl.*";
     rr:termType rr:Literal;
     rr:language "nl".
@@ -298,173 +302,172 @@ map:om_60 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:language "nl".
 map:om_61 a rr:ObjectMap;
+    rml:reference "Source Term";
+    rr:termType rr:Literal.
+map:om_62 a rr:ObjectMap;
     rml:reference "translations.iate.es.*.trans-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_62 a rr:ObjectMap;
+map:om_63 a rr:ObjectMap;
     rml:reference "translations.iate.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_63 a rr:ObjectMap;
+map:om_64 a rr:ObjectMap;
     rml:reference "translations.iate.de.*.trans-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_64 a rr:ObjectMap;
+map:om_65 a rr:ObjectMap;
     rml:reference "translations.iate.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_65 a rr:ObjectMap;
+map:om_66 a rr:ObjectMap;
     rml:reference "translations.wikidata.es.*.trans-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_66 a rr:ObjectMap;
+map:om_67 a rr:ObjectMap;
     rml:reference "translations.wikidata.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_67 a rr:ObjectMap;
+map:om_68 a rr:ObjectMap;
     rml:reference "translations.wikidata.de.*.trans-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_68 a rr:ObjectMap;
+map:om_69 a rr:ObjectMap;
     rml:reference "translations.wikidata.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_69 a rr:ObjectMap;
-    rml:reference "translations.eurovoc.es.*.trans-value";
-    rr:termType rr:Literal;
-    rr:language "es".
 map:om_7 a rr:ObjectMap;
     rml:reference "definitions.wikidata.de.*.def-value";
     rr:termType rr:Literal;
     rr:language "de".
 map:om_70 a rr:ObjectMap;
+    rml:reference "translations.eurovoc.es.*.trans-value";
+    rr:termType rr:Literal;
+    rr:language "es".
+map:om_71 a rr:ObjectMap;
     rml:reference "translations.eurovoc.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_71 a rr:ObjectMap;
+map:om_72 a rr:ObjectMap;
     rml:reference "translations.eurovoc.de.*.trans-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_72 a rr:ObjectMap;
+map:om_73 a rr:ObjectMap;
     rml:reference "translations.eurovoc.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_73 a rr:ObjectMap;
+map:om_74 a rr:ObjectMap;
     rml:reference "translations.ilo.es.*.trans-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_74 a rr:ObjectMap;
+map:om_75 a rr:ObjectMap;
     rml:reference "translations.ilo.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_75 a rr:ObjectMap;
+map:om_76 a rr:ObjectMap;
     rml:reference "translations.ilo.de.*.trans-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_76 a rr:ObjectMap;
+map:om_77 a rr:ObjectMap;
     rml:reference "translations.ilo.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_77 a rr:ObjectMap;
+map:om_78 a rr:ObjectMap;
     rml:reference "translations.stw.es.*.trans-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_78 a rr:ObjectMap;
+map:om_79 a rr:ObjectMap;
     rml:reference "translations.stw.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_79 a rr:ObjectMap;
-    rml:reference "translations.stw.de.*.trans-value";
-    rr:termType rr:Literal;
-    rr:language "de".
 map:om_8 a rr:ObjectMap;
     rml:reference "definitions.wikidata.nl.*.def-value";
     rr:termType rr:Literal;
     rr:language "nl".
 map:om_80 a rr:ObjectMap;
+    rml:reference "translations.stw.de.*.trans-value";
+    rr:termType rr:Literal;
+    rr:language "de".
+map:om_81 a rr:ObjectMap;
     rml:reference "translations.stw.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_81 a rr:ObjectMap;
+map:om_82 a rr:ObjectMap;
     rml:reference "translations.thesoz.es.*.trans-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_82 a rr:ObjectMap;
+map:om_83 a rr:ObjectMap;
     rml:reference "translations.thesoz.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_83 a rr:ObjectMap;
+map:om_84 a rr:ObjectMap;
     rml:reference "translations.thesoz.de.*.trans-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_84 a rr:ObjectMap;
+map:om_85 a rr:ObjectMap;
     rml:reference "translations.thesoz.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_85 a rr:ObjectMap;
+map:om_86 a rr:ObjectMap;
     rml:reference "translations.unesco.es.*.trans-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_86 a rr:ObjectMap;
+map:om_87 a rr:ObjectMap;
     rml:reference "translations.unesco.en.*.trans-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_87 a rr:ObjectMap;
+map:om_88 a rr:ObjectMap;
     rml:reference "translations.unesco.de.*.trans-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_88 a rr:ObjectMap;
+map:om_89 a rr:ObjectMap;
     rml:reference "translations.unesco.nl.*.trans-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_89 a rr:ObjectMap;
-    rml:reference "synonyms.iate.es.*.syn-value";
-    rr:termType rr:Literal;
-    rr:language "es".
 map:om_9 a rr:ObjectMap;
     rml:reference "definitions.eurovoc.es.*.def-value";
     rr:termType rr:Literal;
     rr:language "es".
 map:om_90 a rr:ObjectMap;
+    rml:reference "synonyms.iate.es.*.syn-value";
+    rr:termType rr:Literal;
+    rr:language "es".
+map:om_91 a rr:ObjectMap;
     rml:reference "synonyms.iate.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_91 a rr:ObjectMap;
+map:om_92 a rr:ObjectMap;
     rml:reference "synonyms.iate.de.*.syn-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_92 a rr:ObjectMap;
+map:om_93 a rr:ObjectMap;
     rml:reference "synonyms.iate.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_93 a rr:ObjectMap;
+map:om_94 a rr:ObjectMap;
     rml:reference "synonyms.wikidata.es.*.syn-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_94 a rr:ObjectMap;
+map:om_95 a rr:ObjectMap;
     rml:reference "synonyms.wikidata.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_95 a rr:ObjectMap;
+map:om_96 a rr:ObjectMap;
     rml:reference "synonyms.wikidata.de.*.syn-value";
     rr:termType rr:Literal;
     rr:language "de".
-map:om_96 a rr:ObjectMap;
+map:om_97 a rr:ObjectMap;
     rml:reference "synonyms.wikidata.nl.*.syn-value";
     rr:termType rr:Literal;
     rr:language "nl".
-map:om_97 a rr:ObjectMap;
+map:om_98 a rr:ObjectMap;
     rml:reference "synonyms.unesco.es.*.syn-value";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_98 a rr:ObjectMap;
+map:om_99 a rr:ObjectMap;
     rml:reference "synonyms.unesco.en.*.syn-value";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_99 a rr:ObjectMap;
-    rml:reference "synonyms.unesco.de.*.syn-value";
-    rr:termType rr:Literal;
-    rr:language "de".
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
@@ -508,7 +511,7 @@ map:pm_115 a rr:PredicateMap;
 map:pm_116 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2004/02s/core#altLabel>.
 map:pm_117 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/ns/prov#entity>.
+    rr:constant <http://www.w3.org/2004/02s/core#altLabel>.
 map:pm_118 a rr:PredicateMap;
     rr:constant <http://www.w3.org/ns/prov#entity>.
 map:pm_119 a rr:PredicateMap;
@@ -516,6 +519,8 @@ map:pm_119 a rr:PredicateMap;
 map:pm_12 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2004/02s/core#definition>.
 map:pm_120 a rr:PredicateMap;
+    rr:constant <http://www.w3.org/ns/prov#entity>.
+map:pm_121 a rr:PredicateMap;
     rr:constant <http://www.w3.org/ns/prov#entity>.
 map:pm_13 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2004/02s/core#definition>.
@@ -684,7 +689,7 @@ map:pm_87 a rr:PredicateMap;
 map:pm_88 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2004/02s/core#prefLabel>.
 map:pm_89 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2004/02s/core#altLabel>.
+    rr:constant <http://www.w3.org/2004/02s/core#prefLabel>.
 map:pm_9 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2004/02s/core#definition>.
 map:pm_90 a rr:PredicateMap;
@@ -785,6 +790,9 @@ map:pom_12 a rr:PredicateObjectMap;
 map:pom_120 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_120;
     rr:objectMap map:om_120.
+map:pom_121 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_121;
+    rr:objectMap map:om_121.
 map:pom_13 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_13;
     rr:objectMap map:om_13.
@@ -1073,6 +1081,6 @@ map:pom_99 a rr:PredicateObjectMap;
 map:s_0 a rr:SubjectMap;
     rr:template "http://termitup.oeg.fi.upm.es/resource/{Source Term ID}".
 map:source_0 a rml:LogicalSource;
-    rml:source "input.json";
+    rml:source "modules_api/input.json";
     rml:iterator "$";
     rml:referenceFormulation ql:JSONPath.

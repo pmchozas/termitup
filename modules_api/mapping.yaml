@@ -19,7 +19,7 @@ prefixes:
 mappings:
   triplesmap1:
     sources:
-      - [input.json~jsonpath, '$']
+      - [modules_api/input.json~jsonpath, '$']
     s: http://termitup.oeg.fi.upm.es/resource/$(Source Term ID)
     po:
       - [a, skos:Concept]
@@ -83,6 +83,7 @@ mappings:
       - [skos:note, $(language_note.de.*),de~lang]
       - [skos:note, $(language_note.en.*),en~lang]
       - [skos:note, $(language_note.nl.*),nl~lang]
+      - [skos:prefLabel, $(Source Term)]
       - [skos:prefLabel, $(translations.iate.es.*.trans-value), es~lang]
       - [skos:prefLabel, $(translations.iate.en.*.trans-value), en~lang]
       - [skos:prefLabel, $(translations.iate.de.*.trans-value), de~lang]

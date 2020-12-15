@@ -3822,3 +3822,239 @@ TypeError: 'module' object is not callable
 16:49:45, WARNING  * Debugger is active!
 16:49:45, INFO  * Debugger PIN: 273-160-618
 18:10:12, INFO 192.168.1.48 - - [14/Dec/2020 18:10:12] "GET / HTTP/1.0" 200 -
+13:11:18, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:11:18, INFO  * Restarting with fsevents reloader
+13:11:24, WARNING  * Debugger is active!
+13:11:24, INFO  * Debugger PIN: 273-160-618
+13:11:29, INFO 127.0.0.1 - - [15/Dec/2020 13:11:29] "GET /swagger/ HTTP/1.1" 200 -
+13:11:30, INFO 127.0.0.1 - - [15/Dec/2020 13:11:30] "GET /swagger/swagger-ui.css HTTP/1.1" 304 -
+13:11:30, INFO 127.0.0.1 - - [15/Dec/2020 13:11:30] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:11:30, INFO 127.0.0.1 - - [15/Dec/2020 13:11:30] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:11:30, INFO 127.0.0.1 - - [15/Dec/2020 13:11:30] "GET /static/swagger.json HTTP/1.1" 200 -
+13:13:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:13:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:13:15, INFO  * Restarting with fsevents reloader
+13:13:21, WARNING  * Debugger is active!
+13:13:21, INFO  * Debugger PIN: 273-160-618
+13:16:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:16:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:16:32, INFO  * Restarting with fsevents reloader
+13:16:37, WARNING  * Debugger is active!
+13:16:37, INFO  * Debugger PIN: 273-160-618
+13:18:00, INFO 127.0.0.1 - - [15/Dec/2020 13:18:00] "POST /rdf_conversion HTTP/1.1" 400 -
+13:18:42, INFO 127.0.0.1 - - [15/Dec/2020 13:18:42] "POST /rdf_conversion HTTP/1.1" 400 -
+13:23:13, INFO 127.0.0.1 - - [15/Dec/2020 13:23:13] "GET /swagger/ HTTP/1.1" 200 -
+13:23:14, INFO 127.0.0.1 - - [15/Dec/2020 13:23:14] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+13:23:44, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:23:44, INFO  * Restarting with fsevents reloader
+13:23:49, WARNING  * Debugger is active!
+13:23:49, INFO  * Debugger PIN: 273-160-618
+13:23:54, INFO 127.0.0.1 - - [15/Dec/2020 13:23:54] "GET /swagger/ HTTP/1.1" 200 -
+13:24:25, INFO 127.0.0.1 - - [15/Dec/2020 13:24:25] "POST /rdf_conversion HTTP/1.1" 200 -
+13:25:08, INFO 127.0.0.1 - - [15/Dec/2020 13:25:08] "POST /rdf_conversion HTTP/1.1" 200 -
+13:30:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:30:25, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:30:27, INFO  * Restarting with fsevents reloader
+13:32:45, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:32:45, INFO  * Restarting with fsevents reloader
+13:32:50, WARNING  * Debugger is active!
+13:32:50, INFO  * Debugger PIN: 273-160-618
+13:32:58, INFO 127.0.0.1 - - [15/Dec/2020 13:32:58] "GET /swagger/ HTTP/1.1" 200 -
+13:33:15, INFO 127.0.0.1 - - [15/Dec/2020 13:33:15] "POST /rdf_conversion HTTP/1.1" 500 -
+13:33:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:33:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:33:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:33:46, INFO  * Restarting with fsevents reloader
+13:33:52, WARNING  * Debugger is active!
+13:33:52, INFO  * Debugger PIN: 273-160-618
+13:33:58, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:33:58, INFO  * Restarting with fsevents reloader
+13:34:03, WARNING  * Debugger is active!
+13:34:03, INFO  * Debugger PIN: 273-160-618
+13:34:08, INFO 127.0.0.1 - - [15/Dec/2020 13:34:08] "GET /swagger/ HTTP/1.1" 200 -
+13:34:15, INFO 127.0.0.1 - - [15/Dec/2020 13:34:15] "POST /rdf_conversion HTTP/1.1" 500 -
+13:35:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:35:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:36:01, INFO  * Restarting with fsevents reloader
+13:36:07, WARNING  * Debugger is active!
+13:36:07, INFO  * Debugger PIN: 273-160-618
+13:36:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:36:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+13:36:39, INFO  * Restarting with fsevents reloader
+13:57:01, INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+13:57:01, INFO  * Restarting with fsevents reloader
+13:59:36, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+13:59:36, INFO  * Restarting with fsevents reloader
+13:59:41, WARNING  * Debugger is active!
+13:59:42, INFO  * Debugger PIN: 273-160-618
+13:59:49, INFO 127.0.0.1 - - [15/Dec/2020 13:59:49] "GET /swagger/ HTTP/1.1" 200 -
+13:59:55, INFO 127.0.0.1 - - [15/Dec/2020 13:59:55] "POST /rdf_conversion HTTP/1.1" 500 -
+14:00:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+14:00:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+14:00:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+14:00:15, INFO  * Restarting with fsevents reloader
+14:00:21, WARNING  * Debugger is active!
+14:00:21, INFO  * Debugger PIN: 273-160-618
+14:00:26, INFO 127.0.0.1 - - [15/Dec/2020 14:00:26] "POST /rdf_conversion HTTP/1.1" 406 -
+14:09:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:09:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:09:31, INFO  * Restarting with fsevents reloader
+14:09:37, WARNING  * Debugger is active!
+14:09:37, INFO  * Debugger PIN: 273-160-618
+14:09:47, INFO 127.0.0.1 - - [15/Dec/2020 14:09:47] "GET /swagger/ HTTP/1.1" 200 -
+14:09:53, INFO 127.0.0.1 - - [15/Dec/2020 14:09:53] "POST /rdf_conversion HTTP/1.1" 200 -
+14:13:19, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:13:19, INFO  * Restarting with fsevents reloader
+14:13:24, WARNING  * Debugger is active!
+14:13:24, INFO  * Debugger PIN: 273-160-618
+14:13:31, INFO 127.0.0.1 - - [15/Dec/2020 14:13:31] "POST /rdf_conversion HTTP/1.1" 200 -
+14:13:45, INFO 127.0.0.1 - - [15/Dec/2020 14:13:45] "GET /swagger/ HTTP/1.1" 200 -
+14:13:54, INFO 127.0.0.1 - - [15/Dec/2020 14:13:54] "POST /rdf_conversion HTTP/1.1" 200 -
+14:16:06, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:16:06, INFO  * Restarting with fsevents reloader
+14:16:10, WARNING  * Debugger is active!
+14:16:10, INFO  * Debugger PIN: 273-160-618
+14:16:17, INFO 127.0.0.1 - - [15/Dec/2020 14:16:17] "GET /swagger/ HTTP/1.1" 200 -
+14:16:23, INFO 127.0.0.1 - - [15/Dec/2020 14:16:23] "POST /rdf_conversion HTTP/1.1" 200 -
+14:19:43, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:19:43, INFO  * Restarting with fsevents reloader
+14:19:49, WARNING  * Debugger is active!
+14:19:49, INFO  * Debugger PIN: 273-160-618
+14:19:55, INFO 127.0.0.1 - - [15/Dec/2020 14:19:55] "GET /swagger/ HTTP/1.1" 200 -
+14:20:04, INFO 127.0.0.1 - - [15/Dec/2020 14:20:04] "POST /rdf_conversion HTTP/1.1" 200 -
+14:20:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:20:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:20:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:20:33, INFO  * Restarting with fsevents reloader
+14:20:39, WARNING  * Debugger is active!
+14:20:39, INFO  * Debugger PIN: 273-160-618
+14:20:45, INFO 127.0.0.1 - - [15/Dec/2020 14:20:45] "GET /swagger/ HTTP/1.1" 200 -
+14:20:50, INFO 127.0.0.1 - - [15/Dec/2020 14:20:50] "POST /rdf_conversion HTTP/1.1" 200 -
+16:56:43, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+16:56:43, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+16:56:43, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+16:56:45, INFO  * Restarting with fsevents reloader
+16:56:52, WARNING  * Debugger is active!
+16:56:52, INFO  * Debugger PIN: 273-160-618
+16:56:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+16:56:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+16:57:00, INFO  * Restarting with fsevents reloader
+17:05:07, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:05:07, INFO  * Restarting with fsevents reloader
+17:05:13, WARNING  * Debugger is active!
+17:05:13, INFO  * Debugger PIN: 273-160-618
+17:05:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:05:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:05:20, INFO  * Restarting with fsevents reloader
+17:05:26, WARNING  * Debugger is active!
+17:05:26, INFO  * Debugger PIN: 273-160-618
+17:05:39, INFO 127.0.0.1 - - [15/Dec/2020 17:05:39] "GET /swagger/ HTTP/1.1" 200 -
+17:05:49, INFO 127.0.0.1 - - [15/Dec/2020 17:05:49] "POST /rdf_conversion HTTP/1.1" 500 -
+17:08:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:08:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:08:16, INFO  * Restarting with fsevents reloader
+17:08:22, WARNING  * Debugger is active!
+17:08:22, INFO  * Debugger PIN: 273-160-618
+17:08:34, INFO 127.0.0.1 - - [15/Dec/2020 17:08:34] "GET /swagger/ HTTP/1.1" 200 -
+17:08:34, INFO 127.0.0.1 - - [15/Dec/2020 17:08:34] "GET /swagger/ HTTP/1.1" 200 -
+17:08:43, INFO 127.0.0.1 - - [15/Dec/2020 17:08:43] "POST /rdf_conversion HTTP/1.1" 500 -
+17:09:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:09:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:10:00, INFO  * Restarting with fsevents reloader
+17:10:05, WARNING  * Debugger is active!
+17:10:05, INFO  * Debugger PIN: 273-160-618
+17:10:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:10:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:10:33, INFO  * Restarting with fsevents reloader
+17:10:38, WARNING  * Debugger is active!
+17:10:39, INFO  * Debugger PIN: 273-160-618
+17:10:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:10:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:10:49, INFO  * Restarting with fsevents reloader
+17:10:54, WARNING  * Debugger is active!
+17:10:54, INFO  * Debugger PIN: 273-160-618
+17:11:13, INFO 127.0.0.1 - - [15/Dec/2020 17:11:13] "GET /swagger/ HTTP/1.1" 200 -
+17:11:19, INFO 127.0.0.1 - - [15/Dec/2020 17:11:19] "POST /rdf_conversion HTTP/1.1" 500 -
+17:15:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:15:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:15:41, INFO  * Restarting with fsevents reloader
+17:15:46, WARNING  * Debugger is active!
+17:15:46, INFO  * Debugger PIN: 273-160-618
+17:16:50, INFO 127.0.0.1 - - [15/Dec/2020 17:16:50] "GET /swagger/ HTTP/1.1" 200 -
+17:16:56, INFO 127.0.0.1 - - [15/Dec/2020 17:16:56] "POST /rdf_conversion HTTP/1.1" 500 -
+17:19:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:19:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:19:12, INFO  * Restarting with fsevents reloader
+17:19:18, WARNING  * Debugger is active!
+17:19:18, INFO  * Debugger PIN: 273-160-618
+17:19:29, INFO 127.0.0.1 - - [15/Dec/2020 17:19:29] "GET /swagger/ HTTP/1.1" 200 -
+17:19:35, INFO 127.0.0.1 - - [15/Dec/2020 17:19:35] "POST /rdf_conversion HTTP/1.1" 500 -
+17:21:40, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:21:40, INFO  * Restarting with fsevents reloader
+17:21:46, WARNING  * Debugger is active!
+17:21:46, INFO  * Debugger PIN: 273-160-618
+17:21:51, INFO 127.0.0.1 - - [15/Dec/2020 17:21:51] "GET /swagger/ HTTP/1.1" 200 -
+17:21:58, INFO 127.0.0.1 - - [15/Dec/2020 17:21:58] "POST /rdf_conversion HTTP/1.1" 500 -
+17:25:24, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:25:24, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:25:26, INFO  * Restarting with fsevents reloader
+17:25:32, WARNING  * Debugger is active!
+17:25:32, INFO  * Debugger PIN: 273-160-618
+17:25:38, INFO 127.0.0.1 - - [15/Dec/2020 17:25:38] "POST /rdf_conversion HTTP/1.1" 200 -
+17:25:38, ERROR Error on request:
+Traceback (most recent call last):
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 297, in execute
+    write(data)
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 275, in write
+    assert isinstance(data, bytes), "applications must write bytes"
+AssertionError: applications must write bytes
+17:31:59, INFO 127.0.0.1 - - [15/Dec/2020 17:31:59] "POST /rdf_conversion HTTP/1.1" 200 -
+17:31:59, ERROR Error on request:
+Traceback (most recent call last):
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 297, in execute
+    write(data)
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 275, in write
+    assert isinstance(data, bytes), "applications must write bytes"
+AssertionError: applications must write bytes
+17:38:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:38:08, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:38:10, INFO  * Restarting with fsevents reloader
+17:38:17, WARNING  * Debugger is active!
+17:38:17, INFO  * Debugger PIN: 273-160-618
+17:39:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:39:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/rmlCode.py', reloading
+17:39:31, INFO  * Restarting with fsevents reloader
+17:51:37, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:51:37, INFO  * Restarting with fsevents reloader
+17:51:44, WARNING  * Debugger is active!
+17:51:44, INFO  * Debugger PIN: 273-160-618
+17:52:17, INFO 127.0.0.1 - - [15/Dec/2020 17:52:17] "GET /swagger/ HTTP/1.1" 200 -
+17:52:23, INFO 127.0.0.1 - - [15/Dec/2020 17:52:23] "POST /rdf_conversion HTTP/1.1" 200 -
+17:52:23, ERROR Error on request:
+Traceback (most recent call last):
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 297, in execute
+    write(data)
+  File "/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 275, in write
+    assert isinstance(data, bytes), "applications must write bytes"
+AssertionError: applications must write bytes
+17:55:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:55:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:55:34, INFO  * Restarting with fsevents reloader
+17:55:48, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:55:48, INFO  * Restarting with fsevents reloader
+17:55:54, WARNING  * Debugger is active!
+17:55:54, INFO  * Debugger PIN: 273-160-618
+17:56:09, INFO 127.0.0.1 - - [15/Dec/2020 17:56:09] "GET /swagger/ HTTP/1.1" 200 -
+17:56:20, INFO 127.0.0.1 - - [15/Dec/2020 17:56:20] "POST /rdf_conversion HTTP/1.1" 200 -
+17:56:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:56:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:56:51, INFO  * Restarting with fsevents reloader
+17:56:56, WARNING  * Debugger is active!
+17:56:56, INFO  * Debugger PIN: 273-160-618
+17:58:30, INFO 127.0.0.1 - - [15/Dec/2020 17:58:30] "POST /rdf_conversion HTTP/1.1" 200 -

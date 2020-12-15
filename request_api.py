@@ -27,6 +27,9 @@ from modules_api import iloCode
 from modules_api import relvalCode
 from modules_api import contextCode
 from modules_api import term_id
+from modules_api import rmlCode
+from flask_rdf.flask import returns_rdf
+from rdflib import Graph
 
 REQUEST_API = Blueprint('term_api', __name__)
 
@@ -488,3 +491,12 @@ def relation_validation():
 
     
     return Response(json.dumps(relvaltest),  mimetype='application/json')
+
+@REQUEST_API.route('/rdf_conversion', methods=['POST'])
+@returns_rdf 
+def rdf_conversion():
+    json_data = request.json 
+    print(json_data)
+    rdf_test=rmlCode.rml_converter(json_data)
+    
+    return Response(rdf_test.serialize(format="ntriples").decode("UTF-8"),  mimetype='text/ntriples')
