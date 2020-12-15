@@ -80,7 +80,8 @@ class Term:
     definitions={}
     relations={}
     ids={}
-    
+    preflabels={}
+    altlabels={}
     
     
     ### test
@@ -162,6 +163,8 @@ class Term:
         self.ids={}
         self.definitions={}
         self.relations={}
+        self.preflabels={}
+        self.altlabels={}
 
 
 

@@ -171,39 +171,38 @@ def get_synonyms(myterm): #recoge sinónimos
     return(nameUri)
 
 def get_translations(myterm): #recoge traducciones
-    label=['prefLabel','altLabel'] 
-    for l in label:
-        print(l)
-        for lang in myterm.langOut:
+    for lang in myterm.langOut:
             if lang not in myterm.translations_thesoz:
                 myterm.translations_thesoz[lang]=[]
                 try:
                     lang1='"'+lang+'"'
                     url=("http://sparql.lynx-project.eu/")
-                    query="""
-                    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                    SELECT ?c ?label
-                    WHERE {
-                    GRAPH <http://lkg.lynx-project.eu/thesoz> {
-                    VALUES ?c { <"""+myterm.thesoz_id+"""> }
-                    VALUES ?searchLang { """+lang1+""" undef} 
-                    VALUES ?relation { skos:"""+l+"""  } 
-                    ?c a skos:Concept . 
-                    ?c ?relation ?label . 
-                    filter ( lang(?label)=?searchLang )
-                    }
-                    }
-                    """
-                    r=requests.get(url, params={'format': 'json', 'query': query})
-                    results=json.loads(r.text)
-                    print(results)
-    
-                    if (len(results["results"]["bindings"])==0):
-                            trans=''
-                    else:
-                        for result in results["results"]["bindings"]:
-                            trans=result["label"]["value"]
-                            myterm.translations_thesoz[lang].append(trans)
+                    labels=['prefLabel','altLabel'] 
+                    for label in labels:
+                        query="""
+                        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                        SELECT ?c ?label
+                        WHERE {
+                        GRAPH <http://lkg.lynx-project.eu/thesoz> {
+                        VALUES ?c { <"""+myterm.thesoz_id+"""> }
+                        VALUES ?searchLang { """+lang1+""" undef} 
+                        VALUES ?relation { skos:"""+label+"""  } 
+                        ?c a skos:Concept . 
+                        ?c ?relation ?label . 
+                        filter ( lang(?label)=?searchLang )
+                        }
+                        }
+                        """
+                        r=requests.get(url, params={'format': 'json', 'query': query})
+                        results=json.loads(r.text)
+                        print(results)
+        
+                        if (len(results["results"]["bindings"])==0):
+                                trans=''
+                        else:
+                            for result in results["results"]["bindings"]:
+                                trans=result["label"]["value"]
+                                myterm.translations_thesoz[lang].append(trans)
                            
             
                 except json.decoder.JSONDecodeError:
@@ -249,7 +248,19 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    myterm.translations['thesoz'][lang].append(trans_set)
+                    if len(myterm.translations['thesoz'][lang])<=0:
+                        myterm.translations['thesoz'][lang].append(trans_set)
+                    else:
+                        if 'thesoz' in myterm.synonyms:
+                            if lang in myterm.synonyms['thesoz']:
+                                myterm.synonyms['thesoz'][lang].append(trans_set)
+                            else:
+                                myterm.synonyms['thesoz'][lang]=[]
+                                myterm.synonyms['thesoz'][lang].append(trans_set)
+                        else:
+                            myterm.synonyms['thesoz']={}
+                            myterm.synonyms['thesoz'][lang]=[]
+                            myterm.synonyms['thesoz'][lang].append(trans_set)
     
     if len(myterm.definitions_thesoz)>0:
         myterm.definitions['thesoz']={}

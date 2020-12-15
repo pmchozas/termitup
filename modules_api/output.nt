@@ -1,0 +1,25 @@
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02s/core#Concept>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#definition> "Acto jurídico de Derecho Internacional Público celebrado entre Estados u organizaciones internacionales por el que se crean obligaciones convencionales entre éstos.En principio, a efectos de la Convención de Viena sobre el Derecho de los Tratados, las voces \"tratado\" IATE:49472 , \"acuerdo\", \"convenio\" IATE:829043 y \"convención\" son sinónimos.Ahora bien, el Consejo de Europa establece una diferencia entre \"acuerdo\" y \"convenio\" en cuanto a la forma en que cada Estado expresa su consentimiento en obligarse por el instrumento. Los convenios siempre están sujetos a ratificación IATE:852731 , en tanto que los acuerdos pueden firmarse con o sin reserva de ratificación. La denominación \"tratado\" suele reservarse para los más solemnes e importantes.Por su finalidad, tradicionalmente se distingue entre tratados-acuerdos (en alemán Vereinbarung), que crean, desenvuelven o modifican determinadas normas positivas del Derecho internacional, y tratados-contratos (en alemán Vertrag), que a través de un cambio de prestaciones internacionales intentan conciliar intereses diversos."@es.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#altLabel> "EC-agreement"@en.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#altLabel> "EC-third-country-convention"@en.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#altLabel> "EU-third-country-agreement"@en.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#altLabel> "European-Union-agreement"@en.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#altLabel> "international-agreement-EU"@en.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#definition> "any legally binding, written or oral understanding between two or more States or between States and international organisations"@en.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://purl.org/dc/elements/1.1/source> <https://iate.europa.eu/entry/result/786519>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#closeMatch> <http://eurovoc.europa.eu/1474>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#example> "the worker signed an employment agreement and now works in a company with a salary and team work is important and labour law is more important".
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#narrower> <http://eurovoc.europa.eu/5404>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#narrower> <http://eurovoc.europa.eu/5749>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#narrower> <http://eurovoc.europa.eu/4048>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#narrower> <http://eurovoc.europa.eu/5403>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#broader> <http://eurovoc.europa.eu/4040>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#related> <http://eurovoc.europa.eu/5827>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#related> <http://eurovoc.europa.eu/3461>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#related> <http://eurovoc.europa.eu/4030>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <IATE:49472>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <IATE:829043>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <IATE:852731>.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#note> "Véanse \"tratado\" IATE:49472 y \"convenio\" IATE:829043 ."@es.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#prefLabel> "acuerdo"@es.
+<http://termitup.oeg.fi.upm.es/resource/labour-agreement-en> <http://www.w3.org/2004/02s/core#prefLabel> "acuerdo-UE"@es.

@@ -128,46 +128,47 @@ def get_synonyms(myterm): #recoge sinónimos
     return(nameUri)
 
 
-def get_translations(myterm): #recoge traducciones
-    label=['prefLabel','altLabel'] 
-    for l in label:
-        for lang in myterm.langOut:
+def get_translations(myterm): 
+    
+    for lang in myterm.langOut:
             if lang not in myterm.translations_unesco:
                 myterm.translations_unesco[lang]=[]
                 try:
                     lang1='"'+lang+'"'
                     url=("http://sparql.lynx-project.eu/")
-                    query="""
-                    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                    SELECT ?c ?label
-                    WHERE {
-                    GRAPH <http://lkg.lynx-project.eu/unesco-thesaurus> {
-                    VALUES ?c { <"""+myterm.unesco_id+"""> }
-                    VALUES ?searchLang { """+lang1+""" undef } 
-                    VALUES ?relation { skos:prefLabel  } 
-                    ?c a skos:Concept . 
-                    ?c ?relation ?label . 
-                    filter ( lang(?label)=?searchLang )
-                    }
-                    }
-                    """
-                    r=requests.get(url, params={'format': 'json', 'query': query})
-                    results=json.loads(r.text)
-                    print(query)
-    
-                    if (len(results["results"]["bindings"])==0):
-                            trans=''
-                    else:
-                        for result in results["results"]["bindings"]:
-                            trans=result["label"]["value"]
-                            print(trans)
-                            myterm.translations_unesco[lang].append(trans)
-                           
-            
-                except json.decoder.JSONDecodeError:
-                    pass
+                    labels=['prefLabel','altLabel']
+                    for label in labels:
+                        query="""
+                        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                        SELECT ?c ?label
+                        WHERE {
+                        GRAPH <http://lkg.lynx-project.eu/unesco-thesaurus> {
+                        VALUES ?c { <"""+myterm.unesco_id+"""> }
+                        VALUES ?searchLang { """+lang1+""" undef } 
+                        VALUES ?relation { skos:"""+label+"""  }  
+                        ?c a skos:Concept . 
+                        ?c ?relation ?label . 
+                        filter ( lang(?label)=?searchLang )
+                        }
+                        }
+                        """
+                        r=requests.get(url, params={'format': 'json', 'query': query})
+                        results=json.loads(r.text)
+                        print(query)
         
-      
+                        if (len(results["results"]["bindings"])==0):
+                                trans=''
+                        else:
+                            for result in results["results"]["bindings"]:
+                                trans=result["label"]["value"]
+                                print(trans)
+                                myterm.translations_unesco[lang].append(trans)
+                except:
+                    continue
+
+    
+    
+    
     return(myterm)
 
 
@@ -246,7 +247,19 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    myterm.translations['unesco'][lang].append(trans_set)
+                    if len(myterm.translations['unesco'][lang])<=0:
+                        myterm.translations['unesco'][lang].append(trans_set)
+                    else:
+                        if 'unesco' in myterm.synonyms:
+                            if lang in myterm.synonyms['unesco']:
+                                myterm.synonyms['unesco'][lang].append(trans_set)
+                            else:
+                                myterm.synonyms['unesco'][lang]=[]
+                                myterm.synonyms['unesco'][lang].append(trans_set)
+                        else:
+                            myterm.synonyms['unesco']={}
+                            myterm.synonyms['unesco'][lang]=[]
+                            myterm.synonyms['unesco'][lang].append(trans_set)
     
     if len(myterm.definitions_unesco)>0:
         myterm.definitions['unesco']={}

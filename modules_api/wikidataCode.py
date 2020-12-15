@@ -311,7 +311,19 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    myterm.translations['wikidata'][lang].append(trans_set)
+                    if len(myterm.translations['wikidata'][lang])<=0:
+                        myterm.translations['wikidata'][lang].append(trans_set)
+                    else:
+                        if 'wikidata' in myterm.synonyms:
+                            if lang in myterm.synonyms['wikidata']:
+                                myterm.synonyms['wikidata'][lang].append(trans_set)
+                            else:
+                                myterm.synonyms['wikidata'][lang]=[]
+                                myterm.synonyms['wikidata'][lang].append(trans_set)
+                        else:
+                            myterm.synonyms['wikidata']={}
+                            myterm.synonyms['wikidata'][lang]=[]
+                            myterm.synonyms['wikidata'][lang].append(trans_set)
     
     if len(myterm.definitions_wikidata)>0:
         myterm.definitions['wikidata']={}

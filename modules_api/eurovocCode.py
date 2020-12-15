@@ -33,6 +33,7 @@ def get_uri(myterm): #recoge la uri del termino a buscar
     term='"^'+myterm.term+'$"'
     plural='"^'+myterm.term+'s'+'$"'
     euterm='"^'+myterm.term+' \\\(EU\\\)'+'$"'
+    ueterm='"^'+myterm.term+' \\\(UE\\\)'+'$"'
     lang='"'+myterm.langIn+'"'
     try:
         url = ("http://sparql.lynx-project.eu/")
@@ -102,7 +103,40 @@ def get_uri(myterm): #recoge la uri del termino a buscar
                     
                         if (len(results["results"]["bindings"])==0):
                             answeruri=''
-                            print('NO URI')
+                            print('NEXT UE')
+                            try:
+                                url = ("http://sparql.lynx-project.eu/")
+                                query = """
+                                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                                SELECT ?c ?label
+                                WHERE {
+                                GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+                                ?c a skos:Concept .
+                                ?c ?p ?label. 
+                                  FILTER regex(?label, """+ueterm+""", "i" )
+                                  FILTER (lang(?label) = """+lang+""")
+                                  FILTER (?p IN (skos:prefLabel, skos:altLabel ) )
+                              
+                        
+                                }  
+                                }
+                                """
+                                print(query)
+                                r=requests.get(url, params={'format': 'json', 'query': query})
+                                results=json.loads(r.text)
+                                
+                                if (len(results["results"]["bindings"])==0):
+                                    answeruri=''
+                                    print('NO URI')
+                                else:
+                                    for result in results["results"]["bindings"]:
+                                        answeruri=result["c"]["value"]
+                                        #answerl=result["label"]["value"]
+                                        myterm.eurovoc_id=answeruri
+
+                            except:
+                                print('no term')
+
                         else:
                             for result in results["results"]["bindings"]:
                                 answeruri=result["c"]["value"]
@@ -250,46 +284,47 @@ def get_synonyms(myterm): #recoge sinónimos
 
 
 
-
 def get_translations(myterm): #recoge traducciones
-    label=['prefLabel','altLabel'] 
-    for l in label:
-        for lang in myterm.langOut:
-            if lang not in myterm.translations_eurovoc:
+    
+    for lang in myterm.langOut:
+        if lang not in myterm.translations_eurovoc:
                 myterm.translations_eurovoc[lang]=[]
                 try:
                     lang1='"'+lang+'"'
                     url=("http://sparql.lynx-project.eu/")
-                    query="""
-                    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                    SELECT ?c ?label
-                    WHERE {
-                    GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
-                    VALUES ?c { <"""+myterm.eurovoc_id+"""> }
-                    VALUES ?searchLang { """+lang1+""" undef} 
-                    VALUES ?relation { skos:"""+l+"""  } 
-                    ?c a skos:Concept . 
-                    ?c ?relation ?label . 
-                    filter ( lang(?label)=?searchLang )
-                    }
-                    }
-                    """
-                    r=requests.get(url, params={'format': 'json', 'query': query})
-                    results=json.loads(r.text)
-    
-                    if (len(results["results"]["bindings"])==0):
-                            trans=''
-                    else:
-                        for result in results["results"]["bindings"]:
-                            trans=result["label"]["value"]
-                            trans=trans.replace('(', '')
-                            trans=trans.replace(')', '')
-                            myterm.translations_eurovoc[lang].append(trans)
-                           
-            
-                except json.decoder.JSONDecodeError:
-                    pass
+                    labels=['prefLabel', 'altLabel']
+                    for label in labels:
+                        query="""
+                        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                        SELECT ?c ?label
+                        WHERE {
+                        GRAPH <http://sparql.lynx-project.eu/graph/eurovoc> {
+                        VALUES ?c { <"""+myterm.eurovoc_id+"""> }
+                        VALUES ?searchLang { """+lang1+""" undef} 
+                        VALUES ?relation { skos:"""+label+"""  } 
+                        ?c a skos:Concept . 
+                        ?c ?relation ?label . 
+                        filter ( lang(?label)=?searchLang )
+                        }
+                        }
+                        """
+                        r=requests.get(url, params={'format': 'json', 'query': query})
+                        results=json.loads(r.text)
+                        print(query)
         
+                        if (len(results["results"]["bindings"])==0):
+                                trans=''
+                        else:
+                            for result in results["results"]["bindings"]:
+                                trans=result["label"]["value"]
+                                trans=trans.replace('(', '')
+                                trans=trans.replace(')', '')
+                                print(trans)
+                                myterm.translations_eurovoc[lang].append(trans)
+                except:
+                    continue
+                           
+
       
     return(myterm)
             
@@ -330,7 +365,21 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    myterm.translations['eurovoc'][lang].append(trans_set)
+                    print(trans_set)
+                    if len(myterm.translations['eurovoc'][lang])<=0:
+                        myterm.translations['eurovoc'][lang].append(trans_set)
+                    else:
+                        if 'eurovoc' in myterm.synonyms:
+                            if lang in myterm.synonyms['eurovoc']:
+                                myterm.synonyms['eurovoc'][lang].append(trans_set)
+                            else:
+                                myterm.synonyms['eurovoc'][lang]=[]
+                                myterm.synonyms['eurovoc'][lang].append(trans_set)
+                        else:
+                            myterm.synonyms['eurovoc']={}
+                            myterm.synonyms['eurovoc'][lang]=[]
+                            myterm.synonyms['eurovoc'][lang].append(trans_set)
+                            
     
     if len(myterm.definitions_eurovoc)>0:
         myterm.definitions['eurovoc']={}

@@ -1,0 +1,102 @@
+{
+  "Source Term ID": "labour-agreement-en",
+  "Source Term": "agreement",
+  "Source Term Context": "the worker signed an employment agreement and now works in a company with a salary and team work is important and labour law is more important",
+  "Source Language": "en",
+  "ids": {
+    "iate": "https://iate.europa.eu/entry/result/786519",
+    "eurovoc": "http://eurovoc.europa.eu/1474"
+  },
+  "relations": {
+    "eurovoc": {
+      "broader": [
+        "http://eurovoc.europa.eu/4040"
+      ],
+      "narrower": [
+        "http://eurovoc.europa.eu/5404",
+        "http://eurovoc.europa.eu/5749",
+        "http://eurovoc.europa.eu/4048",
+        "http://eurovoc.europa.eu/5403"
+      ],
+      "related": [
+        "http://eurovoc.europa.eu/5827",
+        "http://eurovoc.europa.eu/3461",
+        "http://eurovoc.europa.eu/4030"
+      ]
+    }
+  },
+  "synonyms": {
+    "eurovoc": {
+      "en": [
+        {
+          "syn-id": "labour-ec-agreement-en",
+          "syn-value": "EC-agreement"
+        },
+        {
+          "syn-id": "labour-ec-third-country-convention-en",
+          "syn-value": "EC-third-country-convention"
+        },
+        {
+          "syn-id": "labour-eu-third-country-agreement-en",
+          "syn-value": "EU-third-country-agreement"
+        },
+        {
+          "syn-id": "labour-european-union-agreement-en",
+          "syn-value": "European-Union-agreement"
+        },
+        {
+          "syn-id": "labour-international-agreement-eu-en",
+          "syn-value": "international-agreement-EU"
+        }
+      ]
+    }
+  },
+  "translations": {
+    "iate": {
+      "es": [
+        {
+          "trans-id": "labour-acuerdo-es",
+          "trans-value": "acuerdo"
+        }
+      ]
+    },
+    "eurovoc": {
+      "es": [
+        {
+          "trans-id": "labour-acuerdo-ue-es",
+          "trans-value": "acuerdo-UE"
+        }
+      ]
+    }
+  },
+  "definitions": {
+    "iate": {
+      "en": [
+        {
+          "def-id": "agreement-en-def",
+          "def-value": "any legally binding, written or oral understanding between two or more States or between States and international organisations"
+        }
+      ],
+      "es": [
+        {
+          "def-id": "agreement-es-def",
+          "def-value": "Acto jurídico de Derecho Internacional Público celebrado entre Estados u organizaciones internacionales por el que se crean obligaciones convencionales entre éstos.En principio, a efectos de la Convención de Viena sobre el Derecho de los Tratados, las voces \"tratado\" IATE:49472 , \"acuerdo\", \"convenio\" IATE:829043 y \"convención\" son sinónimos.Ahora bien, el Consejo de Europa establece una diferencia entre \"acuerdo\" y \"convenio\" en cuanto a la forma en que cada Estado expresa su consentimiento en obligarse por el instrumento. Los convenios siempre están sujetos a ratificación IATE:852731 , en tanto que los acuerdos pueden firmarse con o sin reserva de ratificación. La denominación \"tratado\" suele reservarse para los más solemnes e importantes.Por su finalidad, tradicionalmente se distingue entre tratados-acuerdos (en alemán Vereinbarung), que crean, desenvuelven o modifican determinadas normas positivas del Derecho internacional, y tratados-contratos (en alemán Vertrag), que a través de un cambio de prestaciones internacionales intentan conciliar intereses diversos."
+        }
+      ]
+    }
+  },
+  "term_reference": {
+    "es": "Convención de Viena sobre el Derecho de los Tratados, art. 2 (BOE n.° 142 de 13-6-1980, p. 13099) http://www.boe.es/aeboe/consultas/bases_datos/doc.php?coleccion=iberlex&amp;id=1980/11884"
+  },
+  "language_note": {
+    "en": [],
+    "es": [
+      "Véanse \"tratado\" IATE:49472 y \"convenio\" IATE:829043 ."
+    ]
+  },
+  "related_iate": [
+    "IATE:49472",
+    "IATE:829043",
+    "IATE:852731"
+  ]
+}

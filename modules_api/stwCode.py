@@ -21,6 +21,7 @@ def enrich_term_stw(myterm):
 def get_uri(myterm): #recoge la uri del termino a buscar
     term='"^'+myterm.term+'$"'
     lang='"'+myterm.langIn+'"'
+    plural='"^'+myterm.term+'s'+'$"'
     try:
         url = ("http://sparql.lynx-project.eu/")
         query = """
@@ -45,7 +46,39 @@ def get_uri(myterm): #recoge la uri del termino a buscar
         
         
         if (len(results["results"]["bindings"])==0):
-            answeruri=''
+            print('CHECK PLURAL')
+            try:
+                url = "http://sparql.lynx-project.eu/"
+                query = """
+                    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                    SELECT ?c ?label ?prefEN
+                    WHERE {
+                    GRAPH <http://lkg.lynx-project.eu/stw> {
+                    ?c a skos:Concept .
+                    ?c ?p ?label. 
+                    ?c skos:prefLabel ?prefEN.
+                      FILTER regex(?label, """+plural+""", "i")
+            
+                      
+                      FILTER (lang(?prefEN) = """+lang+""")
+            
+                      FILTER (?p IN ( skos:prefLabel, skos:altLabel ) )
+                      
+            
+                    }  
+                    }
+                    """
+                print(query)    
+                r=requests.get(url, params={'format': 'json', 'query': query})
+                results=json.loads(r.text)
+                
+                if('results' in results.keys()):
+                    results2=results['results']
+                    bindings=results2['bindings']
+                    for b in range(len(bindings)):
+                        myterm.stw_id=bindings[b]['c']['value']
+            except: 
+                print('no plural')
         else:
             for result in results["results"]["bindings"]:
                 answeruri=result["c"]["value"]
@@ -175,43 +208,42 @@ def get_synonyms(myterm): #recoge sinónimos
     return(nameUri)
 
 def get_translations(myterm): #recoge traducciones
-    label=['prefLabel','altLabel'] 
-    for l in label:
-        
-        for lang in myterm.langOut:
+    for lang in myterm.langOut:
             if lang not in myterm.translations_stw:
                 myterm.translations_stw[lang]=[]
                 try:
                     lang1='"'+lang+'"'
                     url=("http://sparql.lynx-project.eu/")
-                    query="""
-                    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-                    SELECT ?c ?label
-                    WHERE {
-                    GRAPH <http://lkg.lynx-project.eu/stw> {
-                    VALUES ?c { <"""+myterm.stw_id+"""> }
-                    VALUES ?searchLang { """+lang1+""" undef} 
-                    VALUES ?relation { skos:"""+l+"""  } 
-                    ?c a skos:Concept . 
-                    ?c ?relation ?label . 
-                    filter ( lang(?label)=?searchLang )
-                    }
-                    }
-                    """
-                    r=requests.get(url, params={'format': 'json', 'query': query})
-                    results=json.loads(r.text)
-                    
-    
-                    if (len(results["results"]["bindings"])==0):
-                            trans=''
-                    else:
-                        for result in results["results"]["bindings"]:
-                            trans=result["label"]["value"]
-                            myterm.translations_stw[lang].append(trans)
+                    labels=['prefLabel','altLabel']
+                    for label in labels:
+                        query="""
+                        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+                        SELECT ?c ?label
+                        WHERE {
+                        GRAPH <http://lkg.lynx-project.eu/stw> {
+                        VALUES ?c { <"""+myterm.stw_id+"""> }
+                        VALUES ?searchLang { """+lang1+""" undef} 
+                        VALUES ?relation { skos:"""+label+"""  } 
+                        ?c a skos:Concept . 
+                        ?c ?relation ?label . 
+                        filter ( lang(?label)=?searchLang )
+                        }
+                        }
+                        """
+                        r=requests.get(url, params={'format': 'json', 'query': query})
+                        results=json.loads(r.text)
+                        
+        
+                        if (len(results["results"]["bindings"])==0):
+                                trans=''
+                        else:
+                            for result in results["results"]["bindings"]:
+                                trans=result["label"]["value"]
+                                myterm.translations_stw[lang].append(trans)
                            
             
-                except json.decoder.JSONDecodeError:
-                    pass
+                except: 
+                    continue
         
       
     return(myterm)
@@ -253,7 +285,19 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    myterm.translations['stw'][lang].append(trans_set)
+                    if len(myterm.translations['stw'][lang])<=0:
+                        myterm.translations['stw'][lang].append(trans_set)
+                    else:
+                        if 'stw' in myterm.synonyms:
+                            if lang in myterm.synonyms['stw']:
+                                myterm.synonyms['stw'][lang].append(trans_set)
+                            else:
+                                myterm.synonyms['stw'][lang]=[]
+                                myterm.synonyms['stw'][lang].append(trans_set)
+                        else:
+                            myterm.synonyms['stw']={}
+                            myterm.synonyms['stw'][lang]=[]
+                            myterm.synonyms['stw'][lang].append(trans_set)
     
     if len(myterm.definitions_stw)>0:
         myterm.definitions['stw']={}

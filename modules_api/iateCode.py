@@ -226,7 +226,7 @@ def retrieve_data_from_best_vector(myterm):
                         trans_ref=entry['term_references'][0]['text']
                         clean_trans_ref = re.sub(cleanr, '', trans_ref)
                         myterm.translations_iate[lang].append(trans)
-                        myterm.term_ref_iate[trans]=clean_trans_ref
+                        myterm.term_ref_iate[lang]=clean_trans_ref
                     except:
                             print('no term ref')
                             
@@ -240,7 +240,7 @@ def retrieve_data_from_best_vector(myterm):
                     myterm.synonyms_iate.append(syn)
                     syn_ref=e['term_references'][0]['text']
                     clean_syn_ref = re.sub(cleanr, '', syn_ref)
-                    myterm.term_ref_iate[syn]=clean_syn_ref
+                    myterm.term_ref_iate[lang]=clean_syn_ref
 
 
                     
@@ -303,7 +303,20 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    myterm.translations['iate'][lang].append(trans_set)
+                    print(trans_set)
+                    if len(myterm.translations['iate'][lang])<=0:
+                        myterm.translations['iate'][lang].append(trans_set)
+                    else:
+                        if 'iate' in myterm.synonyms:
+                            if lang in myterm.synonyms['iate']:
+                                myterm.synonyms['iate'][lang].append(trans_set)
+                            else:
+                                myterm.synonyms['iate'][lang]=[]
+                                myterm.synonyms['iate'][lang].append(trans_set)
+                        else:
+                            myterm.synonyms['iate']={}
+                            myterm.synonyms['iate'][lang]=[]
+                            myterm.synonyms['iate'][lang].append(trans_set)
     
     if len(myterm.definitions_iate)>0:
         myterm.definitions['iate']={}
