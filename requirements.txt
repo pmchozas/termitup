@@ -24,3 +24,5 @@ argparse==1.4.0
 uuid==1.30
 blueprint==3.4.2
 spacy==2.3.4
+rdflib==5.0.0
+flask_rdf==0.2.1

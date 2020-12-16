@@ -4058,3 +4058,11 @@ AssertionError: applications must write bytes
 17:56:56, WARNING  * Debugger is active!
 17:56:56, INFO  * Debugger PIN: 273-160-618
 17:58:30, INFO 127.0.0.1 - - [15/Dec/2020 17:58:30] "POST /rdf_conversion HTTP/1.1" 200 -
+09:39:43, INFO 127.0.0.1 - - [16/Dec/2020 09:39:43] "GET /swagger/ HTTP/1.1" 200 -
+09:39:43, INFO 127.0.0.1 - - [16/Dec/2020 09:39:43] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+09:39:43, INFO 127.0.0.1 - - [16/Dec/2020 09:39:43] "GET /swagger/swagger-ui.css HTTP/1.1" 304 -
+09:39:43, INFO 127.0.0.1 - - [16/Dec/2020 09:39:43] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+09:39:44, INFO 127.0.0.1 - - [16/Dec/2020 09:39:44] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+09:39:44, INFO 127.0.0.1 - - [16/Dec/2020 09:39:44] "GET /static/swagger.json HTTP/1.1" 200 -
+09:41:20, INFO 127.0.0.1 - - [16/Dec/2020 09:41:20] "GET /swagger/ HTTP/1.1" 200 -
+09:41:21, INFO 127.0.0.1 - - [16/Dec/2020 09:41:21] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
