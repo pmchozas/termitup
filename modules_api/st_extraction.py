@@ -8,8 +8,8 @@ def termex(corpus, lang_in):
     with io.open("./corpus.txt",'w',encoding='utf8') as f:      
         f.write(corpus)
     
-    print ("File exists:"+str(path.exists('./data/stop-esp.txt')))
-    print ("File exists:" + str(path.exists('./data/exclusion-regexps.txt'))) 
+    # print ("File exists:"+str(path.exists('./data/stop-esp.txt')))
+    # print ("File exists:" + str(path.exists('./data/exclusion-regexps.txt'))) 
     # print ("File exists:" + str(path.exists(corpus)))
     # print ("directory exists:" + str(path.exists('myDirectory')))
     # print('terminology extraction')
@@ -53,11 +53,12 @@ def termex(corpus, lang_in):
     for i in out:
         t=i.replace("\t", ",")
         s=re.sub("\d+", "", t)
-        print(s)
+        # print(s)
         for c in chars:
-            term=s.replace(c, '')
-            print(term)
-        newout.append(term)
+            if c in s:
+                term=s.replace(c, '')
+                # print(term)
+                newout.append(term)
     return(newout)
 
     
