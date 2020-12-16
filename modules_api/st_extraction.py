@@ -53,8 +53,10 @@ def termex(corpus, lang_in):
     for i in out:
         t=i.replace("\t", ",")
         s=re.sub("\d+", "", t)
+        print(s)
         for c in chars:
             term=s.replace(c, '')
+            print(term)
         newout.append(term)
     return(newout)
 
