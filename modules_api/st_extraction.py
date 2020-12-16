@@ -1,6 +1,7 @@
 from modules_api.TBXTools import *
 from os import path
 import io
+import re
 
 def termex(corpus, lang_in):
     
@@ -48,9 +49,13 @@ def termex(corpus, lang_in):
 	#extractor.select_unigrams("unigrams.txt",position=-1)
     out=extractor.save_term_candidates("./data/estatutoterms2.txt")
     newout=[]
+    chars=['\'', '\"', '!', '<', '>', ',', '.', ':']
     for i in out:
         t=i.replace("\t", ",")
-        newout.append(t)
+        s=re.sub("\d+", "", t)
+        for c in chars:
+            term=s.replace(c, '')
+        newout.append(term)
     return(newout)
 
     
