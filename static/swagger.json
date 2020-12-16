@@ -1,7 +1,7 @@
 {
 	"openapi": "3.0.0",
 	"info": {
-		"description": "TermitUp provides a set of terminology-related services that, combined, automate the generation of riched terminological networks from corpus. The services include five modules: 1) Terminology Extraction, 2) Terminology Post-processing, 3) Terminology Enrichment (through the Linguistic Linked Open Data cloud), 4) Terminological Relation Validation (with ConceptNet) and 5) Terminology Conversion in SKOS through RML mappings. [WORK IN PROGRESS] Pending work includes the conversion to ontolex-lemon vocabulary and publication of terminologies in a triple store. ",
+		"description": "TermitUp provides a set of terminology-related services that, combined, automate the generation of riched terminological networks from corpus. The services include five methods: 1) Terminology Extraction, 2) Terminology Post-processing, 3) Terminology Enrichment (through the Linguistic Linked Open Data cloud), 4) Terminological Relation Validation (with ConceptNet) and 5) Terminology Conversion in SKOS through RML mappings. [WORK IN PROGRESS] Pending work includes the conversion to ontolex-lemon vocabulary and publication of terminologies in a triple store. ",
 		"version": "1.0.0",
 		"title": "TermitUp",
 		"license": {
@@ -11,7 +11,7 @@
 	},
 	"tags": [
 		{
-			"name": "TermitUp Modules",
+			"name": "TermitUp Methods",
 			"description": "Set of methods to work with terminologies and corpus"
 		}
 	],
@@ -19,7 +19,7 @@
 		"/extract_terminology": {
 			"post": {
 				"tags": [
-					"TermitUp Modules"
+					"TermitUp Methods"
 				],
 				
 				"summary": "Extract terminology from corpus",
@@ -28,7 +28,7 @@
 						"in": "query",
 						"name": "lang_in",
 						"required": true,
-						"description": "Language of the source terms: es, en...",
+						"description": "Language of the source terms: es/en",
 						"schema": {
 							"$ref": "#/components/schemas/base"
 						}
@@ -37,7 +37,7 @@
 						"in": "query",
 						"name": "corpus",
 						"required": true,
-						"description": "Corpus in which the terms appear.",
+						"description": "Corpus in which the terms appear (without line breaks)",
 						"schema": {
 							"$ref": "#/components/schemas/corpusonly"
 						}
@@ -66,7 +66,7 @@
 		"/postproc_terminology": {
 			"post": {
 				"tags": [
-					"TermitUp Modules"
+					"TermitUp Methods"
 				],
 				
 				"summary": "Postprocess automatically extracted terminology",
@@ -122,7 +122,7 @@
 		"/enriching_terminology": {
 			"post": {
 				"tags": [
-					"TermitUp Modules"
+					"TermitUp Methods"
 				],
 				
 				"summary": "Enriches the extracted terms with disambiguated data",
@@ -161,7 +161,7 @@
 		"/relation_validation": {
 			"post": {
 				"tags": [
-					"TermitUp Modules"
+					"TermitUp Methods"
 				],
 				
 				"summary": "Validates synonymy relations with ConceptNet",
@@ -216,7 +216,7 @@
 		"/rdf_conversion": {
 			"post": {
 				"tags": [
-					"TermitUp Modules"
+					"TermitUp Methods"
 				],
 				
 				"summary": "Converts json output to SKOS",
