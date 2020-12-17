@@ -269,7 +269,7 @@ def enrinching_terminology():
     terms= json_data['terms']
     termlist=terms.split(', ')             
     
-    all_data={}
+    all_data=[]
     for t in termlist:
         print(t)
         myterm=Term.Term()
@@ -280,7 +280,7 @@ def enrinching_terminology():
         myterm.langOut=lang.split(', ')
         term_id.create_id(myterm)
         term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo)
-        all_data.update(term_data)
+        all_data.append(term_data)
         del myterm 
             
 
