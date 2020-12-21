@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "@base": "https://termitup.oeg.fi.upm.es/resource",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "skos-xl":"http://www.w3.org/2008/05/skos-xl#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "cc":"http://creativecommons.org/ns#",
+        "ontolex":"http://www.w3.org/ns/lemon/ontolex#",
+        "lexicog":"http://www.w3.org/ns/lemon/lexicog#",
+        "prov":"http://www.w3.org/ns/prov#",
+        "schema":"http://schema.org/",
+        "lexinfo":"http://www.lexinfo.net/ontology/2.0/lexinfo#",
+        "vartrans":"http://www.w3.org/ns/lemon/vartrans#",
+        "conceptScheme": {
+            "@id":"skos:ConceptScheme",
+            "@type":"@id"
+        },
+        "inScheme": {
+            "@id":"skos:inScheme",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id":"skos:broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id":"skos:narrower",
+            "@type": "@id"
+        },
+        "related": {
+            "@id":"skos:related",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id":"skos:hasTopConcept",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id":"skos:topConceptOf",
+            "@type": "@id"
+        },
+        "prefLabel": "skos:prefLabel",
+        "altLabel": "skos:altLabel",
+        "notation": "skos:notation",
+        "definition": "skos:definition",
+        "source":"dc:source",
+        "creator":"dc:creator",
+        "description":"dc:description",
+        "date":"dc:date",
+        "title":"dc:title",
+        "sameAs":"owl:sameAs",
+        "note":"skos:note",
+        "example":"skos:example",
+        "closeMatch":"skos:closeMatch",
+        "exactMatch":"skos:exactMatch",
+        "scopeNote":"skos:scopeNote",
+        "literalForm":"skos-xl:literalForm",
+        "jurisdiction":"cc:jurisdiction",
+        "frequency":"dcterms:Frequency",
+        "lexicalEntry":"ontolex:lexicalEntry",
+        "lexicalSense":"ontolex:lexicalSense",
+        "value":"rdf:value",
+        "label":"rdfs:label",
+        "form":"ontolex:Form",
+        "writtenRep":"ontolex:writtenRep",
+        "synonym":"lexinfo:synonym",
+        "senseRelation":"vartrans:SenseRelation",
+        "translation":"vartrans:translation",
+        "usageExample":"lexicog:usageExample"
+
+    }
+}

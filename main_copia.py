@@ -48,7 +48,7 @@ myterm.langOut=lang.split(', ')
 myterm.schema='test'
 test= wikidataCode.enrich_term_wikidata(myterm)
 # test2= stwCode.enrich_term_stw(myterm)
-# test3= eurovocCode.enrich_term_eurovoc(myterm)
+test3= eurovocCode.enrich_term_eurovoc(myterm)
 
 
 myterm.ids['ids']={}

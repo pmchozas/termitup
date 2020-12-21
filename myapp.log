@@ -4223,3 +4223,202 @@ AssertionError: applications must write bytes
 13:17:53, INFO 127.0.0.1 - - [16/Dec/2020 13:17:53] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
 13:17:53, INFO 127.0.0.1 - - [16/Dec/2020 13:17:53] "GET /static/swagger.json HTTP/1.1" 200 -
 13:17:59, INFO 127.0.0.1 - - [16/Dec/2020 13:17:59] "POST /extract_terminology?lang_in=es&corpus=El%20contrato%20de%20trabajo%20se%20podrá%20celebrar%20por%20escrito%20o%20de%20palabra.%20Se%20presumirá%20existente%20entre%20todo%20el%20que%20presta%20un%20servicio%20por%20cuenta%20y%20dentro%20del%20ámbito%20de%20organización%20y%20dirección%20de%20otro%20y%20el%20que%20lo%20recibe%20a%20cambio%20de%20una%20retribución%20a%20aquel.%20%202.%20Deberán%20constar%20por%20escrito%20los%20contratos%20de%20trabajo%20cuando%20así%20lo%20exija%20una%20disposición%20legal%20y%2C%20en%20todo%20caso%2C%20los%20de%20prácticas%20y%20para%20la%20formación%20y%20el%20aprendizaje%2C%20los%20contratos%20a%20tiempo%20parcial%2C%20fijos-discontinuos%20y%20de%20relevo%2C%20los%20contratos%20para%20la%20realización%20de%20una%20obra%20o%20servicio%20determinado%2C%20los%20de%20los%20trabajadores%20que%20trabajen%20a%20distancia%20y%20los%20contratados%20en%20España%20al%20servicio%20de%20empresas%20españolas%20en%20el%20extranjero.%20Igualmente%20constarán%20por%20escrito%20los%20contratos%20por%20tiempo%20determinado%20cuya%20duración%20sea%20superior%20a%20cuatro%20semanas.%20De%20no%20observarse%20tal%20exigencia%2C%20el%20contrato%20se%20presumirá%20celebrado%20por%20tiempo%20indefinido%20y%20a%20jornada%20completa%2C%20salvo%20prueba%20en%20contrario%20que%20acredite%20su%20naturaleza%20temporal%20o%20el%20carácter%20a%20tiempo%20parcial%20de%20los%20servicios.%20%20Cualquiera%20de%20las%20partes%20podrá%20exigir%20que%20el%20contrato%20se%20formalice%20por%20escrito%2C%20incluso%20durante%20el%20transcurso%20de%20la%20relación%20laboral.%20%203.%20El%20empresario%20está%20obligado%20a%20comunicar%20a%20la%20oficina%20pública%20de%20empleo%2C%20en%20el%20plazo%20de%20los%20diez%20días%20siguientes%20a%20su%20concertación%20y%20en%20los%20términos%20que%20reglamentariamente%20se%20determinen%2C%20el%20contenido%20de%20los%20contratos%20de%20trabajo%20que%20celebre%20o%20las%20prórrogas%20de%20los%20mismos%2C%20deban%20o%20no%20formalizarse%20por%20escrito.%20%204.%20El%20empresario%20entregará%20a%20la%20representación%20legal%20de%20los%20trabajadores%20una%20copia%20básica%20de%20todos%20los%20contratos%20que%20deban%20celebrarse%20por%20escrito%2C%20a%20excepción%20de%20los%20contratos%20de%20relación%20laboral%20especial%20de%20alta%20dirección%20sobre%20los%20que%20se%20establece%20el%20deber%20de%20notificación%20a%20la%20representación%20legal%20de%20los%20trabajadores.%20%20Con%20el%20fin%20de%20comprobar%20la%20adecuación%20del%20contenido%20del%20contrato%20a%20la%20legalidad%20vigente%2C%20esta%20copia%20básica%20contendrá%20todos%20los%20datos%20del%20contrato%20a%20excepción%20del%20número%20del%20documento%20nacional%20de%20identidad%20o%20del%20número%20de%20identidad%20de%20extranjero%2C%20el%20domicilio%2C%20el%20estado%20civil%2C%20y%20cualquier%20otro%20que%2C%20de%20acuerdo%20con%20la%20Ley%20Orgánica%201%2F1982%2C%20de%205%20de%20mayo%2C%20de%20protección%20civil%20del%20derecho%20al%20honor%2C%20a%20la%20intimidad%20personal%20y%20familiar%20y%20a%20la%20propia%20imagen%2C%20pudiera%20afectar%20a%20la%20intimidad%20personal.%20El%20tratamiento%20de%20la%20información%20facilitada%20estará%20sometido%20a%20los%20principios%20y%20garantías%20previstos%20en%20la%20normativa%20aplicable%20en%20materia%20de%20protección%20de%20datos.%20%20La%20copia%20básica%20se%20entregará%20por%20el%20empresario%2C%20en%20plazo%20no%20superior%20a%20diez%20días%20desde%20la%20formalización%20del%20contrato%2C%20a%20los%20representantes%20legales%20de%20los%20trabajadores%2C%20quienes%20la%20firmarán%20a%20efectos%20de%20acreditar%20que%20se%20ha%20producido%20la%20entrega.%20%20Posteriormente%2C%20dicha%20copia%20básica%20se%20enviará%20a%20la%20oficina%20de%20empleo.%20Cuando%20no%20exista%20representación%20legal%20de%20los%20trabajadores%20también%20deberá%20formalizarse%20copia%20básica%20y%20remitirse%20a%20la%20oficina%20de%20empleo.%20%20Los%20representantes%20de%20la%20Administración%2C%20así%20como%20los%20de%20las%20organizaciones%20sindicales%20y%20de%20las%20asociaciones%20empresariales%2C%20que%20tengan%20acceso%20a%20la%20copia%20básica%20de%20los%20contratos%20en%20virtud%20de%20su%20pertenencia%20a%20los%20órganos%20de%20participación%20institucional%20que%20reglamentariamente%20tengan%20tales%20facultades%2C%20observarán%20sigilo%20profesional%2C%20no%20pudiendo%20utilizar%20dicha%20documentación%20para%20fines%20distintos%20de%20los%20que%20motivaron%20su%20conocimiento.%20%205.%20Cuando%20la%20relación%20laboral%20sea%20de%20duración%20superior%20a%20cuatro%20semanas%2C%20el%20empresario%20deberá%20informar%20por%20escrito%20al%20trabajador%2C%20en%20los%20términos%20y%20plazos%20que%20se%20establezcan%20reglamentariamente%2C%20sobre%20los%20elementos%20esenciales%20del%20contrato%20y%20las%20principales%20condiciones%20de%20ejecución%20de%20la%20prestación%20laboral%2C%20siempre%20que%20tales%20elementos%20y%20condiciones%20no%20figuren%20en%20el%20contrato%20de%20trabajo%20formalizado%20por%20escrito.%20%20Artículo%209.%20Validez%20del%20contrato.%201.%20Si%20resultase%20nula%20solo%20una%20parte%20del%20contrato%20de%20trabajo%2C%20este%20permanecerá%20válido%20en%20lo%20restante%2C%20y%20se%20entenderá%20completado%20con%20los%20preceptos%20jurídicos%20adecuados%20conforme%20a%20lo%20dispuesto%20en%20el%20artículo%203.1.%20%20Si%20el%20trabajador%20tuviera%20asignadas%20condiciones%20o%20retribuciones%20especiales%20en%20virtud%20de%20contraprestaciones%20establecidas%20en%20la%20parte%20no%20válida%20del%20contrato%2C%20el%20órgano%20de%20la%20jurisdicción%20social%20que%20a%20instancia%20de%20parte%20declare%20la%20nulidad%20hará%20el%20debido%20pronunciamiento%20sobre%20la%20subsistencia%20o%20supresión%20en%20todo%20o%20en%20parte%20de%20dichas%20condiciones%20o%20retribuciones.%20%20Artículo%2011.%20Contratos%20formativos. HTTP/1.1" 200 -
+12:27:59, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:27:59, INFO  * Restarting with fsevents reloader
+12:28:06, WARNING  * Debugger is active!
+12:28:06, INFO  * Debugger PIN: 273-160-618
+12:28:11, INFO 127.0.0.1 - - [18/Dec/2020 12:28:11] "GET /swagger/ HTTP/1.1" 200 -
+12:28:11, INFO 127.0.0.1 - - [18/Dec/2020 12:28:11] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:28:11, INFO 127.0.0.1 - - [18/Dec/2020 12:28:11] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:28:11, INFO 127.0.0.1 - - [18/Dec/2020 12:28:11] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:28:14, INFO 127.0.0.1 - - [18/Dec/2020 12:28:14] "GET /static/swagger.json HTTP/1.1" 200 -
+12:28:14, INFO 127.0.0.1 - - [18/Dec/2020 12:28:14] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+12:29:36, INFO 127.0.0.1 - - [18/Dec/2020 12:29:36] "POST /enriching_terminology HTTP/1.1" 500 -
+12:37:36, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:37:36, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:37:39, INFO  * Restarting with fsevents reloader
+12:37:45, WARNING  * Debugger is active!
+12:37:45, INFO  * Debugger PIN: 273-160-618
+12:37:50, INFO 127.0.0.1 - - [18/Dec/2020 12:37:50] "GET /swagger/ HTTP/1.1" 200 -
+12:38:06, INFO 127.0.0.1 - - [18/Dec/2020 12:38:06] "POST /enriching_terminology HTTP/1.1" 200 -
+12:43:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:43:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:43:55, INFO  * Restarting with fsevents reloader
+12:44:01, WARNING  * Debugger is active!
+12:44:01, INFO  * Debugger PIN: 273-160-618
+12:44:10, INFO 127.0.0.1 - - [18/Dec/2020 12:44:10] "POST /enriching_terminology HTTP/1.1" 200 -
+12:52:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:52:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:52:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:52:50, INFO  * Restarting with fsevents reloader
+12:53:02, WARNING  * Debugger is active!
+12:53:02, INFO  * Debugger PIN: 273-160-618
+13:08:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:08:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:08:29, INFO  * Restarting with fsevents reloader
+13:08:37, WARNING  * Debugger is active!
+13:08:37, INFO  * Debugger PIN: 273-160-618
+13:08:50, INFO 127.0.0.1 - - [18/Dec/2020 13:08:50] "POST /enriching_terminology HTTP/1.1" 500 -
+13:09:46, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:09:46, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+13:09:47, INFO  * Restarting with fsevents reloader
+13:09:52, WARNING  * Debugger is active!
+13:09:52, INFO  * Debugger PIN: 273-160-618
+13:10:27, INFO 127.0.0.1 - - [18/Dec/2020 13:10:27] "POST /enriching_terminology HTTP/1.1" 500 -
+14:26:23, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:26:23, INFO  * Restarting with fsevents reloader
+14:26:27, WARNING  * Debugger is active!
+14:26:27, INFO  * Debugger PIN: 273-160-618
+14:26:37, INFO 127.0.0.1 - - [18/Dec/2020 14:26:37] "GET /swagger/ HTTP/1.1" 200 -
+14:27:47, INFO 127.0.0.1 - - [18/Dec/2020 14:27:47] "POST /enriching_terminology HTTP/1.1" 500 -
+14:27:53, INFO 127.0.0.1 - - [18/Dec/2020 14:27:53] "POST /enriching_terminology HTTP/1.1" 500 -
+14:48:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:48:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:48:02, INFO  * Restarting with fsevents reloader
+14:48:07, WARNING  * Debugger is active!
+14:48:07, INFO  * Debugger PIN: 273-160-618
+14:48:46, INFO 127.0.0.1 - - [18/Dec/2020 14:48:46] "POST /enriching_terminology HTTP/1.1" 200 -
+14:55:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:55:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+14:55:36, INFO  * Restarting with fsevents reloader
+14:55:41, WARNING  * Debugger is active!
+14:55:41, INFO  * Debugger PIN: 273-160-618
+14:55:53, INFO 127.0.0.1 - - [18/Dec/2020 14:55:53] "GET /swagger/ HTTP/1.1" 200 -
+14:57:28, INFO 127.0.0.1 - - [18/Dec/2020 14:57:28] "GET /swagger/ HTTP/1.1" 200 -
+15:00:28, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:00:28, INFO  * Restarting with fsevents reloader
+15:00:31, WARNING  * Debugger is active!
+15:00:31, INFO  * Debugger PIN: 273-160-618
+15:01:11, INFO 127.0.0.1 - - [18/Dec/2020 15:01:11] "GET /swagger/ HTTP/1.1" 200 -
+15:03:41, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:03:41, INFO  * Restarting with fsevents reloader
+15:03:45, WARNING  * Debugger is active!
+15:03:45, INFO  * Debugger PIN: 273-160-618
+15:05:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:05:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:05:46, INFO  * Restarting with fsevents reloader
+15:05:50, WARNING  * Debugger is active!
+15:05:50, INFO  * Debugger PIN: 273-160-618
+15:15:46, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:15:46, INFO  * Restarting with fsevents reloader
+15:15:50, WARNING  * Debugger is active!
+15:15:50, INFO  * Debugger PIN: 273-160-618
+15:16:03, INFO 127.0.0.1 - - [18/Dec/2020 15:16:03] "GET /swagger/ HTTP/1.1" 200 -
+15:16:16, INFO 127.0.0.1 - - [18/Dec/2020 15:16:16] "POST /enriching_terminology HTTP/1.1" 200 -
+15:24:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:24:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:24:22, INFO  * Restarting with fsevents reloader
+15:24:28, WARNING  * Debugger is active!
+15:24:28, INFO  * Debugger PIN: 273-160-618
+15:24:44, INFO 127.0.0.1 - - [18/Dec/2020 15:24:44] "POST /enriching_terminology HTTP/1.1" 500 -
+15:25:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:25:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:25:43, INFO  * Restarting with fsevents reloader
+15:25:49, WARNING  * Debugger is active!
+15:25:49, INFO  * Debugger PIN: 273-160-618
+15:25:58, INFO 127.0.0.1 - - [18/Dec/2020 15:25:58] "POST /enriching_terminology HTTP/1.1" 200 -
+15:27:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:27:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:27:51, INFO  * Restarting with fsevents reloader
+15:27:57, WARNING  * Debugger is active!
+15:27:57, INFO  * Debugger PIN: 273-160-618
+15:28:05, INFO 127.0.0.1 - - [18/Dec/2020 15:28:05] "POST /enriching_terminology HTTP/1.1" 200 -
+15:28:51, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:28:51, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:28:52, INFO  * Restarting with fsevents reloader
+15:28:58, WARNING  * Debugger is active!
+15:28:58, INFO  * Debugger PIN: 273-160-618
+15:29:07, INFO 127.0.0.1 - - [18/Dec/2020 15:29:07] "POST /enriching_terminology HTTP/1.1" 200 -
+15:30:52, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:30:52, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:30:53, INFO  * Restarting with fsevents reloader
+15:30:59, WARNING  * Debugger is active!
+15:30:59, INFO  * Debugger PIN: 273-160-618
+15:31:10, INFO 127.0.0.1 - - [18/Dec/2020 15:31:10] "POST /enriching_terminology HTTP/1.1" 200 -
+15:32:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:32:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:32:27, INFO  * Restarting with fsevents reloader
+15:32:32, WARNING  * Debugger is active!
+15:32:33, INFO  * Debugger PIN: 273-160-618
+15:32:41, INFO 127.0.0.1 - - [18/Dec/2020 15:32:41] "POST /enriching_terminology HTTP/1.1" 200 -
+15:33:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:33:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:33:18, INFO  * Restarting with fsevents reloader
+15:33:23, WARNING  * Debugger is active!
+15:33:23, INFO  * Debugger PIN: 273-160-618
+15:33:48, INFO 127.0.0.1 - - [18/Dec/2020 15:33:48] "POST /enriching_terminology HTTP/1.1" 200 -
+15:36:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:36:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:36:15, INFO  * Restarting with fsevents reloader
+15:36:20, WARNING  * Debugger is active!
+15:36:20, INFO  * Debugger PIN: 273-160-618
+15:36:32, INFO 127.0.0.1 - - [18/Dec/2020 15:36:32] "POST /enriching_terminology HTTP/1.1" 200 -
+15:40:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:40:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:40:06, INFO  * Restarting with fsevents reloader
+15:40:11, WARNING  * Debugger is active!
+15:40:11, INFO  * Debugger PIN: 273-160-618
+15:40:33, INFO 127.0.0.1 - - [18/Dec/2020 15:40:33] "POST /enriching_terminology HTTP/1.1" 200 -
+15:50:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:50:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:50:41, INFO  * Restarting with fsevents reloader
+15:50:48, WARNING  * Debugger is active!
+15:50:48, INFO  * Debugger PIN: 273-160-618
+15:51:24, INFO 127.0.0.1 - - [18/Dec/2020 15:51:24] "POST /enriching_terminology HTTP/1.1" 200 -
+15:59:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:59:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+15:59:13, INFO  * Restarting with fsevents reloader
+15:59:19, WARNING  * Debugger is active!
+15:59:19, INFO  * Debugger PIN: 273-160-618
+16:00:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:00:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:00:08, INFO  * Restarting with fsevents reloader
+16:00:14, WARNING  * Debugger is active!
+16:00:14, INFO  * Debugger PIN: 273-160-618
+16:00:23, INFO 127.0.0.1 - - [18/Dec/2020 16:00:23] "POST /enriching_terminology HTTP/1.1" 200 -
+16:02:34, INFO 127.0.0.1 - - [18/Dec/2020 16:02:34] "POST /enriching_terminology HTTP/1.1" 200 -
+16:02:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:02:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:02:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:02:55, INFO  * Restarting with fsevents reloader
+16:03:01, WARNING  * Debugger is active!
+16:03:01, INFO  * Debugger PIN: 273-160-618
+16:07:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:07:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:07:02, INFO  * Restarting with fsevents reloader
+16:07:12, WARNING  * Debugger is active!
+16:07:12, INFO  * Debugger PIN: 273-160-618
+16:09:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:09:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:09:24, INFO  * Restarting with fsevents reloader
+16:09:34, WARNING  * Debugger is active!
+16:09:34, INFO  * Debugger PIN: 273-160-618
+16:09:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:09:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:09:55, INFO  * Restarting with fsevents reloader
+16:10:06, WARNING  * Debugger is active!
+16:10:06, INFO  * Debugger PIN: 273-160-618
+16:30:57, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:30:57, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:30:57, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:30:59, INFO  * Restarting with fsevents reloader
+16:31:12, WARNING  * Debugger is active!
+16:31:12, INFO  * Debugger PIN: 273-160-618
+16:39:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:39:01, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:39:03, INFO  * Restarting with fsevents reloader
+16:39:14, WARNING  * Debugger is active!
+16:39:14, INFO  * Debugger PIN: 273-160-618
+16:44:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:44:05, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:44:07, INFO  * Restarting with fsevents reloader
+16:44:16, WARNING  * Debugger is active!
+16:44:16, INFO  * Debugger PIN: 273-160-618
+16:50:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:50:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:50:59, INFO  * Restarting with fsevents reloader
+16:51:10, WARNING  * Debugger is active!
+16:51:10, INFO  * Debugger PIN: 273-160-618
+16:54:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:54:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:54:04, INFO  * Restarting with fsevents reloader
