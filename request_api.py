@@ -432,7 +432,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         myterm.relations["relations"]["ilo"]=myterm.ilo_relations
 
 
-    data_ld={
+    skos_data={
                 "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                 "@type": "skos:Concept",
                 "@id": myterm.term_id,
@@ -460,7 +460,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         "@value":myterm.term
         }
     
-    data_ld["prefLabel"].append(src_pref)
+    skos_data["prefLabel"].append(src_pref)
     
     
     for langout in myterm.langOut:
@@ -489,43 +489,19 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                        if trans_pref not in control_dict:
                            control_dict.append(trans_pref)
                            if(ispref):
-                               data_ld["prefLabel"].append(trans_pref)
+                               skos_data["prefLabel"].append(trans_pref)
                            else:
-                               data_ld["altLabel"].append(trans_pref)   
+                               skos_data["altLabel"].append(trans_pref)   
                        else:
                            continue
                            
-                           
-
-                               # if langout not in i["@language"]:
-                               #    d
-                               # else:
-                               #     data_ld["altLabel"].append(trans_pref)  
-                       # for i in data_ld["prefLabel"]:
-                       #      if langout not in i["@language"]:
-                       #          data_ld["prefLabel"].append(trans_pref)
-                       #      else:
-                       #          data_ld["altLabel"].append(trans_pref)
-                               
-                       # if data_ld["prefLabel"]
-                       # data_ld["prefLabel"].append(trans_pref)
-                       
-                       # for pref_set in data_ld["prefLabel"]:
-                       #      print("prefset")
-                       #      print(pref_set)
-                       #      if langout not in pref_set:
-                       #          data_ld["prefLabel"].append(trans_pref)
-                       #      else:
-                       #          data_ld["altLabel"].append(trans_pref)
-    
-    
-    
+                                     
     
     if iate == True:
-        data_ld["source"].append(myterm.iate_id)
+        skos_data["source"].append(myterm.iate_id)
         if len(myterm.related_ids_iate)>0:
             for related in myterm.related_ids_iate:
-                data_ld["related"].append(related)
+                skos_data["related"].append(related)
         
         if len(myterm.note_iate)>0:
             for lang in myterm.note_iate.keys():
@@ -534,7 +510,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                         "@language":lang,
                         "@value":note,
                         }
-                    data_ld["note"].append(note_set)
+                    skos_data["note"].append(note_set)
         
         if len(myterm.definitions_iate)>0:
             for lang in myterm.definitions_iate.keys():
@@ -543,10 +519,10 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                         "@language":lang,
                         "@value":defi,
                         }
-                    data_ld["definition"].append(def_set)
+                    skos_data["definition"].append(def_set)
             
     if eurovoc == True:
-        data_ld["closeMatch"].append(myterm.eurovoc_id)
+        skos_data["closeMatch"].append(myterm.eurovoc_id)
         if len(myterm.definitions_eurovoc)>0:
             for lang in myterm.definitions_eurovoc.keys():
                 for defi in myterm.definitions_eurovoc[lang]:
@@ -554,20 +530,20 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                         "@language":lang,
                         "@value":defi,
                         }
-                    data_ld["definition"].append(def_set)
+                    skos_data["definition"].append(def_set)
         if len(myterm.eurovoc_relations) >0:
             if "broader" in myterm.eurovoc_relations.keys():
                 for broader in myterm.eurovoc_relations["broader"]:
-                    data_ld["broader"].append(broader)
+                    skos_data["broader"].append(broader)
             if "narrower" in myterm.eurovoc_relations.keys():
                 for narrower in myterm.eurovoc_relations["narrower"]:
-                    data_ld["narrower"].append(narrower)
+                    skos_data["narrower"].append(narrower)
             if "related" in myterm.eurovoc_relations.keys():
                 for related in myterm.eurovoc_relations["related"]:
-                    data_ld["related"].append(related)            
+                    skos_data["related"].append(related)            
 
     if wikidata == True:
-        data_ld["closeMatch"].append(myterm.wikidata_id)
+        skos_data["closeMatch"].append(myterm.wikidata_id)
         if len(myterm.definitions_wikidata)>0:
             for lang in myterm.definitions_wikidata.keys():
                 for defi in myterm.definitions_wikidata[lang]:
@@ -575,22 +551,104 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                         "@language":lang,
                         "@value":defi,
                         }
-                    data_ld["definition"].append(def_set)
+                    skos_data["definition"].append(def_set)
         if len(myterm.wikidata_relations) >0:
             if "broader" in myterm.wikidata_relations.keys():
                 for broader in myterm.wikidata_relations["broader"]:
-                    data_ld["broader"].append(broader)
+                    skos_data["broader"].append(broader)
             if "narrower" in myterm.wikidata_relations.keys():
                 for narrower in myterm.wikidata_relations["narrower"]:
-                    data_ld["narrower"].append(narrower)
+                    skos_data["narrower"].append(narrower)
             if "related" in myterm.wikidata_relations.keys():
                 for related in myterm.wikidata_relations["related"]:
-                    data_ld["related"].append(related)     
-                    
+                    skos_data["related"].append(related)     
 
-    print(data_ld)
+    if unesco == True:
+        skos_data["closeMatch"].append(myterm.unesco_id)
+        if len(myterm.definitions_unesco)>0:
+            for lang in myterm.definitions_unesco.keys():
+                for defi in myterm.definitions_unesco[lang]:
+                    def_set={
+                        "@language":lang,
+                        "@value":defi,
+                        }
+                    skos_data["definition"].append(def_set)
+        if len(myterm.unesco_relations) >0:
+            if "broader" in myterm.unesco_relations.keys():
+                for broader in myterm.unesco_relations["broader"]:
+                    skos_data["broader"].append(broader)
+            if "narrower" in myterm.unesco_relations.keys():
+                for narrower in myterm.unesco_relations["narrower"]:
+                    skos_data["narrower"].append(narrower)
+            if "related" in myterm.unesco_relations.keys():
+                for related in myterm.unesco_relations["related"]:
+                    skos_data["related"].append(related)
+                    
+    if ilo == True:
+        skos_data["closeMatch"].append(myterm.ilo_id)
+        if len(myterm.definitions_ilo)>0:
+            for lang in myterm.definitions_ilo.keys():
+                for defi in myterm.definitions_ilo[lang]:
+                    def_set={
+                        "@language":lang,
+                        "@value":defi,
+                        }
+                    skos_data["definition"].append(def_set)
+        if len(myterm.ilo_relations) >0:
+            if "broader" in myterm.ilo_relations.keys():
+                for broader in myterm.ilo_relations["broader"]:
+                    skos_data["broader"].append(broader)
+            if "narrower" in myterm.ilo_relations.keys():
+                for narrower in myterm.ilo_relations["narrower"]:
+                    skos_data["narrower"].append(narrower)
+            if "related" in myterm.ilo_relations.keys():
+                for related in myterm.ilo_relations["related"]:
+                    skos_data["related"].append(related)
+                    
+    if stw == True:
+        skos_data["closeMatch"].append(myterm.stw_id)
+        if len(myterm.definitions_stw)>0:
+            for lang in myterm.definitions_stw.keys():
+                for defi in myterm.definitions_stw[lang]:
+                    def_set={
+                        "@language":lang,
+                        "@value":defi,
+                        }
+                    skos_data["definition"].append(def_set)
+        if len(myterm.stw_relations) >0:
+            if "broader" in myterm.stw_relations.keys():
+                for broader in myterm.stw_relations["broader"]:
+                    skos_data["broader"].append(broader)
+            if "narrower" in myterm.stw_relations.keys():
+                for narrower in myterm.stw_relations["narrower"]:
+                    skos_data["narrower"].append(narrower)
+            if "related" in myterm.stw_relations.keys():
+                for related in myterm.stw_relations["related"]:
+                    skos_data["related"].append(related)
+
+    if thesoz == True:
+        skos_data["closeMatch"].append(myterm.thesoz_id)
+        if len(myterm.definitions_thesoz)>0:
+            for lang in myterm.definitions_thesoz.keys():
+                for defi in myterm.definitions_thesoz[lang]:
+                    def_set={
+                        "@language":lang,
+                        "@value":defi,
+                        }
+                    skos_data["definition"].append(def_set)
+        if len(myterm.thesoz_relations) >0:
+            if "broader" in myterm.thesoz_relations.keys():
+                for broader in myterm.thesoz_relations["broader"]:
+                    skos_data["broader"].append(broader)
+            if "narrower" in myterm.thesoz_relations.keys():
+                for narrower in myterm.thesoz_relations["narrower"]:
+                    skos_data["narrower"].append(narrower)
+            if "related" in myterm.thesoz_relations.keys():
+                for related in myterm.thesoz_relations["related"]:
+                    skos_data["related"].append(related)
+    # print(skos_data)
     
-    return data_ld
+    return skos_data
     
     
     # data_mappings.update(myterm.ids)
@@ -773,16 +831,16 @@ def rdf_conversion():
 
 
 
-json_data = {
-  "terms": "contrato",
-  "resources": "iate, eurovoc",
-  "source_language": "es",
-  "target_languages": "en, de",
-  "schema_name": "labour",
-  "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero"
-}
+# json_data = {
+#   "terms": "contrato",
+#   "resources": "iate, eurovoc",
+#   "source_language": "es",
+#   "target_languages": "en, de",
+#   "schema_name": "labour",
+#   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero"
+# }
 
 
-test=enrinching_terminology_internal(json_data)
+# test=enrinching_terminology_internal(json_data)
 
-print(test)
+# print(test)

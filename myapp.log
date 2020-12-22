@@ -4422,3 +4422,22 @@ AssertionError: applications must write bytes
 16:54:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
 16:54:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
 16:54:04, INFO  * Restarting with fsevents reloader
+12:13:21, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:13:21, INFO  * Restarting with fsevents reloader
+12:13:26, WARNING  * Debugger is active!
+12:13:26, INFO  * Debugger PIN: 273-160-618
+12:14:23, INFO 127.0.0.1 - - [22/Dec/2020 12:14:23] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:14:23, INFO 127.0.0.1 - - [22/Dec/2020 12:14:23] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:14:23, INFO 127.0.0.1 - - [22/Dec/2020 12:14:23] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:14:24, INFO 127.0.0.1 - - [22/Dec/2020 12:14:24] "GET /static/swagger.json HTTP/1.1" 200 -
+12:14:24, INFO 127.0.0.1 - - [22/Dec/2020 12:14:24] "GET /swagger/ HTTP/1.1" 200 -
+12:14:24, INFO 127.0.0.1 - - [22/Dec/2020 12:14:24] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+12:15:27, INFO 127.0.0.1 - - [22/Dec/2020 12:15:27] "POST /enriching_terminology HTTP/1.1" 200 -
+12:21:41, INFO 127.0.0.1 - - [22/Dec/2020 12:21:41] "POST /enriching_terminology HTTP/1.1" 200 -
+13:00:49, INFO 213.6.32.122 - - [22/Dec/2020 13:00:49] "GET / HTTP/1.1" 200 -
+17:57:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:57:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:57:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+17:57:09, INFO  * Restarting with fsevents reloader
+17:57:14, WARNING  * Debugger is active!
+17:57:14, INFO  * Debugger PIN: 273-160-618
