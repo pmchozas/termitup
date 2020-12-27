@@ -82,6 +82,9 @@ class Term:
     ids={}
     preflabels={}
     altlabels={}
+    lexical_sense_id=""
+    lexical_entry_id=""
+    form_id=""
     
     
     ### test
@@ -165,6 +168,9 @@ class Term:
         self.relations={}
         self.preflabels={}
         self.altlabels={}
+        self.lexical_sense_id=""
+        self.lexical_entry_id=""
+        self.form_id=""
 
 
 

@@ -303,7 +303,7 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    print(trans_set)
+                    # print(trans_set)
                     if len(myterm.translations['iate'][lang])<=0:
                         myterm.translations['iate'][lang].append(trans_set)
                     else:

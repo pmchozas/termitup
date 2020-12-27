@@ -52,7 +52,7 @@ def get_uri(myterm): #recoge la uri del termino a buscar
         }  
         }
         """
-        print(query)
+        # print(query)
         r=requests.get(url, params={'format': 'json', 'query': query})
         results=json.loads(r.text)
         if (len(results["results"]["bindings"])==0):
@@ -121,7 +121,7 @@ def get_uri(myterm): #recoge la uri del termino a buscar
                                 }  
                                 }
                                 """
-                                print(query)
+                                # print(query)
                                 r=requests.get(url, params={'format': 'json', 'query': query})
                                 results=json.loads(r.text)
                                 
@@ -221,7 +221,7 @@ def get_relations(myterm): #recoge la uri de la relacion a buscar
                 """
                 r=requests.get(url, params={'format': 'json', 'query': query})
                 results=json.loads(r.text)
-                print(query)
+                # print(query)
                 if (len(results["results"]["bindings"])==0):
                         answerRel=''
                 else:
@@ -310,7 +310,7 @@ def get_translations(myterm): #recoge traducciones
                         """
                         r=requests.get(url, params={'format': 'json', 'query': query})
                         results=json.loads(r.text)
-                        print(query)
+                        # print(query)
         
                         if (len(results["results"]["bindings"])==0):
                                 trans=''
@@ -365,7 +365,7 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
-                    print(trans_set)
+                    # print(trans_set)
                     if len(myterm.translations['eurovoc'][lang])<=0:
                         myterm.translations['eurovoc'][lang].append(trans_set)
                     else:

@@ -330,7 +330,12 @@
 	    			"corpus": {
 	            		"type": "string",
 	           			 "format": "string"
+	          		},
+	          		"output_format": {
+	            		"type": "string",
+	           			 "format": "string"
 	          		}
+              
 	          	}
 	      },
 	        "options": {

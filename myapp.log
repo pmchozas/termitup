@@ -4441,3 +4441,59 @@ AssertionError: applications must write bytes
 17:57:09, INFO  * Restarting with fsevents reloader
 17:57:14, WARNING  * Debugger is active!
 17:57:14, INFO  * Debugger PIN: 273-160-618
+19:04:48, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+19:04:48, INFO  * Restarting with fsevents reloader
+19:04:52, WARNING  * Debugger is active!
+19:04:52, INFO  * Debugger PIN: 273-160-618
+19:07:19, INFO 127.0.0.1 - - [27/Dec/2020 19:07:19] "GET /swagger/ HTTP/1.1" 200 -
+19:07:19, INFO 127.0.0.1 - - [27/Dec/2020 19:07:19] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+19:07:19, INFO 127.0.0.1 - - [27/Dec/2020 19:07:19] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+19:07:19, INFO 127.0.0.1 - - [27/Dec/2020 19:07:19] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+19:07:19, INFO 127.0.0.1 - - [27/Dec/2020 19:07:19] "GET /static/swagger.json HTTP/1.1" 200 -
+19:07:19, INFO 127.0.0.1 - - [27/Dec/2020 19:07:19] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+19:14:05, INFO 127.0.0.1 - - [27/Dec/2020 19:14:05] "GET /swagger/ HTTP/1.1" 200 -
+19:14:12, INFO 127.0.0.1 - - [27/Dec/2020 19:14:12] "POST /enriching_terminology HTTP/1.1" 200 -
+19:14:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:14:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:14:47, INFO  * Restarting with fsevents reloader
+19:14:53, WARNING  * Debugger is active!
+19:14:53, INFO  * Debugger PIN: 273-160-618
+19:14:59, INFO 127.0.0.1 - - [27/Dec/2020 19:14:59] "POST /enriching_terminology HTTP/1.1" 200 -
+19:19:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:19:06, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:19:08, INFO  * Restarting with fsevents reloader
+19:19:13, WARNING  * Debugger is active!
+19:19:13, INFO  * Debugger PIN: 273-160-618
+19:19:19, INFO 127.0.0.1 - - [27/Dec/2020 19:19:19] "POST /enriching_terminology HTTP/1.1" 200 -
+19:24:20, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:24:20, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+19:24:21, INFO  * Restarting with fsevents reloader
+19:24:26, WARNING  * Debugger is active!
+19:24:26, INFO  * Debugger PIN: 273-160-618
+19:40:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:40:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/Term.py', reloading
+19:40:17, INFO  * Restarting with fsevents reloader
+19:40:23, WARNING  * Debugger is active!
+19:40:23, INFO  * Debugger PIN: 273-160-618
+20:10:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/term_id.py', reloading
+20:10:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/term_id.py', reloading
+20:10:44, INFO  * Restarting with fsevents reloader
+20:10:50, WARNING  * Debugger is active!
+20:10:50, INFO  * Debugger PIN: 273-160-618
+20:14:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:14:38, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+20:14:40, INFO  * Restarting with fsevents reloader
+20:14:46, WARNING  * Debugger is active!
+20:14:46, INFO  * Debugger PIN: 273-160-618
+20:16:46, INFO 127.0.0.1 - - [27/Dec/2020 20:16:46] "POST /enriching_terminology HTTP/1.1" 200 -
+20:17:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/term_id.py', reloading
+20:17:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/term_id.py', reloading
+20:17:13, INFO  * Restarting with fsevents reloader
+20:17:19, WARNING  * Debugger is active!
+20:17:19, INFO  * Debugger PIN: 273-160-618
+20:17:25, INFO 127.0.0.1 - - [27/Dec/2020 20:17:25] "POST /enriching_terminology HTTP/1.1" 200 -
+20:42:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/term_id.py', reloading
+20:42:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/term_id.py', reloading
+20:42:17, INFO  * Restarting with fsevents reloader
+20:42:24, WARNING  * Debugger is active!
+20:42:24, INFO  * Debugger PIN: 273-160-618
