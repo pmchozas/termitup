@@ -70,7 +70,12 @@
         "synonym":"lexinfo:synonym",
         "senseRelation":"vartrans:SenseRelation",
         "translation":"vartrans:translation",
-        "usageExample":"lexicog:usageExample"
+        "usageExample":"lexicog:usageExample",
+        "isReferenceOf":"ontolex:isReferenceOf",
+        "reference":"ontolex:reference",
+        "isSenseOf":"ontolex:isSenseOf",
+        "sense":"ontolex:sense"
+
 
     }
 }
