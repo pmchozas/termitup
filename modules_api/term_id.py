@@ -8,6 +8,7 @@ Created on Mon Nov 23 15:55:46 2020
 
 
 import re
+import unidecode
 # import Term
 
 
@@ -31,7 +32,7 @@ def create_id(myterm):
         schema=schema
 
     uri=schema+'-'+term+'-'+lang
-    myterm.term_id=uri
+    myterm.term_id=unidecode.unidecode(uri)
     
     return myterm
 
