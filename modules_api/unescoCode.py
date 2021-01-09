@@ -219,7 +219,9 @@ def create_intermediate_ids(myterm):
         schema=schema.replace(char, '')
     if len(myterm.synonyms_unesco)>0:
         myterm.synonyms['unesco']={}
-        myterm.synonyms['unesco'][myterm.langIn]=[]        
+        myterm.synonyms_ontolex['unesco']={}
+        myterm.synonyms['unesco'][myterm.langIn]=[]  
+        myterm.synonyms_ontolex['unesco'][myterm.langIn]=[]
         for term in myterm.synonyms_unesco:            
             syn_set = {}          
             syn = term
@@ -231,13 +233,16 @@ def create_intermediate_ids(myterm):
             syn_set['syn-id']=synid.lower()
             syn_set['syn-value']=syn
             myterm.synonyms['unesco'][myterm.langIn].append(syn_set)
+            myterm.synonyms_ontolex['unesco'][myterm.langIn].append(syn_set)
             
             
     if len(myterm.translations_unesco)>0:
         myterm.translations['unesco']={}
+        myterm.translations_ontolex['unesco']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_unesco.keys():
-                myterm.translations['unesco'][lang]=[]                
+                myterm.translations['unesco'][lang]=[] 
+                myterm.translations_ontolex['unesco'][lang]=[]
                 for term in myterm.translations_unesco[lang]:
                     trans_set = {}
                     if ' 'in term:
@@ -247,6 +252,7 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
+                    myterm.translations_ontolex['unesco'][lang].append(trans_set)
                     if len(myterm.translations['unesco'][lang])<=0:
                         myterm.translations['unesco'][lang].append(trans_set)
                     else:

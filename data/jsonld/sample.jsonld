@@ -1,0 +1,57 @@
+[
+  {
+    "@id": "http://myexample.com/agreement-en",
+    "@type": [
+      "http://www.w3.org/2004/02/skos#Concept"
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isReferenceOf": [
+      {
+        "@id": "http://myexample.com/agreement-en-sen1"
+      }
+    ]
+  },
+  {
+    "@id": "http://myexample.com/agreement-en-sen1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalSense"
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#isSenseOf": [
+      {
+        "@id": "http://myexample.com/agreement-en-len1"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#reference": [
+      {
+        "@id": "http://myexample.com/agreement-en"
+      }
+    ]
+  },
+  {
+    "@id": "http://myexample.com/agreement-en-sen1-len1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#Form": [
+      {
+        "@id": "http://myexample.com/agreement-en-sen1-len1-for1"
+      }
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#sense": [
+      {
+        "@id": "http://myexample.com/agreement-en-sen1"
+      }
+    ]
+  },
+  {
+    "@id": "http://myexample.com/agreement-en-sen1-len1-for1",
+    "@type": [
+      "http://www.w3.org/ns/lemon/ontolex#Form"
+    ],
+    "http://www.w3.org/ns/lemon/ontolex#writtenRep": [
+      {
+        "@language": "en",
+        "@value": "agreement"
+      }
+    ]
+  }
+]

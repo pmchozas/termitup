@@ -377,7 +377,8 @@ def enrinching_terminology_internal(json_data):
         lang= json_data["target_languages"]
         myterm.langOut=lang.split(", ")
         term_id.create_id(myterm)
-        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist)
+        output_format=json_data["output_format"]
+        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format)
         all_data.append(term_data)
         del myterm 
             
@@ -652,31 +653,285 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     for related in myterm.thesoz_relations["related"]:
                         skos_data["related"].append(related)
         rdf_data=skos_data
+    
     elif output_format == "ontolex":
         term_id.create_ontolex_ids(myterm)
-        ontolex_data={
+        
+        ontolex_data=[]
+        concept_data={
                     "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                     "@type": "skos:Concept",
                     "@id": myterm.term_id,
                     "inScheme": myterm.schema,
-                    "isReferenceOf":myterm.lexical_sense_id,
+                    "isReferenceOf":[],
+                    "source":[],
+                    "closeMatch":[],
+                    "broader":[],
+                    "narrower":[],
+                    "related":[]
+
+                }
+        
+        
+        sense_data={
+                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                    "@type": "ontolex:LexicalSense",
+                    "@id": myterm.lexical_sense_id,
+                    "reference":myterm.term_id,
+                    "isSenseOf":myterm.lexical_entry_id,
                     "usageExample": {
                         "@language":myterm.langIn,
                         "@value":myterm.context
                         },
-                    "source":[],
-                    "closeMatch":[],
-                    "prefLabel":[],
-                    "altLabel":[],
                     "definition":[],
-                    "broader":[],
-                    "narrower":[],
-                    "related":[],
-                    "note":[]
+                    "note":[]                    
+
+            }
+        entry_data={
+                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                    "@type": "ontolex:LexicalEntry",
+                    "@id": myterm.lexical_entry_id,
+                    "sense":myterm.lexical_sense_id,
+                    "form":myterm.form_id,
+                    "writtenRep":{
+                        "@language": myterm.langIn,
+                        "@value":myterm.term
+                        }
                     
+            }
+        concept_data["isReferenceOf"].append(myterm.lexical_sense_id)
+        if iate == True:
+            concept_data["source"].append(myterm.iate_id)
+            if len(myterm.related_ids_iate)>0:
+                for related in myterm.related_ids_iate:
+                    concept_data["related"].append(related)
+            
+            if len(myterm.note_iate)>0:
+                for lang in myterm.note_iate.keys():
+                    for note in myterm.note_iate[lang]:
+                        note_set={
+                            "@language":lang,
+                            "@value":note,
+                            }
+                        sense_data["note"].append(note_set)
+            
+            if len(myterm.definitions_iate)>0:
+                for lang in myterm.definitions_iate.keys():
+                    for defi in myterm.definitions_iate[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+                
+        if eurovoc == True:
+            concept_data["closeMatch"].append(myterm.eurovoc_id)
+            if len(myterm.definitions_eurovoc)>0:
+                for lang in myterm.definitions_eurovoc.keys():
+                    for defi in myterm.definitions_eurovoc[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+            if len(myterm.eurovoc_relations) >0:
+                if "broader" in myterm.eurovoc_relations.keys():
+                    for broader in myterm.eurovoc_relations["broader"]:
+                        concept_data["broader"].append(broader)
+                if "narrower" in myterm.eurovoc_relations.keys():
+                    for narrower in myterm.eurovoc_relations["narrower"]:
+                        concept_data["narrower"].append(narrower)
+                if "related" in myterm.eurovoc_relations.keys():
+                    for related in myterm.eurovoc_relations["related"]:
+                        concept_data["related"].append(related)            
+    
+        if wikidata == True:
+            concept_data["closeMatch"].append(myterm.wikidata_id)
+            if len(myterm.definitions_wikidata)>0:
+                for lang in myterm.definitions_wikidata.keys():
+                    for defi in myterm.definitions_wikidata[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+            if len(myterm.wikidata_relations) >0:
+                if "broader" in myterm.wikidata_relations.keys():
+                    for broader in myterm.wikidata_relations["broader"]:
+                        concept_data["broader"].append(broader)
+                if "narrower" in myterm.wikidata_relations.keys():
+                    for narrower in myterm.wikidata_relations["narrower"]:
+                        concept_data["narrower"].append(narrower)
+                if "related" in myterm.wikidata_relations.keys():
+                    for related in myterm.wikidata_relations["related"]:
+                        concept_data["related"].append(related)     
+    
+        if unesco == True:
+            concept_data["closeMatch"].append(myterm.unesco_id)
+            if len(myterm.definitions_unesco)>0:
+                for lang in myterm.definitions_unesco.keys():
+                    for defi in myterm.definitions_unesco[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+            if len(myterm.unesco_relations) >0:
+                if "broader" in myterm.unesco_relations.keys():
+                    for broader in myterm.unesco_relations["broader"]:
+                        concept_data["broader"].append(broader)
+                if "narrower" in myterm.unesco_relations.keys():
+                    for narrower in myterm.unesco_relations["narrower"]:
+                        concept_data["narrower"].append(narrower)
+                if "related" in myterm.unesco_relations.keys():
+                    for related in myterm.unesco_relations["related"]:
+                        concept_data["related"].append(related)
+                        
+        if ilo == True:
+            concept_data["closeMatch"].append(myterm.ilo_id)
+            if len(myterm.definitions_ilo)>0:
+                for lang in myterm.definitions_ilo.keys():
+                    for defi in myterm.definitions_ilo[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+            if len(myterm.ilo_relations) >0:
+                if "broader" in myterm.ilo_relations.keys():
+                    for broader in myterm.ilo_relations["broader"]:
+                        sense_data["broader"].append(broader)
+                if "narrower" in myterm.ilo_relations.keys():
+                    for narrower in myterm.ilo_relations["narrower"]:
+                        sense_data["narrower"].append(narrower)
+                if "related" in myterm.ilo_relations.keys():
+                    for related in myterm.ilo_relations["related"]:
+                        concept_data["related"].append(related)
+                        
+        if stw == True:
+            concept_data["closeMatch"].append(myterm.stw_id)
+            if len(myterm.definitions_stw)>0:
+                for lang in myterm.definitions_stw.keys():
+                    for defi in myterm.definitions_stw[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+            if len(myterm.stw_relations) >0:
+                if "broader" in myterm.stw_relations.keys():
+                    for broader in myterm.stw_relations["broader"]:
+                        concept_data["broader"].append(broader)
+                if "narrower" in myterm.stw_relations.keys():
+                    for narrower in myterm.stw_relations["narrower"]:
+                        concept_data["narrower"].append(narrower)
+                if "related" in myterm.stw_relations.keys():
+                    for related in myterm.stw_relations["related"]:
+                        concept_data["related"].append(related)
+    
+        if thesoz == True:
+            concept_data["closeMatch"].append(myterm.thesoz_id)
+            if len(myterm.definitions_thesoz)>0:
+                for lang in myterm.definitions_thesoz.keys():
+                    for defi in myterm.definitions_thesoz[lang]:
+                        def_set={
+                            "@language":lang,
+                            "@value":defi,
+                            }
+                        sense_data["definition"].append(def_set)
+            if len(myterm.thesoz_relations) >0:
+                if "broader" in myterm.thesoz_relations.keys():
+                    for broader in myterm.thesoz_relations["broader"]:
+                        concept_data["broader"].append(broader)
+                if "narrower" in myterm.thesoz_relations.keys():
+                    for narrower in myterm.thesoz_relations["narrower"]:
+                        concept_data["narrower"].append(narrower)
+                if "related" in myterm.thesoz_relations.keys():
+                    for related in myterm.thesoz_relations["related"]:
+                        concept_data["related"].append(related)
         
-                }
-        rdf_data=ontolex_data        
+         
+        for resource in reslist:
+            if resource in myterm.synonyms_ontolex.keys():
+                if myterm.langIn in myterm.synonyms_ontolex[resource].keys():  
+                    for syn_set in myterm.synonyms_ontolex[resource][myterm.langIn]:
+                        syn_id=syn_set["syn-id"]
+                        syn_sense_id=syn_id+"-sen"
+                        syn_entry_id=syn_id+"-len"
+                        syn_form_id=syn_id+"-form"
+                        syn_value=syn_set["syn-value"]
+                        senserel_id=myterm.lexical_sense_id+'-senrel-'+syn_sense_id
+                           
+                        concept_data["isReferenceOf"].append(syn_sense_id)
+                           
+                        sense_data={
+                                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                    "@type": "ontolex:LexicalSense",
+                                    "@id": syn_sense_id,
+                                    "reference":myterm.term_id,
+                                    "isSenseOf":syn_entry_id                
+                
+                            }
+                        entry_data={
+                                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                    "@type": "ontolex:LexicalEntry",
+                                    "@id": syn_entry_id ,
+                                    "sense": syn_sense_id,
+                                    "form": syn_form_id,
+                                    "writtenRep":{
+                                        "@language": myterm.langIn,
+                                        "@value":syn_value
+                                                }
+                    
+                            }
+                           
+                        vartrans_syn_data={
+                                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                    "@type": "vartrans:senseRelation",
+                                    "@id": senserel_id ,
+                                    "category": "lexinfo:synonym",
+                                    "relates": []
+                                    
+                               }
+                        vartrans_syn_data['relates'].append(myterm.lexical_sense_id)
+                        vartrans_syn_data['relates'].append(syn_sense_id)
+                        ontolex_data.append(vartrans_syn_data)  
+                           # value= trans_set["trans-value"]
+                           # ispref=True
+                           # if(langout in setPrefLang):
+                           #     ispref=False
+    
+                           # setPrefLang.add(langout) 
+                           # setPrefTerm.add(value) 
+                                                 
+                           # trans_pref={
+                           #      "@language":langout,
+                           #      "@value":trans_set["trans-value"]
+                           #      }
+                           # if trans_pref not in control_dict:
+                           #     control_dict.append(trans_pref)
+                           #     if(ispref):
+                           #         skos_data["prefLabel"].append(trans_pref)
+                           #     else:
+                           #         skos_data["altLabel"].append(trans_pref)   
+                           # else:
+                           #     continue
+                                       
+        
+        
+        ontolex_data.append(concept_data)
+        ontolex_data.append(sense_data)
+        ontolex_data.append(entry_data)
+        
+        rdf_data=ontolex_data
+        print(myterm.synonyms_ontolex)
+        print(rdf_data)
+        # print('SYNONYMS')
+        # print(myterm.synonyms_eurovoc)
+        # print(myterm.synonyms_ontolex)
+        # print('TRANSLATIONS')
+        # print(myterm.translations_eurovoc)
+        # print(myterm.translations_ontolex)
         
     return rdf_data
     
@@ -861,16 +1116,17 @@ def rdf_conversion():
 
 
 
-# json_data = {
-#   "terms": "contrato",
-#   "resources": "iate, eurovoc",
-#   "source_language": "es",
-#   "target_languages": "en, de",
-#   "schema_name": "labour law",
-#   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero"
-# }
+json_data = {
+  "terms": "contrato",
+  "resources": "eurovoc",
+  "source_language": "es",
+  "target_languages": "en",
+  "schema_name": "test",
+  "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+  "output_format": "ontolex"
+}
 
 
-# test=enrinching_terminology_internal(json_data)
+test=enrinching_terminology_internal(json_data)
 
 # print(test)

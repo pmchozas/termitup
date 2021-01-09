@@ -4497,3 +4497,29 @@ AssertionError: applications must write bytes
 20:42:17, INFO  * Restarting with fsevents reloader
 20:42:24, WARNING  * Debugger is active!
 20:42:24, INFO  * Debugger PIN: 273-160-618
+10:26:52, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:26:52, INFO  * Restarting with fsevents reloader
+10:26:58, WARNING  * Debugger is active!
+10:26:58, INFO  * Debugger PIN: 273-160-618
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET / HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/reset.css HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/style.css HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/fontello.css HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/images/termitup_logo_oeg.svg HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/images/termitupw.png HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/images/logopal.png HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/images/Logo_OEG.gif HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/images/upm.jpg HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /static/images/fi.jpg HTTP/1.1" 200 -
+10:27:55, INFO 127.0.0.1 - - [08/Jan/2021 10:27:55] "GET /favicon.ico HTTP/1.1" 404 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /swagger HTTP/1.1" 308 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /swagger/ HTTP/1.1" 200 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /static/swagger.json HTTP/1.1" 200 -
+10:28:47, INFO 127.0.0.1 - - [08/Jan/2021 10:28:47] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+10:30:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+10:30:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+10:30:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+10:30:34, INFO  * Restarting with fsevents reloader

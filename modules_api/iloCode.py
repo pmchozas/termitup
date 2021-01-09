@@ -186,7 +186,9 @@ def create_intermediate_ids(myterm):
         schema=schema.replace(char, '')
     if len(myterm.synonyms_ilo)>0:
         myterm.synonyms['ilo']={}
-        myterm.synonyms['ilo'][myterm.langIn]=[]        
+        myterm.synonyms_ontolex['ilo']={}
+        myterm.synonyms['ilo'][myterm.langIn]=[]      
+        myterm.synonyms_ontolex['ilo'][myterm.langIn]=[]
         for term in myterm.synonyms_ilo:            
             syn_set = {}          
             syn = term
@@ -202,9 +204,11 @@ def create_intermediate_ids(myterm):
             
     if len(myterm.translations_ilo)>0:
         myterm.translations['ilo']={}
+        myterm.translations_ontolex['ilo']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_ilo.keys():
-                myterm.translations['ilo'][lang]=[]                
+                myterm.translations['ilo'][lang]=[]
+                myterm.translations_ontolex['ilo'][lang]=[]
                 for term in myterm.translations_ilo[lang]:
                     trans_set = {}
                     if ' 'in term:
@@ -214,6 +218,7 @@ def create_intermediate_ids(myterm):
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
+                    myterm.translations_ontolex['ilo'][lang].append(trans_set)
                     if len(myterm.translations['ilo'][lang])<=0:
                         myterm.translations['ilo'][lang].append(trans_set)
                     else:

@@ -85,6 +85,8 @@ class Term:
     lexical_sense_id=""
     lexical_entry_id=""
     form_id=""
+    synonyms_ontolex={}
+    translations_ontolex={}
     
     
     ### test
@@ -171,6 +173,8 @@ class Term:
         self.lexical_sense_id=""
         self.lexical_entry_id=""
         self.form_id=""
+        self.synonyms_ontolex={}
+        self.translations_ontolex={}
 
 
 

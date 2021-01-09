@@ -337,7 +337,9 @@ def create_intermediate_ids(myterm):
         schema=schema.replace(char, '')
     if len(myterm.synonyms_eurovoc)>0:
         myterm.synonyms['eurovoc']={}
-        myterm.synonyms['eurovoc'][myterm.langIn]=[]        
+        myterm.synonyms_ontolex['eurovoc']={}
+        myterm.synonyms['eurovoc'][myterm.langIn]=[]  
+        myterm.synonyms_ontolex['eurovoc'][myterm.langIn]=[]
         for term in myterm.synonyms_eurovoc:            
             syn_set = {}          
             syn = term
@@ -349,13 +351,16 @@ def create_intermediate_ids(myterm):
             syn_set['syn-id']=synid.lower()
             syn_set['syn-value']=syn
             myterm.synonyms['eurovoc'][myterm.langIn].append(syn_set)
+            myterm.synonyms_ontolex['eurovoc'][myterm.langIn].append(syn_set)
             
             
     if len(myterm.translations_eurovoc)>0:
         myterm.translations['eurovoc']={}
+        myterm.translations_ontolex['eurovoc']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_eurovoc.keys():
-                myterm.translations['eurovoc'][lang]=[]                
+                myterm.translations['eurovoc'][lang]=[] 
+                myterm.translations_ontolex['eurovoc'][lang]=[] 
                 for term in myterm.translations_eurovoc[lang]:
                     trans_set = {}
                     if ' 'in term:
@@ -366,6 +371,7 @@ def create_intermediate_ids(myterm):
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
                     # print(trans_set)
+                    myterm.translations_ontolex['eurovoc'][lang].append(trans_set) 
                     if len(myterm.translations['eurovoc'][lang])<=0:
                         myterm.translations['eurovoc'][lang].append(trans_set)
                     else:

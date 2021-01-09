@@ -275,7 +275,9 @@ def create_intermediate_ids(myterm):
         schema=schema.replace(char, '')
     if len(myterm.synonyms_iate)>0:
         myterm.synonyms['iate']={}
-        myterm.synonyms['iate'][myterm.langIn]=[]        
+        myterm.synonyms_ontolex['iate']={}
+        myterm.synonyms['iate'][myterm.langIn]=[]
+        myterm.synonyms_ontolex['iate'][myterm.langIn]=[]        
         for term in myterm.synonyms_iate:            
             syn_set = {}          
             syn = term
@@ -287,13 +289,16 @@ def create_intermediate_ids(myterm):
             syn_set['syn-id']=synid.lower()
             syn_set['syn-value']=syn
             myterm.synonyms['iate'][myterm.langIn].append(syn_set)
+            myterm.synonyms_ontolex['iate'][myterm.langIn].append(syn_set)
             
             
     if len(myterm.translations_iate)>0:
         myterm.translations['iate']={}
+        myterm.translations_ontolex['iate']={}
         for lang in myterm.langOut:
             if lang in myterm.translations_iate.keys():
-                myterm.translations['iate'][lang]=[]                
+                myterm.translations['iate'][lang]=[]   
+                myterm.translations_ontolex['iate'][lang]=[] 
                 for term in myterm.translations_iate[lang]:
                     trans_set = {}
                     if ' 'in term:
@@ -304,6 +309,7 @@ def create_intermediate_ids(myterm):
                     trans_set['trans-id']=transid.lower()
                     trans_set['trans-value']=term
                     # print(trans_set)
+                    myterm.translations_ontolex['iate'][lang].append(trans_set)
                     if len(myterm.translations['iate'][lang])<=0:
                         myterm.translations['iate'][lang].append(trans_set)
                     else:
