@@ -7,7 +7,7 @@ import json
 from random import randint #libreria para random
 import re
 import os
-from Unidecode import unidecode
+from unidecode import unidecode
 from os import listdir
 from os.path import isfile, isdir
 #import time
