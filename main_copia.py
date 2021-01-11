@@ -51,38 +51,38 @@ test= wikidataCode.enrich_term_wikidata(myterm)
 test3= eurovocCode.enrich_term_eurovoc(myterm)
 
 
-myterm.ids['ids']={}
-myterm.ids['ids']['iate']=myterm.iate_id
-myterm.ids['ids']['wikidata']=myterm.wikidata_id
-myterm.ids['ids']['eurovoc']=myterm.eurovoc_id
-myterm.ids['ids']['ilo']=myterm.ilo_id
-myterm.ids['ids']['stw']=myterm.stw_id
-myterm.ids['ids']['thesoz']=myterm.thesoz_id
-myterm.ids['ids']['unesco']=myterm.unesco_id
-myterm.relations['relations']={}
-myterm.relations['relations']['wikidata']=myterm.wikidata_relations
-myterm.relations['relations']['eurovoc']=myterm.eurovoc_relations
-myterm.relations['relations']['ilo']=myterm.ilo_relations
-myterm.relations['relations']['stw']=myterm.stw_relations
-myterm.relations['relations']['thesoz']=myterm.thesoz_relations
-myterm.relations['relations']['unesco']=myterm.unesco_relations
-data_mappings={}
-data={
-            'Source Term ID': myterm.term_id,
-            'Source Term' : myterm.term,
-            'Source Term Context': myterm.context,
-            'Source Language': myterm.langIn
+# myterm.ids['ids']={}
+# myterm.ids['ids']['iate']=myterm.iate_id
+# myterm.ids['ids']['wikidata']=myterm.wikidata_id
+# myterm.ids['ids']['eurovoc']=myterm.eurovoc_id
+# myterm.ids['ids']['ilo']=myterm.ilo_id
+# myterm.ids['ids']['stw']=myterm.stw_id
+# myterm.ids['ids']['thesoz']=myterm.thesoz_id
+# myterm.ids['ids']['unesco']=myterm.unesco_id
+# myterm.relations['relations']={}
+# myterm.relations['relations']['wikidata']=myterm.wikidata_relations
+# myterm.relations['relations']['eurovoc']=myterm.eurovoc_relations
+# myterm.relations['relations']['ilo']=myterm.ilo_relations
+# myterm.relations['relations']['stw']=myterm.stw_relations
+# myterm.relations['relations']['thesoz']=myterm.thesoz_relations
+# myterm.relations['relations']['unesco']=myterm.unesco_relations
+# data_mappings={}
+# data={
+#             'Source Term ID': myterm.term_id,
+#             'Source Term' : myterm.term,
+#             'Source Term Context': myterm.context,
+#             'Source Language': myterm.langIn
         
-        }
-data_mappings.update(data)
-data_mappings.update(myterm.ids)
-data_mappings['synonyms']=myterm.synonyms
-data_mappings['translations']=myterm.translations
-data_mappings['definitions']=myterm.definitions
-data_mappings.update(myterm.relations)
-data_mappings['term_reference']=myterm.term_ref_iate
-data_mappings['language_note']=myterm.note_iate
-data_mappings['related_iate']=myterm.related_ids_iate
+#         }
+# data_mappings.update(data)
+# data_mappings.update(myterm.ids)
+# data_mappings['synonyms']=myterm.synonyms
+# data_mappings['translations']=myterm.translations
+# data_mappings['definitions']=myterm.definitions
+# data_mappings.update(myterm.relations)
+# data_mappings['term_reference']=myterm.term_ref_iate
+# data_mappings['language_note']=myterm.note_iate
+# data_mappings['related_iate']=myterm.related_ids_iate
     # ids={}
     # translations={}
     # synonyms={}

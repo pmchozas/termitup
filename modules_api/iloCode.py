@@ -198,7 +198,7 @@ def create_intermediate_ids(myterm):
                 syn=syn.replace(char, '')
             synid=schema+'-'+syn+'-'+myterm.langIn
             syn_set['syn-id']=synid.lower()
-            syn_set['syn-value']=syn
+            syn_set['syn-value']=syn.replace('-', ' ')
             myterm.synonyms['ilo'][myterm.langIn].append(syn_set)
             
             
@@ -217,7 +217,7 @@ def create_intermediate_ids(myterm):
                         term=term.replace(char, '')
                     transid=schema+'-'+term+'-'+lang
                     trans_set['trans-id']=transid.lower()
-                    trans_set['trans-value']=term
+                    trans_set['trans-value']=term.replace('-', ' ')
                     myterm.translations_ontolex['ilo'][lang].append(trans_set)
                     if len(myterm.translations['ilo'][lang])<=0:
                         myterm.translations['ilo'][lang].append(trans_set)

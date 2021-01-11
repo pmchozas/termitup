@@ -470,6 +470,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         skos_data["prefLabel"].append(src_pref)
         
         
+        
         for langout in myterm.langOut:
             
             setPrefLang=  set()
@@ -477,6 +478,15 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
             control_dict=[]
             
             for resource in reslist:
+                if resource in myterm.synonyms.keys():
+                    if myterm.langIn in myterm.synonyms[resource].keys():
+                        for syn in myterm.synonyms[resource][myterm.langIn]:
+                            syn_set={
+                                "@language":myterm.langIn,
+                                "@value": syn["syn-value"]
+                                }
+                            skos_data["altLabel"].append(syn_set)
+
                 if resource in myterm.translations.keys():
                     if langout in myterm.translations[resource].keys():
                        for trans_set in myterm.translations[resource][langout]:
@@ -653,6 +663,15 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                 if "related" in myterm.thesoz_relations.keys():
                     for related in myterm.thesoz_relations["related"]:
                         skos_data["related"].append(related)
+        
+        for key in list(skos_data.keys()):
+            if skos_data[key] == [] or skos_data[key] == "" or skos_data[key] == {}:
+                del skos_data[key]
+
+                
+                # del skos_data[key]
+        print(skos_data)
+            
         rdf_data=skos_data
     
     elif output_format == "ontolex":
@@ -961,6 +980,20 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                             ontolex_data.append(trans_entry_data) 
                             ontolex_data.append(vartrans_trans_data) 
         
+        
+        for key in list(concept_data.keys()):
+            if concept_data[key] == [] or concept_data[key] == "" or concept_data[key] == {}:
+                del concept_data[key]
+
+        for key in list(sense_data.keys()):
+            if sense_data[key] == [] or sense_data[key] == "" or sense_data[key] == {}:
+                del sense_data[key]
+
+        for key in list(entry_data.keys()):
+            if entry_data[key] == [] or entry_data[key] == "" or entry_data[key] == {}:
+                del entry_data[key]                
+
+        
         ontolex_data.append(concept_data)
         ontolex_data.append(sense_data)
         ontolex_data.append(entry_data)
@@ -1157,17 +1190,15 @@ def rdf_conversion():
 
 
 
-json_data = {
-  "terms": "contrato",
-  "resources": "eurovoc",
-  "source_language": "es",
-  "target_languages": "en",
-  "schema_name": "test",
-  "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-  "output_format": "ontolex"
-}
+# json_data = {
+#   "terms": "contrato",
+#   "resources": "eurovoc",
+#   "source_language": "es",
+#   "target_languages": "en",
+#   "schema_name": "test",
+#   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+#   "output_format": "skos"
+# }
 
 
-test=enrinching_terminology_internal(json_data)
-
-# print(test)
+# test=enrinching_terminology_internal(json_data)
