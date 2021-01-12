@@ -29,6 +29,7 @@ from modules_api import relvalCode
 from modules_api import contextCode
 from modules_api import term_id
 from modules_api import rmlCode
+from modules_api import activateRelval
 from flask_rdf.flask import returns_rdf
 from rdflib import Graph
 
@@ -283,8 +284,8 @@ def enrinching_terminology():
         output_format=json_data["output_format"]
         myterm.langOut=lang.split(", ")
         term_id.create_id(myterm)
-        
-        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format)
+        relval=json_data["relval"]
+        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format, relval)
         all_data.append(term_data)
         del myterm 
             
@@ -379,7 +380,8 @@ def enrinching_terminology_internal(json_data):
         myterm.langOut=lang.split(", ")
         term_id.create_id(myterm)
         output_format=json_data["output_format"]
-        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format)
+        relval=json_data["relval"]
+        term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format, relval)
         all_data.append(term_data)
         del myterm 
             
@@ -398,7 +400,7 @@ def enrinching_terminology_internal(json_data):
     return Response(json.dumps(all_data),  mimetype="application/json")
 
 
-def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format):
+def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format, relval):
     
     myterm.ids["ids"]={}
     myterm.relations["relations"]={}
@@ -436,6 +438,12 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         iloCode.enrich_term_ilo(myterm)
         myterm.ids["ids"]["ilo"]=myterm.ilo_id
         myterm.relations["relations"]["ilo"]=myterm.ilo_relations
+        
+    if relval == "yes":
+       result_relval=activateRelval.validate_syns(myterm, reslist) 
+       # result_relval={'synonymy': ['acuerdo'], 'broader': ['documento'], 'narrower': ['conclusión de contrato', 'firma de contrato'], 'related': ['trabajador'], 'non-related': ['derecho contractual', 'compromiso']}
+       activateRelval.create_concepts(myterm, result_relval)
+       # print(myterm.relations_relval)
 
     if output_format == "skos": 
         
@@ -469,48 +477,61 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         
         skos_data["prefLabel"].append(src_pref)
         
+        if relval == 'yes':
+                
+                if 'relval' in myterm.synonyms.keys():
+                    for syn in myterm.synonyms['relval'][myterm.langIn]:
+                        syn_set={
+                            "@language":myterm.langIn,
+                            "@value": syn["syn-value"]
+                            }
+                        skos_data["altLabel"].append(syn_set)
         
-        
-        for langout in myterm.langOut:
+
             
-            setPrefLang=  set()
-            setPrefTerm= set()
-            control_dict=[]
+
+                
+        else:
+            for langout in myterm.langOut:
+                
+                setPrefLang= set()
+                setPrefTerm= set()
+                control_dict=[]                
             
             for resource in reslist:
-                if resource in myterm.synonyms.keys():
-                    if myterm.langIn in myterm.synonyms[resource].keys():
-                        for syn in myterm.synonyms[resource][myterm.langIn]:
-                            syn_set={
-                                "@language":myterm.langIn,
-                                "@value": syn["syn-value"]
-                                }
-                            skos_data["altLabel"].append(syn_set)
-
-                if resource in myterm.translations.keys():
-                    if langout in myterm.translations[resource].keys():
-                       for trans_set in myterm.translations[resource][langout]:
+                    if resource in myterm.synonyms.keys():
+                        if myterm.langIn in myterm.synonyms[resource].keys():
+                            for syn in myterm.synonyms[resource][myterm.langIn]:
+                                syn_set={
+                                    "@language":myterm.langIn,
+                                    "@value": syn["syn-value"]
+                                    }
+                                skos_data["altLabel"].append(syn_set)
     
-                           value= trans_set["trans-value"]
-                           ispref=True
-                           if(langout in setPrefLang):
-                               ispref=False
-    
-                           setPrefLang.add(langout) 
-                           setPrefTerm.add(value) 
-                                                 
-                           trans_pref={
-                                "@language":langout,
-                                "@value":trans_set["trans-value"]
-                                }
-                           if trans_pref not in control_dict:
-                               control_dict.append(trans_pref)
-                               if(ispref):
-                                   skos_data["prefLabel"].append(trans_pref)
+                    if resource in myterm.translations.keys():
+                        if langout in myterm.translations[resource].keys():
+                           for trans_set in myterm.translations[resource][langout]:
+        
+                               value= trans_set["trans-value"]
+                               ispref=True
+                               if(langout in setPrefLang):
+                                   ispref=False
+        
+                               setPrefLang.add(langout) 
+                               setPrefTerm.add(value) 
+                                                     
+                               trans_pref={
+                                    "@language":langout,
+                                    "@value":trans_set["trans-value"]
+                                    }
+                               if trans_pref not in control_dict:
+                                   control_dict.append(trans_pref)
+                                   if(ispref):
+                                       skos_data["prefLabel"].append(trans_pref)
+                                   else:
+                                       skos_data["altLabel"].append(trans_pref)   
                                else:
-                                   skos_data["altLabel"].append(trans_pref)   
-                           else:
-                               continue
+                                   continue
                                
                                          
         
@@ -664,13 +685,26 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     for related in myterm.thesoz_relations["related"]:
                         skos_data["related"].append(related)
         
+        if relval == 'yes':
+            if len(myterm.relations_relval)>0:
+                
+                if "broader" in myterm.relations_relval.keys():
+                    for broader in myterm.relations_relval["broader"]:
+                        skos_data["broader"].append(broader)
+                if "narrower" in myterm.relations_relval.keys():
+                    for narrower in myterm.relations_relval["narrower"]:
+                        skos_data["narrower"].append(narrower)
+                if "related" in myterm.relations_relval.keys():
+                    for related in myterm.relations_relval["related"]:
+                        skos_data["related"].append(related)
+        
         for key in list(skos_data.keys()):
             if skos_data[key] == [] or skos_data[key] == "" or skos_data[key] == {}:
                 del skos_data[key]
 
                 
                 # del skos_data[key]
-        print(skos_data)
+        # print(skos_data)
             
         rdf_data=skos_data
     
@@ -874,58 +908,122 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     for related in myterm.thesoz_relations["related"]:
                         concept_data["related"].append(related)
         
-         
-        for resource in reslist:
-            if resource in myterm.synonyms_ontolex.keys():
-                if myterm.langIn in myterm.synonyms_ontolex[resource].keys():  
-                    for syn_set in myterm.synonyms_ontolex[resource][myterm.langIn]:
-                        syn_id=unidecode.unidecode(syn_set["syn-id"])
-                        syn_sense_id=syn_id+"-sen"
-                        syn_entry_id=syn_id+"-len"
-                        syn_form_id=syn_id+"-form"
-                        syn_value=syn_set["syn-value"]
-                        senserel_id=myterm.lexical_sense_id+'-senrel-'+syn_sense_id
-                        
-                        syn_set_id={
-                            "@id": syn_sense_id
-                            }
-                           
-                        concept_data["isReferenceOf"].append(syn_set_id)
-                           
-                        syn_sense_data={
-                                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
-                                    "@type": "ontolex:LexicalSense",
-                                    "@id": syn_sense_id,
-                                    "reference":myterm.term_id,
-                                    "isSenseOf":syn_entry_id                
-                
-                            }
-                        syn_entry_data={
-                                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
-                                    "@type": "ontolex:LexicalEntry",
-                                    "@id": syn_entry_id ,
-                                    "sense": syn_sense_id,
-                                    "form": syn_form_id,
-                                    "writtenRep":{
-                                        "@language": myterm.langIn,
-                                        "@value":syn_value
-                                                }
+        if relval == 'yes':
+                if len(myterm.relations_relval)>0:
+                    if "broader" in myterm.relations_relval.keys():
+                        for broader in myterm.relations_relval["broader"]:
+                            concept_data["broader"].append(broader)
+                    if "narrower" in myterm.relations_relval.keys():
+                        for narrower in myterm.relations_relval["narrower"]:
+                            concept_data["narrower"].append(narrower)
+                    if "related" in myterm.relations_relval.keys():
+                        for related in myterm.relations_relval["related"]:
+                            concept_data["related"].append(related)
+        
+        if relval == 'yes':
+            if 'relval' in myterm.synonyms.keys():
+                for syn_set in myterm.synonyms['relval'][myterm.langIn]: 
+                    syn_id=unidecode(syn_set["syn-id"])
+                    syn_sense_id=syn_id+"-sen"
+                    syn_entry_id=syn_id+"-len"
+                    syn_form_id=syn_id+"-form"
+                    syn_value=syn_set["syn-value"]
+                    senserel_id=myterm.lexical_sense_id+'-senrel-'+syn_sense_id
+                            
+                    syn_set_id={
+                                "@id": syn_sense_id
+                                }
+                               
+                    concept_data["isReferenceOf"].append(syn_set_id)
+                               
+                    syn_sense_data={
+                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                        "@type": "ontolex:LexicalSense",
+                                        "@id": syn_sense_id,
+                                        "reference":myterm.term_id,
+                                        "isSenseOf":syn_entry_id                
                     
-                            }
-                           
-                        vartrans_syn_data={
-                                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
-                                    "@type": "vartrans:senseRelation",
-                                    "@id": senserel_id ,
-                                    "category": "lexinfo:synonym",
-                                    "relates": []
-                                    
-                               }
-                        vartrans_syn_data['relates'].append(source_set_id)
-                        vartrans_syn_data['relates'].append(syn_set_id)
-                        ontolex_data.append(syn_sense_data) 
-                        ontolex_data.append(syn_entry_data) 
-                        ontolex_data.append(vartrans_syn_data)  
+                                }
+                    syn_entry_data={
+                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                        "@type": "ontolex:LexicalEntry",
+                                        "@id": syn_entry_id ,
+                                        "sense": syn_sense_id,
+                                        "form": syn_form_id,
+                                        "writtenRep":{
+                                            "@language": myterm.langIn,
+                                            "@value":syn_value
+                                                    }
+                        
+                                }
+                               
+                    vartrans_syn_data={
+                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                        "@type": "vartrans:senseRelation",
+                                        "@id": senserel_id ,
+                                        "category": "lexinfo:synonym",
+                                        "relates": []
+                                        
+                                   }
+                    vartrans_syn_data['relates'].append(source_set_id)
+                    vartrans_syn_data['relates'].append(syn_set_id)
+                    ontolex_data.append(syn_sense_data) 
+                    ontolex_data.append(syn_entry_data) 
+                    ontolex_data.append(vartrans_syn_data)  
+            
+                        
+        else:
+            for resource in reslist:
+                if resource in myterm.synonyms_ontolex.keys():
+                    if myterm.langIn in myterm.synonyms_ontolex[resource].keys():  
+                        for syn_set in myterm.synonyms_ontolex[resource][myterm.langIn]:
+                            syn_id=unidecode(syn_set["syn-id"])
+                            syn_sense_id=syn_id+"-sen"
+                            syn_entry_id=syn_id+"-len"
+                            syn_form_id=syn_id+"-form"
+                            syn_value=syn_set["syn-value"]
+                            senserel_id=myterm.lexical_sense_id+'-senrel-'+syn_sense_id
+                            
+                            syn_set_id={
+                                "@id": syn_sense_id
+                                }
+                               
+                            concept_data["isReferenceOf"].append(syn_set_id)
+                               
+                            syn_sense_data={
+                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                        "@type": "ontolex:LexicalSense",
+                                        "@id": syn_sense_id,
+                                        "reference":myterm.term_id,
+                                        "isSenseOf":syn_entry_id                
+                    
+                                }
+                            syn_entry_data={
+                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                        "@type": "ontolex:LexicalEntry",
+                                        "@id": syn_entry_id ,
+                                        "sense": syn_sense_id,
+                                        "form": syn_form_id,
+                                        "writtenRep":{
+                                            "@language": myterm.langIn,
+                                            "@value":syn_value
+                                                    }
+                        
+                                }
+                               
+                            vartrans_syn_data={
+                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                                        "@type": "vartrans:senseRelation",
+                                        "@id": senserel_id ,
+                                        "category": "lexinfo:synonym",
+                                        "relates": []
+                                        
+                                   }
+                            vartrans_syn_data['relates'].append(source_set_id)
+                            vartrans_syn_data['relates'].append(syn_set_id)
+                            ontolex_data.append(syn_sense_data) 
+                            ontolex_data.append(syn_entry_data) 
+                            ontolex_data.append(vartrans_syn_data)  
             
             if resource in myterm.translations_ontolex.keys():
                 for lang in myterm.langOut:
@@ -999,7 +1097,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         ontolex_data.append(entry_data)
         rdf_data=ontolex_data
         # print(myterm.synonyms_ontolex)
-        print(rdf_data)
+    print(rdf_data)
         # print('SYNONYMS')
         # print(myterm.synonyms_eurovoc)
         # print(myterm.synonyms_ontolex)
@@ -1197,7 +1295,8 @@ def rdf_conversion():
 #   "target_languages": "en",
 #   "schema_name": "test",
 #   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-#   "output_format": "skos"
+#   "output_format": "ontolex",
+#   "relval":"yes"
 # }
 
 

@@ -87,6 +87,7 @@ class Term:
     form_id=""
     synonyms_ontolex={}
     translations_ontolex={}
+    relations_relval={}
     
     
     ### test
@@ -175,7 +176,7 @@ class Term:
         self.form_id=""
         self.synonyms_ontolex={}
         self.translations_ontolex={}
-
+        self.relations_relval={}
 
 
 

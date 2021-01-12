@@ -331,6 +331,10 @@
 	            		"type": "string",
 	           			 "format": "string"
 	          		},
+	    			"relval": {
+	            		"type": "string",
+	           			 "format": "string"
+	          		},
 	          		"output_format": {
 	            		"type": "string",
 	           			 "format": "string"

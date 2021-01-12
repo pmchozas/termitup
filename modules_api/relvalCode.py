@@ -134,8 +134,9 @@ def inducer(T, A, S):
 #termino
 #lenguaje
 #sinonimos
-def relation_validation(term_in, lang_in, synonyms ):
-    print("============ Relval")
+def relation_validation(term_in, lang_in, synonyms):
+    # print("============ Relval")
+    # print(term_in)
     if(term_in):
         final_json=dict()
         final_json={'synonymy':[], 'broader':[], 'narrower':[], 'related':[], 'non-related':[]}
@@ -186,11 +187,11 @@ def relation_validation(term_in, lang_in, synonyms ):
                 altLabel_induction = {}
 
     #EL RESULTADO ES FINAL JSON 
-    return (final_json)
+    return final_json
                 
 
-term_in='trabajo'
-lang_in='es'
-synonyms='ocupación, labor, obra, chamba, prueba dos'
+# term_in='trabajo'
+# lang_in='es'
+# synonyms='ocupación, labor, obra, chamba, prueba dos'
 
 
