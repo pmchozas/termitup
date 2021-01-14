@@ -5,9 +5,9 @@
 
     <meta name="viewport" content="width=devide-width, initial-scale=1.0">  <!-- para dispositivos móviles !-->
     <title>TermitUp</title>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&display=swap" rel="stylesheet">
         <link rel= "stylesheet" type= "text/css" href= "../static/reset.css">
         <link rel= "stylesheet" type= "text/css" href= "../static/style.css">
         <link rel= "stylesheet" type= "text/css" href= "../static/fontello.css">
@@ -16,7 +16,7 @@
 <body>
 <header class="page-header">
     <div class="header__wrapper clearfix">
-        <h1 class="logo" >Termitup <a href="index.html"></a> <img src="../static/images/termitup_logo_oeg.svg" class="logo"></h1>
+        <h1 class="logo" >Termitup <a href="index.html"></a> <img src="../static/images/termitup_logo_oeg_notermita.svg" class="logo"></h1>
                          <!--<h2 class="menu__title"><a href="javascript:void(0);" onclick="myFunction()">☰</a></h2>!-->
             <h2 class="subtitle">A wonderful service for terminology enrichment</h2>
 
@@ -45,13 +45,18 @@
 
         <h3 class="intro__title">About TermitUp</h3>
         <div class="intro__text">
-                <p>TermitUp is a tool for terminology enrichment: given a domain specific corpus, TermitUp performs statistical terminology extraction (with TBXTools) and cleans the resulting term list with a series of liguistic processes. Then, it queries several language resources (some part of the <a href="https://linguistic-lod.org/" class="llod">Linguistic Linked Open Data cloud</a>) for candidate terms matching those in the term list.</p>
 
-                <p>TermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD.</p>
 
-                <p>Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources. Finally, the results are published in separate json-ld files, modeled in SKOS-XL, that permits keeping the provenance of specific pieces of the data retrieved.</p>
 
-                <img src="../static/images/termitupw.png" class="termitup">
+                <p>TermitUp is a tool for terminology enrichment: given a domain specific corpus, TermitUp performs statistical terminology extraction and post-process the resulting term list with a series of liguistic processes and external tools such as the <a href="https://annotador.oeg.fi.upm.es/" class="annotador">Añotador</a>, to clean temporal expressions. Then, it queries several language resources (some part of the <a href="https://linguistic-lod.org/" class="llod">Linguistic Linked Open Data cloud</a>) for candidate terms matching those in the term list.</p>
+
+                <p>TermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions, usage notes and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD.</p>
+
+                <p>Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice).</p>
+
+                <p>Finally, TermitUp API offers a publication module that relies on Terminoteca RDF, where the previously generated JSON-LD files can be stored and freely queried.</p>
+
+               
         </div>
         </div> 
     

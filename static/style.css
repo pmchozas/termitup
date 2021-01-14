@@ -168,7 +168,8 @@ color: #2F4F4F;
     line-height: 1.5;
     color:black;
     text-align: center; 
-    font-family: "Raleway";
+    font-family: "Montserrat";
+    font-weight: 300;
     padding-bottom: 0.5rem;
 }
 
@@ -247,7 +248,7 @@ color: #2F4F4F;
 /*footer wrapper*/
 .footer__wrapper {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -286,7 +287,7 @@ color: #2F4F4F;
     display: inline-block; 
     padding: 1rem; 
     margin: 0.5rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.6rem;
@@ -373,7 +374,7 @@ color: #2F4F4F;
 .intro__text, .about__text, .contact__text {
     display: block;
     line-height: 1.5;
-    font-family: 'Raleway';
+    font-family: 'Montserrat';
     color:black;
     padding-top: 0.5rem;
     text-align: justify;
@@ -469,19 +470,21 @@ p {
     }
 }
 
-/*intro-services*/
+/*intro-services
+  /* box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);/*
+*/
 
 .intro-services, .intro-contact, .about, .thanks, .api {
     display: block;
     position: relative;
     
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: rgba(248,248,255 0.5);
     
     padding:2rem;
     -moz-box-shadow: inset 0 0 2px #c0c0c0;
     -webkit-box-shadow: inset 0 0 2px#C0C0C0;
-box-shadow: 0px 2px 2px 4px rgba(0,0,0,0.1);
+ 
 
 }
 
@@ -511,7 +514,7 @@ box-shadow: 0px 2px 2px 4px rgba(0,0,0,0.1);
 
 .intro-services__wrapper {
     width: 100%;
-    max-width: 1150px;
+    max-width: 1000px;
     margin: 0 auto; 
     text-align: left;
 
@@ -568,9 +571,9 @@ transform:scale(1.2);
 
 .form__wrapper {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;  
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 
     background-color: rgba(255,255,255, 0.6);
@@ -594,7 +597,7 @@ transform:scale(1.2);
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
     margin-top: 0.5rem;
@@ -602,7 +605,7 @@ transform:scale(1.2);
 }
 
 .wpcf7-submit {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0.2rem 3rem;
     font-size: 1rem;
     text-align: center;
@@ -620,7 +623,7 @@ transform:scale(1.2);
 }
 
 .wpcf7-text, .wpcf7-textarea {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #c0c0c0;
     font-size: 1rem;
 }
