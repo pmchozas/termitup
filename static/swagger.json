@@ -158,7 +158,7 @@
 				}
 			}	
 		},
-		"/relation_validation": {
+		"/validate_relations": {
 			"post": {
 				"tags": [
 					"TermitUp Methods"
