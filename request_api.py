@@ -31,7 +31,9 @@ from modules_api import term_id
 from modules_api import rmlCode
 from modules_api import activateRelval
 from flask_rdf.flask import returns_rdf
-from rdflib import Graph
+from rdflib import Graph 
+from rdflib.serializer import Serializer
+
 
 REQUEST_API = Blueprint("term_api", __name__)
 
@@ -184,11 +186,6 @@ def enrinching_terminology():
 
    # to read body of a POST OR PUT
 
-
-    
-
-        
-    
 
     # print("Received:")
     # #print(Terms)
