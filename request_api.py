@@ -397,7 +397,7 @@ def enrinching_terminology_internal(json_data):
     #https://github.com/RDFLib/rdflib-jsonld
     resultjsonld = json.dumps(all_data)
     resultjsonld = resultjsonld.replace("'", "\"")
-    resultjsonld = json.loads(resultjsonld).dumps(resultjsonld, indent=4)
+    #resultjsonld = json.loads(resultjsonld)
     gv = Graph().parse(data=resultjsonld, format='json-ld')
     resultnt = gv.serialize(format='ntriples', indent=4);
     textfile = open('/opt/data/tmp.ntriples', 'w')
@@ -1295,16 +1295,16 @@ def rdf_conversion():
 
 
 
-# json_data = {
-#   "terms": "contrato",
-#   "resources": "eurovoc",
-#   "source_language": "es",
-#   "target_languages": "en",
-#   "schema_name": "test",
-#   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-#   "output_format": "ontolex",
-#   "relval":"yes"
-# }
+json_data = {
+   "terms": "contrato",
+   "resources": "eurovoc",
+   "source_language": "es",
+   "target_languages": "en",
+   "schema_name": "test",
+   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+   "output_format": "ontolex",
+   "relval":"yes"
+}
 
 
-# test=enrinching_terminology_internal(json_data)
+test=enrinching_terminology_internal(json_data)
