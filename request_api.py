@@ -297,7 +297,14 @@ def enrinching_terminology():
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
-   
+
+    #https://github.com/RDFLib/rdflib-jsonld
+    resultjsonld = json.dumps(all_data)
+    gv = Graph().parse(data=resultjsonld, format='json-ld')
+    resultnt = gv.serialize(format='json-ld', indent=4);
+    print(resultnt)
+
+
     return Response(json.dumps(all_data),  mimetype="application/json")
 
 
