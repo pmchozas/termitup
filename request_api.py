@@ -397,7 +397,7 @@ def enrinching_terminology_internal(json_data):
     #https://github.com/RDFLib/rdflib-jsonld
     resultjsonld = json.dumps(all_data)
     resultjsonld = resultjsonld.replace("'", "\"")
-    resultjsonld = json.loads(resultjsonld)
+    resultjsonld = json.loads(resultjsonld).dumps(resultjsonld, indent=4)
     gv = Graph().parse(data=resultjsonld, format='json-ld')
     resultnt = gv.serialize(format='ntriples', indent=4);
     textfile = open('/opt/data/tmp.ntriples', 'w')
