@@ -403,7 +403,7 @@ def enrinching_terminology_internal(json_data):
     textfile = open('/opt/data/tmp.ntriples', 'w')
     textfile.write(resultnt.decode('UTF-8'))
     textfile.close()
-	subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P EP.term.227 verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', 'test',0); checkpoint;\"", shell=True)
+    subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P EP.term.227 verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', 'test',0); checkpoint;\"", shell=True)
 	
    
     return Response(json.dumps(all_data),  mimetype="application/json")
