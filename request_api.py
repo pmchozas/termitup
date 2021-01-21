@@ -31,7 +31,7 @@ from modules_api import term_id
 from modules_api import rmlCode
 from modules_api import activateRelval
 from flask_rdf.flask import returns_rdf
-from rdflib import Graph 
+from rdflib import Graph, plugin 
 from rdflib.serializer import Serializer
 
 
@@ -717,10 +717,15 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     
     elif output_format == "ontolex":
         term_id.create_ontolex_ids(myterm)
+        onto_data_key="http://"+myterm.term_id
         
-        ontolex_data=[]
+        ontolex_data={
+            "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+            onto_data_key:[]
+            
+            }
         concept_data={
-                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                    
                     "@type": "skos:Concept",
                     "@id": myterm.term_id,
                     "inScheme": myterm.schema,
@@ -735,7 +740,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         
         
         sense_data={
-                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                     "@type": "ontolex:LexicalSense",
                     "@id": myterm.lexical_sense_id,
                     "reference":myterm.term_id,
@@ -749,7 +753,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
 
             }
         entry_data={
-                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                     "@type": "ontolex:LexicalEntry",
                     "@id": myterm.lexical_entry_id,
                     "sense":myterm.lexical_sense_id,
@@ -944,7 +947,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     concept_data["isReferenceOf"].append(syn_set_id)
                                
                     syn_sense_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "ontolex:LexicalSense",
                                         "@id": syn_sense_id,
                                         "reference":myterm.term_id,
@@ -952,7 +954,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     
                                 }
                     syn_entry_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "ontolex:LexicalEntry",
                                         "@id": syn_entry_id ,
                                         "sense": syn_sense_id,
@@ -965,7 +966,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                 }
                                
                     vartrans_syn_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "vartrans:senseRelation",
                                         "@id": senserel_id ,
                                         "category": "lexinfo:synonym",
@@ -974,9 +974,60 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                    }
                     vartrans_syn_data['relates'].append(source_set_id)
                     vartrans_syn_data['relates'].append(syn_set_id)
-                    ontolex_data.append(syn_sense_data) 
-                    ontolex_data.append(syn_entry_data) 
-                    ontolex_data.append(vartrans_syn_data)  
+                    ontolex_data[onto_data_key].append(syn_sense_data) 
+                    ontolex_data[onto_data_key].append(syn_entry_data) 
+                    ontolex_data[onto_data_key].append(vartrans_syn_data) 
+            
+            for resource in reslist:
+                if resource in myterm.translations_ontolex.keys():
+                    for lang in myterm.langOut:
+                        if lang in myterm.translations_ontolex[resource].keys():
+                            for trans_set in myterm.translations_ontolex[resource][lang]:
+                                trans_id=trans_set['trans-id']
+                                trans_sense_id=trans_id+"-sen"
+                                trans_entry_id=trans_id+"-len"
+                                trans_form_id=trans_id+"-form"
+                                trans_value=trans_set["trans-value"]
+                                senserel_id=myterm.lexical_sense_id+'-senrel-'+trans_sense_id 
+    
+                                trans_set_id={
+                                    "@id": trans_sense_id
+                                    }
+                                   
+                                concept_data["isReferenceOf"].append(trans_set_id)
+                            
+                                   
+                                trans_sense_data={
+                                            "@type": "ontolex:LexicalSense",
+                                            "@id": trans_sense_id,
+                                            "reference":myterm.term_id,
+                                            "isSenseOf":trans_entry_id                
+                        
+                                    }
+                                trans_entry_data={
+                                            "@type": "ontolex:LexicalEntry",
+                                            "@id": trans_entry_id ,
+                                            "sense": trans_sense_id,
+                                            "form": trans_form_id,
+                                            "writtenRep":{
+                                                "@language": lang,
+                                                "@value":trans_value
+                                                        }
+                            
+                                    }
+                                   
+                                vartrans_trans_data={
+                                            "@type": "vartrans:senseRelation",
+                                            "@id": senserel_id ,
+                                            "category": "lexinfo:translation",
+                                            "relates": []
+                                            
+                                       }
+                                vartrans_trans_data['relates'].append(source_set_id)
+                                vartrans_trans_data['relates'].append(trans_set_id)
+                                ontolex_data[onto_data_key].append(trans_sense_data) 
+                                ontolex_data[onto_data_key].append(trans_entry_data) 
+                                ontolex_data[onto_data_key].append(vartrans_trans_data) 
             
                         
         else:
@@ -998,7 +1049,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                             concept_data["isReferenceOf"].append(syn_set_id)
                                
                             syn_sense_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "ontolex:LexicalSense",
                                         "@id": syn_sense_id,
                                         "reference":myterm.term_id,
@@ -1006,7 +1056,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     
                                 }
                             syn_entry_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "ontolex:LexicalEntry",
                                         "@id": syn_entry_id ,
                                         "sense": syn_sense_id,
@@ -1019,7 +1068,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                 }
                                
                             vartrans_syn_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "vartrans:senseRelation",
                                         "@id": senserel_id ,
                                         "category": "lexinfo:synonym",
@@ -1028,9 +1076,9 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                    }
                             vartrans_syn_data['relates'].append(source_set_id)
                             vartrans_syn_data['relates'].append(syn_set_id)
-                            ontolex_data.append(syn_sense_data) 
-                            ontolex_data.append(syn_entry_data) 
-                            ontolex_data.append(vartrans_syn_data)  
+                            ontolex_data[onto_data_key].append(syn_sense_data) 
+                            ontolex_data[onto_data_key].append(syn_entry_data) 
+                            ontolex_data[onto_data_key].append(vartrans_syn_data)  
             
             if resource in myterm.translations_ontolex.keys():
                 for lang in myterm.langOut:
@@ -1051,7 +1099,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                         
                                
                             trans_sense_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "ontolex:LexicalSense",
                                         "@id": trans_sense_id,
                                         "reference":myterm.term_id,
@@ -1059,7 +1106,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                     
                                 }
                             trans_entry_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "ontolex:LexicalEntry",
                                         "@id": trans_entry_id ,
                                         "sense": trans_sense_id,
@@ -1072,7 +1118,6 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                 }
                                
                             vartrans_trans_data={
-                                        "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
                                         "@type": "vartrans:senseRelation",
                                         "@id": senserel_id ,
                                         "category": "lexinfo:translation",
@@ -1081,9 +1126,9 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                    }
                             vartrans_trans_data['relates'].append(source_set_id)
                             vartrans_trans_data['relates'].append(trans_set_id)
-                            ontolex_data.append(trans_sense_data) 
-                            ontolex_data.append(trans_entry_data) 
-                            ontolex_data.append(vartrans_trans_data) 
+                            ontolex_data[onto_data_key].append(trans_sense_data) 
+                            ontolex_data[onto_data_key].append(trans_entry_data) 
+                            ontolex_data[onto_data_key].append(vartrans_trans_data) 
         
         
         for key in list(concept_data.keys()):
@@ -1099,9 +1144,9 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                 del entry_data[key]                
 
         
-        ontolex_data.append(concept_data)
-        ontolex_data.append(sense_data)
-        ontolex_data.append(entry_data)
+        ontolex_data[onto_data_key].append(concept_data)
+        ontolex_data[onto_data_key].append(sense_data)
+        ontolex_data[onto_data_key].append(entry_data)
         rdf_data=ontolex_data
         # print(myterm.synonyms_ontolex)
     print(rdf_data)
