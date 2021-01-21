@@ -33,6 +33,7 @@ from modules_api import activateRelval
 from flask_rdf.flask import returns_rdf
 from rdflib import Graph, plugin 
 from rdflib.serializer import Serializer
+import subprocess
 
 
 REQUEST_API = Blueprint("term_api", __name__)
@@ -397,12 +398,13 @@ def enrinching_terminology_internal(json_data):
     #https://github.com/RDFLib/rdflib-jsonld
     resultjsonld = json.dumps(all_data)
     resultjsonld = resultjsonld.replace("'", "\"")
-    print(resultjsonld)
     gv = Graph().parse(data=resultjsonld, format='json-ld')
     resultnt = gv.serialize(format='ntriples', indent=4);
     textfile = open('/opt/data/tmp.ntriples', 'w')
     textfile.write(resultnt.decode('UTF-8'))
     textfile.close()
+	subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P EP.term.227 verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', 'test',0); checkpoint;\"", shell=True)
+	
    
     return Response(json.dumps(all_data),  mimetype="application/json")
 
