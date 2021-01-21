@@ -338,6 +338,10 @@
 	          		"output_format": {
 	            		"type": "string",
 	           			 "format": "string"
+	          		},
+	          		"sparql_publishing": {
+	            		"type": "string",
+	           			 "format": "string"
 	          		}
               
 	          	}

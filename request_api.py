@@ -31,7 +31,7 @@ from modules_api import term_id
 from modules_api import rmlCode
 from modules_api import activateRelval
 from flask_rdf.flask import returns_rdf
-from rdflib import Graph, plugin 
+from rdflib import Graph, Namespace, plugin 
 from rdflib.serializer import Serializer
 import subprocess
 
@@ -287,17 +287,21 @@ def enrinching_terminology():
         all_data.append(term_data)
         del myterm 
             
-
-    # for myterm in myterms:
-        
-    #     print(myterm.term)
-    #     term_data=enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw)
-    #     all_data.append(term_data)
-
-        
-    
-    #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
-    #print(clean_terms)
+    sparql=json_data["sparql_publishing"]
+    if sparql == 'yes':
+        #https://github.com/RDFLib/rdflib-jsonld
+        n = Namespace("http://termitup.oeg.fi.upm.es/terminology/")
+        resultjsonld = json.dumps(all_data)
+        resultjsonld = resultjsonld.replace("'", "\"")
+        gv = Graph().parse(data=resultjsonld, format='json-ld')
+        resultnt = gv.serialize(format='ntriples', indent=4);
+        textfile = open('/opt/data/tmp.ntriples', 'w')
+        textfile.write(resultnt.decode('UTF-8'))
+        textfile.close()
+        passw=open('password.txt', 'r')
+        password=passw.read()
+        call="/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\""
+        subprocess.call(call, shell=True)
 
     return Response(json.dumps(all_data),  mimetype="application/json")
 
@@ -367,7 +371,7 @@ def enrinching_terminology_internal(json_data):
     terms= json_data["terms"]
     termlist=terms.split(", ")             
     
-    all_data=[]
+    all_data={}
     for t in termlist:
         print(t)
         myterm=Term.Term()
@@ -380,7 +384,7 @@ def enrinching_terminology_internal(json_data):
         output_format=json_data["output_format"]
         relval=json_data["relval"]
         term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format, relval)
-        all_data.append(term_data)
+        all_data.update(term_data)
         del myterm 
             
 
@@ -394,16 +398,21 @@ def enrinching_terminology_internal(json_data):
     
     #clean_terms = postprocess.clean_terms(termlist, Language) #patri method
     #print(clean_terms)
-
-    #https://github.com/RDFLib/rdflib-jsonld
-    resultjsonld = json.dumps(all_data)
-    resultjsonld = resultjsonld.replace("'", "\"")
-    gv = Graph().parse(data=resultjsonld, format='json-ld')
-    resultnt = gv.serialize(format='ntriples', indent=4);
-    textfile = open('/opt/data/tmp.ntriples', 'w')
-    textfile.write(resultnt.decode('UTF-8'))
-    textfile.close()
-    subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P EP.term.227 verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', 'test',0); checkpoint;\"", shell=True)
+    sparql=json_data["sparql_publishing"]
+    if sparql == 'yes':
+        #https://github.com/RDFLib/rdflib-jsonld
+        n = Namespace("http://termitup.oeg.fi.upm.es/terminology/")
+        resultjsonld = json.dumps(all_data)
+        resultjsonld = resultjsonld.replace("'", "\"")
+        gv = Graph().parse(data=resultjsonld, format='json-ld')
+        resultnt = gv.serialize(format='ntriples', indent=4);
+        textfile = open('/opt/data/tmp.ntriples', 'w')
+        textfile.write(resultnt.decode('UTF-8'))
+        textfile.close()
+        passw=open('password.txt', 'r')
+        password=passw.read()
+        call="/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\""
+        subprocess.call(call, shell=True)
 	
    
     return Response(json.dumps(all_data),  mimetype="application/json")
@@ -1342,16 +1351,17 @@ def rdf_conversion():
 
 
 
-json_data = {
-   "terms": "contrato",
-   "resources": "eurovoc",
-   "source_language": "es",
-   "target_languages": "en",
-   "schema_name": "test",
-   "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-   "output_format": "ontolex",
-   "relval":"yes"
-}
+# json_data = {
+#    "terms": "contrato, trabajador",
+#    "resources": "eurovoc",
+#    "source_language": "es",
+#    "target_languages": "en",
+#    "schema_name": "test",
+#    "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+#    "output_format": "ontolex",
+#    "sparql_publishing":"yes",
+#    "relval":"yes"
+# }
 
 
-test=enrinching_terminology_internal(json_data)
+# test=enrinching_terminology_internal(json_data)
