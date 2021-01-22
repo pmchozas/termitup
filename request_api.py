@@ -1167,9 +1167,10 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                 del entry_data[key]                
 
         
-        ontolex_data[onto_data_key].append(concept_data)
-        ontolex_data[onto_data_key].append(sense_data)
-        ontolex_data[onto_data_key].append(entry_data)
+       
+        ontolex_data.append(sense_data)
+        ontolex_data.append(entry_data)
+        ontolex_data.append(concept_data)
         rdf_data=ontolex_data
         # print(myterm.synonyms_ontolex)
     print(rdf_data)
@@ -1363,17 +1364,17 @@ def rdf_conversion():
 
 
 
-# json_data = {
-#     "terms": "contrato, trabajador",
-#     "resources": "eurovoc",
-#     "source_language": "es",
-#     "target_languages": "en",
-#     "schema_name": "test",
-#     "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-#     "output_format": "ontolex",
-#     "sparql_publishing":"yes",
-#     "relval":"yes"
-# }
+json_data = {
+    "terms": "contrato, trabajador",
+    "resources": "eurovoc",
+    "source_language": "es",
+    "target_languages": "en",
+    "schema_name": "test",
+    "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+    "output_format": "ontolex",
+    "sparql_publishing":"yes",
+    "relval":"yes"
+}
 
 
-# test=enrinching_terminology_internal(json_data)
+test=enrinching_terminology_internal(json_data)
