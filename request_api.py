@@ -401,7 +401,7 @@ def enrinching_terminology_internal(json_data):
     sparql=json_data["sparql_publishing"]
     if sparql == 'yes':
         #https://github.com/RDFLib/rdflib-jsonld
-        n = Namespace("http://termitup.oeg.fi.upm.es/terminology/")
+        
         resultjsonld = json.dumps(all_data)
         resultjsonld = resultjsonld.replace("'", "\"")
         gv = Graph().parse(data=resultjsonld, format='json-ld')
@@ -468,7 +468,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     if output_format == "skos": 
         
         skos_data={
-                    "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+                    "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
                     "@type": "skos:Concept",
                     "@id": myterm.term_id,
                     "inScheme": myterm.schema,
@@ -733,7 +733,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         onto_data_key="http://"+myterm.term_id
         
         ontolex_data={
-            "@context": "http://lynx-project.eu/doc/jsonld/skosterm.json",
+            "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
             onto_data_key:[]
             
             }
