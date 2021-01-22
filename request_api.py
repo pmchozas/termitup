@@ -300,8 +300,10 @@ def enrinching_terminology():
         textfile.close()
         passw=open('password.txt', 'r')
         password=passw.read()
-        call="/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\""
-        subprocess.call(call, shell=True)
+        print(password)
+        #call="/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\""
+        # subprocess.call(call, shell=True)
+        subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P EP.term.227 verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', 'test',0); checkpoint;\"", shell=True)
 
     return Response(json.dumps(all_data),  mimetype="application/json")
 
@@ -412,6 +414,8 @@ def enrinching_terminology_internal(json_data):
         passw=open('password.txt', 'r')
         password=passw.read()
         call="/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\""
+        # subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P EP.term.227 verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', 'test',0); checkpoint;\"", shell=True)
+
         subprocess.call(call, shell=True)
 	
    
