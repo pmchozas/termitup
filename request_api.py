@@ -93,7 +93,7 @@ Test Patricia Postprocess
 si rompo algo, borrar todo lo de abajo
 """
 
-@REQUEST_API.route("/postproc_terminology", methods=["POST"])
+@REQUEST_API.route("/postprocess_terminology", methods=["POST"])
 def postproc_terminology():
     
     """
@@ -181,7 +181,7 @@ def postproc_terminology():
 
 
 #Patricia Enriching
-@REQUEST_API.route("/enriching_terminology", methods=["POST"])
+@REQUEST_API.route("/enrich_terminology", methods=["POST"])
 def enrinching_terminology():
     
 
@@ -1325,7 +1325,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
 
 
 
-@REQUEST_API.route("/relation_validation", methods=["POST"])
+@REQUEST_API.route("/validate_relations", methods=["POST"])
 def relation_validation():
     myterm=Term.Term()
     
@@ -1340,7 +1340,7 @@ def relation_validation():
     
     return Response(json.dumps(relvaltest),  mimetype="application/json")
 
-@REQUEST_API.route("/rdf_conversion", methods=["POST"])
+@REQUEST_API.route("/publish_rdf", methods=["POST"])
 @returns_rdf 
 def rdf_conversion():
     json_data = request.json 
@@ -1352,15 +1352,15 @@ def rdf_conversion():
 
 
 # json_data = {
-#    "terms": "contrato, trabajador",
-#    "resources": "eurovoc",
-#    "source_language": "es",
-#    "target_languages": "en",
-#    "schema_name": "test",
-#    "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-#    "output_format": "ontolex",
-#    "sparql_publishing":"yes",
-#    "relval":"yes"
+#     "terms": "contrato, trabajador",
+#     "resources": "eurovoc",
+#     "source_language": "es",
+#     "target_languages": "en",
+#     "schema_name": "test",
+#     "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+#     "output_format": "ontolex",
+#     "sparql_publishing":"yes",
+#     "relval":"yes"
 # }
 
 
