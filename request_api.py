@@ -301,11 +301,6 @@ def enrinching_terminology():
         passw=open('password.txt', 'r')
         password=passw.read()
         password =password.rstrip("\n")
-        print(password)
-        # print(password)
-        #call="/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\""
-        # subprocess.call(call, shell=True)
-        print(json_data["schema_name"])
         subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\"", shell=True)
 
     return Response(json.dumps(all_data),  mimetype="application/json")

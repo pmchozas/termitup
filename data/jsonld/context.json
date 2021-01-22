@@ -74,8 +74,9 @@
         "isReferenceOf":"ontolex:isReferenceOf",
         "reference":"ontolex:reference",
         "isSenseOf":"ontolex:isSenseOf",
-        "sense":"ontolex:sense"
-
+        "sense":"ontolex:sense",
+        "category":"vartrans:category",
+        "relates":"vartrans:relates"
 
     }
 }
