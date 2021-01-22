@@ -371,7 +371,7 @@ def enrinching_terminology_internal(json_data):
     terms= json_data["terms"]
     termlist=terms.split(", ")             
     
-    all_data={}
+    all_data=[]
     for t in termlist:
         print(t)
         myterm=Term.Term()
@@ -384,7 +384,7 @@ def enrinching_terminology_internal(json_data):
         output_format=json_data["output_format"]
         relval=json_data["relval"]
         term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format, relval)
-        all_data.update(term_data)
+        all_data.append(term_data)
         del myterm 
             
 
@@ -1364,17 +1364,17 @@ def rdf_conversion():
 
 
 
-json_data = {
-    "terms": "contrato, trabajador",
-    "resources": "eurovoc",
-    "source_language": "es",
-    "target_languages": "en",
-    "schema_name": "test",
-    "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
-    "output_format": "ontolex",
-    "sparql_publishing":"yes",
-    "relval":"yes"
-}
+# json_data = {
+#     "terms": "contrato, trabajador",
+#     "resources": "eurovoc",
+#     "source_language": "es",
+#     "target_languages": "en",
+#     "schema_name": "test",
+#     "corpus": "El trabajador firmó un contrato con la compañía y ahora cobra dinero", 
+#     "output_format": "ontolex",
+#     "sparql_publishing":"yes",
+#     "relval":"yes"
+# }
 
 
-test=enrinching_terminology_internal(json_data)
+# test=enrinching_terminology_internal(json_data)
