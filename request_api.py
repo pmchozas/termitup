@@ -468,8 +468,12 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     if output_format == "skos": 
         
         skos_data={
-                    "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
-                    "@base": "https://termitup.oeg.fi.upm.es/terminology/",
+                    "@context": [
+                            		"https://termitup.oeg.fi.upm.es/static/def/context.json",
+                            		{
+                            			"@base": "https://termitup.oeg.fi.upm.es/terminology/"
+                            		}
+                            	],
                     "@type": "skos:Concept",
                     "@id": myterm.term_id,
                     "inScheme": myterm.schema,
