@@ -469,6 +469,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         
         skos_data={
                     "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                    "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                     "@type": "skos:Concept",
                     "@id": myterm.term_id,
                     "inScheme": myterm.schema,
@@ -735,6 +736,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         ontolex_data=[]
         concept_data={
                     "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                    "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                     "@type": "skos:Concept",
                     "@id": myterm.term_id,
                     "inScheme": myterm.schema,
@@ -750,6 +752,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
         
         sense_data={
                     "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                    "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                     "@type": "ontolex:LexicalSense",
                     "@id": myterm.lexical_sense_id,
                     "reference":myterm.term_id,
@@ -764,6 +767,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
             }
         entry_data={
                     "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                    "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                     "@type": "ontolex:LexicalEntry",
                     "@id": myterm.lexical_entry_id,
                     "sense":myterm.lexical_sense_id,
@@ -959,6 +963,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                
                     syn_sense_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "ontolex:LexicalSense",
                                         "@id": syn_sense_id,
                                         "reference":myterm.term_id,
@@ -967,6 +972,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                 }
                     syn_entry_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "ontolex:LexicalEntry",
                                         "@id": syn_entry_id ,
                                         "sense": syn_sense_id,
@@ -980,6 +986,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                
                     vartrans_syn_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "vartrans:senseRelation",
                                         "@id": senserel_id ,
                                         "category": "lexinfo:synonym",
@@ -1013,6 +1020,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                    
                                 trans_sense_data={
                                             "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                            "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                             "@type": "ontolex:LexicalSense",
                                             "@id": trans_sense_id,
                                             "reference":myterm.term_id,
@@ -1021,6 +1029,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                     }
                                 trans_entry_data={
                                             "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                            "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                             "@type": "ontolex:LexicalEntry",
                                             "@id": trans_entry_id ,
                                             "sense": trans_sense_id,
@@ -1034,6 +1043,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                    
                                 vartrans_trans_data={
                                             "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                            "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                             "@type": "vartrans:senseRelation",
                                             "@id": senserel_id ,
                                             "category": "lexinfo:translation",
@@ -1067,6 +1077,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                
                             syn_sense_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "ontolex:LexicalSense",
                                         "@id": syn_sense_id,
                                         "reference":myterm.term_id,
@@ -1075,6 +1086,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                 }
                             syn_entry_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "ontolex:LexicalEntry",
                                         "@id": syn_entry_id ,
                                         "sense": syn_sense_id,
@@ -1088,6 +1100,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                
                             vartrans_syn_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "vartrans:senseRelation",
                                         "@id": senserel_id ,
                                         "category": "lexinfo:synonym",
@@ -1120,6 +1133,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                
                             trans_sense_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "ontolex:LexicalSense",
                                         "@id": trans_sense_id,
                                         "reference":myterm.term_id,
@@ -1128,6 +1142,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                 }
                             trans_entry_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "ontolex:LexicalEntry",
                                         "@id": trans_entry_id ,
                                         "sense": trans_sense_id,
@@ -1141,6 +1156,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
                                
                             vartrans_trans_data={
                                         "@context": "https://termitup.oeg.fi.upm.es/static/def/context.json",
+                                        "@base": "https://termitup.oeg.fi.upm.es/terminology/",
                                         "@type": "vartrans:senseRelation",
                                         "@id": senserel_id ,
                                         "category": "lexinfo:translation",
