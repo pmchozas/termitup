@@ -7,7 +7,7 @@ TermitUp builds sense indicators for both the source and the candidate terms, an
 
 Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice). See TermitUp Architecture: 
 
-![alt text](https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/termitup_arch2.pdf?raw=true)
+![alt text](https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/termitup_architecture.png?raw=true)
 
 
 Finally, TermitUp API publishes the enriched terminologies generated in a Virtuoso Enpoint, where the can be freely queried.
