@@ -14,15 +14,16 @@ Afterwards, TermitUp offers the possibility of creating hierarchical relations a
 
 Examples of the SKOS and Ontolex models followed are shown below: 
 
-<img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/skos_model.png" width="30%" />
-<img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/ontolex_model.png" width="40%" />
+<img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/skos_model.png" width="30%" /> <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/ontolex_model.png" width="40%" />
 
 
 These models, however, are not able to model certain pieces of data that are very relevant when building enriched terminologies from heterogeneous data sources. Those limitations are discussed in the Wiki of the W3C Ontology-Lexicon Community Group, as a proposal for good practives to model enriched terminologies: https://www.w3.org/community/ontolex/wiki/Terminology
 
 
 Visit TermitUp home: https://termitup.oeg.fi.upm.es/
+
 Try TermitUp API: https://termitup.oeg.fi.upm.es/swagger/
+
 Access TerrmitUp SPARQL Endpoint: https://termitup.oeg.fi.upm.es/sparql
 
 Feedback is very welcome!
