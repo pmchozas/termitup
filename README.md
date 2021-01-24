@@ -33,6 +33,14 @@ Additionally, TermitUp has been employed within the European Lynx project (https
 
 TermitUp is also envisaged to be used in two ongoing projects: a national project supported by Grupo CPOnet (https://www.grupocponet.com/), focused on creating a service that, given a text, identifies and relates industry names with tax crimes, in order to evaluate the confidence level of a given company; and SmarTerp, whose aim is to develop a service that helps interpreting professionals by providing them extra information on the discourse at real time. 
 
+## Authors
+
+TermitUp has been developed by researchers from the Ontology Engineering Group (https://oeg.fi.upm.es/) of Universidad Politécnica de Madrid (https://www.upm.es/):
+* Patricia Martín-Chozas (pmchozas@fi.upm.es)
+* Karen Leticia Vázquez-Flores (kvazquez@delicias.dia.fi.upm.es)
+* Pablo Caalleja (pcalleja@fi.upm.es)
+* Elena Montiel-Ponsoda (emontiel@fi.upm.es)
+* Víctor Rodríguez-Doncel (vrodriguez@fi.upm.es)
 
 Visit TermitUp home: https://termitup.oeg.fi.upm.es/
 
