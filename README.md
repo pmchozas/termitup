@@ -5,13 +5,16 @@ TermitUp is a tool for terminology enrichment: given a domain specific corpus, T
 
 TermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions, usage notes and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD. 
 
-Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice).
+Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice). See TermitUp Architecture: 
 
-Finally, TermitUp API offers a publication module that relies on Terminoteca RDF, where the previously generated JSON-LD files can be stored and freely queried.
+
+Finally, TermitUp API publishes the enriched terminologies generated in a Virtuoso Enpoint, where the can be freely queried.
+
 
 
 Visit TermitUp home: https://termitup.oeg.fi.upm.es/
-and try TermitUp API: https://termitup.oeg.fi.upm.es/swagger/
+Try TermitUp API: https://termitup.oeg.fi.upm.es/swagger/
+Access TerrmitUp SPARQL Endpoint: https://termitup.oeg.fi.upm.es/sparql
 
 Feedback is very welcome!
 
