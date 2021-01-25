@@ -1,18 +1,18 @@
 {
 	"openapi": "3.0.0",
 	"info": {
-		"description": "TermitUp provides a set of terminology-related services that, combined, automate the generation of riched terminological networks from corpus. The services include five methods: 1) Terminology Extraction, 2) Terminology Post-processing, 3) Terminology Enrichment (through the Linguistic Linked Open Data cloud), 4) Terminological Relation Validation (with ConceptNet) and 5) Terminology Conversion in SKOS through RML mappings. [WORK IN PROGRESS] Pending work includes the conversion to ontolex-lemon vocabulary and publication of terminologies in a triple store. ",
+		"description": "TermitUp is a tool for terminology enrichment: given a domain specific corpus, TermitUp performs statistical terminology extraction and post-process the resulting term list with a series of linguistic processes and external NLP libraries (spaCy, CoreNLP, NLTK toolkit, etc.). Then, it queries several language resources (some part of the Linguistic Linked Open Data cloud) for candidate terms matching those in the term list. \n\nTermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions, usage notes and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD. \n\nAfterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice). Finally, TermitUp API publishes the enriched terminologies generated in a Virtuoso Enpoint (https://termitup.oeg.fi.upm.es/sparql), where they can be freely queried. ",
 		"version": "1.0.0",
 		"title": "TermitUp",
 		"license": {
-			"name": "Prêt à Llod",
+			"name": "Prêt-à-LLOD",
 			"url": "https://www.pret-a-llod.eu/"
 		}
 	},
 	"tags": [
 		{
-			"name": "TermitUp Methods",
-			"description": "Set of methods to work with terminologies and corpus"
+			"name": "TermitUp Modules",
+			"description": "Set of methods to automatically create enriched linked terminologies from corpus."
 		}
 	],
 	"paths": {
@@ -22,7 +22,7 @@
 					"TermitUp Methods"
 				],
 				
-				"summary": "Extract terminology from corpus",
+				"summary": "Terminology extraction from corpus",
                 "parameters": [
 					{
 						"in": "query",
@@ -69,13 +69,13 @@
 					"TermitUp Methods"
 				],
 				
-				"summary": "Postprocess automatically extracted terminology",
+				"summary": "Terminology post-processing",
 				"parameters": [
 					{
 						"in": "query",
 						"name": "terms",
 						"required": true,
-						"description": "Terms to postprocess, separated by commas",
+						"description": "Terms to postprocess, separated by commas.",
 						"schema": {
 							"$ref": "#/components/schemas/base"
 						}
@@ -125,10 +125,10 @@
 					"TermitUp Methods"
 				],
 				
-				"summary": "Enriches the extracted terms with disambiguated data",
+				"summary": "Terminology enrichment with disambiguated data from the LLOD",
 
 				"requestBody": {
-					  "description": "Terms: terms to enrich. Resources: External resources to enrich the terms, separated by commas: eurovoc, iate, unesco, thesoz, stw, ilo. Source_language: language of the terms to enrich. Target_languages: language or languages of the retrieved information. Schema_name: name of the domain to which the terms belong. Corpus: text from which the terms have been extracted. ",
+					  "description": "__terms__: terms to enrich, separated by commas.\n\n __resources__: External resources to enrich the terms, separated by commas: eurovoc, iate, wikidata, unesco, thesoz, stw, ilo. \n\n __source_language__: language of the source terms. \n\n __target_languages__: language or languages of the desired information to retrieve. \n\n __schema_name__: name of the domain to which the terms belong (preferably one word). \n\n__corpus__: text from which the terms have been extracted.\n\n __relval__: write \"yes\" or \"no\" to invoke validate_relations module.\n\n __output_format__: write \"skos\" or \"ontolex\" to structure the output terminologies accordingly. \n\n __sparql_publishing__: write \"yes\" or \"no\" to publish the output terminologies in TermitUp SPARQL Endpoint (that can be afterwards accessed through: https://termitup.oeg.fi.upm.es/sparql) ",
 					  "required": true,
 					  "content": {
 						"application/json": {
@@ -164,7 +164,7 @@
 					"TermitUp Methods"
 				],
 				
-				"summary": "Validates synonymy relations with ConceptNet",
+				"summary": "Term relation validation helped by ConceptNet",
 				"parameters": [
 					{
 						"in": "query",
@@ -202,45 +202,6 @@
 							"application/json": {
 								"schema": {
 									"$ref": "#/components/schemas/base"
-								}
-							}
-						}
-					},
-					"404": {
-						"description": "Failed. No more requests.",
-						"content": {}
-					}
-				}
-			}	
-		},
-		"/publish_rdf": {
-			"post": {
-				"tags": [
-					"TermitUp Methods"
-				],
-				
-				"summary": "Converts json output to SKOS",
-
-				"requestBody": {
-					  "description": "Copy your json in the body ",
-					  "required": true,
-					  "content": {
-						"application/json": {
-						  "schema": {
-							"$ref": "#/components/schemas/enriching"
-						  }
-						}
-					  }
-					}
-				,
-				
-				"responses": {
-					"200": {
-						"description": "successful operation",
-						"content": {
-							"text/ntriples": {
-								"schema": {
-									"type": "string"
 								}
 							}
 						}
@@ -535,7 +496,6 @@
 		}
 	}
 }
-
 
 
 

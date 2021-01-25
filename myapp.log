@@ -4569,3 +4569,135 @@ AssertionError: applications must write bytes
 16:00:25, INFO 127.0.0.1 - - [12/Jan/2021 16:00:25] "GET /static/swagger.json HTTP/1.1" 200 -
 16:01:23, INFO 127.0.0.1 - - [12/Jan/2021 16:01:23] "POST /enriching_terminology HTTP/1.1" 200 -
 16:01:52, INFO 127.0.0.1 - - [12/Jan/2021 16:01:52] "POST /enriching_terminology HTTP/1.1" 200 -
+10:47:24, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10:47:24, INFO  * Restarting with fsevents reloader
+10:47:31, WARNING  * Debugger is active!
+10:47:31, INFO  * Debugger PIN: 273-160-618
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET / HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/reset.css HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/fontello.css HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/style.css HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/images/termitup_logo_oeg_notermita.svg HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/images/logopal.png HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/images/fi.jpg HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/images/Logo_OEG.gif HTTP/1.1" 200 -
+10:47:36, INFO 127.0.0.1 - - [25/Jan/2021 10:47:36] "GET /static/images/upm.jpg HTTP/1.1" 200 -
+10:47:37, INFO 127.0.0.1 - - [25/Jan/2021 10:47:37] "GET /favicon.ico HTTP/1.1" 404 -
+10:48:51, INFO 127.0.0.1 - - [25/Jan/2021 10:48:51] "GET /swagger HTTP/1.1" 308 -
+10:48:51, INFO 127.0.0.1 - - [25/Jan/2021 10:48:51] "GET /swagger/ HTTP/1.1" 200 -
+10:48:51, INFO 127.0.0.1 - - [25/Jan/2021 10:48:51] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:48:51, INFO 127.0.0.1 - - [25/Jan/2021 10:48:51] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:48:51, INFO 127.0.0.1 - - [25/Jan/2021 10:48:51] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:48:52, INFO 127.0.0.1 - - [25/Jan/2021 10:48:52] "GET /static/swagger.json HTTP/1.1" 200 -
+10:48:52, INFO 127.0.0.1 - - [25/Jan/2021 10:48:52] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+10:50:08, INFO 127.0.0.1 - - [25/Jan/2021 10:50:08] "GET /swagger/ HTTP/1.1" 200 -
+10:50:08, INFO 127.0.0.1 - - [25/Jan/2021 10:50:08] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:50:08, INFO 127.0.0.1 - - [25/Jan/2021 10:50:08] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:50:08, INFO 127.0.0.1 - - [25/Jan/2021 10:50:08] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:50:08, INFO 127.0.0.1 - - [25/Jan/2021 10:50:08] "GET /static/swagger.json HTTP/1.1" 200 -
+10:50:08, INFO 127.0.0.1 - - [25/Jan/2021 10:50:08] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+10:50:11, INFO 127.0.0.1 - - [25/Jan/2021 10:50:11] "GET /swagger/ HTTP/1.1" 200 -
+10:50:11, INFO 127.0.0.1 - - [25/Jan/2021 10:50:11] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:50:11, INFO 127.0.0.1 - - [25/Jan/2021 10:50:11] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:50:11, INFO 127.0.0.1 - - [25/Jan/2021 10:50:11] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:50:11, INFO 127.0.0.1 - - [25/Jan/2021 10:50:11] "GET /static/swagger.json HTTP/1.1" 200 -
+10:50:11, INFO 127.0.0.1 - - [25/Jan/2021 10:50:11] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+10:51:44, INFO 127.0.0.1 - - [25/Jan/2021 10:51:44] "GET /swagger/ HTTP/1.1" 200 -
+10:51:44, INFO 127.0.0.1 - - [25/Jan/2021 10:51:44] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:51:44, INFO 127.0.0.1 - - [25/Jan/2021 10:51:44] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:51:44, INFO 127.0.0.1 - - [25/Jan/2021 10:51:44] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:51:45, INFO 127.0.0.1 - - [25/Jan/2021 10:51:45] "GET /static/swagger.json HTTP/1.1" 200 -
+10:51:45, INFO 127.0.0.1 - - [25/Jan/2021 10:51:45] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+10:52:21, INFO 127.0.0.1 - - [25/Jan/2021 10:52:21] "GET /swagger/ HTTP/1.1" 200 -
+10:52:22, INFO 127.0.0.1 - - [25/Jan/2021 10:52:22] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:52:22, INFO 127.0.0.1 - - [25/Jan/2021 10:52:22] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:52:22, INFO 127.0.0.1 - - [25/Jan/2021 10:52:22] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:52:22, INFO 127.0.0.1 - - [25/Jan/2021 10:52:22] "GET /static/swagger.json HTTP/1.1" 200 -
+10:52:22, INFO 127.0.0.1 - - [25/Jan/2021 10:52:22] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+10:53:30, INFO 127.0.0.1 - - [25/Jan/2021 10:53:30] "GET /swagger/ HTTP/1.1" 200 -
+10:53:31, INFO 127.0.0.1 - - [25/Jan/2021 10:53:31] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:53:31, INFO 127.0.0.1 - - [25/Jan/2021 10:53:31] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:53:31, INFO 127.0.0.1 - - [25/Jan/2021 10:53:31] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:53:31, INFO 127.0.0.1 - - [25/Jan/2021 10:53:31] "GET /static/swagger.json HTTP/1.1" 200 -
+10:55:26, INFO 127.0.0.1 - - [25/Jan/2021 10:55:26] "GET /swagger/ HTTP/1.1" 200 -
+10:55:26, INFO 127.0.0.1 - - [25/Jan/2021 10:55:26] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+10:55:26, INFO 127.0.0.1 - - [25/Jan/2021 10:55:26] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+10:55:26, INFO 127.0.0.1 - - [25/Jan/2021 10:55:26] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+10:55:26, INFO 127.0.0.1 - - [25/Jan/2021 10:55:26] "GET /static/swagger.json HTTP/1.1" 200 -
+10:55:26, INFO 127.0.0.1 - - [25/Jan/2021 10:55:26] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+11:07:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/main_copia.py', reloading
+11:07:47, INFO  * Restarting with fsevents reloader
+11:07:54, WARNING  * Debugger is active!
+11:07:54, INFO  * Debugger PIN: 273-160-618
+11:08:16, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/function.py', reloading
+11:08:17, INFO  * Restarting with fsevents reloader
+11:08:22, WARNING  * Debugger is active!
+11:08:22, INFO  * Debugger PIN: 273-160-618
+11:08:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/function.py', reloading
+11:08:49, INFO  * Restarting with fsevents reloader
+11:08:55, WARNING  * Debugger is active!
+11:08:55, INFO  * Debugger PIN: 273-160-618
+11:09:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/lexicalaCode.py', reloading
+11:09:30, INFO  * Restarting with fsevents reloader
+11:09:36, WARNING  * Debugger is active!
+11:09:36, INFO  * Debugger PIN: 273-160-618
+11:10:08, INFO 127.0.0.1 - - [25/Jan/2021 11:10:08] "GET /swagger/ HTTP/1.1" 200 -
+11:10:08, INFO 127.0.0.1 - - [25/Jan/2021 11:10:08] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:10:08, INFO 127.0.0.1 - - [25/Jan/2021 11:10:08] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:10:08, INFO 127.0.0.1 - - [25/Jan/2021 11:10:08] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:10:09, INFO 127.0.0.1 - - [25/Jan/2021 11:10:09] "GET /static/swagger.json HTTP/1.1" 200 -
+11:19:36, INFO 127.0.0.1 - - [25/Jan/2021 11:19:36] "GET /swagger/ HTTP/1.1" 200 -
+11:19:36, INFO 127.0.0.1 - - [25/Jan/2021 11:19:36] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:19:36, INFO 127.0.0.1 - - [25/Jan/2021 11:19:36] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:19:36, INFO 127.0.0.1 - - [25/Jan/2021 11:19:36] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:19:37, INFO 127.0.0.1 - - [25/Jan/2021 11:19:37] "GET /static/swagger.json HTTP/1.1" 200 -
+11:22:56, INFO 127.0.0.1 - - [25/Jan/2021 11:22:56] "GET /swagger/ HTTP/1.1" 200 -
+11:22:57, INFO 127.0.0.1 - - [25/Jan/2021 11:22:57] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:22:57, INFO 127.0.0.1 - - [25/Jan/2021 11:22:57] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:22:57, INFO 127.0.0.1 - - [25/Jan/2021 11:22:57] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:22:57, INFO 127.0.0.1 - - [25/Jan/2021 11:22:57] "GET /static/swagger.json HTTP/1.1" 200 -
+11:22:57, INFO 127.0.0.1 - - [25/Jan/2021 11:22:57] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+11:23:22, INFO 127.0.0.1 - - [25/Jan/2021 11:23:22] "GET /swagger/ HTTP/1.1" 200 -
+11:23:22, INFO 127.0.0.1 - - [25/Jan/2021 11:23:22] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:23:22, INFO 127.0.0.1 - - [25/Jan/2021 11:23:22] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:23:22, INFO 127.0.0.1 - - [25/Jan/2021 11:23:22] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:23:23, INFO 127.0.0.1 - - [25/Jan/2021 11:23:23] "GET /static/swagger.json HTTP/1.1" 200 -
+11:23:23, INFO 127.0.0.1 - - [25/Jan/2021 11:23:23] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+11:24:54, INFO 127.0.0.1 - - [25/Jan/2021 11:24:54] "GET /swagger/ HTTP/1.1" 200 -
+11:24:54, INFO 127.0.0.1 - - [25/Jan/2021 11:24:54] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:24:54, INFO 127.0.0.1 - - [25/Jan/2021 11:24:54] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:24:54, INFO 127.0.0.1 - - [25/Jan/2021 11:24:54] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:24:54, INFO 127.0.0.1 - - [25/Jan/2021 11:24:54] "GET /static/swagger.json HTTP/1.1" 200 -
+11:24:54, INFO 127.0.0.1 - - [25/Jan/2021 11:24:54] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+11:26:05, INFO 127.0.0.1 - - [25/Jan/2021 11:26:05] "GET /swagger/ HTTP/1.1" 200 -
+11:26:05, INFO 127.0.0.1 - - [25/Jan/2021 11:26:05] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:26:05, INFO 127.0.0.1 - - [25/Jan/2021 11:26:05] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:26:05, INFO 127.0.0.1 - - [25/Jan/2021 11:26:05] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:26:05, INFO 127.0.0.1 - - [25/Jan/2021 11:26:05] "GET /static/swagger.json HTTP/1.1" 200 -
+11:26:05, INFO 127.0.0.1 - - [25/Jan/2021 11:26:05] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+11:26:39, INFO 127.0.0.1 - - [25/Jan/2021 11:26:39] "GET /swagger/ HTTP/1.1" 200 -
+11:26:39, INFO 127.0.0.1 - - [25/Jan/2021 11:26:39] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:26:39, INFO 127.0.0.1 - - [25/Jan/2021 11:26:39] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:26:39, INFO 127.0.0.1 - - [25/Jan/2021 11:26:39] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:26:39, INFO 127.0.0.1 - - [25/Jan/2021 11:26:39] "GET /static/swagger.json HTTP/1.1" 200 -
+11:27:24, INFO 127.0.0.1 - - [25/Jan/2021 11:27:24] "GET /swagger/ HTTP/1.1" 200 -
+11:27:24, INFO 127.0.0.1 - - [25/Jan/2021 11:27:24] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:27:24, INFO 127.0.0.1 - - [25/Jan/2021 11:27:24] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:27:24, INFO 127.0.0.1 - - [25/Jan/2021 11:27:24] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:27:24, INFO 127.0.0.1 - - [25/Jan/2021 11:27:24] "GET /static/swagger.json HTTP/1.1" 200 -
+11:28:28, INFO 127.0.0.1 - - [25/Jan/2021 11:28:28] "GET /swagger/ HTTP/1.1" 200 -
+11:28:28, INFO 127.0.0.1 - - [25/Jan/2021 11:28:28] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:28:28, INFO 127.0.0.1 - - [25/Jan/2021 11:28:28] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:28:28, INFO 127.0.0.1 - - [25/Jan/2021 11:28:28] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:28:28, INFO 127.0.0.1 - - [25/Jan/2021 11:28:28] "GET /static/swagger.json HTTP/1.1" 200 -
+11:28:28, INFO 127.0.0.1 - - [25/Jan/2021 11:28:28] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+11:29:59, INFO 127.0.0.1 - - [25/Jan/2021 11:29:59] "GET /swagger/ HTTP/1.1" 200 -
+11:29:59, INFO 127.0.0.1 - - [25/Jan/2021 11:29:59] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:29:59, INFO 127.0.0.1 - - [25/Jan/2021 11:29:59] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:29:59, INFO 127.0.0.1 - - [25/Jan/2021 11:29:59] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:30:00, INFO 127.0.0.1 - - [25/Jan/2021 11:30:00] "GET /static/swagger.json HTTP/1.1" 200 -
+11:30:33, INFO 127.0.0.1 - - [25/Jan/2021 11:30:33] "GET /swagger/ HTTP/1.1" 200 -
+11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /static/swagger.json HTTP/1.1" 200 -
