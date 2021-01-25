@@ -40,14 +40,14 @@ TermitUp can be easily used through the swagger rest service: https://termitup.o
 
 The swagger is composed of four methods: 
 
-### Terminology Extraction
+#### Terminology Extraction
 Parameters:
 - Language of the source terms: es/en 
 - Corpus containing the terms (raw text)
 
 Output: List of automatically extracted terms
 
-### Terminology Post-processing
+#### Terminology Post-processing
 
 Parameters: 
 - Terms to postprocess, separated by commas.
@@ -56,7 +56,7 @@ Parameters:
 
 Output: List of automatically post-processed (clean) terms
 
-### Terminology Enriching
+#### Terminology Enriching
 
 Parameters: 
 - Terms: terms to enrich, separated by commas.
@@ -71,7 +71,7 @@ Parameters:
 
 Output: enriched terminologies with translations, synonyms, definitions, conceptual relations and additional linguistic information (usage notes, references, etc.), linked with resources in the LLOD, structured in SKOS/Ontolex. 
 
-### Relation Validation
+#### Relation Validation
 
 Parameters: 
 - Source term: the original term, for instance, worker
@@ -80,7 +80,7 @@ Parameters:
 
 Output: the type of relation amongst the original term and the candidate terms, supported by linguistic patterns and ConceptNet
 
-### TermitUp SPARQL Endpoint
+#### TermitUp SPARQL Endpoint
 Activating the sparql_publishing parameter in the Terminology Enriching module allows the publication of the terminologies in TermitUp SPARQL Endpoint: https://termitup.oeg.fi.upm.es/sparql
 
 ## Authors
