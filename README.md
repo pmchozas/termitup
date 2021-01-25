@@ -98,6 +98,8 @@ Try TermitUp API: https://termitup.oeg.fi.upm.es/swagger/
 
 Access TerrmitUp SPARQL Endpoint: https://termitup.oeg.fi.upm.es/sparql
 
+DOI: https://doi.org/10.5281/zenodo.4461806
+
 Feedback is very welcome!
 
 
