@@ -69,7 +69,12 @@ height: inherit;
     max-width: 3.5rem;
     
 }
-
+.arch {
+    text-align: center;
+}
+.arch_pic {
+    max-width: 50%;
+}
 
 .container {
 } 
@@ -252,7 +257,7 @@ color: #2F4F4F;
 }
 
 
-.llod, .apilink, .oegweb {
+.llod, .apilink, .oegweb, .sparqllink {
     text-decoration: underline;
 }
 /*footer.php*/
@@ -486,7 +491,7 @@ p {
   /* box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);/*
 */
 
-.intro-services, .intro-contact, .about, .thanks, .api {
+.intro-services, .intro-contact, .about, .thanks, .api, .sparql {
     display: block;
     position: relative;
     

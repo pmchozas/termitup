@@ -4701,3 +4701,8 @@ AssertionError: applications must write bytes
 11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
 11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
 11:30:34, INFO 127.0.0.1 - - [25/Jan/2021 11:30:34] "GET /static/swagger.json HTTP/1.1" 200 -
+11:55:10, INFO 127.0.0.1 - - [25/Jan/2021 11:55:10] "GET /swagger/ HTTP/1.1" 200 -
+11:55:10, INFO 127.0.0.1 - - [25/Jan/2021 11:55:10] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+11:55:10, INFO 127.0.0.1 - - [25/Jan/2021 11:55:10] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+11:55:10, INFO 127.0.0.1 - - [25/Jan/2021 11:55:10] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+11:55:11, INFO 127.0.0.1 - - [25/Jan/2021 11:55:11] "GET /static/swagger.json HTTP/1.1" 200 -
