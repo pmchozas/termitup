@@ -102,3 +102,9 @@ Feedback is very welcome!
 
 
 
+<p align="center">
+            <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/logopal.png" width="12%">
+            <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/Logo_OEG.gif" width="10%">
+            <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/fi.jpg" width="8%">
+            <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/upm.jpg" width="10%">
+</p>
