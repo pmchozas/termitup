@@ -284,25 +284,25 @@ def enrinching_terminology():
         term_id.create_id(myterm)
         relval=json_data["relval"]
         term_data= enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, ilo, reslist, output_format, relval)
-        all_data.append(term_data)
-        del myterm 
+        
+         
             
-    sparql=json_data["sparql_publishing"]
-    if sparql == 'yes':
-        #https://github.com/RDFLib/rdflib-jsonld
-        n = Namespace("http://termitup.oeg.fi.upm.es/terminology/")
-        resultjsonld = json.dumps(all_data)
-        resultjsonld = resultjsonld.replace("'", "\"")
-        gv = Graph().parse(data=resultjsonld, format='json-ld')
-        resultnt = gv.serialize(format='ntriples', indent=4);
-        textfile = open('/opt/data/tmp.ntriples', 'w')
-        textfile.write(resultnt.decode('UTF-8'))
-        textfile.close()
-        passw=open('password.txt', 'r')
-        password=passw.read()
-        password =password.rstrip("\n")
-        subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\"", shell=True)
-
+        sparql=json_data["sparql_publishing"]
+        if sparql == 'yes':
+            #https://github.com/RDFLib/rdflib-jsonld
+            resultjsonld = json.dumps(term_data)
+            resultjsonld = resultjsonld.replace("'", "\"")
+            gv = Graph().parse(data=resultjsonld, format='json-ld')
+            resultnt = gv.serialize(format='ntriples', indent=4);
+            textfile = open('/opt/data/tmp.ntriples', 'w')
+            textfile.write(resultnt.decode('UTF-8'))
+            textfile.close()
+            passw=open('password.txt', 'r')
+            password=passw.read()
+            password =password.rstrip("\n")
+            subprocess.call("/opt/virtuoso/termitup/bin/isql -S 1111 -U termitup -P "+password+" verbose=on banner=off prompt=off echo=ON errors=stdout exec=\"DB.DBA.TTLP_MT(file_to_string_output ('/opt/data/tmp.ntriples'), '', '"+json_data["schema_name"]+"',0); checkpoint;\"", shell=True)
+        all_data.append(term_data)
+        del myterm
     return Response(json.dumps(all_data),  mimetype="application/json")
 
 
