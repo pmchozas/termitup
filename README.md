@@ -7,7 +7,7 @@ TermitUp builds sense indicators for both the source and the candidate terms, an
 
 See TermitUp Architecture: 
 <p align="center">
-<img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/termitup_architecture.png" width="70%" />
+<img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/termitup_arch.png" width="70%" />
 </p>
 
 Afterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice). Finally, TermitUp API publishes the enriched terminologies generated in a Virtuoso Enpoint, where they can be freely queried.
@@ -33,6 +33,55 @@ TermitUp has been developed within the European H2020 project Prêt-à-LLOD (htt
 Additionally, TermitUp has been employed within the European Lynx project (https://lynx-project.eu/), aimed at building a multilingual and multi-jurisdictional knowledge graph to help both SMEs and large companies comply with the regulations in force in each country. Lynx contributions include Multilingual Search and Query Expansion systems, where language resources and, specifically, domain terminologies play a very important role. TermitUp has generated multilingual enriched terminologies (Dutch, English, German and Spanish) for each of the Lynx pilots, that are focused on three legal subdomains: labour law, contract law and industrial standards. The resulting terminologies are published in SKOS format and can be accessed through the Lynx Terminology platform (http://lkg.lynx-project.eu/kos) and are also available in Zenodo (https://zenodo.org/communities/lynx/?page=1\&size=20). 
 
 TermitUp is also envisaged to be used in two ongoing projects: a national project supported by Grupo CPOnet (https://www.grupocponet.com/), focused on creating a service that, given a text, identifies and relates industry names with tax crimes, in order to evaluate the confidence level of a given company; and SmarTerp, whose aim is to develop a service that helps interpreting professionals by providing them extra information on the discourse at real time. 
+
+## TermitUp API
+
+TermitUp can be easily used through the swagger rest service: https://termitup.oeg.fi.upm.es/swagger/
+
+The swagger is composed of four methods: 
+
+### Terminology Extraction
+Parameters:
+- Language of the source terms: es/en 
+- Corpus containing the terms (raw text)
+
+Output: List of automatically extracted terms
+
+### Terminology Post-processing
+
+Parameters: 
+- Terms to postprocess, separated by commas.
+- Tasks: Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: "tasks": "timeEx, patterns, numbers"
+- Language of the source terms: es/en 
+
+Output: List of automatically post-processed (clean) terms
+
+### Terminology Enriching
+
+Parameters: 
+- Terms: terms to enrich, separated by commas.
+- Resources: External resources to enrich the terms, separated by commas: eurovoc, iate, wikidata, unesco, thesoz, stw, ilo.
+- Source_language: language of the source terms.
+- Target_languages: language or languages of the desired information to retrieve.
+- Schema_name: name of the domain to which the terms belong (preferably one word).
+- Corpus: text from which the terms have been extracted.
+- Relval: write "yes" or "no" to invoke validate_relations module.
+- Output_format: write "skos" or "ontolex" to structure the output terminologies accordingly.
+- Sparql_publishing: write "yes" or "no" to publish the output terminologies in TermitUp SPARQL Endpoint
+
+Output: enriched terminologies with translations, synonyms, definitions, conceptual relations and additional linguistic information (usage notes, references, etc.), linked with resources in the LLOD, structured in SKOS/Ontolex. 
+
+### Relation Validation
+
+Parameters: 
+- Source term: the original term, for instance, worker
+- Source language: the language of the original term
+- Candidate terms: candidate terms to validate relations, separated by commas, in the same language as the source term: domestic worker, civil worker
+
+Output: the type of relation amongst the original term and the candidate terms, supported by linguistic patterns and ConceptNet
+
+### TermitUp SPARQL Endpoint
+Activating the sparql_publishing parameter in the Terminology Enriching module allows the publication of the terminologies in TermitUp SPARQL Endpoint: https://termitup.oeg.fi.upm.es/sparql
 
 ## Authors
 
