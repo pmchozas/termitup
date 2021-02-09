@@ -214,8 +214,8 @@ def delate_pattern(anotador):
 	for i in anotador:
 		if(len(i)>1):
 			#print( i, i.split(' ') )
-			pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/', tagtype='pos')
-            #si se cae el de lynx, probar con este https://corenlp.run/
+			pos_tagger = CoreNLPParser('https://corenlp.run/', tagtype='pos')
+            #si se cae el de lynx, probar con este https://corenlp-tool.lynx-project.eu/ 
 			#print(i)
 			tag=pos_tagger.tag(i.split(' '))
 			total=total+1
