@@ -37,7 +37,7 @@
 						"in": "query",
 						"name": "corpus",
 						"required": true,
-						"description": "Corpus in which the terms appear (without line breaks)",
+						"description": "Corpus in which the terms appear (without line breaks). For testing purposes, corpus should be minimum 2000 tokens and maximum 5000 tokens long.",
 						"schema": {
 							"$ref": "#/components/schemas/corpusonly"
 						}
