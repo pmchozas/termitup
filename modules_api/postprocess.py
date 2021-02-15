@@ -225,7 +225,7 @@ def delate_pattern(anotador):
 			if(joini!=''):
 				join_tag=''
 				for t in tag:
-					if(t[1] == 'AUX' ):
+					if(t[1] == 'MD' ):
 						doc=nlp(t[0])
 						lemlist=[tok.lemma_ for tok in doc]
 						lem=''.join(lemlist)
@@ -236,9 +236,9 @@ def delate_pattern(anotador):
 						if(len(spl)==1):
 							ind=anotador.index(str(i))
 							anotador[ind]=str(lem)
-					if(t[1] ==  'NOUN'):
+					if(t[1] ==  'NNP'):
 						list_pos.append('noun-'+str(t[0]))
-					if(t[1] ==  'VERB'):
+					if(t[1][:1] ==  'VB'):
 						cont_inf=cont_inf+1
 						doc=nlp(t[0])
 						for tok in doc:
@@ -254,11 +254,11 @@ def delate_pattern(anotador):
 						if(len(spl)==1):
 							ind=anotador.index(str(i))
 							anotador[ind]=str(lem)
-					if(t[1] ==  'ADV'):
+					if(t[1] ==  'RB'):
 						list_pos.append('adv--'+str(t[0]))
-					if(t[1] ==  'ADJ'):
+					if(t[1] ==  'JJ'):
 						list_pos.append('adj--'+str(t[0]))
-					if(t[1] ==  'SCONJ'):
+					if(t[1] ==  'CC'):
 						list_pos.append('sconj'+str(t[0]))
 				
 				spl_i=joini.split(' ')
