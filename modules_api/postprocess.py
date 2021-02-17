@@ -11,7 +11,7 @@ from nltk.stem import PorterStemmer
 stemmer = PorterStemmer()
 from time import time
 nlp = spacy.load('es_core_news_sm')
-from modules_api import conts_log
+#from modules_api import conts_log
 sw_spanish="./data/stop-esp.txt"
 sw_english="./data/stop-eng.txt"
 inner_spanish="./data/inner-stop-esp.txt"
@@ -211,10 +211,12 @@ def delate_pattern(anotador):
 	cont=0
 	cont_inf=0
 	cont_post=0
+	lang='es'
 	for i in anotador:
 		if(len(i)>1):
 			#print( i, i.split(' ') )
-			pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/', tagtype='pos')
+			pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/'+lang, tagtype='pos')
+			#pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/', tagtype='pos')
             #si se cae el de lynx, probar con este https://corenlp.run/
 			#print(i)
 			tag=pos_tagger.tag(i.split(' '))
@@ -238,7 +240,7 @@ def delate_pattern(anotador):
 							anotador[ind]=str(lem)
 					if(t[1] ==  'NNP'):
 						list_pos.append('noun-'+str(t[0]))
-					if(t[1][:1] ==  'VB'):
+					if(t[1][:2] ==  'VB'):
 						cont_inf=cont_inf+1
 						doc=nlp(t[0])
 						for tok in doc:
@@ -738,7 +740,7 @@ def main(read, lang_in):
 	return(stop2)'''
 
 
-#file=open('../data/estatuto_es.txt', 'r', encoding='utf-8')
-#read=file.readlines()
-#main(read)
+file=open('/Users/karenvazquez/Documents/GitHub/palTermitup/termitup/data/estatutoterms2.txt ', 'r', encoding='utf-8')
+read=file.readlines()
+main(read, 'es')
 
