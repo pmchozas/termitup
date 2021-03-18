@@ -114,6 +114,8 @@ def request_term_to_iate_withTERM(myterm):
     ## no results
     items=[]
     vectors=[]
+    #print('THIS IS RESPONSE 2')
+    #print(response2)
     
     if response2['items'] is None:
         return items, vectors
@@ -137,7 +139,8 @@ def create_langIn_vector(item, myterm, hed):
     vector.extend(domain_names)
     try:
         if  'definition' in item['language'][myterm.langIn]:
-         vector.append(item['language'][myterm.langIn]['definition'])
+            
+            vector.append(item['language'][myterm.langIn]['definition']['value'])
     except:
         pass
     
@@ -156,16 +159,24 @@ def create_langIn_vector(item, myterm, hed):
     except:
         pass
     cleanvector=[]
+    #print(vector)
     for v in vector:
+        #print(v)
         cleanr = re.compile('<.*?>')
-        cleanv = re.sub(cleanr, '', v)
+        
+        cleanv = re.sub(cleanr, '', str(v))
         # print(cleanv)
-        cleanvector.append(cleanv)
-    return cleanvector
+        cleanvector.append(str(cleanv))
+        stringvector=str(cleanvector)
+    return stringvector
     
 def get_best_vector(myterm):
     vector_weights=wsidCode.get_vector_weights(myterm)
+    # v1=re.sub('[', '', vector_weights)
+    # v2=re.sub(']', '', v1)
+   
     max_weight=max(vector_weights)
+
     myterm.index_max=vector_weights.index(max_weight)
     best_vector=myterm.vectors[myterm.index_max]
     return best_vector, myterm
@@ -178,7 +189,7 @@ def retrieve_best_vector_id(myterm):
 def retrieve_data_from_best_vector(myterm):
 #
     best_item= myterm.responseIate['items'][myterm.index_max]
-    #print(best_item)
+    
     cleanr = re.compile('<.*?>')
     for lang in best_item['language']:
         language=best_item['language'][lang]
@@ -187,8 +198,8 @@ def retrieve_data_from_best_vector(myterm):
                 myterm.definitions_iate[lang]=[]
         
         if 'definition' in language.keys():
-            definition=best_item['language'][lang]['definition']
-            clean_def = re.sub(cleanr, '', definition)
+            definition=best_item['language'][lang]['definition']['value']
+            clean_def = re.sub(cleanr, '', str(definition))
             myterm.definitions_iate[lang].append(clean_def)
                 
         if lang not in myterm.def_ref_iate:
@@ -196,7 +207,7 @@ def retrieve_data_from_best_vector(myterm):
             
         if 'definition_references' in language.keys():
             def_ref = best_item['language'][lang]['definition_references'][0]['text']
-            clean_def_ref = re.sub(cleanr, '', def_ref)
+            clean_def_ref = re.sub(cleanr, '', str(def_ref))
             myterm.def_ref_iate[lang].append(clean_def_ref)
         
         if lang not in myterm.note_iate:
@@ -204,7 +215,7 @@ def retrieve_data_from_best_vector(myterm):
 
         if 'note' in language.keys():
             note = best_item['language'][lang]['note']['value']
-            clean_note = re.sub(cleanr, '', note)
+            clean_note = re.sub(cleanr, '', str(note))
             myterm.note_iate[lang].append(clean_note)
 
 
@@ -343,9 +354,16 @@ def get_domain_names(item, hed):
     dict_domains=[]
     code_domain=item['domains']
     list_code=[]
+    
     for i in range(len(code_domain)):
-        code=code_domain[i]['code']
-        list_code.append(code)
+        #print(code_domain[i])
+        if 'domain' in code_domain[i].keys():
+            code=code_domain[i]['domain']['code']
+
+            list_code.append(code)
+        else:
+            code=code_domain[i]['self']['code']
+            list_code.append(code)
     
     domain=[]
     url= 'https://iate.europa.eu/em-api/domains/_tree'
@@ -363,6 +381,7 @@ def get_domain_names(item, hed):
         for j in range(len(dict_domains)):
             code=dict_domains[j]
             if(i == code[1]):
+                #print(code[0])
                 domain.append(code[0])
     return(domain) 
 
