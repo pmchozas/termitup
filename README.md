@@ -98,7 +98,7 @@ Activating the sparql_publishing parameter in the Terminology Enriching module a
 TermitUp has been developed by researchers from the Ontology Engineering Group (https://oeg.fi.upm.es/) of Universidad Politécnica de Madrid (https://www.upm.es/):
 * Patricia Martín-Chozas (pmchozas@fi.upm.es)
 * Karen Leticia Vázquez-Flores (kvazquez@delicias.dia.fi.upm.es)
-* Pablo Caalleja (pcalleja@fi.upm.es)
+* Pablo Calleja (pcalleja@fi.upm.es)
 * Elena Montiel-Ponsoda (emontiel@fi.upm.es)
 * Víctor Rodríguez-Doncel (vrodriguez@fi.upm.es)
 
