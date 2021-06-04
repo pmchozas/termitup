@@ -1,0 +1,501 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "TermitUp is a tool for terminology enrichment: given a domain specific corpus, TermitUp performs statistical terminology extraction and post-process the resulting term list with a series of linguistic processes and external NLP libraries (spaCy, CoreNLP, NLTK toolkit, etc.). Then, it queries several language resources (some part of the Linguistic Linked Open Data cloud) for candidate terms matching those in the term list. \n\nTermitUp builds sense indicators for both the source and the candidate terms, and performs a Word Sense Disambiguation process (with Semantic Web Company's service), matching those concepts with the closest domain. From the concepts matched in the external resources, TermitUp retrieves every piece of information available (translations, synonyms, definitions, usage notes and terminological relations), already disambiguated, and enriches the source term lists, creating links amongst the resources in the LLOD. \n\nAfterwards, TermitUp offers the possibility of creating hierarchical relations amongst the terms in the source list and also of validating the synonymy relations retrieved from the external resources, by applying linguistic patterns and additional language resources. Finally, the results are published in separate json-ld files, modeled in SKOS and Ontolex (users' choice). Finally, TermitUp API publishes the enriched terminologies generated in a Virtuoso Enpoint (https://termitup.oeg.fi.upm.es/sparql), where they can be freely queried. ",
+    "version": "1.0.0",
+    "title": "TermitUp",
+    "license": {
+      "name": "Prêt-à-LLOD",
+      "url": "https://www.pret-a-llod.eu/"
+    }
+  },
+  "tags": [
+    {
+      "name": "TermitUp Modules",
+      "description": "Set of methods to automatically create enriched linked terminologies from corpus."
+    }
+  ],
+  "paths": {
+    "/extract_terminology": {
+      "post": {
+        "tags": [
+          "TermitUp Methods"
+        ],
+        
+        "summary": "Terminology extraction from corpus",
+                "parameters": [
+          {
+            "in": "query",
+            "name": "lang_in",
+            "required": true,
+            "description": "Language of the source terms: es/en",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          },
+          {
+            "in": "query",
+            "name": "corpus",
+            "required": true,
+            "description": "Corpus in which the terms appear (without line breaks). For testing purposes, corpus should be minimum 2000 tokens and maximum 5000 tokens long.",
+            "schema": {
+              "$ref": "#/components/schemas/corpusonly"
+            }
+          }
+
+        ]
+        ,
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/base"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed. No more requests.",
+            "content": {}
+          }
+        }
+      } 
+    },
+    "/postprocess_terminology": {
+      "post": {
+        "tags": [
+          "TermitUp Methods"
+        ],
+        
+        "summary": "Terminology post-processing",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "terms",
+            "required": true,
+            "description": "Terms to postprocess, separated by commas.",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          },
+          {
+            "in": "query",
+            "name": "tasks",
+            "required": true,
+            "description": "Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          },
+          {
+            "in": "query",
+            "name": "source_language",
+            "required": true,
+            "description": "Language of the source terms: es, en...",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          }
+
+        ]
+        ,
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/base"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed. No more requests.",
+            "content": {}
+          }
+        }
+      } 
+    },
+    "/enrich_terminology": {
+      "post": {
+        "tags": [
+          "TermitUp Methods"
+        ],
+        
+        "summary": "Terminology enrichment with disambiguated data from the LLOD",
+
+        "requestBody": {
+            "description": "__terms__: terms to enrich, separated by commas.\n\n __resources__: External resources to enrich the terms, separated by commas: eurovoc, iate, wikidata, unesco, thesoz, stw, ilo. \n\n __source_language__: language of the source terms. \n\n __target_languages__: language or languages of the desired information to retrieve. \n\n __schema_name__: name of the domain to which the terms belong (preferably one word). \n\n__corpus__: text from which the terms have been extracted.\n\n __relval__: write \"yes\" or \"no\" to invoke validate_relations module.\n\n __output_format__: write \"skos\" or \"ontolex\" to structure the output terminologies accordingly. \n\n __sparql_publishing__: write \"yes\" or \"no\" to publish the output terminologies in TermitUp SPARQL Endpoint (that can be afterwards accessed through: https://termitup.oeg.fi.upm.es/sparql) ",
+            "required": true,
+            "content": {
+            "application/json": {
+              "schema": {
+              "$ref": "#/components/schemas/enriching"
+              }
+            }
+            }
+          }
+        ,
+        
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/term"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed. No more requests.",
+            "content": {}
+          }
+        }
+      } 
+    },
+    "/validate_relations": {
+      "post": {
+        "tags": [
+          "TermitUp Methods"
+        ],
+        
+        "summary": "Term relation validation helped by ConceptNet",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "term",
+            "required": true,
+            "description": "Source term, for instance: worker",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          },
+          {
+            "in": "query",
+            "name": "source_language",
+            "required": true,
+            "description": "Language of the source term: es, en, de...",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          },
+          {
+            "in": "query",
+            "name": "candidate_terms",
+            "required": true,
+            "description": "Candidate terms to validate relations, separated by commas, in the same language as the source term: domestic worker, civil worker",
+            "schema": {
+              "$ref": "#/components/schemas/base"
+            }
+          }
+        ],
+        
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/base"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed. No more requests.",
+            "content": {}
+          }
+        }
+      } 
+    }
+  },
+  "components": {
+    "schemas": {
+      "base": {
+              "type": "string",
+              "format": "string"
+
+          },
+      "corpusonly": {
+            "type": "object",
+            "properties": {
+                    "corpus": {
+                          "type": "string",
+                          "format": "string"
+                                }
+                            }
+          },
+      "corpus": {
+            "type": "object",
+            "properties": {
+            "corpus": {
+              "type": "string",
+              "format": "string"
+            },
+            "language": {
+              "type": "string",
+              "format": "string"
+            }
+            }
+          },
+          "cleanterm": {
+              "type": "object",
+            "properties": {
+              "terms": {
+                  "type": "string",
+                  "format": "string"
+                
+              },
+                  "tasks": {
+                  "type": "string",
+                  "format": "string"
+                
+              },
+                "source_language": {
+                  "type": "string",
+                  "format": "string"
+                    }
+                  }
+        },
+        "enriching": {
+            "type": "object",
+            "properties": {
+              
+              "terms": {
+                  "type": "string",
+                  "format": "string"
+                
+              },
+                  "resources": {
+                  "type": "string",
+                  "format": "string"
+                
+              },
+              "source_language": {
+                  "type": "string",
+                  "format": "string"
+              },
+              "target_languages": {
+                  "type": "string",
+                  "format": "string"
+            },
+            "schema_name": {
+                  "type": "string",
+                   "format": "string"
+                },
+            "corpus": {
+                  "type": "string",
+                   "format": "string"
+                },
+            "relval": {
+                  "type": "string",
+                   "format": "string"
+                },
+                "output_format": {
+                  "type": "string",
+                   "format": "string"
+                },
+                "sparql_publishing": {
+                  "type": "string",
+                   "format": "string"
+                }
+              
+              }
+        },
+          "options": {
+            "type": "boolean",
+            "properties": {
+             "activate_option": {
+              "type": "boolean",
+              "format": "boolean"
+            }
+        }
+        },
+      "term": {
+        "type": "object",
+        "properties": {
+            "Source Term" : {"type": "string"},
+            "IATE ID": {"type": "string"},
+            "IATE Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "IATE Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "IATE Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              }, 
+            "EUROVOC ID": {"type": "string"},
+            "EUROVOC Synonyms":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "EUROVOC Relations":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "EUROVOC Definitions":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "EUROVOC Translations":  {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "UNESCO ID": {"type": "string"},
+            "UNESCO Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "UNESCO Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "UNESCO Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA ID": {"type": "string"},
+            "WIKIDATA Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "WIKIDATA Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ ID": {"type": "string"},
+            "THESOZ Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "THESOZ Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW ID": {"type": "string"},
+            "STW Synonyms": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW Translations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW Definitions": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              },
+            "STW Relations": {
+                                    "type": "array",
+                                    "items": {
+                                          "type": "string"
+                                    }
+                              }
+        }
+      },
+      "prefLabel": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      },
+      "altLabel": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      },
+      "definition": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
