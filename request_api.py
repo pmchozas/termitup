@@ -72,9 +72,11 @@ def extract_terminology():
     to read body of a POST OR PUT
     """
     
-
-    Corpus = request.args.get("corpus")
-    Language = request.args.get("lang_in")
+    json_data = request.json
+    
+    Language = json_data["source_language"]
+    Corpus = json_data["corpus"]
+    # Language = request.args.get("lang_in")
     print("Received:")
     print(Corpus)
     print(Language)
@@ -99,10 +101,11 @@ def postproc_terminology():
     """
     to read body of a POST OR PUT
     """
+    json_data = request.json
 
-    Terms = request.args.get("terms")
-    Language = request.args.get("source_language")
-    tasks= request.args.get("tasks")
+    Terms = json_data["terms"]
+    Language = json_data["source_language"]
+    tasks= json_data["tasks"]
     print("Received:")
     #print(Terms)
     print(Language)
@@ -1427,11 +1430,12 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
 
 @REQUEST_API.route("/validate_relations", methods=["POST"])
 def relation_validation():
+    json_data = request.json
     myterm=Term.Term()
     
-    myterm.term = request.args.get("term")
-    myterm.langIn = request.args.get("source_language")
-    syns= request.args.get("candidate_terms")
+    myterm.term = json_data["term"]
+    myterm.langIn = json_data["source_language"]
+    syns= json_data["candidate_terms"]
     
     
     

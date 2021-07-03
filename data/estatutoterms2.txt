@@ -1,6 +1,97 @@
-9	contratos
-8	contrato
+42	contrato
+29	formación
+24	trabajadores
+23	trabajador
+19	parcial
+16	contratos
+15	duración
+13	artículo
+13	jornada
+12	convenio
+12	superior
+12	empresa
+11	derechos
+11	profesional
+10	inferior
+9	prácticas
+8	sistema
+8	aprendizaje
+8	laboral
+8	dispuesto
+8	carácter
+7	servicio
+7	contrato.
+7	empresario
+7	colectivos
+7	copia
+7	convenios
+7	legal
+7	relación
+7	condiciones
+7	disposiciones
+7	actividad
+7	caso,
+7	completo
+6	siguientes
+6	certificado
+6	objeto
+6	efectos
+6	ámbito
+6	contratado
 6	copia básica
-4	escrito
-4	legal
-4	condiciones
+6	formación profesional
+6	legales
+6	ley
+6	máxima
+6	apartado
+6	caso
+6	complementarias
+6	convenios colectivos
+6	contrato,
+5	celebrado
+5	título
+5	entenderá
+5	escrito
+5	refiere
+5	reconocidos
+5	convenio colectivo
+5	disposiciones legales
+5	perjuicio
+5	riesgo
+5	cualificación
+5	defecto,
+5	convenio colectivo.
+5	profesional,
+4	adopción,
+4	cualificaciones
+4	parcial,
+4	relación laboral
+4	distinta
+4	meses
+4	puesto
+4	tales
+4	conforme
+4	reglamentarias
+4	servicios
+4	derecho
+4	prueba
+4	laborales
+4	personas
+4	empleo.
+4	retribución
+4	centro
+4	realización
+4	número
+4	ordinarias
+4	pacto
+4	siguientes reglas:
+4	trabajo,
+4	forma
+4	ley orgánica
+4	escrito.
+4	aplicación
+4	empresas
+4	cómputo
+4	presumirá
+4	posesión
+3	correspondiente

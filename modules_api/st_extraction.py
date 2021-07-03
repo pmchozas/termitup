@@ -57,8 +57,10 @@ def termex(corpus, lang_in):
         for c in chars:
             if c in s:
                 term=s.replace(c, '')
+                term=term.strip(",;:. ")
                 # print(term)
                 newout.append(term)
+                newout=list(dict.fromkeys(newout))
     return(newout)
 
     
