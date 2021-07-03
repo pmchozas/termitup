@@ -5035,3 +5035,79 @@ AssertionError: applications must write bytes
 13:36:18, INFO TERMS REMOVED: 
 13:36:18, INFO 127.0.0.1 - - [03/Jul/2021 13:36:18] "POST /postprocess_terminology HTTP/1.1" 200 -
 13:45:01, INFO 127.0.0.1 - - [03/Jul/2021 13:45:01] "POST /validate_relations HTTP/1.1" 200 -
+16:12:37, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+16:12:37, INFO  * Restarting with fsevents reloader
+16:12:44, WARNING  * Debugger is active!
+16:12:44, INFO  * Debugger PIN: 273-160-618
+16:12:44, INFO 127.0.0.1 - - [03/Jul/2021 16:12:44] "GET /swagger/ HTTP/1.1" 200 -
+16:12:44, INFO 127.0.0.1 - - [03/Jul/2021 16:12:44] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:12:44, INFO 127.0.0.1 - - [03/Jul/2021 16:12:44] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:12:44, INFO 127.0.0.1 - - [03/Jul/2021 16:12:44] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:12:45, INFO 127.0.0.1 - - [03/Jul/2021 16:12:45] "GET /static/swagger.json HTTP/1.1" 200 -
+16:14:08, INFO 127.0.0.1 - - [03/Jul/2021 16:14:08] "POST /enrich_terminology HTTP/1.1" 500 -
+16:17:23, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+16:17:23, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+16:17:25, INFO  * Restarting with fsevents reloader
+16:17:31, WARNING  * Debugger is active!
+16:17:31, INFO  * Debugger PIN: 273-160-618
+16:18:28, INFO 127.0.0.1 - - [03/Jul/2021 16:18:28] "GET /swagger/ HTTP/1.1" 200 -
+16:18:28, INFO 127.0.0.1 - - [03/Jul/2021 16:18:28] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:18:28, INFO 127.0.0.1 - - [03/Jul/2021 16:18:28] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:18:28, INFO 127.0.0.1 - - [03/Jul/2021 16:18:28] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:18:28, INFO 127.0.0.1 - - [03/Jul/2021 16:18:28] "GET /static/swagger.json HTTP/1.1" 200 -
+16:18:36, INFO 127.0.0.1 - - [03/Jul/2021 16:18:36] "POST /enrich_terminology HTTP/1.1" 500 -
+16:20:55, INFO 127.0.0.1 - - [03/Jul/2021 16:20:55] "POST /enrich_terminology HTTP/1.1" 500 -
+16:29:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+16:29:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+16:29:13, INFO  * Restarting with fsevents reloader
+16:29:19, WARNING  * Debugger is active!
+16:29:19, INFO  * Debugger PIN: 273-160-618
+16:30:23, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+16:30:23, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wikidataCode.py', reloading
+16:30:24, INFO  * Restarting with fsevents reloader
+16:30:30, WARNING  * Debugger is active!
+16:30:30, INFO  * Debugger PIN: 273-160-618
+16:30:35, INFO 127.0.0.1 - - [03/Jul/2021 16:30:35] "GET /swagger/ HTTP/1.1" 200 -
+16:30:35, INFO 127.0.0.1 - - [03/Jul/2021 16:30:35] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:30:35, INFO 127.0.0.1 - - [03/Jul/2021 16:30:35] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:30:35, INFO 127.0.0.1 - - [03/Jul/2021 16:30:35] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:30:35, INFO 127.0.0.1 - - [03/Jul/2021 16:30:35] "GET /static/swagger.json HTTP/1.1" 200 -
+16:30:52, INFO 127.0.0.1 - - [03/Jul/2021 16:30:52] "POST /enrich_terminology HTTP/1.1" 200 -
+16:32:09, INFO 127.0.0.1 - - [03/Jul/2021 16:32:09] "POST /enrich_terminology HTTP/1.1" 500 -
+16:32:31, INFO 127.0.0.1 - - [03/Jul/2021 16:32:31] "POST /enrich_terminology HTTP/1.1" 200 -
+16:35:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/contextCode.py', reloading
+16:35:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/contextCode.py', reloading
+16:35:39, INFO  * Restarting with fsevents reloader
+16:35:45, WARNING  * Debugger is active!
+16:35:45, INFO  * Debugger PIN: 273-160-618
+16:38:01, INFO 127.0.0.1 - - [03/Jul/2021 16:38:01] "GET /swagger/ HTTP/1.1" 200 -
+16:38:02, INFO 127.0.0.1 - - [03/Jul/2021 16:38:02] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:38:02, INFO 127.0.0.1 - - [03/Jul/2021 16:38:02] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:38:02, INFO 127.0.0.1 - - [03/Jul/2021 16:38:02] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:38:02, INFO 127.0.0.1 - - [03/Jul/2021 16:38:02] "GET /static/swagger.json HTTP/1.1" 200 -
+16:38:11, INFO 127.0.0.1 - - [03/Jul/2021 16:38:11] "POST /enrich_terminology HTTP/1.1" 500 -
+16:39:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:39:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/request_api.py', reloading
+16:39:35, INFO  * Restarting with fsevents reloader
+16:39:40, WARNING  * Debugger is active!
+16:39:40, INFO  * Debugger PIN: 273-160-618
+16:39:40, INFO 127.0.0.1 - - [03/Jul/2021 16:39:40] "GET /swagger/ HTTP/1.1" 200 -
+16:39:41, INFO 127.0.0.1 - - [03/Jul/2021 16:39:41] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:39:41, INFO 127.0.0.1 - - [03/Jul/2021 16:39:41] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:39:41, INFO 127.0.0.1 - - [03/Jul/2021 16:39:41] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:39:41, INFO 127.0.0.1 - - [03/Jul/2021 16:39:41] "GET /static/swagger.json HTTP/1.1" 200 -
+16:39:45, INFO 127.0.0.1 - - [03/Jul/2021 16:39:45] "POST /enrich_terminology HTTP/1.1" 500 -
+16:39:57, INFO 127.0.0.1 - - [03/Jul/2021 16:39:57] "POST /enrich_terminology HTTP/1.1" 200 -
+16:40:06, INFO 127.0.0.1 - - [03/Jul/2021 16:40:06] "POST /enrich_terminology HTTP/1.1" 200 -
+16:45:10, INFO 127.0.0.1 - - [03/Jul/2021 16:45:10] "POST /enrich_terminology HTTP/1.1" 500 -
+16:46:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+16:46:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/wsidCode.py', reloading
+16:46:44, INFO  * Restarting with fsevents reloader
+16:46:50, WARNING  * Debugger is active!
+16:46:50, INFO  * Debugger PIN: 273-160-618
+16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /swagger/ HTTP/1.1" 200 -
+16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /static/swagger.json HTTP/1.1" 200 -
+16:47:18, INFO 127.0.0.1 - - [03/Jul/2021 16:47:18] "POST /enrich_terminology HTTP/1.1" 200 -

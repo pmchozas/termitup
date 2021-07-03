@@ -30,25 +30,25 @@ get_vector_weights es una versión simplificada de wsid_function creada por Patr
 '''
 def get_vector_weights(myterm):
     get_term_position(myterm)
-    auth_token = getToken()
+    #auth_token = getToken()
     
     start=myterm.start
     end=myterm.end
     hed = {
-                   'Authorization': 'Bearer ' + auth_token, 
+                  # 'Authorization': 'Bearer ' + auth_token, 
                    'accept': 'application/json',
-                   'Content-Type': 'application/json'
+                  # 'Content-Type': 'application/json'
     }    
     valuelist=list()
     #la llamada va fuera del for
-    url_lkgp_status='https://apis.lynx-project.eu/api/entity-linking/disambiguate_demo?'
+    url_lkgp_status='http://entity-linking-lynx.apps.cybly.cloud/disambiguate_demo?'
     
     for vector in myterm.vectors:
         # print(vector)
         params={'context': myterm.context, 'start_ind': start, 'end_ind': end,  'senses': vector}
-        # print(params)
+        print(params)
         response = requests.post(url_lkgp_status,params=params,headers =hed)
-        # print(response)
+        print(response)
         #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
         #code=response.status_code
         #print(response)
@@ -64,7 +64,7 @@ def get_vector_weights(myterm):
         # print('value get_vector_weights')
         
         value=response.json()
-        # print(value)
+        print(value)
         valuelist.append(value[0])
     
 
@@ -138,7 +138,7 @@ def wsidFunction(termIn, listcontext,   definitions):
                    'Content-Type': 'application/json'
                   }
                 
-            url_lkgp_status='https://apim-88-staging.cloud.itandtel.at/api/entity-linking/disambiguate_demo?'
+            url_lkgp_status='http://entity-linking-lynx.apps.cybly.cloud/disambiguate_demo?'
             params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitions[0]}
             response = requests.post(url_lkgp_status,params=params,headers =hed)
             #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)

@@ -439,7 +439,7 @@ def enrich_term(myterm, corpus, iate, eurovoc, unesco, wikidata, thesoz, stw, il
     
         contextCode.extract_context(myterm, corpus)
     else:
-        myterm.context=corpus
+        myterm.context=corpus.lower()
 
     if iate == True:
         iateCode.enrich_term_iate(myterm)

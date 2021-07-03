@@ -85,12 +85,12 @@ def get_vector_weights(myterm):
     valuelist=list()
     
     for key, value in myterm.wikidata_vectors.items() :
-        url_lkgp_status='http://el-fastapi-88-staging.cloud.itandtel.at/disambiguate_demo?'
+        url_lkgp_status='http://entity-linking-lynx.apps.cybly.cloud/disambiguate_demo?'
         params={'context': myterm.context, 'start_ind': start, 'end_ind': end,  'senses': value}
-        #print(params)
+        print(params)
         response = requests.post(url_lkgp_status,params=params,headers =hed)
         #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
-        #code=response.status_code
+        code=response.status_code
         #print(response)
         #print(code)
         #req = response.request

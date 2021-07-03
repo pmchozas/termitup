@@ -9,8 +9,10 @@ Created on Fri Oct 30 12:12:38 2020
 
 def extract_context(myterm, corpus):
     term=myterm.term
+    term=term.lower()
     corpus=corpus.split('. ')
     linedict={}
+    corpus=corpus.lower()
     for line in corpus:
         if term in line:
             tokenlist=line.split(' ')
