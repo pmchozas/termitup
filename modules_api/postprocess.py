@@ -16,7 +16,7 @@ sw_spanish="./data/stop-esp.txt"
 sw_english="./data/stop-eng.txt"
 inner_spanish="./data/inner-stop-esp.txt"
 inner_english="./data/inner-stop-eng.txt"
-
+import stanza
 
 
 ### METODO PARA EL SERVICIO
@@ -61,7 +61,13 @@ def preprocessing_terms(termlist, lang_in, timeEx, patternBasedClean, pluralClea
         processedTerms.sort()
     #opcional    
     if((lang_in=='es') and (patternBasedClean==True)):
-        processedTerms=delate_pattern(processedTerms)
+        stanza.download('es')
+        pos_tagger=stanza.Pipeline('es')
+        processedTerms=delete_pattern(processedTerms, pos_tagger)
+    if((lang_in=='en') and (patternBasedClean==True)):
+        stanza.download('en')
+        pos_tagger=stanza.Pipeline('en')
+        processedTerms=delete_pattern(processedTerms, pos_tagger)
     #opcional    
     if((lang_in=='es') and (pluralClean==True)):
         processedTerms=quit_plural(processedTerms)
@@ -202,8 +208,8 @@ def infinitive(verb):
 	return (verb)
 
 
-# 2 patrones
-def delate_pattern(anotador):
+# 2.1 patrones es
+def delete_pattern(anotador, pos_tagger):
 	total=0
 	deletes=[]
 	start_time=time()
@@ -212,12 +218,28 @@ def delate_pattern(anotador):
 	cont_inf=0
 	cont_post=0
 	for i in anotador:
+		print('this is i')
+		print(i)        
 		if(len(i)>1):
 			#print( i, i.split(' ') )
-			pos_tagger = CoreNLPParser('https://corenlp-tool.lynx-project.eu/', tagtype='pos')
+			#pos_tagger = CoreNLPParser('https://corenlp.run/', tagtype='pos')
             #si se cae el de lynx, probar con este https://corenlp.run/
 			#print(i)
-			tag=pos_tagger.tag(i.split(' '))
+			doc=pos_tagger(i)
+			#print(doc)
+			sent=doc.sentences[0]
+			word=sent.words
+			tag=[]
+			for token in word:
+				pos=token.upos
+				term=token.text
+				tupla=(term, pos)
+				tag.append(tupla)
+				print(token.text)
+				print(pos)
+			#tag=pos_tagger.tag(i.split(' '))
+			print('this is tag ')            
+			print(tag)
 			total=total+1
 			joini=i
 			list_pos=[]
@@ -225,6 +247,8 @@ def delate_pattern(anotador):
 			if(joini!=''):
 				join_tag=''
 				for t in tag:
+					print('this is t')                    
+					print(t)
 					if(t[1] == 'AUX' ):
 						doc=nlp(t[0])
 						lemlist=[tok.lemma_ for tok in doc]
@@ -533,6 +557,8 @@ def delate_pattern(anotador):
 	return(anotador)
 
 
+
+
 # 3 plurales
 def quit_plural(valuelist):
 	start_time=time()
@@ -717,8 +743,9 @@ def main(read, lang_in):
 	anotador=annotate_timex(join_clean_text, date, lang)
 	anotador.sort()
 	if(lang_in=='es'):
-		pattern=delate_pattern(anotador)
+		pattern=delete_pattern(anotador)
 		plural=quit_plural(pattern)
+
 	
 	
 	

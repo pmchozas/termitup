@@ -5111,3 +5111,764 @@ AssertionError: applications must write bytes
 16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
 16:47:00, INFO 127.0.0.1 - - [03/Jul/2021 16:47:00] "GET /static/swagger.json HTTP/1.1" 200 -
 16:47:18, INFO 127.0.0.1 - - [03/Jul/2021 16:47:18] "POST /enrich_terminology HTTP/1.1" 200 -
+16:51:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+16:51:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+16:51:56, INFO  * Restarting with fsevents reloader
+16:52:02, WARNING  * Debugger is active!
+16:52:02, INFO  * Debugger PIN: 273-160-618
+16:58:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+16:58:12, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+16:58:14, INFO  * Restarting with fsevents reloader
+16:58:20, WARNING  * Debugger is active!
+16:58:20, INFO  * Debugger PIN: 273-160-618
+17:18:32, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/__pycache__/sqlitedict.cpython-38.pyc', reloading
+17:18:32, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/sqlitedict.py', reloading
+17:18:36, INFO  * Restarting with fsevents reloader
+17:18:42, WARNING  * Debugger is active!
+17:18:42, INFO  * Debugger PIN: 273-160-618
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/test_api.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/data/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/_compat.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__pycache__/test_zip.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/test_zip.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/docs/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__pycache__/test_main.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__pycache__/test_api.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/fixtures.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/test_integration.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__pycache__/test_integration.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/docs/conf.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/test_main.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/docs/__pycache__/conf.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/_compat.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/data/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__pycache__/fixtures.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/tests/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/docs/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra8_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/fst_data1.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra9.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/unknowns.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/_itertools.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra8_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/fst_data1.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact9.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact0_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact7.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/analyzer.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/tokenizer.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra0.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/_collections.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact3_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/fst_data0.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/tokenfilter.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/dic.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact4_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra3_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/tokenizer.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra1.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra0_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact8_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/chardef.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra5_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/dic.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra0_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra4_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact2.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact9.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact3.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/version.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/charfilter.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra2.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra7.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra2_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra4_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra3.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact2.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact3_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact4.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/_itertools.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/version.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra2_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact9_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra1_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra2.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/progress.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact8_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/fst_data0.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra7.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact4_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra8.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact5.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/fst.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_buckets.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/progress.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/tokenfilter.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact2_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra4.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact0.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact6.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/connections2.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/connections1.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/_compat.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/lattice.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra6.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact7.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra7_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/analyzer.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra4.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact1_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra5_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra3.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact6.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/chardef.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact1.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra3_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/_functools.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra6_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/fst.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/charfilter.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra9_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact1_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact5_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra6_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/lattice.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_buckets.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/connections2.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/_compat.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/__pycache__/__init__.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact2_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/connections1.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact0.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra8.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra1_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact8.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact5_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact4.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__pycache__/_functools.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra0.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra9_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact0_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/__init__.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra5.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra9.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact8.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact6_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra6.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_extra7_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact9_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/unknowns.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact1.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact6_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact5.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact7_idx.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_compact3.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/__pycache__/entries_compact7_idx.cpython-38.pyc', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/importlib_metadata/_collections.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra1.py', reloading
+17:18:58, INFO  * Detected change in '/Users/pmchozas/opt/anaconda3/lib/python3.8/site-packages/janome/sysdic/entries_extra5.py', reloading
+17:19:00, INFO  * Restarting with fsevents reloader
+17:19:08, WARNING  * Debugger is active!
+17:19:08, INFO  * Debugger PIN: 273-160-618
+17:21:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:21:04, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:21:05, INFO  * Restarting with fsevents reloader
+17:21:24, WARNING  * Debugger is active!
+17:21:24, INFO  * Debugger PIN: 273-160-618
+17:24:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:24:59, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:25:00, INFO  * Restarting with fsevents reloader
+17:25:09, WARNING  * Debugger is active!
+17:25:09, INFO  * Debugger PIN: 273-160-618
+17:27:50, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:27:52, INFO  * Restarting with fsevents reloader
+17:28:00, WARNING  * Debugger is active!
+17:28:00, INFO  * Debugger PIN: 273-160-618
+17:29:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:22, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:24, INFO  * Restarting with fsevents reloader
+17:29:31, WARNING  * Debugger is active!
+17:29:31, INFO  * Debugger PIN: 273-160-618
+17:29:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:44, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:46, INFO  * Restarting with fsevents reloader
+17:29:52, WARNING  * Debugger is active!
+17:29:52, INFO  * Debugger PIN: 273-160-618
+17:35:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:35:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:35:51, INFO  * Restarting with fsevents reloader
+17:36:02, WARNING  * Debugger is active!
+17:36:02, INFO  * Debugger PIN: 273-160-618
+17:37:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:37:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:37:19, INFO  * Restarting with fsevents reloader
+17:37:26, WARNING  * Debugger is active!
+17:37:26, INFO  * Debugger PIN: 273-160-618
+19:53:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+19:53:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+19:53:33, INFO  * Restarting with fsevents reloader
+19:53:40, WARNING  * Debugger is active!
+19:53:40, INFO  * Debugger PIN: 273-160-618
+14:10:03, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:10:03, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:10:06, INFO  * Restarting with fsevents reloader
+14:10:12, WARNING  * Debugger is active!
+14:10:12, INFO  * Debugger PIN: 273-160-618
+14:21:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:21:30, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:21:33, INFO  * Restarting with fsevents reloader
+14:21:38, WARNING  * Debugger is active!
+14:21:38, INFO  * Debugger PIN: 273-160-618
+14:21:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:21:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:21:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:21:55, INFO  * Restarting with fsevents reloader
+14:22:00, WARNING  * Debugger is active!
+14:22:00, INFO  * Debugger PIN: 273-160-618
+14:22:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:22:39, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:22:40, INFO  * Restarting with fsevents reloader
+14:22:45, WARNING  * Debugger is active!
+14:22:45, INFO  * Debugger PIN: 273-160-618
+14:23:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:23:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:23:16, INFO  * Restarting with fsevents reloader
+14:23:21, WARNING  * Debugger is active!
+14:23:21, INFO  * Debugger PIN: 273-160-618
+14:26:23, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:26:23, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:26:25, INFO  * Restarting with fsevents reloader
+14:26:30, WARNING  * Debugger is active!
+14:26:30, INFO  * Debugger PIN: 273-160-618
+14:28:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:28:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:28:31, INFO  * Restarting with fsevents reloader
+14:28:36, WARNING  * Debugger is active!
+14:28:36, INFO  * Debugger PIN: 273-160-618
+14:31:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:31:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:31:39, INFO  * Restarting with fsevents reloader
+14:31:44, WARNING  * Debugger is active!
+14:31:44, INFO  * Debugger PIN: 273-160-618
+14:33:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:33:17, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+14:33:19, INFO  * Restarting with fsevents reloader
+14:33:24, WARNING  * Debugger is active!
+14:33:24, INFO  * Debugger PIN: 273-160-618
+14:38:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:38:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:38:10, INFO  * Restarting with fsevents reloader
+14:56:03, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:56:03, INFO  * Restarting with fsevents reloader
+14:56:10, WARNING  * Debugger is active!
+14:56:10, INFO  * Debugger PIN: 273-160-618
+14:56:24, INFO 127.0.0.1 - - [04/Jul/2021 14:56:24] "GET /swagger/ HTTP/1.1" 200 -
+14:56:24, INFO 127.0.0.1 - - [04/Jul/2021 14:56:24] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+14:56:24, INFO 127.0.0.1 - - [04/Jul/2021 14:56:24] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+14:56:24, INFO 127.0.0.1 - - [04/Jul/2021 14:56:24] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+14:56:25, INFO 127.0.0.1 - - [04/Jul/2021 14:56:25] "GET /static/swagger.json HTTP/1.1" 200 -
+14:56:25, INFO 127.0.0.1 - - [04/Jul/2021 14:56:25] "GET /swagger/favicon-32x32.png HTTP/1.1" 304 -
+14:57:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:57:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:57:21, INFO  * Restarting with fsevents reloader
+14:57:28, WARNING  * Debugger is active!
+14:57:28, INFO  * Debugger PIN: 273-160-618
+14:57:28, INFO CLEAN_TERMS, DELETE (1) NEW LIST SIZE: (2) TIME: (0.009238958358764648)
+14:57:28, INFO TERMS REMOVED: hacer
+14:57:30, INFO PATRONES, DELETE (0) NEW LIST SIZE: (2) TIME: (1.3412420749664307)
+14:57:30, INFO TERMS REMOVED: 
+14:57:30, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.0009467601776123047)
+14:57:30, INFO TERMS REMOVED: 
+14:57:30, INFO 127.0.0.1 - - [04/Jul/2021 14:57:30] "POST /postprocess_terminology HTTP/1.1" 200 -
+14:58:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:58:00, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+14:58:02, INFO  * Restarting with fsevents reloader
+14:58:50, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+14:58:50, INFO  * Restarting with fsevents reloader
+14:58:55, WARNING  * Debugger is active!
+14:58:56, INFO  * Debugger PIN: 273-160-618
+14:59:06, INFO CLEAN_TERMS, DELETE (1) NEW LIST SIZE: (2) TIME: (0.0036699771881103516)
+14:59:06, INFO TERMS REMOVED: hacer
+14:59:07, INFO PATRONES, DELETE (0) NEW LIST SIZE: (2) TIME: (1.3982689380645752)
+14:59:07, INFO TERMS REMOVED: 
+14:59:07, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.000782012939453125)
+14:59:07, INFO TERMS REMOVED: 
+14:59:07, INFO 127.0.0.1 - - [04/Jul/2021 14:59:07] "POST /postprocess_terminology HTTP/1.1" 200 -
+15:00:16, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.003242015838623047)
+15:00:16, INFO TERMS REMOVED: 
+15:00:18, INFO PATRONES, DELETE (0) NEW LIST SIZE: (3) TIME: (1.6649441719055176)
+15:00:18, INFO TERMS REMOVED: 
+15:00:18, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0009627342224121094)
+15:00:18, INFO TERMS REMOVED: 
+15:00:18, INFO 127.0.0.1 - - [04/Jul/2021 15:00:18] "POST /postprocess_terminology HTTP/1.1" 200 -
+15:00:33, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0018858909606933594)
+15:00:33, INFO TERMS REMOVED: 
+15:00:35, INFO PATRONES, DELETE (0) NEW LIST SIZE: (3) TIME: (1.9002139568328857)
+15:00:35, INFO TERMS REMOVED: 
+15:00:35, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0009012222290039062)
+15:00:35, INFO TERMS REMOVED: 
+15:00:35, INFO 127.0.0.1 - - [04/Jul/2021 15:00:35] "POST /postprocess_terminology HTTP/1.1" 200 -
+15:01:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:01:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:01:37, INFO  * Restarting with fsevents reloader
+15:01:43, WARNING  * Debugger is active!
+15:01:43, INFO  * Debugger PIN: 273-160-618
+15:01:43, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.002470254898071289)
+15:01:43, INFO TERMS REMOVED: 
+15:01:44, INFO 127.0.0.1 - - [04/Jul/2021 15:01:44] "POST /postprocess_terminology HTTP/1.1" 500 -
+15:02:44, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:02:44, INFO  * Restarting with fsevents reloader
+15:02:51, WARNING  * Debugger is active!
+15:02:51, INFO  * Debugger PIN: 273-160-618
+15:02:53, INFO 127.0.0.1 - - [04/Jul/2021 15:02:53] "GET /swagger/ HTTP/1.1" 200 -
+15:02:53, INFO 127.0.0.1 - - [04/Jul/2021 15:02:53] "GET /swagger/ HTTP/1.1" 200 -
+15:02:53, INFO 127.0.0.1 - - [04/Jul/2021 15:02:53] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+15:02:53, INFO 127.0.0.1 - - [04/Jul/2021 15:02:53] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+15:02:53, INFO 127.0.0.1 - - [04/Jul/2021 15:02:53] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+15:02:53, INFO 127.0.0.1 - - [04/Jul/2021 15:02:53] "GET /static/swagger.json HTTP/1.1" 200 -
+15:03:00, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.003854990005493164)
+15:03:00, INFO TERMS REMOVED: 
+15:03:01, INFO 127.0.0.1 - - [04/Jul/2021 15:03:01] "POST /postprocess_terminology HTTP/1.1" 500 -
+15:03:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:03:11, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+15:03:12, INFO  * Restarting with fsevents reloader
+15:03:25, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+15:03:25, INFO  * Restarting with fsevents reloader
+15:03:30, WARNING  * Debugger is active!
+15:03:30, INFO  * Debugger PIN: 273-160-618
+15:03:43, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0059299468994140625)
+15:03:43, INFO TERMS REMOVED: 
+15:03:45, INFO PATRONES, DELETE (0) NEW LIST SIZE: (3) TIME: (1.713698148727417)
+15:03:45, INFO TERMS REMOVED: 
+15:03:45, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0013287067413330078)
+15:03:45, INFO TERMS REMOVED: 
+15:03:45, INFO 127.0.0.1 - - [04/Jul/2021 15:03:45] "POST /postprocess_terminology HTTP/1.1" 200 -
+16:34:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:34:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:34:36, INFO  * Restarting with fsevents reloader
+16:34:45, WARNING  * Debugger is active!
+16:34:45, INFO  * Debugger PIN: 273-160-618
+16:36:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:36:21, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:36:22, INFO  * Restarting with fsevents reloader
+16:36:28, WARNING  * Debugger is active!
+16:36:28, INFO  * Debugger PIN: 273-160-618
+16:39:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:39:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:39:30, INFO  * Restarting with fsevents reloader
+16:39:36, WARNING  * Debugger is active!
+16:39:36, INFO  * Debugger PIN: 273-160-618
+16:40:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:40:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:40:34, INFO  * Restarting with fsevents reloader
+16:40:43, WARNING  * Debugger is active!
+16:40:43, INFO  * Debugger PIN: 273-160-618
+16:43:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:43:26, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:43:29, INFO  * Restarting with fsevents reloader
+16:43:37, WARNING  * Debugger is active!
+16:43:37, INFO  * Debugger PIN: 273-160-618
+16:44:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:44:15, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:44:17, INFO  * Restarting with fsevents reloader
+16:44:23, WARNING  * Debugger is active!
+16:44:23, INFO  * Debugger PIN: 273-160-618
+16:45:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:45:34, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:45:36, INFO  * Restarting with fsevents reloader
+16:45:41, WARNING  * Debugger is active!
+16:45:41, INFO  * Debugger PIN: 273-160-618
+16:46:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:46:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:46:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:46:09, INFO  * Restarting with fsevents reloader
+16:46:15, WARNING  * Debugger is active!
+16:46:15, INFO  * Debugger PIN: 273-160-618
+16:47:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:47:42, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:47:44, INFO  * Restarting with fsevents reloader
+16:47:50, WARNING  * Debugger is active!
+16:47:50, INFO  * Debugger PIN: 273-160-618
+16:48:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:48:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:48:45, INFO  * Restarting with fsevents reloader
+16:48:55, WARNING  * Debugger is active!
+16:48:55, INFO  * Debugger PIN: 273-160-618
+16:49:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:49:37, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:49:39, INFO  * Restarting with fsevents reloader
+16:49:46, WARNING  * Debugger is active!
+16:49:46, INFO  * Debugger PIN: 273-160-618
+16:49:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:49:49, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:49:51, INFO  * Restarting with fsevents reloader
+16:49:56, WARNING  * Debugger is active!
+16:49:57, INFO  * Debugger PIN: 273-160-618
+16:50:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:50:19, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:50:21, INFO  * Restarting with fsevents reloader
+16:50:27, WARNING  * Debugger is active!
+16:50:27, INFO  * Debugger PIN: 273-160-618
+16:50:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:50:48, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:50:51, INFO  * Restarting with fsevents reloader
+16:51:00, WARNING  * Debugger is active!
+16:51:00, INFO  * Debugger PIN: 273-160-618
+16:51:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:51:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:51:57, INFO  * Restarting with fsevents reloader
+16:52:04, WARNING  * Debugger is active!
+16:52:04, INFO  * Debugger PIN: 273-160-618
+16:52:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:52:54, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:52:56, INFO  * Restarting with fsevents reloader
+16:53:02, WARNING  * Debugger is active!
+16:53:02, INFO  * Debugger PIN: 273-160-618
+16:54:18, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:54:18, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:54:20, INFO  * Restarting with fsevents reloader
+16:54:29, WARNING  * Debugger is active!
+16:54:29, INFO  * Debugger PIN: 273-160-618
+16:55:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:55:10, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:55:13, INFO  * Restarting with fsevents reloader
+16:55:22, WARNING  * Debugger is active!
+16:55:22, INFO  * Debugger PIN: 273-160-618
+16:57:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:57:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:57:10, INFO  * Restarting with fsevents reloader
+16:57:17, WARNING  * Debugger is active!
+16:57:17, INFO  * Debugger PIN: 273-160-618
+16:58:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:58:29, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+16:58:32, INFO  * Restarting with fsevents reloader
+16:58:39, WARNING  * Debugger is active!
+16:58:39, INFO  * Debugger PIN: 273-160-618
+17:00:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:00:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:00:44, INFO  * Restarting with fsevents reloader
+17:00:53, WARNING  * Debugger is active!
+17:00:53, INFO  * Debugger PIN: 273-160-618
+17:16:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:16:07, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:16:10, INFO  * Restarting with fsevents reloader
+17:16:17, WARNING  * Debugger is active!
+17:16:17, INFO  * Debugger PIN: 273-160-618
+17:17:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:17:41, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:17:44, INFO  * Restarting with fsevents reloader
+17:17:50, WARNING  * Debugger is active!
+17:17:50, INFO  * Debugger PIN: 273-160-618
+17:27:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:27:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:27:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:27:58, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:28:01, INFO  * Restarting with fsevents reloader
+17:28:07, WARNING  * Debugger is active!
+17:28:07, INFO  * Debugger PIN: 273-160-618
+17:29:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:53, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:29:55, INFO  * Restarting with fsevents reloader
+17:30:03, WARNING  * Debugger is active!
+17:30:03, INFO  * Debugger PIN: 273-160-618
+17:30:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:30:28, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:30:31, INFO  * Restarting with fsevents reloader
+17:30:43, WARNING  * Debugger is active!
+17:30:43, INFO  * Debugger PIN: 273-160-618
+17:37:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:37:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/delete_patterns_flair.py', reloading
+17:37:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:37:32, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:37:36, INFO  * Restarting with fsevents reloader
+17:53:47, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:53:47, INFO  * Restarting with fsevents reloader
+17:53:54, WARNING  * Debugger is active!
+17:53:54, INFO  * Debugger PIN: 273-160-618
+17:54:02, INFO 127.0.0.1 - - [04/Jul/2021 17:54:02] "GET /swagger/ HTTP/1.1" 200 -
+17:54:03, INFO 127.0.0.1 - - [04/Jul/2021 17:54:03] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+17:54:03, INFO 127.0.0.1 - - [04/Jul/2021 17:54:03] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+17:54:03, INFO 127.0.0.1 - - [04/Jul/2021 17:54:03] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+17:54:03, INFO 127.0.0.1 - - [04/Jul/2021 17:54:03] "GET /static/swagger.json HTTP/1.1" 200 -
+17:54:10, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0050089359283447266)
+17:54:10, INFO TERMS REMOVED: 
+17:54:10, INFO Downloading default packages for language: es (Spanish)...
+17:54:12, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+17:54:17, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+17:54:17, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+17:54:17, INFO Use device: cpu
+17:54:17, INFO Loading: tokenize
+17:54:17, INFO Loading: mwt
+17:54:17, INFO Loading: pos
+17:54:17, INFO Loading: lemma
+17:54:17, INFO Loading: depparse
+17:54:17, INFO Loading: ner
+17:54:18, INFO Done loading processors!
+17:54:19, INFO PATRONES, DELETE (0) NEW LIST SIZE: (3) TIME: (0.27460289001464844)
+17:54:19, INFO TERMS REMOVED: 
+17:54:19, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0016350746154785156)
+17:54:19, INFO TERMS REMOVED: 
+17:54:19, INFO 127.0.0.1 - - [04/Jul/2021 17:54:19] "POST /postprocess_terminology HTTP/1.1" 200 -
+17:55:20, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:55:20, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:55:23, INFO  * Restarting with fsevents reloader
+17:55:36, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:55:36, INFO  * Restarting with fsevents reloader
+17:55:40, WARNING  * Debugger is active!
+17:55:40, INFO  * Debugger PIN: 273-160-618
+17:55:55, INFO 127.0.0.1 - - [04/Jul/2021 17:55:55] "GET /swagger/ HTTP/1.1" 200 -
+17:55:55, INFO 127.0.0.1 - - [04/Jul/2021 17:55:55] "GET /swagger/swagger-ui.css HTTP/1.1" 200 -
+17:55:55, INFO 127.0.0.1 - - [04/Jul/2021 17:55:55] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+17:55:55, INFO 127.0.0.1 - - [04/Jul/2021 17:55:55] "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 -
+17:55:56, INFO 127.0.0.1 - - [04/Jul/2021 17:55:56] "GET /static/swagger.json HTTP/1.1" 200 -
+17:56:00, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.00628209114074707)
+17:56:00, INFO TERMS REMOVED: 
+17:56:00, INFO Downloading default packages for language: es (Spanish)...
+17:56:02, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+17:56:07, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+17:56:07, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+17:56:07, INFO Use device: cpu
+17:56:07, INFO Loading: tokenize
+17:56:07, INFO Loading: mwt
+17:56:07, INFO Loading: pos
+17:56:07, INFO Loading: lemma
+17:56:07, INFO Loading: depparse
+17:56:08, INFO Loading: ner
+17:56:10, INFO Done loading processors!
+17:56:10, INFO PATRONES, DELETE (0) NEW LIST SIZE: (3) TIME: (0.3673250675201416)
+17:56:10, INFO TERMS REMOVED: 
+17:56:10, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0035920143127441406)
+17:56:10, INFO TERMS REMOVED: 
+17:56:10, INFO 127.0.0.1 - - [04/Jul/2021 17:56:10] "POST /postprocess_terminology HTTP/1.1" 200 -
+17:56:43, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:56:43, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:56:46, INFO  * Restarting with fsevents reloader
+17:56:52, WARNING  * Debugger is active!
+17:56:52, INFO  * Debugger PIN: 273-160-618
+17:56:52, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0027649402618408203)
+17:56:52, INFO TERMS REMOVED: 
+17:56:52, INFO Downloading default packages for language: es (Spanish)...
+17:56:54, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+17:56:58, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+17:56:58, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+17:56:58, INFO Use device: cpu
+17:56:58, INFO Loading: tokenize
+17:56:58, INFO Loading: mwt
+17:56:58, INFO Loading: pos
+17:56:58, INFO Loading: lemma
+17:56:58, INFO Loading: depparse
+17:56:59, INFO Loading: ner
+17:57:00, INFO Done loading processors!
+17:57:00, INFO PATRONES, DELETE (0) NEW LIST SIZE: (3) TIME: (0.31143689155578613)
+17:57:00, INFO TERMS REMOVED: 
+17:57:00, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0017440319061279297)
+17:57:00, INFO TERMS REMOVED: 
+17:57:00, INFO 127.0.0.1 - - [04/Jul/2021 17:57:00] "POST /postprocess_terminology HTTP/1.1" 200 -
+17:59:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:59:09, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+17:59:11, INFO  * Restarting with fsevents reloader
+17:59:21, INFO  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+17:59:21, INFO  * Restarting with fsevents reloader
+17:59:25, WARNING  * Debugger is active!
+17:59:25, INFO  * Debugger PIN: 273-160-618
+17:59:28, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.005353212356567383)
+17:59:28, INFO TERMS REMOVED: 
+17:59:29, INFO Downloading default packages for language: es (Spanish)...
+17:59:30, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.0010118484497070312)
+17:59:30, INFO TERMS REMOVED: 
+17:59:30, INFO Downloading default packages for language: es (Spanish)...
+17:59:31, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+17:59:32, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+17:59:38, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+17:59:38, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+17:59:38, INFO Use device: cpu
+17:59:38, INFO Loading: tokenize
+17:59:38, INFO Loading: mwt
+17:59:38, INFO Loading: pos
+17:59:38, INFO Loading: lemma
+17:59:38, INFO Loading: depparse
+17:59:39, INFO Loading: ner
+17:59:39, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+17:59:39, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+17:59:39, INFO Use device: cpu
+17:59:39, INFO Loading: tokenize
+17:59:40, INFO Loading: mwt
+17:59:40, INFO Loading: pos
+17:59:40, INFO Loading: lemma
+17:59:40, INFO Loading: depparse
+17:59:41, INFO Done loading processors!
+17:59:41, INFO Loading: ner
+17:59:42, INFO PATRONES, DELETE (1) NEW LIST SIZE: (2) TIME: (1.0268752574920654)
+17:59:42, INFO TERMS REMOVED: he hecho
+17:59:42, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.0014090538024902344)
+17:59:42, INFO TERMS REMOVED: 
+17:59:42, INFO 127.0.0.1 - - [04/Jul/2021 17:59:42] "POST /postprocess_terminology HTTP/1.1" 200 -
+17:59:43, INFO Done loading processors!
+17:59:43, INFO PATRONES, DELETE (1) NEW LIST SIZE: (2) TIME: (0.2860426902770996)
+17:59:43, INFO TERMS REMOVED: he hecho
+17:59:43, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.0007300376892089844)
+17:59:43, INFO TERMS REMOVED: 
+17:59:43, INFO 127.0.0.1 - - [04/Jul/2021 17:59:43] "POST /postprocess_terminology HTTP/1.1" 200 -
+18:00:57, INFO CLEAN_TERMS, DELETE (1) NEW LIST SIZE: (3) TIME: (0.00162506103515625)
+18:00:57, INFO TERMS REMOVED: haber
+18:00:57, INFO Downloading default packages for language: es (Spanish)...
+18:00:58, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+18:01:02, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+18:01:02, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+18:01:02, INFO Use device: cpu
+18:01:02, INFO Loading: tokenize
+18:01:02, INFO Loading: mwt
+18:01:02, INFO Loading: pos
+18:01:02, INFO Loading: lemma
+18:01:02, INFO Loading: depparse
+18:01:03, INFO Loading: ner
+18:01:04, INFO Done loading processors!
+18:01:04, INFO PATRONES, DELETE (1) NEW LIST SIZE: (2) TIME: (0.2701601982116699)
+18:01:04, INFO TERMS REMOVED: he hecho
+18:01:04, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.0006463527679443359)
+18:01:04, INFO TERMS REMOVED: 
+18:01:05, INFO 127.0.0.1 - - [04/Jul/2021 18:01:05] "POST /postprocess_terminology HTTP/1.1" 200 -
+18:04:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+18:04:02, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+18:04:06, INFO  * Restarting with fsevents reloader
+18:04:13, WARNING  * Debugger is active!
+18:04:13, INFO  * Debugger PIN: 273-160-618
+18:04:13, INFO CLEAN_TERMS, DELETE (1) NEW LIST SIZE: (3) TIME: (0.0021948814392089844)
+18:04:13, INFO TERMS REMOVED: haber
+18:04:14, INFO Downloading default packages for language: es (Spanish)...
+18:04:15, INFO File exists: /Users/pmchozas/stanza_resources/es/default.zip.
+18:04:20, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+18:04:20, INFO Loading these models for language: es (Spanish):
+=======================
+| Processor | Package |
+-----------------------
+| tokenize  | ancora  |
+| mwt       | ancora  |
+| pos       | ancora  |
+| lemma     | ancora  |
+| depparse  | ancora  |
+| ner       | conll02 |
+=======================
+
+18:04:20, INFO Use device: cpu
+18:04:20, INFO Loading: tokenize
+18:04:20, INFO Loading: mwt
+18:04:20, INFO Loading: pos
+18:04:20, INFO Loading: lemma
+18:04:20, INFO Loading: depparse
+18:04:20, INFO Loading: ner
+18:04:22, INFO Done loading processors!
+18:04:22, INFO PATRONES, DELETE (1) NEW LIST SIZE: (2) TIME: (0.35996532440185547)
+18:04:22, INFO TERMS REMOVED: he hecho
+18:04:22, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.005045890808105469)
+18:04:22, INFO TERMS REMOVED: 
+18:04:22, INFO 127.0.0.1 - - [04/Jul/2021 18:04:22] "POST /postprocess_terminology HTTP/1.1" 200 -
+18:04:36, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (3) TIME: (0.001992940902709961)
+18:04:36, INFO TERMS REMOVED: 
+18:04:36, INFO Downloading default packages for language: en (English)...
+18:04:37, INFO File exists: /Users/pmchozas/stanza_resources/en/default.zip.
+18:04:41, INFO Finished downloading models and saved to /Users/pmchozas/stanza_resources.
+18:04:41, INFO Loading these models for language: en (English):
+=========================
+| Processor | Package   |
+-------------------------
+| tokenize  | combined  |
+| pos       | combined  |
+| lemma     | combined  |
+| depparse  | combined  |
+| sentiment | sstplus   |
+| ner       | ontonotes |
+=========================
+
+18:04:41, INFO Use device: cpu
+18:04:41, INFO Loading: tokenize
+18:04:41, INFO Loading: pos
+18:04:41, INFO Loading: lemma
+18:04:41, INFO Loading: depparse
+18:04:42, INFO Loading: sentiment
+18:04:43, INFO Loading: ner
+18:04:44, INFO Done loading processors!
+18:04:44, INFO PATRONES, DELETE (1) NEW LIST SIZE: (2) TIME: (0.5943872928619385)
+18:04:44, INFO TERMS REMOVED: must die
+18:04:44, INFO CLEAN_TERMS, DELETE (0) NEW LIST SIZE: (2) TIME: (0.002482891082763672)
+18:04:44, INFO TERMS REMOVED: 
+18:04:44, INFO 127.0.0.1 - - [04/Jul/2021 18:04:44] "POST /postprocess_terminology HTTP/1.1" 200 -
+18:08:57, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+18:08:57, INFO  * Detected change in '/Users/pmchozas/Documents/GitHub/paltermitup/modules_api/postprocess.py', reloading
+18:09:01, INFO  * Restarting with fsevents reloader
+18:09:08, WARNING  * Debugger is active!
+18:09:08, INFO  * Debugger PIN: 273-160-618

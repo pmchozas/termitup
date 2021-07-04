@@ -29,4 +29,5 @@ flask_rdf==0.2.1
 unidecode==1.1.2
 rdflib-jsonld==0.5.0
 nltk
+stanza==1.2.1
 https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-2.3.1/es_core_news_sm-2.3.1.tar.gz#egg=es_core_news_sm
