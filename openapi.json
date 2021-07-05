@@ -22,28 +22,19 @@
           "TermitUp Methods"
         ],
         
-        "summary": "Terminology extraction from corpus",
-                "parameters": [
-          {
-            "in": "query",
-            "name": "lang_in",
+        "summary": "Statistical Terminology Extraction, invoking TBXTools.",
+
+        "requestBody": {
+            "description": "__source_language__: language of the source text es/en. \n\n__corpus__: Corpus in which the terms appear (without line breaks). For testing purposes, corpus should be minimum 2000 tokens and maximum 5000 tokens long.",
             "required": true,
-            "description": "Language of the source terms: es/en",
-            "schema": {
-              "$ref": "#/components/schemas/base"
+            "content": {
+            "application/json": {
+              "schema": {
+              "$ref": "#/components/schemas/corpus"
+              }
             }
-          },
-          {
-            "in": "query",
-            "name": "corpus",
-            "required": true,
-            "description": "Corpus in which the terms appear (without line breaks). For testing purposes, corpus should be minimum 2000 tokens and maximum 5000 tokens long.",
-            "schema": {
-              "$ref": "#/components/schemas/corpusonly"
             }
           }
-
-        ]
         ,
         "responses": {
           "200": {
@@ -69,37 +60,19 @@
           "TermitUp Methods"
         ],
         
-        "summary": "Terminology post-processing",
-        "parameters": [
-          {
-            "in": "query",
-            "name": "terms",
+        "summary": "Terminology post-processing and curation based on linguistic patterns.",
+
+        "requestBody": {
+            "description": "__terms__: terms to post-process, separated by commas.\n\n __tasks__: Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\". \n\n __source_language__: language of the source terms. ",
             "required": true,
-            "description": "Terms to postprocess, separated by commas.",
-            "schema": {
-              "$ref": "#/components/schemas/base"
+            "content": {
+            "application/json": {
+              "schema": {
+              "$ref": "#/components/schemas/cleanterm"
+              }
             }
-          },
-          {
-            "in": "query",
-            "name": "tasks",
-            "required": true,
-            "description": "Write timeEx to remove temporal expressions; write patterns to remove non terminological structures in Spanish; write plurals to remove plurals in Spanish; write accents to remove accents in Spanish. To perform several tasks, write them separated by commas: \"tasks\": \"timeEx, patterns, numbers\"",
-            "schema": {
-              "$ref": "#/components/schemas/base"
-            }
-          },
-          {
-            "in": "query",
-            "name": "source_language",
-            "required": true,
-            "description": "Language of the source terms: es, en...",
-            "schema": {
-              "$ref": "#/components/schemas/base"
             }
           }
-
-        ]
         ,
         "responses": {
           "200": {
@@ -125,7 +98,7 @@
           "TermitUp Methods"
         ],
         
-        "summary": "Terminology enrichment with disambiguated data from the LLOD",
+        "summary": "Terminology enrichment and linking with disambiguated data from the LLOD.",
 
         "requestBody": {
             "description": "__terms__: terms to enrich, separated by commas.\n\n __resources__: External resources to enrich the terms, separated by commas: eurovoc, iate, wikidata, unesco, thesoz, stw, ilo. \n\n __source_language__: language of the source terms. \n\n __target_languages__: language or languages of the desired information to retrieve. \n\n __schema_name__: name of the domain to which the terms belong (preferably one word). \n\n__corpus__: text from which the terms have been extracted.\n\n __relval__: write \"yes\" or \"no\" to invoke validate_relations module.\n\n __output_format__: write \"skos\" or \"ontolex\" to structure the output terminologies accordingly. \n\n __sparql_publishing__: write \"yes\" or \"no\" to publish the output terminologies in TermitUp SPARQL Endpoint (that can be afterwards accessed through: https://termitup.oeg.fi.upm.es/sparql) ",
@@ -165,36 +138,19 @@
         ],
         
         "summary": "Term relation validation helped by ConceptNet",
-        "parameters": [
-          {
-            "in": "query",
-            "name": "term",
+
+        "requestBody": {
+            "description": "__term__: Source term, for instance: worker. \n\n __source_language__: language of the source terms. \n\n __candidate_terms__: Candidate terms to validate relations, separated by commas, in the same language as the source term: domestic worker, civil worker",
             "required": true,
-            "description": "Source term, for instance: worker",
-            "schema": {
-              "$ref": "#/components/schemas/base"
+            "content": {
+            "application/json": {
+              "schema": {
+              "$ref": "#/components/schemas/relval"
+              }
             }
-          },
-          {
-            "in": "query",
-            "name": "source_language",
-            "required": true,
-            "description": "Language of the source term: es, en, de...",
-            "schema": {
-              "$ref": "#/components/schemas/base"
-            }
-          },
-          {
-            "in": "query",
-            "name": "candidate_terms",
-            "required": true,
-            "description": "Candidate terms to validate relations, separated by commas, in the same language as the source term: domestic worker, civil worker",
-            "schema": {
-              "$ref": "#/components/schemas/base"
             }
           }
-        ],
-        
+        ,
         "responses": {
           "200": {
             "description": "successful operation",
@@ -233,11 +189,11 @@
       "corpus": {
             "type": "object",
             "properties": {
-            "corpus": {
+            "source_language": {
               "type": "string",
               "format": "string"
             },
-            "language": {
+            "corpus": {
               "type": "string",
               "format": "string"
             }
@@ -257,6 +213,25 @@
                 
               },
                 "source_language": {
+                  "type": "string",
+                  "format": "string"
+                    }
+                  }
+        },
+          "relval": {
+              "type": "object",
+            "properties": {
+              "term": {
+                  "type": "string",
+                  "format": "string"
+                
+              },
+                  "source_language": {
+                  "type": "string",
+                  "format": "string"
+                
+              },
+                "candidate_terms": {
                   "type": "string",
                   "format": "string"
                     }
@@ -496,6 +471,3 @@
     }
   }
 }
-
-
-
