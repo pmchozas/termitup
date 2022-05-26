@@ -41,7 +41,7 @@ def get_vector_weights(myterm):
     }    
     valuelist=list()
     #la llamada va fuera del for
-    url_lkgp_status='http://entity-linking-lynx.apps.cybly.cloud/disambiguate_demo?'
+    url_lkgp_status='https://wsd.oeg.fi.upm.es/disambiguate_demo?'
     
     for vector in myterm.vectors:
         # print(vector)
@@ -130,15 +130,16 @@ def wsidFunction(termIn, listcontext,   definitions):
             #print('END---', end)
             #print('SENSES---',definitions[0])
             #print('----Entrando WSDI----')
-            auth_token = getToken()
+            #auth_token = getToken()
             #print(auth_token)
+            #'Authorization': 'Bearer ' + auth_token, 
             hed = {
-                   'Authorization': 'Bearer ' + auth_token, 
+                   
                    'accept': 'application/json',
                    'Content-Type': 'application/json'
                   }
                 
-            url_lkgp_status='http://entity-linking-lynx.apps.cybly.cloud/disambiguate_demo?'
+            url_lkgp_status='https://wsd.oeg.fi.upm.es/disambiguate_demo?'
             params={'context': context, 'start_ind': start, 'end_ind': end,  'senses': definitions[0]}
             response = requests.post(url_lkgp_status,params=params,headers =hed)
             #response = requests.get('https://apim-88-staging.cloud.itandtel.at/api/entity-linking', params=params)
