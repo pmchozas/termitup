@@ -5,13 +5,13 @@ import re
 #from modules_api import Term
 
 from unicodedata import normalize
-import logging
+#import logging
 #format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-logging.basicConfig(filename='myapp.log',
-    filemode='a',
-    format='%(asctime)s, %(levelname)s %(message)s',
-    datefmt='%H:%M:%S',
-    level=logging.INFO)
+#logging.basicConfig(filename='myapp.log',
+ #   filemode='a',
+  #  format='%(asctime)s, %(levelname)s %(message)s',
+   # datefmt='%H:%M:%S',
+    #level=logging.INFO)
 
 # bearen token
 def bearenToken(): 
