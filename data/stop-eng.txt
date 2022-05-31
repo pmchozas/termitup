@@ -272,6 +272,7 @@ sixty-two
 so
 some
 somebody
+someone
 something
 such
 t'
