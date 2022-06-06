@@ -3,7 +3,7 @@
 import argparse
 import os
 from flask import Flask, jsonify, make_response, render_template
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from flask_swagger_ui import get_swaggerui_blueprint
 import request_api
 
