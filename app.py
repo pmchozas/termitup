@@ -10,7 +10,7 @@ import request_api
 APP = Flask(__name__)
 CORS = CORS(APP)
 
-app.config['CORS_HEADERS'] = 'Content-Type'
+APP.config['CORS_HEADERS'] = 'Content-Type'
 
 
 ### swagger specific ###
