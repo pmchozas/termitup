@@ -7,9 +7,9 @@ from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 import request_api
 
-
-CORS = CORS(APP)
 APP = Flask(__name__)
+CORS = CORS(APP)
+
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
