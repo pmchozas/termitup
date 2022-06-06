@@ -8,8 +8,10 @@ from flask_swagger_ui import get_swaggerui_blueprint
 import request_api
 
 
-
+CORS = CORS(APP)
 APP = Flask(__name__)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 
 ### swagger specific ###
 SWAGGER_URL = '/swagger'
@@ -59,6 +61,7 @@ def handle_504_error(_error):
     return make_response(jsonify({'error': 'Term not found'}), 504)
 	
 @APP.route('/')
+@cross_origin()
 def home():
     return render_template('home.html')
 
