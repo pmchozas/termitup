@@ -117,4 +117,4 @@ Feedback is very welcome!
 
 ## Citation
 Martín-Chozas, P., Vázquez-Flores, K., Calleja, P., Montiel-Ponsoda, E., and Rodríguez-Doncel, V. (2022). TermitUp: Generation and Enrichment of Linked Terminologies. Semantic Web, 13, 967–986. 36.
-
+https://www.semantic-web-journal.net/system/files/swj2885.pdf
