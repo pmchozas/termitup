@@ -112,4 +112,9 @@ Feedback is very welcome!
             <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/Logo_OEG.gif" width="10%">
             <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/fi.jpg" width="8%">
             <img src="https://github.com/Pret-a-LLOD/termitup/blob/master/static/images/upm.jpg" width="10%">
+            
 </p>
+
+## Citation
+Martín-Chozas, P., Vázquez-Flores, K., Calleja, P., Montiel-Ponsoda, E., and Rodríguez-Doncel, V. (2022). TermitUp: Generation and Enrichment of Linked Terminologies. Semantic Web, 13, 967–986. 36.
+
